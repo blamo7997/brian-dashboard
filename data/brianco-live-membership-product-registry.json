@@ -1,0 +1,107 @@
+{
+  "alacarte": [
+    {
+      "description": "A personal continuity workspace for preservation, manifests, restoration notes, and basic Trust Ledger™ history.",
+      "handle": "continuum-vault-personal",
+      "title": "Continuum Vault™ Personal",
+      "price": 99
+    },
+    {
+      "description": "Manufacturer-aware device stewardship guidance, signed-driver awareness, and restart intelligence for personal use.",
+      "handle": "guardian-personal",
+      "title": "Guardian™ Personal",
+      "price": 89
+    },
+    {
+      "description": "Human-friendly update explanations that clarify what changed, who provided it, whether action is required, and how it affects continuity.",
+      "handle": "update-steward",
+      "title": "Update Steward™",
+      "price": 39
+    },
+    {
+      "description": "Compatibility and version-intelligence guidance for supported tools, services, and ecosystems.",
+      "handle": "compatibility-intelligence-ai-plus",
+      "title": "Compatibility Intelligence AI+™",
+      "price": 59
+    },
+    {
+      "description": "Personal verification history and audit-ready continuity records for supported Brian & Co digital experiences.",
+      "handle": "trust-ledger-personal",
+      "title": "Trust Ledger™ Personal",
+      "price": 69
+    },
+    {
+      "description": "Adaptive platform stewardship intelligence for supported dependencies, services, updates, compatibility checks, and premium change explanations.",
+      "handle": "dynamic-steward-ai-plus",
+      "title": "Dynamic Steward AI+™",
+      "price": 129
+    }
+  ],
+  "collection": {
+    "description": "A premium Brian & Co membership collection for continuity, stewardship, governance, preservation, dynamic update intelligence, Trust Ledger™ history, and long-term digital ecosystem protection.",
+    "status": "live-ready",
+    "handle": "founder-continuity-vault",
+    "title": "Founder Continuity Vault™ Collection"
+  },
+  "freeTier": {
+    "included": [
+      "basic accessibility tools for individuals",
+      "basic language selection",
+      "limited chatbot preview",
+      "product browsing",
+      "static sample reports"
+    ],
+    "excluded": [
+      "Continuum Vault™ records",
+      "Trust Ledger™ history",
+      "Dynamic Steward™ automation",
+      "Guardian™ advanced features",
+      "exports",
+      "advanced governance",
+      "ecosystem evolution intelligence"
+    ]
+  },
+  "memberships": [
+    {
+      "trialDays": 7,
+      "price": 39,
+      "handle": "continuity-essentials-membership",
+      "interval": "monthly",
+      "description": "Entry continuity membership with limited Continuum Vault™, basic Trust Ledger™, purchase preservation, and Update Steward™ summaries.",
+      "title": "Continuity Essentials™ Membership"
+    },
+    {
+      "trialDays": 5,
+      "price": 119,
+      "handle": "continuity-professional-membership",
+      "interval": "monthly",
+      "description": "Professional stewardship membership with Dynamic Steward™, Compatibility Intelligence AI+™, expanded update intelligence, and ecosystem recommendations.",
+      "title": "Continuity Professional™ Membership"
+    },
+    {
+      "trialDays": 3,
+      "price": 249,
+      "handle": "continuity-executive-membership",
+      "interval": "monthly",
+      "description": "Executive continuity membership with Guardian™ Plus, Continuum Vault™ Plus, governance intelligence, executive dashboards, and advanced continuity reports.",
+      "title": "Continuity Executive™ Membership"
+    },
+    {
+      "trialDays": 2,
+      "price": 599,
+      "handle": "founder-continuity-elite-membership",
+      "interval": "monthly",
+      "description": "The flagship Brian & Co continuity membership for strategic ecosystem intelligence, Founder Continuity Reports™, advanced Trust Ledger™, and priority stewardship.",
+      "trialLabel": "48-Hour Executive Preview",
+      "title": "Founder Continuity Elite™ Membership"
+    }
+  ],
+  "preservationRules": [
+    "Existing purchases are preserved.",
+    "A la carte buyers keep what they already purchased.",
+    "New premium capabilities are offered as optional paid upgrades or membership benefits.",
+    "No silent charges.",
+    "No feature removal to force upgrade.",
+    "Prompt users only when consent, payment, approval, law, platform rules, or higher-tier feature unlock requires it."
+  ]
+}

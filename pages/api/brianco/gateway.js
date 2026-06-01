@@ -7,19 +7,14 @@ function readJson(file, fallback) {
 }
 
 export default async function handler(req, res) {
-  const products = readJson("data/brianco-live-products-memberships.json", {});
-  const rules = readJson("data/brianco-entitlement-rules.json", {});
-  const os = readJson("data/brianco-os-command-center.json", {});
-
+  const registry = readJson("data/brianco-live-membership-product-registry.json", {});
   return res.status(200).json({
     ok: true,
     brand: "Brian & Co",
-    api: "Brian & Co Unified Gateway",
+    gateway: "Brian & Co Unified API Gateway™",
     mode: "one-api",
-    approval: "guided",
-    products,
-    entitlementRules: rules,
-    osCommandCenter: os,
-    protectedNotice: "Existing purchases are preserved. Live protected changes require approved connector authority."
+    approvalMode: "guided",
+    registry,
+    protectedNotice: "Existing purchases are preserved. Premium features unlock through membership or optional à la carte upgrades."
   });
 }
