@@ -1,99 +1,99 @@
 {
   "alacarte": [
     {
-      "title": "Dynamic Steward AI+",
       "price": 79,
+      "title": "Dynamic Steward AI+",
       "upgradeRule": "Preserve owned access; offer new premium modules separately."
     },
     {
-      "title": "Dependency Stewardship AI+",
       "price": 49,
+      "title": "Dependency Stewardship AI+",
       "upgradeRule": "Optional upgrade for a la carte buyers; included for higher members."
     },
     {
-      "title": "Device Stewardship AI+",
       "price": 59,
+      "title": "Device Stewardship AI+",
       "upgradeRule": "Manufacturer-only driver/update guidance."
     },
     {
-      "title": "Update Steward",
       "price": 39,
+      "title": "Update Steward",
       "upgradeRule": "Plain-language update explanations."
     },
     {
-      "title": "Continuum Vault Plus",
       "price": 99,
+      "title": "Continuum Vault Plus",
       "upgradeRule": "Extended history/search/Trust Ledger."
     },
     {
-      "title": "Guardian Plus",
       "price": 89,
+      "title": "Guardian Plus",
       "upgradeRule": "Advanced OS/device stewardship."
     },
     {
-      "title": "Compatibility Intelligence AI+",
       "price": 49,
+      "title": "Compatibility Intelligence AI+",
       "upgradeRule": "Version/source/compatibility checks."
     },
     {
-      "title": "Trust Ledger Intelligence",
       "price": 59,
+      "title": "Trust Ledger Intelligence",
       "upgradeRule": "Verification history and audit-ready summaries."
     }
   ],
-  "collection": {
-    "title": "Brian & Co Stewardship Intelligence Collection",
-    "status": "live-ready-draft",
-    "handle": "stewardship-intelligence"
-  },
   "memberships": [
     {
-      "title": "Essential Concierge",
       "monthly": 29,
       "includes": [
         "Update Steward",
         "Basic Continuum Vault",
         "Purchase preservation",
         "Basic chatbot guidance"
-      ]
+      ],
+      "title": "Essential Concierge"
     },
     {
-      "title": "Growth Concierge",
       "monthly": 79,
       "includes": [
         "Dynamic Steward AI+",
         "Compatibility Intelligence AI+",
         "Product upgrade recommendations"
-      ]
+      ],
+      "title": "Growth Concierge"
     },
     {
-      "title": "Premier Concierge",
       "monthly": 149,
       "includes": [
         "Guardian Plus",
         "Continuum Vault Plus",
         "Dependency Stewardship AI+",
         "Advanced approvals"
-      ]
+      ],
+      "title": "Premier Concierge"
     },
     {
-      "title": "Atelier Concierge",
       "monthly": 299,
       "includes": [
         "Full Continuum Vault intelligence",
         "Advanced product/member expansion",
         "Priority restoration"
-      ]
+      ],
+      "title": "Atelier Concierge"
     },
     {
-      "title": "Executive Concierge",
       "monthly": 499,
       "includes": [
         "Executive briefings",
         "Founder Intelligence AI+",
         "Priority stewardship",
         "Advanced Command Center"
-      ]
+      ],
+      "title": "Executive Concierge"
     }
-  ]
+  ],
+  "collection": {
+    "status": "live-ready-draft",
+    "handle": "stewardship-intelligence",
+    "title": "Brian & Co Stewardship Intelligence Collection"
+  }
 }

@@ -1,12 +1,4 @@
 {
-  "approvalModes": [
-    "inform_only",
-    "ask_every_time",
-    "guided",
-    "trusted_sources",
-    "full_automation"
-  ],
-  "oneApi": "/api/brianco/gateway",
   "chatbotPhrases": [
     "Show my memberships",
     "Show a la carte upgrades",
@@ -17,5 +9,13 @@
     "Open Continuum Vault",
     "Open Guardian",
     "Show approval queue"
+  ],
+  "oneApi": "/api/brianco/gateway",
+  "approvalModes": [
+    "inform_only",
+    "ask_every_time",
+    "guided",
+    "trusted_sources",
+    "full_automation"
   ]
 }
