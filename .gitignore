@@ -130,3 +130,34 @@ BRIANCO_API_CRITICAL_KEEP_AUDIT_*/
 # PowerShell transient output
 Transcript*.txt
 *_TRANSCRIPT.txt
+
+# Brian & Co annoyance cleanup 20260601_082339
+$Layout
+$Report
+Layout
+Report
+PASTE_THIS_BACK_TO_CHATGPT.txt
+RUN_LOG.txt
+WARNINGS_AND_BLOCKERS.txt
+*_TRANSCRIPT.txt
+Transcript*.txt
+
+# Local state files that should not pollute active Git
+.brianco-project-state/
+current-project-state.json
+project-history.json
+continuity_update_log.txt
+oauth-debug-output.txt
+vercel-json-dump.txt
+api-files-before-deploy.txt
+clean-pages-api.txt
+clean-root-api.txt
+final_clean_check.txt
+live-check-summary.json
+
+# Backup copies
+*.backup_*
+*.backup.*
+*.before.*
+*.bak
+*.tmp
