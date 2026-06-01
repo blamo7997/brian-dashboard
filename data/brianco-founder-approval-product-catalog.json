@@ -1,0 +1,129 @@
+{
+  "memberships": [
+    {
+      "positioning": "Entry continuity membership",
+      "price": 39,
+      "handle": "continuity-essentials-membership",
+      "title": "Continuity Essentials™ Membership",
+      "features": [
+        "Continuum Vault™ Basic",
+        "Trust Ledger™ Basic",
+        "Purchase Preservation™",
+        "Update Steward™ summaries"
+      ],
+      "trial": "7-Day Trial"
+    },
+    {
+      "positioning": "Professional stewardship membership",
+      "price": 119,
+      "handle": "continuity-professional-membership",
+      "title": "Continuity Professional™ Membership",
+      "features": [
+        "Dynamic Steward™",
+        "Compatibility Intelligence AI+™",
+        "Stewardship recommendations",
+        "Expanded continuity history"
+      ],
+      "trial": "5-Day Trial"
+    },
+    {
+      "positioning": "Executive governance and continuity membership",
+      "price": 249,
+      "handle": "continuity-executive-membership",
+      "title": "Continuity Executive™ Membership",
+      "features": [
+        "Guardian™ Plus",
+        "Continuum Vault™ Plus",
+        "Governance Intelligence AI+™",
+        "Executive reports"
+      ],
+      "trial": "3-Day Trial"
+    },
+    {
+      "positioning": "Flagship continuity and ecosystem intelligence",
+      "price": 599,
+      "handle": "founder-continuity-elite-membership",
+      "title": "Founder Continuity Elite™ Membership",
+      "features": [
+        "Founder Continuity Reports™",
+        "Strategic Stewardship Reports™",
+        "Full Trust Ledger™ intelligence",
+        "Priority ecosystem intelligence"
+      ],
+      "trial": "48-Hour Executive Preview"
+    }
+  ],
+  "alacarte": [
+    {
+      "description": "Personal continuity workspace with preservation records and basic Trust Ledger™ history.",
+      "handle": "continuum-vault-personal",
+      "title": "Continuum Vault™ Personal",
+      "price": 99
+    },
+    {
+      "description": "Manufacturer-aware device stewardship guidance and restart intelligence.",
+      "handle": "guardian-personal",
+      "title": "Guardian™ Personal",
+      "price": 89
+    },
+    {
+      "description": "Clear, human-friendly update explanations in Brian & Co tone.",
+      "handle": "update-steward",
+      "title": "Update Steward™",
+      "price": 39
+    },
+    {
+      "description": "Compatibility and version-intelligence guidance for supported tools and services.",
+      "handle": "compatibility-intelligence-ai-plus",
+      "title": "Compatibility Intelligence AI+™",
+      "price": 59
+    },
+    {
+      "description": "Personal verification and audit-ready continuity history.",
+      "handle": "trust-ledger-personal",
+      "title": "Trust Ledger™ Personal",
+      "price": 69
+    },
+    {
+      "description": "Adaptive platform stewardship intelligence for supported dependencies, services, updates, and compatibility checks.",
+      "handle": "dynamic-steward-ai-plus",
+      "title": "Dynamic Steward AI+™",
+      "price": 129
+    },
+    {
+      "description": "Cross-platform health scoring and current-state intelligence for supported Brian & Co ecosystems.",
+      "handle": "ecosystem-health-ai-plus",
+      "title": "Ecosystem Health AI+™",
+      "price": 149
+    },
+    {
+      "description": "Approval, audit, continuity, and governance intelligence for premium members and approved upgrades.",
+      "handle": "governance-intelligence-ai-plus",
+      "title": "Governance Intelligence AI+™",
+      "price": 179
+    }
+  ],
+  "collections": [
+    {
+      "membershipOnly": true,
+      "handle": "founder-continuity-vault",
+      "title": "Founder Continuity Vault™ Collection",
+      "description": "Premium continuity, stewardship, governance, preservation, and Trust Ledger™ intelligence."
+    },
+    {
+      "membershipOnly": true,
+      "handle": "stewardship-intelligence",
+      "title": "Stewardship Intelligence™ Collection",
+      "description": "Dynamic update, compatibility, dependency, Guardian™, and ecosystem health intelligence."
+    }
+  ],
+  "rules": [
+    "Customers do not run scripts, BAT files, PowerShell, scans, or setup work.",
+    "The system prompts only when consent, payment, law, platform rules, approval, or premium unlock requires it.",
+    "Existing purchases are preserved.",
+    "New premium capabilities are offered as optional paid upgrades or membership benefits.",
+    "No silent charges.",
+    "No feature removal to force upgrade.",
+    "Live Shopify product mutation requires founder green-check."
+  ]
+}
