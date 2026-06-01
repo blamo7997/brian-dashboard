@@ -8,7 +8,7 @@ const historyDir = path.join(root, "data", "legal-live", "history");
 
 function ensure() {
   for (const d of [recordsDir, approvalsDir, historyDir]) {
-    if (!fs.existsSync(d)) fs.mkdirSync(d, { recursive: true });
+    if (!fs.existsSync(/*turbopackIgnore: true*/ d)) fs.mkdirSync(/*turbopackIgnore: true*/ d, { recursive: true });
   }
 }
 
@@ -16,7 +16,7 @@ function readAll(dir) {
   ensure();
   return fs.readdirSync(dir)
     .filter(f => f.endsWith(".json"))
-    .map(f => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")))
+    .map(f => JSON.parse(fs.readFileSync(/*turbopackIgnore: true*/ path.join(dir, f), "utf8")))
     .sort((a,b) => String(b.created || "").localeCompare(String(a.created || "")));
 }
 
@@ -60,7 +60,7 @@ export default function handler(req, res) {
       publicReleaseApproved: false
     };
 
-    fs.writeFileSync(path.join(recordsDir, `${id}.json`), JSON.stringify(record, null, 2));
+    fs.writeFileSync(/*turbopackIgnore: true*/ path.join(recordsDir, `${id}.json`), JSON.stringify(record, null, 2));
 
     const approval = {
       id: `approval-${id}`,
@@ -71,10 +71,11 @@ export default function handler(req, res) {
       nextStep: "Brian review"
     };
 
-    fs.writeFileSync(path.join(approvalsDir, `${approval.id}.json`), JSON.stringify(approval, null, 2));
+    fs.writeFileSync(/*turbopackIgnore: true*/ path.join(approvalsDir, `${approval.id}.json`), JSON.stringify(approval, null, 2));
 
     return res.status(201).json({ ok: true, record, approval });
   }
 
   return res.status(405).json({ ok:false, error:"Method not allowed" });
 }
+

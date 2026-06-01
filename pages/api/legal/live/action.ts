@@ -8,13 +8,13 @@ const historyDir = path.join(root, "data", "legal-live", "history");
 
 function ensure() {
   for (const d of [recordsDir, approvalsDir, historyDir]) {
-    if (!fs.existsSync(d)) fs.mkdirSync(d, { recursive: true });
+    if (!fs.existsSync(/*turbopackIgnore: true*/ d)) fs.mkdirSync(/*turbopackIgnore: true*/ d, { recursive: true });
   }
 }
 
 function findFile(dir, id) {
   const file = path.join(dir, `${id}.json`);
-  return fs.existsSync(file) ? file : null;
+  return fs.existsSync(/*turbopackIgnore: true*/ file) ? file : null;
 }
 
 export default function handler(req, res) {
@@ -29,7 +29,7 @@ export default function handler(req, res) {
   const recordFile = findFile(recordsDir, recordId);
   if (!recordFile) return res.status(404).json({ ok:false, error:"Record not found" });
 
-  const record = JSON.parse(fs.readFileSync(recordFile, "utf8"));
+  const record = JSON.parse(fs.readFileSync(/*turbopackIgnore: true*/ recordFile, "utf8"));
 
   if (action === "founder_approve") {
     record.founderApproval = true;
@@ -56,7 +56,7 @@ export default function handler(req, res) {
   }
 
   record.updated = now;
-  fs.writeFileSync(recordFile, JSON.stringify(record, null, 2));
+  fs.writeFileSync(/*turbopackIgnore: true*/ recordFile, JSON.stringify(record, null, 2));
 
   const event = {
     id: `history-${Date.now()}`,
@@ -67,7 +67,8 @@ export default function handler(req, res) {
     protected: true
   };
 
-  fs.writeFileSync(path.join(historyDir, `${event.id}.json`), JSON.stringify(event, null, 2));
+  fs.writeFileSync(/*turbopackIgnore: true*/ path.join(historyDir, `${event.id}.json`), JSON.stringify(event, null, 2));
 
   return res.status(200).json({ ok:true, record, event });
 }
+

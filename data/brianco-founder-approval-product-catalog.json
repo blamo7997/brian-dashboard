@@ -51,6 +51,58 @@
         "Priority ecosystem intelligence"
       ],
       "trial": "48-Hour Executive Preview"
+    },
+    {
+      "title": "Executive Concierge™ Membership",
+      "handle": "executive-concierge-membership",
+      "price": 499,
+      "trial": "3-Day Executive Trial",
+      "positioning": "Premium business, continuity, and concierge intelligence.",
+      "features": [
+        "Executive Concierge™",
+        "Founder Continuity Reports™",
+        "Command Center™ insights",
+        "Priority stewardship"
+      ]
+    },
+    {
+      "title": "Family Logistics Intelligence™ Membership",
+      "handle": "family-logistics-intelligence-membership",
+      "price": 79,
+      "trial": "5-Day Trial",
+      "positioning": "Family organization, reminders, continuity, and accessibility support.",
+      "features": [
+        "Family Logistics Intelligence AI+™",
+        "Caregiver continuity",
+        "Household recommendations",
+        "Preferred-channel reminders"
+      ]
+    },
+    {
+      "title": "Creator Studio Intelligence™ Membership",
+      "handle": "creator-studio-intelligence-membership",
+      "price": 99,
+      "trial": "5-Day Trial",
+      "positioning": "Creator workflow, captions, video intelligence, and publishing support.",
+      "features": [
+        "Creator Studio Intelligence AI+™",
+        "Video Editor Intelligence AI+™",
+        "Caption/subtitle workflows",
+        "Content continuity"
+      ]
+    },
+    {
+      "title": "Business Intelligence AI+™ Membership",
+      "handle": "business-intelligence-ai-membership",
+      "price": 149,
+      "trial": "5-Day Trial",
+      "positioning": "Business continuity, operations, governance, and upgrade intelligence.",
+      "features": [
+        "Business Intelligence AI+™",
+        "Governance Intelligence AI+™",
+        "Continuity reports",
+        "Dynamic Steward™"
+      ]
     }
   ],
   "alacarte": [
@@ -101,6 +153,66 @@
       "handle": "governance-intelligence-ai-plus",
       "title": "Governance Intelligence AI+™",
       "price": 179
+    },
+    {
+      "title": "Political & Civic Intelligence AI+™",
+      "handle": "political-civic-intelligence-ai-plus",
+      "price": 199,
+      "description": "Campaign, civic, local-media, speech, and location-aware public engagement intelligence with approval gates."
+    },
+    {
+      "title": "Event & Festival Intelligence AI+™",
+      "handle": "event-festival-intelligence-ai-plus",
+      "price": 79,
+      "description": "Localized festival, event, vendor, artisan, and opportunity intelligence."
+    },
+    {
+      "title": "Meeting & Transcript Intelligence AI+™",
+      "handle": "meeting-transcript-intelligence-ai-plus",
+      "price": 149,
+      "description": "Meeting recording guidance, searchable transcripts, subtitles, translation workflows, and improvement summaries."
+    },
+    {
+      "title": "Video Editor Intelligence AI+™",
+      "handle": "video-editor-intelligence-ai-plus",
+      "price": 129,
+      "description": "Video editing guidance, captions, localization, accessibility, and creator workflow support."
+    },
+    {
+      "title": "Supplier Intelligence AI+™",
+      "handle": "supplier-intelligence-ai-plus",
+      "price": 99,
+      "description": "Supplier, artisan, creator, fulfillment, tracking, origin, and policy stewardship intelligence."
+    },
+    {
+      "title": "Legal Review Intelligence AI+™",
+      "handle": "legal-review-intelligence-ai-plus",
+      "price": 179,
+      "description": "Legal review routing, approval tracking, policy lifecycle support, and lawyer-review gates."
+    },
+    {
+      "title": "Accountant Intelligence AI+™",
+      "handle": "accountant-intelligence-ai-plus",
+      "price": 129,
+      "description": "Receipt, expense, report, and tax-preparation organization support with professional review routing."
+    },
+    {
+      "title": "Trust Ledger Enterprise™",
+      "handle": "trust-ledger-enterprise",
+      "price": 299,
+      "description": "Advanced trust, audit, approval, and continuity ledger intelligence for organizations."
+    },
+    {
+      "title": "Guardian Enterprise™",
+      "handle": "guardian-enterprise",
+      "price": 249,
+      "description": "Multi-device, manufacturer-aware stewardship and update intelligence for approved business users."
+    },
+    {
+      "title": "Continuum Vault Enterprise™",
+      "handle": "continuum-vault-enterprise",
+      "price": 399,
+      "description": "Extended continuity, retention, search, recovery, and governance intelligence for organizations."
     }
   ],
   "collections": [
