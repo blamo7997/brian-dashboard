@@ -1,0 +1,11 @@
+{
+  "rules": [
+    "Existing purchases are preserved.",
+    "A la carte buyers keep what they already bought.",
+    "New premium features are offered as optional paid upgrades.",
+    "Membership users receive tier-appropriate feature expansion.",
+    "Bug fixes, security fixes, compatibility fixes, and legal/safety corrections are not charged as new feature removals.",
+    "No silent charges.",
+    "No feature removal unless legally/security required."
+  ]
+}

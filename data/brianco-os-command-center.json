@@ -1,0 +1,21 @@
+{
+  "approvalModes": [
+    "inform_only",
+    "ask_every_time",
+    "guided",
+    "trusted_sources",
+    "full_automation"
+  ],
+  "oneApi": "/api/brianco/gateway",
+  "chatbotPhrases": [
+    "Show my memberships",
+    "Show a la carte upgrades",
+    "What do I already own?",
+    "What can I upgrade?",
+    "Explain recent updates",
+    "Open Dynamic Steward",
+    "Open Continuum Vault",
+    "Open Guardian",
+    "Show approval queue"
+  ]
+}
