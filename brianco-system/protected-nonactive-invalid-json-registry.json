@@ -1,0 +1,9 @@
+﻿{
+    "relativePath":  "before-powershell-update-2026-05-26_07-51-55\\vercel.json",
+    "status":  "protected_historical_artifact_not_active_config",
+    "reason":  "Inspection showed this file contains PowerShell transcript/script text, not Vercel JSON. Preserved; not scored as active ecosystem JSON.",
+    "deleteAllowed":  false,
+    "moveAllowed":  false,
+    "deployAllowed":  false,
+    "stamped":  "20260531_062622"
+}

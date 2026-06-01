@@ -1,0 +1,14 @@
+{
+    "dynamic":  true,
+    "protectedPhases":  "1-47 protected after validation",
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         },
+    "phase":  "47",
+    "title":  "Brian \u0026 Co Phase 47 Dynamic Protection Registry",
+    "status":  "prepared"
+}

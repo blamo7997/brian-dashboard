@@ -1,0 +1,28 @@
+{
+    "phase":  "47",
+    "status":  "prepared",
+    "protectedPhases":  "1-46 protected",
+    "protectedSystems":  {
+                             "collectionsUntouched":  true,
+                             "publicClaimsUntouched":  true,
+                             "productsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "pricingUntouched":  true,
+                             "secretsNotPrinted":  true,
+                             "automaticCommitmentsDisabled":  true,
+                             "paymentsUntouched":  true,
+                             "automaticPurchasesDisabled":  true
+                         },
+    "marketAreas":  [
+                        "Market Opportunity Intelligence",
+                        "Competitor Intelligence Coordination",
+                        "Provider Intelligence Coordination",
+                        "Supplier Intelligence Coordination",
+                        "Regional Market Intelligence",
+                        "Growth Signal Intelligence",
+                        "Commerce Market Intelligence",
+                        "Local Market Intelligence",
+                        "Digital Product Market Intelligence",
+                        "Founder Approval Market Routing"
+                    ]
+}

@@ -1,0 +1,39 @@
+{
+    "checks_per_change":  3000,
+    "poll_milliseconds":  750,
+    "no_long_sleep":  true,
+    "realtime_continuous":  true,
+    "included":  [
+                     "website checks",
+                     "chatbot checks",
+                     "code debug checks",
+                     "localized marketing language",
+                     "Brian \u0026 Co tone",
+                     "role/persona/income-tier adaptation",
+                     "neurodivergent accessibility",
+                     "dyslexia support",
+                     "safe local auto-fix scaffolds",
+                     "job-search scaffolds",
+                     "digital product/collection scaffolds",
+                     "transferable new-project manifest"
+                 ],
+    "protected_areas":  [
+                            "backend",
+                            "OAuth",
+                            "API keys",
+                            "environment variables",
+                            "tokens",
+                            "secrets",
+                            "payments",
+                            "live Shopify products",
+                            "live Shopify collections",
+                            "current theme publishing",
+                            "Vercel",
+                            "Supabase",
+                            "OpenAI",
+                            "social accounts",
+                            "existing integrations"
+                        ],
+    "protected_live_systems_blocked":  true,
+    "permanent":  true
+}

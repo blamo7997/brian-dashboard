@@ -1,0 +1,48 @@
+﻿{
+  "version": "today-20260531_195627",
+  "fortKnoxRoot": "C:\Users\user\brianco-backend-clean",
+  "monumentDefault": true,
+  "cliFirstEverything": true,
+  "freeFirst": true,
+  "nativeFirst": true,
+  "shopifyFirst": true,
+  "noAdminUiIfCliApiAvailable": true,
+  "protectedBoundaries": [
+    "no destructive changes",
+    "no secret/token/payment/OAuth changes without exact approval",
+    "no live publish without exact approval",
+    "no existing product edits unless exact approval",
+    "no random unsigned drivers",
+    "no paid subscriptions unless exact approval"
+  ],
+  "mustReflectAcross": [
+    "products",
+    "services",
+    "OS",
+    "website",
+    "chatbot",
+    "apps",
+    "software",
+    "Shopify theme",
+    "portable theme",
+    "portals",
+    "voice",
+    "transcripts",
+    "localization",
+    "accessibility"
+  ],
+  "standards": [
+    "founder control",
+    "proprietary protection",
+    "Fort Knox continuity",
+    "localization by preferred language/region/dialect",
+    "accessibility always available",
+    "voice navigation everywhere feasible",
+    "transcripts searchable/translatable/openable/readable/listenable",
+    "website chatbot OS seamless continuity",
+    "trusted verified vetted peer-reviewed sources where applicable",
+    "daily/twice-daily checks where feasible",
+    "post-install audit/debug/compatibility checks",
+    "single gateway/orchestrating layer preferred"
+  ]
+}

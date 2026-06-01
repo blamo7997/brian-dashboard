@@ -1,0 +1,37 @@
+﻿{
+    "created":  "20260530_151147",
+    "status":  "protected_active",
+    "phase":  "Phase 1 - Founder Command Center",
+    "owner":  "Brian Lammert / Brian \u0026 Co",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "rules":  [
+                  "No delete",
+                  "No deploy without exact approval",
+                  "No live product edits",
+                  "No Shopify/OAuth/payment/customer-data changes",
+                  "Snapshot before change",
+                  "Build validation after change",
+                  "Founder approval gate required"
+              ],
+    "modules":  [
+                    "Founder dashboard",
+                    "Green-check approval queue",
+                    "Legal approval status",
+                    "Vault and continuity status",
+                    "Recovery/build status",
+                    "Supplier recruitment intelligence",
+                    "Luxury outreach intelligence",
+                    "Cheyenne event/festival intelligence",
+                    "Income-tier customer intelligence",
+                    "Role portal oversight",
+                    "Next action guidance"
+                ],
+    "latest_known_state":  {
+                               "command_center_duplicate":  "fixed",
+                               "build":  "passed",
+                               "static_pages":  245,
+                               "vault":  "active",
+                               "resume_system":  "active",
+                               "absolute_master_handoff":  "active"
+                           }
+}

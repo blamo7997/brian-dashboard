@@ -1,0 +1,14 @@
+{
+    "dynamic":  true,
+    "protectedPhases":  "1-8 protected after validation",
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         },
+    "phase":  "8",
+    "title":  "Brian \u0026 Co Phase 8 Dynamic Protection Registry",
+    "status":  "prepared"
+}

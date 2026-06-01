@@ -1,0 +1,13 @@
+{
+    "phase":  "92",
+    "status":  "prepared",
+    "protectedPhases":  "1-91 protected after validation",
+    "title":  "Commerce Growth Intelligence Expansion",
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         }
+}

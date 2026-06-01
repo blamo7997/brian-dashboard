@@ -1,0 +1,25 @@
+﻿{
+    "created":  "20260530_153355",
+    "bundle":  "Bundle 05",
+    "slug":  "entitlement-my-products-command",
+    "title":  "Entitlement and My Products Command",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Purchased digital products, memberships, subscriptions, and upgrades surfaced in user UIs.",
+    "modules":  [
+                    "Entitlement registry",
+                    "Purchased product visibility",
+                    "Membership access display",
+                    "Subscription status display",
+                    "Role-specific access"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No deploy unless build and Playwright pass",
+                  "No Shopify live product edits",
+                  "No OAuth/payment/customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Founder approval required for protected changes"
+              ]
+}

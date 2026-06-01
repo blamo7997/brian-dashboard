@@ -1,0 +1,129 @@
+<div id="brianco-ai-concierge" style="position:fixed;right:24px;bottom:24px;z-index:99999;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,sans-serif;">
+  <button id="brianco-chat-toggle" type="button" style="border:0;border-radius:999px;padding:15px 22px;background:linear-gradient(135deg,#0f0f14,#231a31,#3a2a4d,#d7b98e);color:#fff;font-weight:600;letter-spacing:.3px;box-shadow:0 20px 50px rgba(0,0,0,.35);cursor:pointer;">
+    Brian & Co Private Concierge
+  </button>
+
+  <section id="brianco-chat-panel" hidden style="width:min(420px,calc(100vw - 32px));height:600px;margin-top:14px;border-radius:28px;overflow:hidden;background:#0f0f14;color:#fff;box-shadow:0 30px 90px rgba(0,0,0,.45);border:1px solid rgba(255,255,255,.08);">
+
+```
+<header style="padding:22px;background:linear-gradient(135deg,#0f0f14,#231a31,#3a2a4d,#d7b98e);">
+  <div style="font-size:18px;font-weight:600;">
+    Brian & Co Private Concierge
+  </div>
+
+  <div style="font-size:12px;line-height:1.6;opacity:.9;margin-top:6px;">
+    Discreet guidance, refined recommendations, and thoughtfully curated Brian & Co selections.
+  </div>
+</header>
+
+<div id="brianco-chat-log" style="height:405px;overflow:auto;padding:18px;font-size:14px;line-height:1.7;background:#13131a;">
+  <div style="padding:16px 18px;border-radius:18px;background:rgba(255,255,255,.06);margin-bottom:12px;">
+    Welcome to Brian & Co. I would be delighted to help you discover something considered, elegant, and beautifully suited to your needs.
+  </div>
+</div>
+
+<form id="brianco-chat-form" style="display:flex;gap:10px;padding:16px;border-top:1px solid rgba(255,255,255,.08);background:#0f0f14;">
+  <input
+    id="brianco-chat-input"
+    aria-label="Ask Brian & Co Concierge"
+    placeholder="How may I assist you today?"
+    style="flex:1;border:0;border-radius:16px;padding:14px;background:#ffffff;color:#111;font-size:14px;"
+  />
+
+  <button
+    type="submit"
+    style="border:0;border-radius:16px;padding:0 18px;background:linear-gradient(135deg,#d7b98e,#c8a775);color:#111;font-weight:600;cursor:pointer;">
+    Send
+  </button>
+</form>
+```
+
+  </section>
+</div>
+
+<script>
+(function () {
+
+  const toggle = document.getElementById('brianco-chat-toggle');
+  const panel = document.getElementById('brianco-chat-panel');
+  const form = document.getElementById('brianco-chat-form');
+  const input = document.getElementById('brianco-chat-input');
+  const log = document.getElementById('brianco-chat-log');
+
+  const endpoint =
+    'https://brianco-backend-clean.vercel.app/api/chat';
+
+  toggle.addEventListener('click', function () {
+    panel.hidden = !panel.hidden;
+  });
+
+  function addMessage(text, mine) {
+
+    const div = document.createElement('div');
+
+    div.style.marginBottom = '12px';
+    div.style.padding = '16px 18px';
+    div.style.borderRadius = '18px';
+
+    div.style.background = mine
+      ? 'rgba(215,185,142,.18)'
+      : 'rgba(255,255,255,.06)';
+
+    div.style.lineHeight = '1.7';
+    div.textContent = text;
+
+    log.appendChild(div);
+    log.scrollTop = log.scrollHeight;
+  }
+
+  form.addEventListener('submit', async function (e) {
+
+    e.preventDefault();
+
+    const message = input.value.trim();
+
+    if (!message) return;
+
+    input.value = '';
+
+    addMessage(message, true);
+
+    addMessage(
+      'One moment — I am preparing a more considered recommendation for you.',
+      false
+    );
+
+    try {
+
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          message: message
+        })
+      });
+
+      const data = await response.json();
+
+      log.lastChild.remove();
+
+      addMessage(
+        data.reply || 'I am here to assist.',
+        false
+      );
+
+    } catch (err) {
+
+      log.lastChild.remove();
+
+      addMessage(
+        'The concierge is briefly unavailable. Please return in a moment, and I will be glad to assist.',
+        false
+      );
+    }
+  });
+
+})();
+</script>

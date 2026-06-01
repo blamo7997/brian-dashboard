@@ -1,0 +1,37 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 08",
+    "phase":  "Phase 15",
+    "slug":  "website-chatbot-master",
+    "title":  "Website Chatbot Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Website chatbot stays collapsible, expandable, accessible, language-aware, typo-aware, role-aware, and linked to the protected online chatbot continuity layer.",
+    "modules":  [
+                    "Collapsible chatbot",
+                    "Expandable chatbot",
+                    "Accessibility button",
+                    "Language button",
+                    "Typo interpretation",
+                    "Role-aware answers",
+                    "Online chatbot link",
+                    "Verified-source routing"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

@@ -1,0 +1,21 @@
+{
+    "phase":  "37",
+    "status":  "prepared",
+    "opportunities":  [
+                          "Cheyenne Events",
+                          "Frontier Days",
+                          "Festivals",
+                          "Vendor Markets",
+                          "Supplier Opportunities",
+                          "Artisan Opportunities",
+                          "Creator Opportunities",
+                          "Influencer Opportunities",
+                          "Investor Opportunities",
+                          "Grant Opportunities",
+                          "Funding Opportunities",
+                          "Job Opportunities",
+                          "Partnership Opportunities",
+                          "Local Business Opportunities"
+                      ],
+    "protectedPhases":  "1-36 protected"
+}

@@ -1,0 +1,14 @@
+.brianco-protected-product-lab {
+  padding: 78px 20px;
+  background: radial-gradient(circle at top left, rgba(115,87,255,.16), transparent 35%),
+              radial-gradient(circle at bottom right, rgba(217,181,111,.22), transparent 35%), #fff;
+}
+.lab-inner { max-width: 1200px; margin: 0 auto; }
+.lab-inner h2 { font-size: clamp(34px,5vw,64px); letter-spacing: -.05em; margin: 0 0 16px; }
+.eyebrow { text-transform: uppercase; letter-spacing: .16em; font-weight: 800; }
+.lab-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(230px,1fr)); gap: 16px; margin-top: 28px; }
+.lab-grid article, .approval-note {
+  padding: 22px; border-radius: 24px; background: rgba(255,255,255,.80);
+  border: 1px solid rgba(0,0,0,.10); box-shadow: 0 18px 42px rgba(0,0,0,.08);
+}
+.approval-note { margin-top: 18px; }

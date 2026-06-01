@@ -1,0 +1,42 @@
+[
+    {
+        "url":  "https://www.w3.org/TR/WCAG22/",
+        "source":  "W3C WCAG 2.2"
+    },
+    {
+        "url":  "https://www.w3.org/WAI/cognitive/",
+        "source":  "W3C Cognitive Accessibility"
+    },
+    {
+        "url":  "https://w3c.github.io/coga/content-usable/",
+        "source":  "W3C COGA Content Usable"
+    },
+    {
+        "url":  "https://digital.gov/guides/plain-language",
+        "source":  "Digital.gov Plain Language"
+    },
+    {
+        "url":  "https://pmc.ncbi.nlm.nih.gov/",
+        "source":  "PubMed Central"
+    },
+    {
+        "url":  "https://www.csail.mit.edu/",
+        "source":  "MIT CSAIL"
+    },
+    {
+        "url":  "https://hci.stanford.edu/",
+        "source":  "Stanford HCI"
+    },
+    {
+        "url":  "https://accessibility.huit.harvard.edu/",
+        "source":  "Harvard Accessibility"
+    },
+    {
+        "url":  "https://usability.yale.edu/web-accessibility",
+        "source":  "Yale Accessibility"
+    },
+    {
+        "url":  "https://accessibility.princeton.edu/",
+        "source":  "Princeton Accessibility"
+    }
+]

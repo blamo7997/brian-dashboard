@@ -1,0 +1,38 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 09",
+    "phase":  "Phase 18",
+    "slug":  "os-shared-intelligence-master",
+    "title":  "OS Shared Intelligence Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Brian \u0026 Co OS shares website, chatbot, entitlement, accessibility, localization, transcript, meeting, recommendation, product, and founder approval intelligence.",
+    "modules":  [
+                    "Website to OS continuity",
+                    "Chatbot to OS continuity",
+                    "Shared entitlement registry",
+                    "Shared memory registry",
+                    "Shared accessibility",
+                    "Shared localization",
+                    "Shared transcripts",
+                    "Shared recommendations",
+                    "Shared approvals"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

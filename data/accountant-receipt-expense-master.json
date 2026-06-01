@@ -1,0 +1,37 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 16",
+    "phase":  "Phase 32",
+    "slug":  "accountant-receipt-expense-master",
+    "title":  "Accountant Receipt Expense Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Receipt photo upload, expense capture, OCR-ready categorization, tax/accounting notes, approval status, accountant review, and audit trail scaffolds.",
+    "modules":  [
+                    "Receipt upload",
+                    "Expense capture",
+                    "OCR-ready fields",
+                    "Category tracking",
+                    "Tax notes",
+                    "Approval status",
+                    "Accountant review",
+                    "Audit trail"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

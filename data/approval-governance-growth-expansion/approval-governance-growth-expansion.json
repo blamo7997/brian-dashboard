@@ -1,0 +1,13 @@
+{
+    "phase":  "99",
+    "status":  "prepared",
+    "protectedPhases":  "1-98 protected after validation",
+    "title":  "Approval Governance Growth Expansion",
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         }
+}

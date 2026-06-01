@@ -1,0 +1,54 @@
+{
+    "region":  "Cheyenne, Wyoming",
+    "createdAt":  "2026-05-29T17:47:47.1090327-06:00",
+    "protectedSystems":  {
+                             "noAutomaticPublicClaims":  true,
+                             "noAutomaticPurchases":  true,
+                             "noAutomaticCommitments":  true,
+                             "paymentsUntouched":  true,
+                             "productsUntouched":  true,
+                             "secretsNotPrinted":  true,
+                             "collectionsUntouched":  true,
+                             "oauthUntouched":  true
+                         },
+    "eventIntakeItems":  [
+                             {
+                                 "approvalState":  "Needs founder review",
+                                 "title":  "Cheyenne Frontier Days",
+                                 "category":  "Priority Event Watch",
+                                 "status":  "Needs verified source review",
+                                 "route":  "/local-intelligence"
+                             },
+                             {
+                                 "approvalState":  "Needs founder review",
+                                 "title":  "Local Vendor Markets",
+                                 "category":  "Vendor Opportunity",
+                                 "status":  "Prepared for intake",
+                                 "route":  "/approval-automation"
+                             },
+                             {
+                                 "approvalState":  "Needs founder review",
+                                 "title":  "Community Festivals",
+                                 "category":  "Local Event Opportunity",
+                                 "status":  "Prepared for intake",
+                                 "route":  "/communication-hub"
+                             },
+                             {
+                                 "approvalState":  "Needs accessibility review",
+                                 "title":  "Accessibility-Friendly Local Events",
+                                 "category":  "Accessibility Opportunity",
+                                 "status":  "Prepared for intake",
+                                 "route":  "/accessibility-intelligence"
+                             },
+                             {
+                                 "approvalState":  "Needs founder review",
+                                 "title":  "Role-Based Event Opportunities",
+                                 "category":  "Role Intelligence",
+                                 "status":  "Prepared for routing",
+                                 "route":  "/personalized"
+                             }
+                         ],
+    "mode":  "read-only-event-intake-preparation",
+    "phase":  "32",
+    "brand":  "Brian \u0026 Co"
+}

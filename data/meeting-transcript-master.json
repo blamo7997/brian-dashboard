@@ -1,0 +1,38 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 12",
+    "phase":  "Phase 23",
+    "slug":  "meeting-transcript-master",
+    "title":  "Meeting Transcript Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Live and remote meetings support recording reference, live captions, live translation, searchable transcripts, summaries, action items, improvement suggestions, and customer/provider communication intelligence.",
+    "modules":  [
+                    "Live captions",
+                    "Live translation",
+                    "Remote meetings",
+                    "Searchable transcripts",
+                    "Meeting summaries",
+                    "Action items",
+                    "Improvement suggestions",
+                    "Recording reference",
+                    "Speaker notes"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

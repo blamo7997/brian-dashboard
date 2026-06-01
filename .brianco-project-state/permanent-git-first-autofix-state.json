@@ -1,0 +1,11 @@
+{
+  "timestamp": "20260601_063050",
+  "run": "C:\\Users\\user\\BrianCo_FortKnox_Vault\\Audits\\permanent-git-first-autofix-20260601_063050",
+  "selectedRoot": "C:\\Users\\user\\brianco-backend-clean",
+  "repositoryCount": 1,
+  "metrics": "C:\\Users\\user\\BrianCo_FortKnox_Vault\\PrivateCommandCenterMetrics\\latest-permanent-git-first-autofix-metrics.json",
+  "passes": 10,
+  "fixesApplied": 0,
+  "remainingProblemLines": 21,
+  "protection": "BEYOND-BEYOND PROTECTED"
+}

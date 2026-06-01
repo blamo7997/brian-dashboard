@@ -1,0 +1,9 @@
+{
+    "name":  "Founder Command Center",
+    "additive_only":  true,
+    "bundle":  "043-044",
+    "description":  "Founder dashboard, admin notifications, green checks, approval queues, change reports.",
+    "created":  "2026-05-30T10:12:43.6099459-06:00",
+    "protected":  true,
+    "protected_from":  "project_start"
+}

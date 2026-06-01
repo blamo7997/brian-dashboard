@@ -1,0 +1,25 @@
+﻿{
+    "created":  "20260530_153355",
+    "bundle":  "Bundle 08",
+    "slug":  "revenue-recommendation-command",
+    "title":  "Revenue and Recommendation Command",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Profit-aware recommendations, shipping/tax awareness, ethical upsells, and fit scoring.",
+    "modules":  [
+                    "Margin awareness",
+                    "Shipping estimate awareness",
+                    "Tax estimate awareness",
+                    "Repeat customer incentive",
+                    "Upsell fit scoring"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No deploy unless build and Playwright pass",
+                  "No Shopify live product edits",
+                  "No OAuth/payment/customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Founder approval required for protected changes"
+              ]
+}

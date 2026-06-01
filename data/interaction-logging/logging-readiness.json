@@ -1,0 +1,47 @@
+{
+    "mode":  "consent-aware-interaction-logging-readiness",
+    "createdAt":  "2026-05-29T17:55:06.7132159-06:00",
+    "loggingStatus":  "prepared-not-collecting-live-personal-data",
+    "protectedSystems":  {
+                             "automaticTrackingDisabled":  true,
+                             "paymentDataStored":  false,
+                             "paymentsUntouched":  true,
+                             "productsUntouched":  true,
+                             "rawCredentialsStored":  false,
+                             "secretsNotPrinted":  true,
+                             "collectionsUntouched":  true,
+                             "oauthUntouched":  true
+                         },
+    "auditStates":  [
+                        "Prepared",
+                        "Consent required",
+                        "Consent granted",
+                        "Consent declined",
+                        "Founder review required",
+                        "Legal/privacy review required",
+                        "Archived summary",
+                        "Deletion requested"
+                    ],
+    "phase":  "33",
+    "consentRules":  [
+                         "Ask for consent before storing personal interaction history where required",
+                         "Keep accessibility preferences privacy-aware",
+                         "Keep language preferences privacy-aware",
+                         "Do not store secrets, payment details, OAuth tokens, or raw credentials",
+                         "Do not store sensitive personal data unless explicitly needed, lawful, and consented",
+                         "Allow future opt-out and deletion workflows",
+                         "Route legal/privacy policy changes through review"
+                     ],
+    "logCategories":  [
+                          "Chatbot interaction summary",
+                          "Role preference signal",
+                          "Accessibility preference signal",
+                          "Localization preference signal",
+                          "Event interest signal",
+                          "Commerce interest signal",
+                          "Approval action summary",
+                          "Theme health review action",
+                          "Founder command center action"
+                      ],
+    "brand":  "Brian \u0026 Co"
+}

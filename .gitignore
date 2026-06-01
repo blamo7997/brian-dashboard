@@ -1,0 +1,132 @@
+.vercel
+.env*
+# Brian and Co protected defaults
+.env.*
+!.env.example
+node_modules/
+.next/
+test-results/
+playwright-report/
+*.log
+BrianCo_FortKnox_Vault/
+FORT_KNOX_CONTINUITY/Audits/
+FORT_KNOX_CONTINUITY/Backups/
+# Brian and Co protected generated outputs
+out/
+dist/
+build/
+coverage/
+.turbo/
+.cache/
+*.tmp
+*.bak
+*.zip
+# Brian and Co Fort Knox, reports, audits, backups, continuity archives
+brianco-fort-knox-vault/
+FORT_KNOX_CONTINUITY/Reports/
+_brianco_reports/
+logs/
+protected-backups/
+checkpoints/
+validation/
+# Brian and Co generated audit/report folders
+BRIANCO_*_AUDIT_*/
+BRIANCO_*_REPAIR_*/
+BRIANCO_*_FIX_*/
+BRIANCO_*_VALIDATION_*/
+BRIANCO_*_DEPLOY_*/
+BRIANCO_*_CHECK_*/
+BRIANCO_*_202*/
+FINAL_*_*/
+TARGETED_FIX_*/
+FIX_OVER_RESTORE_*/
+# Brian and Co generated transcripts and scratch outputs
+BRIANCO_*_LOG.txt
+BRIANCO_*_REPORT.txt
+BRIANCO_*_TRANSCRIPT.txt
+PLAYWRIGHT-REAL-ERRORS.txt
+validation-log.txt
+final_themecheck.txt
+temp_themecheck.txt
+repaired_themecheck.txt
+next_safe_layer_themecheck.txt
+master_additive_themecheck.txt
+# Secrets and protected local configuration
+*.pem
+*.key
+*SECRET*
+*TOKEN*
+*ACCESS_KEY*
+*DO_NOT_SHARE*
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Brian and Co generated build outputs
+.vercel/output/
+# Brian and Co protected local secrets
+# Brian and Co generated archives, reports, audits, repair folders
+BRIANCO_*/
+BRIANCO_*.txt
+BRIANCO_*.json
+FINAL_*/
+brianco-*202*/
+brianco-*-log.txt
+brianco-*-report.txt
+brianco-*.zip
+*_REPORT_*/
+# theme/check temporary outputs
+# editor and OS noise
+
+brianco-playwright-final-blocker-*/
+PLAYWRIGHT_FINAL_BLOCKER_REPORT.md
+POWERSHELL_TRANSCRIPT.txt
+
+# ============================================================
+# Brian & Co generated reports, archives, blocker artifacts
+# Added by automatic Git hygiene protected baseline 20260601_081609
+# ============================================================
+
+# Local vaults and continuity archives
+BrianCo_FortKnox_Vault/
+BrianCo_Continuum_Vault/
+FORT_KNOX_CONTINUITY/
+brianco-fort-knox-vault/
+
+# Generated reports and test outputs
+reports/
+logs/
+playwright-report/
+test-results/
+coverage/
+.next/
+node_modules/
+.vercel/output/
+
+# Generated blocker/audit/repair archives
+brianco-playwright-final-blocker-*/
+FIX_OVER_RESTORE_*/
+BRIANCO_*_AUDIT_*/
+BRIANCO_*_BLOCKER*/
+BRIANCO_OPEN_ROOT_CAUSE_BLOCKERS_*/
+BRIANCO_FIX_PROTECTED_ROUTE_BLOCKERS_*/
+BRIANCO_ROOT_CAUSE_BLOCKER_REPAIR_*/
+BRIANCO_API_CRITICAL_KEEP_AUDIT_*/
+
+# Generated backups
+*.before.*
+*.backup*
+*.bak
+*.tmp
+*.log
+*.zip
+
+# Secret/local environment files
+.env
+.env.*
+!.env.example
+
+# PowerShell transient output
+Transcript*.txt
+*_TRANSCRIPT.txt

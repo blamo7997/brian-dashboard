@@ -1,0 +1,36 @@
+﻿{
+    "created":  "20260530_171248",
+    "bundle":  "Bundle B",
+    "phase":  "Phase A",
+    "slug":  "white-glove-customer-journey",
+    "title":  "White Glove Customer Journey",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Order confirmation, production updates, tracking updates, delivery confirmation, post-delivery follow-up, concierge support, repeat customer offer, localized messaging, and accessibility-aware communication.",
+    "modules":  [
+                    "Order confirmation",
+                    "Production updates",
+                    "Tracking updates",
+                    "Delivery confirmation",
+                    "Post-delivery follow-up",
+                    "Concierge support",
+                    "Repeat customer offer",
+                    "Localized messaging",
+                    "Accessibility-aware messaging"
+                ],
+    "rules":  [
+                  "No assumptions",
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "Originals preserved",
+                  "Brian and Co display versions stored separately",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No Shopify live product API edits",
+                  "No secrets touched",
+                  "Vault snapshot before and after",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy"
+              ]
+}

@@ -1,0 +1,39 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 04",
+    "phase":  "Phase 08",
+    "slug":  "provider-policy-tone-master",
+    "title":  "Provider Policy Tone Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Provider policies are collected, preserved, rewritten into Brian \u0026 Co tone, localized, and passed to customers while originals remain stored internally.",
+    "modules":  [
+                    "Original policies preserved",
+                    "Brian \u0026 Co display policies",
+                    "Shipping policy",
+                    "Return policy",
+                    "Refund policy",
+                    "Warranty policy",
+                    "Revision policy",
+                    "Custom order policy",
+                    "Usage rights policy",
+                    "Care instructions"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

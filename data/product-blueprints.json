@@ -1,0 +1,66 @@
+[
+    {
+        "collection":  "Digital Products",
+        "type":  "Digital Product",
+        "price":  97,
+        "approval":  "Founder + legal review",
+        "title":  "Brian \u0026 Co AI Concierge Suite",
+        "status":  "draft_blueprint"
+    },
+    {
+        "collection":  "Digital Products",
+        "type":  "Digital Product",
+        "price":  149,
+        "approval":  "Founder + legal review",
+        "title":  "Consent Atlas AI",
+        "status":  "draft_blueprint"
+    },
+    {
+        "collection":  "À La Carte Upgrades",
+        "type":  "À La Carte Upgrade",
+        "price":  29,
+        "approval":  "Founder",
+        "title":  "Luxury Product Copy Generator",
+        "status":  "draft_blueprint"
+    },
+    {
+        "collection":  "À La Carte Upgrades",
+        "type":  "À La Carte Upgrade",
+        "price":  49,
+        "approval":  "Founder",
+        "title":  "Supplier Vetting Intelligence Pack",
+        "status":  "draft_blueprint"
+    },
+    {
+        "collection":  "À La Carte Upgrades",
+        "type":  "À La Carte Upgrade",
+        "price":  39,
+        "approval":  "Founder + accessibility review",
+        "title":  "Accessibility Personalization Add-On",
+        "status":  "draft_blueprint"
+    },
+    {
+        "collection":  "Subscription Tiers",
+        "type":  "Subscription Tier",
+        "price":  19,
+        "approval":  "Founder + legal review",
+        "title":  "Brian \u0026 Co Starter Membership",
+        "status":  "draft_blueprint"
+    },
+    {
+        "collection":  "Subscription Tiers",
+        "type":  "Subscription Tier",
+        "price":  79,
+        "approval":  "Founder + legal review",
+        "title":  "Brian \u0026 Co Professional Membership",
+        "status":  "draft_blueprint"
+    },
+    {
+        "collection":  "Subscription Tiers",
+        "type":  "Subscription Tier",
+        "price":  199,
+        "approval":  "Founder + legal review",
+        "title":  "Brian \u0026 Co Executive Membership",
+        "status":  "draft_blueprint"
+    }
+]

@@ -1,0 +1,21 @@
+{
+    "incomeLevels":  [
+                         "homeless_or_no_stable_housing",
+                         "very_low_income",
+                         "low_income",
+                         "budget_sensitive",
+                         "standard",
+                         "premium",
+                         "luxury",
+                         "ultra_luxury",
+                         "founder_admin"
+                     ],
+    "supportRules":  [
+                         "Homeless and very-low-income support must remain dignified, localized, native-language aware, accessible, and non-gimmicky",
+                         "Eligibility can be verified or self-attested with safeguards depending on service type and local law",
+                         "Support resources must use vetted/verified/local sources where connected",
+                         "No sensitive user details are stored without consent and lawful purpose",
+                         "Financial/legal/public changes require founder/legal approval"
+                     ],
+    "createdAt":  "2026-05-27T15:40:07.9044819-06:00"
+}

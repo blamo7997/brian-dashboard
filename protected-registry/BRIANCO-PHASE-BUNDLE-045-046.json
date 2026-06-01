@@ -1,0 +1,9 @@
+{
+    "name":  "Theme Health + Broken Link Protection",
+    "additive_only":  true,
+    "bundle":  "045-046",
+    "description":  "404/403/broken image/broken button/broken link monitoring and branded recovery flows.",
+    "created":  "2026-05-30T10:12:43.6384512-06:00",
+    "protected":  true,
+    "protected_from":  "project_start"
+}

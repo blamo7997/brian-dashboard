@@ -1,0 +1,25 @@
+{
+    "phase":  "55",
+    "status":  "prepared",
+    "opportunityAreas":  [
+                             "Opportunity Discovery Intelligence",
+                             "Revenue Opportunity Expansion",
+                             "Provider Opportunity Intelligence",
+                             "Supplier Opportunity Intelligence",
+                             "Artisan Opportunity Intelligence",
+                             "Creator Opportunity Intelligence",
+                             "Local Opportunity Intelligence",
+                             "Event Opportunity Intelligence",
+                             "Festival Opportunity Intelligence",
+                             "Growth Opportunity Intelligence",
+                             "Founder Approval Opportunity Routing"
+                         ],
+    "protectedPhases":  "1-54 protected",
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         }
+}

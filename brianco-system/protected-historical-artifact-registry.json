@@ -1,0 +1,12 @@
+﻿[
+    {
+        "Type":  "HistoricalInvalidJson",
+        "Path":  "brianco-live-theme-2026-05-28_14-43-03\\backups\\top_right_wording_fix_20260529_083716\\package-lock.json",
+        "Action":  "protected_not_active_error"
+    },
+    {
+        "Type":  "HistoricalInvalidJs",
+        "Path":  "brianco-live-theme-2026-05-28_14-43-03\\brianco-validation-reports\\chatbot-live-check-2026-05-28_15-57-27\\brianco-chatbot-live-check.spec.js",
+        "Action":  "protected_not_active_error"
+    }
+]

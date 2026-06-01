@@ -1,0 +1,13 @@
+{
+    "created_at":  "2026-05-29T15:26:48.8608553-06:00",
+    "phase":  "phase16_chatbot_intelligence_engine",
+    "snapshot":  ".\\data\\chatbot-intelligence\\snapshot.json",
+    "protected":  {
+                      "no_payment_changes":  true,
+                      "no_oauth_changes":  true,
+                      "no_secret_printing":  true,
+                      "no_collection_edits":  true,
+                      "consent_required_for_sensitive_data":  true,
+                      "no_product_edits":  true
+                  }
+}

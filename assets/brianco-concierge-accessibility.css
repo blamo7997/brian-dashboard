@@ -1,0 +1,129 @@
+:root {
+  --brianco-text-scale: 1em;
+}
+
+.brianco-concierge-root {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 9999;
+  font-size: var(--brianco-text-scale);
+  font-family: inherit;
+}
+
+.brianco-concierge-toggle {
+  border: 1px solid rgba(219, 181, 97, 0.8);
+  background: linear-gradient(135deg, #0e0b08, #332414, #8a6931);
+  color: #fff8e7;
+  padding: 12px 16px;
+  border-radius: 999px;
+  box-shadow: 0 14px 40px rgba(0,0,0,.35);
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+
+.brianco-concierge-panel {
+  width: min(360px, calc(100vw - 36px));
+  margin-bottom: 12px;
+  padding: 16px;
+  border-radius: 22px;
+  background: rgba(16, 12, 8, .96);
+  color: #fff8e7;
+  border: 1px solid rgba(219, 181, 97, .55);
+  box-shadow: 0 22px 70px rgba(0,0,0,.45);
+  backdrop-filter: blur(14px);
+}
+
+.brianco-concierge-header strong {
+  display: block;
+  font-size: 1.05em;
+}
+
+.brianco-concierge-header span,
+.brianco-approval-note {
+  display: block;
+  margin-top: 6px;
+  opacity: .82;
+  line-height: 1.45;
+}
+
+.brianco-concierge-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 14px 0;
+}
+
+.brianco-concierge-controls button,
+.brianco-chat-button,
+.brianco-language-select,
+.brianco-chat-input {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(219, 181, 97, .45);
+  padding: 10px;
+  font: inherit;
+}
+
+.brianco-concierge-controls button,
+.brianco-chat-button {
+  background: rgba(255,255,255,.08);
+  color: #fff8e7;
+  cursor: pointer;
+}
+
+.brianco-language-label,
+.brianco-chat-label {
+  display: block;
+  margin: 10px 0 6px;
+  font-weight: 700;
+}
+
+.brianco-language-select,
+.brianco-chat-input {
+  background: #fffaf0;
+  color: #1b140d;
+}
+
+.brianco-concierge-message,
+.brianco-chat-response {
+  margin-top: 12px;
+  line-height: 1.5;
+}
+
+.brianco-chat-response {
+  min-height: 42px;
+  padding: 10px;
+  border-radius: 14px;
+  background: rgba(255,255,255,.08);
+}
+
+html.brianco-high-contrast body {
+  filter: contrast(1.18);
+}
+
+html.brianco-readable-mode body {
+  letter-spacing: .02em;
+  word-spacing: .08em;
+  line-height: 1.75;
+}
+
+html.brianco-reduce-motion *,
+html.brianco-reduce-motion *::before,
+html.brianco-reduce-motion *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+
+@media (max-width: 520px) {
+  .brianco-concierge-root {
+    right: 12px;
+    bottom: 12px;
+  }
+
+  .brianco-concierge-controls {
+    grid-template-columns: 1fr;
+  }
+}

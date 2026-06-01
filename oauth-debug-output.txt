@@ -1,0 +1,18 @@
+node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+At C:\Users\user\AppData\Roaming\npm\vercel.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/vercel/dist/vc.js" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  % Total    % ... Time   Current:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+                                 Dload  Upload  Total   Spent   Left   Speed
+
+  0      0   0      0   0      0      0      0                              0
+100     96 100     96   0      0    149      0                              0
+100     96 100     96   0      0    149      0                              0
+100     96 100     96   0      0    149      0                              0
+A server error has occurred
+
+FUNCTION_INVOCATION_FAILED
+
+sfo1::jt27n-1779794456886-7677dd43a4d2

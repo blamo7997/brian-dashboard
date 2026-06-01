@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="{{ request.locale.iso_code | default: 'en' }}">
+<head>
+  {{ content_for_header }}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page_title | default: shop.name }}</title>
+  <meta name="description" content="{{ page_description | default: shop.name | escape }}">
+  {{ 'brianco-connected.css' | asset_url | stylesheet_tag }}
+</head>
+<body class="brianco-body">
+  <a class="brianco-skip" href="#MainContent">Skip to content</a>
+  {% section 'brianco-header' %}
+  <main id="MainContent" role="main">{{ content_for_layout }}</main>
+  {% section 'brianco-footer' %}
+  {% render 'brianco-concierge' %}
+  {% render 'brianco-backend-config' %}
+  <script defer src="{{ '' | asset_url }}"></script>
+
+{% render 'brianco-realtime-overlay' %}
+
+{% render 'brianco-command-center' %}
+
+{% render 'brianco-master-command-center' %}
+
+{% render 'brianco-supplier-command-center' %}
+
+{% render 'brianco-last20-command-center' %}
+
+<!-- BRIANCO COMPLETE LIVE SYSTEM -->
+<script src="{{ 'brianco-live-system.js' | asset_url }}" defer></script>
+<!-- END BRIANCO COMPLETE LIVE SYSTEM -->
+
+{% render 'brianco-chatbot-greeting-faq' %}
+{% render 'brianco-typo-intelligence' %}
+{% render 'brianco-live-faq-intelligence' %}
+{% render 'brianco-responsive-optimization' %}
+</body>
+</html>
+
+
+
+
+
+
+
+

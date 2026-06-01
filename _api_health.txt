@@ -1,0 +1,26 @@
+node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+At C:\Users\user\AppData\Roaming\npm\vercel.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/vercel/dist/vc.js" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  % Total    % ... Time   Current:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+                                 Dload  Upload  Total   Spent   Left   Speed
+
+  0      0   0      0   0      0      0      0                              0
+100    212 100    212   0      0    206      0   00:01   00:01            206
+100    212 100    212   0      0    206      0   00:01   00:01            206
+100    212 100    212   0      0    206      0   00:01   00:01            206
+100    212 100    212   0      0    206      0   00:01   00:01            206
+{
+  "ok": true,
+  "service": "Brian & Co Backend",
+  "status": "online",
+  "time": "2026-05-26T13:22:55.548Z",
+  "checks": {
+    "shopifyStoreDomain": true,
+    "shopifyAdminToken": true,
+    "openAI": true
+  }
+}
+

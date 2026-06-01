@@ -1,0 +1,45 @@
+node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+At C:\Users\user\AppData\Roaming\npm\vercel.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/vercel/dist/vc.js" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  % Total    % ... Time   Current:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+                                 Dload  Upload  Total   Spent   Left   Speed
+
+  0      0   0      0   0      0      0      0                              0
+100    833 100    833   0      0    696      0   00:01   00:01            697
+100    833 100    833   0      0    696      0   00:01   00:01            697
+100    833 100    833   0      0    696      0   00:01   00:01            697
+100    833 100    833   0      0    696      0   00:01   00:01            697
+{
+  "ok": true,
+  "count": 2,
+  "collections": [
+    {
+      "id": 470095266019,
+      "handle": "frontpage",
+      "title": "Home page",
+      "updated_at": "2026-05-26T08:45:38-04:00",
+      "body_html": null,
+      "published_at": "2026-05-15T23:35:49-04:00",
+      "sort_order": "most-relevant",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Collection/470095266019"
+    },
+    {
+      "id": 470095331555,
+      "handle": "hydrogen",
+      "title": "Hydrogen",
+      "updated_at": "2026-05-26T04:23:38-04:00",
+      "body_html": null,
+      "published_at": "2026-05-15T23:36:12-04:00",
+      "sort_order": "most-relevant",
+      "template_suffix": null,
+      "published_scope": "web",
+      "admin_graphql_api_id": "gid://shopify/Collection/470095331555"
+    }
+  ]
+}
+

@@ -1,0 +1,60 @@
+﻿<div id="brianco-realtime-continuity-overlay">
+  <button class="bc-float" onclick="BrianCoContinuity.toggle()">Brian & Co Concierge</button>
+
+  <section id="bc-panel" class="bc-panel" hidden>
+    <div class="bc-card">
+      <h2>Brian & Co Concierge</h2>
+      <p>
+        A refined, role-aware AI concierge layer for shopping, accessibility,
+        legal-review routing, founder approval, support, project continuity,
+        auto-resume awareness, and safe real-time theme updates.
+      </p>
+
+      <div class="bc-grid">
+        <button data-bc-role="customer">Customer</button>
+        <button data-bc-role="guest">Guest</button>
+        <button data-bc-role="supplier">Supplier</button>
+        <button data-bc-role="artisan">Artisan</button>
+        <button data-bc-role="creator">Creator / Influencer</button>
+        <button data-bc-role="investor">Investor</button>
+        <button data-bc-role="lawyer">Lawyer Review</button>
+        <button data-bc-role="admin">Founder Admin</button>
+        <button data-bc-role="caregiver">Caregiver / Accessibility</button>
+      </div>
+
+      <div class="bc-box">
+        <strong>Founder Green-Check + Legal Review Gate</strong>
+        <p>
+          Legal, signature, contract, investor, supplier, creator, pricing,
+          policy, payment, and public-facing changes remain
+          <em>DRAFT — PENDING LEGAL REVIEW</em> until approved.
+        </p>
+        <label><input type="checkbox" disabled> Lawyer review required where appropriate</label>
+        <label><input type="checkbox" disabled> Founder green-check approval required</label>
+      </div>
+
+      <div class="bc-box">
+        <strong>Protected Connections</strong>
+        <p>
+          This overlay does not modify backend, OAuth, API keys, environment variables,
+          payment systems, products, collections, tokens, social accounts, or existing integrations.
+        </p>
+      </div>
+
+      <div class="bc-box">
+        <strong>Auto-Resume Project Continuity</strong>
+        <p>
+          PowerShell saves local state and automatically references saved project files
+          when reopened from the same project folder.
+        </p>
+      </div>
+
+      <div class="bc-box">
+        <strong>Accessibility</strong><br>
+        <button onclick="BrianCoContinuity.textSize(1)">Larger Text</button>
+        <button onclick="BrianCoContinuity.textSize(-1)">Smaller Text</button>
+        <button onclick="BrianCoContinuity.read()">Read Aloud</button>
+      </div>
+    </div>
+  </section>
+</div>

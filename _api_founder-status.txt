@@ -1,0 +1,19 @@
+node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+At C:\Users\user\AppData\Roaming\npm\vercel.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/vercel/dist/vc.js" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  % Total    % ... Time   Current:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+                                 Dload  Upload  Total   Spent   Left   Speed
+
+  0      0   0      0   0      0      0      0                              0
+100     79 100     79   0      0    526      0                              0
+100     79 100     79   0      0    526      0                              0
+100     79 100     79   0      0    525      0                              0
+The page could not be found
+
+NOT_FOUND
+
+sfo1::hfkpt-1779801798555-727a1cdab9b8
+

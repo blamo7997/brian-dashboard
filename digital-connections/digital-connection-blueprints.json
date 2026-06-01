@@ -1,0 +1,38 @@
+[
+    {
+        "status":  "blueprint_only",
+        "name":  "Shopify Digital Delivery Connection",
+        "approval":  "Founder + Shopify/API approval",
+        "purpose":  "Deliver files/access after purchase"
+    },
+    {
+        "status":  "blueprint_only",
+        "name":  "Membership Access Connection",
+        "approval":  "Founder + legal/payment review",
+        "purpose":  "Gate subscription-tier benefits"
+    },
+    {
+        "status":  "blueprint_only",
+        "name":  "AI Concierge Memory Connection",
+        "approval":  "Founder + privacy/legal review",
+        "purpose":  "Role-aware saved preferences and continuity"
+    },
+    {
+        "status":  "blueprint_only",
+        "name":  "Financing Provider Connection",
+        "approval":  "Founder + payment/legal review",
+        "purpose":  "Native-feeling financing display and routing"
+    },
+    {
+        "status":  "blueprint_only",
+        "name":  "Legal E-Signature Connection",
+        "approval":  "Founder + lawyer review",
+        "purpose":  "Contracts, approvals, green-check records"
+    },
+    {
+        "status":  "blueprint_only",
+        "name":  "Supplier/Creator Portal Connection",
+        "approval":  "Founder + legal review",
+        "purpose":  "Supplier, artisan, creator, influencer workflows"
+    }
+]

@@ -1,0 +1,12 @@
+body.brianco-body{margin:0;font-family:Arial,sans-serif;color:#fff7e6;background:linear-gradient(135deg,#050505,#6E5A38,#FFF7E6)}
+.brianco-header,.brianco-footer{display:flex;justify-content:space-between;gap:16px;padding:18px 24px;background:rgba(0,0,0,.74)}
+.brianco-header a,.brianco-footer a{color:#fff7e6;margin:0 8px}
+.brianco-hero,.brianco-section{max-width:1200px;margin:auto;padding:48px 24px}
+.brianco-card,.brianco-grid article{background:rgba(0,0,0,.68);border:1px solid rgba(255,230,180,.35);border-radius:28px;padding:24px}
+.brianco-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+button,.brianco-hero a{border:0;border-radius:999px;padding:12px 18px;background:#fff7e6;color:#111;font-weight:700;text-decoration:none;cursor:pointer}
+.brianco-concierge{position:fixed;right:18px;bottom:18px;z-index:99999}
+.brianco-panel{width:min(360px,calc(100vw - 36px));background:#111;color:#fff;border:1px solid rgba(255,230,180,.45);border-radius:24px;padding:18px}
+.brianco-panel input{width:100%;box-sizing:border-box;padding:12px;border-radius:12px;margin:10px 0}
+#brianco-response{white-space:pre-wrap;color:#ead7a0}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

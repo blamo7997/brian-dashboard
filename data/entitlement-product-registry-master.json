@@ -1,0 +1,39 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 10",
+    "phase":  "Phase 19",
+    "slug":  "entitlement-product-registry-master",
+    "title":  "Entitlement Product Registry Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Purchased products, digital products, memberships, subscriptions, à la carte upgrades, bundles, role-gated products, and entitled services appear in website, chatbot, private UI, founder UI, and OS.",
+    "modules":  [
+                    "Purchased products",
+                    "Digital products",
+                    "Memberships",
+                    "Subscriptions",
+                    "A la carte upgrades",
+                    "Bundles",
+                    "Role-gated visibility",
+                    "Website visibility",
+                    "Chatbot visibility",
+                    "OS visibility"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

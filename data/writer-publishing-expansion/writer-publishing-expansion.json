@@ -1,0 +1,24 @@
+{
+    "phase":  "65",
+    "status":  "prepared",
+    "areas":  [
+                  "Writer Intelligence Expansion",
+                  "Publishing Intelligence Expansion",
+                  "Research Intelligence Expansion",
+                  "Story Continuity Intelligence",
+                  "Author Intelligence Expansion",
+                  "Content Creation Intelligence",
+                  "Scriptwriter Intelligence",
+                  "Poetry Intelligence",
+                  "Scholar Intelligence",
+                  "Founder Approval Publishing Routing"
+              ],
+    "protectedPhases":  "1-64 protected",
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         }
+}

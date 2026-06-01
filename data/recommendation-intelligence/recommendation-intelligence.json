@@ -1,0 +1,30 @@
+{
+    "phase":  "38",
+    "status":  "prepared",
+    "protectedPhases":  "1-37 protected",
+    "protectedSystems":  {
+                             "collectionsUntouched":  true,
+                             "publicClaimsUntouched":  true,
+                             "productsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "pricingUntouched":  true,
+                             "secretsNotPrinted":  true,
+                             "automaticCommitmentsDisabled":  true,
+                             "paymentsUntouched":  true,
+                             "automaticPurchasesDisabled":  true
+                         },
+    "recommendationAreas":  [
+                                "Commerce Recommendations",
+                                "Role Recommendations",
+                                "Accessibility Recommendations",
+                                "Localization Recommendations",
+                                "Event Opportunity Recommendations",
+                                "Supplier Recommendations",
+                                "Artisan Recommendations",
+                                "Creator Recommendations",
+                                "Influencer Recommendations",
+                                "Investor Recommendations",
+                                "Founder Approval Recommendations",
+                                "Unified Recommendation Scoring"
+                            ]
+}

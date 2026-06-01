@@ -1,0 +1,29 @@
+{
+    "phase":  "43",
+    "status":  "prepared",
+    "protectedPhases":  "1-42 protected",
+    "knowledgeAreas":  [
+                           "Founder Knowledge Coordination",
+                           "Protected Phase Knowledge Registry",
+                           "Cross-System Knowledge Intelligence",
+                           "Executive Knowledge Visibility",
+                           "Role Knowledge Intelligence",
+                           "Approval Knowledge Intelligence",
+                           "Theme Knowledge Intelligence",
+                           "Opportunity Knowledge Intelligence",
+                           "Recommendation Knowledge Intelligence",
+                           "Continuity Knowledge Intelligence",
+                           "Native Brian \u0026 Co Knowledge Layer"
+                       ],
+    "protectedSystems":  {
+                             "collectionsUntouched":  true,
+                             "publicClaimsUntouched":  true,
+                             "productsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "pricingUntouched":  true,
+                             "secretsNotPrinted":  true,
+                             "automaticCommitmentsDisabled":  true,
+                             "paymentsUntouched":  true,
+                             "automaticPurchasesDisabled":  true
+                         }
+}

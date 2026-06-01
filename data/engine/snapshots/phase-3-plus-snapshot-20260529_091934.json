@@ -1,0 +1,22 @@
+{
+    "created_at":  "2026-05-29T09:19:35.7362363-06:00",
+    "protections":  {
+                        "payments_untouched":  true,
+                        "products_untouched":  true,
+                        "live_publish_blocked":  true,
+                        "backend_secrets_untouched":  true,
+                        "utility_data_requires_consent":  true,
+                        "collections_untouched":  true,
+                        "oauth_untouched":  true,
+                        "existing_products_protected":  true
+                    },
+    "phase":  "phase_3_plus",
+    "files":  {
+                  "viewer":  "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\viewer\\command-center.html",
+                  "metrics":  "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\engine\\metrics\\current-command-center-metrics.json",
+                  "approvals":  "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\engine\\approvals\\founder-approval-queue.json",
+                  "watch_script":  "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\scripts\\start-command-center-watch.ps1",
+                  "recommendations":  "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\engine\\recommendations\\next-best-actions.json",
+                  "connector_registry":  "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\engine\\connectors\\connector-registry.json"
+              }
+}

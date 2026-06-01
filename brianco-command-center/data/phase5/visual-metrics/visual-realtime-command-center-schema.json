@@ -1,0 +1,47 @@
+{
+    "visual_types":  [
+                         "line charts",
+                         "bar charts",
+                         "metric cards",
+                         "status badges",
+                         "approval queues",
+                         "risk indicators",
+                         "event timelines",
+                         "regional tax estimate panels",
+                         "sales funnels",
+                         "chatbot question heatmaps",
+                         "accessibility preference panels",
+                         "language/locality panels"
+                     ],
+    "protection_rules":  {
+                             "protected_private_data_requires_consent":  true,
+                             "payments_untouched":  true,
+                             "products_untouched":  true,
+                             "lawyer_accountant_review_required_where_needed":  true,
+                             "tax_outputs_are_estimates_until_verified":  true,
+                             "oauth_untouched":  true,
+                             "secrets_untouched":  true
+                         },
+    "created_at":  "2026-05-29T09:57:54.1170271-06:00",
+    "command_center_standard":  "dynamic visual metrics everywhere lawful and connected",
+    "realtime_targets":  {
+                             "subscriptions":  true,
+                             "orders":  true,
+                             "events":  true,
+                             "risk_fraud":  true,
+                             "utility_operating_costs_when_consented":  true,
+                             "carts":  true,
+                             "accessibility_usage":  true,
+                             "sales":  true,
+                             "collection_performance":  true,
+                             "product_performance":  true,
+                             "chatbot_activity":  true,
+                             "digital_products":  true,
+                             "founder_approval_queue":  true,
+                             "referrals":  true,
+                             "tax_rate_awareness_by_region":  true,
+                             "website_activity":  true,
+                             "language_usage":  true
+                         },
+    "visual_graphs_required":  true
+}

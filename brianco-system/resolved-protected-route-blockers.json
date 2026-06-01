@@ -1,0 +1,74 @@
+﻿[
+    {
+        "route":  "/api/shopify/callback",
+        "status":  "resolved_known_protected_route",
+        "deleteAllowed":  false,
+        "moveAllowed":  false,
+        "deployAllowed":  false,
+        "reason":  "Previously classified as protected/intentional; not an error. No consolidation without explicit founder approval.",
+        "stamped":  "20260531_044814"
+    },
+    {
+        "route":  "/api/shopify/install",
+        "status":  "resolved_known_protected_route",
+        "deleteAllowed":  false,
+        "moveAllowed":  false,
+        "deployAllowed":  false,
+        "reason":  "Previously classified as protected/intentional; not an error. No consolidation without explicit founder approval.",
+        "stamped":  "20260531_044814"
+    },
+    {
+        "route":  "/api/shopify-callback",
+        "status":  "resolved_known_protected_route",
+        "deleteAllowed":  false,
+        "moveAllowed":  false,
+        "deployAllowed":  false,
+        "reason":  "Previously classified as protected/intentional; not an error. No consolidation without explicit founder approval.",
+        "stamped":  "20260531_044814"
+    },
+    {
+        "route":  "/api/shopify-install",
+        "status":  "resolved_known_protected_route",
+        "deleteAllowed":  false,
+        "moveAllowed":  false,
+        "deployAllowed":  false,
+        "reason":  "Previously classified as protected/intentional; not an error. No consolidation without explicit founder approval.",
+        "stamped":  "20260531_044814"
+    },
+    {
+        "route":  "/api/chat",
+        "status":  "resolved_known_protected_route",
+        "deleteAllowed":  false,
+        "moveAllowed":  false,
+        "deployAllowed":  false,
+        "reason":  "Previously classified as protected/intentional; not an error. No consolidation without explicit founder approval.",
+        "stamped":  "20260531_044814"
+    },
+    {
+        "route":  "/api/products",
+        "status":  "resolved_known_protected_route",
+        "deleteAllowed":  false,
+        "moveAllowed":  false,
+        "deployAllowed":  false,
+        "reason":  "Previously classified as protected/intentional; not an error. No consolidation without explicit founder approval.",
+        "stamped":  "20260531_044814"
+    },
+    {
+        "route":  "/api/collections",
+        "status":  "resolved_known_protected_route",
+        "deleteAllowed":  false,
+        "moveAllowed":  false,
+        "deployAllowed":  false,
+        "reason":  "Previously classified as protected/intentional; not an error. No consolidation without explicit founder approval.",
+        "stamped":  "20260531_044814"
+    },
+    {
+        "route":  "/api/health",
+        "status":  "resolved_known_protected_route",
+        "deleteAllowed":  false,
+        "moveAllowed":  false,
+        "deployAllowed":  false,
+        "reason":  "Previously classified as protected/intentional; not an error. No consolidation without explicit founder approval.",
+        "stamped":  "20260531_044814"
+    }
+]

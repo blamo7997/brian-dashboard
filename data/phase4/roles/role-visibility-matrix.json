@@ -1,0 +1,93 @@
+{
+    "customer":  {
+                     "hidden":  [
+                                    "admin data",
+                                    "other customers",
+                                    "internal risks",
+                                    "secrets"
+                                ],
+                     "visibility":  [
+                                        "own account",
+                                        "own preferences",
+                                        "own paid access",
+                                        "own support history"
+                                    ]
+                 },
+    "artisan":  {
+                    "hidden":  [
+                                   "other artisans",
+                                   "private customer data",
+                                   "financial admin"
+                               ],
+                    "visibility":  [
+                                       "assigned artisan products/story/production status only"
+                                   ]
+                },
+    "trusted_admin":  {
+                          "can_approve":  false,
+                          "visibility":  "assigned operations only",
+                          "founder_review_required":  true
+                      },
+    "supplier":  {
+                     "hidden":  [
+                                    "other suppliers",
+                                    "customer private data",
+                                    "financial admin"
+                                ],
+                     "visibility":  [
+                                        "assigned products/orders only in future approved system"
+                                    ]
+                 },
+    "created_at":  "2026-05-29T09:24:09.9406575-06:00",
+    "founder":  {
+                    "can_approve":  true,
+                    "visibility":  "all approved Command Center areas",
+                    "name":  "Brian",
+                    "can_view_sensitive":  "only where lawful/authorized"
+                },
+    "investor":  {
+                     "hidden":  [
+                                    "private customer data",
+                                    "secrets",
+                                    "OAuth",
+                                    "protected personal records"
+                                ],
+                     "visibility":  [
+                                        "approved investor summary",
+                                        "high-level metrics",
+                                        "payout readiness",
+                                        "risk disclosures"
+                                    ]
+                 },
+    "lawyer":  {
+                   "can_approve":  "legal recommendation only; founder final",
+                   "visibility":  [
+                                      "legal queue",
+                                      "privacy consent language",
+                                      "terms review",
+                                      "risk language"
+                                  ]
+               },
+    "accountant":  {
+                       "can_approve":  "accounting recommendation only; founder final",
+                       "visibility":  [
+                                          "tax categories",
+                                          "expenses",
+                                          "deductions",
+                                          "payment fee summaries",
+                                          "utility/business-cost records when authorized"
+                                      ]
+                   },
+    "influencer":  {
+                       "hidden":  [
+                                      "private customer data",
+                                      "financial admin",
+                                      "other influencers"
+                                  ],
+                       "visibility":  [
+                                          "assigned campaigns",
+                                          "affiliate status",
+                                          "approved creative guidance"
+                                      ]
+                   }
+}

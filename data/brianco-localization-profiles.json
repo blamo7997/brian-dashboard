@@ -1,0 +1,144 @@
+﻿{
+  "default": {
+    "brandName": "Brian & Co.",
+    "logoText": "Brian & Co.",
+    "fontFamily": "Georgia, serif",
+    "tone": "refined luxury concierge",
+    "currency": "USD",
+    "dateStyle": "medium",
+    "direction": "ltr",
+    "headline": "Localization AI+™",
+    "subheadline": "Regional & Dialect Intelligence Enhancement",
+    "chatGreeting": "Welcome to Brian & Co. I can adapt language, tone, accessibility, and regional guidance for you.",
+    "conciergePrompt": "Tell me your preferred language, region, accessibility needs, and role so I can personalize your experience.",
+    "accessibilityPrompt": "Accessibility options are always available and may be adapted to your language and region.",
+    "regionNotice": "Regional content is personalized only where appropriate and consent-aware."
+  },
+  "en-US": {
+    "localeName": "English — United States",
+    "logoText": "Brian & Co.",
+    "fontFamily": "Georgia, serif",
+    "currency": "USD",
+    "headline": "Localization AI+™",
+    "subheadline": "Regional & Dialect Intelligence Enhancement",
+    "chatGreeting": "Welcome to Brian & Co. I can personalize your experience by region, language, accessibility preference, and role."
+  },
+  "en-GB": {
+    "localeName": "English — United Kingdom",
+    "logoText": "Brian & Co.",
+    "fontFamily": "Georgia, serif",
+    "currency": "GBP",
+    "headline": "Localization AI+™",
+    "subheadline": "Regional & Dialect Intelligence Enhancement",
+    "chatGreeting": "Welcome to Brian & Co. I can adapt language, tone, accessibility, and regional guidance for your location."
+  },
+  "en-CA": {
+    "localeName": "English — Canada",
+    "logoText": "Brian & Co.",
+    "fontFamily": "Georgia, serif",
+    "currency": "CAD",
+    "headline": "Localization AI+™",
+    "subheadline": "Regional & Dialect Intelligence Enhancement",
+    "chatGreeting": "Welcome to Brian & Co. I can adapt your experience for Canadian regional context and language preferences."
+  },
+  "fr-CA": {
+    "localeName": "Français — Canada",
+    "logoText": "Brian & Co.",
+    "fontFamily": "Georgia, serif",
+    "currency": "CAD",
+    "headline": "Localization AI+™",
+    "subheadline": "Intelligence régionale et dialectale",
+    "chatGreeting": "Bienvenue chez Brian & Co. Je peux adapter la langue, le ton, l’accessibilité et l’expérience régionale."
+  },
+  "fr-FR": {
+    "localeName": "Français — France",
+    "logoText": "Brian & Co.",
+    "fontFamily": "Georgia, serif",
+    "currency": "EUR",
+    "headline": "Localization AI+™",
+    "subheadline": "Intelligence régionale et linguistique",
+    "chatGreeting": "Bienvenue chez Brian & Co. Je peux adapter votre expérience selon votre langue, votre région et vos besoins d’accessibilité."
+  },
+  "es-US": {
+    "localeName": "Español — Estados Unidos",
+    "logoText": "Brian & Co.",
+    "fontFamily": "Georgia, serif",
+    "currency": "USD",
+    "headline": "Localization AI+™",
+    "subheadline": "Inteligencia regional y dialectal",
+    "chatGreeting": "Bienvenido a Brian & Co. Puedo adaptar el idioma, el tono, la accesibilidad y la experiencia regional."
+  },
+  "es-MX": {
+    "localeName": "Español — México",
+    "logoText": "Brian & Co.",
+    "fontFamily": "Georgia, serif",
+    "currency": "MXN",
+    "headline": "Localization AI+™",
+    "subheadline": "Inteligencia regional y dialectal",
+    "chatGreeting": "Bienvenido a Brian & Co. Puedo adaptar tu experiencia por idioma, región, accesibilidad y preferencias."
+  },
+  "de-DE": {
+    "localeName": "Deutsch — Deutschland",
+    "logoText": "Brian & Co.",
+    "fontFamily": "Georgia, serif",
+    "currency": "EUR",
+    "headline": "Localization AI+™",
+    "subheadline": "Regionale und sprachliche Intelligenz",
+    "chatGreeting": "Willkommen bei Brian & Co. Ich kann Sprache, Ton, Barrierefreiheit und regionale Hinweise anpassen."
+  },
+  "it-IT": {
+    "localeName": "Italiano — Italia",
+    "logoText": "Brian & Co.",
+    "fontFamily": "Georgia, serif",
+    "currency": "EUR",
+    "headline": "Localization AI+™",
+    "subheadline": "Intelligenza regionale e linguistica",
+    "chatGreeting": "Benvenuto in Brian & Co. Posso adattare lingua, tono, accessibilità e guida regionale."
+  },
+  "pt-BR": {
+    "localeName": "Português — Brasil",
+    "logoText": "Brian & Co.",
+    "fontFamily": "Georgia, serif",
+    "currency": "BRL",
+    "headline": "Localization AI+™",
+    "subheadline": "Inteligência regional e dialetal",
+    "chatGreeting": "Bem-vindo à Brian & Co. Posso adaptar idioma, tom, acessibilidade e orientação regional."
+  },
+  "ja-JP": {
+    "localeName": "日本語 — 日本",
+    "logoText": "Brian & Co.",
+    "fontFamily": "Georgia, serif",
+    "currency": "JPY",
+    "headline": "Localization AI+™",
+    "subheadline": "地域・方言インテリジェンス",
+    "chatGreeting": "Brian & Coへようこそ。言語、地域、アクセシビリティ、役割に合わせて体験を調整できます。"
+  },
+  "ko-KR": {
+    "localeName": "한국어 — 대한민국",
+    "logoText": "Brian & Co.",
+    "fontFamily": "Georgia, serif",
+    "currency": "KRW",
+    "headline": "Localization AI+™",
+    "subheadline": "지역 및 방언 인텔리전스",
+    "chatGreeting": "Brian & Co에 오신 것을 환영합니다. 언어, 지역, 접근성, 역할에 맞게 경험을 조정할 수 있습니다."
+  },
+  "zh-CN": {
+    "localeName": "简体中文 — 中国",
+    "logoText": "Brian & Co.",
+    "fontFamily": "Georgia, serif",
+    "currency": "CNY",
+    "headline": "Localization AI+™",
+    "subheadline": "区域与方言智能增强",
+    "chatGreeting": "欢迎来到 Brian & Co。我可以根据语言、地区、无障碍需求和角色调整体验。"
+  },
+  "ar": {
+    "localeName": "العربية",
+    "logoText": "Brian & Co.",
+    "fontFamily": "Georgia, serif",
+    "currency": "USD",
+    "direction": "rtl",
+    "headline": "Localization AI+™",
+    "subheadline": "تعزيز الذكاء الإقليمي واللغوي",
+    "chatGreeting": "مرحباً بك في Brian & Co. يمكنني تكييف اللغة والنبرة وإمكانية الوصول والإرشاد الإقليمي."
+  }
+}

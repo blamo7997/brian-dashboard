@@ -1,0 +1,1 @@
+export default async function handler(req,res){res.status(200).json({ok:true,route:"accessibility-localization",accessibility:["text sizing","reduced motion","high contrast","screen-reader labels","captions ready","keyboard navigation"],localization:["language routing","currency ready","regional SEO ready"],status:"scaffolded"});}

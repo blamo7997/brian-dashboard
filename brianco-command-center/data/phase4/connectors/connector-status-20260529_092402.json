@@ -1,0 +1,102 @@
+{
+    "created_at":  "2026-05-29T09:24:09.7328434-06:00",
+    "connector_rules":  {
+                            "chatbot":  {
+                                            "forbidden":  "private sensitive inference without consent",
+                                            "allowed_now":  "local metric registry and future approved logs"
+                                        },
+                            "shopify":  {
+                                            "forbidden":  [
+                                                              "creating products",
+                                                              "editing products",
+                                                              "editing collections",
+                                                              "changing prices",
+                                                              "changing descriptions",
+                                                              "publishing products",
+                                                              "OAuth scope changes",
+                                                              "token/secret changes"
+                                                          ],
+                                            "allowed_now":  "GET/read-only through existing safe endpoints only"
+                                        },
+                            "utility":  {
+                                            "forbidden":  "guessing utility use or scraping private accounts",
+                                            "allowed_now":  "manual/user-uploaded/authorized consent sources only"
+                                        },
+                            "vercel":  {
+                                           "forbidden":  [
+                                                             "env secret changes",
+                                                             "deployment mutation",
+                                                             "project deletion",
+                                                             "domain mutation"
+                                                         ],
+                                           "allowed_now":  "health/status GET requests only"
+                                       },
+                            "events":  {
+                                           "forbidden":  "unverified claims or private scraping",
+                                           "allowed_now":  "public/official-source watch registry"
+                                       }
+                        },
+    "mode":  "read_only_probe_layer",
+    "probes":  [
+                   {
+                       "url":  "http://localhost:3000/api/health",
+                       "read_only":  true,
+                       "method":  "GET",
+                       "error":  "Unable to connect to the remote server",
+                       "category":  "backend",
+                       "success":  false,
+                       "name":  "local_backend_health",
+                       "checked_at":  "2026-05-29T09:24:03.0167592-06:00",
+                       "response_preview":  null,
+                       "status_code":  null
+                   },
+                   {
+                       "url":  "https://brianco-backend-clean.vercel.app/api/health",
+                       "read_only":  true,
+                       "method":  "GET",
+                       "error":  null,
+                       "category":  "backend",
+                       "success":  true,
+                       "name":  "vercel_backend_health",
+                       "checked_at":  "2026-05-29T09:24:07.1323808-06:00",
+                       "response_preview":  "{\"ok\":true,\"service\":\"Brian \u0026 Co Backend\",\"status\":\"online\"}",
+                       "status_code":  200
+                   },
+                   {
+                       "url":  "https://brianco-backend-clean.vercel.app/api/status",
+                       "read_only":  true,
+                       "method":  "GET",
+                       "error":  "The remote server returned an error: (404) Not Found.",
+                       "category":  "backend",
+                       "success":  false,
+                       "name":  "vercel_backend_status",
+                       "checked_at":  "2026-05-29T09:24:08.3710342-06:00",
+                       "response_preview":  null,
+                       "status_code":  null
+                   },
+                   {
+                       "url":  "https://brianco-backend-clean.vercel.app/api/products",
+                       "read_only":  true,
+                       "method":  "GET",
+                       "error":  null,
+                       "category":  "shopify_read_only",
+                       "success":  true,
+                       "name":  "vercel_products_readonly",
+                       "checked_at":  "2026-05-29T09:24:08.5646160-06:00",
+                       "response_preview":  "{\"ok\":true,\"count\":6,\"products\":[{\"id\":9309494542563,\"title\":\"Brian \u0026 Co Accessibility \u0026 Localization Upgrade\",\"description\":\"A digital upgrade framework for accessibility controls, language-aware experiences, regional presentation, captions, readable layouts, and inclusive storefront guidance.\",\"vendor\":\"Brian \u0026 Co\",\"product_type\":\"Digital Product\",\"status\":\"draft\",\"image\":null,\"price\":\"199.00\",\"handle\":\"brian-co-accessibility-localization-upgrade\",\"url\":\"https://briannco.myshopify.com/products/brian-co-accessibility-localization-upgrade\"},{\"id\":9309498605795,\"title\":\"Brian \u0026 Co Accessibility \u0026 Localization Upgrade\",\"description\":\"A digital upgrade framework for accessibility controls, language-aware experiences, regional presentation, captions, readable layouts, and inclusive storefront ...",
+                       "status_code":  200
+                   },
+                   {
+                       "url":  "https://brianco-backend-clean.vercel.app/api/collections",
+                       "read_only":  true,
+                       "method":  "GET",
+                       "error":  null,
+                       "category":  "shopify_read_only",
+                       "success":  true,
+                       "name":  "vercel_collections_readonly",
+                       "checked_at":  "2026-05-29T09:24:09.0790226-06:00",
+                       "response_preview":  "{\"ok\":true,\"count\":2,\"collections\":[{\"id\":470095266019,\"title\":\"Home page\",\"handle\":\"frontpage\",\"image\":null,\"url\":\"https://briannco.myshopify.com/collections/frontpage\"},{\"id\":470095331555,\"title\":\"Hydrogen\",\"handle\":\"hydrogen\",\"image\":null,\"url\":\"https://briannco.myshopify.com/collections/hydrogen\"}]}",
+                       "status_code":  200
+                   }
+               ]
+}

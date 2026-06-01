@@ -1,0 +1,9 @@
+{
+    "name":  "Writer Suite + Publishing",
+    "additive_only":  true,
+    "bundle":  "029-030",
+    "description":  "Writer products, publishing tools, journal, research, story continuity, productized writing memberships.",
+    "created":  "2026-05-30T10:12:43.3648098-06:00",
+    "protected":  true,
+    "protected_from":  "project_start"
+}

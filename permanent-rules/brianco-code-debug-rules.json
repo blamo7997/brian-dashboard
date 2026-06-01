@@ -1,0 +1,25 @@
+{
+    "protected_live_systems_blocked":  true,
+    "continuous_realtime_code_debug":  true,
+    "permanent":  true,
+    "validation_checks":  3000,
+    "safe_auto_fix":  true,
+    "rerun_after_fixes":  true,
+    "protected_areas":  [
+                            "backend",
+                            "OAuth",
+                            "API keys",
+                            "environment variables",
+                            "tokens",
+                            "secrets",
+                            "payments",
+                            "live Shopify products",
+                            "live Shopify collections",
+                            "current theme publishing",
+                            "Vercel",
+                            "Supabase",
+                            "OpenAI",
+                            "social accounts",
+                            "existing integrations"
+                        ]
+}

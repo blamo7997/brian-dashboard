@@ -1,0 +1,47 @@
+{
+    "deploy_exit":  0,
+    "build_exit":  0,
+    "protected":  {
+                      "no_payment_changes":  true,
+                      "no_oauth_changes":  true,
+                      "no_secret_printing":  true,
+                      "no_collection_edits":  true,
+                      "no_raw_biometric_storage":  true,
+                      "no_product_edits":  true
+                  },
+    "record":  "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\phase14\\records\\phase14-visual-intelligence-record-20260529_120958.json",
+    "created_at":  "2026-05-29T12:11:11.8864379-06:00",
+    "phase":  "phase14_visual_intelligence_future_expansion",
+    "route_results":  [
+                          {
+                              "url":  "https://brianco-backend-clean.vercel.app/api/visual-intelligence/dashboard",
+                              "success":  true,
+                              "status":  200,
+                              "error":  null
+                          },
+                          {
+                              "url":  "https://brianco-backend-clean.vercel.app/command-center",
+                              "success":  true,
+                              "status":  200,
+                              "error":  null
+                          },
+                          {
+                              "url":  "https://brianco-backend-clean.vercel.app/future-expansion",
+                              "success":  true,
+                              "status":  200,
+                              "error":  null
+                          },
+                          {
+                              "url":  "https://brianco-backend-clean.vercel.app/native-map",
+                              "success":  true,
+                              "status":  200,
+                              "error":  null
+                          },
+                          {
+                              "url":  "https://brianco-backend-clean.vercel.app/role-center",
+                              "success":  true,
+                              "status":  200,
+                              "error":  null
+                          }
+                      ]
+}

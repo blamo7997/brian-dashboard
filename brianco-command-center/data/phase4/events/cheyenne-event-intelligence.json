@@ -1,0 +1,40 @@
+{
+    "watched_event_types":  [
+                                "Cheyenne Frontier Days",
+                                "festivals",
+                                "vendor fairs",
+                                "farmers markets",
+                                "small-business networking",
+                                "tourism events",
+                                "pop-up retail opportunities",
+                                "craft/artisan markets",
+                                "community sponsorship opportunities"
+                            ],
+    "future_source_rules":  {
+                                "avoid":  [
+                                              "unverified social rumors",
+                                              "private scraped calendars",
+                                              "paywalled/private info without permission"
+                                          ],
+                                "prefer":  [
+                                               "official event websites",
+                                               "official city/county pages",
+                                               "official tourism pages",
+                                               "venue calendars",
+                                               "reputable local media"
+                                           ]
+                            },
+    "command_center_notifications":  {
+                                         "categories":  [
+                                                            "vendor booth opportunity",
+                                                            "transportation planning required",
+                                                            "booth-sharing candidate",
+                                                            "QR marketing opportunity",
+                                                            "local supplier/artisan opportunity",
+                                                            "festival inventory recommendation"
+                                                        ]
+                                     },
+    "created_at":  "2026-05-29T09:24:10.2540497-06:00",
+    "locality":  "Cheyenne, Wyoming",
+    "status":  "source_registry_ready"
+}

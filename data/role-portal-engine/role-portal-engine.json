@@ -1,0 +1,15 @@
+{
+    "protectedAfter":  "successful build + production deploy + live validation",
+    "protectedSystems":  {
+                             "oauthUntouched":  true,
+                             "liveShopifyThemeUntouched":  true,
+                             "secretsUntouched":  true,
+                             "productsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "collectionsUntouched":  true
+                         },
+    "liveDeploymentRequired":  true,
+    "phase":  "102",
+    "title":  "Unified Role Portal Engine",
+    "status":  "prepared"
+}

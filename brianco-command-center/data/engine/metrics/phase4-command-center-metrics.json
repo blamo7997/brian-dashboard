@@ -1,0 +1,30 @@
+{
+    "phase":  "phase_4_read_only_connectors_auth_events",
+    "updated_at":  "2026-05-29T09:24:10.4118602-06:00",
+    "connectors":  {
+                       "referral_metrics":  "scaffolded",
+                       "accessibility_metrics":  "scaffolded",
+                       "utility_intelligence":  "consent-gated scaffolded",
+                       "event_intelligence":  "scaffolded",
+                       "shopify_readonly":  "probed through existing endpoints only",
+                       "language_metrics":  "scaffolded",
+                       "chatbot_metrics":  "scaffolded",
+                       "vercel_health":  "probed through GET only"
+                   },
+    "protections":  {
+                        "shopify_collections_untouched":  true,
+                        "backend_secrets_untouched":  true,
+                        "shopify_prices_untouched":  true,
+                        "oauth_untouched":  true,
+                        "payments_untouched":  true,
+                        "shopify_products_untouched":  true,
+                        "shopify_descriptions_untouched":  true,
+                        "read_only_mode":  true,
+                        "live_publish_blocked":  true
+                    },
+    "readonly_probe_summary":  {
+                                   "failed":  2,
+                                   "successful":  3,
+                                   "total":  5
+                               }
+}

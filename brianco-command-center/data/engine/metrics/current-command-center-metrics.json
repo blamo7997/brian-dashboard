@@ -1,0 +1,69 @@
+{
+    "source":  "local_phase_3_placeholder_until_authorized_connections",
+    "cheyenne_events":  {
+                            "status":  "watchlist_ready",
+                            "watched_items":  [
+                                                  "Frontier Days",
+                                                  "festivals",
+                                                  "markets",
+                                                  "vendor fairs",
+                                                  "small-business events"
+                                              ]
+                        },
+    "risk_and_fraud":  {
+                           "status":  "local_rules_ready",
+                           "protected_data_misuse_flags":  [
+
+                                                           ],
+                           "alerts":  [
+
+                                      ]
+                       },
+    "website_activity":  {
+                             "status":  "awaiting_approved_source",
+                             "health_notes":  [
+
+                                              ],
+                             "views":  0,
+                             "journeys":  [
+
+                                          ]
+                         },
+    "chatbot_activity":  {
+                             "unresolved_requests":  [
+
+                                                     ],
+                             "status":  "awaiting_approved_source",
+                             "total_interactions":  0,
+                             "typo_intelligence_events":  0
+                         },
+    "created_at":  "2026-05-29T09:19:34.9581444-06:00",
+    "product_performance":  {
+                                "existing_products_protected":  true,
+                                "status":  "read_only_future",
+                                "product_changes_blocked":  true
+                            },
+    "utility_intelligence":  {
+                                 "billing_period":  null,
+                                 "utility_provider":  null,
+                                 "consent_verified":  false,
+                                 "electricity_cost":  null,
+                                 "status":  "consent_required",
+                                 "electricity_usage_kwh":  null
+                             },
+    "digital_product_performance":  {
+                                        "status":  "local_ready",
+                                        "paid_access_requires_confirmed_payment":  true,
+                                        "live_payment_changes_blocked":  true
+                                    },
+    "customer_activity":  {
+                              "language_preferences":  [
+
+                                                       ],
+                              "status":  "awaiting_approved_source",
+                              "consent_verified_records":  0,
+                              "accessibility_preferences":  [
+
+                                                            ]
+                          }
+}

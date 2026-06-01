@@ -1,0 +1,65 @@
+{
+    "projectPath":  "C:\\Users\\user\\brianco-backend-clean",
+    "overlayRoot":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay",
+    "requiresFounderGreenCheckForLiveChanges":  true,
+    "lockedRules":  [
+                        "DO NOT modify existing backend connection files.",
+                        "DO NOT modify Vercel environment variables.",
+                        "DO NOT modify OAuth settings.",
+                        "DO NOT rotate, overwrite, print, delete, or change tokens.",
+                        "DO NOT modify Shopify products or collections.",
+                        "DO NOT modify Supabase/OpenAI/payment/social connections.",
+                        "DO NOT overwrite existing live backend files.",
+                        "CREATE additive overlay files only.",
+                        "RUN read-only checks only.",
+                        "Require Brian green-check approval before any real connection-changing action."
+                    ],
+    "touchedConnections":  false,
+    "modifiedShopifyCollections":  false,
+    "modifiedOAuth":  false,
+    "modifiedPayments":  false,
+    "modifiedEnvVars":  false,
+    "modifiedTokens":  false,
+    "readOnlyLiveTests":  [
+                              {
+                                  "sample":  "The remote server returned an error: (404) Not Found.",
+                                  "ok":  false,
+                                  "url":  "https://brianco-backend-clean.vercel.app/api/health",
+                                  "status":  "ERR"
+                              },
+                              {
+                                  "sample":  "The remote server returned an error: (404) Not Found.",
+                                  "ok":  false,
+                                  "url":  "https://brianco-backend-clean.vercel.app/api/status",
+                                  "status":  "ERR"
+                              },
+                              {
+                                  "sample":  "The remote server returned an error: (404) Not Found.",
+                                  "ok":  false,
+                                  "url":  "https://brianco-backend-clean.vercel.app/api/products",
+                                  "status":  "ERR"
+                              },
+                              {
+                                  "sample":  "The remote server returned an error: (404) Not Found.",
+                                  "ok":  false,
+                                  "url":  "https://brianco-backend-clean.vercel.app/api/collections",
+                                  "status":  "ERR"
+                              },
+                              {
+                                  "sample":  "The remote server returned an error: (404) Not Found.",
+                                  "ok":  false,
+                                  "url":  "https://brianco-backend-clean.vercel.app/admin",
+                                  "status":  "ERR"
+                              },
+                              {
+                                  "sample":  "The remote server returned an error: (404) Not Found.",
+                                  "ok":  false,
+                                  "url":  "https://brianco-backend-clean.vercel.app/portal",
+                                  "status":  "ERR"
+                              }
+                          ],
+    "mode":  "safe_overlay_only",
+    "createdAt":  "2026-05-27T08:10:50.3395318-06:00",
+    "modifiedSocialConnections":  false,
+    "modifiedShopifyProducts":  false
+}

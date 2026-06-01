@@ -1,0 +1,197 @@
+<script defer>
+(function(){
+
+if(window.__BRIANCO_TYPO_INTELLIGENCE__) return;
+window.__BRIANCO_TYPO_INTELLIGENCE__ = true;
+
+window.BrianCoTypoIntelligence = {
+
+  enabled: true,
+
+  protectedPatterns: [
+    /token/i,
+    /password/i,
+    /api/i,
+    /secret/i,
+    /oauth/i,
+    /payment/i,
+    /credit card/i,
+    /cvv/i,
+    /address/i,
+    /zip/i,
+    /postal/i
+  ],
+
+  replacements: {
+
+    "helo": "hello",
+    "helllo": "hello",
+    "gud": "good",
+    "goood": "good",
+    "mornng": "morning",
+    "evning": "evening",
+    "langauge": "language",
+    "languae": "language",
+    "accesibility": "accessibility",
+    "accesibility": "accessibility",
+    "recomend": "recommend",
+    "recomendation": "recommendation",
+    "membrship": "membership",
+    "prodct": "product",
+    "prodict": "product",
+    "chatbt": "chatbot",
+    "contnuously": "continuously",
+    "realtime": "real time",
+    "shpng": "shipping",
+    "retun": "return",
+    "lang": "language",
+    "fav": "favorite",
+    "pls": "please",
+    "thx": "thank you",
+    "u": "you",
+    "ur": "your",
+    "w": "with",
+    "bc": "because"
+  },
+
+  normalizeWhitespace(text){
+    return String(text || "")
+      .replace(/\s+/g, " ")
+      .trim();
+  },
+
+  protectSensitive(text){
+
+    const t = String(text || "");
+
+    return this.protectedPatterns.some(function(pattern){
+      return pattern.test(t);
+    });
+  },
+
+  applyDictionary(text){
+
+    let result = String(text || "");
+
+    Object.keys(this.replacements).forEach((key) => {
+
+      const escaped = key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+      const regex = new RegExp("\\b" + escaped + "\\b", "gi");
+
+      result = result.replace(regex, this.replacements[key]);
+
+    });
+
+    return result;
+  },
+
+  normalizeUnicode(text){
+
+    return String(text || "")
+      .normalize("NFKC");
+  },
+
+  softCorrect(text){
+
+    if(!text) return text;
+
+    if(this.protectSensitive(text)){
+      return text;
+    }
+
+    let result = text;
+
+    result = this.normalizeUnicode(result);
+    result = this.normalizeWhitespace(result);
+    result = this.applyDictionary(result);
+
+    return result;
+  }
+
+};
+
+function attachRealtimeCorrection(input){
+
+  if(!input) return;
+
+  if(input.dataset.briancoTypoAttached === "true") return;
+
+  input.dataset.briancoTypoAttached = "true";
+
+  input.addEventListener("input", function(){
+
+    const original = input.value;
+
+    const corrected =
+      window.BrianCoTypoIntelligence.softCorrect(original);
+
+    if(corrected !== original){
+
+      const start = input.selectionStart;
+      const end = input.selectionEnd;
+
+      input.value = corrected;
+
+      try {
+        input.setSelectionRange(start, end);
+      }
+      catch(e){}
+    }
+
+  });
+}
+
+function scanInputs(){
+
+  const selectors = [
+    "textarea",
+    "input[type='text']",
+    "input[type='search']",
+    "#brianco-chatbot-input",
+    ".chatbot-input",
+    "[data-chat-input]"
+  ];
+
+  selectors.forEach(function(selector){
+
+    document.querySelectorAll(selector)
+      .forEach(attachRealtimeCorrection);
+
+  });
+}
+
+function multilingualGreetingEnhancer(){
+
+  const htmlLang =
+    document.documentElement.lang ||
+    navigator.language ||
+    "en";
+
+  window.BrianCoLanguage = htmlLang;
+}
+
+document.addEventListener("DOMContentLoaded", function(){
+
+  multilingualGreetingEnhancer();
+  scanInputs();
+
+});
+
+setInterval(function(){
+  scanInputs();
+}, 2000);
+
+const observer = new MutationObserver(function(){
+  scanInputs();
+});
+
+observer.observe(document.documentElement, {
+  childList: true,
+  subtree: true
+});
+
+console.log("Brian & Co typo intelligence active.");
+
+})();
+</script>

@@ -1,0 +1,86 @@
+﻿<div id="brianco-chatbot-live-layer" style="display:none;">
+Brian & Co live concierge layer active
+</div>
+
+<script>
+(function(){
+
+if(window.__BRIANCO_CHATBOT_LAYER__) return;
+window.__BRIANCO_CHATBOT_LAYER__ = true;
+
+const FAQ = [
+["What is Brian & Co?","Brian & Co is a refined concierge commerce ecosystem."],
+["How does the chatbot help?","The concierge assists with products, services, memberships, accessibility, and recommendations."],
+["Can I change language preferences?","Yes. Brian & Co supports localized language experiences where available."],
+["Does Brian & Co support accessibility?","Yes. Accessibility and readability options are prioritized."]
+];
+
+window.BrianCoFAQ = FAQ;
+
+function getGreeting(){
+
+    const h = new Date().getHours();
+
+    let greeting = "Good evening";
+
+    if(h < 12){
+        greeting = "Good morning";
+    }
+    else if(h < 17){
+        greeting = "Good afternoon";
+    }
+
+    const firstName =
+        localStorage.getItem("brianco_first_name") ||
+        "";
+
+    const namePart =
+        firstName ? ", " + firstName : "";
+
+    return greeting + namePart + ". How is your day going?";
+}
+
+window.BrianCoGreeting = getGreeting();
+
+document.addEventListener("DOMContentLoaded", function(){
+
+    const footer = document.querySelector("footer");
+
+    if(footer && !document.getElementById("brianco-live-faq")){
+
+        const faqWrap = document.createElement("section");
+
+        faqWrap.id = "brianco-live-faq";
+
+        faqWrap.style.cssText =
+            "margin:40px auto;padding:24px;max-width:1200px;" +
+            "border-radius:24px;background:#faf6ef;" +
+            "border:1px solid rgba(180,140,70,.25);" +
+            "font-family:Arial,sans-serif;color:#17120d;";
+
+        let html = "";
+
+        html += "<h2 style='margin-bottom:14px;'>Brian & Co FAQ</h2>";
+
+        FAQ.forEach(function(item){
+
+            html +=
+                "<div style='margin-bottom:18px;'>" +
+                "<strong>" + item[0] + "</strong>" +
+                "<p style='margin-top:6px;line-height:1.5;'>" + item[1] + "</p>" +
+                "</div>";
+
+        });
+
+        faqWrap.innerHTML = html;
+
+        footer.prepend(faqWrap);
+    }
+
+    console.log("Brian & Co Greeting:");
+    console.log(window.BrianCoGreeting);
+
+});
+
+})();
+</script>

@@ -1,0 +1,4 @@
+.brianco-page{padding:48px 24px;max-width:1180px;margin:0 auto}
+.brianco-page h1{font-size:clamp(2.1rem,5vw,4.8rem);letter-spacing:-.05em}
+.brianco-footer-links{display:flex;flex-wrap:wrap;gap:12px;padding:24px}
+.brianco-footer-links a{text-decoration:underline}

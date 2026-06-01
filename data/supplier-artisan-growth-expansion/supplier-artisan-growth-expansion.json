@@ -1,0 +1,13 @@
+{
+    "phase":  "94",
+    "status":  "prepared",
+    "protectedPhases":  "1-93 protected after validation",
+    "title":  "Supplier Artisan Growth Expansion",
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         }
+}

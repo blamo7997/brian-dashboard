@@ -1,0 +1,25 @@
+﻿{
+    "created":  "20260530_153355",
+    "bundle":  "Bundle 04",
+    "slug":  "supplier-recruitment-center",
+    "title":  "Supplier Recruitment Center",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Supplier, artisan, dropship, origin, production, and return-policy intake intelligence.",
+    "modules":  [
+                    "Supplier intake",
+                    "Dropship readiness",
+                    "US-supplier-first launch rule",
+                    "Country-of-origin tracking",
+                    "Return policy capture"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No deploy unless build and Playwright pass",
+                  "No Shopify live product edits",
+                  "No OAuth/payment/customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Founder approval required for protected changes"
+              ]
+}

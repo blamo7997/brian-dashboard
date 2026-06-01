@@ -1,0 +1,37 @@
+{
+  "created":"20260530_085654",
+  "system":"Brian & Co Luxury Dropship + Resale Intelligence",
+  "protected":true,
+  "purpose":"Support Brian & Co as a curated dropshipper/reseller for authentic luxury and high-end retail goods while preventing counterfeit, trademark, authorization, warranty, and supplier-policy risks.",
+  "brands_requested":[
+    "Tiffany & Co.",
+    "Armani",
+    "Louis Vuitton",
+    "High-end retailers and luxury specialty brands"
+  ],
+  "allowed_direction":"Curated authentic resale, authorized supplier relationships, approved wholesale/affiliate/marketplace partnerships, legally reviewed consignment, and verified secondhand luxury sourcing.",
+  "blocked_without_review":[
+    "Claiming authorized dealer status without written authorization",
+    "Using luxury brand logos as if Brian & Co is the brand or official partner",
+    "Selling counterfeit, replica, dupe, inspired-by, or uncertain-authenticity goods",
+    "Using brand names in misleading ads, product titles, packaging, or SEO",
+    "Selling modified luxury goods without disclosure and legal review",
+    "Selling gray-market goods without country/warranty/labeling review",
+    "Dropshipping from unverified suppliers",
+    "Removing or obscuring country-of-origin, condition, serial/authentication, warranty, or provenance details"
+  ],
+  "required_before_listing":[
+    "Supplier authorization or lawful resale basis",
+    "Authenticity verification",
+    "Provenance record",
+    "Condition record",
+    "Country of origin",
+    "Warranty/return limitation disclosure",
+    "Trademark-safe product title",
+    "No implication of affiliation unless authorized",
+    "Founder approval",
+    "Legal review for high-risk luxury listings"
+  ],
+  "customer_wording_rule":"Brian & Co may describe authentic resale items clearly, but must not imply brand affiliation, sponsorship, or authorized-dealer status unless documented.",
+  "tone":"refined, transparent, trustworthy, never gimmicky, never misleading"
+}

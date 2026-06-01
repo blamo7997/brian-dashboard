@@ -1,0 +1,38 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 13",
+    "phase":  "Phase 26",
+    "slug":  "commerce-recommendation-master",
+    "title":  "Commerce Recommendation Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Income-tier personalization, ethical recommendations, product-fit scoring, upgrade-fit scoring, shipping/tax awareness, margin awareness, repeat customer incentives, and revenue reporting.",
+    "modules":  [
+                    "Income-tier routing",
+                    "Product fit scoring",
+                    "Upgrade fit scoring",
+                    "Shipping awareness",
+                    "Tax awareness",
+                    "Margin awareness",
+                    "Repeat customer offer",
+                    "Revenue reporting",
+                    "No gimmicky upsell"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

@@ -1,0 +1,24 @@
+{
+    "phase":  "60",
+    "status":  "prepared",
+    "protectedPhases":  "1-59 protected after validation",
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         },
+    "adminCompanionAreas":  [
+                                "Admin Companion Intelligence",
+                                "Shopify Home Companion Cards",
+                                "Founder Notification Intelligence",
+                                "Sales Intelligence",
+                                "Offer Performance Intelligence",
+                                "Recommendation Intelligence",
+                                "Command Center Companion Coordination",
+                                "Executive Dashboard Intelligence",
+                                "Green-Check Approval Companion",
+                                "Protected-System Alerting"
+                            ]
+}

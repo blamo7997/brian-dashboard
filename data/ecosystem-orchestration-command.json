@@ -1,0 +1,25 @@
+﻿{
+    "created":  "20260530_153355",
+    "bundle":  "Bundle 09",
+    "slug":  "ecosystem-orchestration-command",
+    "title":  "Ecosystem Orchestration Command",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Unified orchestration for command, legal approval, roles, events, suppliers, products, and AI.",
+    "modules":  [
+                    "Founder command wiring",
+                    "Legal approval wiring",
+                    "Role portal wiring",
+                    "Supplier intelligence wiring",
+                    "Product intelligence wiring"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No deploy unless build and Playwright pass",
+                  "No Shopify live product edits",
+                  "No OAuth/payment/customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Founder approval required for protected changes"
+              ]
+}

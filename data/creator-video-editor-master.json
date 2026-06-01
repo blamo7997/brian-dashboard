@@ -1,0 +1,39 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 12",
+    "phase":  "Phase 24",
+    "slug":  "creator-video-editor-master",
+    "title":  "Creator Video Editor Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Video editor concierge with chatbot help, transcripts, subtitles, localization, accessibility, creator asset library, script help, social clips, livestream, and podcast workflows.",
+    "modules":  [
+                    "Video editor concierge",
+                    "Chatbot navigation",
+                    "Subtitles",
+                    "Captions",
+                    "Localization",
+                    "Creator assets",
+                    "Script help",
+                    "Social clips",
+                    "Podcast workflows",
+                    "Livestream workflows"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

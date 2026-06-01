@@ -1,0 +1,32 @@
+{
+    "created_at":  "2026-05-29T09:19:35.0676408-06:00",
+    "pending":  [
+                    {
+                        "status":  "hold_until_founder_approval",
+                        "item":  "Connect approved read-only data sources",
+                        "risk":  "medium"
+                    },
+                    {
+                        "status":  "hold_until_user_consent_and_founder_approval",
+                        "item":  "Activate utility intelligence",
+                        "risk":  "high"
+                    },
+                    {
+                        "status":  "hold_until_founder_approval",
+                        "item":  "Wire dashboard into live/admin UI",
+                        "risk":  "medium"
+                    }
+                ],
+    "founder_approval_required_for":  [
+                                          "live website changes",
+                                          "product publishing",
+                                          "pricing",
+                                          "OAuth/API scopes",
+                                          "payments",
+                                          "backend secrets",
+                                          "customer account creation",
+                                          "sensitive personalization",
+                                          "utility data activation",
+                                          "legal-sensitive wording"
+                                      ]
+}

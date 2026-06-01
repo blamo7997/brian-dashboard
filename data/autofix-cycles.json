@@ -1,0 +1,16 @@
+[
+    {
+        "cycle":  1,
+        "website_failures":  2790,
+        "chatbot_failures":  3000,
+        "safe_local_fixes_applied":  0,
+        "stopped_because":  "continuing_or_manual_blockers"
+    },
+    {
+        "cycle":  2,
+        "website_failures":  2806,
+        "chatbot_failures":  3000,
+        "safe_local_fixes_applied":  0,
+        "stopped_because":  "continuing_or_manual_blockers"
+    }
+]

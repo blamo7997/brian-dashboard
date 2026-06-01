@@ -1,0 +1,138 @@
+{
+    "digital_connections":  [
+                                {
+                                    "status":  "blueprint_only",
+                                    "name":  "Shopify Digital Delivery Connection",
+                                    "approval":  "Founder + Shopify/API approval",
+                                    "purpose":  "Deliver files/access after purchase"
+                                },
+                                {
+                                    "status":  "blueprint_only",
+                                    "name":  "Membership Access Connection",
+                                    "approval":  "Founder + legal/payment review",
+                                    "purpose":  "Gate subscription-tier benefits"
+                                },
+                                {
+                                    "status":  "blueprint_only",
+                                    "name":  "AI Concierge Memory Connection",
+                                    "approval":  "Founder + privacy/legal review",
+                                    "purpose":  "Role-aware saved preferences and continuity"
+                                },
+                                {
+                                    "status":  "blueprint_only",
+                                    "name":  "Financing Provider Connection",
+                                    "approval":  "Founder + payment/legal review",
+                                    "purpose":  "Native-feeling financing display and routing"
+                                },
+                                {
+                                    "status":  "blueprint_only",
+                                    "name":  "Legal E-Signature Connection",
+                                    "approval":  "Founder + lawyer review",
+                                    "purpose":  "Contracts, approvals, green-check records"
+                                },
+                                {
+                                    "status":  "blueprint_only",
+                                    "name":  "Supplier/Creator Portal Connection",
+                                    "approval":  "Founder + legal review",
+                                    "purpose":  "Supplier, artisan, creator, influencer workflows"
+                                }
+                            ],
+    "created_at":  "2026-05-27T09:34:09.4598471-06:00",
+    "protected_connections_touched":  false,
+    "products":  [
+                     {
+                         "collection":  "Digital Products",
+                         "type":  "Digital Product",
+                         "price":  97,
+                         "approval":  "Founder + legal review",
+                         "title":  "Brian \u0026 Co AI Concierge Suite",
+                         "status":  "draft_blueprint"
+                     },
+                     {
+                         "collection":  "Digital Products",
+                         "type":  "Digital Product",
+                         "price":  149,
+                         "approval":  "Founder + legal review",
+                         "title":  "Consent Atlas AI",
+                         "status":  "draft_blueprint"
+                     },
+                     {
+                         "collection":  "À La Carte Upgrades",
+                         "type":  "À La Carte Upgrade",
+                         "price":  29,
+                         "approval":  "Founder",
+                         "title":  "Luxury Product Copy Generator",
+                         "status":  "draft_blueprint"
+                     },
+                     {
+                         "collection":  "À La Carte Upgrades",
+                         "type":  "À La Carte Upgrade",
+                         "price":  49,
+                         "approval":  "Founder",
+                         "title":  "Supplier Vetting Intelligence Pack",
+                         "status":  "draft_blueprint"
+                     },
+                     {
+                         "collection":  "À La Carte Upgrades",
+                         "type":  "À La Carte Upgrade",
+                         "price":  39,
+                         "approval":  "Founder + accessibility review",
+                         "title":  "Accessibility Personalization Add-On",
+                         "status":  "draft_blueprint"
+                     },
+                     {
+                         "collection":  "Subscription Tiers",
+                         "type":  "Subscription Tier",
+                         "price":  19,
+                         "approval":  "Founder + legal review",
+                         "title":  "Brian \u0026 Co Starter Membership",
+                         "status":  "draft_blueprint"
+                     },
+                     {
+                         "collection":  "Subscription Tiers",
+                         "type":  "Subscription Tier",
+                         "price":  79,
+                         "approval":  "Founder + legal review",
+                         "title":  "Brian \u0026 Co Professional Membership",
+                         "status":  "draft_blueprint"
+                     },
+                     {
+                         "collection":  "Subscription Tiers",
+                         "type":  "Subscription Tier",
+                         "price":  199,
+                         "approval":  "Founder + legal review",
+                         "title":  "Brian \u0026 Co Executive Membership",
+                         "status":  "draft_blueprint"
+                     }
+                 ],
+    "live_shopify_changes_made":  false,
+    "status":  "pending_founder_green_check",
+    "legal_status":  "DRAFT — PENDING LEGAL REVIEW",
+    "collections":  [
+                        {
+                            "title":  "Digital Products",
+                            "handle":  "digital-products",
+                            "purpose":  "AI tools, templates, portals, and sellable digital systems."
+                        },
+                        {
+                            "title":  "À La Carte Upgrades",
+                            "handle":  "a-la-carte-upgrades",
+                            "purpose":  "One-time premium enhancements and service upgrades."
+                        },
+                        {
+                            "title":  "Subscription Tiers",
+                            "handle":  "subscription-tiers",
+                            "purpose":  "Recurring memberships with role-aware benefits."
+                        },
+                        {
+                            "title":  "Digital Connections",
+                            "handle":  "digital-connections",
+                            "purpose":  "Future API/app/provider connection opportunities pending approval."
+                        },
+                        {
+                            "title":  "Financing Options",
+                            "handle":  "financing-options",
+                            "purpose":  "Financing presentation scaffolds pending legal/payment approval."
+                        }
+                    ]
+}

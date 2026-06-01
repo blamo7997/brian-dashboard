@@ -1,0 +1,9 @@
+{
+    "name":  "Future OS + Sandbox Safety",
+    "additive_only":  true,
+    "bundle":  "049-050",
+    "description":  "OS sandbox, web OS, PWA, optional future dual boot/overwrite only with explicit approval and safety gates.",
+    "created":  "2026-05-30T10:12:43.6962320-06:00",
+    "protected":  true,
+    "protected_from":  "project_start"
+}

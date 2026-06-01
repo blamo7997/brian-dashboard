@@ -1,0 +1,112 @@
+{
+  "collections": [
+    {
+      "title": "Brian & Co AI Commerce Systems",
+      "handle": "brian-co-ai-commerce-systems",
+      "imageMode": "collage",
+      "description": "A refined collection of AI commerce, concierge, product-routing, storefront-intelligence, and founder-approved automation systems for Brian & Co and future client deployments."
+    },
+    {
+      "title": "Brian & Co Accessibility, Localization & Trust Systems",
+      "handle": "brian-co-accessibility-localization-trust-systems",
+      "imageMode": "collage",
+      "description": "A premium collection of accessibility, localization, compliance-readiness, trust, captioning, and user-experience enhancement systems."
+    },
+    {
+      "title": "Brian & Co Luxury Operations & Growth Systems",
+      "handle": "brian-co-luxury-operations-growth-systems",
+      "imageMode": "collage",
+      "description": "Operational systems for luxury commerce, supplier readiness, product launch workflows, SEO, admin visibility, and premium brand growth."
+    }
+  ],
+  "products": [
+    {
+      "title": "Brian & Co AI Concierge Starter System",
+      "handle": "brian-co-ai-concierge-starter-system",
+      "sku": "BRIANCO-AI-STARTER",
+      "price": "149.00",
+      "tier": "a-la-carte",
+      "collectionHandle": "brian-co-ai-commerce-systems",
+      "body_html": "A refined digital foundation for AI-guided commerce, customer support, product routing, accessibility guidance, and founder-approved automation.",
+      "tags": "brian and co,digital,ai concierge,starter,a la carte",
+      "imagePrompt": "Luxury abstract AI concierge dashboard, elegant black ivory and champagne palette, refined commerce cards, product recommendations, subtle glow, premium editorial technology collage"
+    },
+    {
+      "title": "Brian & Co AI Concierge Pro Subscription",
+      "handle": "brian-co-ai-concierge-pro-subscription",
+      "sku": "BRIANCO-AI-PRO-SUB",
+      "price": "49.00",
+      "tier": "subscription",
+      "collectionHandle": "brian-co-ai-commerce-systems",
+      "body_html": "A monthly AI concierge system subscription concept for live product guidance, product cards, refined support workflows, localization, and founder-approved commerce intelligence.",
+      "tags": "brian and co,digital,ai concierge,subscription,pro",
+      "imagePrompt": "Premium subscription software dashboard collage with AI assistant, product cards, elegant commerce workflows, luxury black gold ivory design"
+    },
+    {
+      "title": "Brian & Co Luxury Commerce Operating Kit",
+      "handle": "brian-co-luxury-commerce-operating-kit",
+      "sku": "BRIANCO-COMMERCE-KIT",
+      "price": "299.00",
+      "tier": "a-la-carte",
+      "collectionHandle": "brian-co-luxury-operations-growth-systems",
+      "body_html": "A premium operating kit for polished storefront strategy, product curation, supplier readiness, customer experience, and elegant growth workflows.",
+      "tags": "brian and co,digital,commerce,luxury,a la carte",
+      "imagePrompt": "Luxury commerce operations kit collage, storefront strategy, premium product cards, supplier workflow, elegant gold ivory black editorial layout"
+    },
+    {
+      "title": "Brian & Co Accessibility & Localization Upgrade",
+      "handle": "brian-co-accessibility-localization-upgrade",
+      "sku": "BRIANCO-ACCESS-LOCAL",
+      "price": "199.00",
+      "tier": "a-la-carte",
+      "collectionHandle": "brian-co-accessibility-localization-trust-systems",
+      "body_html": "A digital upgrade framework for accessibility controls, language-aware experiences, regional presentation, captions, readable layouts, and inclusive storefront guidance.",
+      "tags": "brian and co,digital,accessibility,localization,a la carte",
+      "imagePrompt": "Elegant accessibility and localization collage, multilingual interface, captions, readable layouts, inclusive luxury digital product visual"
+    },
+    {
+      "title": "Brian & Co Consent Atlas AI Subscription",
+      "handle": "brian-co-consent-atlas-ai-subscription",
+      "sku": "BRIANCO-CONSENT-ATLAS-SUB",
+      "price": "39.00",
+      "tier": "subscription",
+      "collectionHandle": "brian-co-accessibility-localization-trust-systems",
+      "body_html": "A monthly consent, privacy, accessibility, and compliance-readiness subscription concept inspired by enterprise consent platforms but expanded with Brian & Co localization and approval workflows.",
+      "tags": "brian and co,digital,consent,privacy,subscription,accessibility",
+      "imagePrompt": "Luxury privacy consent atlas collage, compliance dashboard, global regions, accessibility symbols, refined enterprise software visual"
+    },
+    {
+      "title": "Brian & Co Executive Growth Intelligence Subscription",
+      "handle": "brian-co-executive-growth-intelligence-subscription",
+      "sku": "BRIANCO-GROWTH-INTEL-SUB",
+      "price": "79.00",
+      "tier": "subscription",
+      "collectionHandle": "brian-co-luxury-operations-growth-systems",
+      "body_html": "A monthly executive intelligence subscription concept for SEO guidance, product expansion planning, supplier readiness, performance insights, and premium growth recommendations.",
+      "tags": "brian and co,digital,growth,subscription,executive intelligence",
+      "imagePrompt": "Executive luxury analytics dashboard collage, growth intelligence, SEO, supplier insights, elegant black gold interface"
+    },
+    {
+      "title": "Brian & Co Digital Product Studio Add-On",
+      "handle": "brian-co-digital-product-studio-add-on",
+      "sku": "BRIANCO-DIGITAL-STUDIO-ADDON",
+      "price": "249.00",
+      "tier": "a-la-carte",
+      "collectionHandle": "brian-co-ai-commerce-systems",
+      "body_html": "An à la carte digital product studio add-on for planning, packaging, product-card strategy, generated-image direction, and polished launch workflows.",
+      "tags": "brian and co,digital,studio,a la carte,product creation",
+      "imagePrompt": "Digital product studio collage, software products, image generation, premium product packaging, elegant creative dashboard"
+    },
+    {
+      "title": "Brian & Co Native Theme Localization Pack",
+      "handle": "brian-co-native-theme-localization-pack",
+      "sku": "BRIANCO-NATIVE-THEME-LOCAL",
+      "price": "349.00",
+      "tier": "a-la-carte",
+      "collectionHandle": "brian-co-accessibility-localization-trust-systems",
+      "body_html": "A localized theme-variant planning pack for native-country storefront tone, accessibility, regional trust cues, luxury visual adaptation, and country-aware presentation.",
+      "tags": "brian and co,digital,theme,localization,a la carte",
+      "imagePrompt": "Luxury localized storefront theme collage, global country variants, regional design cues, elegant multilingual commerce interface"
+    }
+  ]
+}

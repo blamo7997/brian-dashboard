@@ -1,0 +1,55 @@
+{
+    "created_at":  "2026-05-29T09:38:31.6368073-06:00",
+    "protected_systems":  {
+                              "payments_untouched":  true,
+                              "prices_untouched":  true,
+                              "oauth_untouched":  true,
+                              "backend_secrets_untouched":  true,
+                              "products_untouched":  true,
+                              "collections_untouched":  true,
+                              "descriptions_untouched":  true
+                          },
+    "result":  "3 / 5",
+    "files_confirmed":  [
+                            "C:\\Users\\user\\brianco-backend-clean\\api\\health.js",
+                            "C:\\Users\\user\\brianco-backend-clean\\api\\status.js",
+                            "C:\\Users\\user\\brianco-backend-clean\\package.json"
+                        ],
+    "probes":  [
+                   {
+                       "name":  "local_backend_health",
+                       "url":  "http://localhost:3000/api/health",
+                       "success":  false,
+                       "status":  null,
+                       "error":  "Unable to connect to the remote server"
+                   },
+                   {
+                       "name":  "vercel_backend_health",
+                       "url":  "https://brianco-backend-clean.vercel.app/api/health",
+                       "success":  true,
+                       "status":  200,
+                       "error":  null
+                   },
+                   {
+                       "name":  "vercel_backend_status",
+                       "url":  "https://brianco-backend-clean.vercel.app/api/status",
+                       "success":  false,
+                       "status":  null,
+                       "error":  "The remote server returned an error: (404) Not Found."
+                   },
+                   {
+                       "name":  "vercel_products_readonly",
+                       "url":  "https://brianco-backend-clean.vercel.app/api/products",
+                       "success":  true,
+                       "status":  200,
+                       "error":  null
+                   },
+                   {
+                       "name":  "vercel_collections_readonly",
+                       "url":  "https://brianco-backend-clean.vercel.app/api/collections",
+                       "success":  true,
+                       "status":  200,
+                       "error":  null
+                   }
+               ]
+}

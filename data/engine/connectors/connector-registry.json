@@ -1,0 +1,51 @@
+{
+    "created_at":  "2026-05-29T09:19:34.7820404-06:00",
+    "connectors":  {
+                       "utility_intelligence_future":  {
+                                                           "status":  "consent_required",
+                                                           "allowed":  [
+                                                                           "manual user entry",
+                                                                           "uploaded bill",
+                                                                           "authorized utility API",
+                                                                           "authorized smart-meter API"
+                                                                       ],
+                                                           "forbidden":  [
+                                                                             "scraping",
+                                                                             "guessing",
+                                                                             "private account access without consent"
+                                                                         ]
+                                                       },
+                       "accessibility_language_future":  {
+                                                             "status":  "local_placeholder",
+                                                             "allowed":  "saved user preferences with consent or local browser preference signals",
+                                                             "forbidden":  "protected identity assumptions"
+                                                         },
+                       "cheyenne_events_future":  {
+                                                      "watched":  [
+                                                                      "Cheyenne Frontier Days",
+                                                                      "local festivals",
+                                                                      "vendor fairs",
+                                                                      "markets",
+                                                                      "community events"
+                                                                  ],
+                                                      "status":  "watchlist_only",
+                                                      "allowed":  "official/public event sources later"
+                                                  },
+                       "vercel_health_future":  {
+                                                    "status":  "not_connected",
+                                                    "allowed":  "health/status reads only",
+                                                    "forbidden":  "env secret changes or deployment changes without approval"
+                                                },
+                       "shopify_read_only_future":  {
+                                                        "status":  "not_connected",
+                                                        "allowed":  "read-only after explicit approval",
+                                                        "forbidden":  "product, price, collection, OAuth, payment, token, or live-write changes"
+                                                    },
+                       "chatbot_metrics_future":  {
+                                                      "status":  "local_placeholder",
+                                                      "allowed":  "approved logs, consent-safe interactions, unresolved request summaries",
+                                                      "forbidden":  "private/sensitive inference without consent"
+                                                  }
+                   },
+    "mode":  "registry_only_no_credentials"
+}

@@ -1,0 +1,127 @@
+<script defer>
+(function(){
+
+if(window.__BRIANCO_FAQ_INTELLIGENCE__) return;
+window.__BRIANCO_FAQ_INTELLIGENCE__ = true;
+
+window.BrianCoFAQIntelligence = {
+
+  registry: [],
+
+  add(question, answer){
+
+    if(!question || !answer) return;
+
+    const exists = this.registry.some(function(x){
+      return x.question === question;
+    });
+
+    if(exists) return;
+
+    this.registry.push({
+      question,
+      answer
+    });
+
+    this.render();
+  },
+
+  scan(){
+
+    document.querySelectorAll("h1,h2,h3,button,a,.product-card")
+      .forEach((el)=>{
+
+        const text = (el.innerText || "").trim();
+
+        if(!text) return;
+
+        if(/membership|subscription/i.test(text)){
+          this.add(
+            "Are memberships available?",
+            "Brian & Co may provide memberships, subscriptions, bundles, and digital access experiences."
+          );
+        }
+
+        if(/language/i.test(text)){
+          this.add(
+            "Can I change language preferences?",
+            "Yes. Brian & Co supports preferred-language experiences where available."
+          );
+        }
+
+        if(/accessibility/i.test(text)){
+          this.add(
+            "Does Brian & Co support accessibility?",
+            "Yes. Accessibility-aware experiences are prioritized."
+          );
+        }
+
+      });
+
+  },
+
+  render(){
+
+    let wrap = document.getElementById("brianco-live-faq-intelligence");
+
+    if(!wrap){
+
+      wrap = document.createElement("section");
+
+      wrap.id = "brianco-live-faq-intelligence";
+
+      wrap.style.cssText =
+        "margin:40px auto;padding:24px;" +
+        "max-width:1400px;border-radius:28px;" +
+        "background:#faf6ef;border:1px solid rgba(0,0,0,.08);";
+
+      const footer = document.querySelector("footer");
+
+      if(footer){
+        footer.prepend(wrap);
+      }
+
+    }
+
+    let html = "";
+
+    html += "<h2>Brian & Co Live FAQ</h2>";
+
+    this.registry.forEach(function(item){
+
+      html +=
+        "<div style='margin-bottom:18px;'>" +
+        "<strong>" + item.question + "</strong>" +
+        "<p>" + item.answer + "</p>" +
+        "</div>";
+
+    });
+
+    wrap.innerHTML = html;
+
+  }
+
+};
+
+function loop(){
+
+  window.BrianCoFAQIntelligence.scan();
+  window.BrianCoFAQIntelligence.render();
+
+}
+
+document.addEventListener("DOMContentLoaded", loop);
+
+setInterval(loop, 4000);
+
+const observer = new MutationObserver(function(){
+  loop();
+});
+
+observer.observe(document.documentElement,{
+  childList:true,
+  subtree:true
+});
+
+})();
+</script>

@@ -1,0 +1,37 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 07",
+    "phase":  "Phase 14",
+    "slug":  "video-media-brand-master",
+    "title":  "Video and Media Brand Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Uploaded videos are preserved, captioned, subtitled, localized, optionally branded with intro/outro, and converted into Brian \u0026 Co display media after approval.",
+    "modules":  [
+                    "Original video preserved",
+                    "Captions",
+                    "Subtitles",
+                    "Localization",
+                    "Brand intro/outro",
+                    "Customer display version",
+                    "Accessibility metadata",
+                    "Founder approval"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

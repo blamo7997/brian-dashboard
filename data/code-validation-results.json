@@ -1,0 +1,3034 @@
+[
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\chunks\\899.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\chunks\\font-manifest.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\shopify\\auth.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\shopify\\auth.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\shopify\\callback.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\shopify\\callback.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\shopify\\install.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\shopify\\install.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\shopify\\test.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\shopify\\test.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\collections.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\collections.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\health.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\health.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\products.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\products.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\shopify-callback.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\shopify-callback.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\shopify-install.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\shopify-install.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\shopify-test.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\api\\shopify-test.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\404.html",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\500.html",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\index.html",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\index.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\_app.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\_app.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\_document.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\_document.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\_error.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages\\_error.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\font-manifest.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\functions-config-manifest.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\interception-route-rewrite-manifest.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\middleware-build-manifest.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\middleware-manifest.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\middleware-react-loadable-manifest.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\next-font-manifest.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\next-font-manifest.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\pages-manifest.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\webpack-api-runtime.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\server\\webpack-runtime.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\static\\chunks\\pages\\index-0f10bf429836c737.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\static\\chunks\\pages\\_app-5810f0a972a88d88.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\static\\chunks\\pages\\_error-7a92967bea80186d.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\static\\chunks\\framework-64ad27b21261a9ce.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\static\\chunks\\main-723f98eb367cc52a.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\static\\chunks\\polyfills-42372ed130431b0a.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\static\\chunks\\webpack-4e7214a60fad8e88.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\static\\Rxik-aybh6gFmPaslMSMb\\_buildManifest.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\static\\Rxik-aybh6gFmPaslMSMb\\_ssgManifest.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\build-manifest.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\export-marker.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\images-manifest.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\next-minimal-server.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\next-server.js.nft.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\package.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\prerender-manifest.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\react-loadable-manifest.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\required-server-files.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.next\\routes-manifest.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\.vercel\\project.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api\\brain\\event.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api\\brain\\interact.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api\\brain\\user.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api\\index.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api_backup_over_12_limit_20260526_043824\\api\\api\\shopify-callback.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api_backup_over_12_limit_20260526_043824\\api\\shopify\\callback.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api_backup_over_12_limit_20260526_043824\\api\\shopify\\install.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api_backup_over_12_limit_20260526_043824\\api\\backup-products.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api_backup_over_12_limit_20260526_043824\\api\\chat.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api_backup_over_12_limit_20260526_043824\\api\\collections.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api_backup_over_12_limit_20260526_043824\\api\\concierge.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api_backup_over_12_limit_20260526_043824\\api\\intelligence.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api_backup_over_12_limit_20260526_043824\\api\\next-steps.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api_backup_over_12_limit_20260526_043824\\api\\products.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api_backup_over_12_limit_20260526_043824\\api\\score.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api_backup_over_12_limit_20260526_043824\\api\\secret-health.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api_backup_over_12_limit_20260526_043824\\api\\seed-digital-products-OFF.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\api_backup_over_12_limit_20260526_043824\\api\\shopify-install.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-digital-continuity-20260527-093405\\approval-queue\\pending-products-connections-collections.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-digital-continuity-20260527-093405\\assets\\brianco-digital-ecosystem.css",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-digital-continuity-20260527-093405\\checkpoints\\blueprints_written.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-digital-continuity-20260527-093405\\checkpoints\\history_updated.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-digital-continuity-20260527-093405\\checkpoints\\started.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-digital-continuity-20260527-093405\\checkpoints\\theme_section_written.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-digital-continuity-20260527-093405\\checkpoints\\validation_complete.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-digital-continuity-20260527-093405\\checkpoints\\zip_created.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-digital-continuity-20260527-093405\\data\\collection-blueprints.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-digital-continuity-20260527-093405\\data\\product-blueprints.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-digital-continuity-20260527-093405\\digital-connections\\digital-connection-blueprints.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-digital-continuity-20260527-093405\\referenced-prior-state\\previous-current-project-state.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-digital-continuity-20260527-093405\\referenced-prior-state\\previous-project-history.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-digital-continuity-20260527-093405\\sections\\brianco-digital-ecosystem.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-resume-continuity-overlay-20260527-092732\\assets\\brianco-continuity-overlay.css",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-resume-continuity-overlay-20260527-092732\\assets\\brianco-continuity-overlay.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-resume-continuity-overlay-20260527-092732\\checkpoints\\continuity_written.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-resume-continuity-overlay-20260527-092732\\checkpoints\\history_updated.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-resume-continuity-overlay-20260527-092732\\checkpoints\\started.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-resume-continuity-overlay-20260527-092732\\checkpoints\\theme_overlay_files_written.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-resume-continuity-overlay-20260527-092732\\checkpoints\\validation_complete.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-resume-continuity-overlay-20260527-092732\\checkpoints\\zip_created.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-resume-continuity-overlay-20260527-092732\\continuity\\brianco-continuity-rules.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-resume-continuity-overlay-20260527-092732\\sections\\brianco-continuity-overlay.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-auto-resume-continuity-overlay-20260527-092732\\snippets\\brianco-continuity-overlay.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-autofix-3000-validation-20260527-122628\\data\\autofix-cycles.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-autofix-3000-validation-20260527-122628\\data\\chatbot-results.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-autofix-3000-validation-20260527-122628\\data\\website-results.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-autofix-3000-validation-20260527-122628\\fixes\\safe-local-fixes-applied.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-autofix-3000-validation-20260527-122628\\questions\\generated-3000-localized-chatbot-questions.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-autofix-3000-validation-20260527-122628\\reports\\summary-report.md",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-autofix-3000-validation-20260527-122628\\theme-scaffold\\brianco-localized-adaptive-shell.css",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-autofix-3000-validation-20260527-122628\\theme-scaffold\\brianco-localized-adaptive-shell.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-code-debug-3000-20260527-135810\\data\\code-validation-results.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-code-debug-3000-20260527-135810\\permanent-rules\\brianco-code-debug-rules.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-124320\\accessibility-blueprints\\safe-new-accessibility-features.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-124320\\data\\chatbot-results.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-124320\\data\\website-results.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-124320\\permanent-rules\\brianco-permanent-rules.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-124320\\questions\\generated-3000-questions.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-124320\\reports\\summary-report.md",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-124320\\research-watchlist\\vetted-accessibility-sources.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-124320\\theme-scaffold\\brianco-permanent-accessibility-shell.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-125607\\accessibility-blueprints\\safe-new-accessibility-features.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-125607\\data\\chatbot-results.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-125607\\data\\website-results.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-125607\\permanent-rules\\brianco-permanent-rules.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-125607\\questions\\generated-3000-questions.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-125607\\reports\\summary-report.md",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-125607\\research-watchlist\\vetted-accessibility-sources.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-125607\\theme-scaffold\\brianco-permanent-accessibility-shell.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-130858\\accessibility-blueprints\\safe-new-accessibility-features.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-130858\\data\\chatbot-results.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-130858\\data\\website-results.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-130858\\permanent-rules\\brianco-permanent-rules.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-130858\\questions\\generated-3000-questions.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-130858\\reports\\summary-report.md",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-130858\\research-watchlist\\vetted-accessibility-sources.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-130858\\theme-scaffold\\brianco-permanent-accessibility-shell.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-132431\\accessibility-blueprints\\safe-new-accessibility-features.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-132431\\data\\chatbot-results.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-132431\\data\\website-results.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-132431\\permanent-rules\\brianco-permanent-rules.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-132431\\questions\\generated-3000-questions.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-132431\\reports\\summary-report.md",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-132431\\research-watchlist\\vetted-accessibility-sources.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-132431\\theme-scaffold\\brianco-permanent-accessibility-shell.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-134044\\accessibility-blueprints\\safe-new-accessibility-features.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-134044\\data\\chatbot-results.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-134044\\data\\website-results.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-134044\\permanent-rules\\brianco-permanent-rules.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-134044\\questions\\generated-3000-questions.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-134044\\reports\\summary-report.md",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-134044\\research-watchlist\\vetted-accessibility-sources.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-permanent-realtime-checks-20260527-134044\\theme-scaffold\\brianco-permanent-accessibility-shell.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-protected-continuous-products-20260527-121805\\approval-queue\\pending-products-theme-security-review.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-protected-continuous-products-20260527-121805\\assets\\brianco-protected-product-lab.css",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-protected-continuous-products-20260527-121805\\collections\\collections.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-protected-continuous-products-20260527-121805\\data\\priced-digital-products.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-protected-continuous-products-20260527-121805\\pricing\\pricing-blueprints.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-protected-continuous-products-20260527-121805\\sections\\brianco-protected-product-lab.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-protected-continuous-products-20260527-121805\\security\\protected-area-policy.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-protected-continuous-products-20260527-121805\\sources\\official-watchlist.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-protected-continuous-products-20260527-121805\\theme-update\\safe-current-theme-update-plan.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\brain\\event.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\brain\\interact.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\brain\\user.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\accessibility-localization.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\auth-options.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\chat.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\collections.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\digital-delivery.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\founder-status.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\health.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\products.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\risk-score.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\seed-products.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\seo-status.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\shopify-callback.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\shopify-install.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\status.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\api\\storefront-feed.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\package.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\vercel-project.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-18-44\\vercel.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\brain\\event.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\brain\\interact.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\brain\\user.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\accessibility-localization.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\auth-options.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\chat.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\collections.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\digital-delivery.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\founder-status.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\health.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\products.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\risk-score.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\seed-products.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\seo-status.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\shopify-callback.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\shopify-install.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\status.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\api\\storefront-feed.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\live-check-summary.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\package.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\vercel-project.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-continuity-2026-05-26_07-22-35\\vercel.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\assets\\brianco-command-center.css",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\assets\\brianco-command-center.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\assets\\brianco-connected.css",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\assets\\brianco-connected.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\assets\\brianco-human-chatbot-memory.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\assets\\brianco-previous-code-intelligence.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\assets\\brianco-realtime-overlay.css",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\assets\\brianco-realtime-overlay.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\layout\\theme.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\sections\\brianco-role-portals.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\snippets\\brianco-backend-config.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\snippets\\brianco-command-center.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\snippets\\brianco-realtime-overlay.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\templates\\index.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\templates\\product.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\lib\\localization\\engine.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\lib\\recommendations\\engine.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\lib\\seo\\engine.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\lib\\trust\\safety.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\lib\\brianco-db.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\lib\\brianco-memory.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\lib\\brianco-openai.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\lib\\forever-openai.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\lib\\security.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\lib\\shopify-oauth.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\lib\\shopify.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\lib\\supabase.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\logs\\new-routes-check-2026-05-26_07-28-23.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\memory-engine\\adaptiveRecommendations.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\memory-engine\\interactionMemoryRules.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\node_modules\\.package-lock.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\pages\\api\\shopify\\auth.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\pages\\api\\shopify\\callback.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\pages\\api\\shopify\\install.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\pages\\api\\shopify\\test.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\pages\\api\\collections.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\pages\\api\\health.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\pages\\api\\products.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\pages\\api\\shopify-callback.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\pages\\api\\shopify-install.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\pages\\api\\shopify-test.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\pages\\index.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\public\\brianco-admin.html",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\public\\command-center.html",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\public\\forever-dashboard.html",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\public\\index.html",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\reports\\DEEP_TEST_REPORT.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\reports\\GO_LIVE_VALIDATION.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\reports\\PRESERVE_AND_EXTEND_RULE.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\reports\\ROLE_CONNECTED_THEME_VALIDATION.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\reports\\SECTION11_SIMULATION_REPORT.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\reports\\SECTION16_MEMORY_ENGINE_REPORT.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\reports\\SECTION17_LIVE_MEMORY_API.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\reports\\SHOPIFY_50MB_FEATURE_BUDGET.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\reports\\THEME_SIZE_REPORT.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\theme-embed\\brianco-concierge-embed.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\theme-pack\\assets\\brianco.css",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\theme-pack\\layout\\theme.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\theme-pack\\sections\\brianco-feature-grid.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\theme-pack\\templates\\index.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\.vercel\\project.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\brain\\event.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\brain\\interact.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\brain\\user.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\accessibility-localization.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\auth-options.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\chat.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\collections.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\digital-delivery.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\founder-status.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\health.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\products.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\risk-score.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\seed-products.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\seo-status.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\shopify-callback.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\shopify-install.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\status.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\api\\storefront-feed.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\logs\\new-routes-check-2026-05-26_07-28-23.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\brianco-self-repair-loop.ps1",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\brianco-windows-x64-update-runner.ps1",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\package-lock.json",
+        "passed":  false,
+        "errors":  [
+                       "Invalid JSON: Cannot process argument because the value of argument \"name\" is not valid. Change the value of the \"name\" argument and run the operation again."
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\package.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\test-score.ps1",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\before-powershell-update-2026-05-26_07-51-55\\vercel.json",
+        "passed":  false,
+        "errors":  [
+                       "Invalid JSON: Invalid JSON primitive: ."
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\.vercel\\project.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\brain\\event.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\brain\\interact.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\brain\\user.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\accessibility-localization.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\auth-options.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\chat.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\collections.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\digital-delivery.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\founder-status.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\health.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\products.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\risk-score.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\seed-products.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\seo-status.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\shopify-callback.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\shopify-install.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\status.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\api\\storefront-feed.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\brianco-self-repair-loop.ps1",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\brianco-windows-x64-update-runner.ps1",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\package-lock.json",
+        "passed":  false,
+        "errors":  [
+                       "Invalid JSON: Cannot process argument because the value of argument \"name\" is not valid. Change the value of the \"name\" argument and run the operation again."
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\package.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\test-score.ps1",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\windows-x64-continuity\\continuity-2026-05-26_07-25-03\\vercel.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\admin-overlay\\index.safe-overlay.html",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\api-overlay\\financing-options.safe-overlay.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\api-overlay\\fraud-scan.safe-overlay.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\api-overlay\\status.safe-overlay.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\api-overlay\\_shared.safe-overlay.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\backup_manifests\\READ_ONLY_PROJECT_MANIFEST_20260527_084010.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\chatbot-typo-intelligence\\typo-intelligence.safe-overlay.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\digital_product_intelligence\\DIGITAL_PRODUCT_DRAFTS_20260527_085250.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\digital_product_intelligence\\DIGITAL_PRODUCT_DRAFTS_20260527_090705.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\digital_product_intelligence\\DIGITAL_PRODUCT_IMAGE_PROMPTS_20260527_085250.md",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\granular_previous_project_intelligence\\GRANULAR_SAFE_SCAN_20260527_090705.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\handoff\\BRIANCO_NEW_PROJECT_HANDOFF.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\handoff\\BRIANCO_NEW_PROJECT_HANDOFF.md",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\previous_code_intelligence\\PREVIOUS_CODE_SAFE_SCAN_20260527_085250.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\previous_code_intelligence\\PREVIOUS_CODE_THEME_INTELLIGENCE_20260527_084010.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\realtime\\approval_queue\\MASTER_APPROVAL_20260527_085250.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\reports\\3000_VALIDATION_20260527_090705.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\reports\\BRIANCO_SAFE_REALTIME_OVERLAY_DONE_20260527_085250.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\reports\\CURRENT_THEME_OVERLAY_INSTALL_20260527_084141.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\reports\\FULL_REALTIME_THEME_CHATBOT_SYSTEM_CREATED_20260527_084010.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\reports\\MASTER_SAFE_REALTIME_OVERLAY_DONE_20260527_090705.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\reports\\NATIVE_ADMIN_COMMAND_CENTER_ADDED_20260527_084213.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\reports\\READ_ONLY_PROJECT_MANIFEST_20260527_085250.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\reports\\THEME_INSTALL_20260527_090929.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\reports\\THEME_OVERLAY_INSTALL_20260527_085433.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\reports\\WATCHDOG_REPORT_20260527_084139.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\social-drafts\\social-draft-template.safe-overlay.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\src\\brianco-eloquent-tone-engine.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\src\\brianco-greencheck-approvals.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\src\\brianco-human-interaction-memory.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\src\\brianco-realtime-theme-chatbot-bridge.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\src\\brianco-typo-intelligence.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\theme_overlay\\brianco-command-center.css",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\theme_overlay\\brianco-command-center.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\theme_overlay\\brianco-command-center.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\theme_overlay\\brianco-human-chatbot-memory.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\theme_overlay\\brianco-native-admin-command-center.css",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\theme_overlay\\brianco-native-admin-command-center.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\theme_overlay\\brianco-previous-code-intelligence.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\theme_overlay\\brianco-realtime-overlay.css",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\theme_overlay\\brianco-realtime-overlay.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\theme_overlay\\brianco-realtime-overlay.liquid",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\brianco.overlay.config.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\BRIANCO_PERMANENT_SAFE_RULES.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\INSTALL_GRANULAR_THEME_PORTALS.ps1",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\INSTALL_OR_UPDATE_CURRENT_THEME_OVERLAY.ps1",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\RUN_OVERLAY_VALIDATION.ps1",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\RUN_READ_ONLY_WATCHDOG.ps1",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\SAFE_OVERLAY_REPORT_20260527_081046.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\START_REALTIME_THEME_CHATBOT_WATCHER.ps1",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\START_SAFE_REALTIME_WATCHER.ps1",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-digital-catalog.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-self-repair-loop.ps1",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\brianco-windows-x64-update-runner.ps1",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\next.config.js",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\package-lock.json",
+        "passed":  false,
+        "errors":  [
+                       "Invalid JSON: Cannot process argument because the value of argument \"name\" is not valid. Change the value of the \"name\" argument and run the operation again."
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\package.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\test-score.ps1",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\vercel.backup.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    },
+    {
+        "file":  "C:\\Users\\user\\brianco-backend-clean\\vercel.json",
+        "passed":  true,
+        "errors":  [
+
+                   ],
+        "safe_fix_available":  false
+    }
+]

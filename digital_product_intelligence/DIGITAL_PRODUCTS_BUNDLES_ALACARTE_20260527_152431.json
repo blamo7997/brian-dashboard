@@ -1,0 +1,74 @@
+[
+    {
+        "features":  [
+                         "captions",
+                         "social drafts",
+                         "video concepts",
+                         "image prompts",
+                         "approval queue",
+                         "accessibility captions"
+                     ],
+        "type":  "subscription",
+        "basePrice":  49,
+        "collection":  "Creator Tools",
+        "alacarteFrom":  9,
+        "title":  "Brian \u0026 Co AI Creator Suite"
+    },
+    {
+        "features":  [
+                         "product ideas",
+                         "collection drafts",
+                         "pricing guidance",
+                         "SEO drafts",
+                         "theme update queue"
+                     ],
+        "type":  "subscription",
+        "basePrice":  79,
+        "collection":  "Commerce Systems",
+        "alacarteFrom":  15,
+        "title":  "Brian \u0026 Co Commerce Intelligence"
+    },
+    {
+        "features":  [
+                         "templates",
+                         "documents",
+                         "workflow prompts",
+                         "localized copy",
+                         "legal-review flags"
+                     ],
+        "type":  "subscription",
+        "basePrice":  39,
+        "collection":  "Business Productivity",
+        "alacarteFrom":  7,
+        "title":  "Brian \u0026 Co Digital Office"
+    },
+    {
+        "features":  [
+                         "localized service routing",
+                         "homeless support",
+                         "very-low-income support",
+                         "native-language help",
+                         "accessibility guidance",
+                         "privacy-aware intake"
+                     ],
+        "type":  "free-support-scaffold",
+        "basePrice":  0,
+        "collection":  "Free / Low-Income Support",
+        "alacarteFrom":  0,
+        "title":  "Brian \u0026 Co Local Support Companion"
+    },
+    {
+        "features":  [
+                         "native financing options",
+                         "payment-plan visibility",
+                         "localized eligibility notes",
+                         "non-predatory guidance",
+                         "legal-review flags"
+                     ],
+        "type":  "financing-scaffold",
+        "basePrice":  0,
+        "collection":  "Financing Support",
+        "alacarteFrom":  0,
+        "title":  "Brian \u0026 Co Ethical Financing Guide"
+    }
+]

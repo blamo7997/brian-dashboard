@@ -1,0 +1,375 @@
+node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+At C:\Users\user\AppData\Roaming\npm\vercel.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/vercel/dist/vc.js" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  % Total    % ... Time   Current:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+                                 Dload  Upload  Total   Spent   Left   Speed
+
+{
+  "ok": true,
+  "count": 6,
+  "products": [
+    {
+      "id": 9309494542563,
+      "title": "Brian & Co Accessibility & Localization Upgrade",
+      "body_html": "A digital upgrade framework for accessibility controls, language-aware experiences, regional presentation, captions, readable layouts, and inclusive storefront guidance.",
+      "vendor": "Brian & Co",
+      "product_type": "Digital Product",
+      "created_at": "2026-05-26T08:45:40-04:00",
+      "handle": "brian-co-accessibility-localization-upgrade",
+      "updated_at": "2026-05-26T08:45:48-04:00",
+      "published_at": null,
+      "template_suffix": null,
+      "published_scope": "web",
+      "tags": "accessibility, brian and co, digital, localization",
+      "status": "draft",
+      "admin_graphql_api_id": "gid://shopify/Product/9309494542563",
+      "variants": [
+        {
+          "id": 49015859937507,
+          "product_id": 9309494542563,
+          "title": "Default Title",
+          "price": "199.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": null,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-05-26T08:45:40-04:00",
+          "updated_at": "2026-05-26T08:45:40-04:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": "BRIANCO-ACCESS-LOCAL",
+          "weight": 0,
+          "weight_unit": "lb",
+          "inventory_item_id": 51182357905635,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/49015859937507",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 11772423471331,
+          "product_id": 9309494542563,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    },
+    {
+      "id": 9309498605795,
+      "title": "Brian & Co Accessibility & Localization Upgrade",
+      "body_html": "A digital upgrade framework for accessibility controls, language-aware experiences, regional presentation, captions, readable layouts, and inclusive storefront guidance.",
+      "vendor": "Brian & Co",
+      "product_type": "Digital Product",
+      "created_at": "2026-05-26T08:48:11-04:00",
+      "handle": "brian-co-accessibility-localization-upgrade-1",
+      "updated_at": "2026-05-26T08:48:18-04:00",
+      "published_at": null,
+      "template_suffix": null,
+      "published_scope": "web",
+      "tags": "accessibility, brian and co, digital, localization",
+      "status": "draft",
+      "admin_graphql_api_id": "gid://shopify/Product/9309498605795",
+      "variants": [
+        {
+          "id": 49015864164579,
+          "product_id": 9309498605795,
+          "title": "Default Title",
+          "price": "199.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": null,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-05-26T08:48:11-04:00",
+          "updated_at": "2026-05-26T08:48:12-04:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": "BRIANCO-ACCESS-LOCAL",
+          "weight": 0,
+          "weight_unit": "lb",
+          "inventory_item_id": 51182362132707,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/49015864164579",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 11772427632867,
+          "product_id": 9309498605795,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    },
+    {
+      "id": 9309494444259,
+      "title": "Brian & Co AI Concierge Starter System",
+      "body_html": "A refined digital foundation for AI-guided commerce, customer support, product routing, accessibility guidance, and founder-approved automation.",
+      "vendor": "Brian & Co",
+      "product_type": "Digital Product",
+      "created_at": "2026-05-26T08:45:38-04:00",
+      "handle": "brian-co-ai-concierge-starter-system",
+      "updated_at": "2026-05-26T08:45:47-04:00",
+      "published_at": null,
+      "template_suffix": null,
+      "published_scope": "web",
+      "tags": "ai concierge, brian and co, digital, starter",
+      "status": "draft",
+      "admin_graphql_api_id": "gid://shopify/Product/9309494444259",
+      "variants": [
+        {
+          "id": 49015859839203,
+          "product_id": 9309494444259,
+          "title": "Default Title",
+          "price": "149.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": null,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-05-26T08:45:38-04:00",
+          "updated_at": "2026-05-26T08:45:39-04:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": "BRIANCO-AI-STARTER",
+  0      0   0      0   0      0      0      0                              0
+          "weight": 0,
+          "weight_unit": "lb",
+          "inventory_item_id": 51182357807331,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/49015859839203",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 11772423373027,
+          "product_id": 9309494444259,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    },
+    {
+      "id": 9309498540259,
+      "title": "Brian & Co AI Concierge Starter System",
+      "body_html": "A refined digital foundation for AI-guided commerce, customer support, product routing, accessibility guidance, and founder-approved automation.",
+      "vendor": "Brian & Co",
+      "product_type": "Digital Product",
+      "created_at": "2026-05-26T08:48:10-04:00",
+      "handle": "brian-co-ai-concierge-starter-system-1",
+      "updated_at": "2026-05-26T08:48:16-04:00",
+      "published_at": null,
+      "template_suffix": null,
+      "published_scope": "web",
+      "tags": "ai concierge, brian and co, digital, starter",
+      "status": "draft",
+      "admin_graphql_api_id": "gid://shopify/Product/9309498540259",
+      "variants": [
+        {
+          "id": 49015864099043,
+          "product_id": 9309498540259,
+          "title": "Default Title",
+          "price": "149.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": null,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-05-26T08:48:10-04:00",
+          "updated_at": "2026-05-26T08:48:10-04:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": "BRIANCO-AI-STARTER",
+          "weight": 0,
+          "weight_unit": "lb",
+          "inventory_item_id": 51182362067171,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/49015864099043",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 11772427567331,
+          "product_id": 9309498540259,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    },
+    {
+      "id": 9309494477027,
+      "title": "Brian & Co Luxury Commerce Operating Kit",
+      "body_html": "A premium operating kit for polished storefront strategy, product curation, supplier readiness, customer experience, and elegant growth workflows.",
+      "vendor": "Brian & Co",
+      "product_type": "Digital Product",
+      "created_at": "2026-05-26T08:45:39-04:00",
+      "handle": "brian-co-luxury-commerce-operating-kit",
+      "updated_at": "2026-05-26T08:45:47-04:00",
+      "published_at": null,
+      "template_suffix": null,
+      "published_scope": "web",
+      "tags": "brian and co, commerce, digital, luxury",
+      "status": "draft",
+      "admin_graphql_api_id": "gid://shopify/Product/9309494477027",
+      "variants": [
+        {
+          "id": 49015859904739,
+          "product_id": 9309494477027,
+          "title": "Default Title",
+          "price": "299.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": null,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-05-26T08:45:39-04:00",
+          "updated_at": "2026-05-26T08:45:40-04:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": "BRIANCO-COMMERCE-KIT",
+          "weight": 0,
+          "weight_unit": "lb",
+          "inventory_item_id": 51182357840099,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/49015859904739",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 11772423405795,
+          "product_id": 9309494477027,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    },
+    {
+      "id": 9309498573027,
+      "title": "Brian & Co Luxury Commerce Operating Kit",
+      "body_html": "A premium operating kit for polished storefront strategy, product curation, supplier readiness, customer experience, and elegant growth workflows.",
+      "vendor": "Brian & Co",
+      "product_type": "Digital Product",
+      "created_at": "2026-05-26T08:48:10-04:00",
+      "handle": "brian-co-luxury-commerce-operating-kit-1",
+      "updated_at": "2026-05-26T08:48:41-04:00",
+      "published_at": null,
+      "template_suffix": null,
+      "published_scope": "web",
+      "tags": "brian and co, commerce, digital, luxury",
+      "status": "draft",
+      "admin_graphql_api_id": "gid://shopify/Product/9309498573027",
+      "variants": [
+        {
+          "id": 49015864131811,
+          "product_id": 9309498573027,
+          "title": "Default Title",
+          "price": "299.00",
+          "position": 1,
+          "inventory_policy": "deny",
+          "compare_at_price": null,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "created_at": "2026-05-26T08:48:10-04:00",
+          "updated_at": "2026-05-26T08:48:11-04:00",
+          "taxable": true,
+          "barcode": null,
+          "fulfillment_service": "manual",
+          "grams": 0,
+          "inventory_management": null,
+          "requires_shipping": true,
+          "sku": "BRIANCO-COMMERCE-KIT",
+          "weight": 0,
+          "weight_unit": "lb",
+          "inventory_item_id": 51182362099939,
+          "inventory_quantity": 0,
+          "old_inventory_quantity": 0,
+          "admin_graphql_api_id": "gid://shopify/ProductVariant/49015864131811",
+          "image_id": null
+        }
+      ],
+      "options": [
+        {
+          "id": 11772427600099,
+          "product_id": 9309498573027,
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "images": [],
+      "image": null
+    }
+  ]
+100  12214 100  12214   0      0  11307      0   00:01   00:01          11323
+100  12214 100  12214   0      0  11306      0   00:01   00:01          11323
+100  12214 100  12214   0      0  11305      0   00:01   00:01          11323
+100  12214 100  12214   0      0  11304      0   00:01   00:01          11323
+}
+

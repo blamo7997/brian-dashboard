@@ -1,0 +1,261 @@
+﻿<div id="bc-accessibility-concierge">
+  <button id="bc-access-toggle" type="button">How May We Better Serve You?</button>
+
+  <section id="bc-access-panel" hidden>
+    <div class="bc-panel-head">
+      <div>
+        <p class="bc-mini">Brian &amp; Co Concierge Intelligence</p>
+        <h2>Every individual experiences the world differently.</h2>
+      </div>
+      <button id="bc-access-close" type="button" aria-label="Close">×</button>
+    </div>
+
+    <p class="bc-opening">
+      We invite you to share any consideration that would allow Brian &amp; Co to present a more comfortable, thoughtful, and effective experience.
+    </p>
+
+    <label>Share what would be most meaningful or helpful, and we will guide you to the appropriate consideration.</label>
+    <textarea id="bc-smart-finder" placeholder="Examples: I have dyslexia. I speak French Canadian. I am helping my mother. I need larger text. Please reduce motion. I prefer Spanish. I need help reading this."></textarea>
+
+    <button class="bc-accordion" type="button" data-bc-section="comfort">Comfort, Clarity &amp; Accessibility</button>
+    <div class="bc-accordion-panel" data-bc-panel="comfort" hidden>
+      <label>Share any consideration that would allow us to serve you with greater comfort and care.</label>
+      <textarea id="bc-access-search" placeholder="Examples: I would appreciate larger text. I have dyslexia. Please minimize motion. I am caring for an aging parent. I need keyboard-friendly navigation."></textarea>
+
+      <div class="bc-suggestions">
+        <button data-bc-access="largeText">Present Content in a More Comfortable Reading Format</button>
+        <button data-bc-access="highContrast">Improve Visual Distinction Between Elements</button>
+        <button data-bc-access="reducedMotion">Minimize Motion and Visual Distraction</button>
+        <button data-bc-access="dyslexia">Present Information in a More Readable Format</button>
+        <button data-bc-access="plainLanguage">Communicate With Greater Simplicity and Clarity</button>
+        <button data-bc-access="readAloud">Present This Experience Through Spoken Narration</button>
+        <button data-bc-access="caregiver">Support Those Caring for Others</button>
+        <button data-bc-access="elder">Present With Comfort, Clarity, and Ease in Mind</button>
+        <button data-bc-access="keyboard">Support Keyboard-Friendly Navigation</button>
+        <button data-bc-access="captions">Honor Caption and Subtitle Considerations</button>
+        <button data-bc-access="spacing">Create More Comfortable Spacing</button>
+        <button data-bc-access="focus">Reduce Distractions and Emphasize What Matters Most</button>
+        <button data-bc-access="memory">Make Information Easier to Revisit and Recall</button>
+        <button data-bc-access="executiveFunction">Present Each Step in a Clear and Sequential Manner</button>
+        <button data-bc-access="sensory">Reduce Sensory Weight Across the Experience</button>
+        <button data-bc-access="anxiety">Present Information With Greater Calm and Reassurance</button>
+      </div>
+    </div>
+
+    <button class="bc-accordion" type="button" data-bc-section="language">Language, Expression &amp; Communication</button>
+    <div class="bc-accordion-panel" data-bc-panel="language" hidden>
+      <label>Tell us which language, dialect, expression, or manner of communication feels most natural to you.</label>
+      <textarea id="bc-language-search" placeholder="Examples: French Canadian. Mexican Spanish. Plain English. Professional English. Arabic. Egyptian Arabic. Hindi. Urdu. Easy-read English."></textarea>
+
+      <div class="bc-suggestions">
+        <button data-bc-language="Spanish">Spanish</button>
+        <button data-bc-language="Mexican Spanish">Mexican Spanish</button>
+        <button data-bc-language="French Canadian">French Canadian</button>
+        <button data-bc-language="Arabic">Arabic</button>
+        <button data-bc-language="Egyptian Arabic">Egyptian Arabic</button>
+        <button data-bc-language="Hindi">Hindi</button>
+        <button data-bc-language="Urdu">Urdu</button>
+        <button data-bc-language="Plain English">Plain English</button>
+        <button data-bc-language="Easy-read English">Easy-read English</button>
+        <button data-bc-language="Professional English">Professional English</button>
+        <button data-bc-language="Concise communication">Concise Communication</button>
+        <button data-bc-language="Detailed guidance">Detailed Guidance</button>
+        <button data-bc-language="American Sign Language resources">American Sign Language Resources</button>
+      </div>
+    </div>
+
+    <button class="bc-accordion" type="button" data-bc-section="remember">Anything Else We Should Know?</button>
+    <div class="bc-accordion-panel" data-bc-panel="remember" hidden>
+      <label>Share anything you would like Brian &amp; Co to remember on this device.</label>
+      <textarea id="bc-memory-search" placeholder="Examples: I prefer email. I am a caregiver. I am visually impaired. I prefer concise responses. I need help understanding forms."></textarea>
+
+      <button id="bc-save-preferences" type="button">Kindly Remember These Considerations for Future Visits</button>
+      <button id="bc-reset-preferences" type="button">Remove Previously Remembered Considerations From This Device</button>
+    </div>
+
+    <div id="bc-access-result">
+      You may describe your needs naturally. Brian &amp; Co will preserve supported considerations on this device where possible.
+    </div>
+  </section>
+</div>
+
+<style>
+#bc-accessibility-concierge{position:fixed;right:22px;bottom:22px;z-index:999999;font-family:Georgia,serif}
+#bc-access-toggle{max-width:330px;border:1px solid rgba(242,201,92,.7);border-radius:999px;padding:14px 18px;background:linear-gradient(135deg,#080705,#6d5422);color:#fff7df;box-shadow:0 18px 60px rgba(0,0,0,.45);cursor:pointer}
+#bc-access-panel{position:fixed;right:22px;bottom:82px;width:min(560px,calc(100vw - 32px));max-height:84vh;overflow:auto;border:1px solid rgba(242,201,92,.55);border-radius:28px;padding:22px;background:linear-gradient(135deg,#050505,#1f180d);color:#fff7df;box-shadow:0 30px 120px rgba(0,0,0,.55)}
+.bc-panel-head{position:sticky;top:0;z-index:5;display:flex;justify-content:space-between;gap:12px;align-items:flex-start;background:linear-gradient(135deg,#050505,#1f180d);padding-bottom:12px;border-bottom:1px solid rgba(242,201,92,.2)}
+#bc-access-close{flex:0 0 auto;width:44px;height:44px;border-radius:999px;border:1px solid rgba(242,201,92,.58);background:linear-gradient(135deg,#080705,#6d5422);color:#fff7df;font-size:28px;cursor:pointer;box-shadow:0 10px 30px rgba(0,0,0,.45)}
+.bc-mini{letter-spacing:.22em;text-transform:uppercase;color:#f2c95c;font-size:11px;margin:0 0 8px}
+#bc-access-panel h2{font-size:25px;line-height:1.12;margin:0}
+.bc-opening{line-height:1.72;color:rgba(255,247,223,.86)}
+#bc-access-panel label{display:block;margin-top:12px;margin-bottom:8px;color:#f2c95c;line-height:1.45}
+#bc-access-panel textarea{width:100%;min-height:88px;border-radius:16px;padding:14px;background:#090807;color:#fff7df;border:1px solid rgba(242,201,92,.38);font:inherit}
+#bc-smart-finder.live-match{border-color:#f2c95c!important;box-shadow:0 0 22px rgba(242,201,92,.45)!important}
+.bc-highlight{border-color:#f2c95c!important;background:rgba(242,201,92,.18)!important}
+.bc-accordion{width:100%;margin-top:12px;text-align:left;border:1px solid rgba(242,201,92,.46);border-radius:18px;padding:13px 15px;background:rgba(255,255,255,.06);color:#fff7df;font:inherit;cursor:pointer}
+.bc-accordion::after{content:"＋";float:right;color:#f2c95c}
+.bc-accordion[aria-expanded="true"]::after{content:"—"}
+.bc-accordion-panel{padding:12px 0}
+.bc-suggestions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.bc-suggestions button,#bc-save-preferences,#bc-reset-preferences{border:1px solid rgba(242,201,92,.46);border-radius:999px;padding:9px 12px;background:rgba(255,255,255,.06);color:#fff7df;cursor:pointer}
+#bc-save-preferences{margin-top:14px;background:linear-gradient(135deg,#1c160e,#6d5422)}
+#bc-reset-preferences{margin-top:10px}
+#bc-access-result{margin-top:14px;padding:14px;border-radius:16px;background:rgba(255,255,255,.06);border:1px solid rgba(242,201,92,.28);line-height:1.55;white-space:pre-wrap}
+body.bc-large-text{font-size:120%!important}
+body.bc-high-contrast{filter:contrast(1.22)}
+body.bc-reduced-motion *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+body.bc-more-spacing *{letter-spacing:.025em;line-height:1.8!important}
+body.bc-dyslexia-friendly{font-family:Arial,Helvetica,sans-serif!important}
+body.bc-focus-mode main,body.bc-focus-mode .bc-real-home{max-width:980px!important;margin-left:auto!important;margin-right:auto!important}
+body.bc-sensory-friendly *{box-shadow:none!important;text-shadow:none!important}
+@media(max-width:640px){
+  #bc-accessibility-concierge{right:14px;bottom:14px}
+  #bc-access-panel{right:12px;bottom:72px;width:calc(100vw - 24px);max-height:78vh}
+  #bc-access-toggle{max-width:calc(100vw - 28px)}
+}
+</style>
+
+<script>
+(function(){
+  var toggle=document.getElementById("bc-access-toggle");
+  var panel=document.getElementById("bc-access-panel");
+  var close=document.getElementById("bc-access-close");
+  var smartBox=document.getElementById("bc-smart-finder");
+  var access=document.getElementById("bc-access-search");
+  var language=document.getElementById("bc-language-search");
+  var memory=document.getElementById("bc-memory-search");
+  var save=document.getElementById("bc-save-preferences");
+  var reset=document.getElementById("bc-reset-preferences");
+  var result=document.getElementById("bc-access-result");
+
+  function say(message){ if(result) result.textContent=message; }
+  function speak(text){ try{ speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance(text)); }catch(e){} }
+
+  function openSection(key){
+    var target=document.querySelector('[data-bc-panel="'+key+'"]');
+    var btn=document.querySelector('[data-bc-section="'+key+'"]');
+    document.querySelectorAll(".bc-accordion-panel").forEach(function(p){p.hidden=true});
+    document.querySelectorAll(".bc-accordion").forEach(function(b){b.setAttribute("aria-expanded","false")});
+    if(target){target.hidden=false}
+    if(btn){btn.setAttribute("aria-expanded","true")}
+    if(target){target.scrollIntoView({behavior:"smooth",block:"nearest"})}
+  }
+
+  function clearHighlights(){
+    document.querySelectorAll("[data-bc-access],[data-bc-language]").forEach(function(el){el.classList.remove("bc-highlight")});
+  }
+
+  function highlightMatches(words){
+    clearHighlights();
+    document.querySelectorAll("[data-bc-access],[data-bc-language]").forEach(function(el){
+      var txt=(el.textContent||"").toLowerCase();
+      if(words.some(function(w){return txt.indexOf(w)>-1})){el.classList.add("bc-highlight")}
+    });
+  }
+
+  function realtimeGuide(){
+    if(!smartBox) return;
+    var q=(smartBox.value||"").toLowerCase();
+    smartBox.classList.remove("live-match");
+    clearHighlights();
+
+    if(q.length<2) return;
+
+    var languageWords=["spanish","español","mexican","french","français","canadian","arabic","egyptian","hindi","urdu","language","dialect","translate","formal","concise","detailed"];
+    var rememberWords=["caregiver","mother","father","parent","family","remember","email","future","helping"];
+    var comfortWords=["dyslexia","large text","larger","motion","keyboard","caption","subtitle","read aloud","spacing","focus","memory","anxiety","autism","adhd","hearing","vision","blind","screen reader"];
+
+    if(languageWords.some(function(w){return q.indexOf(w)>-1})){
+      openSection("language");
+      highlightMatches(languageWords);
+      smartBox.classList.add("live-match");
+      say("The language and communication area has been opened so Brian & Co may better understand the expression, dialect, or manner of communication that feels most natural to you.");
+      return;
+    }
+
+    if(rememberWords.some(function(w){return q.indexOf(w)>-1})){
+      openSection("remember");
+      smartBox.classList.add("live-match");
+      say("The additional-considerations area has been opened so Brian & Co may remember what would be helpful on this device where supported.");
+      return;
+    }
+
+    if(comfortWords.some(function(w){return q.indexOf(w)>-1})){
+      openSection("comfort");
+      highlightMatches(comfortWords);
+      smartBox.classList.add("live-match");
+      say("The comfort, clarity, and accessibility area has been opened so Brian & Co may better support your experience.");
+      return;
+    }
+  }
+
+  function apply(key){
+    if(key==="largeText") document.body.classList.toggle("bc-large-text");
+    if(key==="highContrast") document.body.classList.toggle("bc-high-contrast");
+    if(key==="reducedMotion") document.body.classList.toggle("bc-reduced-motion");
+    if(key==="dyslexia") document.body.classList.toggle("bc-dyslexia-friendly");
+    if(key==="spacing") document.body.classList.toggle("bc-more-spacing");
+    if(key==="focus") document.body.classList.toggle("bc-focus-mode");
+    if(key==="sensory") document.body.classList.toggle("bc-sensory-friendly");
+    if(key==="plainLanguage") say("A clearer and more direct manner of communication has been noted.");
+    if(key==="readAloud") speak(document.body.innerText.slice(0,1200));
+    if(key==="caregiver") say("A caregiving consideration has been noted. Brian & Co will favor clearer guidance and more supportive next steps where available.");
+    if(key==="elder") say("A comfort-and-clarity consideration has been noted.");
+    if(key==="keyboard") say("Keyboard-friendly navigation has been noted. You may use Tab and Shift+Tab to move through interactive elements.");
+    if(key==="captions") say("Caption and subtitle considerations have been noted for supported media.");
+    if(key==="memory") say("Memory-supportive guidance has been noted. Brian & Co will favor clearer summaries and repeatable next steps where available.");
+    if(key==="executiveFunction") say("Sequential, step-by-step guidance has been noted.");
+    if(key==="anxiety") say("A calmer and more reassuring presentation has been noted.");
+  }
+
+  if(toggle) toggle.onclick=function(){panel.hidden=false};
+  if(close) close.onclick=function(){panel.hidden=true};
+  document.addEventListener("keydown",function(e){ if(e.key==="Escape" && panel){ panel.hidden=true; } });
+
+  document.querySelectorAll(".bc-accordion").forEach(function(btn){
+    btn.setAttribute("aria-expanded","false");
+    btn.addEventListener("click",function(){
+      var key=btn.getAttribute("data-bc-section");
+      var target=document.querySelector('[data-bc-panel="'+key+'"]');
+      var open=target && !target.hidden;
+      document.querySelectorAll(".bc-accordion-panel").forEach(function(p){p.hidden=true});
+      document.querySelectorAll(".bc-accordion").forEach(function(b){b.setAttribute("aria-expanded","false")});
+      if(target && !open){target.hidden=false;btn.setAttribute("aria-expanded","true")}
+    });
+  });
+
+  if(smartBox){
+    smartBox.addEventListener("input",realtimeGuide);
+    smartBox.addEventListener("keyup",realtimeGuide);
+  }
+
+  document.querySelectorAll("[data-bc-access]").forEach(function(b){ b.onclick=function(){apply(b.getAttribute("data-bc-access"))} });
+  document.querySelectorAll("[data-bc-language]").forEach(function(b){
+    b.onclick=function(){ if(language) language.value=b.getAttribute("data-bc-language"); say("Preferred manner of communication noted: "+b.getAttribute("data-bc-language")); }
+  });
+
+  if(save) save.onclick=function(){
+    var prefs={accessibility:access&&access.value,language:language&&language.value,memory:memory&&memory.value,classes:document.body.className,updated:new Date().toISOString()};
+    localStorage.setItem("brianco_accessibility_language_preferences",JSON.stringify(prefs));
+    say("These considerations have been remembered on this device where supported:\n\n"+JSON.stringify(prefs,null,2));
+  };
+
+  if(reset) reset.onclick=function(){
+    localStorage.removeItem("brianco_accessibility_language_preferences");
+    if(access) access.value=""; if(language) language.value=""; if(memory) memory.value="";
+    document.body.classList.remove("bc-large-text","bc-high-contrast","bc-reduced-motion","bc-more-spacing","bc-dyslexia-friendly","bc-focus-mode","bc-sensory-friendly");
+    say("Previously remembered Brian & Co considerations have been removed from this device.");
+  };
+
+  try{
+    var saved=JSON.parse(localStorage.getItem("brianco_accessibility_language_preferences")||"null");
+    if(saved){
+      if(access) access.value=saved.accessibility||"";
+      if(language) language.value=saved.language||"";
+      if(memory) memory.value=saved.memory||"";
+      if(saved.classes){document.body.className+=" "+saved.classes}
+      say("Previously remembered Brian & Co considerations were found and restored where supported.");
+    }
+  }catch(e){}
+})();
+</script>

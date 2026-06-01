@@ -1,0 +1,67 @@
+﻿<div id="bc-Your Place Within Brian & Co-overlay" hidden>
+  <div class="bc-Your Place Within Brian & Co-backdrop" data-bc-Your Place Within Brian & Co-close></div>
+  <section class="bc-Your Place Within Brian & Co-modal" aria-label="Brian & Co Your Private Brian & Co Presence">
+    <button class="bc-Your Place Within Brian & Co-close" type="button" data-bc-Your Place Within Brian & Co-close>×</button>
+    <p class="bc-eyebrow">Your Private Brian & Co Presence</p>
+    <h2>Your private Brian & Co access begins here.</h2>
+    <p>
+      Create or access your Your Private Brian & Co Presence for concierge guidance, role requests, complimentary-access review,
+      digital-product access, Kindly Rememberd work, and founder-reviewed pathways.
+    </p>
+
+    <div class="bc-Your Place Within Brian & Co-actions">
+      <a href="{{ routes.Your Place Within Brian & Co_Your Place Within Brian & Co_url }}">Return Securely to Your Brian & Co Experience</a>
+      <a href="{{ routes.Your Place Within Brian & Co_register_url }}">Begin Your Brian & Co Experience</a>
+      <a href="{{ routes.root_url }}">Return home</a>
+    </div>
+
+    <p class="bc-Your Place Within Brian & Co-note">
+      Brian & Co remains the visible Your Place Within Brian & Co gateway. Secure authentication may be handled by Shopify behind the scenes when required,
+      but normal Your Place Within Brian & Co entry stays branded inside Brian & Co.
+    </p>
+  </section>
+</div>
+
+<style>
+#bc-Your Place Within Brian & Co-overlay[hidden]{display:none}
+#bc-Your Place Within Brian & Co-overlay{position:fixed;inset:0;z-index:999999}
+.bc-Your Place Within Brian & Co-backdrop{position:absolute;inset:0;background:rgba(31,26,23,.42)}
+.bc-Your Place Within Brian & Co-modal{position:relative;max-width:860px;margin:7vh auto;padding:clamp(28px,5vw,56px);border-radius:34px;background:radial-gradient(circle at top left,#fff3df,#fff 42%,#f4eadf);color:#1f1a17;box-shadow:0 30px 110px rgba(0,0,0,.30);font-family:Georgia,serif}
+.bc-Your Place Within Brian & Co-close{position:absolute;right:18px;top:14px;border:0;background:transparent;font-size:34px;cursor:pointer}
+.bc-eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:12px;opacity:.72}
+.bc-Your Place Within Brian & Co-modal h2{font-size:clamp(36px,6vw,66px);line-height:1.02;margin:10px 0 16px}
+.bc-Your Place Within Brian & Co-modal p{font-size:17px;line-height:1.7}
+.bc-Your Place Within Brian & Co-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.bc-Your Place Within Brian & Co-actions a{border:1px solid rgba(31,26,23,.16);border-radius:999px;padding:13px 18px;background:#fff;color:#1f1a17;text-decoration:none}
+.bc-Your Place Within Brian & Co-actions a:first-child{background:#1f1a17;color:#fff}
+.bc-Your Place Within Brian & Co-note{margin-top:24px;padding:18px;border-radius:20px;background:#fff;border:1px solid rgba(31,26,23,.12)}
+</style>
+
+<script>
+(function(){
+  function openOverlay(e){
+    if(e) e.preventDefault();
+    var overlay=document.getElementById("bc-Your Place Within Brian & Co-overlay");
+    if(overlay) overlay.hidden=false;
+  }
+  function closeOverlay(){
+    var overlay=document.getElementById("bc-Your Place Within Brian & Co-overlay");
+    if(overlay) overlay.hidden=true;
+  }
+
+  document.querySelectorAll('a[href="/pages/Your Place Within Brian & Co-access"], a[href="{{ routes.Your Place Within Brian & Co_url }}"], a[href="/Your Place Within Brian & Co"]').forEach(function(a){
+    a.setAttribute("href","#brianco-Your Place Within Brian & Co");
+    a.addEventListener("click",openOverlay);
+  });
+
+  document.querySelectorAll("[data-bc-Your Place Within Brian & Co-close]").forEach(function(el){
+    el.addEventListener("click",closeOverlay);
+  });
+
+  window.BrianCoOpenYour Place Within Brian & Co = openOverlay;
+})();
+</script>
+
+
+
+

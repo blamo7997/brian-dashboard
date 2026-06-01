@@ -1,0 +1,37 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 18",
+    "phase":  "Phase 35",
+    "slug":  "future-os-device-ecosystem-master",
+    "title":  "Future OS Device Ecosystem Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Future Brian \u0026 Co phone, OS, browser, search, laptop, desktop, media editor, and native-first ecosystem planning while core OS stays free.",
+    "modules":  [
+                    "Future phone planning",
+                    "Future OS planning",
+                    "Future browser/search",
+                    "Future laptop/desktop",
+                    "Native-first UX",
+                    "Accessibility by default",
+                    "OS free core",
+                    "Paid enterprise upgrades"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

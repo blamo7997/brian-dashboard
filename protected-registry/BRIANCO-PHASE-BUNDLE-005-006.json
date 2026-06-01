@@ -1,0 +1,9 @@
+{
+    "name":  "Chatbot + Concierge Intelligence",
+    "additive_only":  true,
+    "bundle":  "005-006",
+    "description":  "Human, warm, transparent AI chatbot with preferred-name greetings, never valued customer, collapsible everywhere.",
+    "created":  "2026-05-30T10:12:42.9492980-06:00",
+    "protected":  true,
+    "protected_from":  "project_start"
+}

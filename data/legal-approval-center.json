@@ -1,0 +1,25 @@
+﻿{
+    "created":  "20260530_153355",
+    "bundle":  "Bundle 03",
+    "slug":  "legal-approval-center",
+    "title":  "Legal Approval Center",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Green-check approvals, legal review, compliance status, and protected change authorization.",
+    "modules":  [
+                    "Green-check approval cards",
+                    "Pending legal review queue",
+                    "Founder approval history",
+                    "Document review tracking",
+                    "Protected change requests"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No deploy unless build and Playwright pass",
+                  "No Shopify live product edits",
+                  "No OAuth/payment/customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Founder approval required for protected changes"
+              ]
+}

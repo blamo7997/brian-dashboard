@@ -1,0 +1,79 @@
+[
+    {
+        "path":  "/api/health",
+        "ok":  true,
+        "notFound":  false,
+        "functionFailed":  false,
+        "first300":  "node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\nAt C:\\Users\\user\\AppData\\Roaming\\npm\\vercel.ps1:24 char:5\r\n+     \u0026 \"node$exe\"  \"$basedir/node_modules/vercel/dist/vc.js\" $args\r\n+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + Catego"
+    },
+    {
+        "path":  "/api/products",
+        "ok":  true,
+        "notFound":  false,
+        "functionFailed":  false,
+        "first300":  "node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\nAt C:\\Users\\user\\AppData\\Roaming\\npm\\vercel.ps1:24 char:5\r\n+     \u0026 \"node$exe\"  \"$basedir/node_modules/vercel/dist/vc.js\" $args\r\n+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + Catego"
+    },
+    {
+        "path":  "/api/collections",
+        "ok":  true,
+        "notFound":  false,
+        "functionFailed":  false,
+        "first300":  "node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\nAt C:\\Users\\user\\AppData\\Roaming\\npm\\vercel.ps1:24 char:5\r\n+     \u0026 \"node$exe\"  \"$basedir/node_modules/vercel/dist/vc.js\" $args\r\n+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + Catego"
+    },
+    {
+        "path":  "/api/storefront-feed",
+        "ok":  false,
+        "notFound":  true,
+        "functionFailed":  false,
+        "first300":  "node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\nAt C:\\Users\\user\\AppData\\Roaming\\npm\\vercel.ps1:24 char:5\r\n+     \u0026 \"node$exe\"  \"$basedir/node_modules/vercel/dist/vc.js\" $args\r\n+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + Catego"
+    },
+    {
+        "path":  "/api/founder-status",
+        "ok":  false,
+        "notFound":  true,
+        "functionFailed":  false,
+        "first300":  "node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\nAt C:\\Users\\user\\AppData\\Roaming\\npm\\vercel.ps1:24 char:5\r\n+     \u0026 \"node$exe\"  \"$basedir/node_modules/vercel/dist/vc.js\" $args\r\n+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + Catego"
+    },
+    {
+        "path":  "/api/auth-options",
+        "ok":  false,
+        "notFound":  true,
+        "functionFailed":  false,
+        "first300":  "node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\nAt C:\\Users\\user\\AppData\\Roaming\\npm\\vercel.ps1:24 char:5\r\n+     \u0026 \"node$exe\"  \"$basedir/node_modules/vercel/dist/vc.js\" $args\r\n+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + Catego"
+    },
+    {
+        "path":  "/api/risk-score",
+        "ok":  false,
+        "notFound":  true,
+        "functionFailed":  false,
+        "first300":  "node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\nAt C:\\Users\\user\\AppData\\Roaming\\npm\\vercel.ps1:24 char:5\r\n+     \u0026 \"node$exe\"  \"$basedir/node_modules/vercel/dist/vc.js\" $args\r\n+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + Catego"
+    },
+    {
+        "path":  "/api/accessibility-localization",
+        "ok":  false,
+        "notFound":  true,
+        "functionFailed":  false,
+        "first300":  "node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\nAt C:\\Users\\user\\AppData\\Roaming\\npm\\vercel.ps1:24 char:5\r\n+     \u0026 \"node$exe\"  \"$basedir/node_modules/vercel/dist/vc.js\" $args\r\n+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + Catego"
+    },
+    {
+        "path":  "/api/seo-status",
+        "ok":  false,
+        "notFound":  true,
+        "functionFailed":  false,
+        "first300":  "node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\nAt C:\\Users\\user\\AppData\\Roaming\\npm\\vercel.ps1:24 char:5\r\n+     \u0026 \"node$exe\"  \"$basedir/node_modules/vercel/dist/vc.js\" $args\r\n+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + Catego"
+    },
+    {
+        "path":  "/api/digital-delivery",
+        "ok":  false,
+        "notFound":  true,
+        "functionFailed":  false,
+        "first300":  "node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\nAt C:\\Users\\user\\AppData\\Roaming\\npm\\vercel.ps1:24 char:5\r\n+     \u0026 \"node$exe\"  \"$basedir/node_modules/vercel/dist/vc.js\" $args\r\n+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + Catego"
+    },
+    {
+        "path":  "/api/status",
+        "ok":  false,
+        "notFound":  true,
+        "functionFailed":  false,
+        "first300":  "node.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\nAt C:\\Users\\user\\AppData\\Roaming\\npm\\vercel.ps1:24 char:5\r\n+     \u0026 \"node$exe\"  \"$basedir/node_modules/vercel/dist/vc.js\" $args\r\n+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + Catego"
+    }
+]

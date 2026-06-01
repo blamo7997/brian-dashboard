@@ -1,0 +1,10 @@
+.brianco-localized-adaptive-shell {
+  padding: 78px 20px;
+  background: radial-gradient(circle at top left, rgba(115,87,255,.16), transparent 35%),
+              radial-gradient(circle at bottom right, rgba(217,181,111,.22), transparent 35%), #fff;
+}
+.bc-localized-inner { max-width: 1180px; margin: 0 auto; }
+.bc-localized-inner h2 { font-size: clamp(34px,5vw,64px); letter-spacing: -.05em; }
+.eyebrow { text-transform: uppercase; letter-spacing: .16em; font-weight: 800; }
+.bc-localized-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(230px,1fr)); gap: 16px; }
+.bc-localized-grid article { padding: 22px; border-radius: 24px; background: rgba(255,255,255,.8); border: 1px solid rgba(0,0,0,.1); }

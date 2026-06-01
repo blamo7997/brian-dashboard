@@ -1,0 +1,48 @@
+{
+    "version":  "2026.05.29-dashboard-layer",
+    "name":  "Brian \u0026 Co Command Center Dashboard",
+    "protected_systems":  {
+                              "live_publish_blocked":  true,
+                              "shopify_collections_untouched":  true,
+                              "shopify_products_untouched":  true,
+                              "oauth_untouched":  true,
+                              "backend_secrets_untouched":  true,
+                              "payments_untouched":  true
+                          },
+    "dashboard_cards":  [
+                            "Live Website Activity",
+                            "Chatbot Activity",
+                            "Customer Activity",
+                            "Product Performance",
+                            "Collection Performance",
+                            "Digital Product Performance",
+                            "Cheyenne Events \u0026 Frontier Days",
+                            "Accessibility Usage",
+                            "Language \u0026 Dialect Preferences",
+                            "Referral Activity",
+                            "Utility Intelligence",
+                            "Founder Approval Queue",
+                            "Lawyer Review Queue",
+                            "Accountant Review Queue",
+                            "Investor Updates",
+                            "Concierge Recommendations",
+                            "Risk \u0026 Fraud Monitoring"
+                        ],
+    "sensitive_data_policy":  {
+                                  "electricity_usage_requires_consent":  true,
+                                  "allowed_sources":  [
+                                                          "manual user entry",
+                                                          "uploaded utility bill",
+                                                          "authorized utility API",
+                                                          "authorized smart-meter API",
+                                                          "authorized smart-home integration"
+                                                      ],
+                                  "forbidden_sources":  [
+                                                            "unauthorized scraping",
+                                                            "private account access without consent",
+                                                            "guessing",
+                                                            "protected records without authorization"
+                                                        ]
+                              },
+    "mode":  "protected-local-additive"
+}

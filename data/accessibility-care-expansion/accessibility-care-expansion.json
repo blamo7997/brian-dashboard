@@ -1,0 +1,24 @@
+{
+    "phase":  "67",
+    "status":  "prepared",
+    "areas":  [
+                  "Accessibility Intelligence Expansion",
+                  "Caregiver Intelligence Expansion",
+                  "Dementia Support Intelligence",
+                  "Alzheimer\u0027s Support Intelligence",
+                  "Veteran Support Intelligence",
+                  "Disability Support Intelligence",
+                  "Adaptive Interface Intelligence",
+                  "Accessibility Recommendation Intelligence",
+                  "Care Coordination Intelligence",
+                  "Founder Approval Accessibility Routing"
+              ],
+    "protectedPhases":  "1-66 protected",
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         }
+}

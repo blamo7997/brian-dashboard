@@ -1,0 +1,23 @@
+{
+    "phase":  "63",
+    "status":  "prepared",
+    "areas":  [
+                  "Digital Product Intelligence Expansion",
+                  "Digital Product Opportunity Intelligence",
+                  "Digital Product Revenue Intelligence",
+                  "Digital Product Lifecycle Intelligence",
+                  "Digital Product Recommendation Intelligence",
+                  "Digital Product Entitlement Intelligence",
+                  "Digital Product Access Intelligence",
+                  "Founder Approval Product Intelligence",
+                  "Protected Product Roadmapping"
+              ],
+    "protectedPhases":  "1-62 protected",
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         }
+}

@@ -1,0 +1,1 @@
+{ "name":"brianco-backend-clean","version":"2.1.1","private":true,"type":"module","scripts":{"build":"echo build-not-needed","start":"echo vercel-serverless"}}

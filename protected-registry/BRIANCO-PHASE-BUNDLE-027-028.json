@@ -1,0 +1,9 @@
+{
+    "name":  "Video Editor + Creator Suite",
+    "additive_only":  true,
+    "bundle":  "027-028",
+    "description":  "Video editor, captions, translation, meeting recording, transcripts, social outputs and chatbot assistance.",
+    "created":  "2026-05-30T10:12:43.3282205-06:00",
+    "protected":  true,
+    "protected_from":  "project_start"
+}

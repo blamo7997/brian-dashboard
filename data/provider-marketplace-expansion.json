@@ -1,0 +1,37 @@
+﻿{
+    "created":  "20260530_171248",
+    "bundle":  "Bundle D",
+    "phase":  "Phase A",
+    "slug":  "provider-marketplace-expansion",
+    "title":  "Provider Marketplace Expansion",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Supplier, artisan, creator, influencer, custom-work, event-vendor, white-label, private-label, and marketplace partner presentation with preserved originals and Brian and Co display versions.",
+    "modules":  [
+                    "Supplier marketplace",
+                    "Artisan marketplace",
+                    "Creator marketplace",
+                    "Influencer marketplace",
+                    "Custom-work marketplace",
+                    "Event-vendor marketplace",
+                    "White-label partners",
+                    "Private-label partners",
+                    "Originals preserved",
+                    "Brian and Co display versions"
+                ],
+    "rules":  [
+                  "No assumptions",
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "Originals preserved",
+                  "Brian and Co display versions stored separately",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No Shopify live product API edits",
+                  "No secrets touched",
+                  "Vault snapshot before and after",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy"
+              ]
+}

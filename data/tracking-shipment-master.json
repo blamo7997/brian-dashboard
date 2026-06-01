@@ -1,0 +1,38 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 06",
+    "phase":  "Phase 11",
+    "slug":  "tracking-shipment-master",
+    "title":  "Tracking and Shipment Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Anyone shipping physical items provides tracking, carrier, shipment status, delay notices, and delivery confirmation monitored for customer updates.",
+    "modules":  [
+                    "Tracking number",
+                    "Carrier",
+                    "Estimated delivery",
+                    "Label created",
+                    "In transit",
+                    "Out for delivery",
+                    "Delivered",
+                    "Exception alerts",
+                    "Customer tracking updates"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

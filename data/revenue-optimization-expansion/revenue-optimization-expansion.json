@@ -1,0 +1,24 @@
+{
+    "phase":  "77",
+    "status":  "prepared",
+    "areas":  [
+                  "Revenue Optimization Intelligence",
+                  "Profitability Intelligence",
+                  "Margin Intelligence",
+                  "Offer Optimization Intelligence",
+                  "Subscription Optimization Intelligence",
+                  "Revenue Forecast Intelligence",
+                  "Revenue Opportunity Intelligence",
+                  "Founder Revenue Intelligence",
+                  "Executive Revenue Visibility",
+                  "Founder Approval Revenue Routing"
+              ],
+    "protectedPhases":  "1-76 protected",
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         }
+}

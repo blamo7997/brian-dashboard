@@ -1,0 +1,37 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 06",
+    "phase":  "Phase 12",
+    "slug":  "white-glove-thank-you-master",
+    "title":  "White Glove Thank You Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Every physical shipment includes Brian \u0026 Co white-glove presentation, refined thank-you card, 5% return-customer offer, support details, and branded packaging standards.",
+    "modules":  [
+                    "Thank you card",
+                    "5 percent return offer",
+                    "White glove packaging",
+                    "Careful presentation",
+                    "Support info",
+                    "Optional QR code",
+                    "Repeat customer incentive",
+                    "Provider compliance"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

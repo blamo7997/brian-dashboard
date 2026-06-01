@@ -1,0 +1,36 @@
+﻿{
+    "created":  "20260530_171248",
+    "bundle":  "Bundle E",
+    "phase":  "Phase B",
+    "slug":  "event-vendor-artisan-creator-participation",
+    "title":  "Event Vendor Artisan Creator Participation",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Event vendor, artisan, creator, influencer, supplier, and custom-work participation planning for local events, inventory, staffing, promotion, and post-event reporting.",
+    "modules":  [
+                    "Event vendor planning",
+                    "Artisan participation",
+                    "Creator participation",
+                    "Influencer participation",
+                    "Supplier participation",
+                    "Inventory planning",
+                    "Staffing planning",
+                    "Promotion planning",
+                    "Post-event reporting"
+                ],
+    "rules":  [
+                  "No assumptions",
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "Originals preserved",
+                  "Brian and Co display versions stored separately",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No Shopify live product API edits",
+                  "No secrets touched",
+                  "Vault snapshot before and after",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy"
+              ]
+}

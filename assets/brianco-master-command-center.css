@@ -1,0 +1,4 @@
+#brianco-master-command-center{padding:48px 24px;max-width:1280px;margin:0 auto}
+#brianco-master-command-center h1{font-size:clamp(2.2rem,5vw,5rem);letter-spacing:-.05em}
+.brianco-master-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:18px;margin-top:28px}
+.brianco-master-grid article{border-radius:28px;padding:24px;background:rgba(255,255,255,.92);border:1px solid rgba(0,0,0,.08);box-shadow:0 22px 70px rgba(0,0,0,.10)}

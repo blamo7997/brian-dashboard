@@ -1,0 +1,47 @@
+{
+    "deploy_exit":  0,
+    "build_exit":  0,
+    "protected":  {
+                      "no_payment_changes":  true,
+                      "no_oauth_changes":  true,
+                      "no_secret_printing":  true,
+                      "no_collection_edits":  true,
+                      "consent_required_for_sensitive_data":  true,
+                      "no_product_edits":  true
+                  },
+    "record":  "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\phase16\\records\\phase16-chatbot-intelligence-record-20260529_152647.json",
+    "created_at":  "2026-05-29T15:27:50.7833801-06:00",
+    "phase":  "phase16_chatbot_intelligence_engine",
+    "route_results":  [
+                          {
+                              "url":  "https://brianco-backend-clean.vercel.app/api/chatbot-intelligence/summary",
+                              "success":  true,
+                              "status":  200,
+                              "error":  null
+                          },
+                          {
+                              "url":  "https://brianco-backend-clean.vercel.app/api/chatbot-intelligence/intent?message=I%20need%20membership%20and%20accessibility%20help",
+                              "success":  true,
+                              "status":  200,
+                              "error":  null
+                          },
+                          {
+                              "url":  "https://brianco-backend-clean.vercel.app/chatbot-intelligence",
+                              "success":  true,
+                              "status":  200,
+                              "error":  null
+                          },
+                          {
+                              "url":  "https://brianco-backend-clean.vercel.app/native-map",
+                              "success":  true,
+                              "status":  200,
+                              "error":  null
+                          },
+                          {
+                              "url":  "https://brianco-backend-clean.vercel.app/command-center",
+                              "success":  true,
+                              "status":  200,
+                              "error":  null
+                          }
+                      ]
+}

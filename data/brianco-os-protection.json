@@ -1,0 +1,20 @@
+{
+  "product_family": "Brian & Co Intelligence OS",
+  "safe_scope": "Original UI, product-suite planning, web OS shell, device-adaptive digital workspace, and future installable OS roadmap.",
+  "do_not_do": [
+    "Do not overwrite Windows, macOS, Linux, Android, iOS, ChromeOS, or any user operating system.",
+    "Do not modify bootloaders, partitions, BIOS, UEFI, recovery drives, encryption, or device drivers.",
+    "Do not copy Microsoft, Google, Apple, Adobe, Red Hat, Linux distribution, or competitor code/design/assets/trademarks.",
+    "Do not claim compatibility, legal compliance, enterprise security, or installability until qualified engineering/legal review is completed."
+  ],
+  "allowed_now": [
+    "Create original Brian & Co web OS shell.",
+    "Create original productivity suite concepts.",
+    "Create original office/workspace tools.",
+    "Create original media/video/meeting/social tools.",
+    "Create original device-adaptive UI.",
+    "Create installable OS roadmap for future engineering.",
+    "Promote Brian & Co products in Brian & Co tone.",
+    "Use lawful public feature signals only as inspiration, never copying protected material."
+  ]
+}

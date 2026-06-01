@@ -1,0 +1,39 @@
+#brianco-native-admin-command-center {
+  padding: 32px;
+  background: linear-gradient(135deg, #f8f5ef, #ffffff);
+  color: #151515;
+}
+
+.brianco-admin-panel {
+  max-width: 1180px;
+  margin: 0 auto;
+  border-radius: 28px;
+  padding: 28px;
+  background: rgba(255,255,255,.9);
+  box-shadow: 0 24px 70px rgba(0,0,0,.12);
+}
+
+.brianco-admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.brianco-admin-grid div {
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 20px;
+  padding: 16px;
+  background: rgba(255,255,255,.84);
+}
+
+.brianco-admin-grid strong,
+.brianco-admin-grid span {
+  display: block;
+}
+
+.brianco-admin-note {
+  margin-top: 20px;
+  font-size: .92em;
+  opacity: .78;
+}

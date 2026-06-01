@@ -1,0 +1,4 @@
+﻿ignore:
+  - _brianco_backups/**
+  - _brianco_reports/**
+  - temp_themecheck.txt

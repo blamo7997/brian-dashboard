@@ -1,0 +1,35 @@
+{
+    "route_results":  [
+                          {
+                              "Url":  "https://brianco-backend-clean.vercel.app/api/chatbot-intelligence/summary",
+                              "Success":  true,
+                              "Status":  200
+                          },
+                          {
+                              "Url":  "https://brianco-backend-clean.vercel.app/chatbot-intelligence",
+                              "Success":  true,
+                              "Status":  200
+                          },
+                          {
+                              "Url":  "https://brianco-backend-clean.vercel.app/native-map",
+                              "Success":  true,
+                              "Status":  200
+                          }
+                      ],
+    "repair":  "phase16_old_replace_error_cleaned",
+    "deploy_exit":  0,
+    "bad_pattern_hits_found":  [
+
+                               ],
+    "old_error":  "The -replace operator allows only two elements to follow it, not 4.",
+    "created_at":  "2026-05-29T15:45:41.3257274-06:00",
+    "protected":  {
+                      "products_untouched":  true,
+                      "secrets_untouched":  true,
+                      "payments_untouched":  true,
+                      "collections_untouched":  true,
+                      "oauth_untouched":  true
+                  },
+    "build_exit":  0,
+    "native_map_repaired":  true
+}

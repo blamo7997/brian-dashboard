@@ -1,0 +1,17 @@
+{
+    "created_at":  "2026-05-29T10:05:51.6823415-06:00",
+    "visibility_rule":  "Least privilege; website-native access; founder approval for sensitive/live changes.",
+    "roles":  {
+                  "accountant":  "Accounting/tax review view",
+                  "investor":  "Approved investor view",
+                  "lawyer":  "Legal review queue",
+                  "influencer":  "Campaigns, affiliate status, content guidance",
+                  "customer":  "Customer account, orders, preferences, paid access",
+                  "artisan":  "Assigned artisan portal",
+                  "banker":  "Banker review/pitch view",
+                  "supplier":  "Assigned supplier portal",
+                  "admin":  "Founder/admin Command Center",
+                  "family":  "Approved family/girlfriend/free-access pathways where founder-approved",
+                  "creator":  "Creator tools and content guidance"
+              }
+}

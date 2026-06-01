@@ -1,0 +1,15 @@
+name = "Brian & Co Founder Command"
+client_id = "27eb0218df580ca8740dc32d7745e20b"
+application_url = "https://brianco-backend-clean.vercel.app"
+embedded = true
+
+[access_scopes]
+scopes = "read_products,write_products,read_customers,write_customers"
+
+[auth]
+redirect_urls = [
+  "https://brianco-backend-clean.vercel.app/api/shopify-callback"
+]
+
+[webhooks]
+api_version = "2026-04"

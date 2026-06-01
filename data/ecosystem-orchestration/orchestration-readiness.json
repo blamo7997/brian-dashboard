@@ -1,0 +1,44 @@
+{
+    "mode":  "unified-ecosystem-orchestration-readiness",
+    "orchestrationRules":  [
+                               "Preserve all protected phases",
+                               "Route risky changes through founder approval",
+                               "Use read-only checks before write actions",
+                               "Keep provider infrastructure behind Brian \u0026 Co wherever feasible",
+                               "Do not touch products or collections",
+                               "Do not touch OAuth or payment systems",
+                               "Do not print or expose secrets",
+                               "Route legal/privacy/tax issues through review",
+                               "No automatic purchases or commitments"
+                           ],
+    "createdAt":  "2026-05-29T18:13:02.4739479-06:00",
+    "protectedPhases":  "1-34 protected; Phase 35 auto-protects after successful validation",
+    "phase":  "35",
+    "protectedSystems":  {
+                             "collectionsUntouched":  true,
+                             "publicClaimsUntouched":  true,
+                             "productsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "pricingUntouched":  true,
+                             "secretsNotPrinted":  true,
+                             "automaticCommitmentsDisabled":  true,
+                             "paymentsUntouched":  true,
+                             "automaticPurchasesDisabled":  true
+                         },
+    "brand":  "Brian \u0026 Co",
+    "status":  "prepared-read-only-orchestration",
+    "orchestrationAreas":  [
+                               "Founder command routing",
+                               "Approval workflow routing",
+                               "Theme intelligence coordination",
+                               "Shopify theme health coordination",
+                               "Event intake coordination",
+                               "Interaction logging coordination",
+                               "Accessibility coordination",
+                               "Localization coordination",
+                               "Commerce coordination",
+                               "Native identity coordination",
+                               "Role portal coordination",
+                               "Production stability coordination"
+                           ]
+}

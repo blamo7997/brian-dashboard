@@ -1,0 +1,24 @@
+﻿{
+  "engine": "Brian & Co Localization AI+",
+  "version": "0.2.0-monument-foundation",
+  "protected": true,
+  "appliesTo": [
+    "website",
+    "chatbot",
+    "portals",
+    "OS",
+    "apps",
+    "products",
+    "services",
+    "future ecosystem"
+  ],
+  "rules": [
+    "Brian & Co branding stays first",
+    "No protected logo replacement without approval",
+    "User language preference overrides browser guess",
+    "No precise location personalization without consent",
+    "Accessibility and localization controls remain visible",
+    "Regional tone and copy may adapt where appropriate",
+    "Legal/public policy localization requires review"
+  ]
+}

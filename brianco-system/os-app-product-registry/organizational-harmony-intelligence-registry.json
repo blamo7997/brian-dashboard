@@ -1,0 +1,30 @@
+﻿{
+    "createdAt":  "20260531_125945",
+    "productCategory":  "Membership upgrade / OS + website upgrade",
+    "name":  "Organizational Harmony Intelligence™",
+    "protected":  true,
+    "founderApproval":  "green check",
+    "revisionRouting":  "yellow note",
+    "rejection":  "red x",
+    "appliesTo":  [
+                      "teams",
+                      "departments",
+                      "vendors",
+                      "partners",
+                      "government-facing workflows where lawful",
+                      "professional organizations",
+                      "internal Brian \u0026 Co operations"
+                  ],
+    "capabilities":  [
+                         "electronic approvals",
+                         "cross-device account continuity",
+                         "role-based permissions",
+                         "workflow routing",
+                         "audit trails",
+                         "legal/compliance review gates",
+                         "government-source verification where appropriate",
+                         "team and department coordination"
+                     ],
+    "permanentRule":  "Once a user has an account, they can resume approved work from their preferred device.",
+    "liveChangesAllowed":  false
+}

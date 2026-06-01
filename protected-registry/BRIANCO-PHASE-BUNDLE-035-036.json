@@ -1,0 +1,9 @@
+{
+    "name":  "Cheyenne Local Event Intelligence",
+    "additive_only":  true,
+    "bundle":  "035-036",
+    "description":  "Cheyenne festivals, Frontier Days, local event admin notifications and local opportunity awareness.",
+    "created":  "2026-05-30T10:12:43.4671860-06:00",
+    "protected":  true,
+    "protected_from":  "project_start"
+}

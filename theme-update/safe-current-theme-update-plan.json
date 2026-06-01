@@ -1,0 +1,7 @@
+{
+    "instruction":  "Upload manually or approve a later live theme update. Protected live publishing is blocked by default.",
+    "live_theme_updated":  false,
+    "section":  "sections/brianco-protected-product-lab.liquid",
+    "css":  "assets/brianco-protected-product-lab.css",
+    "mode":  "uploadable scaffold only"
+}

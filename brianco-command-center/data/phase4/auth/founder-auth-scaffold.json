@@ -1,0 +1,20 @@
+{
+    "created_at":  "2026-05-29T09:24:10.0513935-06:00",
+    "status":  "scaffold_only_not_live_auth",
+    "required_future_permissions":  [
+                                        "read_customers",
+                                        "write_customers only if founder/customer creation is explicitly approved"
+                                    ],
+    "founder_identity":  {
+                             "customer_permission_blocker":  "requires Shopify customer scopes before true founder customer lock",
+                             "preferred_founder_label":  "Brian",
+                             "founder_email_placeholder":  "support@briannco.com"
+                         },
+    "access_rules":  {
+                         "sensitive_data_requires_consent":  true,
+                         "founder_final_approval":  true,
+                         "default_deny":  true,
+                         "least_privilege":  true,
+                         "role_scoped_views":  true
+                     }
+}

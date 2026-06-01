@@ -1,0 +1,39 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 11",
+    "phase":  "Phase 22",
+    "slug":  "localization-intelligence-master",
+    "title":  "Localization Intelligence Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Preferred language, native language, dialect, regional copy, localized onboarding, transcripts, subtitles, product descriptions, chatbot responses, and currency display.",
+    "modules":  [
+                    "Preferred language",
+                    "Native language",
+                    "Dialect support",
+                    "Localized onboarding",
+                    "Localized product descriptions",
+                    "Localized chatbot",
+                    "Localized transcripts",
+                    "Localized subtitles",
+                    "Currency display",
+                    "Regional resources"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

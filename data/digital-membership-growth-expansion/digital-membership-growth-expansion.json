@@ -1,0 +1,13 @@
+{
+    "phase":  "96",
+    "status":  "prepared",
+    "protectedPhases":  "1-95 protected after validation",
+    "title":  "Digital Membership Growth Expansion",
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         }
+}

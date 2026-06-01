@@ -1,0 +1,86 @@
+import { theme } from "../../lib/brianco-native/ui";
+
+const links = [
+  ["/command-center", "Founder Command Center"],
+["/chatbot-intelligence", "Chatbot Intelligence"],
+
+  ["/text-concierge", "Text Concierge"],
+["/text-interaction", "Text Interaction"],
+["/communication-hub", "Communication Hub"],
+["/local-intelligence", "Local & Event Intelligence"],
+["/commerce-intelligence", "Commerce Intelligence"],
+["/accessibility-intelligence", "Accessibility Intelligence"],
+["/localization-intelligence", "Localization Intelligence"],
+  ["/account/access", "Account Access"],
+  ["/signin", "Sign In Hub"],
+["/native-identity", "Native Identity"],
+  ["/collections", "Collections"],
+  ["/role-center", "Role Center"],
+["/personalized", "Personalized Experience"],
+["/customer-intelligence", "Customer Intelligence"],
+  ["/role/admin", "Founder/Admin"],
+  ["/role/customer", "Customer"],
+  ["/role/supplier", "Supplier"],
+  ["/role/artisan", "Artisan"],
+  ["/role/creator", "Creator"],
+  ["/role/influencer", "Influencer"],
+  ["/role/lawyer", "Lawyer"],
+  ["/role/investor", "Investor"],
+  ["/role/banker", "Banker"],
+  ["/role/accountant", "Accountant"],
+  ["/role/family", "Family"]
+];
+
+export default function NativeMap() {
+  return (
+    <main style={theme.page}>
+      <section style={theme.shell}>
+        <h1 style={{fontSize:46,color:theme.gold,marginBottom:8}}>Brian & Co Native Site Map</h1>
+        <p style={{fontSize:18,lineHeight:1.7,maxWidth:1040}}>
+          A website-native map of live Brian & Co routes, role spaces, account access, text concierge, collections, and command surfaces.
+        </p>
+
+        <section style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(260px,1fr))",gap:16,marginTop:24}}>
+          {links.map(([href,label])=>(
+            <a key={href} href={href} style={{
+              ...theme.card,
+              display:"block",
+              textDecoration:"none",
+              color:"#f8edd7"
+            }}>
+              <h2 style={{color:theme.gold,marginTop:0}}>{label}</h2>
+              <p>{href}</p>
+            </a>
+          ))}
+        </section>
+      </section>
+    </main>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

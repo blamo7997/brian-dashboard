@@ -1,0 +1,36 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 05",
+    "phase":  "Phase 10",
+    "slug":  "custom-work-nonrefundable-master",
+    "title":  "Custom Work Non-Refundable Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Custom and made-to-order items are generally non-refundable once production begins, with customer-facing Brian \u0026 Co wording and provider compliance tracking.",
+    "modules":  [
+                    "Production start lock",
+                    "Refund eligibility before production",
+                    "Non-refundable after production starts",
+                    "Customer notice",
+                    "Provider agreement",
+                    "Founder review",
+                    "Legal review when required"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

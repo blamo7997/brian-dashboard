@@ -1,0 +1,45 @@
+{
+    "mode":  "unified-role-portal-orchestration-readiness",
+    "orchestrationRules":  [
+                               "Preserve all protected phases",
+                               "Keep role routing native to Brian \u0026 Co",
+                               "Route sensitive role changes through founder approval",
+                               "Route legal issues to lawyer review",
+                               "Route tax/accounting issues to accountant review",
+                               "Route finance issues to banker review",
+                               "Keep accessibility and localization available to every role",
+                               "Do not touch products or collections",
+                               "Do not touch OAuth or payments",
+                               "Do not expose secrets"
+                           ],
+    "createdAt":  "2026-05-29T18:20:49.2387414-06:00",
+    "protectedPhases":  "1-35 protected; Phase 36 auto-protects after successful validation",
+    "phase":  "36",
+    "protectedSystems":  {
+                             "collectionsUntouched":  true,
+                             "publicClaimsUntouched":  true,
+                             "productsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "pricingUntouched":  true,
+                             "secretsNotPrinted":  true,
+                             "automaticCommitmentsDisabled":  true,
+                             "paymentsUntouched":  true,
+                             "automaticPurchasesDisabled":  true
+                         },
+    "brand":  "Brian \u0026 Co",
+    "status":  "prepared-read-only-role-orchestration",
+    "roles":  [
+                  "Customer",
+                  "Family",
+                  "Supplier",
+                  "Artisan",
+                  "Creator",
+                  "Influencer",
+                  "Investor",
+                  "Banker",
+                  "Lawyer",
+                  "Accountant",
+                  "Admin",
+                  "Founder"
+              ]
+}

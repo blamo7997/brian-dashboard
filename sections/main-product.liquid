@@ -1,0 +1,24 @@
+<section class="brianco-main-product">
+
+  <h1>{{ product.title }}</h1>
+
+  {% if product.featured_image %}
+    <img
+      src="{{ product.featured_image | image_url: width: 1200 }}"
+      alt="{{ product.title }}"
+      width="1200" height="1200" style="max-width:100%;height:auto;"
+    >
+  {% endif %}
+
+  <div>
+    {{ product.description }}
+  </div>
+
+</section>
+
+{% schema %}
+{
+  "name": "Main Product",
+  "settings": []
+}
+{% endschema %}

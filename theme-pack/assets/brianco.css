@@ -1,0 +1,14 @@
+.brianco-feature-grid{
+  padding:48px 24px;
+  border-radius:28px;
+  background:linear-gradient(135deg,#050505,#6E5A38,#FFF7E6);
+  color:white;
+  text-align:center;
+}
+.brianco-feature-grid h2{
+  font-family:Georgia,serif;
+  font-size:clamp(28px,4vw,56px);
+}
+.brianco-feature-grid p{
+  font-size:18px;
+}

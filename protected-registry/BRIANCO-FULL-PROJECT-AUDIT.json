@@ -1,0 +1,27 @@
+{
+  "created":"20260530_093615",
+  "system":"Brian & Co Full Project Audit",
+  "protected":true,
+  "protected_from":"beginning of this chat/project",
+  "audit_scope":[
+    "pages routes",
+    "app routes",
+    "api routes",
+    "data files",
+    "reports",
+    "protected registries",
+    "legal notices",
+    "scripts",
+    "package scripts",
+    "navigation risks",
+    "orphan route risks",
+    "brand tone risks",
+    "legal/protection risks",
+    "supplier/luxury risks",
+    "income-tier/customer risks",
+    "chatbot/continuity risks",
+    "digital product entitlement risks"
+  ],
+  "rule":"Everything Brian & Co has discussed, created, coded, named, designed, planned, or approved is protected by default unless Brian explicitly removes that exact item.",
+  "tone":"trusted friend, knowledgeable, dependable, respectful of boundaries, human, refined, warm, never gimmicky, never valued customer"
+}

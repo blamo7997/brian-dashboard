@@ -1,0 +1,26 @@
+[
+    {
+        "feature":  "Dyslexia-friendly reading mode",
+        "status":  "local_blueprint_pending_approval"
+    },
+    {
+        "feature":  "ADHD focus mode",
+        "status":  "local_blueprint_pending_approval"
+    },
+    {
+        "feature":  "Autism-sensitive reduced-sensory mode",
+        "status":  "local_blueprint_pending_approval"
+    },
+    {
+        "feature":  "Plain-language toggle",
+        "status":  "local_blueprint_pending_approval"
+    },
+    {
+        "feature":  "Localized native-language marketing tone",
+        "status":  "local_blueprint_pending_approval"
+    },
+    {
+        "feature":  "Role and income-tier UX adaptation",
+        "status":  "local_blueprint_pending_approval"
+    }
+]

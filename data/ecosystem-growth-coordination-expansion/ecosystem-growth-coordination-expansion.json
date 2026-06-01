@@ -1,0 +1,13 @@
+{
+    "phase":  "88",
+    "status":  "prepared",
+    "protectedPhases":  "1-87 protected after validation",
+    "title":  "Ecosystem Growth Coordination Expansion",
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         }
+}

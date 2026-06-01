@@ -1,0 +1,244 @@
+﻿{% comment %}
+  Brian & Co Native Site Hub
+  Keeps user-facing interactions inside briannco.com / Shopify storefront.
+  Backend APIs are used behind the scenes only.
+{% endcomment %}
+
+{% assign brianco_is_founder = false %}
+{% if customer %}
+  {% assign customer_email_downcase = customer.email | downcase %}
+  {% if customer_email_downcase == 'support@briannco.com' %}
+    {% if customer.tags contains 'Brian Founder Only' or customer.tags contains 'Command Center Owner' or customer.tags contains 'Role: Founder' %}
+      {% assign brianco_is_founder = true %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+
+<div id="brianco-site-hub-root">
+  <button id="brianco-site-hub-toggle" type="button" aria-expanded="false" aria-controls="brianco-site-hub-panel">
+    Brian & Co
+  </button>
+
+  <section id="brianco-site-hub-panel" aria-label="Brian & Co native website hub" hidden>
+    <div class="brianco-hub-card">
+      <button id="brianco-site-hub-close" type="button" aria-label="Close Brian & Co hub">×</button>
+
+      <p class="brianco-eyebrow">Brian & Co Native</p>
+      <h2>Private website hub</h2>
+      <p class="brianco-soft">
+        Access requests, role pathways, complimentary access, digital-product help, and founder approvals stay inside the Brian & Co website experience.
+      </p>
+
+      {% if customer %}
+        <div class="brianco-status">
+          Signed in as <strong>{{ customer.email }}</strong>
+        </div>
+      {% else %}
+        <div class="brianco-status">
+          <strong>Sign in or create an account</strong> to connect your Brian & Co access.
+          <div class="brianco-row">
+            <a href="/account/login">Sign in</a>
+            <a href="/account/register">Create account</a>
+          </div>
+        </div>
+      {% endif %}
+
+      <div class="brianco-tabs" role="tablist" aria-label="Brian & Co hub tabs">
+        <button type="button" data-bc-tab="role" class="active">Role Access</button>
+        <button type="button" data-bc-tab="free">Free Access</button>
+        <button type="button" data-bc-tab="digital">Digital Product</button>
+        <button type="button" data-bc-tab="work">Save Work</button>
+        <button type="button" data-bc-tab="account">Account</button>
+        {% if brianco_is_founder %}
+          <button type="button" data-bc-tab="founder">Founder</button>
+        {% endif %}
+      </div>
+
+      <div class="brianco-tab-panel active" data-bc-panel="role">
+        <h3>Request role access</h3>
+        <form data-bc-form="role">
+          <input name="requesterName" placeholder="Full name" required>
+          <input name="requesterEmail" type="email" placeholder="Email address" value="{% if customer %}{{ customer.email }}{% endif %}" required>
+          <input name="requestedRole" placeholder="Role: lawyer, investor, banker, artisan, creator, influencer, family, girlfriend, customer" required>
+          <input name="organization" placeholder="Organization / firm / channel / company">
+          <textarea name="notes" placeholder="Notes for Brian"></textarea>
+          <button type="submit">Send to Brian</button>
+        </form>
+      </div>
+
+      <div class="brianco-tab-panel" data-bc-panel="free">
+        <h3>Request complimentary access</h3>
+        <form data-bc-form="free">
+          <input name="requesterName" placeholder="Full name" required>
+          <input name="requesterEmail" type="email" placeholder="Email address" value="{% if customer %}{{ customer.email }}{% endif %}" required>
+          <input name="relationship" placeholder="Relationship to Brian" required>
+          <input name="requestedAccess" value="Complimentary Brian & Co access" placeholder="Requested access">
+          <textarea name="notes" placeholder="Optional note"></textarea>
+          <button type="submit">Request Brian’s green check</button>
+        </form>
+      </div>
+
+      <div class="brianco-tab-panel" data-bc-panel="digital">
+        <h3>Create a digital product draft</h3>
+        <form data-bc-form="digital">
+          <input name="name" placeholder="Digital product name" required>
+          <input name="offerType" value="À la carte digital product" placeholder="Offer type">
+          <input name="price" placeholder="Price or pricing note">
+          <input name="audienceRole" placeholder="Audience role">
+          <textarea name="description" placeholder="Description in Brian & Co tone" required></textarea>
+          <textarea name="features" placeholder="Features"></textarea>
+          <input name="downloadableFiles" value="Use-case approval required" placeholder="Downloadable files?">
+          <button type="submit">Create draft for Brian</button>
+        </form>
+      </div>
+
+      <div class="brianco-tab-panel" data-bc-panel="work">
+        <h3>Save digital-product work</h3>
+        <form data-bc-form="work">
+          <input name="email" type="email" placeholder="Account email" value="{% if customer %}{{ customer.email }}{% endif %}" required>
+          <input name="productName" placeholder="Digital product name" required>
+          <textarea name="workSummary" placeholder="Work summary"></textarea>
+          <textarea name="saveData" placeholder="Saved work / notes / draft"></textarea>
+          <button type="submit">Save work</button>
+        </form>
+      </div>
+
+      <div class="brianco-tab-panel" data-bc-panel="account">
+        <h3>Check account access</h3>
+        <form data-bc-form="account">
+          <input name="email" type="email" placeholder="Account email" value="{% if customer %}{{ customer.email }}{% endif %}" required>
+          <button type="submit">Check access</button>
+        </form>
+      </div>
+
+      {% if brianco_is_founder %}
+      <div class="brianco-tab-panel" data-bc-panel="founder">
+        <h3>Founder approvals</h3>
+        <p class="brianco-soft">Founder access recognized through your Brian & Co account.</p>
+        <button type="button" id="brianco-load-approvals">Refresh approval queue</button>
+        <div id="brianco-approval-results"></div>
+      </div>
+      {% endif %}
+
+      <pre id="brianco-site-hub-result" aria-live="polite"></pre>
+    </div>
+  </section>
+</div>
+
+<style>
+  #brianco-site-hub-root * { box-sizing: border-box; }
+  #brianco-site-hub-toggle {
+    position: fixed; right: 22px; bottom: 22px; z-index: 999999;
+    border: 0; border-radius: 999px; padding: 14px 20px;
+    background: linear-gradient(135deg,#1f1a17,#6c563c); color: #fff;
+    font-family: Georgia, serif; cursor: pointer; box-shadow: 0 16px 50px rgba(0,0,0,.22);
+  }
+  #brianco-site-hub-panel {
+    position: fixed; inset: 0; z-index: 999998; background: rgba(31,26,23,.38);
+    padding: 22px; overflow: auto;
+  }
+  .brianco-hub-card {
+    max-width: 900px; margin: 40px auto; border-radius: 30px; padding: 30px;
+    background: radial-gradient(circle at top left,#fff7ec,#ffffff 42%,#f5eee6);
+    color: #1f1a17; font-family: Georgia, serif; box-shadow: 0 30px 110px rgba(0,0,0,.28);
+    position: relative;
+  }
+  #brianco-site-hub-close {
+    position:absolute; top:16px; right:18px; border:0; background:transparent; font-size:32px; cursor:pointer;
+  }
+  .brianco-eyebrow { letter-spacing:.18em; text-transform:uppercase; font-size:12px; }
+  .brianco-hub-card h2 { font-size:38px; margin:8px 0 10px; }
+  .brianco-hub-card h3 { font-size:24px; margin:20px 0 12px; }
+  .brianco-soft { line-height:1.65; opacity:.82; }
+  .brianco-status { border:1px solid rgba(31,26,23,.14); border-radius:18px; padding:16px; background:rgba(255,255,255,.7); margin:18px 0; }
+  .brianco-row a { display:inline-block; margin:10px 8px 0 0; color:inherit; }
+  .brianco-tabs { display:flex; flex-wrap:wrap; gap:8px; margin:18px 0; }
+  .brianco-tabs button, .brianco-tab-panel button {
+    border:1px solid rgba(31,26,23,.18); border-radius:999px; padding:11px 14px; cursor:pointer; background:#fff;
+  }
+  .brianco-tabs button.active { background:#1f1a17; color:#fff; }
+  .brianco-tab-panel { display:none; }
+  .brianco-tab-panel.active { display:block; }
+  .brianco-tab-panel form { display:grid; gap:12px; }
+  .brianco-tab-panel input, .brianco-tab-panel textarea {
+    width:100%; padding:13px 14px; border-radius:14px; border:1px solid rgba(31,26,23,.18); font: inherit;
+  }
+  .brianco-tab-panel textarea { min-height:95px; }
+  #brianco-site-hub-result, #brianco-approval-results {
+    white-space: pre-wrap; margin-top:16px; padding:14px; border-radius:16px; background:#fff; border:1px solid rgba(31,26,23,.12);
+    max-height: 260px; overflow:auto;
+  }
+</style>
+
+<script>
+(function(){
+  var API = "https://brianco-backend-clean.vercel.app";
+  var panel = document.getElementById("brianco-site-hub-panel");
+  var open = document.getElementById("brianco-site-hub-toggle");
+  var close = document.getElementById("brianco-site-hub-close");
+  var result = document.getElementById("brianco-site-hub-result");
+
+  function showResult(data){ result.textContent = JSON.stringify(data, null, 2); }
+  function formObject(form){
+    var fd = new FormData(form), obj = {};
+    fd.forEach(function(v,k){ obj[k]=v; });
+    return obj;
+  }
+  async function post(path, body){
+    var r = await fetch(API + path, {
+      method:"POST",
+      headers:{ "Content-Type":"application/json" },
+      body: JSON.stringify(body)
+    });
+    return await r.json();
+  }
+  async function get(path){
+    var r = await fetch(API + path);
+    return await r.json();
+  }
+
+  open && open.addEventListener("click", function(){
+    panel.hidden = false;
+    open.setAttribute("aria-expanded","true");
+  });
+  close && close.addEventListener("click", function(){
+    panel.hidden = true;
+    open.setAttribute("aria-expanded","false");
+  });
+
+  document.querySelectorAll("[data-bc-tab]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      document.querySelectorAll("[data-bc-tab]").forEach(function(b){ b.classList.remove("active"); });
+      document.querySelectorAll("[data-bc-panel]").forEach(function(p){ p.classList.remove("active"); });
+      btn.classList.add("active");
+      document.querySelector('[data-bc-panel="'+btn.getAttribute("data-bc-tab")+'"]').classList.add("active");
+    });
+  });
+
+  document.querySelectorAll("[data-bc-form]").forEach(function(form){
+    form.addEventListener("submit", async function(e){
+      e.preventDefault();
+      var type = form.getAttribute("data-bc-form");
+      var body = formObject(form);
+      try {
+        if (type === "role") showResult(await post("/api/role-request", body));
+        if (type === "free") showResult(await post("/api/approvals", Object.assign({ type:"family_or_girlfriend_free_access_request", requestedFreeAccess:true }, body)));
+        if (type === "digital") showResult(await post("/api/digital-product-drafts", body));
+        if (type === "work") showResult(await post("/api/digital-work", body));
+        if (type === "account") showResult(await get("/api/account-entitlements?email=" + encodeURIComponent(body.email)));
+      } catch(err) {
+        showResult({ ok:false, message:String(err) });
+      }
+    });
+  });
+
+  var loadApprovals = document.getElementById("brianco-load-approvals");
+  if (loadApprovals) {
+    loadApprovals.addEventListener("click", async function(){
+      var box = document.getElementById("brianco-approval-results");
+      try { box.textContent = JSON.stringify(await get("/api/approvals"), null, 2); }
+      catch(err){ box.textContent = JSON.stringify({ok:false,message:String(err)}, null, 2); }
+    });
+  }
+})();
+</script>

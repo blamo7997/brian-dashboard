@@ -1,0 +1,37 @@
+﻿{
+    "created":  "20260530_171248",
+    "bundle":  "Bundle C",
+    "phase":  "Phase A",
+    "slug":  "shared-website-chatbot-os-intelligence",
+    "title":  "Shared Website Chatbot OS Intelligence",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Website, chatbot, and free Brian and Co OS share entitlement, products, memberships, accessibility, localization, recommendations, notifications, and protected continuity registries.",
+    "modules":  [
+                    "Website continuity",
+                    "Chatbot continuity",
+                    "Free OS continuity",
+                    "Entitlement sharing",
+                    "Product visibility",
+                    "Membership visibility",
+                    "Accessibility sharing",
+                    "Localization sharing",
+                    "Recommendation sharing",
+                    "Notification sharing"
+                ],
+    "rules":  [
+                  "No assumptions",
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "Originals preserved",
+                  "Brian and Co display versions stored separately",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No Shopify live product API edits",
+                  "No secrets touched",
+                  "Vault snapshot before and after",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy"
+              ]
+}

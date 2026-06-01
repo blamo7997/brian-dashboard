@@ -1,0 +1,17 @@
+{
+    "cheyenne_events":  {
+                            "watched_items":  [
+                                                  "Cheyenne Frontier Days",
+                                                  "local festivals",
+                                                  "markets",
+                                                  "vendor fairs",
+                                                  "pop-up opportunities",
+                                                  "small-business events",
+                                                  "tourism events",
+                                                  "community events"
+                                              ],
+                            "note":  "Live web/event feeds require later authorized connector or scheduled search layer.",
+                            "locality":  "Cheyenne, Wyoming",
+                            "enabled":  true
+                        }
+}

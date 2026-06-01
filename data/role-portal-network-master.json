@@ -1,0 +1,43 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 02",
+    "phase":  "Phase 04",
+    "slug":  "role-portal-network-master",
+    "title":  "Role Portal Network Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Role portal network for customers, suppliers, artisans, creators, influencers, lawyers, accountants, investors, bankers, students, veterans, caregivers, civic users, and event partners.",
+    "modules":  [
+                    "Customer portal",
+                    "Supplier portal",
+                    "Artisan portal",
+                    "Creator portal",
+                    "Influencer portal",
+                    "Lawyer portal",
+                    "Accountant portal",
+                    "Investor portal",
+                    "Banker portal",
+                    "Student portal",
+                    "Veteran portal",
+                    "Caregiver portal",
+                    "Civic portal",
+                    "Event portal"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

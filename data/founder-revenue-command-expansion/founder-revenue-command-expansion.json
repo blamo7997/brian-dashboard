@@ -1,0 +1,13 @@
+{
+    "phase":  "89",
+    "status":  "prepared",
+    "protectedPhases":  "1-88 protected after validation",
+    "title":  "Founder Revenue Command Expansion",
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         }
+}

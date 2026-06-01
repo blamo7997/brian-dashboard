@@ -1,0 +1,72 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Brian & Co Safe Overlay Admin</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#111;color:white}
+.wrap{max-width:1200px;margin:auto;padding:30px}
+.card{background:#1f1f1f;border:1px solid #333;border-radius:20px;padding:20px;margin:16px 0}
+.green{background:#2fd47d;color:#111;border:0;border-radius:14px;padding:12px 18px;font-weight:bold;cursor:pointer}
+.warn{background:#f5c542;color:#111;border:0;border-radius:14px;padding:12px 18px;font-weight:bold;cursor:pointer}
+pre{white-space:pre-wrap;overflow:auto;background:#0b0b0b;padding:14px;border-radius:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Brian & Co Safe Overlay Admin</h1>
+<p>This overlay is read-only/additive and does not touch live backend connections.</p>
+
+<div class="card">
+<h2>Locked Rules</h2>
+<pre>
+No backend connection changes.
+No token changes.
+No OAuth changes.
+No env var changes.
+No Shopify product or collection changes.
+No payment/social/OpenAI/Supabase changes.
+Founder green-check required before anything live changes.
+</pre>
+</div>
+
+<div class="card">
+<h2>Financing Layer</h2>
+<button class="green" onclick="showFinancing()">Preview Financing Rules</button>
+<pre id="financing"></pre>
+</div>
+
+<div class="card">
+<h2>Fraud / Scam Protection</h2>
+<button class="warn" onclick="showFraud()">Preview Scam Scan</button>
+<pre id="fraud"></pre>
+</div>
+</div>
+
+<script>
+function show(id,obj){
+  document.getElementById(id).textContent = JSON.stringify(obj,null,2);
+}
+
+function showFinancing(){
+  show("financing",{
+    showFinancing:true,
+    options:["Shop Pay Installments","PayPal Pay Later","Additional provider-gated options"],
+    disclaimer:"Subject to provider approval, eligibility, region, order value, and checkout terms.",
+    liveConnectionChange:false,
+    requiresFounderGreenCheck:true
+  });
+}
+
+function showFraud(){
+  show("fraud",{
+    scanMode:"review_only",
+    blockedSignals:["gift card","password","verification code","outside-platform payment","seed phrase"],
+    liveConnectionChange:false,
+    requiresFounderGreenCheck:true
+  });
+}
+</script>
+</body>
+</html>

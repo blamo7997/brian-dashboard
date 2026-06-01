@@ -1,0 +1,21 @@
+{
+    "financingRules":  [
+                           "Offer native financing/payment-plan options only where lawful and appropriate",
+                           "Never guarantee approval",
+                           "Never use predatory or manipulative language",
+                           "Adapt by role, income level, locality, product/service type, and verified context where lawful",
+                           "Disclose provider terms control",
+                           "Legal/financial/fraud review required before live provider changes",
+                           "Protected payment/backend/API systems remain untouched without exact explicit approval"
+                       ],
+    "possibleProviderCategories":  [
+                                       "Shop Pay Installments",
+                                       "PayPal Pay Later",
+                                       "Affirm-style providers",
+                                       "Klarna-style providers",
+                                       "Afterpay-style providers",
+                                       "internal invoice/payment-plan drafts pending legal/accounting review",
+                                       "free-service support routing for eligible homeless/very-low-income users"
+                                   ],
+    "createdAt":  "2026-05-27T15:40:08.0423245-06:00"
+}

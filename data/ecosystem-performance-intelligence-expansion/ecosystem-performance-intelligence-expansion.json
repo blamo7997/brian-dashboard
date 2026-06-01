@@ -1,0 +1,13 @@
+{
+    "phase":  "90",
+    "status":  "prepared",
+    "protectedPhases":  "1-89 protected after validation",
+    "title":  "Ecosystem Performance Intelligence Expansion",
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         }
+}

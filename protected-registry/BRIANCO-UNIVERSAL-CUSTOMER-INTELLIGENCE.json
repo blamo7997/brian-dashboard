@@ -1,0 +1,38 @@
+{
+  "created":"20260530_085915",
+  "system":"Brian & Co Universal Customer Intelligence",
+  "protected":true,
+  "purpose":"Serve every income level while preserving one premium Brian & Co experience.",
+  "core_rule":"The brand remains premium. Recommendations adapt to the individual.",
+  "customer_segments":[
+    "Students",
+    "Fixed Income",
+    "Budget Conscious",
+    "Middle Income",
+    "Professionals",
+    "Business Owners",
+    "High Net Worth",
+    "Luxury Clients",
+    "Enterprise Clients"
+  ],
+  "recommendation_rules":[
+    "Never judge customers by income.",
+    "Recommend products appropriate to goals and budget.",
+    "Offer financing where lawful and appropriate.",
+    "Offer digital products at multiple entry points.",
+    "Keep accessibility support available.",
+    "Keep localization support available.",
+    "Allow customers to grow into higher tiers naturally."
+  ],
+  "luxury_marketplace":[
+    "Verified luxury resale",
+    "Authorized suppliers",
+    "Verified artisans",
+    "Collectors items",
+    "Fine jewelry",
+    "Luxury fashion",
+    "Luxury home décor",
+    "Premium specialty goods"
+  ],
+  "tone":"trusted friend, knowledgeable, dependable, respectful of boundaries, refined and never gimmicky"
+}

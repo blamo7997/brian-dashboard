@@ -1,0 +1,16 @@
+﻿{% comment %}
+Brian & Co Safe Realtime Overlay
+Additive only. Approval-gated. Sensitive connections protected.
+{% endcomment %}
+
+<div id="brianco-realtime-overlay">
+  <div class="brianco-realtime-card">
+    <strong>Brian & Co Concierge</strong>
+    <p>Refined guidance, personalized support where allowed, accessibility, localization, financing notices, digital product intelligence, and founder approval workflows.</p>
+    <button type="button" data-brianco-chat-open>Open Concierge</button>
+    <button type="button" data-brianco-admin-open>Command Center</button>
+  </div>
+</div>
+
+{{ 'brianco-realtime-overlay.js' | asset_url | script_tag }}
+{{ 'brianco-realtime-overlay.css' | asset_url | stylesheet_tag }}

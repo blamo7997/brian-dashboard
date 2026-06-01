@@ -1,0 +1,38 @@
+{
+    "lawyer_review_queue":  [
+                                "Privacy policy updates",
+                                "Terms updates",
+                                "Consent language",
+                                "Utility-data disclosures",
+                                "Business attestation enforcement",
+                                "Referral/discount rules",
+                                "Financing disclosure language"
+                            ],
+    "accountant_review_queue":  [
+                                    "Tax categorization",
+                                    "Deduction relevance",
+                                    "Event expenses",
+                                    "Transport costs",
+                                    "Utility/business-use cost records",
+                                    "Payment fees",
+                                    "Supplier/vendor payments"
+                                ],
+    "founder_approval_queue":  [
+                                   "Live site changes",
+                                   "Legal-sensitive wording",
+                                   "Pricing changes",
+                                   "Product publishing",
+                                   "OAuth/API scope changes",
+                                   "Payment/access changes",
+                                   "Sensitive data activation",
+                                   "Utility intelligence activation"
+                               ],
+    "risk_review_queue":  [
+                              "Fraud signals",
+                              "Fake business/individual misrepresentation",
+                              "Suspicious payment behavior",
+                              "Abusive chatbot behavior",
+                              "Fake review risk",
+                              "Protected-data misuse risk"
+                          ]
+}

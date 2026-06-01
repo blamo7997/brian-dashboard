@@ -1,0 +1,25 @@
+﻿{
+    "created":  "20260530_153355",
+    "bundle":  "Bundle 05",
+    "slug":  "income-tier-command",
+    "title":  "Income Tier Command",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Income-tier personalization for ethical recommendations and customer-fit intelligence.",
+    "modules":  [
+                    "Income-tier routing",
+                    "Luxury/premium/value paths",
+                    "Hardship-safe routing",
+                    "Non-gimmicky upgrades",
+                    "Product fit scoring"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No deploy unless build and Playwright pass",
+                  "No Shopify live product edits",
+                  "No OAuth/payment/customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Founder approval required for protected changes"
+              ]
+}

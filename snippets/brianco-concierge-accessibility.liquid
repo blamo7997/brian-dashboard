@@ -1,0 +1,37 @@
+﻿<style>
+.brianco-bottom-searches{position:fixed;right:18px;bottom:18px;z-index:999999;display:flex;flex-direction:column;gap:10px;width:min(360px,calc(100vw - 36px));font-family:Arial,sans-serif}
+.brianco-bottom-searches button{border:1px solid rgba(244,215,161,.7);border-radius:999px;padding:12px 16px;background:linear-gradient(135deg,#090909,#2a2117,#c2954b);color:#fff8eb;font-weight:800;cursor:pointer}
+.brianco-bottom-panel{display:none;padding:16px;border-radius:20px;border:1px solid rgba(194,149,75,.55);background:linear-gradient(135deg,rgba(5,5,5,.97),rgba(42,33,23,.97));color:#fff8eb;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.brianco-bottom-panel input{width:100%;padding:12px;border-radius:14px;border:1px solid #c2954b;background:#fff8eb;color:#15120f}
+.brianco-bottom-result{margin-top:10px;padding:10px;border-radius:14px;background:rgba(255,248,235,.10);display:none}
+</style>
+
+<div class="brianco-bottom-searches" aria-label="Brian and Co accessibility and language support">
+  <button type="button" id="bcOpenAccessibility">Accessibility Assistance</button>
+  <div class="brianco-bottom-panel" id="bcAccessibilityPanel">
+    <label for="bcAccessibilitySearch">Search accessibility assistance</label>
+    <input id="bcAccessibilitySearch" type="search" placeholder="Dyslexia, ADHD, low vision, dementia, mobility, sensory support">
+    <button type="button" id="bcAccessibilityFind">Find Support</button>
+    <div class="brianco-bottom-result" id="bcAccessibilityResult" aria-live="polite"></div>
+  </div>
+
+  <button type="button" id="bcOpenLanguage">Language Assistance</button>
+  <div class="brianco-bottom-panel" id="bcLanguagePanel">
+    <label for="bcLanguageSearch">Search language assistance</label>
+    <input id="bcLanguageSearch" type="search" placeholder="Spanish, Español, Japanese, 日本語, Arabic, Français">
+    <button type="button" id="bcLanguageFind">Find Language Support</button>
+    <div class="brianco-bottom-result" id="bcLanguageResult" aria-live="polite"></div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded",function(){
+function t(id){var e=document.getElementById(id);if(e)e.style.display=e.style.display==="block"?"none":"block";}
+document.getElementById("bcOpenAccessibility").onclick=function(){t("bcAccessibilityPanel");};
+document.getElementById("bcOpenLanguage").onclick=function(){t("bcLanguagePanel");};
+function show(input,result,text){var q=(document.getElementById(input).value||"").toLowerCase();var out=document.getElementById(result);out.style.display="block";out.innerHTML=q?text:"Please enter the support you would like Brian & Co to help you find.";}
+document.getElementById("bcAccessibilityFind").onclick=function(){show("bcAccessibilitySearch","bcAccessibilityResult","Brian & Co can guide you toward a calmer, clearer, more accessible experience. These supports are practical accessibility aids only, not medical guidance.");};
+document.getElementById("bcLanguageFind").onclick=function(){show("bcLanguageSearch","bcLanguageResult","Brian & Co can help route your experience toward your preferred language and regional communication style where supported.");};
+});
+</script>
+

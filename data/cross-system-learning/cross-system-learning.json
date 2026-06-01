@@ -1,0 +1,43 @@
+{
+    "protectedPhases":  "1-41 protected after Phase 41 validation",
+    "protectedSystems":  {
+                             "collectionsUntouched":  true,
+                             "publicClaimsUntouched":  true,
+                             "productsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "pricingUntouched":  true,
+                             "secretsNotPrinted":  true,
+                             "automaticCommitmentsDisabled":  true,
+                             "paymentsUntouched":  true,
+                             "automaticPurchasesDisabled":  true
+                         },
+    "learningAreas":  [
+                          "Founder Decision Learning",
+                          "Recommendation Learning",
+                          "Opportunity Learning",
+                          "Role Interaction Learning",
+                          "Accessibility Preference Learning",
+                          "Localization Preference Learning",
+                          "Event Interest Learning",
+                          "Commerce Interest Learning",
+                          "Approval Outcome Learning",
+                          "Theme Health Learning",
+                          "Production Stability Learning",
+                          "Continuity Pattern Learning"
+                      ],
+    "mode":  "cross-system-learning-readiness",
+    "learningRules":  [
+                          "Use consent-aware summaries only",
+                          "Do not store secrets",
+                          "Do not store payment data",
+                          "Do not store OAuth tokens",
+                          "Do not store raw credentials",
+                          "Route sensitive learning through founder approval",
+                          "Route legal/privacy-sensitive learning through review",
+                          "No automatic public claims",
+                          "No automatic purchases",
+                          "No automatic commitments"
+                      ],
+    "phase":  "42",
+    "status":  "prepared"
+}

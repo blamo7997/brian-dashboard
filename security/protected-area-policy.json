@@ -1,0 +1,23 @@
+{
+    "created_at":  "2026-05-27T12:18:05.8528414-06:00",
+    "rule":  "always protect secure/protected areas across all Brian \u0026 Co projects",
+    "allow_protected_changes":  false,
+    "default_action":  "block protected changes and create local approval-gated blueprints only",
+    "protected_areas":  [
+                            "backend",
+                            "OAuth",
+                            "API keys",
+                            "environment variables",
+                            "tokens",
+                            "secrets",
+                            "payment systems",
+                            "live Shopify products",
+                            "live Shopify collections",
+                            "current theme publishing",
+                            "Vercel",
+                            "Supabase",
+                            "OpenAI",
+                            "social accounts",
+                            "existing integrations"
+                        ]
+}

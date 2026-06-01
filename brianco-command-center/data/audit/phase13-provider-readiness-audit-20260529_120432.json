@@ -1,0 +1,47 @@
+{
+    "deploy_exit":  0,
+    "build_exit":  0,
+    "protected":  {
+                      "no_payment_changes":  true,
+                      "no_oauth_changes":  true,
+                      "no_secret_printing":  true,
+                      "no_collection_edits":  true,
+                      "no_raw_biometric_storage":  true,
+                      "no_product_edits":  true
+                  },
+    "record":  "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\phase13\\providers\\phase13-provider-readiness-record-20260529_120432.json",
+    "created_at":  "2026-05-29T12:05:47.8350541-06:00",
+    "phase":  "phase13_real_data_integration_readiness",
+    "route_results":  [
+                          {
+                              "url":  "https://brianco-backend-clean.vercel.app/api/provider-readiness",
+                              "success":  true,
+                              "status":  200,
+                              "error":  null
+                          },
+                          {
+                              "url":  "https://brianco-backend-clean.vercel.app/api/provider-readiness/future",
+                              "success":  true,
+                              "status":  200,
+                              "error":  null
+                          },
+                          {
+                              "url":  "https://brianco-backend-clean.vercel.app/command-center",
+                              "success":  true,
+                              "status":  200,
+                              "error":  null
+                          },
+                          {
+                              "url":  "https://brianco-backend-clean.vercel.app/native-map",
+                              "success":  true,
+                              "status":  200,
+                              "error":  null
+                          },
+                          {
+                              "url":  "https://brianco-backend-clean.vercel.app/role-center",
+                              "success":  true,
+                              "status":  200,
+                              "error":  null
+                          }
+                      ]
+}

@@ -1,0 +1,6 @@
+{
+  "created":"20260530_104450",
+  "status":"beyond_beyond_protected_recovery_active",
+  "rule":"No deletes, no broad overwrites, no automatic deploys, restore only missing or zero-byte files automatically, rebuild only missing critical shells.",
+  "backup_before_recovery":"protected-backups\\\\PRE_SURGICAL_RECOVERY_20260530_104450"
+}

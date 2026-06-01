@@ -1,0 +1,36 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 02",
+    "phase":  "Phase 03",
+    "slug":  "founder-command-center-master",
+    "title":  "Founder Command Center Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Founder dashboard, green-check legal signature system, yellow-circle legal review routing, red rejection routing, approval history, and protected action control.",
+    "modules":  [
+                    "Founder dashboard",
+                    "Green check legal signature",
+                    "Yellow circle lawyer review with notes",
+                    "Red rejection with reason",
+                    "Approval history",
+                    "Protected action registry",
+                    "Audit trail"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

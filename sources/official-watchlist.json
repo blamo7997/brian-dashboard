@@ -1,0 +1,37 @@
+[
+    {
+        "price_scan":  "official/public only",
+        "products":  [
+                         "Premiere Pro",
+                         "Firefly",
+                         "all current/future Adobe creative offers"
+                     ],
+        "vendor":  "Adobe"
+    },
+    {
+        "price_scan":  "official/public only",
+        "products":  [
+                         "Final Cut Pro",
+                         "all current/future Apple creative offers"
+                     ],
+        "vendor":  "Apple"
+    },
+    {
+        "price_scan":  "official/public only",
+        "products":  [
+                         "Google Workspace",
+                         "Gemini",
+                         "all current/future Workspace offers"
+                     ],
+        "vendor":  "Google"
+    },
+    {
+        "price_scan":  "official/public only",
+        "products":  [
+                         "Microsoft 365",
+                         "Copilot",
+                         "all current/future Microsoft 365 offers"
+                     ],
+        "vendor":  "Microsoft"
+    }
+]

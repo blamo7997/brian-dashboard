@@ -1,0 +1,21 @@
+{
+    "createdAt":  "2026-05-27T16:09:39.0466577-06:00",
+    "influencerRules":  {
+                            "payout":  "verified-sale/net-profit gated; no guaranteed payment before Brian salary, overhead, ads, taxes/fees/refunds/chargebacks/platform/payment/shipping costs and approved expenses are covered",
+                            "tone":  "Brian \u0026 Co eloquent, refined, localized, income-tier-aware, never gimmicky",
+                            "promote":  [
+                                            "website",
+                                            "chatbot",
+                                            "digital products",
+                                            "services",
+                                            "subscriptions",
+                                            "bundles",
+                                            "role-appropriate features"
+                                        ],
+                            "approval":  "payout/public/campaign changes approval-gated and legal-review-aware",
+                            "affiliateLink":  "unique referral/affiliate link per influencer scaffold",
+                            "reminders":  "regular upload and campaign reminders",
+                            "productRequired":  "not always; may promote with or without receiving product depending on program terms",
+                            "contentSubmission":  "required links/examples of work for review"
+                        }
+}

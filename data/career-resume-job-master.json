@@ -1,0 +1,38 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 14",
+    "phase":  "Phase 28",
+    "slug":  "career-resume-job-master",
+    "title":  "Career Resume Job Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Resume builder, job search support, major job site watchlist, remote work support, promotion guidance, raise guidance, certification tracking, and application tracking.",
+    "modules":  [
+                    "Resume builder",
+                    "Job watchlist",
+                    "Remote work support",
+                    "Promotion help",
+                    "Raise help",
+                    "Career planning",
+                    "Certification tracking",
+                    "Application tracking",
+                    "Opportunity scoring"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

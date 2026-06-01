@@ -1,0 +1,53 @@
+{
+    "created_at":  "2026-05-29T10:18:08.5624320-06:00",
+    "protected_rules":  {
+                            "existing_products_protected":  true,
+                            "product_ui_must_show_access_model":  true,
+                            "future_green_check_can_apply_collection_changes":  true,
+                            "do_not_modify_live_collections_without_approval":  true,
+                            "do_not_modify_live_products_without_approval":  true
+                        },
+    "master_collection_standard":  {
+                                       "concierge_upgrades":  {
+                                                                  "purpose":  "Add-on support, faster review, premium guidance, specialized assistance.",
+                                                                  "label":  "Concierge Upgrades"
+                                                              },
+                                       "physical_products":  {
+                                                                 "purpose":  "Dropshipped or supplier/artisan physical items where applicable.",
+                                                                 "label":  "Physical Products"
+                                                             },
+                                       "role_specific_offers":  {
+                                                                    "purpose":  "Offers shown by role: customer, artisan, influencer, supplier, lawyer, investor, banker, accountant.",
+                                                                    "label":  "Role-Specific Offers"
+                                                                },
+                                       "bundles":  {
+                                                       "purpose":  "Grouped products/services sold together at a premium value.",
+                                                       "label":  "Bundles"
+                                                   },
+                                       "memberships":  {
+                                                           "label":  "Memberships",
+                                                           "purpose":  "Recurring access, tiered concierge plans, premium AI+ access, role-based memberships.",
+                                                           "examples":  [
+                                                                            "Starter Concierge",
+                                                                            "Essential Concierge",
+                                                                            "Growth Concierge",
+                                                                            "Premier Concierge",
+                                                                            "Atelier Concierge",
+                                                                            "Executive Concierge",
+                                                                            "Artisan Concierge Membership"
+                                                                        ]
+                                                       },
+                                       "ala_carte":  {
+                                                         "purpose":  "One-time purchases, single services, individual AI+ tools, specific reviews or deliverables.",
+                                                         "label":  "À La Carte"
+                                                     },
+                                       "digital_products":  {
+                                                                "purpose":  "Downloadables, templates, guides, AI+ systems, reports, dashboards, toolkits.",
+                                                                "label":  "Digital Products"
+                                                            },
+                                       "professional_review":  {
+                                                                   "purpose":  "Lawyer/accountant/founder review items, approvals, compliance-sensitive products.",
+                                                                   "label":  "Founder \u0026 Professional Review"
+                                                               }
+                                   }
+}

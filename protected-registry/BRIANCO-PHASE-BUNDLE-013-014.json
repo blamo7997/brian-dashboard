@@ -1,0 +1,9 @@
+{
+    "name":  "Supplier + Dropship Intake",
+    "additive_only":  true,
+    "bundle":  "013-014",
+    "description":  "Dropship-first supplier intake, fulfillment, returns, tracking, origin, image permission, no direct customer supplier contact.",
+    "created":  "2026-05-30T10:12:43.0998815-06:00",
+    "protected":  true,
+    "protected_from":  "project_start"
+}

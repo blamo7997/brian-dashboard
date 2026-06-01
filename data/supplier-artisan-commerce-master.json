@@ -1,0 +1,39 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 13",
+    "phase":  "Phase 25",
+    "slug":  "supplier-artisan-commerce-master",
+    "title":  "Supplier Artisan Commerce Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Supplier, artisan, creator, influencer, dropship, white-label, private-label, origin, production, shipping, return, and compliance workflows.",
+    "modules":  [
+                    "Supplier intake",
+                    "Artisan intake",
+                    "Creator intake",
+                    "Influencer intake",
+                    "Dropship first",
+                    "Country of origin",
+                    "Material origin",
+                    "Production updates",
+                    "Return policy",
+                    "Compliance review"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

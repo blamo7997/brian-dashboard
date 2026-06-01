@@ -1,0 +1,25 @@
+﻿{
+    "created":  "20260530_153355",
+    "bundle":  "Bundle 04",
+    "slug":  "luxury-brand-outreach-center",
+    "title":  "Luxury Brand Outreach Center",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Luxury resale and outreach framework with authenticity, source, and marketplace safeguards.",
+    "modules":  [
+                    "Luxury retailer outreach",
+                    "Resale opportunity tracking",
+                    "Authenticity caution",
+                    "Brand tone rewriting",
+                    "Income-tier presentation"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No deploy unless build and Playwright pass",
+                  "No Shopify live product edits",
+                  "No OAuth/payment/customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Founder approval required for protected changes"
+              ]
+}

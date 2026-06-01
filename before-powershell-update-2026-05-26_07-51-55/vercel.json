@@ -1,0 +1,31 @@
+$ErrorActionPreference = "Continue"
+
+$root = "C:\Users\user\brianco-backend-clean"
+$baseUrl = "https://brianco-backend-clean.vercel.app"
+
+$logDir = "$root\logs"
+$backupDir = "$root\continuity-backups"
+
+New-Item -ItemType Directory -Force -Path $root,$logDir,$backupDir,"$root\api" | Out-Null
+
+function Log($m){
+    $stamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    $line = "[$stamp] $m"
+    $line | Tee-Object -FilePath $global:CurrentLog -Append
+}
+
+function Write-Route($name,$body){
+    Set-Content "$root\api\$name.js" $body -Encoding UTF8
+}
+
+function Ensure-Routes {
+
+@'
+{
+  "version": 2,
+  "functions": {
+    "api/*.js": {
+      "runtime": "nodejs22.x"
+    }
+  }
+}

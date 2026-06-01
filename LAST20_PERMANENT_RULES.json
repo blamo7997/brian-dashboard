@@ -1,0 +1,23 @@
+{
+    "permanentLast20Minutes":  [
+                                   "contracts/legal/policies continuously drafted but kept DRAFT/PENDING LEGAL REVIEW",
+                                   "terms/privacy/return/supplier/artisan/creator/influencer/investor/accountant/lawyer documents approval-gated",
+                                   "Brian green-check required before public/legal/policy changes",
+                                   "influencer payout never guaranteed before Brian salary, overhead, ads, taxes, fees, refunds, chargebacks, shipping/platform/payment costs, and approved expenses are covered",
+                                   "influencers regularly promote chatbot, website, digital products, services, subscriptions, bundles, and features",
+                                   "influencers may promote with or without product depending on terms",
+                                   "each influencer gets unique affiliate/referral link scaffold",
+                                   "influencers submit content/work links for review",
+                                   "ongoing content suggestions and reminders matched to audience income tier and Brian \u0026 Co tone",
+                                   "accountant portal with receipt photo/business expense capture scaffold",
+                                   "OCR/categorization scaffold, audit trail, tax notes, approval status, accountant review queue",
+                                   "supplier/artisan/creator product country of origin and material-origin disclosure scaffold",
+                                   "no supplier/artisan/creator direct customer contact",
+                                   "production updates with photos/videos/tracking/delay notices",
+                                   "stories/descriptions/policies rewritten in Brian \u0026 Co adaptive eloquent tone",
+                                   "custom work non-refundable once production begins where lawful and disclosed",
+                                   "public changes remain green-check and legal-review gated"
+                               ],
+    "protectedRule":  "NEVER touch OAuth, tokens, secrets, .env files, backend/API/payment/social connections, Shopify/Vercel/Supabase/OpenAI connections, live Shopify products, live Shopify collections, payment systems, working integrations, or deployment wiring without exact explicit approval.",
+    "createdAt":  "2026-05-27T16:09:38.8182218-06:00"
+}

@@ -1,0 +1,35 @@
+﻿{
+    "created":  "20260530_171248",
+    "bundle":  "Bundle E",
+    "phase":  "Phase A",
+    "slug":  "local-events-festival-intelligence",
+    "title":  "Local Events and Festival Intelligence",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Cheyenne events, Frontier Days, local festivals, local opportunities, vendor applications, founder dashboard alerts, event reminders, and customer event notifications.",
+    "modules":  [
+                    "Cheyenne events",
+                    "Frontier Days tracking",
+                    "Local festivals",
+                    "Local opportunity watch",
+                    "Vendor applications",
+                    "Founder dashboard alerts",
+                    "Event reminders",
+                    "Customer event notifications"
+                ],
+    "rules":  [
+                  "No assumptions",
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "Originals preserved",
+                  "Brian and Co display versions stored separately",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No Shopify live product API edits",
+                  "No secrets touched",
+                  "Vault snapshot before and after",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy"
+              ]
+}

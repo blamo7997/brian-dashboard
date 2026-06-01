@@ -1,0 +1,37 @@
+﻿{
+    "created":  "20260530_171248",
+    "bundle":  "Bundle C",
+    "phase":  "Phase B",
+    "slug":  "product-visibility-layer",
+    "title":  "Product Visibility Layer",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Every purchased product, membership, subscription, upgrade, and digital asset appears in website account, chatbot, private UI, founder UI, and free Brian and Co OS where entitled.",
+    "modules":  [
+                    "Purchased product visibility",
+                    "Membership visibility",
+                    "Subscription visibility",
+                    "Upgrade visibility",
+                    "Digital asset visibility",
+                    "Website account",
+                    "Chatbot",
+                    "Private UI",
+                    "Founder UI",
+                    "Free OS visibility"
+                ],
+    "rules":  [
+                  "No assumptions",
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "Originals preserved",
+                  "Brian and Co display versions stored separately",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No Shopify live product API edits",
+                  "No secrets touched",
+                  "Vault snapshot before and after",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy"
+              ]
+}

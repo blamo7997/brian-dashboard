@@ -1,0 +1,11 @@
+{
+  "created":"20260530_091935",
+  "system":"Brian & Co Live Legal Command Center",
+  "protected":true,
+  "live_usable":true,
+  "stores_data_in":"data/legal-live",
+  "purpose":"Real internal portal for legal records, IP records, approval queue, action history, founder review, and legal review tracking.",
+  "important":"This portal tracks and manages legal workflow. Actual filings, attorney review, signed contracts, trademark registration, copyright registration, and legal enforceability still require real legal action outside the app.",
+  "protected_from":"beginning of this chat/project",
+  "tone":"trusted friend, knowledgeable, dependable, respectful of boundaries, warm, human, refined, never gimmicky, never valued customer"
+}

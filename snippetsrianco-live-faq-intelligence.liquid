@@ -1,0 +1,157 @@
+<script defer>
+(function(){
+
+if(window.__BRIANCO_FAQ_INTELLIGENCE__) return;
+window.__BRIANCO_FAQ_INTELLIGENCE__ = true;
+
+window.BrianCoFAQEngine = {
+
+  version: new Date().toISOString(),
+
+  registry: [],
+
+  sources: [
+    "footer",
+    "products",
+    "collections",
+    "buttons",
+    "navigation",
+    "headings",
+    "chatbot"
+  ],
+
+  add(question, answer, source){
+
+    if(!question || !answer) return;
+
+    const exists = this.registry.some(function(item){
+      return item.question === question;
+    });
+
+    if(exists) return;
+
+    this.registry.push({
+      question,
+      answer,
+      source: source || "dynamic",
+      updated: new Date().toISOString()
+    });
+
+    this.render();
+  },
+
+  scanPage(){
+
+    document.querySelectorAll("a, button, h1, h2, h3, h4, .card, .product-card")
+      .forEach((el) => {
+
+        const text = (el.innerText || "").trim();
+
+        if(!text || text.length < 4) return;
+
+        if(text.length > 120) return;
+
+        if(/faq/i.test(text)) return;
+
+        if(/accessibility/i.test(text)){
+          this.add(
+            "Does Brian & Co support accessibility?",
+            "Yes. Brian & Co continuously supports accessibility-aware experiences where technically feasible.",
+            "accessibility"
+          );
+        }
+
+        if(/membership|subscription/i.test(text)){
+          this.add(
+            "Are memberships available?",
+            "Yes. Brian & Co may provide memberships, subscriptions, bundles, and digital access experiences.",
+            "membership"
+          );
+        }
+
+        if(/language/i.test(text)){
+          this.add(
+            "Can I change my language preferences?",
+            "Yes. Brian & Co supports localized and preferred-language experiences where available.",
+            "language"
+          );
+        }
+
+        if(/concierge|chatbot/i.test(text)){
+          this.add(
+            "How does the concierge help?",
+            "The concierge assists with products, services, accessibility, navigation, recommendations, and digital experiences.",
+            "chatbot"
+          );
+        }
+
+      });
+
+  },
+
+  render(){
+
+    let wrap = document.getElementById("brianco-dynamic-faq");
+
+    if(!wrap){
+
+      wrap = document.createElement("section");
+
+      wrap.id = "brianco-dynamic-faq";
+
+      wrap.style.cssText =
+        "margin:40px auto;padding:28px;max-width:1400px;" +
+        "border-radius:28px;background:#faf6ef;" +
+        "border:1px solid rgba(180,140,70,.25);" +
+        "font-family:Arial,sans-serif;color:#17120d;";
+
+      const footer = document.querySelector("footer");
+
+      if(footer){
+        footer.prepend(wrap);
+      }
+    }
+
+    let html = "";
+
+    html += "<h2 style='margin-bottom:18px;'>Brian & Co Live FAQ</h2>";
+
+    this.registry.forEach(function(item){
+
+      html +=
+        "<div style='margin-bottom:18px;padding-bottom:18px;border-bottom:1px solid rgba(0,0,0,.08);'>" +
+        "<strong>" + item.question + "</strong>" +
+        "<p style='margin-top:6px;line-height:1.6;'>" + item.answer + "</p>" +
+        "</div>";
+
+    });
+
+    wrap.innerHTML = html;
+  }
+
+};
+
+function realtimeFaqLoop(){
+
+  window.BrianCoFAQEngine.scanPage();
+  window.BrianCoFAQEngine.render();
+
+}
+
+document.addEventListener("DOMContentLoaded", realtimeFaqLoop);
+
+setInterval(realtimeFaqLoop, 4000);
+
+const observer = new MutationObserver(function(){
+  realtimeFaqLoop();
+});
+
+observer.observe(document.documentElement, {
+  childList: true,
+  subtree: true
+});
+
+console.log("Brian & Co live FAQ intelligence active.");
+
+})();
+</script>

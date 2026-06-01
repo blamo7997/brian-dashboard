@@ -1,0 +1,72 @@
+{
+  "created":"20260530_090852",
+  "system":"Brian & Co Supplier + Luxury Recruitment + Product Image Tone Intelligence",
+  "protected":true,
+  "business_model":[
+    "dropship-first",
+    "curated reseller",
+    "verified luxury resale",
+    "authorized supplier relationships",
+    "artisan marketplace",
+    "premium digital products",
+    "membership-driven ecosystem"
+  ],
+  "supplier_targets":[
+    "independent artisans",
+    "regional makers",
+    "premium home decor brands",
+    "fine gift suppliers",
+    "jewelry suppliers",
+    "fashion suppliers",
+    "wellness suppliers",
+    "specialty product suppliers",
+    "authorized luxury resale sources",
+    "marketplace/vendor programs",
+    "department-store vendor programs",
+    "future high-end brand partnerships"
+  ],
+  "luxury_targets":[
+    "Tiffany & Co.",
+    "Armani",
+    "Louis Vuitton",
+    "Nordstrom vendor ecosystem",
+    "Saks / Neiman / Bloomingdale style vendor ecosystems",
+    "verified luxury resale partners",
+    "authenticated consignment sources"
+  ],
+  "product_image_rules":[
+    "Supplier product images must be reviewed before use.",
+    "Image usage rights must be confirmed before publishing.",
+    "Backgrounds should be removed or refined where appropriate.",
+    "Images should be adapted to Brian & Co's luxury visual tone.",
+    "No misleading brand logos or unauthorized affiliation presentation.",
+    "No counterfeit, replica, dupe, or uncertain-authenticity imagery.",
+    "Alt text must be generated for accessibility.",
+    "Founder approval required before publishing product images."
+  ],
+  "product_description_rules":[
+    "Supplier descriptions are never copied blindly.",
+    "Descriptions must be rewritten in Brian & Co's refined tone.",
+    "Copy must be human, warm, clear, trustworthy, and never gimmicky.",
+    "Country of origin, condition, authenticity, warranty, return limits, and provenance should be included where applicable.",
+    "No false authorized-dealer claims.",
+    "No misleading luxury affiliation claims.",
+    "No spammy urgency or fake scarcity.",
+    "Founder approval required before publishing high-risk listings."
+  ],
+  "required_before_listing":[
+    "supplier authorization or lawful resale basis",
+    "authenticity verification",
+    "image permission review",
+    "background removal or image refinement",
+    "Brian & Co tone rewrite",
+    "country of origin",
+    "provenance record",
+    "condition record",
+    "return/warranty disclosure",
+    "trademark-safe product title",
+    "founder approval",
+    "legal review for high-risk luxury listings"
+  ],
+  "tone":"trusted friend, knowledgeable, dependable, respectful of boundaries, refined, human, never gimmicky"
+}

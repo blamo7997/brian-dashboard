@@ -1,0 +1,25 @@
+﻿{
+    "created":  "20260530_153355",
+    "bundle":  "Bundle 03",
+    "slug":  "event-festival-intelligence-v2",
+    "title":  "Event and Festival Intelligence",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Cheyenne events, Frontier Days awareness, local festivals, and founder opportunity alerts.",
+    "modules":  [
+                    "Cheyenne event alerts",
+                    "Frontier Days tracking",
+                    "Local festival watchlist",
+                    "Founder dashboard notifications",
+                    "Event sales readiness"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No deploy unless build and Playwright pass",
+                  "No Shopify live product edits",
+                  "No OAuth/payment/customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Founder approval required for protected changes"
+              ]
+}

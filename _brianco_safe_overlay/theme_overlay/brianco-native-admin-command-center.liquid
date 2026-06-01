@@ -1,0 +1,34 @@
+﻿{% comment %}
+Brian & Co Native Admin Command Center
+Safe overlay. Does not replace Shopify Admin home.
+Provides Brian-facing dashboard surface for approvals, chatbot, theme, products,
+finance, legal, suppliers, creators, accessibility, localization, and live checks.
+{% endcomment %}
+
+<div id="brianco-native-admin-command-center" data-brianco-admin="safe-overlay">
+  <section class="brianco-admin-panel">
+    <h2>Brian & Co Command Center</h2>
+    <p>Founder dashboard for approvals, real-time theme/chatbot intelligence, supplier signals, product readiness, legal review, finance, accessibility, localization, and next-best actions.</p>
+
+    <div class="brianco-admin-grid">
+      <div><strong>Green-Check Approvals</strong><span>Theme, chatbot, legal, finance, public updates.</span></div>
+      <div><strong>Realtime Concierge</strong><span>Typos, timestamps, localization, personalization, tone.</span></div>
+      <div><strong>Theme Health</strong><span>Images, navigation, 404s, accessibility, SEO.</span></div>
+      <div><strong>Products & Collections</strong><span>Read-only first. Preserve existing Shopify data.</span></div>
+      <div><strong>Financing</strong><span>Native financing notice scaffolds where eligible.</span></div>
+      <div><strong>Legal Review</strong><span>Lawyer queue, draft flags, version approval.</span></div>
+      <div><strong>Suppliers & Artisans</strong><span>Origin, timing, returns, quality, performance.</span></div>
+      <div><strong>Creators & Influencers</strong><span>Draft posts, verified-sale logic, approval queue.</span></div>
+      <div><strong>Finance & Profit</strong><span>Margins, fees, shipping, duties, tax review.</span></div>
+      <div><strong>Fraud & Safety</strong><span>Scam signals, abuse review, payment-risk hooks.</span></div>
+      <div><strong>Weather/Event Ops</strong><span>Local selling, shipping, outdoor event readiness.</span></div>
+      <div><strong>Next Best Action</strong><span>Prioritized safe recommendations for Brian.</span></div>
+    </div>
+
+    <p class="brianco-admin-note">
+      Protected systems remain untouched: OAuth, tokens, env vars, backend connections,
+      Shopify Admin API credentials, products, collections, payments, social connections,
+      Vercel, Supabase, and OpenAI keys.
+    </p>
+  </section>
+</div>

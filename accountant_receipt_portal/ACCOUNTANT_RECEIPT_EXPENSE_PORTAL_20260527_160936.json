@@ -1,0 +1,34 @@
+{
+    "createdAt":  "2026-05-27T16:09:39.1465239-06:00",
+    "accountantPortal":  {
+                             "auditTrail":  true,
+                             "taxNotes":  true,
+                             "approvalStatus":  [
+                                                    "draft",
+                                                    "needs receipt",
+                                                    "categorized",
+                                                    "needs accountant review",
+                                                    "approved",
+                                                    "rejected"
+                                                ],
+                             "receiptPhotoCapture":  "scaffolded",
+                             "accountantReviewQueue":  true,
+                             "ocrCategorization":  "scaffold only until OCR service connected",
+                             "categories":  [
+                                                "ads/marketing",
+                                                "software",
+                                                "shipping",
+                                                "packaging",
+                                                "inventory",
+                                                "legal/accounting",
+                                                "transportation",
+                                                "home office",
+                                                "platform fees",
+                                                "payment fees",
+                                                "refunds/chargebacks",
+                                                "contractor/supplier costs"
+                                            ],
+                             "businessExpenseCapture":  "scaffolded",
+                             "protectedFinancialSystemsTouched":  false
+                         }
+}

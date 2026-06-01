@@ -1,0 +1,23 @@
+{
+    "created_at":  "2026-05-29T10:51:20.1582697-06:00",
+    "phase":  "phase11_text_first_interaction",
+    "standard":  "Every user should be able to interact with Brian \u0026 Co website and chatbot through text wherever feasible.",
+    "protected":  {
+                      "no_payment_changes":  true,
+                      "no_oauth_changes":  true,
+                      "no_secret_changes":  true,
+                      "no_collection_edits":  true,
+                      "no_raw_biometric_storage":  true,
+                      "consent_required_for_sensitive_data":  true,
+                      "no_product_edits":  true
+                  },
+    "capabilities":  {
+                         "role_detection":  true,
+                         "chatbot_text_routing":  true,
+                         "accessibility_language_routing":  true,
+                         "website_text_concierge":  true,
+                         "typo_normalization":  true,
+                         "sms_mms_future_provider_ready":  true,
+                         "offer_navigation":  true
+                     }
+}

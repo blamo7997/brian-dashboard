@@ -1,0 +1,36 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 01",
+    "phase":  "Phase 02",
+    "slug":  "absolute-master-handoff-continuity",
+    "title":  "Absolute Master Handoff Continuity",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Clearly labeled new-project handoff files, upload-first package, registry, manifests, and starter prompt for seamless Brian \u0026 Co continuity.",
+    "modules":  [
+                    "Upload-first ZIP",
+                    "Upload-second handoff",
+                    "Protection registry",
+                    "File manifest",
+                    "Hash manifest",
+                    "Read-me-first file",
+                    "Starter prompt"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

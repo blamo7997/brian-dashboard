@@ -1,0 +1,11 @@
+{
+    "created_at":  "2026-05-29T09:19:35.1881177-06:00",
+    "next_best_actions":  [
+                              "Keep Command Center local until founder login/customer permissions are ready.",
+                              "Connect read-only health/status sources before any live write layer.",
+                              "Add official Cheyenne/Frontier Days event source scanning only from public/official pages.",
+                              "Prepare utility consent form before accepting electricity usage data.",
+                              "Do not alter existing Shopify products; create-missing-only remains the rule.",
+                              "Require lawyer review before relying on privacy, consent, utility, financing, or referral disclosures."
+                          ]
+}

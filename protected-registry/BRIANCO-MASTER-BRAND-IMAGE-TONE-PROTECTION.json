@@ -1,0 +1,40 @@
+{
+  "created":"20260530_091136",
+  "system":"Brian & Co Master Brand Image + Tone Protection",
+  "protected_from":"beginning of this chat/project",
+  "protected":true,
+  "rule":"All background images, product images, supplier images, text, descriptions, UI copy, chatbot copy, email copy, captions, alt text, onboarding text, and any customer-facing or internal-facing wording must be refined to Brian & Co tone and protected brand standards before publishing.",
+  "image_rules":[
+    "Review every image before publishing",
+    "Remove or refine backgrounds where appropriate",
+    "Match Brian & Co luxury gradient and visual tone",
+    "Confirm supplier image usage rights",
+    "Avoid misleading brand affiliation",
+    "Preserve product accuracy",
+    "Generate accessibility-friendly alt text",
+    "Founder approval before publishing high-risk images"
+  ],
+  "text_rules":[
+    "Never copy supplier text blindly",
+    "Rewrite descriptions in Brian & Co tone",
+    "Use preferred name when known and permitted",
+    "Never say valued customer",
+    "Never sound gimmicky",
+    "Never use fake urgency",
+    "Never use generic corporate language",
+    "Keep tone human, warm, refined, clear, and trustworthy",
+    "Include origin, condition, authenticity, warranty, return, and provenance details where applicable"
+  ],
+  "tone":"trusted friend, knowledgeable, dependable, respectful of boundaries, human, refined, eloquent, premium, non-pushy",
+  "approval_required_for":[
+    "public product copy",
+    "luxury resale listings",
+    "supplier images",
+    "brand-name products",
+    "legal/policy wording",
+    "pricing claims",
+    "payment wording",
+    "customer-data wording",
+    "any protected live change"
+  ]
+}

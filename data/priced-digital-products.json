@@ -1,0 +1,65 @@
+[
+    {
+        "collection":  "AI Creative Tools",
+        "title":  "Brian \u0026 Co Creative Commerce Studio",
+        "price":  149,
+        "status":  "draft_pending_approval",
+        "billing":  "one-time"
+    },
+    {
+        "collection":  "AI Creative Tools",
+        "title":  "Brian \u0026 Co Video Intelligence Lab",
+        "price":  129,
+        "status":  "draft_pending_approval",
+        "billing":  "one-time"
+    },
+    {
+        "collection":  "Business Productivity Tools",
+        "title":  "Brian \u0026 Co Workspace Concierge",
+        "price":  199,
+        "status":  "draft_pending_approval",
+        "billing":  "one-time"
+    },
+    {
+        "collection":  "Digital Connections",
+        "title":  "Brian \u0026 Co Agent Approval Builder",
+        "price":  249,
+        "status":  "draft_pending_approval",
+        "billing":  "one-time"
+    },
+    {
+        "collection":  "À La Carte Upgrades",
+        "title":  "Brian \u0026 Co Launch Media Kit",
+        "price":  79,
+        "status":  "draft_pending_approval",
+        "billing":  "one-time"
+    },
+    {
+        "collection":  "À La Carte Upgrades",
+        "title":  "Brian \u0026 Co Email + Meeting Intelligence",
+        "price":  49,
+        "status":  "draft_pending_approval",
+        "billing":  "one-time"
+    },
+    {
+        "collection":  "Subscription Bundles",
+        "title":  "Brian \u0026 Co Starter AI Bundle",
+        "price":  29,
+        "status":  "draft_pending_approval",
+        "billing":  "monthly"
+    },
+    {
+        "collection":  "Subscription Bundles",
+        "title":  "Brian \u0026 Co Professional AI Bundle",
+        "price":  99,
+        "status":  "draft_pending_approval",
+        "billing":  "monthly"
+    },
+    {
+        "collection":  "Subscription Bundles",
+        "title":  "Brian \u0026 Co Executive AI Bundle",
+        "price":  299,
+        "status":  "draft_pending_approval",
+        "billing":  "monthly"
+    }
+]

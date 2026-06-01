@@ -1,0 +1,38 @@
+﻿{
+    "created":  "20260530_171248",
+    "bundle":  "Bundle A",
+    "phase":  "Phase B",
+    "slug":  "production-fulfillment-intelligence",
+    "title":  "Production and Fulfillment Intelligence",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Production updates, progress photos, progress videos, customer update engine, tracking ingestion, shipment monitoring, delay alerts, delivery confirmation, white-glove fulfillment, thank-you card compliance, and 5 percent return offer.",
+    "modules":  [
+                    "Production updates",
+                    "Progress photos",
+                    "Progress videos",
+                    "Customer update engine",
+                    "Tracking ingestion",
+                    "Shipment monitoring",
+                    "Delay alerts",
+                    "Delivery confirmation",
+                    "White-glove fulfillment",
+                    "Thank-you card compliance",
+                    "5 percent return offer"
+                ],
+    "rules":  [
+                  "No assumptions",
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "Originals preserved",
+                  "Brian and Co display versions stored separately",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No Shopify live product API edits",
+                  "No secrets touched",
+                  "Vault snapshot before and after",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy"
+              ]
+}

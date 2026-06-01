@@ -1,0 +1,22 @@
+{
+  "mode": "draft_only",
+  "autoPublish": false,
+  "requiresFounderGreenCheck": true,
+  "channels": [
+    "Instagram",
+    "Facebook",
+    "TikTok",
+    "Pinterest",
+    "YouTube Shorts",
+    "X",
+    "LinkedIn"
+  ],
+  "captionTemplate": "A carefully curated Brian & Co selection designed to complement a refined lifestyle.",
+  "rules": [
+    "No automatic publishing without Brian approval.",
+    "No platform credentials in code.",
+    "No fake reviews.",
+    "No legal, medical, or financial claims without review.",
+    "No changes to existing social connections."
+  ]
+}

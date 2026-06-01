@@ -1,0 +1,20 @@
+﻿{{ 'brianco-continuity-overlay.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'brianco-continuity-overlay.js' | asset_url }}" defer></script>
+{% render 'brianco-continuity-overlay' %}
+
+{% schema %}
+{
+  "name": "Brian & Co Continuity Overlay",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Safe additive Brian & Co continuity overlay with role portals, accessibility, founder approval, legal review gates, typo normalization, auto-resume project state, and protected real-time update behavior."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Brian & Co Continuity Overlay"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_vjNTNunQVEDZlXQsYZFxnrgQSd7A",
+  "orgId": "team_1pLdColARv8kAOUjtpSOeykM",
+  "projectName": "brianco-backend-clean",
+  "settings": {
+    "createdAt": 1779617846744,
+    "framework": null,
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "24.x"
+  }
+}

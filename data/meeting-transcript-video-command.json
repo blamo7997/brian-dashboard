@@ -1,0 +1,25 @@
+﻿{
+    "created":  "20260530_153355",
+    "bundle":  "Bundle 06",
+    "slug":  "meeting-transcript-video-command",
+    "title":  "Meeting, Transcript, and Video Command",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Live captions, searchable transcripts, translation, remote meetings, and video workflows.",
+    "modules":  [
+                    "Live captions",
+                    "Searchable transcripts",
+                    "Native-language subtitles",
+                    "Remote meeting support",
+                    "Video editor concierge"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No deploy unless build and Playwright pass",
+                  "No Shopify live product edits",
+                  "No OAuth/payment/customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Founder approval required for protected changes"
+              ]
+}

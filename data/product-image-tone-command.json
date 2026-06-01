@@ -1,0 +1,25 @@
+﻿{
+    "created":  "20260530_153355",
+    "bundle":  "Bundle 07",
+    "slug":  "product-image-tone-command",
+    "title":  "Product Image and Tone Command",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Background removal, Brian \u0026 Co tone refinement, alt text, and image approval gates.",
+    "modules":  [
+                    "Background removal workflow",
+                    "Brand tone rewrite",
+                    "Alt text generation",
+                    "Image approval gate",
+                    "Luxury black/gold consistency"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No deploy unless build and Playwright pass",
+                  "No Shopify live product edits",
+                  "No OAuth/payment/customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Founder approval required for protected changes"
+              ]
+}

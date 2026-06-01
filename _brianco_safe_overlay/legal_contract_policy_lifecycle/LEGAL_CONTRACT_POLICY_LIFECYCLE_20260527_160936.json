@@ -1,0 +1,28 @@
+{
+    "approvalStates":  [
+                           "Approve",
+                           "Revise",
+                           "Reject",
+                           "Hold",
+                           "Ask Lawyer",
+                           "Estimate Cost First",
+                           "Test Small"
+                       ],
+    "status":  "DRAFT_PENDING_LEGAL_REVIEW",
+    "legalItems":  [
+                       "Terms of Service",
+                       "Privacy Policy",
+                       "Return Policy",
+                       "Supplier Agreement",
+                       "Artisan Agreement",
+                       "Creator Agreement",
+                       "Influencer Agreement",
+                       "Investor Acknowledgment",
+                       "Accountant Portal Terms",
+                       "Lawyer Review Notes",
+                       "Custom Work Non-Refundability Disclosure",
+                       "Electronic Signature Consent"
+                   ],
+    "publicUseBlockedUntil":  "Brian green-check approval plus lawyer review where appropriate",
+    "createdAt":  "2026-05-27T16:09:38.9140299-06:00"
+}

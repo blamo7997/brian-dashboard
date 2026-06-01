@@ -1,0 +1,27 @@
+[
+    {
+        "title":  "Digital Products",
+        "handle":  "digital-products",
+        "purpose":  "AI tools, templates, portals, and sellable digital systems."
+    },
+    {
+        "title":  "À La Carte Upgrades",
+        "handle":  "a-la-carte-upgrades",
+        "purpose":  "One-time premium enhancements and service upgrades."
+    },
+    {
+        "title":  "Subscription Tiers",
+        "handle":  "subscription-tiers",
+        "purpose":  "Recurring memberships with role-aware benefits."
+    },
+    {
+        "title":  "Digital Connections",
+        "handle":  "digital-connections",
+        "purpose":  "Future API/app/provider connection opportunities pending approval."
+    },
+    {
+        "title":  "Financing Options",
+        "handle":  "financing-options",
+        "purpose":  "Financing presentation scaffolds pending legal/payment approval."
+    }
+]

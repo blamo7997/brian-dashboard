@@ -1,0 +1,114 @@
+{
+    "total":  5,
+    "protected_systems":  {
+                              "payments_untouched":  true,
+                              "prices_untouched":  true,
+                              "oauth_untouched":  true,
+                              "backend_secrets_untouched":  true,
+                              "products_untouched":  true,
+                              "collections_untouched":  true,
+                              "descriptions_untouched":  true
+                          },
+    "files_written":  [
+                          "C:\\Users\\user\\brianco-backend-clean\\api\\health.js",
+                          "C:\\Users\\user\\brianco-backend-clean\\api\\status.js"
+                      ],
+    "before_success":  3,
+    "created_at":  "2026-05-29T09:35:19.3792153-06:00",
+    "after_success":  3,
+    "package_status":  {
+                           "has_dev_script":  false,
+                           "note":  "",
+                           "exists":  true
+                       },
+    "before":  [
+                   {
+                       "name":  "local_backend_health",
+                       "error":  "Unable to connect to the remote server",
+                       "success":  false,
+                       "preview":  null,
+                       "url":  "http://localhost:3000/api/health",
+                       "status":  null
+                   },
+                   {
+                       "name":  "vercel_backend_health",
+                       "error":  null,
+                       "success":  true,
+                       "preview":  "{\"ok\":true,\"service\":\"Brian \u0026 Co Backend\",\"status\":\"online\"}",
+                       "url":  "https://brianco-backend-clean.vercel.app/api/health",
+                       "status":  200
+                   },
+                   {
+                       "name":  "vercel_backend_status",
+                       "error":  "The remote server returned an error: (404) Not Found.",
+                       "success":  false,
+                       "preview":  null,
+                       "url":  "https://brianco-backend-clean.vercel.app/api/status",
+                       "status":  null
+                   },
+                   {
+                       "name":  "vercel_products_readonly",
+                       "error":  null,
+                       "success":  true,
+                       "preview":  "{\"ok\":true,\"count\":6,\"products\":[{\"id\":9309494542563,\"title\":\"Brian \u0026 Co Accessibility \u0026 Localization Upgrade\",\"description\":\"A digital upgrade framework for accessibility controls, language-aware experiences, regional presentation, captions, readable layouts, and inclusive storefront guidance.\",\"vendor\":\"Brian \u0026 Co\",\"product_type\":\"Digital Product\",\"status\":\"draft\",\"image\":null,\"price\":\"199.00\",\"handle\":\"brian-co-accessibility-localization-upgrade\",\"url\":\"https://briannco.myshopify.com/products",
+                       "url":  "https://brianco-backend-clean.vercel.app/api/products",
+                       "status":  200
+                   },
+                   {
+                       "name":  "vercel_collections_readonly",
+                       "error":  null,
+                       "success":  true,
+                       "preview":  "{\"ok\":true,\"count\":2,\"collections\":[{\"id\":470095266019,\"title\":\"Home page\",\"handle\":\"frontpage\",\"image\":null,\"url\":\"https://briannco.myshopify.com/collections/frontpage\"},{\"id\":470095331555,\"title\":\"Hydrogen\",\"handle\":\"hydrogen\",\"image\":null,\"url\":\"https://briannco.myshopify.com/collections/hydrogen\"}]}",
+                       "url":  "https://brianco-backend-clean.vercel.app/api/collections",
+                       "status":  200
+                   }
+               ],
+    "next_action_if_not_5_of_5":  [
+                                      "If local_backend_health fails, local dev server is not running.",
+                                      "Open a second PowerShell window and run: cd C:\\Users\\user\\brianco-backend-clean",
+                                      "Then run: npm run dev",
+                                      "If vercel_backend_status fails, deploy safe route files with: vercel --prod"
+                                  ],
+    "after":  [
+                  {
+                      "name":  "local_backend_health",
+                      "error":  "Unable to connect to the remote server",
+                      "success":  false,
+                      "preview":  null,
+                      "url":  "http://localhost:3000/api/health",
+                      "status":  null
+                  },
+                  {
+                      "name":  "vercel_backend_health",
+                      "error":  null,
+                      "success":  true,
+                      "preview":  "{\"ok\":true,\"service\":\"Brian \u0026 Co Backend\",\"status\":\"online\"}",
+                      "url":  "https://brianco-backend-clean.vercel.app/api/health",
+                      "status":  200
+                  },
+                  {
+                      "name":  "vercel_backend_status",
+                      "error":  "The remote server returned an error: (404) Not Found.",
+                      "success":  false,
+                      "preview":  null,
+                      "url":  "https://brianco-backend-clean.vercel.app/api/status",
+                      "status":  null
+                  },
+                  {
+                      "name":  "vercel_products_readonly",
+                      "error":  null,
+                      "success":  true,
+                      "preview":  "{\"ok\":true,\"count\":6,\"products\":[{\"id\":9309494542563,\"title\":\"Brian \u0026 Co Accessibility \u0026 Localization Upgrade\",\"description\":\"A digital upgrade framework for accessibility controls, language-aware experiences, regional presentation, captions, readable layouts, and inclusive storefront guidance.\",\"vendor\":\"Brian \u0026 Co\",\"product_type\":\"Digital Product\",\"status\":\"draft\",\"image\":null,\"price\":\"199.00\",\"handle\":\"brian-co-accessibility-localization-upgrade\",\"url\":\"https://briannco.myshopify.com/products",
+                      "url":  "https://brianco-backend-clean.vercel.app/api/products",
+                      "status":  200
+                  },
+                  {
+                      "name":  "vercel_collections_readonly",
+                      "error":  null,
+                      "success":  true,
+                      "preview":  "{\"ok\":true,\"count\":2,\"collections\":[{\"id\":470095266019,\"title\":\"Home page\",\"handle\":\"frontpage\",\"image\":null,\"url\":\"https://briannco.myshopify.com/collections/frontpage\"},{\"id\":470095331555,\"title\":\"Hydrogen\",\"handle\":\"hydrogen\",\"image\":null,\"url\":\"https://briannco.myshopify.com/collections/hydrogen\"}]}",
+                      "url":  "https://brianco-backend-clean.vercel.app/api/collections",
+                      "status":  200
+                  }
+              ]
+}

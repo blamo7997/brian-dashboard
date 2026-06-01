@@ -1,0 +1,42 @@
+{
+    "created_at":  "2026-05-29T10:05:51.2757744-06:00",
+    "no_external_dashboard_redirects_for_normal_users":  true,
+    "standard":  "All Brian \u0026 Co user UIs should be accessed through the Brian \u0026 Co website experience wherever feasible.",
+    "providers":  {
+                      "future_methods":  {
+                                             "status":  "allowed after founder/legal/security review"
+                                         },
+                      "passkey_webauthn":  {
+                                               "status":  "scaffolded",
+                                               "biometric_note":  "Use platform passkeys/WebAuthn. Do not store raw face scans.",
+                                               "user_experience":  "website-native device unlock/passkey"
+                                           },
+                      "email":  {
+                                    "credential_needed_later":  "email auth provider",
+                                    "status":  "scaffolded",
+                                    "user_experience":  "website-native email sign-in"
+                                },
+                      "apple":  {
+                                    "credential_needed_later":  "Apple Sign In credentials, not created by this script",
+                                    "status":  "scaffolded",
+                                    "user_experience":  "website-native button with secure provider flow"
+                                },
+                      "google":  {
+                                     "credential_needed_later":  "Google OAuth client, not created by this script",
+                                     "status":  "scaffolded",
+                                     "user_experience":  "website-native button with secure provider flow"
+                                 },
+                      "qr_code":  {
+                                      "credential_needed_later":  "signed short-lived QR tokens",
+                                      "status":  "scaffolded",
+                                      "user_experience":  "website-native QR sign-in/claim flow"
+                                  }
+                  },
+    "protected_rules":  {
+                            "no_raw_face_scan_storage":  true,
+                            "no_secret_printing":  true,
+                            "founder_approval_required_for_live_auth":  true,
+                            "lawyer_review_required_for_biometric_language":  true,
+                            "no_new_oauth_credentials_created":  true
+                        }
+}

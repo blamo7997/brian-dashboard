@@ -1,0 +1,9 @@
+{
+    "name":  "Accessibility + Localization",
+    "additive_only":  true,
+    "bundle":  "007-008",
+    "description":  "Free individual accessibility, language assistance, localization, no dropdown requirement, separate search/button behavior.",
+    "created":  "2026-05-30T10:12:42.9787924-06:00",
+    "protected":  true,
+    "protected_from":  "project_start"
+}

@@ -1,0 +1,36 @@
+﻿{
+    "created":  "20260530_171248",
+    "bundle":  "Bundle B",
+    "phase":  "Phase B",
+    "slug":  "customer-intelligence-layer",
+    "title":  "Customer Intelligence Layer",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Customer preferences, preferred communication method, accessibility preferences, language preferences, purchase history, product recommendations, membership visibility, subscription visibility, and entitlement visibility.",
+    "modules":  [
+                    "Saved preferences",
+                    "Preferred communication method",
+                    "Accessibility preferences",
+                    "Language preferences",
+                    "Purchase history",
+                    "Recommendation engine",
+                    "Membership visibility",
+                    "Subscription visibility",
+                    "Entitlement visibility"
+                ],
+    "rules":  [
+                  "No assumptions",
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "Originals preserved",
+                  "Brian and Co display versions stored separately",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No Shopify live product API edits",
+                  "No secrets touched",
+                  "Vault snapshot before and after",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy"
+              ]
+}

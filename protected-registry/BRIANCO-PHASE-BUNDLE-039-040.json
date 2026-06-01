@@ -1,0 +1,9 @@
+{
+    "name":  "Compliance Consent Privacy",
+    "additive_only":  true,
+    "bundle":  "039-040",
+    "description":  "Consent, privacy, retention, export/delete, legal-review flags, accessibility and localization compliance.",
+    "created":  "2026-05-30T10:12:43.5460878-06:00",
+    "protected":  true,
+    "protected_from":  "project_start"
+}

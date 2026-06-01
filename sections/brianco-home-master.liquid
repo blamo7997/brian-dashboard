@@ -1,0 +1,178 @@
+﻿{% assign bc_founder = false %}
+{% if customer %}
+  {% assign bc_email = customer.email | downcase %}
+  {% if bc_email == 'support@briannco.com' %}
+    {% if customer.tags contains 'Brian Founder Only' or customer.tags contains 'Command Center Owner' or customer.tags contains 'Role: Founder' %}
+      {% assign bc_founder = true %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+
+<section class="bc-home">
+  <div class="bc-home__hero">
+    <p class="bc-eyebrow">Brian &amp; Co Native</p>
+    <h1>Curated commerce, private access, and founder-reviewed digital experiences.</h1>
+    <p class="bc-lead">
+      Shop, request access, save digital work, and route important requests through Brian &amp; Co without leaving the website experience.
+    </p>
+
+    <div class="bc-actions">
+      {% if customer %}
+        <span class="bc-pill">Signed in: {{ customer.email }}</span>
+      {% else %}
+        <a class="bc-pill" href="{{ routes.account_login_url }}">Sign in</a>
+        <a class="bc-pill" href="{{ routes.account_register_url }}">Create account</a>
+      {% endif %}
+      <button class="bc-pill" type="button" data-bc-open="account">Check access</button>
+      <button class="bc-pill" type="button" data-bc-open="role">Request role</button>
+      <button class="bc-pill" type="button" data-bc-open="free">Free access request</button>
+      <button class="bc-pill" type="button" data-bc-open="digital">Digital product draft</button>
+      <button class="bc-pill" type="button" data-bc-open="work">Save work</button>
+      {% if bc_founder %}
+        <button class="bc-pill bc-founder" type="button" data-bc-open="founder">✓ Founder green-check</button>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="bc-card-grid">
+    <article><h2>Account access</h2><p>Check role, complimentary access, digital-product access, and founder-approved status.</p></article>
+    <article><h2>Role pathways</h2><p>Lawyers, investors, bankers, artisans, creators, influencers, family, girlfriend, and customers can request the right pathway.</p></article>
+    <article><h2>Digital products</h2><p>Create approval-ready digital product drafts and save work for future continuation.</p></article>
+    <article><h2>Founder approval</h2><p>Protected actions remain routed through Brian’s green-check approval standard.</p></article>
+  </div>
+
+  <div class="bc-native-tool" data-bc-panel="account">
+    <h2>Check account access</h2>
+    <form data-bc-form="account">
+      <input name="email" type="email" placeholder="Email address" value="{% if customer %}{{ customer.email }}{% endif %}" required>
+      <button>Check access</button>
+    </form>
+  </div>
+
+  <div class="bc-native-tool" data-bc-panel="role" hidden>
+    <h2>Request role access</h2>
+    <form data-bc-form="role">
+      <input name="requesterName" placeholder="Full name" required>
+      <input name="requesterEmail" type="email" placeholder="Email address" value="{% if customer %}{{ customer.email }}{% endif %}" required>
+      <input name="requestedRole" placeholder="lawyer, investor, banker, artisan, creator, influencer, family, girlfriend, customer" required>
+      <input name="organization" placeholder="Organization / firm / channel / company">
+      <textarea name="notes" placeholder="Notes for Brian"></textarea>
+      <button>Send request</button>
+    </form>
+  </div>
+
+  <div class="bc-native-tool" data-bc-panel="free" hidden>
+    <h2>Request complimentary access</h2>
+    <form data-bc-form="free">
+      <input name="requesterName" placeholder="Full name" required>
+      <input name="requesterEmail" type="email" placeholder="Email address" value="{% if customer %}{{ customer.email }}{% endif %}" required>
+      <input name="relationship" placeholder="Relationship to Brian" required>
+      <input name="requestedAccess" value="Complimentary Brian & Co access">
+      <textarea name="notes" placeholder="Optional note"></textarea>
+      <button>Request Brian’s green check</button>
+    </form>
+  </div>
+
+  <div class="bc-native-tool" data-bc-panel="digital" hidden>
+    <h2>Create digital product draft</h2>
+    <form data-bc-form="digital">
+      <input name="name" placeholder="Digital product name" required>
+      <input name="offerType" value="À la carte digital product">
+      <input name="price" placeholder="Price or pricing note">
+      <input name="audienceRole" placeholder="Audience role">
+      <textarea name="description" placeholder="Description in Brian & Co tone" required></textarea>
+      <textarea name="features" placeholder="Features"></textarea>
+      <input name="downloadableFiles" value="Use-case approval required">
+      <button>Create draft</button>
+    </form>
+  </div>
+
+  <div class="bc-native-tool" data-bc-panel="work" hidden>
+    <h2>Save digital work</h2>
+    <form data-bc-form="work">
+      <input name="email" type="email" placeholder="Account email" value="{% if customer %}{{ customer.email }}{% endif %}" required>
+      <input name="productName" placeholder="Digital product name" required>
+      <textarea name="workSummary" placeholder="Work summary"></textarea>
+      <textarea name="saveData" placeholder="Saved work / draft / notes"></textarea>
+      <button>Save work</button>
+    </form>
+  </div>
+
+  {% if bc_founder %}
+  <div class="bc-native-tool" data-bc-panel="founder" hidden>
+    <h2>Founder green-check feed</h2>
+    <p>Founder access recognized through your Brian &amp; Co account.</p>
+    <button type="button" data-bc-founder-feed>Refresh founder feed</button>
+  </div>
+  {% endif %}
+
+  <pre class="bc-result" data-bc-result>Ready.</pre>
+</section>
+
+<style>
+  .bc-home{padding:clamp(28px,5vw,70px) 18px}
+  .bc-home__hero{max-width:1180px;margin:0 auto;border:1px solid rgba(31,26,23,.12);border-radius:36px;padding:clamp(28px,5vw,56px);background:rgba(255,255,255,.72);box-shadow:0 28px 90px rgba(31,26,23,.10)}
+  .bc-eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:12px;opacity:.72}
+  .bc-home h1{font-size:clamp(38px,6vw,72px);line-height:1.01;margin:12px 0 18px;max-width:1000px}
+  .bc-lead{font-size:19px;line-height:1.75;max-width:880px}
+  .bc-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+  .bc-pill{border:1px solid rgba(31,26,23,.16);border-radius:999px;padding:12px 16px;background:#fff;color:#1f1a17;text-decoration:none;font:inherit;cursor:pointer}
+  .bc-founder{background:#1f1a17;color:#fff}
+  .bc-card-grid{max-width:1180px;margin:22px auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+  .bc-card-grid article,.bc-native-tool{border:1px solid rgba(31,26,23,.12);border-radius:24px;padding:22px;background:rgba(255,255,255,.78)}
+  .bc-native-tool{max-width:1180px;margin:18px auto}
+  .bc-native-tool form{display:grid;gap:12px}
+  .bc-native-tool input,.bc-native-tool textarea{width:100%;border:1px solid rgba(31,26,23,.16);border-radius:14px;padding:13px 14px;font:inherit;background:#fff}
+  .bc-native-tool textarea{min-height:96px}
+  .bc-native-tool button{justify-self:start;border:0;border-radius:999px;padding:12px 18px;background:#1f1a17;color:#fff;cursor:pointer}
+  .bc-result{max-width:1180px;margin:18px auto;white-space:pre-wrap;background:#fff;border:1px solid rgba(31,26,23,.12);border-radius:18px;padding:16px;max-height:260px;overflow:auto}
+</style>
+
+<script>
+(function(){
+  var root=document.currentScript.closest(".bc-home");
+  if(!root) return;
+  var API="https://brianco-backend-clean.vercel.app";
+  var result=root.querySelector("[data-bc-result]");
+  function show(x){ result.textContent=typeof x==="string"?x:JSON.stringify(x,null,2); }
+  function data(form){ var fd=new FormData(form), o={}; fd.forEach(function(v,k){o[k]=v}); return o; }
+  async function post(path, body){ var r=await fetch(API+path,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)}); return await r.json(); }
+  async function get(path){ var r=await fetch(API+path); return await r.json(); }
+
+  root.querySelectorAll("[data-bc-open]").forEach(function(btn){
+    btn.addEventListener("click",function(){
+      var key=btn.getAttribute("data-bc-open");
+      root.querySelectorAll("[data-bc-panel]").forEach(function(p){p.hidden=true});
+      var panel=root.querySelector('[data-bc-panel="'+key+'"]');
+      if(panel){ panel.hidden=false; panel.scrollIntoView({behavior:"smooth",block:"center"}); }
+    });
+  });
+
+  root.querySelectorAll("[data-bc-form]").forEach(function(form){
+    form.addEventListener("submit",async function(e){
+      e.preventDefault();
+      var type=form.getAttribute("data-bc-form");
+      var body=data(form);
+      show("Working...");
+      try{
+        if(type==="account") show(await get("/api/account-entitlements?email="+encodeURIComponent(body.email)));
+        if(type==="role") show(await post("/api/role-request", body));
+        if(type==="free") show(await post("/api/approvals", Object.assign({type:"free_access_request",requestedFreeAccess:true},body)));
+        if(type==="digital") show(await post("/api/digital-product-drafts", body));
+        if(type==="work") show(await post("/api/digital-work", body));
+      }catch(err){ show({ok:false,message:String(err)}); }
+    });
+  });
+
+  var founder=root.querySelector("[data-bc-founder-feed]");
+  if(founder){ founder.addEventListener("click",async function(){ show(await get("/api/founder-feed")); }); }
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Brian & Co Home Master",
+  "settings": [],
+  "presets": [{ "name": "Brian & Co Home Master" }]
+}
+{% endschema %}

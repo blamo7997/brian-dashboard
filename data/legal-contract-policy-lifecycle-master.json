@@ -1,0 +1,39 @@
+﻿{
+    "created":  "20260530_165045",
+    "bundle":  "Bundle 16",
+    "phase":  "Phase 31",
+    "slug":  "legal-contract-policy-lifecycle-master",
+    "title":  "Legal Contract Policy Lifecycle Master",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Terms, privacy, returns, cookies, supplier, artisan, creator, influencer, investor, banker, accountant, lawyer, contractor, and role agreements remain draft pending legal review until signed.",
+    "modules":  [
+                    "Terms lifecycle",
+                    "Privacy lifecycle",
+                    "Return policy lifecycle",
+                    "Supplier agreements",
+                    "Artisan agreements",
+                    "Creator agreements",
+                    "Influencer agreements",
+                    "Investor agreements",
+                    "Contractor agreements",
+                    "Legal review status"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "No Shopify live product API edits",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Backup first",
+                  "Vault snapshot before and after",
+                  "Safe tiny fixes only",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy",
+                  "Deploy only after build and Playwright pass",
+                  "Founder approval required for protected/legal/pricing/public changes"
+              ]
+}

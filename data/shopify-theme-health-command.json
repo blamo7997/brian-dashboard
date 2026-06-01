@@ -1,0 +1,25 @@
+﻿{
+    "created":  "20260530_153355",
+    "bundle":  "Bundle 08",
+    "slug":  "shopify-theme-health-command",
+    "title":  "Shopify Theme Health Command",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Theme health, navigation, concierge, accessibility, language, and public-admin-button validation.",
+    "modules":  [
+                    "Theme health checks",
+                    "Navigation review",
+                    "Accessibility presence",
+                    "Language selector presence",
+                    "No public admin green-check button"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No deploy unless build and Playwright pass",
+                  "No Shopify live product edits",
+                  "No OAuth/payment/customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Founder approval required for protected changes"
+              ]
+}

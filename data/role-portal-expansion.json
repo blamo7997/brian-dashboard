@@ -1,0 +1,38 @@
+﻿{
+    "created":  "20260530_151147",
+    "status":  "protected_active",
+    "phase":  "Phase 2 - Role Portal Expansion Framework",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "role_visibility_rule":  "Role UIs are preview-safe here. True eyes-only access requires authenticated server-side role checks.",
+    "roles":  [
+                  "Founder/Admin",
+                  "Customer",
+                  "Family",
+                  "Supplier",
+                  "Artisan",
+                  "Creator",
+                  "Influencer",
+                  "Investor",
+                  "Lawyer",
+                  "Accountant",
+                  "Banker",
+                  "Student",
+                  "Veteran",
+                  "Caregiver",
+                  "Professional",
+                  "Civic/Political",
+                  "Events/Festivals"
+              ],
+    "shared_requirements":  [
+                                "Native Brian \u0026 Co website experience",
+                                "Accessibility always available",
+                                "Preferred language support",
+                                "Role-appropriate products and memberships",
+                                "Purchased digital products appear in user UI",
+                                "Founder/legal approval gates",
+                                "No direct supplier/customer contact",
+                                "Dropship and luxury resale awareness",
+                                "Income-tier appropriate recommendations",
+                                "No external-looking redirect unless unavoidable"
+                            ]
+}

@@ -1,0 +1,24 @@
+{
+    "phase":  "61",
+    "status":  "prepared",
+    "protectedPhases":  "1-60 protected",
+    "eventAreas":  [
+                       "Cheyenne Event Intelligence",
+                       "Festival Intelligence",
+                       "Frontier Days Intelligence",
+                       "Regional Event Intelligence",
+                       "Community Event Intelligence",
+                       "Role-Aware Event Intelligence",
+                       "Local Opportunity Intelligence",
+                       "Event Recommendation Intelligence",
+                       "Founder Approval Event Routing",
+                       "Event Calendar Coordination"
+                   ],
+    "protectedSystems":  {
+                             "secretsUntouched":  true,
+                             "collectionsUntouched":  true,
+                             "paymentsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "productsUntouched":  true
+                         }
+}

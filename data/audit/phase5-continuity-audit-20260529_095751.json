@@ -1,0 +1,64 @@
+{
+    "created_at":  "2026-05-29T09:58:11.5540632-06:00",
+    "result":  "4 / 5",
+    "package_json_valid":  true,
+    "probes":  [
+                   {
+                       "name":  "local_backend_health",
+                       "url":  "http://localhost:3000/api/health",
+                       "success":  true,
+                       "status":  200,
+                       "error":  null
+                   },
+                   {
+                       "name":  "vercel_backend_health",
+                       "url":  "https://brianco-backend-clean.vercel.app/api/health",
+                       "success":  true,
+                       "status":  200,
+                       "error":  null
+                   },
+                   {
+                       "name":  "vercel_backend_status",
+                       "url":  "https://brianco-backend-clean.vercel.app/api/status",
+                       "success":  false,
+                       "status":  null,
+                       "error":  "The remote server returned an error: (404) Not Found."
+                   },
+                   {
+                       "name":  "vercel_products_readonly",
+                       "url":  "https://brianco-backend-clean.vercel.app/api/products",
+                       "success":  true,
+                       "status":  200,
+                       "error":  null
+                   },
+                   {
+                       "name":  "vercel_collections_readonly",
+                       "url":  "https://brianco-backend-clean.vercel.app/api/collections",
+                       "success":  true,
+                       "status":  200,
+                       "error":  null
+                   }
+               ],
+    "files_confirmed":  {
+                            "health_route":  true,
+                            "status_route":  true,
+                            "continuity_manifest":  true,
+                            "package_json":  true,
+                            "visual_metrics_schema":  true
+                        },
+    "next_if_not_5_of_5":  [
+                               "Read the server log printed below.",
+                               "If local still fails, Next dev server did not start.",
+                               "If vercel status still fails, run: vercel --prod"
+                           ],
+    "protected_systems":  {
+                              "payments_untouched":  true,
+                              "prices_untouched":  true,
+                              "oauth_untouched":  true,
+                              "backend_secrets_untouched":  true,
+                              "products_untouched":  true,
+                              "collections_untouched":  true,
+                              "descriptions_untouched":  true
+                          },
+    "server_log":  "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\continuity\\checks\\next-dev-server-20260529_095751.log"
+}

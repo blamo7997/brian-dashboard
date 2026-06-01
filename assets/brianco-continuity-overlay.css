@@ -1,0 +1,76 @@
+#brianco-realtime-continuity-overlay { font-family: inherit; }
+
+.bc-float {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 999999;
+  padding: 14px 20px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(135deg,#111,#7357ff,#d9b56f);
+  color: #fff;
+  font-weight: 800;
+  box-shadow: 0 18px 48px rgba(0,0,0,.28);
+  cursor: pointer;
+}
+
+.bc-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 999998;
+  overflow: auto;
+  background: rgba(0,0,0,.42);
+  padding: 22px;
+}
+
+.bc-card {
+  max-width: 1060px;
+  margin: 5vh auto;
+  padding: 30px;
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at top left, rgba(115,87,255,.18), transparent 35%),
+    radial-gradient(circle at bottom right, rgba(217,181,111,.22), transparent 34%),
+    #fff;
+  box-shadow: 0 30px 80px rgba(0,0,0,.28);
+  color: #171717;
+}
+
+.bc-card h2 {
+  font-size: clamp(30px,4vw,52px);
+  margin: 0 0 10px;
+  letter-spacing: -.04em;
+}
+
+.bc-card p { line-height: 1.6; }
+
+.bc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(210px,1fr));
+  gap: 12px;
+  margin: 22px 0;
+}
+
+.bc-grid button,
+.bc-box button {
+  border: 1px solid rgba(0,0,0,.14);
+  border-radius: 18px;
+  padding: 14px 16px;
+  background: rgba(255,255,255,.82);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.bc-box {
+  margin-top: 16px;
+  padding: 18px;
+  border-radius: 22px;
+  background: rgba(255,255,255,.74);
+  border: 1px solid rgba(0,0,0,.10);
+}
+
+.bc-box label {
+  display: block;
+  margin-top: 8px;
+}

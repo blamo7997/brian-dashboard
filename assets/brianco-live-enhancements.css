@@ -1,0 +1,21 @@
+.brianco-enhancement-bar{
+display:flex;
+gap:18px;
+align-items:center;
+justify-content:center;
+padding:14px;
+font-size:14px;
+background:linear-gradient(135deg,#15120f,#c2954b,#f4d7a1);
+color:#fff;
+font-family:Arial,sans-serif;
+}
+
+.brianco-enhancement-bar a{
+color:#fff;
+text-decoration:none;
+font-weight:600;
+}
+
+.brianco-enhancement-bar a:hover{
+opacity:.85;
+}

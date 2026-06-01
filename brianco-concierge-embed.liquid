@@ -1,0 +1,12 @@
+<script>
+(async function(){
+  try{
+    const box=document.createElement("div");
+    box.innerHTML='<button style="position:fixed;right:18px;bottom:18px;z-index:99999;padding:14px 18px;border-radius:999px;background:#111;color:#f7e3b0;border:0;font-weight:700;cursor:pointer;box-shadow:0 10px 30px rgba(0,0,0,.3)">Brian & Co Concierge</button>';
+    box.onclick=()=>window.location.href="/pages/brianco-concierge";
+    document.body.appendChild(box);
+  }catch(e){
+    console.error(e);
+  }
+})();
+</script>

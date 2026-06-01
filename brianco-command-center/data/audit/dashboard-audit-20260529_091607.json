@@ -1,0 +1,18 @@
+{
+    "live_published":  false,
+    "touched_backend_secrets":  false,
+    "action":  "Created Brian \u0026 Co Command Center Dashboard Layer",
+    "files_created":  [
+                          "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\dashboard\\command-center-dashboard-manifest.json",
+                          "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\dashboard\\queues\\review-queues.json",
+                          "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\dashboard\\events\\cheyenne-events-watchlist.json",
+                          "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\dashboard\\widgets\\command-center-dashboard.html",
+                          "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\dashboard\\validation\\dashboard-validation-20260529_091607.json"
+                      ],
+    "created_at":  "2026-05-29T09:16:08.9378284-06:00",
+    "touched_payments":  false,
+    "touched_shopify_collections":  false,
+    "touched_shopify_products":  false,
+    "based_on_prior_core":  "Command Center Intelligence Core",
+    "touched_oauth":  false
+}

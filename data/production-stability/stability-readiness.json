@@ -1,0 +1,43 @@
+{
+    "mode":  "production-stabilization-readiness",
+    "createdAt":  "2026-05-29T18:04:14.7607863-06:00",
+    "protectedPhases":  "1-33 protected; Phase 34 auto-protects after successful validation",
+    "stabilizationRules":  [
+                               "Check routes before expanding features",
+                               "Preserve protected phases",
+                               "Prefer read-only checks before write actions",
+                               "Do not touch products or collections",
+                               "Do not touch OAuth or payment systems",
+                               "Do not print secrets",
+                               "Route risky changes through founder approval",
+                               "Route legal/privacy/tax issues through review"
+                           ],
+    "phase":  "34",
+    "protectedSystems":  {
+                             "collectionsUntouched":  true,
+                             "publicClaimsUntouched":  true,
+                             "productsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "pricingUntouched":  true,
+                             "secretsNotPrinted":  true,
+                             "automaticCommitmentsDisabled":  true,
+                             "paymentsUntouched":  true,
+                             "automaticPurchasesDisabled":  true
+                         },
+    "brand":  "Brian \u0026 Co",
+    "status":  "prepared-read-only-monitoring",
+    "monitoringAreas":  [
+                            "Website health",
+                            "Command center health",
+                            "API route health",
+                            "Theme intelligence health",
+                            "Approval automation health",
+                            "Event intake health",
+                            "Interaction logging health",
+                            "Shopify theme health bridge",
+                            "Accessibility intelligence health",
+                            "Localization intelligence health",
+                            "Commerce intelligence health",
+                            "Native identity health"
+                        ]
+}

@@ -1,0 +1,46 @@
+{
+    "protected":  {
+                      "no_payment_changes":  true,
+                      "no_oauth_changes":  true,
+                      "no_secret_changes":  true,
+                      "no_collection_edits":  true,
+                      "no_raw_biometric_storage":  true,
+                      "no_product_edits":  true
+                  },
+    "deploy_log":  "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\phase11\\repair\\phase11-repair-deploy-20260529_110024.log",
+    "component_count":  1,
+    "fixed":  [
+                  "removed old failed -replace style injection risk",
+                  "removed duplicate BrianCoTextConcierge imports",
+                  "removed duplicate BrianCoTextConcierge component insertions",
+                  "reinserted clean import and component once",
+                  "rebuilt and redeployed"
+              ],
+    "created_at":  "2026-05-29T11:01:22.0477019-06:00",
+    "phase":  "phase11_clean_repair",
+    "build_log":  "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\phase11\\repair\\phase11-repair-build-20260529_110024.log",
+    "backup":  "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\phase11\\repair\\command-center-index-backup-20260529_110024.js",
+    "import_count":  1,
+    "build_exit":  0,
+    "routes":  [
+                   {
+                       "url":  "https://brianco-backend-clean.vercel.app/text-concierge",
+                       "success":  true,
+                       "status":  200,
+                       "error":  null
+                   },
+                   {
+                       "url":  "https://brianco-backend-clean.vercel.app/api/text/route?message=I%20need%20membership%20help",
+                       "success":  true,
+                       "status":  200,
+                       "error":  null
+                   },
+                   {
+                       "url":  "https://brianco-backend-clean.vercel.app/command-center",
+                       "success":  true,
+                       "status":  200,
+                       "error":  null
+                   }
+               ],
+    "deploy_exit":  0
+}

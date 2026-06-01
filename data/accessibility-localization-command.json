@@ -1,0 +1,25 @@
+﻿{
+    "created":  "20260530_153355",
+    "bundle":  "Bundle 06",
+    "slug":  "accessibility-localization-command",
+    "title":  "Accessibility and Localization Command",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Always-available accessibility, preferred-language, localized copy, and cognitive support.",
+    "modules":  [
+                    "Accessibility controls",
+                    "Language preference",
+                    "Localized support",
+                    "Screen-reader readiness",
+                    "Plain-language mode"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No deploy unless build and Playwright pass",
+                  "No Shopify live product edits",
+                  "No OAuth/payment/customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Founder approval required for protected changes"
+              ]
+}

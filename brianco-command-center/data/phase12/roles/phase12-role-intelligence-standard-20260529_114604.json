@@ -1,0 +1,35 @@
+{
+    "created_at":  "2026-05-29T11:46:06.0107572-06:00",
+    "phase":  "phase12_role_intelligence_expansion",
+    "roles":  [
+                  "admin",
+                  "customer",
+                  "supplier",
+                  "artisan",
+                  "creator",
+                  "influencer",
+                  "lawyer",
+                  "investor",
+                  "banker",
+                  "accountant",
+                  "family"
+              ],
+    "protected":  {
+                      "no_payment_changes":  true,
+                      "no_oauth_changes":  true,
+                      "no_secret_changes":  true,
+                      "no_collection_edits":  true,
+                      "no_raw_biometric_storage":  true,
+                      "no_product_edits":  true
+                  },
+    "capabilities":  {
+                         "role_collection_mapping_ready":  true,
+                         "website_native":  true,
+                         "role_permissions_ready":  true,
+                         "role_recommendations_ready":  true,
+                         "shared_role_engine":  true,
+                         "visual_role_dashboards":  true,
+                         "role_kpis":  true,
+                         "visual_first":  true
+                     }
+}

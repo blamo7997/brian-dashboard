@@ -1,0 +1,302 @@
+﻿{
+    "created":  "20260530_171248",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "purpose":  "Brian \u0026 Co live feature hub registry.",
+    "features":  [
+                     {
+                         "Summary":  "Protected access hub for Brian \u0026 Co systems.",
+                         "Title":  "Brian \u0026 Co Live Feature Hub",
+                         "Href":  "/brianco-live-feature-hub",
+                         "Group":  "Core"
+                     },
+                     {
+                         "Summary":  "Protected local vault, realtime ZIP snapshots, manifests, hash manifests, resume session, handoff continuity, and project recovery preservation.",
+                         "Title":  "Fort Knox Vault Continuity",
+                         "Href":  "/fort-knox-vault-continuity",
+                         "Group":  "Bundle 01"
+                     },
+                     {
+                         "Summary":  "Clearly labeled new-project handoff files, upload-first package, registry, manifests, and starter prompt for seamless Brian \u0026 Co continuity.",
+                         "Title":  "Absolute Master Handoff Continuity",
+                         "Href":  "/absolute-master-handoff-continuity",
+                         "Group":  "Bundle 01"
+                     },
+                     {
+                         "Summary":  "Founder dashboard, green-check legal signature system, yellow-circle legal review routing, red rejection routing, approval history, and protected action control.",
+                         "Title":  "Founder Command Center Master",
+                         "Href":  "/founder-command-center-master",
+                         "Group":  "Bundle 02"
+                     },
+                     {
+                         "Summary":  "Role portal network for customers, suppliers, artisans, creators, influencers, lawyers, accountants, investors, bankers, students, veterans, caregivers, civic users, and event partners.",
+                         "Title":  "Role Portal Network Master",
+                         "Href":  "/role-portal-network-master",
+                         "Group":  "Bundle 02"
+                     },
+                     {
+                         "Summary":  "Green checks are legal signatures with signer identity, timestamp, version, notes, document hash, audit log, and signature-chain enforcement.",
+                         "Title":  "Legal Signature Approval Master",
+                         "Href":  "/legal-signature-approval-master",
+                         "Group":  "Bundle 03"
+                     },
+                     {
+                         "Summary":  "Yellow circle sends items back to lawyer review with Brian notes, revision queue, lawyer response, legal approval, legal revision, or rejection workflow.",
+                         "Title":  "Lawyer Review Routing Master",
+                         "Href":  "/lawyer-review-routing-master",
+                         "Group":  "Bundle 03"
+                     },
+                     {
+                         "Summary":  "All influencers, creators, artisans, suppliers, contractors, consultants, custom workers, and service providers submit portfolios, links, examples, media kits, work samples, and capabilities before approval.",
+                         "Title":  "Provider Onboarding Portfolio Master",
+                         "Href":  "/provider-onboarding-portfolio-master",
+                         "Group":  "Bundle 04"
+                     },
+                     {
+                         "Summary":  "Provider policies are collected, preserved, rewritten into Brian \u0026 Co tone, localized, and passed to customers while originals remain stored internally.",
+                         "Title":  "Provider Policy Tone Master",
+                         "Href":  "/provider-policy-tone-master",
+                         "Group":  "Bundle 04"
+                     },
+                     {
+                         "Summary":  "Custom work providers submit production updates, photos, videos, timelines, milestones, capacity, turnaround, material sources, and customer progress updates.",
+                         "Title":  "Custom Work Production Master",
+                         "Href":  "/custom-work-production-master",
+                         "Group":  "Bundle 05"
+                     },
+                     {
+                         "Summary":  "Custom and made-to-order items are generally non-refundable once production begins, with customer-facing Brian \u0026 Co wording and provider compliance tracking.",
+                         "Title":  "Custom Work Non-Refundable Master",
+                         "Href":  "/custom-work-nonrefundable-master",
+                         "Group":  "Bundle 05"
+                     },
+                     {
+                         "Summary":  "Anyone shipping physical items provides tracking, carrier, shipment status, delay notices, and delivery confirmation monitored for customer updates.",
+                         "Title":  "Tracking and Shipment Master",
+                         "Href":  "/tracking-shipment-master",
+                         "Group":  "Bundle 06"
+                     },
+                     {
+                         "Summary":  "Every physical shipment includes Brian \u0026 Co white-glove presentation, refined thank-you card, 5% return-customer offer, support details, and branded packaging standards.",
+                         "Title":  "White Glove Thank You Master",
+                         "Href":  "/white-glove-thank-you-master",
+                         "Group":  "Bundle 06"
+                     },
+                     {
+                         "Summary":  "Approved provider images, backgrounds, product photos, profile content, videos, captions, alt text, and copy are preserved as originals and refined into Brian \u0026 Co display versions.",
+                         "Title":  "Brand Image and Tone Master",
+                         "Href":  "/brand-image-tone-master",
+                         "Group":  "Bundle 07"
+                     },
+                     {
+                         "Summary":  "Uploaded videos are preserved, captioned, subtitled, localized, optionally branded with intro/outro, and converted into Brian \u0026 Co display media after approval.",
+                         "Title":  "Video and Media Brand Master",
+                         "Href":  "/video-media-brand-master",
+                         "Group":  "Bundle 07"
+                     },
+                     {
+                         "Summary":  "Website chatbot stays collapsible, expandable, accessible, language-aware, typo-aware, role-aware, and linked to the protected online chatbot continuity layer.",
+                         "Title":  "Website Chatbot Master",
+                         "Href":  "/website-chatbot-master",
+                         "Group":  "Bundle 08"
+                     },
+                     {
+                         "Summary":  "Website chatbot, OS chatbot, role portal chatbot, text/email support, future mobile chatbot, and online chatbot share one protected intelligence registry where configured.",
+                         "Title":  "OS Chatbot Continuity Master",
+                         "Href":  "/os-chatbot-continuity-master",
+                         "Group":  "Bundle 08"
+                     },
+                     {
+                         "Summary":  "Brian \u0026 Co Intelligence OS core access is free by default, with OS dashboard, launcher, navigation, accessibility, language controls, product visibility, account center, and help center.",
+                         "Title":  "Free Brian \u0026 Co Intelligence OS Foundation",
+                         "Href":  "/free-os-foundation-master",
+                         "Group":  "Bundle 09"
+                     },
+                     {
+                         "Summary":  "Brian \u0026 Co OS shares website, chatbot, entitlement, accessibility, localization, transcript, meeting, recommendation, product, and founder approval intelligence.",
+                         "Title":  "OS Shared Intelligence Master",
+                         "Href":  "/os-shared-intelligence-master",
+                         "Group":  "Bundle 09"
+                     },
+                     {
+                         "Summary":  "Purchased products, digital products, memberships, subscriptions, à la carte upgrades, bundles, role-gated products, and entitled services appear in website, chatbot, private UI, founder UI, and OS.",
+                         "Title":  "Entitlement Product Registry Master",
+                         "Href":  "/entitlement-product-registry-master",
+                         "Group":  "Bundle 10"
+                     },
+                     {
+                         "Summary":  "Protected digital product layer for the Absolute Master Continuity Suite, without activating live Shopify product APIs, payments, or checkout until approved.",
+                         "Title":  "Absolute Master Continuity Product Master",
+                         "Href":  "/absolute-master-continuity-product-master",
+                         "Group":  "Bundle 10"
+                     },
+                     {
+                         "Summary":  "Accessibility command system for dyslexia, ADHD, autism, dementia, Alzheimer support, PTSD, veterans, caregivers, low vision, hearing, motor, literacy, reduced motion, and cognitive support.",
+                         "Title":  "Accessibility Intelligence Master",
+                         "Href":  "/accessibility-intelligence-master",
+                         "Group":  "Bundle 11"
+                     },
+                     {
+                         "Summary":  "Preferred language, native language, dialect, regional copy, localized onboarding, transcripts, subtitles, product descriptions, chatbot responses, and currency display.",
+                         "Title":  "Localization Intelligence Master",
+                         "Href":  "/localization-intelligence-master",
+                         "Group":  "Bundle 11"
+                     },
+                     {
+                         "Summary":  "Live and remote meetings support recording reference, live captions, live translation, searchable transcripts, summaries, action items, improvement suggestions, and customer/provider communication intelligence.",
+                         "Title":  "Meeting Transcript Master",
+                         "Href":  "/meeting-transcript-master",
+                         "Group":  "Bundle 12"
+                     },
+                     {
+                         "Summary":  "Video editor concierge with chatbot help, transcripts, subtitles, localization, accessibility, creator asset library, script help, social clips, livestream, and podcast workflows.",
+                         "Title":  "Creator Video Editor Master",
+                         "Href":  "/creator-video-editor-master",
+                         "Group":  "Bundle 12"
+                     },
+                     {
+                         "Summary":  "Supplier, artisan, creator, influencer, dropship, white-label, private-label, origin, production, shipping, return, and compliance workflows.",
+                         "Title":  "Supplier Artisan Commerce Master",
+                         "Href":  "/supplier-artisan-commerce-master",
+                         "Group":  "Bundle 13"
+                     },
+                     {
+                         "Summary":  "Income-tier personalization, ethical recommendations, product-fit scoring, upgrade-fit scoring, shipping/tax awareness, margin awareness, repeat customer incentives, and revenue reporting.",
+                         "Title":  "Commerce Recommendation Master",
+                         "Href":  "/commerce-recommendation-master",
+                         "Group":  "Bundle 13"
+                     },
+                     {
+                         "Summary":  "Politician, campaign, voter, local media, speech, town hall, event planning, volunteer coordination, local issue tracking, and review workflow scaffolds.",
+                         "Title":  "Political Civic Campaign Master",
+                         "Href":  "/political-civic-campaign-master",
+                         "Group":  "Bundle 14"
+                     },
+                     {
+                         "Summary":  "Resume builder, job search support, major job site watchlist, remote work support, promotion guidance, raise guidance, certification tracking, and application tracking.",
+                         "Title":  "Career Resume Job Master",
+                         "Href":  "/career-resume-job-master",
+                         "Group":  "Bundle 14"
+                     },
+                     {
+                         "Summary":  "Low-income, homeless, crisis, food, housing, disability, veteran, family, nonprofit, local aid, benefit awareness, and dignity-preserving support pathways.",
+                         "Title":  "Community Support Master",
+                         "Href":  "/community-support-master",
+                         "Group":  "Bundle 15"
+                     },
+                     {
+                         "Summary":  "Doctor, hospital staff, caregiver, elder, cognitive, medication reminder scaffolds, appointment reminder scaffolds, care plan tracking, family coordination, and accessibility routing.",
+                         "Title":  "Health Caregiver Master",
+                         "Href":  "/health-caregiver-master",
+                         "Group":  "Bundle 15"
+                     },
+                     {
+                         "Summary":  "Terms, privacy, returns, cookies, supplier, artisan, creator, influencer, investor, banker, accountant, lawyer, contractor, and role agreements remain draft pending legal review until signed.",
+                         "Title":  "Legal Contract Policy Lifecycle Master",
+                         "Href":  "/legal-contract-policy-lifecycle-master",
+                         "Group":  "Bundle 16"
+                     },
+                     {
+                         "Summary":  "Receipt photo upload, expense capture, OCR-ready categorization, tax/accounting notes, approval status, accountant review, and audit trail scaffolds.",
+                         "Title":  "Accountant Receipt Expense Master",
+                         "Href":  "/accountant-receipt-expense-master",
+                         "Group":  "Bundle 16"
+                     },
+                     {
+                         "Summary":  "Theme health, navigation, broken links, broken images, 404/403 prevention, concierge visibility, accessibility/language presence, no public admin button, and no powered-by wording.",
+                         "Title":  "Shopify Theme Health Master",
+                         "Href":  "/shopify-theme-health-master",
+                         "Group":  "Bundle 17"
+                     },
+                     {
+                         "Summary":  "Build repair loop, safe tiny fixes, route tests, API tests, desktop/tablet/mobile Playwright scenarios, final gate, deploy only after pass, and post-run reports.",
+                         "Title":  "Deployment Playwright Master",
+                         "Href":  "/deployment-playwright-master",
+                         "Group":  "Bundle 17"
+                     },
+                     {
+                         "Summary":  "Future Brian \u0026 Co phone, OS, browser, search, laptop, desktop, media editor, and native-first ecosystem planning while core OS stays free.",
+                         "Title":  "Future OS Device Ecosystem Master",
+                         "Href":  "/future-os-device-ecosystem-master",
+                         "Group":  "Bundle 18"
+                     },
+                     {
+                         "Summary":  "Lawful, consent-aware interaction logging, timestamping, analysis, personalization, FAQ updates, feature recommendations, founder approval, and protected learning registry.",
+                         "Title":  "Memory Continuity Learning Master",
+                         "Href":  "/memory-continuity-learning-master",
+                         "Group":  "Bundle 18"
+                     },
+                     {
+                         "Summary":  "Portfolio, example-work, social links, media kits, policies, legal signatures, founder review, lawyer review, compliance scoring, capacity, turnaround, and provider approval workflows.",
+                         "Title":  "Provider Lifecycle Intelligence",
+                         "Href":  "/provider-lifecycle-intelligence",
+                         "Group":  "Bundle A"
+                     },
+                     {
+                         "Summary":  "Production updates, progress photos, progress videos, customer update engine, tracking ingestion, shipment monitoring, delay alerts, delivery confirmation, white-glove fulfillment, thank-you card compliance, and 5 percent return offer.",
+                         "Title":  "Production and Fulfillment Intelligence",
+                         "Href":  "/production-fulfillment-intelligence",
+                         "Group":  "Bundle A"
+                     },
+                     {
+                         "Summary":  "Order confirmation, production updates, tracking updates, delivery confirmation, post-delivery follow-up, concierge support, repeat customer offer, localized messaging, and accessibility-aware communication.",
+                         "Title":  "White Glove Customer Journey",
+                         "Href":  "/white-glove-customer-journey",
+                         "Group":  "Bundle B"
+                     },
+                     {
+                         "Summary":  "Customer preferences, preferred communication method, accessibility preferences, language preferences, purchase history, product recommendations, membership visibility, subscription visibility, and entitlement visibility.",
+                         "Title":  "Customer Intelligence Layer",
+                         "Href":  "/customer-intelligence-layer",
+                         "Group":  "Bundle B"
+                     },
+                     {
+                         "Summary":  "Website, chatbot, and free Brian and Co OS share entitlement, products, memberships, accessibility, localization, recommendations, notifications, and protected continuity registries.",
+                         "Title":  "Shared Website Chatbot OS Intelligence",
+                         "Href":  "/shared-website-chatbot-os-intelligence",
+                         "Group":  "Bundle C"
+                     },
+                     {
+                         "Summary":  "Every purchased product, membership, subscription, upgrade, and digital asset appears in website account, chatbot, private UI, founder UI, and free Brian and Co OS where entitled.",
+                         "Title":  "Product Visibility Layer",
+                         "Href":  "/product-visibility-layer",
+                         "Group":  "Bundle C"
+                     },
+                     {
+                         "Summary":  "Supplier, artisan, creator, influencer, custom-work, event-vendor, white-label, private-label, and marketplace partner presentation with preserved originals and Brian and Co display versions.",
+                         "Title":  "Provider Marketplace Expansion",
+                         "Href":  "/provider-marketplace-expansion",
+                         "Group":  "Bundle D"
+                     },
+                     {
+                         "Summary":  "Country of origin, material origin, production timeline, custom order policies, shipping policies, warranty policies, return policies, Brian and Co refined policy versions, and preserved original policy versions.",
+                         "Title":  "Origin Policy Marketplace Layer",
+                         "Href":  "/origin-policy-marketplace-layer",
+                         "Group":  "Bundle D"
+                     },
+                     {
+                         "Summary":  "Cheyenne events, Frontier Days, local festivals, local opportunities, vendor applications, founder dashboard alerts, event reminders, and customer event notifications.",
+                         "Title":  "Local Events and Festival Intelligence",
+                         "Href":  "/local-events-festival-intelligence",
+                         "Group":  "Bundle E"
+                     },
+                     {
+                         "Summary":  "Event vendor, artisan, creator, influencer, supplier, and custom-work participation planning for local events, inventory, staffing, promotion, and post-event reporting.",
+                         "Title":  "Event Vendor Artisan Creator Participation",
+                         "Href":  "/event-vendor-artisan-creator-participation",
+                         "Group":  "Bundle E"
+                     },
+                     {
+                         "group":  "Founder Control",
+                         "title":  "Founder Command Center",
+                         "href":  "/founder-command-center",
+                         "summary":  "Private founder-controlled command layer for approvals, legal review, continuity, role systems, supplier intelligence, local events, audit reporting, and next-best-action guidance."
+                     },
+                     {
+                         "group":  "Role Intelligence",
+                         "title":  "Role Portal Expansion",
+                         "href":  "/role-portal-expansion",
+                         "summary":  "Native role-aware portal expansion for customers, suppliers, artisans, creators, influencers, lawyers, accountants, investors, bankers, family, and approved Brian \u0026 Co users."
+                     }
+                 ]
+}

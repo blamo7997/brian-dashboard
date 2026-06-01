@@ -1,0 +1,9 @@
+{
+    "name":  "Luxury Resale + High-End Retailer Safeguards",
+    "additive_only":  true,
+    "bundle":  "015-016",
+    "description":  "Luxury resale safety, authenticity, provenance, Tiffany Armani Louis Vuitton and department-store vendor path safeguards.",
+    "created":  "2026-05-30T10:12:43.1294218-06:00",
+    "protected":  true,
+    "protected_from":  "project_start"
+}

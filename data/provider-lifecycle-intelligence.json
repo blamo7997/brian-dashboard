@@ -1,0 +1,38 @@
+﻿{
+    "created":  "20260530_171248",
+    "bundle":  "Bundle A",
+    "phase":  "Phase A",
+    "slug":  "provider-lifecycle-intelligence",
+    "title":  "Provider Lifecycle Intelligence",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Portfolio, example-work, social links, media kits, policies, legal signatures, founder review, lawyer review, compliance scoring, capacity, turnaround, and provider approval workflows.",
+    "modules":  [
+                    "Portfolio submission",
+                    "Example work submission",
+                    "Social/profile links",
+                    "Media kit uploads",
+                    "Policy uploads",
+                    "Legal signatures",
+                    "Founder review",
+                    "Lawyer review",
+                    "Compliance scoring",
+                    "Capacity tracking",
+                    "Turnaround tracking"
+                ],
+    "rules":  [
+                  "No assumptions",
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "Originals preserved",
+                  "Brian and Co display versions stored separately",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No Shopify live product API edits",
+                  "No secrets touched",
+                  "Vault snapshot before and after",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy"
+              ]
+}

@@ -1,0 +1,21 @@
+﻿BRIAN & CO MASTER REQUIREMENTS LOCK — 20260531_014441
+
+Locked from latest workflow:
+- Website and OS must maintain feature parity wherever technically feasible.
+- Website, OS, mobile, tablet, and future apps use one account, one workspace, one product catalog, one entitlement system, one Concierge AI, and one sync layer.
+- Voice navigation is available to everyone across website and OS on supported devices.
+- Users must be told they can use voice for navigation, chatbot interactions, files, shopping, meetings, accessibility, language, settings, editing, and exports.
+- Guided onboarding highlights each area and updates whenever new features are added.
+- Twice-daily safe background checks may silently fix only non-destructive issues; protected systems require approval.
+- Low vision, light mode, dark mode, evening mode, blue-light reduction, read-aloud, captions, localization, and accessibility preferences sync everywhere.
+- Welcome flow is chime first, then pause, then human-quality voice greeting when enabled.
+- Greeting should include: “Welcome back, [First Name]. How can I help you today?”
+- Website and OS store consent-based user profile preferences for seamless cross-platform personalization.
+- Files must support AutoSave, Save, Save As, Export, Restore, Version History, original filename preservation, and preferred format handling.
+- PDFs, Microsoft Office files, LibreOffice/OpenOffice files, images, audio, video, media projects, presentations, and pitch decks should be editable/convertible wherever technically feasible.
+- LibreOffice/OpenOffice export support includes ODT, ODS, ODP, ODG, and related OpenDocument formats where applicable.
+- Meeting tools should support recording, localized captions/subtitles, searchable transcripts, minutes, action items, and improvement suggestions.
+- Physical product recommendations must come from Brian & Co catalog.
+- Premium products include AI+ enhancements and Concierge memberships, while basic answers and core usefulness remain available.
+- Zero-reference APIs must be protected and registered, not deleted casually.
+- Two-phase batch workflow is permanent: Phase 1 discovery/protection/reporting; Phase 2 safe implementation/validation only.

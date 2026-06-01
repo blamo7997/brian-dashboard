@@ -1,0 +1,21 @@
+{
+    "createdAt":  "2026-05-27T16:09:39.2773133-06:00",
+    "supplierCreatorRules":  {
+                                 "toneRewriteRequired":  "Brian \u0026 Co adaptive eloquent tone",
+                                 "customWork":  "non-refundable once production begins where lawful and clearly disclosed",
+                                 "countryOfOriginRequired":  true,
+                                 "returnPolicies":  "supplier/artisan/creator policy rewritten for tone and queued for legal/green-check approval",
+                                 "preferredCustomerNotifications":  "scaffold only until communication provider connected",
+                                 "imageBackgroundRemoval":  "required workflow scaffold",
+                                 "noDirectCustomerContact":  true,
+                                 "materialOriginRequiredWhereProvidedOrRequired":  true,
+                                 "creatorStoriesRequired":  true,
+                                 "productionUpdatesRequired":  [
+                                                                   "photos",
+                                                                   "videos",
+                                                                   "status notes",
+                                                                   "tracking number",
+                                                                   "shipping-delay updates"
+                                                               ]
+                             }
+}

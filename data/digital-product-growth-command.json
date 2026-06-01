@@ -1,0 +1,25 @@
+﻿{
+    "created":  "20260530_153355",
+    "bundle":  "Bundle 07",
+    "slug":  "digital-product-growth-command",
+    "title":  "Digital Product Growth Command",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Digital products, memberships, subscriptions, bundles, and role-specific offer expansion.",
+    "modules":  [
+                    "Digital product drafts",
+                    "Membership products",
+                    "Subscription offers",
+                    "A la carte offers",
+                    "Role-gated visibility"
+                ],
+    "rules":  [
+                  "No delete",
+                  "No deploy unless build and Playwright pass",
+                  "No Shopify live product edits",
+                  "No OAuth/payment/customer data edits",
+                  "No secrets touched",
+                  "Additive by default",
+                  "Founder approval required for protected changes"
+              ]
+}

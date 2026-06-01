@@ -1,0 +1,30 @@
+{
+    "phase":  "44",
+    "status":  "prepared",
+    "protectedPhases":  "1-43 protected after Phase 43 validation",
+    "protectedSystems":  {
+                             "collectionsUntouched":  true,
+                             "publicClaimsUntouched":  true,
+                             "productsUntouched":  true,
+                             "oauthUntouched":  true,
+                             "pricingUntouched":  true,
+                             "secretsNotPrinted":  true,
+                             "automaticCommitmentsDisabled":  true,
+                             "paymentsUntouched":  true,
+                             "automaticPurchasesDisabled":  true
+                         },
+    "insightAreas":  [
+                         "Cross-System Insights",
+                         "Founder Insight Intelligence",
+                         "Executive Insight Intelligence",
+                         "Opportunity Insights",
+                         "Recommendation Insights",
+                         "Commerce Insights",
+                         "Role Insights",
+                         "Accessibility Insights",
+                         "Localization Insights",
+                         "Theme Health Insights",
+                         "Production Stability Insights",
+                         "Approval Workflow Insights"
+                     ]
+}

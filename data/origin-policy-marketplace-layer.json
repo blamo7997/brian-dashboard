@@ -1,0 +1,36 @@
+﻿{
+    "created":  "20260530_171248",
+    "bundle":  "Bundle D",
+    "phase":  "Phase B",
+    "slug":  "origin-policy-marketplace-layer",
+    "title":  "Origin Policy Marketplace Layer",
+    "status":  "protected_active",
+    "protection":  "BEYOND_BEYOND_PROTECTED",
+    "summary":  "Country of origin, material origin, production timeline, custom order policies, shipping policies, warranty policies, return policies, Brian and Co refined policy versions, and preserved original policy versions.",
+    "modules":  [
+                    "Country of origin",
+                    "Material origin",
+                    "Production timeline",
+                    "Custom order policies",
+                    "Shipping policies",
+                    "Warranty policies",
+                    "Return policies",
+                    "Brian and Co refined policies",
+                    "Original policies preserved"
+                ],
+    "rules":  [
+                  "No assumptions",
+                  "No delete",
+                  "No overwrite without exact approval",
+                  "Originals preserved",
+                  "Brian and Co display versions stored separately",
+                  "No OAuth edits",
+                  "No payment edits",
+                  "No customer data edits",
+                  "No Shopify live product API edits",
+                  "No secrets touched",
+                  "Vault snapshot before and after",
+                  "Build before Playwright",
+                  "Playwright final gate before deploy"
+              ]
+}
