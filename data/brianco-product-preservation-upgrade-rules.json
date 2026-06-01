@@ -1,0 +1,22 @@
+{
+  "name": "Brian & Co Product Preservation and Upgrade Entitlement Rules",
+  "created": "20260601_091147",
+  "permanentRules": [
+    "Existing purchases are preserved.",
+    " la carte buyers keep the exact features, access, and rights purchased.",
+    "Bug fixes, security fixes, compatibility fixes, and legal/safety-required corrections are not treated as paid feature removals.",
+    "New premium capabilities may be member-included or offered as optional paid  la carte upgrades.",
+    "Do not silently charge  la carte buyers for new capabilities.",
+    "Show upgrade opportunities in Brian & Co tone without removing what they already own.",
+    "Membership users receive feature expansion according to tier, approval mode, and product rules.",
+    "Live Shopify changes remain draft/pending founder approval until explicitly approved."
+  ],
+  "customerMessageTemplate": "You still keep everything you already purchased. A new optional capability is available if you would like deeper automation, intelligence, or continuity support.",
+  "approvalModes": [
+    "inform_only",
+    "ask_every_time",
+    "guided",
+    "trusted_sources",
+    "full_automation"
+  ]
+}

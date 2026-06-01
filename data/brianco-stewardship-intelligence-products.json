@@ -1,0 +1,84 @@
+{
+  "collection": {
+    "handle": "stewardship-intelligence",
+    "title": "Brian & Co Stewardship Intelligence Collection",
+    "description": "A premium Brian & Co product family for dynamic update intelligence, compatibility stewardship, Continuum Vault logging, Guardian device care, dependency monitoring, approval-aware automation, and human-friendly change explanations.",
+    "status": "draft_pending_founder_approval",
+    "visualDirection": "Black/deep charcoal, champagne metallic gold, refined dashboard/vault motifs, no crowns."
+  },
+  "products": [
+    {
+      "handle": "dynamic-steward-ai-plus",
+      "title": "Dynamic Steward AI+",
+      "subtitle": "Adaptive Platform Stewardship Enhancement",
+      "type": "Digital AI+ Enhancement",
+      "pricing": {
+        "alacarteSuggestedUsd": 79,
+        "memberIncludedFrom": "Growth Concierge and above",
+        "essentialMemberAccess": "Basic current-version and security advisory summaries",
+        "upgradeRule": " la carte buyers keep purchased features permanently; new premium modules are shown as optional paid upgrades."
+      },
+      "includedCore": [
+        "Current-version monitoring",
+        "Security advisory monitoring",
+        "Compatibility monitoring",
+        "Update explanations in Brian & Co tone",
+        "Continuum Vault logging",
+        "Trust Ledger records",
+        "Approval mode support"
+      ],
+      "memberFeatures": [
+        "Automatic sandbox validation",
+        "Cross-tool ecosystem monitoring",
+        "Priority compatibility recommendations",
+        "Advanced approval workflows",
+        "Executive change summaries",
+        "Multi-device/member continuity"
+      ]
+    },
+    {
+      "handle": "dependency-stewardship-ai-plus",
+      "title": "Dependency Stewardship AI+",
+      "subtitle": "Website, App & Package Currency Intelligence",
+      "type": "Digital AI+ Enhancement",
+      "pricing": {
+        "alacarteSuggestedUsd": 49,
+        "memberIncludedFrom": "Premier Concierge and above"
+      },
+      "description": "Keeps supported website/app dependencies current through official channels, avoids unsafe force downgrades, tests in sandbox, and explains the change clearly before approval or automatic application."
+    },
+    {
+      "handle": "device-stewardship-ai-plus",
+      "title": "Device Stewardship AI+",
+      "subtitle": "Manufacturer-Verified Device Update Intelligence",
+      "type": "Digital AI+ Enhancement",
+      "pricing": {
+        "alacarteSuggestedUsd": 59,
+        "memberIncludedFrom": "Premier Concierge and above"
+      },
+      "description": "Guides signed driver, manufacturer/OEM update, restart-readiness, and device-health checks through official sources only."
+    },
+    {
+      "handle": "update-steward",
+      "title": "Update Steward",
+      "subtitle": "Human-Friendly Change Intelligence",
+      "type": "Digital Service",
+      "pricing": {
+        "alacarteSuggestedUsd": 39,
+        "memberIncludedFrom": "Essential Concierge and above"
+      },
+      "description": "Explains what changed, who provided it, why it matters, whether a restart is required, and what the user should do next."
+    },
+    {
+      "handle": "continuum-vault-plus",
+      "title": "Continuum Vault Plus",
+      "subtitle": "Extended Preservation & Change History",
+      "type": "Digital Service",
+      "pricing": {
+        "alacarteSuggestedUsd": 99,
+        "memberIncludedFrom": "Premier Concierge and above"
+      },
+      "description": "Adds extended retention, advanced search, historical comparison, manifest tracking, and richer Trust Ledger history."
+    }
+  ]
+}
