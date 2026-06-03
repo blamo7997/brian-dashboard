@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brian & Co Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0b0f1a;
+      color: white;
+      display: flex;
+    }
+
+    .sidebar {
+      width: 240px;
+      height: 100vh;
+      background: #111827;
+      padding: 20px;
+    }
+
+    .nav {
+      padding: 12px;
+      margin: 8px 0;
+      background: #1f2937;
+      border-radius: 8px;
+    }
+
+    .main {
+      flex: 1;
+      padding: 30px;
+    }
+
+    .card {
+      background: #111827;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #2b3a55;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .stat {
+      background: #1f2937;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .green { color: #4ade80; }
+    .blue { color: #60a5fa; }
+    .yellow { color: #facc15; }
+  </style>
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <h2 style="color:#4ade80;">Brian & Co</h2>
+
+    <div class="nav">Dashboard</div>
+    <div class="nav">Concierge</div>
+    <div class="nav">Products</div>
+    <div class="nav">Analytics</div>
+  </div>
+
+  <div class="main">
+
+    <div class="card">
+      <h2>System Online</h2>
+      <p>GitHub connected successfully</p>
+    </div>
+
+    <div class="grid">
+
+      <div class="stat">
+        <div class="green">Revenue</div>
+        <h2>$0</h2>
+      </div>
+
+      <div class="stat">
+        <div class="blue">Orders</div>
+        <h2>0</h2>
+      </div>
+
+      <div class="stat">
+        <div class="yellow">Users</div>
+        <h2>0</h2>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
