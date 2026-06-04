@@ -1,0 +1,1 @@
+{"type":"init","message":"Append-only vault placeholder. Do not delete history.","rules":{"appendOnly":true,"additiveOnly":true,"preserveExisting":true}}

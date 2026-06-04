@@ -1,0 +1,22 @@
+{
+  "name": "Brian Dashboard through Lumen",
+  "version": "1.0.4",
+  "requiredRootStructure": [
+    "public",
+    "src",
+    "vault",
+    "lumen",
+    "package.json",
+    "wrangler.toml",
+    "README.md"
+  ],
+  "routes": [
+    "/",
+    "/health",
+    "/lumen/status",
+    "/vault/recent",
+    "/vault/append",
+    "/api/openai/status"
+  ],
+  "secrets": "not embedded"
+}

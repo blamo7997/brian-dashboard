@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Brian & Co Dashboard</title>
+  <style>
+    body{margin:0;min-height:100vh;background:#050505;color:#f8efd8;font-family:Georgia,"Times New Roman",serif}
+    main{max-width:1000px;margin:0 auto;padding:48px 24px}
+    section{border:1px solid rgba(217,184,103,.45);border-radius:24px;padding:28px;background:rgba(12,12,12,.84)}
+    h1{font-size:48px;margin:0 0 12px}
+    p{color:#c9b989;font-size:18px}
+    a,button{display:inline-block;margin:8px 8px 0 0;padding:12px 18px;border-radius:999px;border:0;background:linear-gradient(135deg,#f6df9f,#a77d28);color:#050505;font-weight:700;text-decoration:none;cursor:pointer}
+    pre{white-space:pre-wrap;background:#000;border:1px solid rgba(217,184,103,.3);border-radius:16px;padding:16px;margin-top:20px}
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <h1>Brian & Co Dashboard</h1>
+      <p>System online. GitHub connected. Cloudflare frontend active. Lumen software routing layer ready.</p>
+      <a href="/health">Health</a>
+      <a href="/lumen/status">Lumen Status</a>
+      <a href="/vault/recent">Vault Recent</a>
+      <button onclick="check('/health')">Check Worker</button>
+      <pre id="out">Ready.</pre>
+    </section>
+  </main>
+  <script>
+    async function check(path){
+      const out=document.getElementById('out');
+      out.textContent='Checking '+path+'...';
+      try{const r=await fetch(path); out.textContent=JSON.stringify(await r.json(),null,2);}
+      catch(e){out.textContent=String(e);}
+    }
+  </script>
+</body>
+</html>
