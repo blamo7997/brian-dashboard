@@ -1,13 +1,11 @@
 {
   "name": "lumen-brian-dashboard",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "type": "module",
-  "description": "Brian Dashboard routed through Lumen software layer for Cloudflare Workers.",
   "scripts": {
     "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "check": "node lumen/local-check.mjs"
+    "dev": "wrangler dev"
   },
   "devDependencies": {
     "wrangler": "^4.0.0"

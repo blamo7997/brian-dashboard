@@ -1,0 +1,18 @@
+UPLOAD THE EXTRACTED CONTENTS, NOT THE ZIP ITSELF.
+
+After upload, GitHub root must show:
+public
+src
+vault
+lumen
+package.json
+wrangler.toml
+README.md
+UPLOAD-CHECKLIST.txt
+
+Inside src must show only:
+index.js
+lumen-router.js
+
+Commit message:
+Clean replace repo with Lumen Cloudflare Worker v4

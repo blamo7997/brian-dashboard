@@ -1,29 +1,20 @@
-# Brian Dashboard — Lumen Cloudflare Worker Replacement v3
+# Lumen Brian Dashboard Clean Root Upload v4
 
-This package replaces the repository structure with a clean Cloudflare Worker + static asset setup routed through Lumen's software layer.
+Upload the CONTENTS of this folder to the GitHub repo root.
 
-## Required root structure
+Correct repo root after upload:
 
-- `package.json`
-- `wrangler.toml`
-- `src/index.js`
-- `src/lumen-router.js`
-- `public/index.html`
-- `vault/lumen-vault.append-only.jsonl`
-- `lumen/manifest.json`
+public/
+src/
+vault/
+lumen/
+package.json
+wrangler.toml
+README.md
 
-## Cloudflare deploy command
-
-`npx wrangler deploy`
-
-## Test after deployment
-
-- `/`
-- `/health`
-- `/lumen/status`
-- `/vault/recent`
-- `/api/openai/status`
-
-## Secrets
-
-Do not commit OpenAI, GitHub, or Cloudflare tokens. Store them through Cloudflare secrets or the Lumen setup wizard.
+Important:
+- Do not upload the ZIP itself as the only file.
+- Do not leave wrangler.toml inside src.
+- src should contain exactly:
+  - index.js
+  - lumen-router.js
