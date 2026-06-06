@@ -192,3 +192,11 @@ PASTE_THIS_BACK_TO_CHATGPT.txt
 *.backup*
 *.bak
 *.log
+
+# OpenNext
+.open-next
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
