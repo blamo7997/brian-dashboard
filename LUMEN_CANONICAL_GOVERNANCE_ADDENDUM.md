@@ -303,3 +303,38 @@ Lumen must identify what is missing, build the next necessary layer, validate it
 
 Normal users must not have to do baby steps, paste code, or see code unless they explicitly request technical detail or developer mode.
 
+## Hardware-Adaptive Lumen OS + Authorized Firmware Driver Governance Rule
+
+Lumen OS, Lumen Workspace OS, installed Lumen workstation mode, Lumen Online, and connected Lumen runtime channels must dynamically adapt to each authorized user's hardware, device class, operating system, browser, firmware posture, driver posture, network conditions, accessibility needs, localization requirements, and role permissions.
+
+Hardware adaptation must apply across current and future devices where technically feasible, including desktops, laptops, workstations, mobile devices, tablets, assistive devices, browsers, and future approved device categories.
+
+With explicit user authorization and only when safe, lawful, vendor-verified, device-appropriate, reversible where feasible, logged, tested, and recoverable, Lumen may coordinate or recommend updates for:
+
+* BIOS or UEFI firmware
+* device firmware
+* drivers
+* chipset packages
+* security firmware
+* peripheral firmware
+* operating system compatibility layers
+* workspace runtime dependencies
+* browser/runtime compatibility components
+
+No BIOS, firmware, driver, bootloader, kernel-level, security-module, or device-critical update may run silently without explicit authorization, compatibility checks, power/battery safety checks where applicable, rollback/recovery planning where available, vendor-source verification, audit logging, and proof records.
+
+Lumen must never bypass OEM, operating system, enterprise, regulatory, warranty, security, accessibility, medical-device, safety-critical, or localized legal restrictions. Where a device is managed by an employer, school, enterprise policy, government policy, medical environment, or regulated environment, Lumen must respect the higher-authority management boundary.
+
+All hardware, firmware, BIOS, driver, OS, and workspace changes must remain repository/Vault connected, timestamped, user-isolated, founder-private-protected, consent-aware, additive-first where possible, rollback-aware, and validated before and after change.
+
+## Wyoming Law + Maximum Lawful Liability Limitation Governance Rule
+
+Lumen Technologies Solutions and founder governance prefer Wyoming law as the governing law baseline where legally available and contractually valid.
+
+Customer-facing terms, privacy policies, supplier terms, creator terms, financing disclosures, portal agreements, product policies, update permissions, hardware/firmware/driver permissions, and automation consent flows must seek to limit liability for Lumen Technologies Solutions and the founder personally to the maximum extent permitted by applicable localized law.
+
+No liability limitation may be treated as absolute unless reviewed and approved by qualified legal counsel for the applicable jurisdiction, user class, transaction type, product/service category, and regulatory context.
+
+Localized law, consumer protection rules, accessibility law, privacy law, data protection law, product safety law, employment/enterprise policy, medical/safety-critical rules, platform rules, payment/financing rules, and mandatory non-waivable rights must be detected, respected, and routed to legal approval where required.
+
+Lumen must preserve the founder's Wyoming-law preference and maximum-lawful-liability-limitation preference in repository/Vault governance, but final public legal language must remain approval-gated and jurisdiction-aware.
