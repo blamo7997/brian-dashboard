@@ -1,0 +1,20 @@
+Brian & Co Forever Automation
+
+Created:
+- Forever automation routes
+- Forever OpenAI helper
+- Forever dashboard HTML
+- OAuth backup snapshots
+- Monitoring framework
+- Security framework
+
+Always Continue:
+- more implementation
+- more validation
+- more accessibility
+- more localization
+- more monitoring
+- more product systems
+- more retired-commerce-platform integration
+- more AI systems
+- more deployment safety

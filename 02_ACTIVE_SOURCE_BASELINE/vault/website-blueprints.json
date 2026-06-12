@@ -1,0 +1,72 @@
+[
+  {
+    "id": "lge_1780922297960_g24hpw",
+    "created_at": "2026-06-08T12:38:17.960Z",
+    "source": "Lumen Guided Experience Studio",
+    "secret_safe": true,
+    "type": "website_blueprint",
+    "title": "Brian & Co homepage",
+    "voice": "warm, eloquent, premium, trusted-friend Lumen voice",
+    "sections": [
+      "Hero with luxury gradient",
+      "What Lumen can do",
+      "Memberships and a la carte services",
+      "Creator, artisan, supplier, customer pathways",
+      "Accessibility and language controls",
+      "Guided image walkthrough",
+      "Founder-approved legal/policy footer"
+    ],
+    "clickable_ovals": [
+      {
+        "label": "Start Here",
+        "action": "guided onboarding"
+      },
+      {
+        "label": "Show Me Plans",
+        "action": "open comparison"
+      },
+      {
+        "label": "Ask Lumen",
+        "action": "open concierge"
+      }
+    ],
+    "image_prompts": [
+      "Elegant Brian & Co / Lumen homepage, soft titanium-frost UI, luxury sunrise gradient, oval guided help buttons, accessible layout"
+    ]
+  },
+  {
+    "id": "lge_1780922956943_bs5554",
+    "created_at": "2026-06-08T12:49:16.943Z",
+    "source": "Lumen Guided Experience Studio",
+    "secret_safe": true,
+    "type": "website_blueprint",
+    "title": "Brian & Co homepage",
+    "voice": "warm, eloquent, premium, trusted-friend Lumen voice",
+    "sections": [
+      "Hero with luxury gradient",
+      "What Lumen can do",
+      "Memberships and a la carte services",
+      "Creator, artisan, supplier, customer pathways",
+      "Accessibility and language controls",
+      "Guided image walkthrough",
+      "Founder-approved legal/policy footer"
+    ],
+    "clickable_ovals": [
+      {
+        "label": "Start Here",
+        "action": "guided onboarding"
+      },
+      {
+        "label": "Show Me Plans",
+        "action": "open comparison"
+      },
+      {
+        "label": "Ask Lumen",
+        "action": "open concierge"
+      }
+    ],
+    "image_prompts": [
+      "Elegant Brian & Co / Lumen homepage, soft titanium-frost UI, luxury sunrise gradient, oval guided help buttons, accessible layout"
+    ]
+  }
+]

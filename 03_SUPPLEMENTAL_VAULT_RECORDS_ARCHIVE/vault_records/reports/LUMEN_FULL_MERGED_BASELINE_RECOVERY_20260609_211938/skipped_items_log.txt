@@ -1,0 +1,50 @@
+{
+  "generated": "2026-06-10T03:20:08.036Z",
+  "reason": "full-merged-run",
+  "skippedItems": [
+    {
+      "id": "prior-code-letter-for-letter",
+      "status": "added-as-preservation-policy",
+      "rule": "Do not repaste all prior code into every future block. Preserve by hash, index, snapshot, compression, dedupe, and reference.",
+      "protectsAgainst": [
+        "bloat",
+        "duplicates",
+        "build slowdown",
+        "Vault overflow",
+        "accidental overwrite"
+      ]
+    },
+    {
+      "id": "never-hang-never-fail",
+      "status": "added-as-reliability-policy",
+      "rule": "Do not claim impossible zero-failure guarantees. Enforce detect, recover, retry, checkpoint, resume, preserve, explain, continue.",
+      "protectsAgainst": [
+        "silent hangs",
+        "connection interruption loss",
+        "stopped thinking",
+        "abandoned requests"
+      ]
+    },
+    {
+      "id": "destructive-os-overwrite-kernel-install",
+      "status": "added-as-gated-future-program",
+      "rule": "Workspace scripts must not overwrite an OS. Future OS/kernel install requires separate bootable installer, explicit confirmation, backups, rollback media, hardware checks, and simulation first.",
+      "protectsAgainst": [
+        "data loss",
+        "unsafe disk writes",
+        "unrecoverable install",
+        "accidental OS damage"
+      ]
+    }
+  ],
+  "directiveHash": "fa1190cd64849081545e2bb601d9f2499efdaf89b3a69b6d7246b6e446aba677",
+  "hardRule": {
+    "preserveExisting": true,
+    "additiveOnly": true,
+    "noDuplicates": true,
+    "modifyOnlyWhenNecessary": true,
+    "noFakeGuarantees": true,
+    "noSilentHang": true,
+    "noDestructiveWorkspaceInstall": true
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "updated": "20260610-173014",
+  "hard_rules": [
+    "Across all projects, continuity work is additive-only unless replacement is explicitly required.",
+    "Do not duplicate records; update manifests and add deltas instead.",
+    "Do not drift into architecture when the task is project-transfer continuity.",
+    "Every future ChatGPT project must inherit the latest transfer, delta, rules, standards, gaps, risks, and next-work records.",
+    "Resume, do not rebuild.",
+    "Preserve founder directives.",
+    "Preserve approved standards.",
+    "Preserve current state.",
+    "Preserve stopped-here markers.",
+    "Preserve next-project instructions.",
+    "If a project becomes full, export current transfer and continue from the next unfinished continuity record.",
+    "Canonical transfer files must not include PS prompts, console noise, build logs, or accidental pasted shell markers.",
+    "Every new container must be indexed.",
+    "Every new record must have a stable unique key.",
+    "Every future project must read START_HERE first."
+  ],
+  "created": "20260610-173014",
+  "records": {
+    "START_HERE_PROJECT_CONTINUITY_V1": {
+      "status": "ADDED",
+      "file": ".\\LUMEN_PROJECT_CONTINUITY_CONTAINER\\00_MASTER\\START_HERE_LUMEN_PROJECT_CONTINUITY.md",
+      "container": "00_MASTER",
+      "rule": "Additive only; no duplicate record key.",
+      "created": "20260610-173014",
+      "key": "START_HERE_PROJECT_CONTINUITY_V1"
+    },
+    "COMPLETED_WORK_TEMPLATE_V1": {
+      "status": "ADDED",
+      "file": ".\\LUMEN_PROJECT_CONTINUITY_CONTAINER\\08_COMPLETED_WORK\\COMPLETED_WORK_TEMPLATE.md",
+      "container": "08_COMPLETED_WORK",
+      "rule": "Additive only; no duplicate record key.",
+      "created": "20260610-173014",
+      "key": "COMPLETED_WORK_TEMPLATE_V1"
+    },
+    "TRANSFER_HYGIENE_RULES_V1": {
+      "status": "ADDED",
+      "file": ".\\LUMEN_PROJECT_CONTINUITY_CONTAINER\\10_VALIDATION_AND_HYGIENE\\TRANSFER_HYGIENE_RULES.md",
+      "container": "10_VALIDATION_AND_HYGIENE",
+      "rule": "Additive only; no duplicate record key.",
+      "created": "20260610-173014",
+      "key": "TRANSFER_HYGIENE_RULES_V1"
+    },
+    "DECISION_DELTA_TEMPLATE_V1": {
+      "status": "ADDED",
+      "file": ".\\LUMEN_PROJECT_CONTINUITY_CONTAINER\\03_DECISION_DELTAS\\DECISION_DELTA_TEMPLATE.md",
+      "container": "03_DECISION_DELTAS",
+      "rule": "Additive only; no duplicate record key.",
+      "created": "20260610-173014",
+      "key": "DECISION_DELTA_TEMPLATE_V1"
+    },
+    "OPEN_QUESTIONS_TEMPLATE_V1": {
+      "status": "ADDED",
+      "file": ".\\LUMEN_PROJECT_CONTINUITY_CONTAINER\\06_OPEN_QUESTIONS\\OPEN_QUESTIONS_TEMPLATE.md",
+      "container": "06_OPEN_QUESTIONS",
+      "rule": "Additive only; no duplicate record key.",
+      "created": "20260610-173014",
+      "key": "OPEN_QUESTIONS_TEMPLATE_V1"
+    },
+    "GAPS_AND_RISKS_TEMPLATE_V1": {
+      "status": "ADDED",
+      "file": ".\\LUMEN_PROJECT_CONTINUITY_CONTAINER\\07_GAPS_AND_RISKS\\GAPS_AND_RISKS_TEMPLATE.md",
+      "container": "07_GAPS_AND_RISKS",
+      "rule": "Additive only; no duplicate record key.",
+      "created": "20260610-173014",
+      "key": "GAPS_AND_RISKS_TEMPLATE_V1"
+    },
+    "MASTER_INDEX_V1": {
+      "status": "ADDED",
+      "file": ".\\LUMEN_PROJECT_CONTINUITY_CONTAINER\\00_MASTER\\LUMEN_PROJECT_CONTINUITY_MASTER_INDEX.md",
+      "container": "00_MASTER",
+      "rule": "Additive only; no duplicate record key.",
+      "created": "20260610-173014",
+      "key": "MASTER_INDEX_V1"
+    },
+    "VALIDATOR_SCRIPT_V1": {
+      "status": "ADDED",
+      "file": ".\\LUMEN_PROJECT_CONTINUITY_CONTAINER\\10_VALIDATION_AND_HYGIENE\\VALIDATE_CONTINUITY_CONTAINER.ps1",
+      "container": "10_VALIDATION_AND_HYGIENE",
+      "rule": "Additive only; no duplicate record key.",
+      "created": "20260610-173014",
+      "key": "VALIDATOR_SCRIPT_V1"
+    },
+    "ARCHIVE_INDEX_RULES_V1": {
+      "status": "ADDED",
+      "file": ".\\LUMEN_PROJECT_CONTINUITY_CONTAINER\\99_ARCHIVE_INDEXES\\ARCHIVE_INDEX_RULES.md",
+      "container": "99_ARCHIVE_INDEXES",
+      "rule": "Additive only; no duplicate record key.",
+      "created": "20260610-173014",
+      "key": "ARCHIVE_INDEX_RULES_V1"
+    },
+    "CURRENT_TRANSFER_TEMPLATE_V1": {
+      "status": "ADDED",
+      "file": ".\\LUMEN_PROJECT_CONTINUITY_CONTAINER\\01_CURRENT_PROJECT_TRANSFER\\LUMEN_CURRENT_PROJECT_TRANSFER_TEMPLATE.md",
+      "container": "01_CURRENT_PROJECT_TRANSFER",
+      "rule": "Additive only; no duplicate record key.",
+      "created": "20260610-173014",
+      "key": "CURRENT_TRANSFER_TEMPLATE_V1"
+    },
+    "STANDARD_DELTA_TEMPLATE_V1": {
+      "status": "ADDED",
+      "file": ".\\LUMEN_PROJECT_CONTINUITY_CONTAINER\\05_STANDARD_DELTAS\\STANDARD_DELTA_TEMPLATE.md",
+      "container": "05_STANDARD_DELTAS",
+      "rule": "Additive only; no duplicate record key.",
+      "created": "20260610-173014",
+      "key": "STANDARD_DELTA_TEMPLATE_V1"
+    },
+    "RULE_DELTA_TEMPLATE_V1": {
+      "status": "ADDED",
+      "file": ".\\LUMEN_PROJECT_CONTINUITY_CONTAINER\\04_RULE_DELTAS\\RULE_DELTA_TEMPLATE.md",
+      "container": "04_RULE_DELTAS",
+      "rule": "Additive only; no duplicate record key.",
+      "created": "20260610-173014",
+      "key": "RULE_DELTA_TEMPLATE_V1"
+    },
+    "NEXT_PROJECT_START_PACKET_V1": {
+      "status": "ADDED",
+      "file": ".\\LUMEN_PROJECT_CONTINUITY_CONTAINER\\02_NEXT_PROJECT_START_HERE\\LUMEN_NEXT_PROJECT_START_PACKET.md",
+      "container": "02_NEXT_PROJECT_START_HERE",
+      "rule": "Additive only; no duplicate record key.",
+      "created": "20260610-173014",
+      "key": "NEXT_PROJECT_START_PACKET_V1"
+    },
+    "NEXT_WORK_QUEUE_TEMPLATE_V1": {
+      "status": "ADDED",
+      "file": ".\\LUMEN_PROJECT_CONTINUITY_CONTAINER\\09_NEXT_WORK_QUEUE\\NEXT_WORK_QUEUE_TEMPLATE.md",
+      "container": "09_NEXT_WORK_QUEUE",
+      "rule": "Additive only; no duplicate record key.",
+      "created": "20260610-173014",
+      "key": "NEXT_WORK_QUEUE_TEMPLATE_V1"
+    }
+  }
+}

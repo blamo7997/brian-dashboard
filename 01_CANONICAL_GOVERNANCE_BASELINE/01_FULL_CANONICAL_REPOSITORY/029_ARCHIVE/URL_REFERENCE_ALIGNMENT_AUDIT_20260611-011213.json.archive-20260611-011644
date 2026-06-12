@@ -1,0 +1,10 @@
+{
+  "createdOrUpdated": "20260611-011213",
+  "canonicalUrl": "lumentechnologies.solutions",
+  "canonicalRepositoryPath": "C:\\Users\\user\\brianco-backend-clean\\lumentechnologies.solutions\\LUMEN_CHATGPT_PROJECT_CONTINUITY_REPOSITORY",
+  "changedFileCount": 0,
+  "changedFiles": [],
+  "rule": "All active repository references must use lumentechnologies.solutions and the URL-aligned canonical folder.",
+  "noBypass": true,
+  "noFakePass": true
+}

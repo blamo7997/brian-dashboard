@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-11T19:28:47.8966643-06:00",
+  "system": "lineage-graph",
+  "status": "foundation-spec-created",
+  "entities": [
+    "file",
+    "governance-rule",
+    "proof-record",
+    "rollback-record",
+    "vault-record",
+    "repository-record",
+    "user-boundary",
+    "runtime-component",
+    "website-component",
+    "portal-component",
+    "dashboard-component"
+  ],
+  "requiredRelationships": [
+    "created-by",
+    "modified-by",
+    "backed-up-by",
+    "proved-by",
+    "stored-in",
+    "mirrored-to",
+    "belongs-to-user-boundary",
+    "protected-by-policy",
+    "validated-by"
+  ]
+}

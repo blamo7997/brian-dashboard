@@ -1,0 +1,2 @@
+export function createCulturalContext({country="",region="",locality="",language="en",dialect="",professionalContext=false,userPreference={}}={}){ return {country,region,locality,language,dialect,professionalContext,formality:userPreference.formality||"warm-natural",needsVerifiedReview:false}; }
+export function culturalAdaptationGuidance(context={}){ return {tone:context.formality||"warm-natural",avoidStereotypes:true,verifiedEscalationRecommended:false}; }

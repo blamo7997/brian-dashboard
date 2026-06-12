@@ -1,0 +1,10 @@
+{
+  "createdOrUpdated": "20260610-223134",
+  "manifests": [
+    "003_MANIFESTS\\REPOSITORY_MANIFEST.json",
+    "003_MANIFESTS\\CURRENT_PROJECT_MANIFEST.json"
+  ],
+  "latestGeneratedManifestPattern": "003_MANIFESTS\\LUMEN_UNIFIED_ECOSYSTEM_PLUS_500_EXPANSION_MANIFEST_*.json",
+  "latestGovernanceManifestPattern": "003_MANIFESTS\\GOVERNANCE_TRUST_CONNECTION_EXPANSION_MANIFEST_*.json",
+  "latestConstitutionManifestPattern": "003_MANIFESTS\\UNIVERSAL_PRESERVATION_CONSTITUTION_MANIFEST_*.json"
+}

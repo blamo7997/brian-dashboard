@@ -1,0 +1,41 @@
+{
+  "generated": "2026-06-10T04:11:57.592Z",
+  "reason": "powershell-run",
+  "controls": [
+    "confidentiality",
+    "integrity",
+    "availability",
+    "identity",
+    "authorization",
+    "auditability",
+    "provenance",
+    "recovery",
+    "continuity",
+    "supply-chain-validation",
+    "prompt-injection-protection",
+    "secret-protection",
+    "dependency-scanning",
+    "vault-protection",
+    "user-isolation",
+    "least-privilege",
+    "change-validation",
+    "rollback-readiness"
+  ],
+  "perUserProtection": {
+    "privateNamespace": true,
+    "privateMemory": true,
+    "privatePermissions": true,
+    "noCrossUserAccess": true,
+    "lumenMediatedVaultResults": true
+  },
+  "scanning": {
+    "secrets": true,
+    "dependencies": true,
+    "supplyChain": true,
+    "promptInjection": true,
+    "outputHandling": true,
+    "permissions": true,
+    "recovery": true
+  },
+  "note": "This is a baseline/security status layer. It does not claim CIA affiliation. It implements CIA+ style confidentiality, integrity, availability, and extended controls."
+}

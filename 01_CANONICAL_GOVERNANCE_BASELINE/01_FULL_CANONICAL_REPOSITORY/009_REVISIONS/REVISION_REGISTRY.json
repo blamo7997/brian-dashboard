@@ -1,0 +1,12 @@
+{
+  "revisions": [
+    {
+      "status": "Current",
+      "projectId": "CR-PROJECT-CURRENT",
+      "revisionId": "CR-REVISION-20260610-180207",
+      "summary": "V3 repository upgrade with ID-first continuity model",
+      "createdOrUpdated": "20260610-180207",
+      "parentTransferId": "CR-TRANSFER-CURRENT"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "updated": "20260610-180207",
+  "revisionId": "CR-REVISION-20260610-180207",
+  "currentState": "Repository upgraded after prior V1/V2 scripts",
+  "projectId": "CR-PROJECT-CURRENT",
+  "transferId": "CR-TRANSFER-CURRENT",
+  "purpose": "Build and maintain ChatGPT project continuity repository",
+  "continuationPoint": "V3 upgrade: add ID-first registries, lineage, transfer/delta/revision model, recovery, validation, and export packet controls",
+  "doNotDo": [
+    "Do not drift into Lumen architecture",
+    "Do not rebuild approved work",
+    "Do not duplicate giant histories"
+  ],
+  "seriesId": "CR-SERIES-0001",
+  "status": "Active"
+}

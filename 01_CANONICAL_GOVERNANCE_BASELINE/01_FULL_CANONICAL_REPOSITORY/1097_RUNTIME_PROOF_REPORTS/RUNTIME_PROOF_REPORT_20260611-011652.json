@@ -1,0 +1,102 @@
+{
+  "CreatedOrUpdated": "20260611-011652",
+  "RuntimeScope": "Repository-governance runtime",
+  "Status": "PASSED",
+  "Score": 100.0,
+  "TotalCases": 10,
+  "PassedCases": 10,
+  "FailedCases": 0,
+  "Results": [
+    {
+      "CaseID": "CASE-001",
+      "Actor": "Founder",
+      "Action": "EditWebsite",
+      "Expected": "Allow",
+      "Actual": "Allow",
+      "Passed": true,
+      "Reason": "Founder has authority"
+    },
+    {
+      "CaseID": "CASE-002",
+      "Actor": "StandardUser",
+      "Action": "ReadFounderVault",
+      "Expected": "Deny",
+      "Actual": "Deny",
+      "Passed": true,
+      "Reason": "Users never access founder-private Vault"
+    },
+    {
+      "CaseID": "CASE-003",
+      "Actor": "WebsiteOnlyUser",
+      "Action": "UseOnlineLumen",
+      "Expected": "Allow",
+      "Actual": "Allow",
+      "Passed": true,
+      "Reason": "Website-only users are first-class but permission-bounded"
+    },
+    {
+      "CaseID": "CASE-004",
+      "Actor": "WebsiteOnlyUser",
+      "Action": "AccessFounderOS",
+      "Expected": "Deny",
+      "Actual": "Deny",
+      "Passed": true,
+      "Reason": "Website users cannot access founder OS controls"
+    },
+    {
+      "CaseID": "CASE-005",
+      "Actor": "StandardUser",
+      "Action": "ReadOtherUserVault",
+      "Expected": "Deny",
+      "Actual": "Deny",
+      "Passed": true,
+      "Reason": "Users are isolated from other users"
+    },
+    {
+      "CaseID": "CASE-006",
+      "Actor": "Admin",
+      "Action": "EditWebsite",
+      "Expected": "RequireFounderApproval",
+      "Actual": "RequireFounderApproval",
+      "Passed": true,
+      "Reason": "Admin editing requires authority and approval path"
+    },
+    {
+      "CaseID": "CASE-007",
+      "Actor": "StandardUser",
+      "Action": "RequestCurrentInfo",
+      "Expected": "AllowWithVetting",
+      "Actual": "AllowWithVetting",
+      "Passed": true,
+      "Reason": "External/current info requires vetted verified permission-safe results"
+    },
+    {
+      "CaseID": "CASE-008",
+      "Actor": "StandardUser",
+      "Action": "BypassValidation",
+      "Expected": "Deny",
+      "Actual": "Deny",
+      "Passed": true,
+      "Reason": "No bypassing"
+    },
+    {
+      "CaseID": "CASE-009",
+      "Actor": "LivingTwin",
+      "Action": "SimulateRelease",
+      "Expected": "Allow",
+      "Actual": "Allow",
+      "Passed": true,
+      "Reason": "Living twin simulations support evidence but do not replace runtime proof"
+    },
+    {
+      "CaseID": "CASE-010",
+      "Actor": "NativeAI",
+      "Action": "ReplaceOpenAIBridge",
+      "Expected": "RequireContinuityPreservation",
+      "Actual": "RequireContinuityPreservation",
+      "Passed": true,
+      "Reason": "Native AI replacement must preserve continuity"
+    }
+  ],
+  "TruthBoundary": "This validates repository-governance runtime behavior, not the future deployed Lumen product runtime."
+}

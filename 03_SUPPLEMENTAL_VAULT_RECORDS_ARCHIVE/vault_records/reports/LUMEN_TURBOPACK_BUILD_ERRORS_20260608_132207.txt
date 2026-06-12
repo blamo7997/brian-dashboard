@@ -1,0 +1,56 @@
+
+> brianco-backend-clean@1.0.0 build
+> next build
+
+Γû▓ Next.js 16.2.6 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 3 errors:
+./pages/api/account-entitlements.js:1:1
+Module not found: Can't resolve '../../lib/brianco-retired-commerce-platform-customer'
+> 1 | ...ndCustomerByEmail, parseTags, updateCustomerTagsAndNote } from "../../lib/brianco-shopif...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | ...
+  3 | ...agMap = {
+  4 | ..."Role: Founder",
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./pages/api/digital-work.js:1:1
+Module not found: Can't resolve '../../lib/brianco-retired-commerce-platform-customer'
+> 1 | import { updateCustomerTagsAndNote } from "../../lib/brianco-retired-commerce-platform-customer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default async function handler(req, res) {
+  4 |   if (req.method === "GET") {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./pages/api/founder-gate.js:1:1
+Module not found: Can't resolve '../../lib/brianco-retired-commerce-platform-customer'
+> 1 | import { findCustomerByEmail, parseTags } from "../../lib/brianco-retired-commerce-platform-customer";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default async function handler(req, res) {
+  4 |   const email = String(req.query.email || req.headers["x-brianco-email"] || "").toLowerCase...
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (./pages/api/account-entitlements.js:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./pages/api/digital-work.js:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./pages/api/founder-gate.js:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)

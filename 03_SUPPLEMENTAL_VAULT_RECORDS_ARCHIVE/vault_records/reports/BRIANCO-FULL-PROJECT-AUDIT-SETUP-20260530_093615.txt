@@ -1,0 +1,12 @@
+BRIAN & CO FULL PROJECT AUDIT SETUP REPORT
+Created: 20260530_093615
+
+Added:
+- /full-project-audit
+- /api/full-project-audit/dashboard
+- scripts/brianco-full-project-audit.mjs
+- protected-registry/BRIANCO-FULL-PROJECT-AUDIT.json
+- npm script: brianco:full-audit
+
+Backup:
+protected-backups\FULL_PROJECT_AUDIT_20260530_093615

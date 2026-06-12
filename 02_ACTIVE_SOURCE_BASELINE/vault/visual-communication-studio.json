@@ -1,0 +1,49 @@
+{
+  "name": "Lumen Visual Communication Studio",
+  "make_it_20x_better": [
+    "One visual inbox for emoji, meme, GIF, sticker, photo, livestream, and chat media",
+    "Accessible explanations for memes and images",
+    "Culture-aware humor warnings",
+    "Brand-safe creator templates",
+    "Auto-captioned visual reactions",
+    "Vault memory for reusable assets",
+    "Knowledge graph links between image, message, meeting, product, user, and campaign",
+    "Founder approval for public-facing generated content"
+  ],
+  "review_filtering": [
+    "Ignore obvious spam or copy-paste reviews",
+    "Prefer verified-user review platforms",
+    "Cross-check against official feature pages",
+    "Separate real user complaints from marketing claims",
+    "Track repeated complaints such as cost, clutter, subscriptions, weak AI results, storage use, confusing tools"
+  ],
+  "sources_used": [
+    "Verified software review categories such as G2 photo editing reviews",
+    "Official meme/sticker maker feature pages such as Canva and Mematic",
+    "Common editor categories from Photoshop, Lightroom, Affinity, GIMP, Canva, Picsart, CapCut, Snapseed, Figma-style collaboration"
+  ],
+  "key_features": [
+    "Emoji-only communication mode",
+    "Emoji-to-text interpretation",
+    "Text-to-emoji suggestions",
+    "Sticker creation",
+    "Meme creation",
+    "Meme reading/explanation",
+    "GIF generation",
+    "AI image editing",
+    "Object removal",
+    "Background removal",
+    "Generative fill",
+    "Layers and masks",
+    "Templates",
+    "Brand-safe editing",
+    "Alt text generation",
+    "Fake-edit detection",
+    "Authenticity labels",
+    "Accessibility descriptions",
+    "Format conversion",
+    "Batch exports"
+  ],
+  "timestamp": "2026-06-08T09:55:54.9435479-06:00",
+  "purpose": "Let users communicate with emojis, stickers, memes, GIFs, edited images, visual reactions, and accessible image descriptions."
+}

@@ -1,0 +1,52 @@
+{
+  "Accessibility": {
+    "total": 1,
+    "installed": 0,
+    "planned": 1
+  },
+  "Business": {
+    "total": 7,
+    "installed": 0,
+    "planned": 7
+  },
+  "Core": {
+    "total": 7,
+    "installed": 4,
+    "planned": 3
+  },
+  "Development": {
+    "total": 6,
+    "installed": 0,
+    "planned": 6
+  },
+  "Devices": {
+    "total": 6,
+    "installed": 0,
+    "planned": 6
+  },
+  "Experience": {
+    "total": 6,
+    "installed": 5,
+    "planned": 1
+  },
+  "Future": {
+    "total": 7,
+    "installed": 0,
+    "planned": 7
+  },
+  "Industries": {
+    "total": 19,
+    "installed": 0,
+    "planned": 19
+  },
+  "Intelligence": {
+    "total": 6,
+    "installed": 0,
+    "planned": 6
+  },
+  "Localization": {
+    "total": 2,
+    "installed": 0,
+    "planned": 2
+  }
+}

@@ -1,0 +1,4123 @@
+{
+  "generated": "2026-06-09T23:07:06.103Z",
+  "reason": "powershell-run",
+  "count": 500,
+  "categories": [
+    "Governance",
+    "Connection",
+    "Vault",
+    "Registry",
+    "Security",
+    "Quality",
+    "Testing",
+    "Founder",
+    "Dashboard",
+    "Portal",
+    "Memory",
+    "Localization",
+    "Accessibility",
+    "Voice",
+    "Research",
+    "Knowledge Graph",
+    "Digital Twin",
+    "Recovery",
+    "Automation",
+    "Workflow",
+    "Event Bus",
+    "Audit Bus",
+    "API",
+    "Route",
+    "Dependency",
+    "Cloudflare",
+    "GitHub",
+    "OpenAI",
+    "Playwright",
+    "Supabase",
+    "User Experience",
+    "Performance",
+    "No-Wait Runtime",
+    "No-Duplicate Guard",
+    "Production Readiness",
+    "Live Monitoring",
+    "Legal Review",
+    "Payment",
+    "Livestream",
+    "Document Intelligence",
+    "Robotics",
+    "Research Equipment",
+    "Native Apps",
+    "Installer",
+    "Rollback",
+    "Snapshot",
+    "Evidence",
+    "Trust Ledger",
+    "Entitlement",
+    "Constitution"
+  ],
+  "vaultRecord": {
+    "recordId": "vault_1781046426098",
+    "createdAt": "2026-06-09T23:07:06.098Z",
+    "type": "five-hundred-improvement-registry",
+    "title": "500 Lumen Improvement Registry",
+    "summary": "500 improvement candidates registered for protected additive implementation.",
+    "data": {
+      "count": 500,
+      "categories": [
+        "Governance",
+        "Connection",
+        "Vault",
+        "Registry",
+        "Security",
+        "Quality",
+        "Testing",
+        "Founder",
+        "Dashboard",
+        "Portal",
+        "Memory",
+        "Localization",
+        "Accessibility",
+        "Voice",
+        "Research",
+        "Knowledge Graph",
+        "Digital Twin",
+        "Recovery",
+        "Automation",
+        "Workflow",
+        "Event Bus",
+        "Audit Bus",
+        "API",
+        "Route",
+        "Dependency",
+        "Cloudflare",
+        "GitHub",
+        "OpenAI",
+        "Playwright",
+        "Supabase",
+        "User Experience",
+        "Performance",
+        "No-Wait Runtime",
+        "No-Duplicate Guard",
+        "Production Readiness",
+        "Live Monitoring",
+        "Legal Review",
+        "Payment",
+        "Livestream",
+        "Document Intelligence",
+        "Robotics",
+        "Research Equipment",
+        "Native Apps",
+        "Installer",
+        "Rollback",
+        "Snapshot",
+        "Evidence",
+        "Trust Ledger",
+        "Entitlement",
+        "Constitution"
+      ],
+      "items": [
+        {
+          "improvementId": "improvement-001",
+          "category": "Governance",
+          "name": "Governance Improvement 01",
+          "slug": "governance-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-002",
+          "category": "Governance",
+          "name": "Governance Improvement 02",
+          "slug": "governance-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-003",
+          "category": "Governance",
+          "name": "Governance Improvement 03",
+          "slug": "governance-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-004",
+          "category": "Governance",
+          "name": "Governance Improvement 04",
+          "slug": "governance-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-005",
+          "category": "Governance",
+          "name": "Governance Improvement 05",
+          "slug": "governance-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-006",
+          "category": "Governance",
+          "name": "Governance Improvement 06",
+          "slug": "governance-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-007",
+          "category": "Governance",
+          "name": "Governance Improvement 07",
+          "slug": "governance-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-008",
+          "category": "Governance",
+          "name": "Governance Improvement 08",
+          "slug": "governance-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-009",
+          "category": "Governance",
+          "name": "Governance Improvement 09",
+          "slug": "governance-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-010",
+          "category": "Governance",
+          "name": "Governance Improvement 10",
+          "slug": "governance-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-011",
+          "category": "Connection",
+          "name": "Connection Improvement 01",
+          "slug": "connection-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-012",
+          "category": "Connection",
+          "name": "Connection Improvement 02",
+          "slug": "connection-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-013",
+          "category": "Connection",
+          "name": "Connection Improvement 03",
+          "slug": "connection-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-014",
+          "category": "Connection",
+          "name": "Connection Improvement 04",
+          "slug": "connection-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-015",
+          "category": "Connection",
+          "name": "Connection Improvement 05",
+          "slug": "connection-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-016",
+          "category": "Connection",
+          "name": "Connection Improvement 06",
+          "slug": "connection-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-017",
+          "category": "Connection",
+          "name": "Connection Improvement 07",
+          "slug": "connection-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-018",
+          "category": "Connection",
+          "name": "Connection Improvement 08",
+          "slug": "connection-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-019",
+          "category": "Connection",
+          "name": "Connection Improvement 09",
+          "slug": "connection-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-020",
+          "category": "Connection",
+          "name": "Connection Improvement 10",
+          "slug": "connection-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-021",
+          "category": "Vault",
+          "name": "Vault Improvement 01",
+          "slug": "vault-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-022",
+          "category": "Vault",
+          "name": "Vault Improvement 02",
+          "slug": "vault-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-023",
+          "category": "Vault",
+          "name": "Vault Improvement 03",
+          "slug": "vault-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-024",
+          "category": "Vault",
+          "name": "Vault Improvement 04",
+          "slug": "vault-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-025",
+          "category": "Vault",
+          "name": "Vault Improvement 05",
+          "slug": "vault-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-026",
+          "category": "Vault",
+          "name": "Vault Improvement 06",
+          "slug": "vault-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-027",
+          "category": "Vault",
+          "name": "Vault Improvement 07",
+          "slug": "vault-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-028",
+          "category": "Vault",
+          "name": "Vault Improvement 08",
+          "slug": "vault-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-029",
+          "category": "Vault",
+          "name": "Vault Improvement 09",
+          "slug": "vault-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-030",
+          "category": "Vault",
+          "name": "Vault Improvement 10",
+          "slug": "vault-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-031",
+          "category": "Registry",
+          "name": "Registry Improvement 01",
+          "slug": "registry-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-032",
+          "category": "Registry",
+          "name": "Registry Improvement 02",
+          "slug": "registry-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-033",
+          "category": "Registry",
+          "name": "Registry Improvement 03",
+          "slug": "registry-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-034",
+          "category": "Registry",
+          "name": "Registry Improvement 04",
+          "slug": "registry-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-035",
+          "category": "Registry",
+          "name": "Registry Improvement 05",
+          "slug": "registry-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-036",
+          "category": "Registry",
+          "name": "Registry Improvement 06",
+          "slug": "registry-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-037",
+          "category": "Registry",
+          "name": "Registry Improvement 07",
+          "slug": "registry-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-038",
+          "category": "Registry",
+          "name": "Registry Improvement 08",
+          "slug": "registry-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-039",
+          "category": "Registry",
+          "name": "Registry Improvement 09",
+          "slug": "registry-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-040",
+          "category": "Registry",
+          "name": "Registry Improvement 10",
+          "slug": "registry-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-041",
+          "category": "Security",
+          "name": "Security Improvement 01",
+          "slug": "security-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-042",
+          "category": "Security",
+          "name": "Security Improvement 02",
+          "slug": "security-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-043",
+          "category": "Security",
+          "name": "Security Improvement 03",
+          "slug": "security-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-044",
+          "category": "Security",
+          "name": "Security Improvement 04",
+          "slug": "security-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-045",
+          "category": "Security",
+          "name": "Security Improvement 05",
+          "slug": "security-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-046",
+          "category": "Security",
+          "name": "Security Improvement 06",
+          "slug": "security-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-047",
+          "category": "Security",
+          "name": "Security Improvement 07",
+          "slug": "security-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-048",
+          "category": "Security",
+          "name": "Security Improvement 08",
+          "slug": "security-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-049",
+          "category": "Security",
+          "name": "Security Improvement 09",
+          "slug": "security-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-050",
+          "category": "Security",
+          "name": "Security Improvement 10",
+          "slug": "security-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-051",
+          "category": "Quality",
+          "name": "Quality Improvement 01",
+          "slug": "quality-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-052",
+          "category": "Quality",
+          "name": "Quality Improvement 02",
+          "slug": "quality-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-053",
+          "category": "Quality",
+          "name": "Quality Improvement 03",
+          "slug": "quality-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-054",
+          "category": "Quality",
+          "name": "Quality Improvement 04",
+          "slug": "quality-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-055",
+          "category": "Quality",
+          "name": "Quality Improvement 05",
+          "slug": "quality-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-056",
+          "category": "Quality",
+          "name": "Quality Improvement 06",
+          "slug": "quality-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-057",
+          "category": "Quality",
+          "name": "Quality Improvement 07",
+          "slug": "quality-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-058",
+          "category": "Quality",
+          "name": "Quality Improvement 08",
+          "slug": "quality-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-059",
+          "category": "Quality",
+          "name": "Quality Improvement 09",
+          "slug": "quality-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-060",
+          "category": "Quality",
+          "name": "Quality Improvement 10",
+          "slug": "quality-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-061",
+          "category": "Testing",
+          "name": "Testing Improvement 01",
+          "slug": "testing-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-062",
+          "category": "Testing",
+          "name": "Testing Improvement 02",
+          "slug": "testing-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-063",
+          "category": "Testing",
+          "name": "Testing Improvement 03",
+          "slug": "testing-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-064",
+          "category": "Testing",
+          "name": "Testing Improvement 04",
+          "slug": "testing-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-065",
+          "category": "Testing",
+          "name": "Testing Improvement 05",
+          "slug": "testing-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-066",
+          "category": "Testing",
+          "name": "Testing Improvement 06",
+          "slug": "testing-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-067",
+          "category": "Testing",
+          "name": "Testing Improvement 07",
+          "slug": "testing-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-068",
+          "category": "Testing",
+          "name": "Testing Improvement 08",
+          "slug": "testing-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-069",
+          "category": "Testing",
+          "name": "Testing Improvement 09",
+          "slug": "testing-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-070",
+          "category": "Testing",
+          "name": "Testing Improvement 10",
+          "slug": "testing-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-071",
+          "category": "Founder",
+          "name": "Founder Improvement 01",
+          "slug": "founder-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-072",
+          "category": "Founder",
+          "name": "Founder Improvement 02",
+          "slug": "founder-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-073",
+          "category": "Founder",
+          "name": "Founder Improvement 03",
+          "slug": "founder-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-074",
+          "category": "Founder",
+          "name": "Founder Improvement 04",
+          "slug": "founder-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-075",
+          "category": "Founder",
+          "name": "Founder Improvement 05",
+          "slug": "founder-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-076",
+          "category": "Founder",
+          "name": "Founder Improvement 06",
+          "slug": "founder-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-077",
+          "category": "Founder",
+          "name": "Founder Improvement 07",
+          "slug": "founder-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-078",
+          "category": "Founder",
+          "name": "Founder Improvement 08",
+          "slug": "founder-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-079",
+          "category": "Founder",
+          "name": "Founder Improvement 09",
+          "slug": "founder-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-080",
+          "category": "Founder",
+          "name": "Founder Improvement 10",
+          "slug": "founder-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-081",
+          "category": "Dashboard",
+          "name": "Dashboard Improvement 01",
+          "slug": "dashboard-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-082",
+          "category": "Dashboard",
+          "name": "Dashboard Improvement 02",
+          "slug": "dashboard-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-083",
+          "category": "Dashboard",
+          "name": "Dashboard Improvement 03",
+          "slug": "dashboard-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-084",
+          "category": "Dashboard",
+          "name": "Dashboard Improvement 04",
+          "slug": "dashboard-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-085",
+          "category": "Dashboard",
+          "name": "Dashboard Improvement 05",
+          "slug": "dashboard-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-086",
+          "category": "Dashboard",
+          "name": "Dashboard Improvement 06",
+          "slug": "dashboard-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-087",
+          "category": "Dashboard",
+          "name": "Dashboard Improvement 07",
+          "slug": "dashboard-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-088",
+          "category": "Dashboard",
+          "name": "Dashboard Improvement 08",
+          "slug": "dashboard-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-089",
+          "category": "Dashboard",
+          "name": "Dashboard Improvement 09",
+          "slug": "dashboard-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-090",
+          "category": "Dashboard",
+          "name": "Dashboard Improvement 10",
+          "slug": "dashboard-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-091",
+          "category": "Portal",
+          "name": "Portal Improvement 01",
+          "slug": "portal-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-092",
+          "category": "Portal",
+          "name": "Portal Improvement 02",
+          "slug": "portal-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-093",
+          "category": "Portal",
+          "name": "Portal Improvement 03",
+          "slug": "portal-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-094",
+          "category": "Portal",
+          "name": "Portal Improvement 04",
+          "slug": "portal-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-095",
+          "category": "Portal",
+          "name": "Portal Improvement 05",
+          "slug": "portal-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-096",
+          "category": "Portal",
+          "name": "Portal Improvement 06",
+          "slug": "portal-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-097",
+          "category": "Portal",
+          "name": "Portal Improvement 07",
+          "slug": "portal-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-098",
+          "category": "Portal",
+          "name": "Portal Improvement 08",
+          "slug": "portal-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-099",
+          "category": "Portal",
+          "name": "Portal Improvement 09",
+          "slug": "portal-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-100",
+          "category": "Portal",
+          "name": "Portal Improvement 10",
+          "slug": "portal-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-101",
+          "category": "Memory",
+          "name": "Memory Improvement 01",
+          "slug": "memory-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-102",
+          "category": "Memory",
+          "name": "Memory Improvement 02",
+          "slug": "memory-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-103",
+          "category": "Memory",
+          "name": "Memory Improvement 03",
+          "slug": "memory-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-104",
+          "category": "Memory",
+          "name": "Memory Improvement 04",
+          "slug": "memory-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-105",
+          "category": "Memory",
+          "name": "Memory Improvement 05",
+          "slug": "memory-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-106",
+          "category": "Memory",
+          "name": "Memory Improvement 06",
+          "slug": "memory-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-107",
+          "category": "Memory",
+          "name": "Memory Improvement 07",
+          "slug": "memory-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-108",
+          "category": "Memory",
+          "name": "Memory Improvement 08",
+          "slug": "memory-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-109",
+          "category": "Memory",
+          "name": "Memory Improvement 09",
+          "slug": "memory-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-110",
+          "category": "Memory",
+          "name": "Memory Improvement 10",
+          "slug": "memory-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-111",
+          "category": "Localization",
+          "name": "Localization Improvement 01",
+          "slug": "localization-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-112",
+          "category": "Localization",
+          "name": "Localization Improvement 02",
+          "slug": "localization-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-113",
+          "category": "Localization",
+          "name": "Localization Improvement 03",
+          "slug": "localization-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-114",
+          "category": "Localization",
+          "name": "Localization Improvement 04",
+          "slug": "localization-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-115",
+          "category": "Localization",
+          "name": "Localization Improvement 05",
+          "slug": "localization-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-116",
+          "category": "Localization",
+          "name": "Localization Improvement 06",
+          "slug": "localization-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-117",
+          "category": "Localization",
+          "name": "Localization Improvement 07",
+          "slug": "localization-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-118",
+          "category": "Localization",
+          "name": "Localization Improvement 08",
+          "slug": "localization-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-119",
+          "category": "Localization",
+          "name": "Localization Improvement 09",
+          "slug": "localization-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-120",
+          "category": "Localization",
+          "name": "Localization Improvement 10",
+          "slug": "localization-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-121",
+          "category": "Accessibility",
+          "name": "Accessibility Improvement 01",
+          "slug": "accessibility-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-122",
+          "category": "Accessibility",
+          "name": "Accessibility Improvement 02",
+          "slug": "accessibility-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-123",
+          "category": "Accessibility",
+          "name": "Accessibility Improvement 03",
+          "slug": "accessibility-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-124",
+          "category": "Accessibility",
+          "name": "Accessibility Improvement 04",
+          "slug": "accessibility-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-125",
+          "category": "Accessibility",
+          "name": "Accessibility Improvement 05",
+          "slug": "accessibility-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-126",
+          "category": "Accessibility",
+          "name": "Accessibility Improvement 06",
+          "slug": "accessibility-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-127",
+          "category": "Accessibility",
+          "name": "Accessibility Improvement 07",
+          "slug": "accessibility-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-128",
+          "category": "Accessibility",
+          "name": "Accessibility Improvement 08",
+          "slug": "accessibility-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-129",
+          "category": "Accessibility",
+          "name": "Accessibility Improvement 09",
+          "slug": "accessibility-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-130",
+          "category": "Accessibility",
+          "name": "Accessibility Improvement 10",
+          "slug": "accessibility-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-131",
+          "category": "Voice",
+          "name": "Voice Improvement 01",
+          "slug": "voice-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-132",
+          "category": "Voice",
+          "name": "Voice Improvement 02",
+          "slug": "voice-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-133",
+          "category": "Voice",
+          "name": "Voice Improvement 03",
+          "slug": "voice-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-134",
+          "category": "Voice",
+          "name": "Voice Improvement 04",
+          "slug": "voice-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-135",
+          "category": "Voice",
+          "name": "Voice Improvement 05",
+          "slug": "voice-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-136",
+          "category": "Voice",
+          "name": "Voice Improvement 06",
+          "slug": "voice-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-137",
+          "category": "Voice",
+          "name": "Voice Improvement 07",
+          "slug": "voice-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-138",
+          "category": "Voice",
+          "name": "Voice Improvement 08",
+          "slug": "voice-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-139",
+          "category": "Voice",
+          "name": "Voice Improvement 09",
+          "slug": "voice-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-140",
+          "category": "Voice",
+          "name": "Voice Improvement 10",
+          "slug": "voice-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-141",
+          "category": "Research",
+          "name": "Research Improvement 01",
+          "slug": "research-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-142",
+          "category": "Research",
+          "name": "Research Improvement 02",
+          "slug": "research-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-143",
+          "category": "Research",
+          "name": "Research Improvement 03",
+          "slug": "research-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-144",
+          "category": "Research",
+          "name": "Research Improvement 04",
+          "slug": "research-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-145",
+          "category": "Research",
+          "name": "Research Improvement 05",
+          "slug": "research-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-146",
+          "category": "Research",
+          "name": "Research Improvement 06",
+          "slug": "research-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-147",
+          "category": "Research",
+          "name": "Research Improvement 07",
+          "slug": "research-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-148",
+          "category": "Research",
+          "name": "Research Improvement 08",
+          "slug": "research-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-149",
+          "category": "Research",
+          "name": "Research Improvement 09",
+          "slug": "research-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-150",
+          "category": "Research",
+          "name": "Research Improvement 10",
+          "slug": "research-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-151",
+          "category": "Knowledge Graph",
+          "name": "Knowledge Graph Improvement 01",
+          "slug": "knowledge-graph-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-152",
+          "category": "Knowledge Graph",
+          "name": "Knowledge Graph Improvement 02",
+          "slug": "knowledge-graph-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-153",
+          "category": "Knowledge Graph",
+          "name": "Knowledge Graph Improvement 03",
+          "slug": "knowledge-graph-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-154",
+          "category": "Knowledge Graph",
+          "name": "Knowledge Graph Improvement 04",
+          "slug": "knowledge-graph-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-155",
+          "category": "Knowledge Graph",
+          "name": "Knowledge Graph Improvement 05",
+          "slug": "knowledge-graph-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-156",
+          "category": "Knowledge Graph",
+          "name": "Knowledge Graph Improvement 06",
+          "slug": "knowledge-graph-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-157",
+          "category": "Knowledge Graph",
+          "name": "Knowledge Graph Improvement 07",
+          "slug": "knowledge-graph-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-158",
+          "category": "Knowledge Graph",
+          "name": "Knowledge Graph Improvement 08",
+          "slug": "knowledge-graph-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-159",
+          "category": "Knowledge Graph",
+          "name": "Knowledge Graph Improvement 09",
+          "slug": "knowledge-graph-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-160",
+          "category": "Knowledge Graph",
+          "name": "Knowledge Graph Improvement 10",
+          "slug": "knowledge-graph-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-161",
+          "category": "Digital Twin",
+          "name": "Digital Twin Improvement 01",
+          "slug": "digital-twin-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-162",
+          "category": "Digital Twin",
+          "name": "Digital Twin Improvement 02",
+          "slug": "digital-twin-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-163",
+          "category": "Digital Twin",
+          "name": "Digital Twin Improvement 03",
+          "slug": "digital-twin-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-164",
+          "category": "Digital Twin",
+          "name": "Digital Twin Improvement 04",
+          "slug": "digital-twin-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-165",
+          "category": "Digital Twin",
+          "name": "Digital Twin Improvement 05",
+          "slug": "digital-twin-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-166",
+          "category": "Digital Twin",
+          "name": "Digital Twin Improvement 06",
+          "slug": "digital-twin-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-167",
+          "category": "Digital Twin",
+          "name": "Digital Twin Improvement 07",
+          "slug": "digital-twin-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-168",
+          "category": "Digital Twin",
+          "name": "Digital Twin Improvement 08",
+          "slug": "digital-twin-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-169",
+          "category": "Digital Twin",
+          "name": "Digital Twin Improvement 09",
+          "slug": "digital-twin-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-170",
+          "category": "Digital Twin",
+          "name": "Digital Twin Improvement 10",
+          "slug": "digital-twin-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-171",
+          "category": "Recovery",
+          "name": "Recovery Improvement 01",
+          "slug": "recovery-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-172",
+          "category": "Recovery",
+          "name": "Recovery Improvement 02",
+          "slug": "recovery-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-173",
+          "category": "Recovery",
+          "name": "Recovery Improvement 03",
+          "slug": "recovery-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-174",
+          "category": "Recovery",
+          "name": "Recovery Improvement 04",
+          "slug": "recovery-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-175",
+          "category": "Recovery",
+          "name": "Recovery Improvement 05",
+          "slug": "recovery-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-176",
+          "category": "Recovery",
+          "name": "Recovery Improvement 06",
+          "slug": "recovery-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-177",
+          "category": "Recovery",
+          "name": "Recovery Improvement 07",
+          "slug": "recovery-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-178",
+          "category": "Recovery",
+          "name": "Recovery Improvement 08",
+          "slug": "recovery-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-179",
+          "category": "Recovery",
+          "name": "Recovery Improvement 09",
+          "slug": "recovery-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-180",
+          "category": "Recovery",
+          "name": "Recovery Improvement 10",
+          "slug": "recovery-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-181",
+          "category": "Automation",
+          "name": "Automation Improvement 01",
+          "slug": "automation-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-182",
+          "category": "Automation",
+          "name": "Automation Improvement 02",
+          "slug": "automation-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-183",
+          "category": "Automation",
+          "name": "Automation Improvement 03",
+          "slug": "automation-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-184",
+          "category": "Automation",
+          "name": "Automation Improvement 04",
+          "slug": "automation-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-185",
+          "category": "Automation",
+          "name": "Automation Improvement 05",
+          "slug": "automation-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-186",
+          "category": "Automation",
+          "name": "Automation Improvement 06",
+          "slug": "automation-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-187",
+          "category": "Automation",
+          "name": "Automation Improvement 07",
+          "slug": "automation-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-188",
+          "category": "Automation",
+          "name": "Automation Improvement 08",
+          "slug": "automation-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-189",
+          "category": "Automation",
+          "name": "Automation Improvement 09",
+          "slug": "automation-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-190",
+          "category": "Automation",
+          "name": "Automation Improvement 10",
+          "slug": "automation-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-191",
+          "category": "Workflow",
+          "name": "Workflow Improvement 01",
+          "slug": "workflow-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-192",
+          "category": "Workflow",
+          "name": "Workflow Improvement 02",
+          "slug": "workflow-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-193",
+          "category": "Workflow",
+          "name": "Workflow Improvement 03",
+          "slug": "workflow-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-194",
+          "category": "Workflow",
+          "name": "Workflow Improvement 04",
+          "slug": "workflow-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-195",
+          "category": "Workflow",
+          "name": "Workflow Improvement 05",
+          "slug": "workflow-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-196",
+          "category": "Workflow",
+          "name": "Workflow Improvement 06",
+          "slug": "workflow-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-197",
+          "category": "Workflow",
+          "name": "Workflow Improvement 07",
+          "slug": "workflow-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-198",
+          "category": "Workflow",
+          "name": "Workflow Improvement 08",
+          "slug": "workflow-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-199",
+          "category": "Workflow",
+          "name": "Workflow Improvement 09",
+          "slug": "workflow-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-200",
+          "category": "Workflow",
+          "name": "Workflow Improvement 10",
+          "slug": "workflow-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-201",
+          "category": "Event Bus",
+          "name": "Event Bus Improvement 01",
+          "slug": "event-bus-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-202",
+          "category": "Event Bus",
+          "name": "Event Bus Improvement 02",
+          "slug": "event-bus-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-203",
+          "category": "Event Bus",
+          "name": "Event Bus Improvement 03",
+          "slug": "event-bus-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-204",
+          "category": "Event Bus",
+          "name": "Event Bus Improvement 04",
+          "slug": "event-bus-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-205",
+          "category": "Event Bus",
+          "name": "Event Bus Improvement 05",
+          "slug": "event-bus-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-206",
+          "category": "Event Bus",
+          "name": "Event Bus Improvement 06",
+          "slug": "event-bus-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-207",
+          "category": "Event Bus",
+          "name": "Event Bus Improvement 07",
+          "slug": "event-bus-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-208",
+          "category": "Event Bus",
+          "name": "Event Bus Improvement 08",
+          "slug": "event-bus-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-209",
+          "category": "Event Bus",
+          "name": "Event Bus Improvement 09",
+          "slug": "event-bus-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-210",
+          "category": "Event Bus",
+          "name": "Event Bus Improvement 10",
+          "slug": "event-bus-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-211",
+          "category": "Audit Bus",
+          "name": "Audit Bus Improvement 01",
+          "slug": "audit-bus-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-212",
+          "category": "Audit Bus",
+          "name": "Audit Bus Improvement 02",
+          "slug": "audit-bus-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-213",
+          "category": "Audit Bus",
+          "name": "Audit Bus Improvement 03",
+          "slug": "audit-bus-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-214",
+          "category": "Audit Bus",
+          "name": "Audit Bus Improvement 04",
+          "slug": "audit-bus-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-215",
+          "category": "Audit Bus",
+          "name": "Audit Bus Improvement 05",
+          "slug": "audit-bus-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-216",
+          "category": "Audit Bus",
+          "name": "Audit Bus Improvement 06",
+          "slug": "audit-bus-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-217",
+          "category": "Audit Bus",
+          "name": "Audit Bus Improvement 07",
+          "slug": "audit-bus-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-218",
+          "category": "Audit Bus",
+          "name": "Audit Bus Improvement 08",
+          "slug": "audit-bus-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-219",
+          "category": "Audit Bus",
+          "name": "Audit Bus Improvement 09",
+          "slug": "audit-bus-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-220",
+          "category": "Audit Bus",
+          "name": "Audit Bus Improvement 10",
+          "slug": "audit-bus-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-221",
+          "category": "API",
+          "name": "API Improvement 01",
+          "slug": "api-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-222",
+          "category": "API",
+          "name": "API Improvement 02",
+          "slug": "api-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-223",
+          "category": "API",
+          "name": "API Improvement 03",
+          "slug": "api-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-224",
+          "category": "API",
+          "name": "API Improvement 04",
+          "slug": "api-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-225",
+          "category": "API",
+          "name": "API Improvement 05",
+          "slug": "api-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-226",
+          "category": "API",
+          "name": "API Improvement 06",
+          "slug": "api-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-227",
+          "category": "API",
+          "name": "API Improvement 07",
+          "slug": "api-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-228",
+          "category": "API",
+          "name": "API Improvement 08",
+          "slug": "api-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-229",
+          "category": "API",
+          "name": "API Improvement 09",
+          "slug": "api-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-230",
+          "category": "API",
+          "name": "API Improvement 10",
+          "slug": "api-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-231",
+          "category": "Route",
+          "name": "Route Improvement 01",
+          "slug": "route-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-232",
+          "category": "Route",
+          "name": "Route Improvement 02",
+          "slug": "route-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-233",
+          "category": "Route",
+          "name": "Route Improvement 03",
+          "slug": "route-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-234",
+          "category": "Route",
+          "name": "Route Improvement 04",
+          "slug": "route-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-235",
+          "category": "Route",
+          "name": "Route Improvement 05",
+          "slug": "route-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-236",
+          "category": "Route",
+          "name": "Route Improvement 06",
+          "slug": "route-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-237",
+          "category": "Route",
+          "name": "Route Improvement 07",
+          "slug": "route-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-238",
+          "category": "Route",
+          "name": "Route Improvement 08",
+          "slug": "route-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-239",
+          "category": "Route",
+          "name": "Route Improvement 09",
+          "slug": "route-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-240",
+          "category": "Route",
+          "name": "Route Improvement 10",
+          "slug": "route-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-241",
+          "category": "Dependency",
+          "name": "Dependency Improvement 01",
+          "slug": "dependency-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-242",
+          "category": "Dependency",
+          "name": "Dependency Improvement 02",
+          "slug": "dependency-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-243",
+          "category": "Dependency",
+          "name": "Dependency Improvement 03",
+          "slug": "dependency-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-244",
+          "category": "Dependency",
+          "name": "Dependency Improvement 04",
+          "slug": "dependency-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-245",
+          "category": "Dependency",
+          "name": "Dependency Improvement 05",
+          "slug": "dependency-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-246",
+          "category": "Dependency",
+          "name": "Dependency Improvement 06",
+          "slug": "dependency-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-247",
+          "category": "Dependency",
+          "name": "Dependency Improvement 07",
+          "slug": "dependency-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-248",
+          "category": "Dependency",
+          "name": "Dependency Improvement 08",
+          "slug": "dependency-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-249",
+          "category": "Dependency",
+          "name": "Dependency Improvement 09",
+          "slug": "dependency-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-250",
+          "category": "Dependency",
+          "name": "Dependency Improvement 10",
+          "slug": "dependency-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-251",
+          "category": "Cloudflare",
+          "name": "Cloudflare Improvement 01",
+          "slug": "cloudflare-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-252",
+          "category": "Cloudflare",
+          "name": "Cloudflare Improvement 02",
+          "slug": "cloudflare-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-253",
+          "category": "Cloudflare",
+          "name": "Cloudflare Improvement 03",
+          "slug": "cloudflare-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-254",
+          "category": "Cloudflare",
+          "name": "Cloudflare Improvement 04",
+          "slug": "cloudflare-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-255",
+          "category": "Cloudflare",
+          "name": "Cloudflare Improvement 05",
+          "slug": "cloudflare-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-256",
+          "category": "Cloudflare",
+          "name": "Cloudflare Improvement 06",
+          "slug": "cloudflare-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-257",
+          "category": "Cloudflare",
+          "name": "Cloudflare Improvement 07",
+          "slug": "cloudflare-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-258",
+          "category": "Cloudflare",
+          "name": "Cloudflare Improvement 08",
+          "slug": "cloudflare-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-259",
+          "category": "Cloudflare",
+          "name": "Cloudflare Improvement 09",
+          "slug": "cloudflare-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-260",
+          "category": "Cloudflare",
+          "name": "Cloudflare Improvement 10",
+          "slug": "cloudflare-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-261",
+          "category": "GitHub",
+          "name": "GitHub Improvement 01",
+          "slug": "github-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-262",
+          "category": "GitHub",
+          "name": "GitHub Improvement 02",
+          "slug": "github-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-263",
+          "category": "GitHub",
+          "name": "GitHub Improvement 03",
+          "slug": "github-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-264",
+          "category": "GitHub",
+          "name": "GitHub Improvement 04",
+          "slug": "github-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-265",
+          "category": "GitHub",
+          "name": "GitHub Improvement 05",
+          "slug": "github-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-266",
+          "category": "GitHub",
+          "name": "GitHub Improvement 06",
+          "slug": "github-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-267",
+          "category": "GitHub",
+          "name": "GitHub Improvement 07",
+          "slug": "github-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-268",
+          "category": "GitHub",
+          "name": "GitHub Improvement 08",
+          "slug": "github-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-269",
+          "category": "GitHub",
+          "name": "GitHub Improvement 09",
+          "slug": "github-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-270",
+          "category": "GitHub",
+          "name": "GitHub Improvement 10",
+          "slug": "github-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-271",
+          "category": "OpenAI",
+          "name": "OpenAI Improvement 01",
+          "slug": "openai-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-272",
+          "category": "OpenAI",
+          "name": "OpenAI Improvement 02",
+          "slug": "openai-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-273",
+          "category": "OpenAI",
+          "name": "OpenAI Improvement 03",
+          "slug": "openai-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-274",
+          "category": "OpenAI",
+          "name": "OpenAI Improvement 04",
+          "slug": "openai-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-275",
+          "category": "OpenAI",
+          "name": "OpenAI Improvement 05",
+          "slug": "openai-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-276",
+          "category": "OpenAI",
+          "name": "OpenAI Improvement 06",
+          "slug": "openai-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-277",
+          "category": "OpenAI",
+          "name": "OpenAI Improvement 07",
+          "slug": "openai-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-278",
+          "category": "OpenAI",
+          "name": "OpenAI Improvement 08",
+          "slug": "openai-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-279",
+          "category": "OpenAI",
+          "name": "OpenAI Improvement 09",
+          "slug": "openai-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-280",
+          "category": "OpenAI",
+          "name": "OpenAI Improvement 10",
+          "slug": "openai-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-281",
+          "category": "Playwright",
+          "name": "Playwright Improvement 01",
+          "slug": "playwright-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-282",
+          "category": "Playwright",
+          "name": "Playwright Improvement 02",
+          "slug": "playwright-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-283",
+          "category": "Playwright",
+          "name": "Playwright Improvement 03",
+          "slug": "playwright-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-284",
+          "category": "Playwright",
+          "name": "Playwright Improvement 04",
+          "slug": "playwright-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-285",
+          "category": "Playwright",
+          "name": "Playwright Improvement 05",
+          "slug": "playwright-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-286",
+          "category": "Playwright",
+          "name": "Playwright Improvement 06",
+          "slug": "playwright-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-287",
+          "category": "Playwright",
+          "name": "Playwright Improvement 07",
+          "slug": "playwright-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-288",
+          "category": "Playwright",
+          "name": "Playwright Improvement 08",
+          "slug": "playwright-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-289",
+          "category": "Playwright",
+          "name": "Playwright Improvement 09",
+          "slug": "playwright-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-290",
+          "category": "Playwright",
+          "name": "Playwright Improvement 10",
+          "slug": "playwright-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-291",
+          "category": "Supabase",
+          "name": "Supabase Improvement 01",
+          "slug": "supabase-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-292",
+          "category": "Supabase",
+          "name": "Supabase Improvement 02",
+          "slug": "supabase-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-293",
+          "category": "Supabase",
+          "name": "Supabase Improvement 03",
+          "slug": "supabase-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-294",
+          "category": "Supabase",
+          "name": "Supabase Improvement 04",
+          "slug": "supabase-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-295",
+          "category": "Supabase",
+          "name": "Supabase Improvement 05",
+          "slug": "supabase-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-296",
+          "category": "Supabase",
+          "name": "Supabase Improvement 06",
+          "slug": "supabase-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-297",
+          "category": "Supabase",
+          "name": "Supabase Improvement 07",
+          "slug": "supabase-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-298",
+          "category": "Supabase",
+          "name": "Supabase Improvement 08",
+          "slug": "supabase-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-299",
+          "category": "Supabase",
+          "name": "Supabase Improvement 09",
+          "slug": "supabase-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-300",
+          "category": "Supabase",
+          "name": "Supabase Improvement 10",
+          "slug": "supabase-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-301",
+          "category": "User Experience",
+          "name": "User Experience Improvement 01",
+          "slug": "user-experience-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-302",
+          "category": "User Experience",
+          "name": "User Experience Improvement 02",
+          "slug": "user-experience-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-303",
+          "category": "User Experience",
+          "name": "User Experience Improvement 03",
+          "slug": "user-experience-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-304",
+          "category": "User Experience",
+          "name": "User Experience Improvement 04",
+          "slug": "user-experience-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-305",
+          "category": "User Experience",
+          "name": "User Experience Improvement 05",
+          "slug": "user-experience-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-306",
+          "category": "User Experience",
+          "name": "User Experience Improvement 06",
+          "slug": "user-experience-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-307",
+          "category": "User Experience",
+          "name": "User Experience Improvement 07",
+          "slug": "user-experience-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-308",
+          "category": "User Experience",
+          "name": "User Experience Improvement 08",
+          "slug": "user-experience-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-309",
+          "category": "User Experience",
+          "name": "User Experience Improvement 09",
+          "slug": "user-experience-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-310",
+          "category": "User Experience",
+          "name": "User Experience Improvement 10",
+          "slug": "user-experience-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-311",
+          "category": "Performance",
+          "name": "Performance Improvement 01",
+          "slug": "performance-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-312",
+          "category": "Performance",
+          "name": "Performance Improvement 02",
+          "slug": "performance-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-313",
+          "category": "Performance",
+          "name": "Performance Improvement 03",
+          "slug": "performance-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-314",
+          "category": "Performance",
+          "name": "Performance Improvement 04",
+          "slug": "performance-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-315",
+          "category": "Performance",
+          "name": "Performance Improvement 05",
+          "slug": "performance-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-316",
+          "category": "Performance",
+          "name": "Performance Improvement 06",
+          "slug": "performance-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-317",
+          "category": "Performance",
+          "name": "Performance Improvement 07",
+          "slug": "performance-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-318",
+          "category": "Performance",
+          "name": "Performance Improvement 08",
+          "slug": "performance-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-319",
+          "category": "Performance",
+          "name": "Performance Improvement 09",
+          "slug": "performance-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-320",
+          "category": "Performance",
+          "name": "Performance Improvement 10",
+          "slug": "performance-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-321",
+          "category": "No-Wait Runtime",
+          "name": "No-Wait Runtime Improvement 01",
+          "slug": "no-wait-runtime-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-322",
+          "category": "No-Wait Runtime",
+          "name": "No-Wait Runtime Improvement 02",
+          "slug": "no-wait-runtime-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-323",
+          "category": "No-Wait Runtime",
+          "name": "No-Wait Runtime Improvement 03",
+          "slug": "no-wait-runtime-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-324",
+          "category": "No-Wait Runtime",
+          "name": "No-Wait Runtime Improvement 04",
+          "slug": "no-wait-runtime-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-325",
+          "category": "No-Wait Runtime",
+          "name": "No-Wait Runtime Improvement 05",
+          "slug": "no-wait-runtime-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-326",
+          "category": "No-Wait Runtime",
+          "name": "No-Wait Runtime Improvement 06",
+          "slug": "no-wait-runtime-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-327",
+          "category": "No-Wait Runtime",
+          "name": "No-Wait Runtime Improvement 07",
+          "slug": "no-wait-runtime-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-328",
+          "category": "No-Wait Runtime",
+          "name": "No-Wait Runtime Improvement 08",
+          "slug": "no-wait-runtime-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-329",
+          "category": "No-Wait Runtime",
+          "name": "No-Wait Runtime Improvement 09",
+          "slug": "no-wait-runtime-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-330",
+          "category": "No-Wait Runtime",
+          "name": "No-Wait Runtime Improvement 10",
+          "slug": "no-wait-runtime-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-331",
+          "category": "No-Duplicate Guard",
+          "name": "No-Duplicate Guard Improvement 01",
+          "slug": "no-duplicate-guard-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-332",
+          "category": "No-Duplicate Guard",
+          "name": "No-Duplicate Guard Improvement 02",
+          "slug": "no-duplicate-guard-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-333",
+          "category": "No-Duplicate Guard",
+          "name": "No-Duplicate Guard Improvement 03",
+          "slug": "no-duplicate-guard-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-334",
+          "category": "No-Duplicate Guard",
+          "name": "No-Duplicate Guard Improvement 04",
+          "slug": "no-duplicate-guard-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-335",
+          "category": "No-Duplicate Guard",
+          "name": "No-Duplicate Guard Improvement 05",
+          "slug": "no-duplicate-guard-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-336",
+          "category": "No-Duplicate Guard",
+          "name": "No-Duplicate Guard Improvement 06",
+          "slug": "no-duplicate-guard-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-337",
+          "category": "No-Duplicate Guard",
+          "name": "No-Duplicate Guard Improvement 07",
+          "slug": "no-duplicate-guard-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-338",
+          "category": "No-Duplicate Guard",
+          "name": "No-Duplicate Guard Improvement 08",
+          "slug": "no-duplicate-guard-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-339",
+          "category": "No-Duplicate Guard",
+          "name": "No-Duplicate Guard Improvement 09",
+          "slug": "no-duplicate-guard-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-340",
+          "category": "No-Duplicate Guard",
+          "name": "No-Duplicate Guard Improvement 10",
+          "slug": "no-duplicate-guard-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-341",
+          "category": "Production Readiness",
+          "name": "Production Readiness Improvement 01",
+          "slug": "production-readiness-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-342",
+          "category": "Production Readiness",
+          "name": "Production Readiness Improvement 02",
+          "slug": "production-readiness-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-343",
+          "category": "Production Readiness",
+          "name": "Production Readiness Improvement 03",
+          "slug": "production-readiness-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-344",
+          "category": "Production Readiness",
+          "name": "Production Readiness Improvement 04",
+          "slug": "production-readiness-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-345",
+          "category": "Production Readiness",
+          "name": "Production Readiness Improvement 05",
+          "slug": "production-readiness-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-346",
+          "category": "Production Readiness",
+          "name": "Production Readiness Improvement 06",
+          "slug": "production-readiness-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-347",
+          "category": "Production Readiness",
+          "name": "Production Readiness Improvement 07",
+          "slug": "production-readiness-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-348",
+          "category": "Production Readiness",
+          "name": "Production Readiness Improvement 08",
+          "slug": "production-readiness-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-349",
+          "category": "Production Readiness",
+          "name": "Production Readiness Improvement 09",
+          "slug": "production-readiness-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-350",
+          "category": "Production Readiness",
+          "name": "Production Readiness Improvement 10",
+          "slug": "production-readiness-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-351",
+          "category": "Live Monitoring",
+          "name": "Live Monitoring Improvement 01",
+          "slug": "live-monitoring-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-352",
+          "category": "Live Monitoring",
+          "name": "Live Monitoring Improvement 02",
+          "slug": "live-monitoring-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-353",
+          "category": "Live Monitoring",
+          "name": "Live Monitoring Improvement 03",
+          "slug": "live-monitoring-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-354",
+          "category": "Live Monitoring",
+          "name": "Live Monitoring Improvement 04",
+          "slug": "live-monitoring-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-355",
+          "category": "Live Monitoring",
+          "name": "Live Monitoring Improvement 05",
+          "slug": "live-monitoring-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-356",
+          "category": "Live Monitoring",
+          "name": "Live Monitoring Improvement 06",
+          "slug": "live-monitoring-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-357",
+          "category": "Live Monitoring",
+          "name": "Live Monitoring Improvement 07",
+          "slug": "live-monitoring-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-358",
+          "category": "Live Monitoring",
+          "name": "Live Monitoring Improvement 08",
+          "slug": "live-monitoring-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-359",
+          "category": "Live Monitoring",
+          "name": "Live Monitoring Improvement 09",
+          "slug": "live-monitoring-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-360",
+          "category": "Live Monitoring",
+          "name": "Live Monitoring Improvement 10",
+          "slug": "live-monitoring-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-361",
+          "category": "Legal Review",
+          "name": "Legal Review Improvement 01",
+          "slug": "legal-review-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-362",
+          "category": "Legal Review",
+          "name": "Legal Review Improvement 02",
+          "slug": "legal-review-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-363",
+          "category": "Legal Review",
+          "name": "Legal Review Improvement 03",
+          "slug": "legal-review-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-364",
+          "category": "Legal Review",
+          "name": "Legal Review Improvement 04",
+          "slug": "legal-review-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-365",
+          "category": "Legal Review",
+          "name": "Legal Review Improvement 05",
+          "slug": "legal-review-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-366",
+          "category": "Legal Review",
+          "name": "Legal Review Improvement 06",
+          "slug": "legal-review-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-367",
+          "category": "Legal Review",
+          "name": "Legal Review Improvement 07",
+          "slug": "legal-review-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-368",
+          "category": "Legal Review",
+          "name": "Legal Review Improvement 08",
+          "slug": "legal-review-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-369",
+          "category": "Legal Review",
+          "name": "Legal Review Improvement 09",
+          "slug": "legal-review-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-370",
+          "category": "Legal Review",
+          "name": "Legal Review Improvement 10",
+          "slug": "legal-review-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-371",
+          "category": "Payment",
+          "name": "Payment Improvement 01",
+          "slug": "payment-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-372",
+          "category": "Payment",
+          "name": "Payment Improvement 02",
+          "slug": "payment-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-373",
+          "category": "Payment",
+          "name": "Payment Improvement 03",
+          "slug": "payment-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-374",
+          "category": "Payment",
+          "name": "Payment Improvement 04",
+          "slug": "payment-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-375",
+          "category": "Payment",
+          "name": "Payment Improvement 05",
+          "slug": "payment-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-376",
+          "category": "Payment",
+          "name": "Payment Improvement 06",
+          "slug": "payment-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-377",
+          "category": "Payment",
+          "name": "Payment Improvement 07",
+          "slug": "payment-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-378",
+          "category": "Payment",
+          "name": "Payment Improvement 08",
+          "slug": "payment-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-379",
+          "category": "Payment",
+          "name": "Payment Improvement 09",
+          "slug": "payment-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-380",
+          "category": "Payment",
+          "name": "Payment Improvement 10",
+          "slug": "payment-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-381",
+          "category": "Livestream",
+          "name": "Livestream Improvement 01",
+          "slug": "livestream-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-382",
+          "category": "Livestream",
+          "name": "Livestream Improvement 02",
+          "slug": "livestream-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-383",
+          "category": "Livestream",
+          "name": "Livestream Improvement 03",
+          "slug": "livestream-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-384",
+          "category": "Livestream",
+          "name": "Livestream Improvement 04",
+          "slug": "livestream-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-385",
+          "category": "Livestream",
+          "name": "Livestream Improvement 05",
+          "slug": "livestream-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-386",
+          "category": "Livestream",
+          "name": "Livestream Improvement 06",
+          "slug": "livestream-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-387",
+          "category": "Livestream",
+          "name": "Livestream Improvement 07",
+          "slug": "livestream-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-388",
+          "category": "Livestream",
+          "name": "Livestream Improvement 08",
+          "slug": "livestream-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-389",
+          "category": "Livestream",
+          "name": "Livestream Improvement 09",
+          "slug": "livestream-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-390",
+          "category": "Livestream",
+          "name": "Livestream Improvement 10",
+          "slug": "livestream-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-391",
+          "category": "Document Intelligence",
+          "name": "Document Intelligence Improvement 01",
+          "slug": "document-intelligence-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-392",
+          "category": "Document Intelligence",
+          "name": "Document Intelligence Improvement 02",
+          "slug": "document-intelligence-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-393",
+          "category": "Document Intelligence",
+          "name": "Document Intelligence Improvement 03",
+          "slug": "document-intelligence-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-394",
+          "category": "Document Intelligence",
+          "name": "Document Intelligence Improvement 04",
+          "slug": "document-intelligence-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-395",
+          "category": "Document Intelligence",
+          "name": "Document Intelligence Improvement 05",
+          "slug": "document-intelligence-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-396",
+          "category": "Document Intelligence",
+          "name": "Document Intelligence Improvement 06",
+          "slug": "document-intelligence-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-397",
+          "category": "Document Intelligence",
+          "name": "Document Intelligence Improvement 07",
+          "slug": "document-intelligence-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-398",
+          "category": "Document Intelligence",
+          "name": "Document Intelligence Improvement 08",
+          "slug": "document-intelligence-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-399",
+          "category": "Document Intelligence",
+          "name": "Document Intelligence Improvement 09",
+          "slug": "document-intelligence-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-400",
+          "category": "Document Intelligence",
+          "name": "Document Intelligence Improvement 10",
+          "slug": "document-intelligence-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-401",
+          "category": "Robotics",
+          "name": "Robotics Improvement 01",
+          "slug": "robotics-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-402",
+          "category": "Robotics",
+          "name": "Robotics Improvement 02",
+          "slug": "robotics-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-403",
+          "category": "Robotics",
+          "name": "Robotics Improvement 03",
+          "slug": "robotics-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-404",
+          "category": "Robotics",
+          "name": "Robotics Improvement 04",
+          "slug": "robotics-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-405",
+          "category": "Robotics",
+          "name": "Robotics Improvement 05",
+          "slug": "robotics-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-406",
+          "category": "Robotics",
+          "name": "Robotics Improvement 06",
+          "slug": "robotics-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-407",
+          "category": "Robotics",
+          "name": "Robotics Improvement 07",
+          "slug": "robotics-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-408",
+          "category": "Robotics",
+          "name": "Robotics Improvement 08",
+          "slug": "robotics-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-409",
+          "category": "Robotics",
+          "name": "Robotics Improvement 09",
+          "slug": "robotics-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-410",
+          "category": "Robotics",
+          "name": "Robotics Improvement 10",
+          "slug": "robotics-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-411",
+          "category": "Research Equipment",
+          "name": "Research Equipment Improvement 01",
+          "slug": "research-equipment-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-412",
+          "category": "Research Equipment",
+          "name": "Research Equipment Improvement 02",
+          "slug": "research-equipment-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-413",
+          "category": "Research Equipment",
+          "name": "Research Equipment Improvement 03",
+          "slug": "research-equipment-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-414",
+          "category": "Research Equipment",
+          "name": "Research Equipment Improvement 04",
+          "slug": "research-equipment-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-415",
+          "category": "Research Equipment",
+          "name": "Research Equipment Improvement 05",
+          "slug": "research-equipment-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-416",
+          "category": "Research Equipment",
+          "name": "Research Equipment Improvement 06",
+          "slug": "research-equipment-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-417",
+          "category": "Research Equipment",
+          "name": "Research Equipment Improvement 07",
+          "slug": "research-equipment-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-418",
+          "category": "Research Equipment",
+          "name": "Research Equipment Improvement 08",
+          "slug": "research-equipment-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-419",
+          "category": "Research Equipment",
+          "name": "Research Equipment Improvement 09",
+          "slug": "research-equipment-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-420",
+          "category": "Research Equipment",
+          "name": "Research Equipment Improvement 10",
+          "slug": "research-equipment-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-421",
+          "category": "Native Apps",
+          "name": "Native Apps Improvement 01",
+          "slug": "native-apps-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-422",
+          "category": "Native Apps",
+          "name": "Native Apps Improvement 02",
+          "slug": "native-apps-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-423",
+          "category": "Native Apps",
+          "name": "Native Apps Improvement 03",
+          "slug": "native-apps-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-424",
+          "category": "Native Apps",
+          "name": "Native Apps Improvement 04",
+          "slug": "native-apps-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-425",
+          "category": "Native Apps",
+          "name": "Native Apps Improvement 05",
+          "slug": "native-apps-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-426",
+          "category": "Native Apps",
+          "name": "Native Apps Improvement 06",
+          "slug": "native-apps-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-427",
+          "category": "Native Apps",
+          "name": "Native Apps Improvement 07",
+          "slug": "native-apps-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-428",
+          "category": "Native Apps",
+          "name": "Native Apps Improvement 08",
+          "slug": "native-apps-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-429",
+          "category": "Native Apps",
+          "name": "Native Apps Improvement 09",
+          "slug": "native-apps-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-430",
+          "category": "Native Apps",
+          "name": "Native Apps Improvement 10",
+          "slug": "native-apps-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-431",
+          "category": "Installer",
+          "name": "Installer Improvement 01",
+          "slug": "installer-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-432",
+          "category": "Installer",
+          "name": "Installer Improvement 02",
+          "slug": "installer-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-433",
+          "category": "Installer",
+          "name": "Installer Improvement 03",
+          "slug": "installer-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-434",
+          "category": "Installer",
+          "name": "Installer Improvement 04",
+          "slug": "installer-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-435",
+          "category": "Installer",
+          "name": "Installer Improvement 05",
+          "slug": "installer-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-436",
+          "category": "Installer",
+          "name": "Installer Improvement 06",
+          "slug": "installer-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-437",
+          "category": "Installer",
+          "name": "Installer Improvement 07",
+          "slug": "installer-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-438",
+          "category": "Installer",
+          "name": "Installer Improvement 08",
+          "slug": "installer-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-439",
+          "category": "Installer",
+          "name": "Installer Improvement 09",
+          "slug": "installer-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-440",
+          "category": "Installer",
+          "name": "Installer Improvement 10",
+          "slug": "installer-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-441",
+          "category": "Rollback",
+          "name": "Rollback Improvement 01",
+          "slug": "rollback-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-442",
+          "category": "Rollback",
+          "name": "Rollback Improvement 02",
+          "slug": "rollback-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-443",
+          "category": "Rollback",
+          "name": "Rollback Improvement 03",
+          "slug": "rollback-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-444",
+          "category": "Rollback",
+          "name": "Rollback Improvement 04",
+          "slug": "rollback-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-445",
+          "category": "Rollback",
+          "name": "Rollback Improvement 05",
+          "slug": "rollback-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-446",
+          "category": "Rollback",
+          "name": "Rollback Improvement 06",
+          "slug": "rollback-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-447",
+          "category": "Rollback",
+          "name": "Rollback Improvement 07",
+          "slug": "rollback-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-448",
+          "category": "Rollback",
+          "name": "Rollback Improvement 08",
+          "slug": "rollback-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-449",
+          "category": "Rollback",
+          "name": "Rollback Improvement 09",
+          "slug": "rollback-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-450",
+          "category": "Rollback",
+          "name": "Rollback Improvement 10",
+          "slug": "rollback-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-451",
+          "category": "Snapshot",
+          "name": "Snapshot Improvement 01",
+          "slug": "snapshot-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-452",
+          "category": "Snapshot",
+          "name": "Snapshot Improvement 02",
+          "slug": "snapshot-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-453",
+          "category": "Snapshot",
+          "name": "Snapshot Improvement 03",
+          "slug": "snapshot-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-454",
+          "category": "Snapshot",
+          "name": "Snapshot Improvement 04",
+          "slug": "snapshot-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-455",
+          "category": "Snapshot",
+          "name": "Snapshot Improvement 05",
+          "slug": "snapshot-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-456",
+          "category": "Snapshot",
+          "name": "Snapshot Improvement 06",
+          "slug": "snapshot-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-457",
+          "category": "Snapshot",
+          "name": "Snapshot Improvement 07",
+          "slug": "snapshot-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-458",
+          "category": "Snapshot",
+          "name": "Snapshot Improvement 08",
+          "slug": "snapshot-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-459",
+          "category": "Snapshot",
+          "name": "Snapshot Improvement 09",
+          "slug": "snapshot-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-460",
+          "category": "Snapshot",
+          "name": "Snapshot Improvement 10",
+          "slug": "snapshot-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-461",
+          "category": "Evidence",
+          "name": "Evidence Improvement 01",
+          "slug": "evidence-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-462",
+          "category": "Evidence",
+          "name": "Evidence Improvement 02",
+          "slug": "evidence-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-463",
+          "category": "Evidence",
+          "name": "Evidence Improvement 03",
+          "slug": "evidence-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-464",
+          "category": "Evidence",
+          "name": "Evidence Improvement 04",
+          "slug": "evidence-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-465",
+          "category": "Evidence",
+          "name": "Evidence Improvement 05",
+          "slug": "evidence-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-466",
+          "category": "Evidence",
+          "name": "Evidence Improvement 06",
+          "slug": "evidence-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-467",
+          "category": "Evidence",
+          "name": "Evidence Improvement 07",
+          "slug": "evidence-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-468",
+          "category": "Evidence",
+          "name": "Evidence Improvement 08",
+          "slug": "evidence-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-469",
+          "category": "Evidence",
+          "name": "Evidence Improvement 09",
+          "slug": "evidence-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-470",
+          "category": "Evidence",
+          "name": "Evidence Improvement 10",
+          "slug": "evidence-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-471",
+          "category": "Trust Ledger",
+          "name": "Trust Ledger Improvement 01",
+          "slug": "trust-ledger-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-472",
+          "category": "Trust Ledger",
+          "name": "Trust Ledger Improvement 02",
+          "slug": "trust-ledger-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-473",
+          "category": "Trust Ledger",
+          "name": "Trust Ledger Improvement 03",
+          "slug": "trust-ledger-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-474",
+          "category": "Trust Ledger",
+          "name": "Trust Ledger Improvement 04",
+          "slug": "trust-ledger-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-475",
+          "category": "Trust Ledger",
+          "name": "Trust Ledger Improvement 05",
+          "slug": "trust-ledger-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-476",
+          "category": "Trust Ledger",
+          "name": "Trust Ledger Improvement 06",
+          "slug": "trust-ledger-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-477",
+          "category": "Trust Ledger",
+          "name": "Trust Ledger Improvement 07",
+          "slug": "trust-ledger-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-478",
+          "category": "Trust Ledger",
+          "name": "Trust Ledger Improvement 08",
+          "slug": "trust-ledger-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-479",
+          "category": "Trust Ledger",
+          "name": "Trust Ledger Improvement 09",
+          "slug": "trust-ledger-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-480",
+          "category": "Trust Ledger",
+          "name": "Trust Ledger Improvement 10",
+          "slug": "trust-ledger-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-481",
+          "category": "Entitlement",
+          "name": "Entitlement Improvement 01",
+          "slug": "entitlement-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-482",
+          "category": "Entitlement",
+          "name": "Entitlement Improvement 02",
+          "slug": "entitlement-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-483",
+          "category": "Entitlement",
+          "name": "Entitlement Improvement 03",
+          "slug": "entitlement-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-484",
+          "category": "Entitlement",
+          "name": "Entitlement Improvement 04",
+          "slug": "entitlement-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-485",
+          "category": "Entitlement",
+          "name": "Entitlement Improvement 05",
+          "slug": "entitlement-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-486",
+          "category": "Entitlement",
+          "name": "Entitlement Improvement 06",
+          "slug": "entitlement-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-487",
+          "category": "Entitlement",
+          "name": "Entitlement Improvement 07",
+          "slug": "entitlement-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-488",
+          "category": "Entitlement",
+          "name": "Entitlement Improvement 08",
+          "slug": "entitlement-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-489",
+          "category": "Entitlement",
+          "name": "Entitlement Improvement 09",
+          "slug": "entitlement-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-490",
+          "category": "Entitlement",
+          "name": "Entitlement Improvement 10",
+          "slug": "entitlement-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-491",
+          "category": "Constitution",
+          "name": "Constitution Improvement 01",
+          "slug": "constitution-improvement-01",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-492",
+          "category": "Constitution",
+          "name": "Constitution Improvement 02",
+          "slug": "constitution-improvement-02",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-493",
+          "category": "Constitution",
+          "name": "Constitution Improvement 03",
+          "slug": "constitution-improvement-03",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-494",
+          "category": "Constitution",
+          "name": "Constitution Improvement 04",
+          "slug": "constitution-improvement-04",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-495",
+          "category": "Constitution",
+          "name": "Constitution Improvement 05",
+          "slug": "constitution-improvement-05",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-496",
+          "category": "Constitution",
+          "name": "Constitution Improvement 06",
+          "slug": "constitution-improvement-06",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-497",
+          "category": "Constitution",
+          "name": "Constitution Improvement 07",
+          "slug": "constitution-improvement-07",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-498",
+          "category": "Constitution",
+          "name": "Constitution Improvement 08",
+          "slug": "constitution-improvement-08",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-499",
+          "category": "Constitution",
+          "name": "Constitution Improvement 09",
+          "slug": "constitution-improvement-09",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        },
+        {
+          "improvementId": "improvement-500",
+          "category": "Constitution",
+          "name": "Constitution Improvement 10",
+          "slug": "constitution-improvement-10",
+          "status": "registered-candidate-not-blindly-implemented",
+          "rule": "Scan existing capability before implementation; no duplicates; add only missing capability."
+        }
+      ]
+    },
+    "actor": "five-hundred-improvement-registry-engine",
+    "classification": "standard"
+  }
+}

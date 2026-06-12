@@ -1,0 +1,30 @@
+{
+    "ok":  true,
+    "time":  "2026-05-27T08:41:42.0983416-06:00",
+    "themeRoot":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME",
+    "backup":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\theme_backups\\theme_backup_20260527_084141",
+    "installed":  [
+                      {
+                          "TargetDir":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\snippets",
+                          "Source":  "brianco-realtime-overlay.liquid"
+                      },
+                      {
+                          "TargetDir":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\assets",
+                          "Source":  "brianco-realtime-overlay.js"
+                      },
+                      {
+                          "TargetDir":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\assets",
+                          "Source":  "brianco-human-chatbot-memory.js"
+                      },
+                      {
+                          "TargetDir":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\assets",
+                          "Source":  "brianco-previous-code-intelligence.js"
+                      },
+                      {
+                          "TargetDir":  "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_CONNECTED_THEME\\assets",
+                          "Source":  "brianco-realtime-overlay.css"
+                      }
+                  ],
+    "protectedConnectionsChanged":  false,
+    "note":  "Theme files were backed up first. Backend/OAuth/env/token/API/product/collection connections were not touched."
+}

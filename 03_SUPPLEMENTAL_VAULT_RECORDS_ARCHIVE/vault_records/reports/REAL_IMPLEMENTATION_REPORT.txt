@@ -1,0 +1,17 @@
+Brian & Co Real Implementation Bridge
+
+Created:
+- OpenAI helper
+- Supabase schema draft
+- Theme embed
+- Dashboard starter
+- Environment template
+
+Next Real Builds:
+- Live concierge route connection
+- Real retired-commerce-platform embedded UI
+- Real database persistence
+- Real image sync/upload
+- Real product publishing queue
+- Real app listing assets
+- Real approval queue UI

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-06-11T19:28:48.8182358-06:00",
+  "system": "entitlement-runtime",
+  "status": "foundation-spec-created",
+  "requiredCapabilities": [
+    "membership-access",
+    "product-access",
+    "service-access",
+    "a-la-carte-access",
+    "trial-state",
+    "student-verification-state",
+    "business-vs-individual-state",
+    "founder-admin-access",
+    "audit-history"
+  ]
+}

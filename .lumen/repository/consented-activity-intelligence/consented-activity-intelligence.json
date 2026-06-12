@@ -1,0 +1,22 @@
+{
+  "system": "consented-activity-intelligence",
+  "timestamp": "2026-06-11T21:19:06.2962717-06:00",
+  "allowedUse": [
+    "support",
+    "security",
+    "personalization",
+    "accessibility",
+    "localization",
+    "feature-improvement",
+    "lawful-business-intelligence",
+    "ethical-commerce-guidance"
+  ],
+  "restrictions": [
+    "consent-required",
+    "authorized-lumen-surfaces-only",
+    "no-manipulation",
+    "no-unauthorized-surveillance",
+    "user-isolated",
+    "founder-private-protected"
+  ]
+}

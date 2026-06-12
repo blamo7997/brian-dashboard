@@ -1,0 +1,26 @@
+{
+  "createdOrUpdated": "20260610-224911",
+  "status": "Added OS/Website/Vault permission boundary and Vault-first vetted-results rules",
+  "hardRules": [
+    "Lumen OS connects to website.",
+    "Website version of Lumen is supported.",
+    "Users never access Brian/founder-only OS, website, Vault, governance, or private records.",
+    "Lumen may edit website/ecosystem records only with proper authority.",
+    "All important actions/interactions should be timestamped and Vault-referenced.",
+    "Vault is checked first.",
+    "Web is scanned for current/external information when needed.",
+    "Results returned to users must be vetted, verified, and permission-safe."
+  ],
+  "containers": [
+    "651_OS_WEBSITE_PERMISSION_RULE",
+    "652_FOUNDER_PRIVATE_BOUNDARY",
+    "653_WEBSITE_VERSION_ACCESS_MODEL",
+    "654_LUMEN_WEBSITE_EDITING_AUTHORITY",
+    "655_VAULT_FIRST_INFORMATION_FLOW",
+    "656_VETTED_WEB_RESULT_POLICY",
+    "657_USER_INTERACTION_TIMESTAMPING",
+    "658_PERMISSIONED_RESULT_FILTERING",
+    "659_OS_WEBSITE_VAULT_SECURITY_AUDIT",
+    "660_FOUNDER_USER_SEPARATION_VALIDATION"
+  ]
+}

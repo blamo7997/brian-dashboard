@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-06-11T20:58:37.3907927-06:00",
+  "system": "supplier-artisan-creator-influencer-governance",
+  "roles": [
+    "supplier",
+    "artisan",
+    "creator",
+    "influencer",
+    "partner",
+    "service-provider"
+  ],
+  "rules": [
+    "no-direct-user-contact-unless-authorized",
+    "lumen-mediated-communication",
+    "brand-tone-rewrite",
+    "truth-preservation",
+    "required-disclosure-preservation",
+    "story-submission-encouraged",
+    "continuous-rating",
+    "quality-evaluation",
+    "compliance-evaluation",
+    "brand-fit-evaluation",
+    "proof-records"
+  ]
+}

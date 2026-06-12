@@ -1,0 +1,16 @@
+{
+    "overlay":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay",
+    "protectedSystemsTouched":  false,
+    "homelessVeryLowIncomeSupport":  "Included",
+    "powershellContinuity":  "Included",
+    "scheduledTask":  "BrianCoVisibleRealtimeWatcher",
+    "initialPowerShellScan":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\powershell_continuity_scans\\POWERSHELL_CONTINUITY_SCAN_20260527_152431.json",
+    "ok":  true,
+    "incomeToneAdaptation":  "Included",
+    "ethicalNativeFinancing":  "Included",
+    "roleIncomePortals":  "Included",
+    "installer":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\INSTALL_MASTER_THEME_OVERLAY.ps1",
+    "watcher":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\durable_watchers\\START_DURABLE_SAFE_WATCHER.ps1",
+    "createdAt":  "2026-05-27T15:40:23.7491737-06:00",
+    "launcher":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\durable_watchers\\OPEN_VISIBLE_BRIANCO_WATCHER.ps1"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Lumen Prime Ecosystem Universal Ledger Build",
+  "features": [
+    "OpenAI Command Bridge",
+    "Universal Activity Ledger",
+    "Vault Explorer",
+    "Sovereign Security Center",
+    "OpenAI TTS path",
+    "Resource Concierge",
+    "Localization Intelligence",
+    "Universal Communications",
+    "Accessibility and Care Engine",
+    "Founder Approvals",
+    "Protected Installer"
+  ],
+  "protectedFolders": [
+    "Vault",
+    "Config",
+    "Secrets",
+    "Reports",
+    "Backups"
+  ],
+  "forbidden": [
+    "Placeholder command boxes",
+    "Fake OpenAI bridge",
+    "Destructive overwrites",
+    "Unapproved protected-file changes"
+  ]
+}

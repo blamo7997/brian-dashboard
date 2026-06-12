@@ -1,0 +1,35 @@
+{
+  "createdOrUpdated": "20260610-221225",
+  "hardCodedRules": [
+    "Lumen OS, website, Vault, and ChatGPT/OpenAI bridge are connected access channels.",
+    "Website-only Lumen users must remain supported.",
+    "OpenAI is bridge/adaptor, not final authority.",
+    "Long-term direction is Lumen-native replacement where feasible.",
+    "Vault connects OS, website, ChatGPT bridge, and future native AI continuity.",
+    "Preservation-first and additive-first remain active."
+  ],
+  "status": "Added governance, trust, evidence, dependency, provenance, policy, guardian, and Lumen universal connection layers",
+  "newContainers": [
+    "051_CONFLICT_REGISTRY",
+    "052_TRUST_REGISTRY",
+    "053_PROVENANCE_REGISTRY",
+    "054_RELATIONSHIP_GRAPH",
+    "055_DEPENDENCY_GRAPH",
+    "056_OBJECT_LIFECYCLE",
+    "057_EVOLUTION_HISTORY",
+    "058_DECISION_LEDGER",
+    "059_EVIDENCE_LEDGER",
+    "060_LESSONS_LEARNED",
+    "061_RECOVERY_TESTS",
+    "062_TRANSFER_READINESS",
+    "063_EXPORT_GOVERNANCE",
+    "064_IMPORT_GOVERNANCE",
+    "065_CONTINUITY_INTELLIGENCE",
+    "066_REPOSITORY_CONSTITUTION_VERSIONS",
+    "067_FEDERATION",
+    "068_KNOWLEDGE_GRAPH",
+    "069_POLICY_ENGINE",
+    "070_GUARDIAN_RULES",
+    "071_LUMEN_UNIVERSAL_CONNECTION"
+  ]
+}

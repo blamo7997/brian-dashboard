@@ -1,0 +1,102 @@
+[
+  {
+    "Action": "EditWebsite",
+    "Actor": "Founder",
+    "CaseID": "CASE-001",
+    "Expected": "Allow",
+    "Role": "Founder",
+    "Channel": "OS",
+    "Reason": "Founder has authority",
+    "Object": "WebsiteGovernance"
+  },
+  {
+    "Action": "ReadFounderVault",
+    "Actor": "StandardUser",
+    "CaseID": "CASE-002",
+    "Expected": "Deny",
+    "Role": "User",
+    "Channel": "Website",
+    "Reason": "Users never access founder-private Vault",
+    "Object": "FounderPrivateVault"
+  },
+  {
+    "Action": "UseOnlineLumen",
+    "Actor": "WebsiteOnlyUser",
+    "CaseID": "CASE-003",
+    "Expected": "Allow",
+    "Role": "User",
+    "Channel": "Website",
+    "Reason": "Website-only users are first-class but permission-bounded",
+    "Object": "WebsiteVersionLumen"
+  },
+  {
+    "Action": "AccessFounderOS",
+    "Actor": "WebsiteOnlyUser",
+    "CaseID": "CASE-004",
+    "Expected": "Deny",
+    "Role": "User",
+    "Channel": "Website",
+    "Reason": "Website users cannot access founder OS controls",
+    "Object": "FounderOSControls"
+  },
+  {
+    "Action": "ReadOtherUserVault",
+    "Actor": "StandardUser",
+    "CaseID": "CASE-005",
+    "Expected": "Deny",
+    "Role": "User",
+    "Channel": "Website",
+    "Reason": "Users are isolated from other users",
+    "Object": "OtherUserVault"
+  },
+  {
+    "Action": "EditWebsite",
+    "Actor": "Admin",
+    "CaseID": "CASE-006",
+    "Expected": "RequireFounderApproval",
+    "Role": "Admin",
+    "Channel": "Website",
+    "Reason": "Admin editing requires authority and approval path",
+    "Object": "WebsiteContent"
+  },
+  {
+    "Action": "RequestCurrentInfo",
+    "Actor": "StandardUser",
+    "CaseID": "CASE-007",
+    "Expected": "AllowWithVetting",
+    "Role": "User",
+    "Channel": "Website",
+    "Reason": "External/current info requires vetted verified permission-safe results",
+    "Object": "ExternalWeb"
+  },
+  {
+    "Action": "BypassValidation",
+    "Actor": "StandardUser",
+    "CaseID": "CASE-008",
+    "Expected": "Deny",
+    "Role": "User",
+    "Channel": "Website",
+    "Reason": "No bypassing",
+    "Object": "GovernanceGate"
+  },
+  {
+    "Action": "SimulateRelease",
+    "Actor": "LivingTwin",
+    "CaseID": "CASE-009",
+    "Expected": "Allow",
+    "Role": "System",
+    "Channel": "Repository",
+    "Reason": "Living twin simulations support evidence but do not replace runtime proof",
+    "Object": "ReleaseTwin"
+  },
+  {
+    "Action": "ReplaceOpenAIBridge",
+    "Actor": "NativeAI",
+    "CaseID": "CASE-010",
+    "Expected": "RequireContinuityPreservation",
+    "Role": "System",
+    "Channel": "NativeAI",
+    "Reason": "Native AI replacement must preserve continuity",
+    "Object": "ChatGPTBridge"
+  }
+]

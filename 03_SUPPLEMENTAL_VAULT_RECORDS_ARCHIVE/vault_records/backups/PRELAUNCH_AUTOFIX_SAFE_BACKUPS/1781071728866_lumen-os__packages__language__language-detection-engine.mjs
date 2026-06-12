@@ -1,0 +1,2 @@
+export function detectLanguageBasic(text=""){ const v=String(text||""); if(/[\u0600-\u06FF]/.test(v)) return {language:"ar",direction:"rtl",confidence:.7,needsVerifiedEscalation:true}; if(/[\u4E00-\u9FFF]/.test(v)) return {language:"zh",direction:"ltr",confidence:.7,needsVerifiedEscalation:true}; return {language:"en",direction:"ltr",confidence:.5,needsVerifiedEscalation:false}; }
+export function detectDialectBasic({language="en"}={}){ return {dialect:language,confidence:.45,needsVerifiedEscalation:false}; }

@@ -1,0 +1,24 @@
+LUMEN LIVE COMPLETE SETUP REPORT
+
+Generated: 2026-06-09T23:40:16.6122702-06:00
+
+Included:
+- Complete live Windows 11 baseline.
+- Visual setup page.
+- Direct setup links.
+- No assumed API tokens.
+- Local .env.local key entry.
+- Desktop EXE if compiler exists.
+- Desktop CMD fallback.
+- Start Menu entry.
+- Build validation.
+
+Build Passed Marker:
+False
+
+Output:
+.\reports\LUMEN_LIVE_WINDOWS11_COMPLETE_SETUP_20260609_233928
+
+Desktop:
+C:\Users\user\Desktop\Lumen OS.exe
+C:\Users\user\Desktop\Lumen Live Complete Setup.cmd

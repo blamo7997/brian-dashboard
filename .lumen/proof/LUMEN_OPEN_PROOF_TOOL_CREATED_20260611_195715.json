@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-06-11T19:57:16.0932830-06:00",
+  "toolCreated": "C:\\Users\\user\\Desktop\\Lumen Genesis\\.lumen\\tools\\open-latest-lumen-proof.ps1",
+  "desktopShortcutScript": "C:\\Users\\user\\Desktop\\Lumen Genesis\\OPEN_LATEST_LUMEN_PROOF.ps1",
+  "purpose": "Open latest Lumen proof file without pasting raw file paths",
+  "fixesBarePathSpaceIssue": true
+}

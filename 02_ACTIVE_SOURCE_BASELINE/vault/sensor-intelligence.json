@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-06-08T14:01:42.954Z",
+  "cameras": [
+    "usb_cameras",
+    "ip_cameras",
+    "dslr",
+    "mirrorless",
+    "thermal_cameras",
+    "industrial_cameras",
+    "scientific_cameras",
+    "microscope_cameras",
+    "astronomy_cameras"
+  ],
+  "lidar": [
+    "solid_state_lidar",
+    "mechanical_lidar",
+    "mapping_lidar",
+    "industrial_lidar",
+    "robotics_lidar",
+    "automotive_lidar"
+  ],
+  "radar": [
+    "ground_radar",
+    "weather_radar",
+    "marine_radar",
+    "aviation_radar",
+    "security_radar"
+  ],
+  "sonar": [
+    "side_scan_sonar",
+    "multibeam_sonar",
+    "imaging_sonar",
+    "survey_sonar"
+  ],
+  "capabilities": [
+    "inventory",
+    "device_detection",
+    "documentation",
+    "firmware_tracking",
+    "driver_tracking",
+    "calibration_tracking",
+    "maintenance_tracking",
+    "vault_storage",
+    "knowledge_graph_linking"
+  ]
+}

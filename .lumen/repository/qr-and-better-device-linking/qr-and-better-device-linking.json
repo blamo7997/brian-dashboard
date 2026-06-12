@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-06-11T20:58:37.5593349-06:00",
+  "system": "qr-and-better-device-linking",
+  "target": "5000x-easier-than-ordinary-qr",
+  "capabilities": [
+    "dynamic-qr",
+    "adaptive-size",
+    "adaptive-contrast",
+    "device-aware-rendering",
+    "camera-aware-guidance",
+    "network-aware-flow",
+    "accessibility-aware-login",
+    "future-better-than-qr-methods"
+  ],
+  "safetyRules": [
+    "short-lived-codes",
+    "session-bound",
+    "user-confirmed",
+    "phishing-resistant-design-target",
+    "no-cross-user-session-leak",
+    "proof-records"
+  ]
+}

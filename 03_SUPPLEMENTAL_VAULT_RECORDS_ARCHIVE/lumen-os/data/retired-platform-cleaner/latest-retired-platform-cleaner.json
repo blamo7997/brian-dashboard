@@ -1,0 +1,667 @@
+{
+  "generated": "2026-06-09T23:07:28.487Z",
+  "reason": "powershell-run",
+  "modify": true,
+  "scannedFiles": 851,
+  "retiredReferenceCount": 131,
+  "findings": [
+    {
+      "file": "lumen-os\\packages\\deep-audit\\deep-audit-engine.mjs",
+      "action": "redacted"
+    },
+    {
+      "file": "lumen-os\\packages\\inside-lumen\\inside-lumen-action-router.mjs",
+      "action": "redacted"
+    },
+    {
+      "file": "lumen-os\\packages\\retired-platform-cleaner\\retired-platform-cleaner-engine.mjs",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\admin-companion-intelligence\\dashboard.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\approval-automation\\queues.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\approvals.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\brianco-gateway.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\chat.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\cli-intelligence\\snapshot.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\collections.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\create-founder-account.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\ecosystem\\dashboard.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\ecosystem-command\\master.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\ecosystem-orchestration\\dashboard.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\founder-operations-intelligence\\dashboard.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\intelligence\\sales-orders.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\interaction-logging\\dashboard.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\phase-003-dynamic-protection-registry\\dashboard.ts",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\phase-004-dynamic-protection-registry\\dashboard.ts",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\production-stability\\dashboard.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\products.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\provider-readiness\\future.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\provider-readiness\\index.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\role-request.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\roles.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\api\\theme-intelligence\\dashboard.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\CurrentLumenSetup-theme-health\\index.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\CurrentLumenSetup-theme-health-command\\index.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\CurrentLumenSetup-theme-health-master\\index.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\ecosystem-live-map\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\ecosystem-orchestration\\index.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\founder-approvals.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\future-expansion\\index.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\future-products\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\legal-command-center\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\luxury-resale-intelligence\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\master-protection\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\my-products\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-001-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-002-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-003-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-004-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-005-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-006-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-007-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-008-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-009-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-010-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-011-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-012-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-013-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-014-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-015-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-016-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-017-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-018-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-019-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-020-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-021-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-022-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-023-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-024-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-025-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-026-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-027-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-028-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-029-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-030-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-031-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-032-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-033-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-034-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-035-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-036-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-037-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-038-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-039-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-040-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-041-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-042-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-043-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-044-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-045-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-046-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-047-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-048-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-049-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-050-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-051-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-052-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-053-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-054-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-055-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\phase-056-dynamic-protection-registry\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\private-email-intelligence\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\product-image-tone-intelligence\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\supplier-recruitment-intelligence\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\theme-intelligence\\index.js",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\universal-customer-intelligence\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "pages\\website-os-continuity\\index.tsx",
+      "action": "redacted"
+    },
+    {
+      "file": "src\\brianco-realtime-theme-chatbot-bridge.js",
+      "action": "redacted"
+    },
+    {
+      "file": "src\\brianco-typo-intelligence.js",
+      "action": "redacted"
+    },
+    {
+      "file": "lib\\brianco-CurrentLumenSetup-customer.js",
+      "action": "redacted"
+    },
+    {
+      "file": "lib\\CurrentLumenSetup-oauth.js",
+      "action": "redacted"
+    },
+    {
+      "file": "lib\\CurrentLumenSetup.js",
+      "action": "redacted"
+    },
+    {
+      "file": "lib\\lumen-local-gates.js",
+      "action": "redacted"
+    },
+    {
+      "file": "lib\\security.js",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\BRIANCO-OS-REPORT-20260530_070523.txt",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\BRIANCO_SAFE_REALTIME_OVERLAY_DONE_20260527_085250.json",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\CurrentLumenSetup_50MB_FEATURE_BUDGET.json",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\FOREVER_AUTOMATION_REPORT.txt",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\FULL_REALTIME_THEME_CHATBOT_SYSTEM_CREATED_20260527_084010.json",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\LAYER_15_REPORT.txt",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\LUMEN_CODEBASE_STRUCTURE_AUDIT_20260608_124642.txt",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\LUMEN_CODELOCK_PHASE1_BUILD_AUDIT_20260608_132207.txt",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\LUMEN_FULL_ARCHITECTURE_LINE_SCAN_20260608_162126.txt",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\LUMEN_LIVE_READINESS_20260608_100347.txt",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\LUMEN_TURBOPACK_BUILD_ERRORS_20260608_132207.txt",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\LUMEN_WHOLE_PROJECT_PHASED_REDO_20260608_144053.txt",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\MASTER_SAFE_REALTIME_OVERLAY_DONE_20260527_090705.json",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\NATIVE_ADMIN_COMMAND_CENTER_ADDED_20260527_084213.json",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\PRESERVE_AND_EXTEND_RULE.json",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\READ_ONLY_PROJECT_MANIFEST_20260527_085250.json",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\REAL_IMPLEMENTATION_REPORT.txt",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\RUNTIME_HANDLER_EXPORT_SCAN_20260607_082652.txt",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\summary-report.md",
+      "action": "redacted"
+    },
+    {
+      "file": "reports\\WATCHDOG_REPORT_20260527_084139.json",
+      "action": "redacted"
+    },
+    {
+      "file": "backups\\LUMEN_SURGICAL_REPAIR_20260608_110756\\knowledge.json",
+      "action": "redacted"
+    },
+    {
+      "file": "backups\\LUMEN_WHOLE_PROJECT_PHASED_REDO_20260608_144053\\pages__api__account-entitlements.js",
+      "action": "redacted"
+    },
+    {
+      "file": "backups\\LUMEN_WHOLE_PROJECT_PHASED_REDO_20260608_144053\\pages__api__digital-work.js",
+      "action": "redacted"
+    },
+    {
+      "file": "backups\\LUMEN_WHOLE_PROJECT_PHASED_REDO_20260608_144053\\pages__api__founder-gate.js",
+      "action": "redacted"
+    }
+  ],
+  "changed": [
+    "lumen-os\\packages\\deep-audit\\deep-audit-engine.mjs",
+    "lumen-os\\packages\\inside-lumen\\inside-lumen-action-router.mjs",
+    "lumen-os\\packages\\retired-platform-cleaner\\retired-platform-cleaner-engine.mjs",
+    "pages\\api\\admin-companion-intelligence\\dashboard.js",
+    "pages\\api\\approval-automation\\queues.js",
+    "pages\\api\\approvals.js",
+    "pages\\api\\brianco-gateway.js",
+    "pages\\api\\chat.js",
+    "pages\\api\\cli-intelligence\\snapshot.js",
+    "pages\\api\\collections.js",
+    "pages\\api\\create-founder-account.js",
+    "pages\\api\\ecosystem\\dashboard.js",
+    "pages\\api\\ecosystem-command\\master.js",
+    "pages\\api\\ecosystem-orchestration\\dashboard.js",
+    "pages\\api\\founder-operations-intelligence\\dashboard.js",
+    "pages\\api\\intelligence\\sales-orders.js",
+    "pages\\api\\interaction-logging\\dashboard.js",
+    "pages\\api\\phase-003-dynamic-protection-registry\\dashboard.ts",
+    "pages\\api\\phase-004-dynamic-protection-registry\\dashboard.ts",
+    "pages\\api\\production-stability\\dashboard.js",
+    "pages\\api\\products.js",
+    "pages\\api\\provider-readiness\\future.js",
+    "pages\\api\\provider-readiness\\index.js",
+    "pages\\api\\role-request.js",
+    "pages\\api\\roles.js",
+    "pages\\api\\theme-intelligence\\dashboard.js",
+    "pages\\CurrentLumenSetup-theme-health\\index.js",
+    "pages\\CurrentLumenSetup-theme-health-command\\index.js",
+    "pages\\CurrentLumenSetup-theme-health-master\\index.js",
+    "pages\\ecosystem-live-map\\index.tsx",
+    "pages\\ecosystem-orchestration\\index.js",
+    "pages\\founder-approvals.js",
+    "pages\\future-expansion\\index.js",
+    "pages\\future-products\\index.tsx",
+    "pages\\legal-command-center\\index.tsx",
+    "pages\\luxury-resale-intelligence\\index.tsx",
+    "pages\\master-protection\\index.tsx",
+    "pages\\my-products\\index.tsx",
+    "pages\\phase-001-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-002-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-003-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-004-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-005-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-006-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-007-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-008-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-009-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-010-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-011-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-012-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-013-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-014-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-015-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-016-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-017-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-018-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-019-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-020-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-021-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-022-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-023-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-024-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-025-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-026-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-027-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-028-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-029-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-030-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-031-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-032-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-033-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-034-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-035-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-036-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-037-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-038-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-039-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-040-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-041-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-042-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-043-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-044-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-045-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-046-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-047-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-048-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-049-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-050-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-051-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-052-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-053-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-054-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-055-dynamic-protection-registry\\index.tsx",
+    "pages\\phase-056-dynamic-protection-registry\\index.tsx",
+    "pages\\private-email-intelligence\\index.tsx",
+    "pages\\product-image-tone-intelligence\\index.tsx",
+    "pages\\supplier-recruitment-intelligence\\index.tsx",
+    "pages\\theme-intelligence\\index.js",
+    "pages\\universal-customer-intelligence\\index.tsx",
+    "pages\\website-os-continuity\\index.tsx",
+    "src\\brianco-realtime-theme-chatbot-bridge.js",
+    "src\\brianco-typo-intelligence.js",
+    "lib\\brianco-CurrentLumenSetup-customer.js",
+    "lib\\CurrentLumenSetup-oauth.js",
+    "lib\\CurrentLumenSetup.js",
+    "lib\\lumen-local-gates.js",
+    "lib\\security.js",
+    "reports\\BRIANCO-OS-REPORT-20260530_070523.txt",
+    "reports\\BRIANCO_SAFE_REALTIME_OVERLAY_DONE_20260527_085250.json",
+    "reports\\CurrentLumenSetup_50MB_FEATURE_BUDGET.json",
+    "reports\\FOREVER_AUTOMATION_REPORT.txt",
+    "reports\\FULL_REALTIME_THEME_CHATBOT_SYSTEM_CREATED_20260527_084010.json",
+    "reports\\LAYER_15_REPORT.txt",
+    "reports\\LUMEN_CODEBASE_STRUCTURE_AUDIT_20260608_124642.txt",
+    "reports\\LUMEN_CODELOCK_PHASE1_BUILD_AUDIT_20260608_132207.txt",
+    "reports\\LUMEN_FULL_ARCHITECTURE_LINE_SCAN_20260608_162126.txt",
+    "reports\\LUMEN_LIVE_READINESS_20260608_100347.txt",
+    "reports\\LUMEN_TURBOPACK_BUILD_ERRORS_20260608_132207.txt",
+    "reports\\LUMEN_WHOLE_PROJECT_PHASED_REDO_20260608_144053.txt",
+    "reports\\MASTER_SAFE_REALTIME_OVERLAY_DONE_20260527_090705.json",
+    "reports\\NATIVE_ADMIN_COMMAND_CENTER_ADDED_20260527_084213.json",
+    "reports\\PRESERVE_AND_EXTEND_RULE.json",
+    "reports\\READ_ONLY_PROJECT_MANIFEST_20260527_085250.json",
+    "reports\\REAL_IMPLEMENTATION_REPORT.txt",
+    "reports\\RUNTIME_HANDLER_EXPORT_SCAN_20260607_082652.txt",
+    "reports\\summary-report.md",
+    "reports\\WATCHDOG_REPORT_20260527_084139.json",
+    "backups\\LUMEN_SURGICAL_REPAIR_20260608_110756\\knowledge.json",
+    "backups\\LUMEN_WHOLE_PROJECT_PHASED_REDO_20260608_144053\\pages__api__account-entitlements.js",
+    "backups\\LUMEN_WHOLE_PROJECT_PHASED_REDO_20260608_144053\\pages__api__digital-work.js",
+    "backups\\LUMEN_WHOLE_PROJECT_PHASED_REDO_20260608_144053\\pages__api__founder-gate.js"
+  ],
+  "status": "retired-references-handled-or-reported"
+}

@@ -1,0 +1,2 @@
+import { runDeepSurgicalAudit } from "../deep-audit/deep-audit-engine.mjs";
+export function runAutonomousQualityCycle({reason="automatic",userFacing=true,detailRequested=false}={}){ const audit=runDeepSurgicalAudit(); return {qualityRunId:`quality_${Date.now()}`,generated:new Date().toISOString(),reason,userFacing,detailRequested,auditFindingCount:audit.findings.length,status:audit.findings.length?"review-required":"passed",audit}; }

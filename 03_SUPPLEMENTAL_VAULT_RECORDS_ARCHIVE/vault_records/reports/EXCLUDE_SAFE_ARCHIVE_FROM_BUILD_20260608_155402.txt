@@ -1,0 +1,11 @@
+EXCLUDE SAFE ARCHIVE FROM BUILD
+Generated: 2026-06-08T15:54:04.3725465-06:00
+Backup: .\backups\EXCLUDE_SAFE_ARCHIVE_FROM_BUILD_20260608_155402
+
+Added TypeScript excludes:
+- LUMEN_SAFE_ARCHIVE
+- LUMEN_SAFE_ARCHIVE/**
+- backups
+- backups/**
+- reports
+- reports/**

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lge_1780922297491_mhh2aa",
+    "created_at": "2026-06-08T12:38:17.492Z",
+    "source": "Lumen Guided Experience Studio",
+    "secret_safe": true,
+    "type": "dashboard_blueprint",
+    "title": "Founder Command Center",
+    "voice": "warm premium Lumen voice",
+    "layout": [
+      "Hero oval command bar: Ask Lumen anything",
+      "Founder approval queue",
+      "Vault knowledge panel",
+      "Learning engine status",
+      "Scan and validation panel",
+      "Website/design studio panel",
+      "Guided tutorial panel",
+      "Security and rollback panel"
+    ],
+    "clickable_ovals": [
+      {
+        "label": "Ask Me How",
+        "action": "open guided walkthrough"
+      },
+      {
+        "label": "Design This Dashboard",
+        "action": "generate layout options"
+      },
+      {
+        "label": "Explain This Panel",
+        "action": "show image + text tutorial"
+      }
+    ],
+    "image_prompts": [
+      "Premium titanium-frost Lumen dashboard for Founder Command Center, sunrise gradient, elegant oval callouts, accessible large text, cinematic UI"
+    ]
+  },
+  {
+    "id": "lge_1780922956453_3d5dng",
+    "created_at": "2026-06-08T12:49:16.453Z",
+    "source": "Lumen Guided Experience Studio",
+    "secret_safe": true,
+    "type": "dashboard_blueprint",
+    "title": "Founder Command Center",
+    "voice": "warm premium Lumen voice",
+    "layout": [
+      "Hero oval command bar: Ask Lumen anything",
+      "Founder approval queue",
+      "Vault knowledge panel",
+      "Learning engine status",
+      "Scan and validation panel",
+      "Website/design studio panel",
+      "Guided tutorial panel",
+      "Security and rollback panel"
+    ],
+    "clickable_ovals": [
+      {
+        "label": "Ask Me How",
+        "action": "open guided walkthrough"
+      },
+      {
+        "label": "Design This Dashboard",
+        "action": "generate layout options"
+      },
+      {
+        "label": "Explain This Panel",
+        "action": "show image + text tutorial"
+      }
+    ],
+    "image_prompts": [
+      "Premium titanium-frost Lumen dashboard for Founder Command Center, sunrise gradient, elegant oval callouts, accessible large text, cinematic UI"
+    ]
+  }
+]

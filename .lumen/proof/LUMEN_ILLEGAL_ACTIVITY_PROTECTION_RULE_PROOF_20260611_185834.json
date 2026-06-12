@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-06-11T18:58:38.4202717-06:00",
+  "root": "C:\\Users\\user\\Desktop\\Lumen Genesis",
+  "governancePath": "C:\\Users\\user\\Desktop\\Lumen Genesis\\.lumen\\repository\\LUMEN_CANONICAL_GOVERNANCE_ADDENDUM.md",
+  "changed": true,
+  "illegalActivityBlocking": true,
+  "lawfulEvidenceOnly": true,
+  "noUnauthorizedSurveillance": true,
+  "noDoxxing": true,
+  "noBlackMarketTrackingOutsideAuthorizedSystems": true,
+  "humanLegalApprovalForAuthorityReports": true,
+  "repositoryVaultConnected": true,
+  "founderPrivateProtected": true,
+  "selfHealingRequired": true
+}

@@ -1,0 +1,9 @@
+{
+    "inbox":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\AUTO_APPLY_APPROVED_CODE_HERE",
+    "createdAt":  "2026-05-27T15:59:43.1839063-06:00",
+    "ok":  true,
+    "protectedTouched":  false,
+    "runner":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\durable_watchers\\BRIANCO_AUTO_APPLY_APPROVED_RUNNER.ps1",
+    "installer":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\durable_watchers\\BRIANCO_SAFE_THEME_APPLIER.ps1",
+    "task":  "BrianCoAutoApplyApprovedRunner"
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-06-11T19:37:11.8866906-06:00",
+  "targetStandard": "5000x-above-100-baseline",
+  "requiredConversationFields": [
+    "conversationId",
+    "userBoundary",
+    "consentState",
+    "localizedLegalRegion",
+    "language",
+    "dialect",
+    "accessibilityContext",
+    "deviceContext",
+    "channelContext",
+    "continuationCheckpoint",
+    "summaryForContinuity",
+    "repositoryReference",
+    "vaultReference",
+    "proofReference"
+  ],
+  "rules": [
+    "no-storage-without-consent-where-required",
+    "no-cross-user-continuity-leak",
+    "resume-without-user-baby-steps",
+    "technical-details-on-request"
+  ]
+}

@@ -1,0 +1,81 @@
+﻿import { useEffect, useState } from "react";
+import { theme, NativeCard } from "../../lib/brianco-native/ui";
+
+export default function UnifiedEcosystemDashboard(){
+  const [data,setData] = useState(null);
+
+  useEffect(()=>{
+    fetch("/api/ecosystem/dashboard")
+      .then(r=>r.json())
+      .then(setData)
+      .catch(()=>setData(null));
+  },[]);
+
+  const cards = data?.cards || [];
+  const sections = data?.ecosystemSections || [];
+  const phases = data?.nextPhases || [];
+
+  return(
+    <main style={theme.page}>
+      <section style={theme.shell}>
+        <h1 style={{fontSize:48,color:theme.gold,marginBottom:8}}>
+          Brian & Co Unified Ecosystem Dashboard
+        </h1>
+
+        <p style={{fontSize:18,lineHeight:1.7,maxWidth:1120}}>
+          A native Brian & Co command center unifying founder operations, provider readiness,
+          chatbot intelligence, role personalization, customer intelligence, native identity,
+          accessibility, localization, events, commerce, and future expansion.
+        </p>
+
+        <section style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(260px,1fr))",gap:16,marginTop:24}}>
+          {cards.map(card=>(
+            <NativeCard
+              key={card.title}
+              title={card.title}
+              value={card.value}
+              note="Unified Ecosystem Intelligence"
+              trend={card.trend}
+            />
+          ))}
+        </section>
+
+        <section style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(320px,1fr))",gap:16,marginTop:24}}>
+          {sections.map(section=>(
+            <article key={section.title} style={theme.card}>
+              <h2 style={{color:theme.gold}}>{section.title}</h2>
+              <p style={{lineHeight:1.6}}>{section.summary}</p>
+              <a href={section.route} style={{color:theme.gold}}>Open</a>
+            </article>
+          ))}
+        </section>
+
+        <section style={{marginTop:24,...theme.card}}>
+          <h2 style={{color:theme.gold}}>Next Expansion</h2>
+          <p>Every next layer remains protected, founder-controlled, native Brian & Co, and approval-safe.</p>
+          <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(260px,1fr))",gap:10}}>
+            {phases.map(phase=>(
+              <div key={phase} style={{
+                border:"1px solid rgba(242,201,92,.25)",
+                borderRadius:18,
+                padding:14,
+                background:"rgba(255,255,255,.05)"
+              }}>
+                {phase}
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section style={{marginTop:24,...theme.card}}>
+          <h2 style={{color:theme.gold}}>Native Experience Standard</h2>
+          <p>
+            Users should feel they are using Brian & Co. Provider infrastructure remains behind the scenes
+            wherever technically feasible and compliant. OAuth, payments, products, collections, and secrets
+            remain protected unless explicitly approved.
+          </p>
+        </section>
+      </section>
+    </main>
+  );
+}

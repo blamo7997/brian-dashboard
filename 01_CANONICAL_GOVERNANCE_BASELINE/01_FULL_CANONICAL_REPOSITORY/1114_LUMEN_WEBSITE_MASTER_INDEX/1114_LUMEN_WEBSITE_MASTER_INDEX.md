@@ -1,0 +1,42 @@
+# Lumen Website Master Index™
+
+Date: 20260611-103729
+Canonical Brand: Lumen Technologies Solutions
+Canonical URL: lumentechnologies.solutions
+Status: Active / Final Foundation Handoff / Cross-Project
+
+## Purpose
+This layer makes the next ChatGPT project start from the complete validated repository foundation.
+
+## Required Inheritance
+The next project must inherit:
+- Repository foundation
+- Architecture foundation
+- Lumen OS foundation
+- Website foundation
+- Website-version Lumen foundation
+- Online Lumen access foundation
+- Vault foundation
+- Founder authority foundation
+- User isolation foundation
+- Permission and entitlement foundation
+- Digital twin foundation
+- Living twin foundation
+- Dynamic per-user foundation
+- Semantic simulation foundation
+- Runtime proof foundation
+- Evidence foundation
+- Validation foundation
+- Transfer foundation
+- Everything added after this layer
+
+## Hard Rules
+- Resume, do not rebuild.
+- Preserve first.
+- Add first.
+- Archive before delete.
+- No bypass.
+- No fake pass.
+- No fake 100.
+- Validate in the same block whenever feasible.
+- Architecture and every future layer must remain inside or indexed by the continuity repository.

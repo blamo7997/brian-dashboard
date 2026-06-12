@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "generated": "2026-06-10T03:20:13.587Z",
+  "limitBytes": 1073741824,
+  "currentBytes": 149,
+  "remainingBytes": 1073741675,
+  "objectCount": 0,
+  "recordCount": 0,
+  "rule": "Deduplicate, compress, content-address, index, and reference. Store knowledge, not copies."
+}

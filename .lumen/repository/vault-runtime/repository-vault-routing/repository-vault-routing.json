@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-06-11T21:32:36.7897323-06:00",
+  "system": "repository-vault-routing",
+  "foundationReadiness": 100,
+  "targetBeyond100": 5000,
+  "routeToVault": [
+    "founder-private",
+    "user-private",
+    "sensitive-feedback",
+    "complaints",
+    "identity-records",
+    "payment-related-records",
+    "legal-risk",
+    "regulated-data",
+    "incident-records",
+    "signatures",
+    "approvals",
+    "evidence",
+    "private-continuity",
+    "protected-media",
+    "protected-user-activity"
+  ],
+  "routeToRepository": [
+    "general-governance",
+    "non-sensitive-schema",
+    "public-runtime-spec",
+    "general-feature-intelligence",
+    "non-private-index",
+    "documentation",
+    "non-sensitive-readme",
+    "foundation-model"
+  ],
+  "decisionRules": [
+    "vault-when-sensitive",
+    "repository-when-general",
+    "both-when-lineage-requires-cross-reference",
+    "proof-always",
+    "archive-before-overwrite",
+    "no-duplicate-unless-resilience-required"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "createdOrUpdated": "20260611-010507",
+  "actualUrl": "lumentechnologies.solutions",
+  "canonicalRepositoryPath": "C:\\Users\\user\\brianco-backend-clean\\lumentechnologies.solutions\\LUMEN_CHATGPT_PROJECT_CONTINUITY_REPOSITORY",
+  "oldPathPointer": "C:\\Users\\user\\brianco-backend-clean\\LUMEN_CHATGPT_PROJECT_CONTINUITY_REPOSITORY",
+  "status": "Repository moved to URL-aligned folder and old path preserved as pointer",
+  "noDeletion": true,
+  "noBypass": true,
+  "noFakePass": true,
+  "containers": [
+    "1104_NEW_PROJECT_TRANSFER_GATE",
+    "1110_URL_ALIGNED_CONTINUITY_GATE",
+    "1108_REPOSITORY_MOVE_EVIDENCE",
+    "1106_TRANSFER_UPLOAD_BUNDLE_INDEX",
+    "1101_URL_ALIGNED_REPOSITORY_ROOT",
+    "1105_CANONICAL_START_NEW_PROJECT_PACKET",
+    "1107_URL_ALIGNED_VALIDATION_RECORD",
+    "1102_LUMENTECHNOLOGIES_SOLUTIONS_CANONICAL_HOME",
+    "1103_URL_TO_REPOSITORY_LINEAGE",
+    "1109_NEW_CHATGPT_PROJECT_READY_STATE"
+  ]
+}

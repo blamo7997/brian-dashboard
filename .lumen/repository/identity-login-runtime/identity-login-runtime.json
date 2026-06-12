@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-06-11T20:58:36.8275997-06:00",
+  "system": "identity-login-runtime",
+  "methods": [
+    "email-login",
+    "password-reset",
+    "google-login",
+    "apple-login",
+    "third-party-login-where-appropriate",
+    "qr-cross-device-login",
+    "qr-account-creation",
+    "future-better-than-qr-device-linking"
+  ],
+  "requirements": [
+    "device-adaptive",
+    "accessibility-aware",
+    "localized",
+    "clear-qr-rendering",
+    "short-lived-login-token",
+    "consent-aware",
+    "secure-session-boundary",
+    "user-isolated",
+    "founder-private-protected"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "Timestamp": "2026-06-11T18:24:47.2420264-06:00",
+  "Root": "C:\\Users\\user\\Desktop\\Lumen Genesis",
+  "DesktopLumenGenesisDetected": true,
+  "Standard": "CIA NASA institutional enterprise 5000x target",
+  "NecessaryChangeOnly": true,
+  "AdditiveFirst": true,
+  "DuplicateAvoidance": true,
+  "ArchiveBeforeOverwrite": true,
+  "FounderPrivateProtected": true,
+  "UserRepositoryAndVaultSeparation": true,
+  "EverythingThroughLumenGovernance": true,
+  "LumenOsOnlineWebsiteConnectedGovernance": true,
+  "ContinuousScanTestDebugRepair": true,
+  "WebFormatIntelligenceRuleAdded": true,
+  "WebsiteDynamicChangeAllowedSafely": true,
+  "CodeDynamicChangeAllowedSafely": true,
+  "UncontrolledSelfModification": false,
+  "WorkstationInstallUninstallRollback": true,
+  "ParserValidationPassed": true,
+  "ChangedFiles": [
+    {
+      "Path": "C:\\Users\\user\\Desktop\\Lumen Genesis\\.lumen\\repository\\LUMEN_CANONICAL_GOVERNANCE_ADDENDUM.md",
+      "Changed": true
+    },
+    {
+      "Path": "C:\\Users\\user\\Desktop\\Lumen Genesis\\.lumen\\workstation\\install-lumen-workstation.ps1",
+      "Changed": true
+    },
+    {
+      "Path": "C:\\Users\\user\\Desktop\\Lumen Genesis\\.lumen\\workstation\\uninstall-lumen-workstation.ps1",
+      "Changed": true
+    },
+    {
+      "Path": "C:\\Users\\user\\Desktop\\Lumen Genesis\\.lumen\\workstation\\rollback-lumen-workstation.ps1",
+      "Changed": true
+    },
+    {
+      "Path": "C:\\Users\\user\\Desktop\\Lumen Genesis\\.lumen\\authorized-change-control\\lumen-authorized-change-control.ps1",
+      "Changed": true
+    },
+    {
+      "Path": "C:\\Users\\user\\Desktop\\Lumen Genesis\\.lumen\\continuous-scans\\lumen-continuous-scan-test-repair.ps1",
+      "Changed": true
+    },
+    {
+      "Path": "C:\\Users\\user\\Desktop\\Lumen Genesis\\.lumen\\consent-and-localized-compliance\\LUMEN_CONSENT_LOCALIZATION_CONTINUITY_POLICY.md",
+      "Changed": true
+    }
+  ],
+  "Validation": [
+    {
+      "Script": "C:\\Users\\user\\Desktop\\Lumen Genesis\\.lumen\\workstation\\install-lumen-workstation.ps1",
+      "Valid": true,
+      "Errors": []
+    },
+    {
+      "Script": "C:\\Users\\user\\Desktop\\Lumen Genesis\\.lumen\\workstation\\uninstall-lumen-workstation.ps1",
+      "Valid": true,
+      "Errors": []
+    },
+    {
+      "Script": "C:\\Users\\user\\Desktop\\Lumen Genesis\\.lumen\\workstation\\rollback-lumen-workstation.ps1",
+      "Valid": true,
+      "Errors": []
+    },
+    {
+      "Script": "C:\\Users\\user\\Desktop\\Lumen Genesis\\.lumen\\authorized-change-control\\lumen-authorized-change-control.ps1",
+      "Valid": true,
+      "Errors": []
+    },
+    {
+      "Script": "C:\\Users\\user\\Desktop\\Lumen Genesis\\.lumen\\continuous-scans\\lumen-continuous-scan-test-repair.ps1",
+      "Valid": true,
+      "Errors": []
+    }
+  ],
+  "Manifest": "C:\\Users\\user\\Desktop\\Lumen Genesis\\.lumen\\manifests\\LUMEN_MANIFEST_20260611_182234.json"
+}

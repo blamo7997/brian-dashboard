@@ -1,0 +1,29 @@
+{
+  "system": "needs-complaints-feedback",
+  "timestamp": "2026-06-11T21:19:06.2958360-06:00",
+  "intakeTypes": [
+    "wants",
+    "needs",
+    "complaints",
+    "feedback",
+    "feature-requests",
+    "support-requests",
+    "product-interest",
+    "service-interest",
+    "accessibility-request",
+    "localization-request"
+  ],
+  "repositoryRouting": [
+    "non-sensitive-feature-intelligence",
+    "general-product-requests",
+    "public-improvement-signals"
+  ],
+  "vaultRouting": [
+    "private-feedback",
+    "sensitive-complaints",
+    "legal-risk",
+    "regulated-data",
+    "incident-records",
+    "identity-related-records"
+  ]
+}

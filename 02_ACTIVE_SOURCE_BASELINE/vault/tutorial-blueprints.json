@@ -1,0 +1,82 @@
+[
+  {
+    "id": "lge_1780922298193_cqn7aa",
+    "created_at": "2026-06-08T12:38:18.193Z",
+    "source": "Lumen Guided Experience Studio",
+    "secret_safe": true,
+    "type": "tutorial_blueprint",
+    "title": "How to use Vault",
+    "mode_options": [
+      "image_text_walkthrough",
+      "video_script",
+      "clickable_oval_walkthrough",
+      "voice_guided"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Open Lumen",
+        "text": "Welcome. I’ll walk with you one step at a time."
+      },
+      {
+        "step": 2,
+        "title": "Find the Vault",
+        "text": "The Vault is where Lumen safely stores learned records, summaries, and relationships."
+      },
+      {
+        "step": 3,
+        "title": "Use Ask Me How",
+        "text": "Select the oval help button whenever you want a guided explanation."
+      },
+      {
+        "step": 4,
+        "title": "Review before action",
+        "text": "Lumen recommends changes, but important actions wait for your approval."
+      }
+    ],
+    "image_prompts": [
+      "Step-by-step Lumen Vault tutorial, soft premium dashboard, oval callouts, warm accessible instructional design"
+    ],
+    "video_script": "Welcome to Lumen. In this walkthrough, I’ll show you how to use How to use Vault safely and confidently."
+  },
+  {
+    "id": "lge_1780922957450_zhl09d",
+    "created_at": "2026-06-08T12:49:17.450Z",
+    "source": "Lumen Guided Experience Studio",
+    "secret_safe": true,
+    "type": "tutorial_blueprint",
+    "title": "How to use Vault",
+    "mode_options": [
+      "image_text_walkthrough",
+      "video_script",
+      "clickable_oval_walkthrough",
+      "voice_guided"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Open Lumen",
+        "text": "Welcome. I’ll walk with you one step at a time."
+      },
+      {
+        "step": 2,
+        "title": "Find the Vault",
+        "text": "The Vault is where Lumen safely stores learned records, summaries, and relationships."
+      },
+      {
+        "step": 3,
+        "title": "Use Ask Me How",
+        "text": "Select the oval help button whenever you want a guided explanation."
+      },
+      {
+        "step": 4,
+        "title": "Review before action",
+        "text": "Lumen recommends changes, but important actions wait for your approval."
+      }
+    ],
+    "image_prompts": [
+      "Step-by-step Lumen Vault tutorial, soft premium dashboard, oval callouts, warm accessible instructional design"
+    ],
+    "video_script": "Welcome to Lumen. In this walkthrough, I’ll show you how to use How to use Vault safely and confidently."
+  }
+]

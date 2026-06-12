@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-11T21:32:35.8296132-06:00",
+  "system": "vault-permission-engine",
+  "foundationReadiness": 100,
+  "targetBeyond100": 5000,
+  "permissionStates": [
+    "none",
+    "view-metadata",
+    "view-content",
+    "comment",
+    "approve",
+    "sign",
+    "archive",
+    "restore",
+    "administer",
+    "founder-authorized"
+  ],
+  "rules": [
+    "deny-by-default",
+    "explicit-allow-required",
+    "founder-private-separate",
+    "user-private-separate",
+    "no-direct-third-party-access",
+    "approval-required-for-sensitive-release",
+    "signature-required-for-green-dot-legal-signature",
+    "proof-required-for-permission-change"
+  ]
+}

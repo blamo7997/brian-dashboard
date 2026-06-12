@@ -1,0 +1,15 @@
+{
+  "createdOrUpdated": "20260611-002425",
+  "status": "Full-context evidence ingested without bypass behavior",
+  "sourceFile": "C:\\Users\\user\\brianco-backend-clean\\LUMEN_OPERATING_FRAMEWORK_MASTER_TRANSFER_V2.md",
+  "sha256": "7E38C8569231E3CEA98D53A0371851F7113E4A727A30B6E97C5628159BA7994B",
+  "characters": 56018,
+  "lines": 1696,
+  "containers": [
+    "1021_RAW_TRANSFER_INGEST",
+    "1022_EVERY_CHARACTER_EVIDENCE",
+    "1023_NO_BYPASS_HARD_RULE",
+    "1024_FULL_CONTEXT_APPLICATION",
+    "1025_TRANSFER_EVIDENCE_VALIDATION"
+  ]
+}

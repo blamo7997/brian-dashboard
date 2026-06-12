@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "title": "Current Continuity Repository Build",
+      "continuationPoint": "Validate V3 repository and use export packet",
+      "status": "Active",
+      "currentRevisionId": "CR-REVISION-20260610-180207",
+      "seriesId": "CR-SERIES-0001",
+      "createdOrUpdated": "20260610-180207",
+      "projectId": "CR-PROJECT-CURRENT",
+      "currentTransferId": "CR-TRANSFER-CURRENT"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Brian & Co Admin Command Center</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(135deg,#050505,#6E5A38,#FFF7E6);color:#fff}
+main{max-width:1300px;margin:auto;padding:32px}
+h1{font-family:Georgia,serif;font-size:42px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:rgba(0,0,0,.72);border:1px solid rgba(255,230,180,.38);border-radius:24px;padding:20px;box-shadow:0 20px 60px rgba(0,0,0,.25)}
+button,a{display:inline-block;border:0;border-radius:999px;background:#fff7e6;color:#111;padding:10px 14px;margin:4px;text-decoration:none;font-weight:700;cursor:pointer}
+pre{white-space:pre-wrap;background:#111;color:#ead7a0;border-radius:18px;padding:14px;max-height:360px;overflow:auto}
+.small{color:#ead7a0}
+</style>
+</head>
+<body>
+<main>
+<h1>Brian & Co Admin Command Center</h1>
+<p class="small">Founder-controlled dashboard for backend health, theme status, chatbot testing, product readiness, role reviews, customs/duties, profit checks, and approval queues.</p>
+
+<section class="grid">
+  <div class="card"><h2>Backend Health</h2><button onclick="checkRoute('status')">Status</button><button onclick="checkRoute('health')">Health</button></div>
+  <div class="card"><h2>Chatbot Test</h2><input id="chatPrompt" placeholder="Test chatbot prompt" style="width:100%;padding:10px;border-radius:12px"><button onclick="testChatbot()">Test Chatbot</button></div>
+  <div class="card"><h2>Products</h2><button onclick="checkRoute('concierge')">Product Cards</button><button onclick="checkRoute('seo')">SEO</button></div>
+  <div class="card"><h2>Theme</h2><button onclick="checkRoute('dynamic-theme-settings')">Dynamic Theme</button><button onclick="checkRoute('adaptive-live-personalization&role=creator&tier=luxury')">Role/Tier Test</button></div>
+  <div class="card"><h2>Role Reviews</h2><button onclick="checkRoute('upload-requirements')">Upload Requirements</button><button onclick="checkRoute('upload-review-queue')">Review Queue</button></div>
+  <div class="card"><h2>Profit / Customs</h2><button onclick="checkRoute('profit-aware-engine')">Profit Engine</button><button onclick="checkRoute('landed-cost-plan')">Customs/Duties</button></div>
+  <div class="card"><h2>Safety</h2><button onclick="checkRoute('trust-safety')">Trust & Safety</button><button onclick="checkRoute('consent-retention-system')">Consent</button></div>
+  <div class="card"><h2>Next Actions</h2><button onclick="checkRoute('dynamic-next-layer-engine')">Next Layer</button><button onclick="checkRoute('always-more-backlog')">Backlog</button></div>
+</section>
+
+<section class="card" style="margin-top:20px">
+<h2>Admin Output</h2>
+<pre id="output">Ready.</pre>
+</section>
+</main>
+
+<script>
+const backend="https://brianco-backend-clean.vercel.app/api/index";
+async function checkRoute(route){
+  const out=document.getElementById("output");
+  out.textContent="Loading "+route+"...";
+  try{
+    const r=await fetch(backend+"?route="+route,{cache:"no-store"});
+    const txt=await r.text();
+    out.textContent=txt;
+  }catch(e){
+    out.textContent="Failed: "+e.message;
+  }
+}
+async function testChatbot(){
+  const msg=document.getElementById("chatPrompt").value || "Test Brian & Co products, subscriptions, returns, customs, accessibility, suppliers, creators, influencers, and investors.";
+  const out=document.getElementById("output");
+  out.textContent="Testing chatbot...";
+  try{
+    const r=await fetch(backend+"?route=live-concierge&message="+encodeURIComponent(msg),{cache:"no-store"});
+    out.textContent=await r.text();
+  }catch(e){
+    out.textContent="Chatbot failed: "+e.message;
+  }
+}
+</script>
+</body>
+</html>

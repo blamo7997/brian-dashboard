@@ -1,0 +1,418 @@
+[
+  {
+    "id": "accessibility.universal_accessibility",
+    "depends_on": [
+      "guided_experience"
+    ]
+  },
+  {
+    "id": "business.accounting_tax",
+    "depends_on": [
+      "brianco"
+    ]
+  },
+  {
+    "id": "business.brianco",
+    "depends_on": [
+      "vault",
+      "search"
+    ]
+  },
+  {
+    "id": "business.creator_intelligence",
+    "depends_on": [
+      "brianco"
+    ]
+  },
+  {
+    "id": "business.customer_intelligence",
+    "depends_on": [
+      "brianco"
+    ]
+  },
+  {
+    "id": "business.legal_review",
+    "depends_on": [
+      "approval_gates"
+    ]
+  },
+  {
+    "id": "business.product_intelligence",
+    "depends_on": [
+      "brianco"
+    ]
+  },
+  {
+    "id": "business.supplier_intelligence",
+    "depends_on": [
+      "brianco"
+    ]
+  },
+  {
+    "id": "core.approval_gates",
+    "depends_on": [
+      "vault"
+    ]
+  },
+  {
+    "id": "core.module_registry",
+    "depends_on": [
+      "vault"
+    ]
+  },
+  {
+    "id": "core.orchestrator",
+    "depends_on": [
+      "vault"
+    ]
+  },
+  {
+    "id": "core.reports",
+    "depends_on": [
+      "vault"
+    ]
+  },
+  {
+    "id": "core.rollback",
+    "depends_on": [
+      "vault"
+    ]
+  },
+  {
+    "id": "core.trust_ledger",
+    "depends_on": [
+      "vault"
+    ]
+  },
+  {
+    "id": "core.vault",
+    "depends_on": []
+  },
+  {
+    "id": "development.api_intelligence",
+    "depends_on": [
+      "code_intelligence"
+    ]
+  },
+  {
+    "id": "development.cloudflare_awareness",
+    "depends_on": [
+      "vault",
+      "code_intelligence"
+    ]
+  },
+  {
+    "id": "development.code_intelligence",
+    "depends_on": [
+      "learning_engine",
+      "knowledge_graph"
+    ]
+  },
+  {
+    "id": "development.pipeline_intelligence",
+    "depends_on": [
+      "code_intelligence"
+    ]
+  },
+  {
+    "id": "development.supabase_awareness",
+    "depends_on": [
+      "vault",
+      "code_intelligence"
+    ]
+  },
+  {
+    "id": "development.testing_playwright",
+    "depends_on": [
+      "code_intelligence"
+    ]
+  },
+  {
+    "id": "device.driver_awareness",
+    "depends_on": [
+      "hardware_awareness"
+    ]
+  },
+  {
+    "id": "device.drones",
+    "depends_on": [
+      "hardware_awareness",
+      "research"
+    ]
+  },
+  {
+    "id": "device.firmware_awareness",
+    "depends_on": [
+      "hardware_awareness"
+    ]
+  },
+  {
+    "id": "device.hardware_awareness",
+    "depends_on": [
+      "learning_engine"
+    ]
+  },
+  {
+    "id": "device.robotics",
+    "depends_on": [
+      "hardware_awareness",
+      "research"
+    ]
+  },
+  {
+    "id": "device.scientific_instruments",
+    "depends_on": [
+      "hardware_awareness",
+      "knowledge_graph"
+    ]
+  },
+  {
+    "id": "experience.dashboard_designer",
+    "depends_on": [
+      "guided_experience"
+    ]
+  },
+  {
+    "id": "experience.founder_command_center",
+    "depends_on": [
+      "vault",
+      "module_registry",
+      "search"
+    ]
+  },
+  {
+    "id": "experience.guided_experience",
+    "depends_on": [
+      "vault"
+    ]
+  },
+  {
+    "id": "experience.tutorial_builder",
+    "depends_on": [
+      "guided_experience"
+    ]
+  },
+  {
+    "id": "experience.voice_manager",
+    "depends_on": [
+      "vault"
+    ]
+  },
+  {
+    "id": "experience.website_designer",
+    "depends_on": [
+      "guided_experience"
+    ]
+  },
+  {
+    "id": "future.3d_images",
+    "depends_on": [
+      "ar_vr"
+    ]
+  },
+  {
+    "id": "future.ar_vr",
+    "depends_on": [
+      "guided_experience"
+    ]
+  },
+  {
+    "id": "future.browser_layer",
+    "depends_on": [
+      "search",
+      "guided_experience"
+    ]
+  },
+  {
+    "id": "future.digital_twins",
+    "depends_on": [
+      "knowledge_graph"
+    ]
+  },
+  {
+    "id": "future.emoji_language",
+    "depends_on": [
+      "guided_experience"
+    ]
+  },
+  {
+    "id": "future.nanorobotics",
+    "depends_on": [
+      "nanotechnology"
+    ]
+  },
+  {
+    "id": "future.nanotechnology",
+    "depends_on": [
+      "research"
+    ]
+  },
+  {
+    "id": "industry.construction",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.education",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.energy",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.engineering",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.environmental",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.faith_religious",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.finance",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.government",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.hospitality",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.legal",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.manufacturing",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.nonprofit_community",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.public_safety",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.research",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.retail",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.software_technology",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.space",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.transportation",
+    "depends_on": [
+      "universal_professions"
+    ]
+  },
+  {
+    "id": "industry.universal_professions",
+    "depends_on": [
+      "module_registry",
+      "knowledge_graph"
+    ]
+  },
+  {
+    "id": "intelligence.cross_vetted_abstracts",
+    "depends_on": [
+      "vetted_sources"
+    ]
+  },
+  {
+    "id": "intelligence.knowledge_graph",
+    "depends_on": [
+      "vault",
+      "learning_engine"
+    ]
+  },
+  {
+    "id": "intelligence.learning_engine",
+    "depends_on": [
+      "vault",
+      "module_registry"
+    ]
+  },
+  {
+    "id": "intelligence.research",
+    "depends_on": [
+      "vault",
+      "knowledge_graph"
+    ]
+  },
+  {
+    "id": "intelligence.universal_search",
+    "depends_on": [
+      "vault",
+      "knowledge_graph"
+    ]
+  },
+  {
+    "id": "intelligence.vetted_sources",
+    "depends_on": [
+      "vault",
+      "learning_engine"
+    ]
+  },
+  {
+    "id": "localization.global_holidays",
+    "depends_on": [
+      "language_dialect"
+    ]
+  },
+  {
+    "id": "localization.language_dialect",
+    "depends_on": [
+      "guided_experience"
+    ]
+  }
+]

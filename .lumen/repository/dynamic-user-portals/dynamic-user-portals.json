@@ -1,0 +1,30 @@
+{
+  "system": "dynamic-user-portals",
+  "timestamp": "2026-06-11T21:19:06.2956836-06:00",
+  "userInputs": [
+    "role",
+    "level",
+    "permissions",
+    "needs",
+    "wants",
+    "purchases",
+    "memberships",
+    "a-la-carte",
+    "language",
+    "dialect",
+    "culture",
+    "accessibility",
+    "device",
+    "browser",
+    "os",
+    "location",
+    "consent"
+  ],
+  "portalRules": [
+    "appropriate-information-only",
+    "user-isolated",
+    "founder-private-protected",
+    "dynamic-dashboard",
+    "details-on-request"
+  ]
+}

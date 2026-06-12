@@ -1,0 +1,139 @@
+{
+  "createdOrUpdated": "20260610-224631",
+  "score": 100.0,
+  "connectionAudit": [
+    {
+      "path": "071_LUMEN_UNIVERSAL_CONNECTION\\LUMEN_UNIVERSAL_CONNECTION_RULE.md",
+      "exists": true,
+      "hasOS": true,
+      "hasWebsite": true,
+      "hasVault": true,
+      "hasBridge": true,
+      "hasNativeReplacement": true,
+      "hasWebsiteOnly": true,
+      "hasRecovery": true,
+      "hasLineage": false
+    },
+    {
+      "path": "090_LUMEN_UNIFIED_CONSTITUTION\\LUMEN_UNIFIED_CONSTITUTION.md",
+      "exists": true,
+      "hasOS": true,
+      "hasWebsite": true,
+      "hasVault": true,
+      "hasBridge": true,
+      "hasNativeReplacement": true,
+      "hasWebsiteOnly": false,
+      "hasRecovery": true,
+      "hasLineage": false
+    },
+    {
+      "path": "072_IDENTITY_ENGINE\\IDENTITY_ENGINE_MODEL.md",
+      "exists": true,
+      "hasOS": true,
+      "hasWebsite": true,
+      "hasVault": true,
+      "hasBridge": true,
+      "hasNativeReplacement": true,
+      "hasWebsiteOnly": true,
+      "hasRecovery": true,
+      "hasLineage": true
+    },
+    {
+      "path": "073_AUTHORIZATION_MODEL\\AUTHORIZATION_MODEL.md",
+      "exists": true,
+      "hasOS": true,
+      "hasWebsite": true,
+      "hasVault": true,
+      "hasBridge": true,
+      "hasNativeReplacement": false,
+      "hasWebsiteOnly": false,
+      "hasRecovery": true,
+      "hasLineage": false
+    },
+    {
+      "path": "074_ENTITLEMENT_MODEL\\ENTITLEMENT_MODEL.md",
+      "exists": true,
+      "hasOS": true,
+      "hasWebsite": true,
+      "hasVault": true,
+      "hasBridge": false,
+      "hasNativeReplacement": true,
+      "hasWebsiteOnly": true,
+      "hasRecovery": true,
+      "hasLineage": true
+    },
+    {
+      "path": "076_SECURITY_GOVERNANCE\\SECURITY_GOVERNANCE_MODEL.md",
+      "exists": true,
+      "hasOS": true,
+      "hasWebsite": true,
+      "hasVault": true,
+      "hasBridge": true,
+      "hasNativeReplacement": true,
+      "hasWebsiteOnly": false,
+      "hasRecovery": true,
+      "hasLineage": false
+    },
+    {
+      "path": "077_VAULT_OBJECT_MODEL\\VAULT_OBJECT_MODEL.md",
+      "exists": true,
+      "hasOS": true,
+      "hasWebsite": true,
+      "hasVault": true,
+      "hasBridge": true,
+      "hasNativeReplacement": false,
+      "hasWebsiteOnly": false,
+      "hasRecovery": true,
+      "hasLineage": true
+    },
+    {
+      "path": "078_OS_OBJECT_MODEL\\LUMEN_OS_OBJECT_MODEL.md",
+      "exists": true,
+      "hasOS": true,
+      "hasWebsite": true,
+      "hasVault": true,
+      "hasBridge": true,
+      "hasNativeReplacement": false,
+      "hasWebsiteOnly": false,
+      "hasRecovery": true,
+      "hasLineage": true
+    },
+    {
+      "path": "079_WEBSITE_OBJECT_MODEL\\LUMEN_WEBSITE_OBJECT_MODEL.md",
+      "exists": true,
+      "hasOS": true,
+      "hasWebsite": true,
+      "hasVault": true,
+      "hasBridge": true,
+      "hasNativeReplacement": false,
+      "hasWebsiteOnly": true,
+      "hasRecovery": true,
+      "hasLineage": true
+    },
+    {
+      "path": "080_CHATGPT_BRIDGE_MODEL\\CHATGPT_OPENAI_BRIDGE_MODEL.md",
+      "exists": true,
+      "hasOS": false,
+      "hasWebsite": false,
+      "hasVault": true,
+      "hasBridge": true,
+      "hasNativeReplacement": true,
+      "hasWebsiteOnly": false,
+      "hasRecovery": true,
+      "hasLineage": false
+    },
+    {
+      "path": "081_NATIVE_AI_REPLACEMENT_MODEL\\LUMEN_NATIVE_AI_REPLACEMENT_MODEL.md",
+      "exists": true,
+      "hasOS": true,
+      "hasWebsite": true,
+      "hasVault": true,
+      "hasBridge": true,
+      "hasNativeReplacement": true,
+      "hasWebsiteOnly": false,
+      "hasRecovery": true,
+      "hasLineage": true
+    }
+  ],
+  "failures": []
+}

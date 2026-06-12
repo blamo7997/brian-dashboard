@@ -1,0 +1,105 @@
+{
+  "supersessionRule": "Older active-generation containers are superseded by V3 canonical containers but preserved.",
+  "createdOrUpdated": "20260610-220357",
+  "records": [
+    {
+      "action": "Preserve and reference; do not delete.",
+      "subject": "Export Packets",
+      "canonicalActive": "028_EXPORT_PACKETS",
+      "supersededHistorical": [
+        "017_EXPORT_PACKETS"
+      ],
+      "reason": "Canonicalize repository authority without destructive cleanup."
+    },
+    {
+      "action": "Preserve and reference; do not delete.",
+      "subject": "Validation",
+      "canonicalActive": "024_VALIDATION",
+      "supersededHistorical": [
+        "013_VALIDATION"
+      ],
+      "reason": "Canonicalize repository authority without destructive cleanup."
+    },
+    {
+      "action": "Preserve and reference; do not delete.",
+      "subject": "Integrity",
+      "canonicalActive": "025_INTEGRITY",
+      "supersededHistorical": [
+        "014_INTEGRITY"
+      ],
+      "reason": "Canonicalize repository authority without destructive cleanup."
+    },
+    {
+      "action": "Preserve and reference; do not delete.",
+      "subject": "Recovery",
+      "canonicalActive": "026_RECOVERY",
+      "supersededHistorical": [
+        "015_RECOVERY"
+      ],
+      "reason": "Canonicalize repository authority without destructive cleanup."
+    },
+    {
+      "action": "Preserve and reference; do not delete.",
+      "subject": "Lineage",
+      "canonicalActive": "022_LINEAGE",
+      "supersededHistorical": [
+        "011_LINEAGE"
+      ],
+      "reason": "Canonicalize repository authority without destructive cleanup."
+    },
+    {
+      "action": "Preserve and reference; do not delete.",
+      "subject": "Next Work",
+      "canonicalActive": "021_NEXT_WORK",
+      "supersededHistorical": [
+        "010_NEXT_WORK"
+      ],
+      "reason": "Canonicalize repository authority without destructive cleanup."
+    },
+    {
+      "action": "Preserve and reference; do not delete.",
+      "subject": "Context And Rationale",
+      "canonicalActive": "023_CONTEXT_AND_RATIONALE",
+      "supersededHistorical": [
+        "012_CONTEXT_AND_RATIONALE"
+      ],
+      "reason": "Canonicalize repository authority without destructive cleanup."
+    },
+    {
+      "action": "Preserve and reference; do not delete.",
+      "subject": "Open Loops",
+      "canonicalActive": "014_OPEN_LOOPS",
+      "supersededHistorical": [
+        "007_OPEN_LOOPS"
+      ],
+      "reason": "Canonicalize repository authority without destructive cleanup."
+    },
+    {
+      "action": "Preserve and reference; do not delete.",
+      "subject": "Completed Work",
+      "canonicalActive": "020_COMPLETED_WORK",
+      "supersededHistorical": [
+        "009_COMPLETED_WORK"
+      ],
+      "reason": "Canonicalize repository authority without destructive cleanup."
+    },
+    {
+      "action": "Preserve and reference; do not delete.",
+      "subject": "Transfers",
+      "canonicalActive": "007_TRANSFERS",
+      "supersededHistorical": [
+        "005_TRANSFERS"
+      ],
+      "reason": "Canonicalize repository authority without destructive cleanup."
+    },
+    {
+      "action": "Preserve and reference; do not delete.",
+      "subject": "Deltas",
+      "canonicalActive": "008_DELTAS",
+      "supersededHistorical": [
+        "006_DELTAS"
+      ],
+      "reason": "Canonicalize repository authority without destructive cleanup."
+    }
+  ]
+}

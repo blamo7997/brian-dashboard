@@ -1,0 +1,272 @@
+{
+  "createdOrUpdated": "20260610-223134",
+  "rule": "Archive is preserved but not loaded by default.",
+  "archiveRecords": [
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\00_MASTER\\LUMEN_PROJECT_CONTINUITY_BUILD_SUMMARY_20260610-173014.md",
+      "length": 673,
+      "sha256": "86F79287CD16878A2C8329AC1B5BA8E49A3CD6F187AC11859FDAB0B397516B24",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\00_MASTER\\LUMEN_PROJECT_CONTINUITY_MASTER_INDEX.md",
+      "length": 611,
+      "sha256": "B2DDEDAB81D690A7C5ECFA026A1775BC0521D5E61B08D61561935EF64974D83D",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\00_MASTER\\LUMEN_PROJECT_CONTINUITY_MASTER_MANIFEST.json",
+      "length": 6132,
+      "sha256": "90AE38945538BB352818E91E3A112E366FA48AAFE246A048D8DD1DF0525A67FD",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\00_MASTER\\START_HERE_LUMEN_PROJECT_CONTINUITY.md",
+      "length": 778,
+      "sha256": "D5E7087386FFB0960A4864B7556D4D7DFEDADE0E6D7C55520A656545814E7395",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\01_CURRENT_PROJECT_TRANSFER\\LUMEN_CURRENT_PROJECT_TRANSFER_TEMPLATE.md",
+      "length": 679,
+      "sha256": "4736CC12564BB540D01EA79CF8905EB9539D3F9557CAE5330B67C0CC83A308A5",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\02_NEXT_PROJECT_START_HERE\\LUMEN_NEXT_PROJECT_START_PACKET.md",
+      "length": 760,
+      "sha256": "DBB0F87AFF0D1F43581D0A7E6E9D0064CA023D4EFA89A898ACF9D2BE4C41247D",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\03_DECISION_DELTAS\\DECISION_DELTA_TEMPLATE.md",
+      "length": 364,
+      "sha256": "FBE2CECC05EC0504A28A61854B7041E385B5E8BCBB1F9A438A5277F7E5780D14",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\04_RULE_DELTAS\\RULE_DELTA_TEMPLATE.md",
+      "length": 295,
+      "sha256": "40AFC0A6CE7834C1D1749EF65E986B8929818CA15FBF9102F89EFAC104669417",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\05_STANDARD_DELTAS\\STANDARD_DELTA_TEMPLATE.md",
+      "length": 270,
+      "sha256": "78DB93888865A739AA2132CD1EAF957447CBF2EA184413897B752AEB056F3129",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\06_OPEN_QUESTIONS\\OPEN_QUESTIONS_TEMPLATE.md",
+      "length": 292,
+      "sha256": "D4F3F730176E5B18C5BCCA50C9D6AFB20693C2B6CBC97C1D0032B3533462A5D0",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\07_GAPS_AND_RISKS\\GAPS_AND_RISKS_TEMPLATE.md",
+      "length": 294,
+      "sha256": "1A2EB0D88C4709F8DAE3D83F755462324F0F6D96EF9CA490E63EDD26AF784444",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\08_COMPLETED_WORK\\COMPLETED_WORK_TEMPLATE.md",
+      "length": 293,
+      "sha256": "672917D4E661FD5346D5F9C0269EF494930D97C0D30DA5FA28265782159645B2",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\09_NEXT_WORK_QUEUE\\NEXT_WORK_QUEUE_TEMPLATE.md",
+      "length": 278,
+      "sha256": "60A4AD2955DC919818B24E4F3E469C3F927D9BEDC82311A6ECAB995B8CFDBFD8",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\10_VALIDATION_AND_HYGIENE\\TRANSFER_HYGIENE_RULES.md",
+      "length": 577,
+      "sha256": "1F23251F885E3F6037E96BAB1A41D90CE63B3CC0E1549894874A008DECE1736A",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\10_VALIDATION_AND_HYGIENE\\VALIDATE_CONTINUITY_CONTAINER.ps1",
+      "length": 1243,
+      "sha256": "9DFB4CB82F915332D5DC4AC50AF69F2CA54D0EB5890EA970E84FFB8A6DAAB049",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "018_ARCHIVE\\imported-old-repository-20260610-175546\\99_ARCHIVE_INDEXES\\ARCHIVE_INDEX_RULES.md",
+      "length": 417,
+      "sha256": "0AEB94B581823BF3959CA3A42C8CAFF12D96BAB6DD57F4310899A9105EA47871",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\ACTIVE_PROJECT_TRANSFER.md.archive-20260610-180207",
+      "length": 654,
+      "sha256": "37F91D45F25257756503CA274EC2F5372E9A7A0FA26B23F53C73456D387BAE74",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\CONTINUITY_MASTER_INDEX.md.archive-20260610-180207",
+      "length": 1456,
+      "sha256": "C48F3D022EC421029DDA52CBC3628CE2F03FED0A77C5DE39DB7860F76A115565",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\CURRENT_PROJECT_MANIFEST.json.archive-20260610-180207",
+      "length": 342,
+      "sha256": "32967DE3031CF973B6BFD4DFCFF3ECE4C39961E79494FA68A19C0C87E93545F2",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\00_MASTER\\LUMEN_PROJECT_CONTINUITY_BUILD_SUMMARY_20260610-173014.md",
+      "length": 673,
+      "sha256": "86F79287CD16878A2C8329AC1B5BA8E49A3CD6F187AC11859FDAB0B397516B24",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\00_MASTER\\LUMEN_PROJECT_CONTINUITY_MASTER_INDEX.md",
+      "length": 611,
+      "sha256": "B2DDEDAB81D690A7C5ECFA026A1775BC0521D5E61B08D61561935EF64974D83D",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\00_MASTER\\LUMEN_PROJECT_CONTINUITY_MASTER_MANIFEST.json",
+      "length": 6132,
+      "sha256": "90AE38945538BB352818E91E3A112E366FA48AAFE246A048D8DD1DF0525A67FD",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\00_MASTER\\START_HERE_LUMEN_PROJECT_CONTINUITY.md",
+      "length": 778,
+      "sha256": "D5E7087386FFB0960A4864B7556D4D7DFEDADE0E6D7C55520A656545814E7395",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\01_CURRENT_PROJECT_TRANSFER\\LUMEN_CURRENT_PROJECT_TRANSFER_TEMPLATE.md",
+      "length": 679,
+      "sha256": "4736CC12564BB540D01EA79CF8905EB9539D3F9557CAE5330B67C0CC83A308A5",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\02_NEXT_PROJECT_START_HERE\\LUMEN_NEXT_PROJECT_START_PACKET.md",
+      "length": 760,
+      "sha256": "DBB0F87AFF0D1F43581D0A7E6E9D0064CA023D4EFA89A898ACF9D2BE4C41247D",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\03_DECISION_DELTAS\\DECISION_DELTA_TEMPLATE.md",
+      "length": 364,
+      "sha256": "FBE2CECC05EC0504A28A61854B7041E385B5E8BCBB1F9A438A5277F7E5780D14",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\04_RULE_DELTAS\\RULE_DELTA_TEMPLATE.md",
+      "length": 295,
+      "sha256": "40AFC0A6CE7834C1D1749EF65E986B8929818CA15FBF9102F89EFAC104669417",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\05_STANDARD_DELTAS\\STANDARD_DELTA_TEMPLATE.md",
+      "length": 270,
+      "sha256": "78DB93888865A739AA2132CD1EAF957447CBF2EA184413897B752AEB056F3129",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\06_OPEN_QUESTIONS\\OPEN_QUESTIONS_TEMPLATE.md",
+      "length": 292,
+      "sha256": "D4F3F730176E5B18C5BCCA50C9D6AFB20693C2B6CBC97C1D0032B3533462A5D0",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\07_GAPS_AND_RISKS\\GAPS_AND_RISKS_TEMPLATE.md",
+      "length": 294,
+      "sha256": "1A2EB0D88C4709F8DAE3D83F755462324F0F6D96EF9CA490E63EDD26AF784444",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\08_COMPLETED_WORK\\COMPLETED_WORK_TEMPLATE.md",
+      "length": 293,
+      "sha256": "672917D4E661FD5346D5F9C0269EF494930D97C0D30DA5FA28265782159645B2",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\09_NEXT_WORK_QUEUE\\NEXT_WORK_QUEUE_TEMPLATE.md",
+      "length": 278,
+      "sha256": "60A4AD2955DC919818B24E4F3E469C3F927D9BEDC82311A6ECAB995B8CFDBFD8",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\10_VALIDATION_AND_HYGIENE\\TRANSFER_HYGIENE_RULES.md",
+      "length": 577,
+      "sha256": "1F23251F885E3F6037E96BAB1A41D90CE63B3CC0E1549894874A008DECE1736A",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\10_VALIDATION_AND_HYGIENE\\VALIDATE_CONTINUITY_CONTAINER.ps1",
+      "length": 1243,
+      "sha256": "9DFB4CB82F915332D5DC4AC50AF69F2CA54D0EB5890EA970E84FFB8A6DAAB049",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\imported-v1-continuity-container-20260610-180207\\99_ARCHIVE_INDEXES\\ARCHIVE_INDEX_RULES.md",
+      "length": 417,
+      "sha256": "0AEB94B581823BF3959CA3A42C8CAFF12D96BAB6DD57F4310899A9105EA47871",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\REGISTRY_SCHEMA.md.archive-20260610-180207",
+      "length": 557,
+      "sha256": "D208FD495C05C96E0B53A443CF50A90E3443177487316D5A91D8776BAFF9E1C5",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\REPOSITORY_MANIFEST.json.archive-20260610-180207",
+      "length": 1173,
+      "sha256": "8581607AC9B98545F3F403FEE16ACE136497B98E140A43452D84E22066929D0E",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    },
+    {
+      "path": "029_ARCHIVE\\START_HERE_NEXT_CHATGPT_PROJECT.md.archive-20260610-180207",
+      "length": 830,
+      "sha256": "8C3DB0E59000ABE46742B28CCCEB9A6812E4630C4D527994A2B2933189617D98",
+      "loadByDefault": false,
+      "useWhen": "Historical audit, recovery, provenance, rollback, or conflict review only"
+    }
+  ]
+}

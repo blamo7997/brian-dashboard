@@ -1,0 +1,56 @@
+LUMEN CONNECTION FIX + 500 IMPROVEMENTS + RETIRED PLATFORM CLEANER REPORT
+
+Generated: 2026-06-09T17:08:27.6817014-06:00
+
+Preserved:
+- Existing build-passing Lumen baseline
+- Existing Registry
+- Existing Vault
+- Existing Inside-Lumen Router unless missing hook patch was required
+- Existing APIs unless missing
+
+Added only if missing:
+- Connection Fix Hard Rule
+- Connection Fix Engine
+- API: /api/lumen/connection-fix
+- Retired Platform Cleaner
+- API: /api/lumen/retired-platform-cleaner
+- 500 Improvement Registry Engine
+- API: /api/lumen/five-hundred-improvements
+- Router hooks only if missing
+- Safe .env template if missing
+
+Connection checks:
+- Cloudflare
+- GitHub
+- OpenAI API / ChatGPT readiness note
+- Playwright
+- Supabase
+- Vault
+
+What Lumen can do now:
+- Check whether connection credentials/configuration exist.
+- Register connection status in Registry.
+- Store connection evidence in Vault.
+- Detect missing connection requirements.
+- Register 500 protected improvement candidates.
+- Scan and redact retired commerce-platform references in text files.
+- Run from Inside-Lumen commands.
+- Preserve current baseline and avoid duplicate creation.
+
+What is still missing:
+- Real Cloudflare token must be added locally.
+- Real GitHub token must be added locally for API automation.
+- Real OpenAI API key must be added locally.
+- ChatGPT account connection remains manual.
+- Supabase URL/key must be added locally.
+- Playwright browser install may still need: npx playwright install.
+- Binary archive contents may need manual review if they cannot be safely rewritten.
+
+Build Passed Marker:
+False
+
+Backup:
+.\backups\LUMEN_CONNECTION_FIX_500_IMPROVEMENTS_RETIRED_SCAN_20260609_170650
+Output:
+.\reports\LUMEN_CONNECTION_FIX_500_IMPROVEMENTS_RETIRED_SCAN_20260609_170650

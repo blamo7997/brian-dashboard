@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-06-11T21:32:37.2671573-06:00",
+  "system": "vault-self-healing",
+  "foundationReadiness": 100,
+  "targetBeyond100": 5000,
+  "repairFlow": [
+    "detect",
+    "classify",
+    "quarantine-if-needed",
+    "preserve-evidence",
+    "create-rollback",
+    "repair-if-authorized",
+    "validate",
+    "write-proof",
+    "update-lineage"
+  ],
+  "automaticRepairAllowedWhen": [
+    "low-risk",
+    "authorized",
+    "reversible",
+    "user-isolated",
+    "founder-private-safe",
+    "proof-record-created",
+    "repository-vault-lineage-preserved"
+  ],
+  "approvalRequiredWhen": [
+    "legal-risk",
+    "privacy-risk",
+    "security-sensitive",
+    "founder-private-impact",
+    "cross-user-impact",
+    "unknown-root-cause",
+    "high-impact"
+  ]
+}

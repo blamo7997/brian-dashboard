@@ -1,0 +1,1 @@
+export default async function handler(req,res){res.status(200).json({ok:true,route:"risk-score",status:"scaffolded",captcha:true,fraudReview:true,moderation:true,note:"Use lawful vetted signals only. Do not store raw card data."});}

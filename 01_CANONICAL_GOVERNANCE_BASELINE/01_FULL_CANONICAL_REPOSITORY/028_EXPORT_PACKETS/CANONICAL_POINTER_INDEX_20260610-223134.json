@@ -1,0 +1,188 @@
+{
+  "createdOrUpdated": "20260610-223134",
+  "status": "Optimized canonical pointer index",
+  "purpose": "Load small active layer first; reference heavy repository only when needed.",
+  "activeCanonicalGeneration": "V3",
+  "preservedHistoricalGenerations": [
+    "V1",
+    "V2"
+  ],
+  "activeCriticalFiles": [
+    {
+      "relativePath": "000_START_HERE\\START_HERE_NEXT_CHATGPT_PROJECT.md",
+      "exists": true,
+      "purpose": "Startup instructions for next ChatGPT project"
+    },
+    {
+      "relativePath": "001_MASTER_INDEX\\CONTINUITY_MASTER_INDEX.md",
+      "exists": true,
+      "purpose": "Master repository index"
+    },
+    {
+      "relativePath": "003_MANIFESTS\\REPOSITORY_MANIFEST.json",
+      "exists": true,
+      "purpose": "Repository manifest"
+    },
+    {
+      "relativePath": "003_MANIFESTS\\CURRENT_PROJECT_MANIFEST.json",
+      "exists": true,
+      "purpose": "Current project manifest"
+    },
+    {
+      "relativePath": "004_ACTIVE_PROJECT\\ACTIVE_PROJECT_TRANSFER.md",
+      "exists": true,
+      "purpose": "Active transfer context"
+    },
+    {
+      "relativePath": "021_NEXT_WORK\\NEXT_WORK_QUEUE.md",
+      "exists": true,
+      "purpose": "Next work queue"
+    },
+    {
+      "relativePath": "022_LINEAGE\\LINEAGE_REGISTRY.json",
+      "exists": true,
+      "purpose": "Canonical lineage registry"
+    },
+    {
+      "relativePath": "026_RECOVERY\\EMERGENCY_RECOVERY_PACKET.md",
+      "exists": true,
+      "purpose": "Emergency recovery packet"
+    },
+    {
+      "relativePath": "028_EXPORT_PACKETS\\NEXT_PROJECT_PACKET.md",
+      "exists": true,
+      "purpose": "Canonical export packet"
+    },
+    {
+      "relativePath": "031_CANONICAL_RECORDS\\CANONICAL_AUTHORITY_MAP.md",
+      "exists": true,
+      "purpose": "Canonical authority map"
+    },
+    {
+      "relativePath": "041_REPOSITORY_CONSTITUTION\\REPOSITORY_CONSTITUTION.md",
+      "exists": true,
+      "purpose": "Repository constitution"
+    },
+    {
+      "relativePath": "042_UNIVERSAL_BUILD_CONSTITUTION\\UNIVERSAL_BUILD_CONSTITUTION.md",
+      "exists": true,
+      "purpose": "Universal build law"
+    },
+    {
+      "relativePath": "045_VAULT_CONSTITUTION\\VAULT_PRESERVATION_CONSTITUTION.md",
+      "exists": true,
+      "purpose": "Vault preservation law"
+    },
+    {
+      "relativePath": "047_NO_SCAFFOLD_RULES\\NO_SCAFFOLD_LIVE_SYSTEM_RULE.md",
+      "exists": true,
+      "purpose": "No-scaffold live-system law"
+    },
+    {
+      "relativePath": "048_PRESERVATION_LAWS\\PRESERVATION_FIRST_ADDITIVE_FIRST_RULE.md",
+      "exists": true,
+      "purpose": "Preservation-first law"
+    },
+    {
+      "relativePath": "071_LUMEN_UNIVERSAL_CONNECTION\\LUMEN_UNIVERSAL_CONNECTION_RULE.md",
+      "exists": true,
+      "purpose": "OS/website/Vault/ChatGPT bridge connection rule"
+    },
+    {
+      "relativePath": "072_IDENTITY_ENGINE\\IDENTITY_ENGINE_MODEL.md",
+      "exists": true,
+      "purpose": "Lumen identity model"
+    },
+    {
+      "relativePath": "073_AUTHORIZATION_MODEL\\AUTHORIZATION_MODEL.md",
+      "exists": true,
+      "purpose": "Lumen authorization model"
+    },
+    {
+      "relativePath": "074_ENTITLEMENT_MODEL\\ENTITLEMENT_MODEL.md",
+      "exists": true,
+      "purpose": "Lumen entitlement model"
+    },
+    {
+      "relativePath": "075_ACCESS_GRAPH\\ACCESS_GRAPH_MODEL.md",
+      "exists": true,
+      "purpose": "Lumen access graph"
+    },
+    {
+      "relativePath": "076_SECURITY_GOVERNANCE\\SECURITY_GOVERNANCE_MODEL.md",
+      "exists": true,
+      "purpose": "Lumen security governance"
+    },
+    {
+      "relativePath": "077_VAULT_OBJECT_MODEL\\VAULT_OBJECT_MODEL.md",
+      "exists": true,
+      "purpose": "Vault object model"
+    },
+    {
+      "relativePath": "078_OS_OBJECT_MODEL\\LUMEN_OS_OBJECT_MODEL.md",
+      "exists": true,
+      "purpose": "OS object model"
+    },
+    {
+      "relativePath": "079_WEBSITE_OBJECT_MODEL\\LUMEN_WEBSITE_OBJECT_MODEL.md",
+      "exists": true,
+      "purpose": "Website object model"
+    },
+    {
+      "relativePath": "080_CHATGPT_BRIDGE_MODEL\\CHATGPT_OPENAI_BRIDGE_MODEL.md",
+      "exists": true,
+      "purpose": "ChatGPT/OpenAI bridge model"
+    },
+    {
+      "relativePath": "081_NATIVE_AI_REPLACEMENT_MODEL\\LUMEN_NATIVE_AI_REPLACEMENT_MODEL.md",
+      "exists": true,
+      "purpose": "Native AI replacement path"
+    },
+    {
+      "relativePath": "090_LUMEN_UNIFIED_CONSTITUTION\\LUMEN_UNIFIED_CONSTITUTION.md",
+      "exists": true,
+      "purpose": "Unified Lumen ecosystem constitution"
+    }
+  ],
+  "heavyReferenceRanges": [
+    {
+      "range": "000-030",
+      "loadByDefault": true,
+      "role": "Foundation and continuity baseline"
+    },
+    {
+      "range": "031-050",
+      "loadByDefault": true,
+      "role": "Constitutional layer"
+    },
+    {
+      "range": "051-071",
+      "loadByDefault": true,
+      "role": "Governance/trust/evidence/connection layer"
+    },
+    {
+      "range": "072-090",
+      "loadByDefault": true,
+      "role": "Unified Lumen ecosystem core"
+    },
+    {
+      "range": "091-590",
+      "loadByDefault": false,
+      "role": "Generated domain/aspect expansion"
+    },
+    {
+      "range": "591-620",
+      "loadByDefault": true,
+      "role": "Optimization layer"
+    }
+  ],
+  "hardRules": [
+    "Do not delete historical containers.",
+    "Use active pointer index before loading full repository.",
+    "Use compact transfer packet for new ChatGPT projects.",
+    "Use archive pointer map instead of copying archive history.",
+    "Use checksums for integrity.",
+    "Use search index for retrieval.",
+    "Use full repository only for rehydration, audit, conflict resolution, or recovery."
+  ]
+}

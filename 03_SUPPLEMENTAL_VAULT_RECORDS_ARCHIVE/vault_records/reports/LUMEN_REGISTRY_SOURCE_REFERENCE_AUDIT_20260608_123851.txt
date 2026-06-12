@@ -1,0 +1,335 @@
+LUMEN REGISTRY SOURCE REFERENCE AUDIT
+Generated: 2026-06-08T12:39:02.0592147-06:00
+
+Installed Registry Modules: 358
+Source Files Scanned: 20
+Modules Referenced In Source: 101
+Modules Not Referenced In Source: 257
+Modules With Missing Dependencies: 66
+
+UNREFERENCED MODULES:
+- ai.agent_orchestration | ai | high
+- ai.autonomous_documentation | ai | high
+- ai.autonomous_learning | ai | high
+- ai.autonomous_monitoring | ai | high
+- ai.autonomous_optimization | ai | high
+- ai.autonomous_recommendations | ai | high
+- ai.autonomous_reporting | ai | high
+- ai.autonomous_research | ai | high
+- ai.autonomous_scheduling | ai | high
+- ai.multi_agent_collaboration | ai | high
+- ai.tool_discovery | ai | high
+- ai.workflow_automation | ai | high
+- business.artisan_portal | business | high
+- business.commerce | business | high
+- business.contracts | business | high
+- business.creator_portal | business | high
+- business.crm | business | high
+- business.customer_portal | business | high
+- business.fulfillment | business | high
+- business.inventory_forecasting | business | high
+- business.investor_portal | business | high
+- business.marketing | business | high
+- business.procurement | business | high
+- business.sales | business | high
+- business.supplier_portal | business | high
+- commerce.customs_intelligence | commerce | high
+- commerce.fleet_intelligence | commerce | high
+- commerce.international_trade_intelligence | commerce | high
+- commerce.logistics_intelligence | commerce | high
+- commerce.manufacturer_discovery | commerce | high
+- commerce.procurement_intelligence | commerce | high
+- commerce.product_lifecycle_management | commerce | high
+- commerce.product_research | commerce | high
+- commerce.quality_assurance | commerce | high
+- commerce.supplier_discovery | commerce | high
+- commerce.vendor_intelligence | commerce | high
+- commerce.warehouse_intelligence | commerce | high
+- communication.accessible_emoji_descriptions | communication | high
+- communication.emoji_translation | communication | high
+- communication.gif_messaging | communication | high
+- communication.meme_messaging | communication | high
+- communication.reaction_packs | communication | high
+- communication.sticker_messaging | communication | high
+- communication.visual_reactions | communication | high
+- device.cad_cam | device | high
+- device.eye_tracking | device | high
+- device.imaging_systems | device | high
+- device.industrial_iot | device | high
+- device.particle_instruments | device | high
+- device.aerospace_test_equipment | Devices | high
+- device.agriculture_research | Devices | high
+- device.chemistry_instruments | Devices | high
+- device.geology_mining | Devices | high
+- device.manufacturing_metrology | Devices | high
+- device.oceanographic | Devices | high
+- device.physics_instruments | Devices | high
+- device.test_equipment | Devices | high
+- device.vr_ar | Devices | high
+- digital_twin.buildings | digital_twin | high
+- digital_twin.businesses | digital_twin | high
+- digital_twin.cities | digital_twin | high
+- digital_twin.factories | digital_twin | high
+- digital_twin.farms | digital_twin | high
+- digital_twin.fleets | digital_twin | high
+- digital_twin.hospitals | digital_twin | high
+- digital_twin.laboratories | digital_twin | high
+- digital_twin.organizations | digital_twin | high
+- digital_twin.people | digital_twin | high
+- digital_twin.research_programs | digital_twin | high
+- digital_twin.satellites | digital_twin | high
+- digital_twin.supply_chains | digital_twin | high
+- digital_twin.vehicles | digital_twin | high
+- digital_twin.warehouses | digital_twin | high
+- education.adaptive_learning_ai | education | high
+- education.competency_tracking | education | high
+- education.continuing_education | education | high
+- education.corporate_training | education | high
+- education.course_authoring | education | high
+- education.higher_education | education | high
+- education.k12_learning | education | high
+- education.learning_paths | education | high
+- education.mentor_marketplace | education | high
+- education.professional_certifications | education | high
+- education.research_libraries | education | high
+- education.simulation_learning | education | high
+- education.skill_mapping | education | high
+- education.trade_schools | education | high
+- education.tutor_marketplace | education | high
+- education.vr_learning | education | high
+- experience.captioning | experience | high
+- experience.livestreaming | experience | high
+- experience.transcription | experience | high
+- experience.translation | experience | high
+- experience.voice_assistant | experience | high
+- future.autonomous_systems | future | high
+- future.quantum_computing | future | high
+- future.synthetic_biology | future | high
+- healthcare.appointment_intelligence | healthcare | high
+- healthcare.care_coordination | healthcare | high
+- healthcare.claims_assistance | healthcare | high
+- healthcare.clinical_trial_portal | healthcare | high
+- healthcare.health_education | healthcare | high
+- healthcare.insurance_intelligence | healthcare | high
+- healthcare.lab_results | healthcare | high
+- healthcare.medical_device_portal | healthcare | high
+- healthcare.medical_imaging | healthcare | high
+- healthcare.medication_tracking | healthcare | high
+- healthcare.patient_portal | healthcare | high
+- healthcare.preventive_care_intelligence | healthcare | high
+- healthcare.provider_portal | healthcare | high
+- healthcare.research_portal | healthcare | high
+- healthcare.telehealth | healthcare | high
+- human.benefits_assistance | human | high
+- human.caregiver_intelligence | human | high
+- human.child_development_intelligence | human | high
+- human.crisis_assistance | human | high
+- human.elder_care_intelligence | human | high
+- human.emergency_planning | human | high
+- human.family_management | human | high
+- human.food_nutrition_intelligence | human | high
+- human.goal_tracking | human | high
+- human.government_program_discovery | human | high
+- human.habit_systems | human | high
+- human.housing_intelligence | human | high
+- human.life_event_intelligence | human | high
+- human.personal_life_management | human | high
+- human.preparedness_planning | human | high
+- human.transportation_intelligence | human | high
+- human.wellness_planning | human | high
+- image_editor.advanced_editing | image_editor | high
+- image_editor.ai_editing | image_editor | high
+- image_editor.authenticity_labels | image_editor | high
+- image_editor.background_removal | image_editor | high
+- image_editor.background_replacement | image_editor | high
+- image_editor.basic_editing | image_editor | high
+- image_editor.batch_processing | image_editor | high
+- image_editor.brand_templates | image_editor | high
+- image_editor.crop_resize | image_editor | high
+- image_editor.fake_edit_detection | image_editor | high
+- image_editor.filters_effects | image_editor | high
+- image_editor.format_conversion | image_editor | high
+- image_editor.generative_fill | image_editor | high
+- image_editor.image_to_image | image_editor | high
+- image_editor.layers | image_editor | high
+- image_editor.masks | image_editor | high
+- image_editor.meme_templates | image_editor | high
+- image_editor.metadata_review | image_editor | high
+- image_editor.object_removal | image_editor | high
+- image_editor.retouching | image_editor | high
+- image_editor.social_templates | image_editor | high
+- image_editor.sticker_templates | image_editor | high
+- image_editor.text_to_image | image_editor | high
+- image_editor.watermarking | image_editor | high
+- intelligence.calibration_engine | Intelligence | critical
+- intelligence.compatibility_engine | Intelligence | critical
+- intelligence.decision_engine | intelligence | high
+- intelligence.documentation_engine | Intelligence | critical
+- intelligence.file_format_engine | Intelligence | high
+- intelligence.forecasting_engine | intelligence | high
+- intelligence.inventory_engine | Intelligence | critical
+- intelligence.maintenance_engine | Intelligence | critical
+- intelligence.orchestration_engine | intelligence | high
+- intelligence.reasoning_engine | intelligence | high
+- intelligence.recommendation_engine | intelligence | high
+- intelligence.report_engine | intelligence | high
+- intelligence.research_engine | intelligence | high
+- intelligence.risk_engine | intelligence | high
+- intelligence.simulation_engine | intelligence | high
+- intelligence.update_engine | Intelligence | critical
+- intelligence.workflow_engine | intelligence | high
+- media.ai_production_studio | media | high
+- media.caption_studio | media | high
+- media.content_intelligence | media | high
+- media.creator_marketplace | media | high
+- media.gif_generator | media | high
+- media.image_accessibility_alt_text | media | high
+- media.image_context_reader | media | high
+- media.image_safety_review | media | high
+- media.licensing_marketplace | media | high
+- media.meme_generator | media | high
+- media.meme_reader | media | high
+- media.music_platform | media | high
+- media.news_intelligence | media | high
+- media.podcast_platform | media | high
+- media.publishing_platform | media | high
+- media.sponsor_marketplace | media | high
+- media.sticker_generator | media | high
+- media.translation_studio | media | high
+- media.video_platform | media | high
+- media.visual_captioning | media | high
+- media.voice_studio | media | high
+- public.civic_intelligence | public | high
+- public.community_resources | public | high
+- public.disaster_response | public | high
+- public.elections_intelligence | public | high
+- public.emergency_management | public | high
+- public.government_services | public | high
+- public.grant_programs | public | high
+- public.licensing_intelligence | public | high
+- public.municipal_services | public | high
+- public.permit_intelligence | public | high
+- public.regulatory_tracking | public | high
+- research.agricultural_science | research | high
+- research.astrophysics | research | high
+- research.biology | research | high
+- research.biomedical_research | research | high
+- research.biotechnology | research | high
+- research.climate_science | research | high
+- research.energy_systems | research | high
+- research.environmental_science | research | high
+- research.fusion_research | research | high
+- research.genetic_engineering | research | high
+- research.materials_science | research | high
+- research.neuroscience | research | high
+- research.nuclear_research | research | high
+- research.ocean_science | research | high
+- research.particle_physics | research | high
+- research.pharmaceutical_research | research | high
+- research.psychology | research | high
+- research.semiconductor_research | research | high
+- research.space_research | research | high
+- security.audit_intelligence | security | high
+- security.authentication_intelligence | security | high
+- security.authorization_intelligence | security | high
+- security.compliance_intelligence | security | high
+- security.data_governance | security | high
+- security.digital_forensics | security | high
+- security.identity_intelligence | security | high
+- security.incident_response | security | high
+- security.privacy_management | security | high
+- security.threat_intelligence | security | high
+- security.trust_ledger_expansion | security | high
+- security.vulnerability_intelligence | security | high
+- space.aerospace_test_labs | space | high
+- space.aviation_systems | space | high
+- space.flight_data_intelligence | space | high
+- space.ground_stations | space | high
+- space.launch_tracking | space | high
+- space.mission_planning | space | high
+- space.orbital_analysis | space | high
+- space.rover_systems | space | high
+- space.satellite_intelligence | space | high
+- space.spacecraft_systems | space | high
+- space.uas_uav_systems | space | high
+- trust.fake_review_filter | trust | high
+- trust.feature_gap_analysis | trust | high
+- trust.user_complaint_analysis | trust | high
+- trust.vetted_feature_reviews | trust | high
+- visual_studio.affinity_like_pro_editing | visual_studio | high
+- visual_studio.canva_like_design | visual_studio | high
+- visual_studio.capcut_like_media_handoff | visual_studio | high
+- visual_studio.figma_like_collaboration | visual_studio | high
+- visual_studio.gimp_like_open_tools | visual_studio | high
+- visual_studio.lightroom_like_adjustments | visual_studio | high
+- visual_studio.photoshop_like_precision | visual_studio | high
+- visual_studio.picsart_like_social_editing | visual_studio | high
+- visual_studio.snapseed_like_mobile_editing | visual_studio | high
+
+MISSING DEPENDENCIES:
+- accessibility.universal_accessibility -> guided_experience
+- business.accounting_tax -> brianco
+- business.brianco -> vault ; search
+- business.creator_intelligence -> brianco
+- business.customer_intelligence -> brianco
+- business.legal_review -> approval_gates
+- business.product_intelligence -> brianco
+- business.supplier_intelligence -> brianco
+- core.approval_gates -> vault
+- core.module_registry -> vault
+- core.orchestrator -> vault
+- core.reports -> vault
+- core.rollback -> vault
+- core.trust_ledger -> vault
+- development.api_intelligence -> code_intelligence
+- development.cloudflare_awareness -> vault ; code_intelligence
+- development.code_intelligence -> learning_engine ; knowledge_graph
+- development.pipeline_intelligence -> code_intelligence
+- development.supabase_awareness -> vault ; code_intelligence
+- development.testing_playwright -> code_intelligence
+- device.driver_awareness -> hardware_awareness
+- device.drones -> hardware_awareness ; research
+- device.firmware_awareness -> hardware_awareness
+- device.hardware_awareness -> learning_engine
+- device.robotics -> hardware_awareness ; research
+- device.scientific_instruments -> hardware_awareness ; knowledge_graph
+- experience.dashboard_designer -> guided_experience
+- experience.founder_command_center -> vault ; module_registry ; search
+- experience.guided_experience -> vault
+- experience.tutorial_builder -> guided_experience
+- experience.voice_manager -> vault
+- experience.website_designer -> guided_experience
+- future.3d_images -> ar_vr
+- future.ar_vr -> guided_experience
+- future.browser_layer -> search ; guided_experience
+- future.digital_twins -> knowledge_graph
+- future.emoji_language -> guided_experience
+- future.nanorobotics -> nanotechnology
+- future.nanotechnology -> research
+- industry.construction -> universal_professions
+- industry.education -> universal_professions
+- industry.energy -> universal_professions
+- industry.engineering -> universal_professions
+- industry.environmental -> universal_professions
+- industry.faith_religious -> universal_professions
+- industry.finance -> universal_professions
+- industry.government -> universal_professions
+- industry.hospitality -> universal_professions
+- industry.legal -> universal_professions
+- industry.manufacturing -> universal_professions
+- industry.nonprofit_community -> universal_professions
+- industry.public_safety -> universal_professions
+- industry.research -> universal_professions
+- industry.retail -> universal_professions
+- industry.software_technology -> universal_professions
+- industry.space -> universal_professions
+- industry.transportation -> universal_professions
+- industry.universal_professions -> module_registry ; knowledge_graph
+- intelligence.cross_vetted_abstracts -> vetted_sources
+- intelligence.knowledge_graph -> vault ; learning_engine
+- intelligence.learning_engine -> vault ; module_registry
+- intelligence.research -> vault ; knowledge_graph
+- intelligence.universal_search -> vault ; knowledge_graph
+- intelligence.vetted_sources -> vault ; learning_engine
+- localization.global_holidays -> language_dialect
+- localization.language_dialect -> guided_experience

@@ -1,0 +1,1196 @@
+LUMEN CODEBASE STRUCTURE AUDIT
+Generated: 2026-06-08T12:47:13.7565645-06:00
+
+Roots Checked:
+- .\src = True
+- .\api = True
+- .\assets = True
+- .\app = True
+- .\components = True
+- .\lib = True
+- .\pages = True
+- .\tests = True
+
+Total Eligible Files: 708
+Total Directories With Eligible Files: 599
+
+Files By Extension:
+- .css: 13
+- .js: 516
+- .jsx: 10
+- .mjs: 15
+- .ts: 72
+- .tsx: 82
+
+Files By Root:
+- : 708
+
+Playwright / Test References Found: 50
+Import / Export References Found Sample: 1000
+Route / API References Found Sample: 1000
+
+PLAYWRIGHT / TEST REFERENCES:
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:11 | if (!/^[a-z0-9][a-z0-9-]*\.mycurrent Lumen setup\.com$/.test(shop)) return "";
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-install.js:15 | if (!/^[a-z0-9][a-z0-9-]*\.mycurrent Lumen setup\.com$/.test(shop)) return "";
+C:\Users\user\brianco-backend-clean\assets\brianco-chatbot-master-behavior.js:10 | /(legal|emergency|medical|crisis|lawsuit|death|suicide)/i.test(text);
+C:\Users\user\brianco-backend-clean\assets\brianco-chatbot-master-behavior.js:13 | /(local|cheyenne|wyoming|support|near me)/i.test(text);
+C:\Users\user\brianco-backend-clean\assets\brianco-chatbot-master-behavior.js:16 | /(premium|luxury|concierge|vip)/i.test(text);
+C:\Users\user\brianco-backend-clean\lib\CurrentLumenSetup-oauth.js:6 | if (!/^[a-zA-Z0-9][a-zA-Z0-9-]*\.myretired-commerce-platform\.com$/.test(cleaned)) return null;
+C:\Users\user\brianco-backend-clean\lib\security.js:5 | if (/^[a-z0-9][a-z0-9-]*\.myretired-commerce-platform\.com$/.test(s)) return s;
+C:\Users\user\brianco-backend-clean\pages\api\brianco-command\audit.js:23 | "Run local PowerShell maintenance runner for full CLI audit, build checks, Playwright checks, device checks, and kernel readiness checks."
+C:\Users\user\brianco-backend-clean\pages\api\deployment-playwright-master\dashboard.js:5 | const file=path.join(process.cwd(),"data","deployment-playwright-master.json");
+C:\Users\user\brianco-backend-clean\pages\api\deployment-playwright-master\dashboard.js:7 | try{data=JSON.parse(fs.readFileSync(file,"utf8"));}catch(e){data={status:"missing",slug:"deployment-playwright-master"};}
+C:\Users\user\brianco-backend-clean\pages\api\deployment-playwright-master\dashboard.js:8 | res.status(200).json({ok:true,route:"deployment-playwright-master",generated:new Date().toISOString(),data});
+C:\Users\user\brianco-backend-clean\pages\deployment-playwright-master\index.js:5 | const file=path.join(process.cwd(),"data","deployment-playwright-master.json");
+C:\Users\user\brianco-backend-clean\pages\deployment-playwright-master\index.js:6 | let data={title:"Deployment Playwright Master",modules:[],rules:[],summary:""};
+C:\Users\user\brianco-backend-clean\src\brianco-typo-intelligence.js:25 | wantsCode: /\b(code|script|powershell|theme|zip|file|build)\b/i.test(normalized),
+C:\Users\user\brianco-backend-clean\src\brianco-typo-intelligence.js:26 | wantsRealtime: /\b(real time|always|forever|watchdog|auto|live|continuous)\b/i.test(normalized),
+C:\Users\user\brianco-backend-clean\src\brianco-typo-intelligence.js:27 | preserveProgress: /\b(preserve|previous|prior|do not lose|keep)\b/i.test(normalized),
+C:\Users\user\brianco-backend-clean\src\brianco-typo-intelligence.js:28 | connectionSensitive: /\b(oauth|token|secret|env|backend|api|connection|vercel|retired-commerce-platform|supabase|payment)\b/i.test(normalized),
+C:\Users\user\brianco-backend-clean\src\brianco-typo-intelligence.js:29 | needsApproval: /\b(approve|approval|green check|legal|lawyer|founder)\b/i.test(normalized)
+C:\Users\user\brianco-backend-clean\src\modules\registry\module-registry.mjs:41 | ["development.testing_playwright","Development","planned","high",["code_intelligence"]],
+C:\Users\user\brianco-backend-clean\tests\brianco\absolute-project-final-gate.spec.js:1 | const { test, expect } = require('@playwright/test');
+C:\Users\user\brianco-backend-clean\tests\brianco\absolute-project-final-gate.spec.js:39 | '/deployment-playwright-master',
+C:\Users\user\brianco-backend-clean\tests\brianco\absolute-project-final-gate.spec.js:52 | test(`Brian & Co project-wide ${vp.name} ${route}`, async ({ page }) => {
+C:\Users\user\brianco-backend-clean\tests\brianco\absolute-project-final-gate.spec.js:62 | expect(res && res.status()).toBeLessThan(500);
+C:\Users\user\brianco-backend-clean\tests\brianco\absolute-project-final-gate.spec.js:63 | await expect(page.locator('body')).toBeVisible();
+C:\Users\user\brianco-backend-clean\tests\brianco\absolute-project-final-gate.spec.js:66 | expect(text.length).toBeGreaterThan(20);
+C:\Users\user\brianco-backend-clean\tests\brianco\absolute-project-final-gate.spec.js:74 | expect(meaningfulErrors).toEqual([]);
+C:\Users\user\brianco-backend-clean\tests\brianco\exact-console-error-discovery.spec.js:1 | const { test } = require('@playwright/test');
+C:\Users\user\brianco-backend-clean\tests\brianco\exact-console-error-discovery.spec.js:19 | test('Brian & Co exact console error discovery', async ({ page }) => {
+C:\Users\user\brianco-backend-clean\tests\brianco\feature-hub-local-runtime-proof.spec.js:1 | import { test, expect } from '@playwright/test';
+C:\Users\user\brianco-backend-clean\tests\brianco\feature-hub-local-runtime-proof.spec.js:4 | test('local runtime contains required Feature Hub anchors', async ({ page }) => {
+C:\Users\user\brianco-backend-clean\tests\brianco\feature-hub-local-runtime-proof.spec.js:6 | await expect(page.getByText('Founder-Controlled Feature Hub')).toBeVisible();
+C:\Users\user\brianco-backend-clean\tests\brianco\feature-hub-local-runtime-proof.spec.js:10 | await expect(page.locator('a[href="/founder-command-center"]').first()).toBeVisible();
+C:\Users\user\brianco-backend-clean\tests\brianco\feature-hub-local-runtime-proof.spec.js:11 | await expect(page.locator('a[href="/role-portal-expansion"]').first()).toBeVisible();
+C:\Users\user\brianco-backend-clean\tests\brianco\feature-hub-runtime-dom-inspection.spec.js:1 | import { test } from '@playwright/test';
+C:\Users\user\brianco-backend-clean\tests\brianco\feature-hub-runtime-dom-inspection.spec.js:4 | test('inspect actual runtime feature hub DOM', async ({ page }) => {
+C:\Users\user\brianco-backend-clean\tests\brianco\next-two-phase-final-gate.spec.js:1 | const { test, expect } = require('@playwright/test');
+C:\Users\user\brianco-backend-clean\tests\brianco\next-two-phase-final-gate.spec.js:37 | test(`BrianCo ${vp.name} ${route}`, async ({ page }) => {
+C:\Users\user\brianco-backend-clean\tests\brianco\next-two-phase-final-gate.spec.js:82 | expect(response.status()).toBeLessThan(500);
+C:\Users\user\brianco-backend-clean\tests\brianco\next-two-phase-final-gate.spec.js:85 | await expect(page.locator('html')).toBeAttached();
+C:\Users\user\brianco-backend-clean\tests\brianco\next-two-phase-final-gate.spec.js:88 | expect(content.length).toBeGreaterThan(100);
+C:\Users\user\brianco-backend-clean\tests\brianco\next-two-phase-final-gate.spec.js:90 | expect(errors).toEqual([]);
+C:\Users\user\brianco-backend-clean\tests\brianco\predeploy-live.spec.js:1 | const { test, expect } = require('@playwright/test');
+C:\Users\user\brianco-backend-clean\tests\brianco\predeploy-live.spec.js:33 | test(`Brian & Co predeploy ${vp.name} ${route}`, async ({ page }) => {
+C:\Users\user\brianco-backend-clean\tests\brianco\predeploy-live.spec.js:43 | expect(res && res.status()).toBeLessThan(500);
+C:\Users\user\brianco-backend-clean\tests\brianco\predeploy-live.spec.js:44 | await expect(page.locator('body')).toBeVisible();
+C:\Users\user\brianco-backend-clean\tests\brianco\predeploy-live.spec.js:57 | expect(meaningfulErrors).toEqual([]);
+C:\Users\user\brianco-backend-clean\tests\brianco\predeploy-live.spec.js:62 | test('Brian & Co live feature hub has links', async ({ page }) => {
+C:\Users\user\brianco-backend-clean\tests\brianco\predeploy-live.spec.js:64 | await expect(page.getByText('Founder-Controlled Feature Hub')).toBeVisible();
+C:\Users\user\brianco-backend-clean\tests\brianco\predeploy-live.spec.js:65 | await expect(page.locator('a[href="/founder-command-center"]')).toBeVisible();
+C:\Users\user\brianco-backend-clean\tests\brianco\predeploy-live.spec.js:66 | await expect(page.locator('a[href="/role-portal-expansion"]')).toBeVisible();
+
+IMPORT / EXPORT SAMPLE:
+C:\Users\user\brianco-backend-clean\api\accessibility-localization.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"accessibility-localization",accessibility:["text sizing","reduced motion","high contrast","screen-reader labels","captions ready","keyboard navigation"],localization:["language routing","currency ready","regional SEO ready"],status:"scaffolded"});}
+C:\Users\user\brianco-backend-clean\api\api\CurrentLumenSetup-callback.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\auth-options.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"auth-options",methods:["current Lumen setup customer accounts","email magic link","Google OAuth","Apple sign-in","Microsoft sign-in","passkeys/WebAuthn","guest mode"],status:"scaffolded"});}
+C:\Users\user\brianco-backend-clean\api\backup-products.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\brain\event.js:1 | import { saveEvent } from "../../lib/brianco-memory.js";
+C:\Users\user\brianco-backend-clean\api\brain\event.js:3 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\brain\interact.js:1 | import { saveInteraction, getUserState } from "../../lib/brianco-memory.js";
+C:\Users\user\brianco-backend-clean\api\brain\interact.js:3 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\brain\user.js:1 | import { getUserState } from "../../lib/brianco-memory.js";
+C:\Users\user\brianco-backend-clean\api\brain\user.js:3 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\chat.js:1 | import { createClient } from "@supabase/supabase-js";
+C:\Users\user\brianco-backend-clean\api\chat.js:8 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\collections.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\concierge.js:23 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:15 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-install.js:23 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\callback.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\install.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\digital-delivery.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"digital-delivery",type:"digital",requiresShipping:false,fulfillment:"secure entitlement/download flow scaffolded"});}
+C:\Users\user\brianco-backend-clean\api\founder-status.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"founder-status",service:"Brian & Co Founder Command Center",protected:true,founderControlled:true,time:new Date().toISOString()});}
+C:\Users\user\brianco-backend-clean\api\health.js:2 | export default async function handler(req,res){
+C:\Users\user\brianco-backend-clean\api\intelligence.js:1 | import { createClient } from "@supabase/supabase-js";
+C:\Users\user\brianco-backend-clean\api\intelligence.js:8 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\next-steps.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\products.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\risk-score.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"risk-score",status:"scaffolded",captcha:true,fraudReview:true,moderation:true,note:"Use lawful vetted signals only. Do not store raw card data."});}
+C:\Users\user\brianco-backend-clean\api\score.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\secret-health.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\seed-digital-products-OFF.js:22 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\seed-products.js:37 | export default async function handler(req,res){
+C:\Users\user\brianco-backend-clean\api\seo-status.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"seo-status",title:"Brian & Co",structuredDataReady:true,sitemapReady:true,altTextRequired:true,status:"scaffolded"});}
+C:\Users\user\brianco-backend-clean\api\status.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"status",service:"Brian & Co live status",time:new Date().toISOString()});}
+C:\Users\user\brianco-backend-clean\api\storefront-feed.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"storefront-feed",message:"Storefront feed route restored. Next expansion connects live current Lumen setup product cards."});}
+C:\Users\user\brianco-backend-clean\app\admin\upload-reviews\page.jsx:1 | export default function UploadReviewDashboard(){
+C:\Users\user\brianco-backend-clean\app\careers\page.jsx:1 | export default function Careers(){
+C:\Users\user\brianco-backend-clean\app\layout.jsx:1 | export const metadata = {
+C:\Users\user\brianco-backend-clean\app\layout.jsx:6 | export default function RootLayout({ children }) {
+C:\Users\user\brianco-backend-clean\app\os\page.tsx:3 | import { briancoOSProducts, inspirationCategories } from "../products/briancoOSProducts";
+C:\Users\user\brianco-backend-clean\app\os\page.tsx:5 | export default function BrianCoOSPage() {
+C:\Users\user\brianco-backend-clean\app\products\briancoOSProducts.ts:1 | export const briancoOSProducts = [
+C:\Users\user\brianco-backend-clean\app\products\briancoOSProducts.ts:46 | export const inspirationCategories = [
+C:\Users\user\brianco-backend-clean\app\subscriptions\page.jsx:1 | export default function Subscriptions(){
+C:\Users\user\brianco-backend-clean\app\suppliers\page.jsx:1 | export default function Suppliers(){
+C:\Users\user\brianco-backend-clean\app\upload\page.jsx:1 | export default function UploadPage(){
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:52 | <p>${p.price ? "From "+p.price : "Price available in store"}</p>
+C:\Users\user\brianco-backend-clean\components\accessibility\Toolbar.jsx:1 | export default function AccessibilityToolbar(){
+C:\Users\user\brianco-backend-clean\components\BrianCoTextConcierge.js:1 | import { useState } from "react";
+C:\Users\user\brianco-backend-clean\components\BrianCoTextConcierge.js:3 | export default function BrianCoTextConcierge() {
+C:\Users\user\brianco-backend-clean\components\concierge\Card.jsx:1 | export default function ConciergeCard({title,description}){
+C:\Users\user\brianco-backend-clean\components\Dashboard.jsx:1 | export default function Dashboard(){
+C:\Users\user\brianco-backend-clean\components\uploads\MediaReviewCard.jsx:1 | export function MediaReviewCard({item}){
+C:\Users\user\brianco-backend-clean\lib\brianco-auth\authConfig.js:1 | export const brianCoRoles = [
+C:\Users\user\brianco-backend-clean\lib\brianco-auth\authConfig.js:14 | export const brianCoAuthProviders = [
+C:\Users\user\brianco-backend-clean\lib\brianco-auth\authConfig.js:22 | export function BrianCoAuthNotice() {
+C:\Users\user\brianco-backend-clean\lib\brianco-catalog\collections.js:1 | export const brianCoCollections = [
+C:\Users\user\brianco-backend-clean\lib\brianco-catalog\collections.js:52 | export function classifyOffer(title = "", type = "", tags = []) {
+C:\Users\user\brianco-backend-clean\lib\brianco-CurrentLumenSetup-customer.js:1 | export function cleanShopDomain() {
+C:\Users\user\brianco-backend-clean\lib\brianco-CurrentLumenSetup-customer.js:7 | export function getretired-commerce-platformToken() {
+C:\Users\user\brianco-backend-clean\lib\brianco-CurrentLumenSetup-customer.js:11 | export async function retired-commerce-platformRequest(path, options = {}) {
+C:\Users\user\brianco-backend-clean\lib\brianco-CurrentLumenSetup-customer.js:34 | export async function findCustomerByEmail(email) {
+C:\Users\user\brianco-backend-clean\lib\brianco-CurrentLumenSetup-customer.js:41 | export function parseTags(tags) {
+C:\Users\user\brianco-backend-clean\lib\brianco-CurrentLumenSetup-customer.js:48 | export async function updateCustomerTagsAndNote(email, tagsToAdd = [], noteAppend = "") {
+C:\Users\user\brianco-backend-clean\lib\brianco-db.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\lib\brianco-db.js:24 | export function saveInteraction(input = {}) {
+C:\Users\user\brianco-backend-clean\lib\brianco-db.js:51 | export function saveEvent(input = {}) {
+C:\Users\user\brianco-backend-clean\lib\brianco-db.js:73 | export function getUserState(userId = "guest") {
+C:\Users\user\brianco-backend-clean\lib\brianco-memory.js:4 | export function saveInteraction(input = {}) {
+C:\Users\user\brianco-backend-clean\lib\brianco-memory.js:26 | export function saveEvent(input = {}) {
+C:\Users\user\brianco-backend-clean\lib\brianco-memory.js:43 | export function getUserState(userId = "guest") {
+C:\Users\user\brianco-backend-clean\lib\brianco-native\ui.js:1 | export const theme = {
+C:\Users\user\brianco-backend-clean\lib\brianco-native\ui.js:20 | export function Bars({data=[22,38,44,57,61,74,82]}) {
+C:\Users\user\brianco-backend-clean\lib\brianco-native\ui.js:38 | export function NativeCard({title,value,note,trend}) {
+C:\Users\user\brianco-backend-clean\lib\brianco-native\ui.js:52 | export function NativeAccessNotice() {
+C:\Users\user\brianco-backend-clean\lib\brianco-openai.js:1 | export async function brianCoChat(message) {
+C:\Users\user\brianco-backend-clean\lib\brianco-role-intelligence\roles.js:1 | export const roleProfiles = {
+C:\Users\user\brianco-backend-clean\lib\brianco-role-intelligence\roles.js:92 | export function getRoleProfile(role = "customer") {
+C:\Users\user\brianco-backend-clean\lib\brianco-role-intelligence\roles.js:96 | export function roleTrend(seed = 1) {
+C:\Users\user\brianco-backend-clean\lib\brianco-visual-system.js:1 | export const brianCoVisual = {
+C:\Users\user\brianco-backend-clean\lib\brianco-visual-system.js:34 | export function MiniGraph() {
+C:\Users\user\brianco-backend-clean\lib\brianco-visual-system.js:61 | export function BrianCoMetricCard({title, value, note}) {
+C:\Users\user\brianco-backend-clean\lib\brianco\audit-ledger.ts:1 | export type AuditEvent = {
+C:\Users\user\brianco-backend-clean\lib\brianco\audit-ledger.ts:20 | export async function writeAuditEvent(event: AuditEvent) {
+C:\Users\user\brianco-backend-clean\lib\brianco\continuity-service.ts:1 | import type { BrianCoContinuitySignal, BrianCoContinuityResponse } from "../../types/brianco/continuity";
+C:\Users\user\brianco-backend-clean\lib\brianco\continuity-service.ts:2 | import { getEntitlement } from "./entitlements";
+C:\Users\user\brianco-backend-clean\lib\brianco\continuity-service.ts:3 | import { getUpgradeRecommendations } from "./upgrade-recommendations";
+C:\Users\user\brianco-backend-clean\lib\brianco\continuity-service.ts:4 | import { writeAuditEvent } from "./audit-ledger";
+C:\Users\user\brianco-backend-clean\lib\brianco\continuity-service.ts:6 | export async function handleCustomerContinuity(signal: BrianCoContinuitySignal): Promise<BrianCoContinuityResponse> {
+C:\Users\user\brianco-backend-clean\lib\brianco\entitlements.ts:1 | import type { BrianCoMembershipTier } from "../../types/brianco/continuity";
+C:\Users\user\brianco-backend-clean\lib\brianco\entitlements.ts:3 | export function normalizeTier(tier?: string): BrianCoMembershipTier {
+C:\Users\user\brianco-backend-clean\lib\brianco\entitlements.ts:19 | export function getEntitlement(tierInput?: string) {
+C:\Users\user\brianco-backend-clean\lib\brianco\upgrade-recommendations.ts:1 | import type { BrianCoContinuitySignal } from "../../types/brianco/continuity";
+C:\Users\user\brianco-backend-clean\lib\brianco\upgrade-recommendations.ts:2 | import { getEntitlement } from "./entitlements";
+C:\Users\user\brianco-backend-clean\lib\brianco\upgrade-recommendations.ts:4 | export function getUpgradeRecommendations(signal: BrianCoContinuitySignal) {
+C:\Users\user\brianco-backend-clean\lib\CurrentLumenSetup-oauth.js:1 | import crypto from "crypto";
+C:\Users\user\brianco-backend-clean\lib\CurrentLumenSetup-oauth.js:3 | export function normalizeShop(shop) {
+C:\Users\user\brianco-backend-clean\lib\CurrentLumenSetup-oauth.js:10 | export function getretired-commerce-platformClientId() {
+C:\Users\user\brianco-backend-clean\lib\CurrentLumenSetup-oauth.js:14 | export function getretired-commerce-platformClientSecret() {
+C:\Users\user\brianco-backend-clean\lib\CurrentLumenSetup-oauth.js:18 | export function signState(shop) {
+C:\Users\user\brianco-backend-clean\lib\CurrentLumenSetup.js:1 | export function getShop() {
+C:\Users\user\brianco-backend-clean\lib\CurrentLumenSetup.js:5 | export function getToken() {
+C:\Users\user\brianco-backend-clean\lib\CurrentLumenSetup.js:9 | export async function retired-commerce-platformRest(shop, path, token) {
+C:\Users\user\brianco-backend-clean\lib\forever-openai.js:1 | export async function brianCoConcierge(message){
+C:\Users\user\brianco-backend-clean\lib\localization\engine.js:1 | export function getLocalization(region){
+C:\Users\user\brianco-backend-clean\lib\recommendations\engine.js:1 | export function recommendProducts(profile){
+C:\Users\user\brianco-backend-clean\lib\security.js:1 | import crypto from "crypto";
+C:\Users\user\brianco-backend-clean\lib\security.js:3 | export function cleanShop(shop) {
+C:\Users\user\brianco-backend-clean\lib\security.js:9 | export function verifyretired-commerce-platformHmac(query, secret) {
+C:\Users\user\brianco-backend-clean\lib\security.js:41 | export function safePreview(value) {
+C:\Users\user\brianco-backend-clean\lib\seo\engine.js:1 | export function generateSeo(product){
+C:\Users\user\brianco-backend-clean\lib\supabase.js:1 | export async function supabaseRequest(path, options = {}) {
+C:\Users\user\brianco-backend-clean\lib\trust\safety.js:1 | export function safetyCheck(input){
+C:\Users\user\brianco-backend-clean\pages\absolute-master-continuity-product-master\index.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\absolute-master-continuity-product-master\index.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\absolute-master-continuity-product-master\index.js:4 | export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\absolute-master-continuity-product-master\index.js:11 | export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\absolute-master-handoff-continuity\index.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\absolute-master-handoff-continuity\index.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\absolute-master-handoff-continuity\index.js:4 | export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\absolute-master-handoff-continuity\index.js:11 | export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\accessibility-care-expansion\index.js:1 | import {useEffect,useState} from "react";
+C:\Users\user\brianco-backend-clean\pages\accessibility-care-expansion\index.js:2 | import {theme} from "../../lib/brianco-native/ui";
+C:\Users\user\brianco-backend-clean\pages\accessibility-care-expansion\index.js:4 | export default function AccessibilityCareExpansion(){
+C:\Users\user\brianco-backend-clean\pages\accessibility-intelligence-master\index.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\accessibility-intelligence-master\index.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\accessibility-intelligence-master\index.js:4 | export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\accessibility-intelligence-master\index.js:11 | export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\accessibility-intelligence\index.js:1 | import { useEffect, useState } from "react";
+C:\Users\user\brianco-backend-clean\pages\accessibility-intelligence\index.js:2 | import { theme } from "../../lib/brianco-native/ui";
+C:\Users\user\brianco-backend-clean\pages\accessibility-intelligence\index.js:4 | export default function AccessibilityIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\accessibility-localization-command\index.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\accessibility-localization-command\index.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\accessibility-localization-command\index.js:4 | export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\accessibility-localization-command\index.js:12 | export default function Page({ data }) {
+C:\Users\user\brianco-backend-clean\pages\accessibility-localization-growth-expansion\index.js:1 | import {useEffect,useState} from "react";
+C:\Users\user\brianco-backend-clean\pages\accessibility-localization-growth-expansion\index.js:2 | import {theme} from "../../lib/brianco-native/ui";
+C:\Users\user\brianco-backend-clean\pages\accessibility-localization-growth-expansion\index.js:4 | export default function Phase97(){
+C:\Users\user\brianco-backend-clean\pages\account-access.js:1 | import { useState } from "react";
+C:\Users\user\brianco-backend-clean\pages\account-access.js:3 | export default function AccountAccess() {
+C:\Users\user\brianco-backend-clean\pages\account\access.js:1 | import { theme, NativeAccessNotice } from "../../lib/brianco-native/ui";
+C:\Users\user\brianco-backend-clean\pages\account\access.js:3 | export default function AccountAccess() {
+C:\Users\user\brianco-backend-clean\pages\accountant-receipt-expense-master\index.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\accountant-receipt-expense-master\index.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\accountant-receipt-expense-master\index.js:4 | export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\accountant-receipt-expense-master\index.js:11 | export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\admin-companion-intelligence\index.js:1 | import {useEffect,useState} from "react";
+C:\Users\user\brianco-backend-clean\pages\admin-companion-intelligence\index.js:2 | import {theme} from "../../lib/brianco-native/ui";
+C:\Users\user\brianco-backend-clean\pages\admin-companion-intelligence\index.js:4 | export default function AdminCompanionIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\api\absolute-master-continuity-product-master\dashboard.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\api\absolute-master-continuity-product-master\dashboard.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\api\absolute-master-continuity-product-master\dashboard.js:4 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\absolute-master-handoff-continuity\dashboard.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\api\absolute-master-handoff-continuity\dashboard.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\api\absolute-master-handoff-continuity\dashboard.js:4 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-care-expansion\dashboard.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-care-expansion\dashboard.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-care-expansion\dashboard.js:4 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-intelligence-master\dashboard.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-intelligence-master\dashboard.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-intelligence-master\dashboard.js:4 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-intelligence\dashboard.js:1 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-localization-command\dashboard.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-localization-command\dashboard.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-localization-command\dashboard.js:3 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-localization-growth-expansion\dashboard.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-localization-growth-expansion\dashboard.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-localization-growth-expansion\dashboard.js:4 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\account-entitlements.js:1 | import { findCustomerByEmail, parseTags, updateCustomerTagsAndNote } from "../../lib/brianco-retired-commerce-platform-customer";
+C:\Users\user\brianco-backend-clean\pages\api\account-entitlements.js:16 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\accountant-receipt-expense-master\dashboard.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\api\accountant-receipt-expense-master\dashboard.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\api\accountant-receipt-expense-master\dashboard.js:4 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\admin-companion-intelligence\dashboard.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\api\admin-companion-intelligence\dashboard.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\api\admin-companion-intelligence\dashboard.js:4 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\approval-automation\queues.js:1 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\approval-governance-growth-expansion\dashboard.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\api\approval-governance-growth-expansion\dashboard.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\api\approval-governance-growth-expansion\dashboard.js:4 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\approvals.js:86 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\approvals\queues.js:1 | export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\auth-native\readiness.js:1 | export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\automation-coordination-expansion\dashboard.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\api\automation-coordination-expansion\dashboard.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\api\automation-coordination-expansion\dashboard.js:4 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\autonomous-recommendation-expansion\dashboard.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\api\autonomous-recommendation-expansion\dashboard.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\api\autonomous-recommendation-expansion\dashboard.js:4 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\brand-image-tone-master\dashboard.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\api\brand-image-tone-master\dashboard.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\api\brand-image-tone-master\dashboard.js:4 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\brand-tone-protection\dashboard.ts:1 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\brianco-century-command-expansion\dashboard.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\api\brianco-century-command-expansion\dashboard.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\api\brianco-century-command-expansion\dashboard.js:4 | export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\brianco-command\audit.js:1 | export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\brianco-command\index.js:1 | export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\brianco-gateway.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\brianco\gateway.js:1 | import fs from "fs";
+C:\Users\user\brianco-backend-clean\pages\api\brianco\gateway.js:2 | import path from "path";
+C:\Users\user\brianco-backend-clean\pages\api\brianco\gateway.js:15 | export default function handler(req, res) {
+
+ROUTE / API SAMPLE:
+C:\Users\user\brianco-backend-clean\api\accessibility-localization.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"accessibility-localization",accessibility:["text sizing","reduced motion","high contrast","screen-reader labels","captions ready","keyboard navigation"],localization:["language routing","currency ready","regional SEO ready"],status:"scaffolded"});}
+C:\Users\user\brianco-backend-clean\api\api\CurrentLumenSetup-callback.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\api\CurrentLumenSetup-callback.js:13 | method: "POST",
+C:\Users\user\brianco-backend-clean\api\api\CurrentLumenSetup-callback.js:18 | client_id: process.env.current Lumen setup_API_KEY,
+C:\Users\user\brianco-backend-clean\api\api\CurrentLumenSetup-callback.js:19 | client_secret: process.env.current Lumen setup_API_SECRET,
+C:\Users\user\brianco-backend-clean\api\auth-options.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"auth-options",methods:["current Lumen setup customer accounts","email magic link","Google OAuth","Apple sign-in","Microsoft sign-in","passkeys/WebAuthn","guest mode"],status:"scaffolded"});}
+C:\Users\user\brianco-backend-clean\api\backup-products.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\backup-products.js:4 | const token = process.env.current Lumen setup_ADMIN_API_TOKEN;
+C:\Users\user\brianco-backend-clean\api\backup-products.js:13 | const response = await fetch(`https://${shop}/admin/api/2025-04/products.json?limit=250`, {
+C:\Users\user\brianco-backend-clean\api\brain\event.js:3 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\brain\event.js:4 | if (req.method !== "POST") return res.status(405).json({ ok:false, message:"POST required" });
+C:\Users\user\brianco-backend-clean\api\brain\interact.js:1 | import { saveInteraction, getUserState } from "../../lib/brianco-memory.js";
+C:\Users\user\brianco-backend-clean\api\brain\interact.js:3 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\brain\interact.js:4 | if (req.method !== "POST") return res.status(405).json({ ok:false, message:"POST required" });
+C:\Users\user\brianco-backend-clean\api\brain\interact.js:9 | state: getUserState(saved.userId),
+C:\Users\user\brianco-backend-clean\api\brain\interact.js:11 | "Everything feasible routes through the Brian & Co chatbot.",
+C:\Users\user\brianco-backend-clean\api\brain\user.js:1 | import { getUserState } from "../../lib/brianco-memory.js";
+C:\Users\user\brianco-backend-clean\api\brain\user.js:3 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\brain\user.js:5 | res.status(200).json({ ok:true, state: getUserState(userId) });
+C:\Users\user\brianco-backend-clean\api\chat.js:8 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\chat.js:9 | if (req.method !== "POST") {
+C:\Users\user\brianco-backend-clean\api\chat.js:34 | `https://${store}/api/2025-10/graphql.json`,
+C:\Users\user\brianco-backend-clean\api\chat.js:36 | method: "POST",
+C:\Users\user\brianco-backend-clean\api\chat.js:96 | const response = await fetch("https://api.openai.com/v1/chat/completions", {
+C:\Users\user\brianco-backend-clean\api\chat.js:97 | method: "POST",
+C:\Users\user\brianco-backend-clean\api\chat.js:100 | Authorization: `Bearer ${process.env.OPENAI_API_KEY}`
+C:\Users\user\brianco-backend-clean\api\collections.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\collections.js:3 | const token = process.env.current Lumen setup_ADMIN_API_TOKEN;
+C:\Users\user\brianco-backend-clean\api\collections.js:10 | message: "Missing current Lumen setup_ADMIN_API_TOKEN in Vercel.",
+C:\Users\user\brianco-backend-clean\api\collections.js:16 | const response = await fetch(`https://${store}/admin/api/2025-04/custom_collections.json?limit=20`, {
+C:\Users\user\brianco-backend-clean\api\concierge.js:13 | async function getProducts(baseUrl) {
+C:\Users\user\brianco-backend-clean\api\concierge.js:15 | const response = await fetch(`${baseUrl}/api/products`);
+C:\Users\user\brianco-backend-clean\api\concierge.js:23 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\concierge.js:24 | const message = req.method === "POST" ? req.body?.message : req.query?.message;
+C:\Users\user\brianco-backend-clean\api\concierge.js:28 | const products = await getProducts(baseUrl);
+C:\Users\user\brianco-backend-clean\api\concierge.js:39 | "Connect website chatbot frontend to POST /api/concierge",
+C:\Users\user\brianco-backend-clean\api\concierge.js:42 | "Add Supabase memory/personalization after route stability",
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:6 | function cleanShop(input) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:7 | if (!input) return "";
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:8 | let shop = String(input).trim().toLowerCase();
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:15 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:29 | const clientId = process.env.current Lumen setup_API_KEY || process.env.current Lumen setup_CLIENT_ID || "";
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:30 | const clientSecret = process.env.current Lumen setup_API_SECRET || process.env.current Lumen setup_CLIENT_SECRET || "";
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:35 | message: "Missing current Lumen setup API key or secret in Vercel.",
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:44 | method: "POST",
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:70 | message: "current Lumen setup OAuth callback succeeded. Copy access_token into current Lumen setup_ADMIN_API_TOKEN in Vercel if not automatically stored yet.",
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:79 | route: "current Lumen setup-callback",
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-install.js:6 | function cleanShop(input) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-install.js:7 | if (!input) return "";
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-install.js:8 | let shop = String(input).trim().toLowerCase();
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-install.js:19 | function base64url(input) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-install.js:20 | return Buffer.from(input).toString("base64url");
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-install.js:23 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-install.js:42 | process.env.current Lumen setup_API_KEY ||
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-install.js:49 | message: "Missing current Lumen setup_API_KEY or current Lumen setup_CLIENT_ID in Vercel."
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-install.js:60 | const redirectUri = `${appUrl.replace(/\/$/, "")}/api/current Lumen setup-callback`;
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-install.js:89 | route: "current Lumen setup-install",
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\callback.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\callback.js:10 | method: "POST",
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\callback.js:15 | client_id: process.env.current Lumen setup_API_KEY,
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\callback.js:16 | client_secret: process.env.current Lumen setup_API_SECRET,
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\callback.js:33 | message: "current Lumen setup OAuth installed successfully. Copy this access token into Vercel as current Lumen setup_ADMIN_API_TOKEN.",
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\install.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\install.js:3 | const apiKey = process.env.current Lumen setup_API_KEY;
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\install.js:5 | const redirectUri = "https://brianco-backend-clean.vercel.app/api/current Lumen setup/callback";
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\install.js:7 | if (!apiKey) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\install.js:8 | return res.status(500).send("Missing current Lumen setup_API_KEY");
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\install.js:12 | `https://${shop}/admin/oauth/authorize?client_id=${apiKey}` +
+C:\Users\user\brianco-backend-clean\api\digital-delivery.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"digital-delivery",type:"digital",requiresShipping:false,fulfillment:"secure entitlement/download flow scaffolded"});}
+C:\Users\user\brianco-backend-clean\api\founder-status.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"founder-status",service:"Brian & Co Founder Command Center",protected:true,founderControlled:true,time:new Date().toISOString()});}
+C:\Users\user\brianco-backend-clean\api\health.js:2 | export default async function handler(req,res){
+C:\Users\user\brianco-backend-clean\api\health.js:10 | current Lumen setupAdminToken:!!process.env.current Lumen setup_ADMIN_API_TOKEN,
+C:\Users\user\brianco-backend-clean\api\health.js:11 | openAI:!!process.env.OPENAI_API_KEY
+C:\Users\user\brianco-backend-clean\api\intelligence.js:8 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\intelligence.js:10 | if (req.method === "GET") {
+C:\Users\user\brianco-backend-clean\api\intelligence.js:21 | if (req.method === "POST") {
+C:\Users\user\brianco-backend-clean\api\intelligence.js:36 | competitor_targets: body.competitor_targets || [],
+C:\Users\user\brianco-backend-clean\api\intelligence.js:49 | error: "Intelligence route failed",
+C:\Users\user\brianco-backend-clean\api\next-steps.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\next-steps.js:7 | "Verify /api/health",
+C:\Users\user\brianco-backend-clean\api\next-steps.js:8 | "Verify /api/secret-health",
+C:\Users\user\brianco-backend-clean\api\next-steps.js:9 | "Verify /api/products",
+C:\Users\user\brianco-backend-clean\api\next-steps.js:10 | "Verify /api/collections",
+C:\Users\user\brianco-backend-clean\api\next-steps.js:11 | "Verify /api/concierge",
+C:\Users\user\brianco-backend-clean\api\next-steps.js:12 | "Connect website chatbot frontend to /api/concierge",
+C:\Users\user\brianco-backend-clean\api\products.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\products.js:3 | const token = process.env.current Lumen setup_ADMIN_API_TOKEN;
+C:\Users\user\brianco-backend-clean\api\products.js:10 | message: "Missing current Lumen setup_ADMIN_API_TOKEN in Vercel.",
+C:\Users\user\brianco-backend-clean\api\products.js:16 | const response = await fetch(`https://${store}/admin/api/2025-04/products.json?limit=20`, {
+C:\Users\user\brianco-backend-clean\api\risk-score.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"risk-score",status:"scaffolded",captcha:true,fraudReview:true,moderation:true,note:"Use lawful vetted signals only. Do not store raw card data."});}
+C:\Users\user\brianco-backend-clean\api\score.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\score.js:4 | const token = process.env.current Lumen setup_ADMIN_API_TOKEN;
+C:\Users\user\brianco-backend-clean\api\score.js:6 | const shopResponse = await fetch(`https://${shop}/admin/api/2025-04/shop.json`, {
+C:\Users\user\brianco-backend-clean\api\score.js:10 | const productsResponse = await fetch(`https://${shop}/admin/api/2025-04/products/count.json`, {
+C:\Users\user\brianco-backend-clean\api\secret-health.js:1 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\secret-health.js:4 | current Lumen setup_ADMIN_API_TOKEN: Boolean(process.env.current Lumen setup_ADMIN_API_TOKEN),
+C:\Users\user\brianco-backend-clean\api\secret-health.js:5 | OPENAI_API_KEY: Boolean(process.env.OPENAI_API_KEY),
+C:\Users\user\brianco-backend-clean\api\seed-digital-products-OFF.js:22 | export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\seed-digital-products-OFF.js:25 | const token = process.env.current Lumen setup_ADMIN_API_TOKEN;
+C:\Users\user\brianco-backend-clean\api\seed-digital-products-OFF.js:38 | `https://${shop}/admin/api/2025-04/products.json`,
+C:\Users\user\brianco-backend-clean\api\seed-digital-products-OFF.js:40 | method: "POST",
+C:\Users\user\brianco-backend-clean\api\seed-products.js:4 | const token=process.env.current Lumen setup_ADMIN_API_TOKEN;
+C:\Users\user\brianco-backend-clean\api\seed-products.js:5 | if(!shop||!token) throw new Error("Missing current Lumen setup_STORE_DOMAIN or current Lumen setup_ADMIN_API_TOKEN.");
+C:\Users\user\brianco-backend-clean\api\seed-products.js:6 | return {shop,token,base:`https://${shop}/admin/api/2024-10`};
+C:\Users\user\brianco-backend-clean\api\seed-products.js:37 | export default async function handler(req,res){
+C:\Users\user\brianco-backend-clean\api\seed-products.js:43 | method:"POST",
+C:\Users\user\brianco-backend-clean\api\seo-status.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"seo-status",title:"Brian & Co",structuredDataReady:true,sitemapReady:true,altTextRequired:true,status:"scaffolded"});}
+C:\Users\user\brianco-backend-clean\api\status.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"status",service:"Brian & Co live status",time:new Date().toISOString()});}
+C:\Users\user\brianco-backend-clean\api\storefront-feed.js:1 | export default async function handler(req,res){res.status(200).json({ok:true,route:"storefront-feed",message:"Storefront feed route restored. Next expansion connects live current Lumen setup product cards."});}
+C:\Users\user\brianco-backend-clean\app\layout.jsx:3 | description: "Brian & Co backend and API service."
+C:\Users\user\brianco-backend-clean\app\os\page.tsx:53 | Brian & Co Intelligence OS™ is envisioned as a luxury, device-adaptive digital environment that brings together productivity, media creation,
+C:\Users\user\brianco-backend-clean\app\upload\page.jsx:25 | <label>Name <input name="name" /></label>
+C:\Users\user\brianco-backend-clean\app\upload\page.jsx:26 | <label>Email <input name="email" type="email" /></label>
+C:\Users\user\brianco-backend-clean\app\upload\page.jsx:27 | <label>Region / Country <input name="region" /></label>
+C:\Users\user\brianco-backend-clean\app\upload\page.jsx:28 | <label>Portfolio or Website <input name="portfolio" /></label>
+C:\Users\user\brianco-backend-clean\app\upload\page.jsx:31 | <input name="media" type="file" multiple accept="image/*,video/*" />
+C:\Users\user\brianco-backend-clean\app\upload\page.jsx:35 | <input type="checkbox" required />
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-data.js:4 | apiOnlyIfCliCannotDoSafeAction: true,
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-data.js:5 | noApiTokensForThemeWork: true,
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-data.js:22 | "API tokens",
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-layer.css:78 | .brianco-master-output {
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-layer.js:4 | const layer = document.getElementById("brianco-additive-master-layer");
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-layer.js:5 | const output = document.getElementById("brianco-master-output");
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-layer.js:7 | if (!layer || !output) return;
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-layer.js:20 | "Role preview: customers, suppliers, artisans, creators, influencers, investors, bankers, lawyers, admins, job seekers, nonprofits, writers, and poets can be routed through role-appropriate guidance without touching protected systems.",
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-layer.js:23 | "Approval preview: public, legal, pricing, policy, product, backend, OAuth, API, and payment-impacting changes should remain founder-approved and lawyer/accountant-reviewed where appropriate.",
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-layer.js:26 | "Protected preview: existing current Lumen setup products, product images, prices, inventory, collections, checkout, payments, backend, OAuth, API tokens, and live publishing remain blocked unless Brian explicitly approves the exact change."
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-layer.js:30 | const action = event.target && event.target.getAttribute("data-brianco-master-action");
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-layer.js:33 | output.textContent = responses[action];
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-layer.js:41 | const last = localStorage.getItem("brianco_master_last_pathway");
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-layer.js:42 | if (last && responses[last]) output.textContent = responses[last];
+C:\Users\user\brianco-backend-clean\assets\brianco-chatbot-master-behavior.js:5 | answer: async function(input) {
+C:\Users\user\brianco-backend-clean\assets\brianco-chatbot-master-behavior.js:7 | const text = String(input || '').toLowerCase();
+C:\Users\user\brianco-backend-clean\assets\brianco-chatbot-master-behavior.js:55 | if (document.getElementById('brianco-chatbot-master-toggle')) {
+C:\Users\user\brianco-backend-clean\assets\brianco-concierge-accessibility.css:61 | .brianco-chat-input {
+C:\Users\user\brianco-backend-clean\assets\brianco-concierge-accessibility.css:84 | .brianco-chat-input {
+C:\Users\user\brianco-backend-clean\assets\brianco-concierge-accessibility.js:4 | const root = document.getElementById("brianco-concierge-root");
+C:\Users\user\brianco-backend-clean\assets\brianco-concierge-accessibility.js:7 | const toggle = document.getElementById("brianco-concierge-toggle");
+C:\Users\user\brianco-backend-clean\assets\brianco-concierge-accessibility.js:8 | const panel = document.getElementById("brianco-concierge-panel");
+C:\Users\user\brianco-backend-clean\assets\brianco-concierge-accessibility.js:9 | const input = document.getElementById("brianco-chat-input");
+C:\Users\user\brianco-backend-clean\assets\brianco-concierge-accessibility.js:10 | const button = document.getElementById("brianco-chat-button");
+C:\Users\user\brianco-backend-clean\assets\brianco-concierge-accessibility.js:11 | const response = document.getElementById("brianco-chat-response");
+C:\Users\user\brianco-backend-clean\assets\brianco-concierge-accessibility.js:12 | const language = document.getElementById("brianco-language-select");
+C:\Users\user\brianco-backend-clean\assets\brianco-concierge-accessibility.js:31 | return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+C:\Users\user\brianco-backend-clean\assets\brianco-concierge-accessibility.js:73 | return "I can recommend physical or digital options by role, need, accessibility preference, and budget tier once connected to approved product data. Existing products remain protected.";
+C:\Users\user\brianco-backend-clean\assets\brianco-concierge-accessibility.js:107 | const action = event.target && event.target.getAttribute("data-brianco-action");
+C:\Users\user\brianco-backend-clean\assets\brianco-concierge-accessibility.js:140 | response.textContent = replyTo(input.value);
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.css:10 | .brianco-panel input{width:100%;box-sizing:border-box;padding:12px;border-radius:12px;margin:10px 0}
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:2 | function getConfig(){
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:4 | const raw=document.getElementById("brianco-backend-config")?.textContent || "{}";
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:7 | return {backend:"https://brianco-backend-clean.vercel.app/api/index",routes:{}};
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:11 | const cfg=getConfig();
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:14 | async function api(route, params={}){
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:15 | const q=new URLSearchParams({route,...params});
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:22 | const role=localStorage.getItem("brianco_role") || "customer";
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:23 | const tier=localStorage.getItem("brianco_tier") || "standard";
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:25 | const region=localStorage.getItem("brianco_region") || "US";
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:27 | const data=await api("adaptive-live-personalization",{role,tier,language,region});
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:41 | const box=document.getElementById("brianco-live-products");
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:45 | const data=await api("concierge");
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:57 | : "<article><h3>Digital products and recommendations are being prepared.</h3><p>Check current Lumen setup products, backend env, and concierge route.</p></article>";
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:69 | const send=document.getElementById("brianco-send");
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:70 | const input=document.getElementById("brianco-message");
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:71 | const out=document.getElementById("brianco-response");
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:73 | if(send && input && out){
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js:77 | const d=await api("live-concierge",{message:input.value||"Recommend something"});
+C:\Users\user\brianco-backend-clean\assets\brianco-continuity-overlay.js:6 | "backend","oauth","api","token","secret","env","payment",
+C:\Users\user\brianco-backend-clean\assets\brianco-continuity-overlay.js:13 | "deploy","backend","oauth","api"
+C:\Users\user\brianco-backend-clean\assets\brianco-continuity-overlay.js:18 | const p = document.getElementById("bc-panel");
+C:\Users\user\brianco-backend-clean\assets\brianco-continuity-overlay.js:22 | function normalize(input) {
+C:\Users\user\brianco-backend-clean\assets\brianco-continuity-overlay.js:23 | return String(input || "")
+C:\Users\user\brianco-backend-clean\assets\brianco-continuity-overlay.js:60 | const existing = JSON.parse(localStorage.getItem(key) || "[]");
+C:\Users\user\brianco-backend-clean\assets\brianco-continuity-overlay.js:68 | const current = Number(localStorage.getItem("bc_text_scale") || "1");
+C:\Users\user\brianco-backend-clean\assets\brianco-continuity-overlay.js:76 | const panel = document.getElementById("bc-panel");
+C:\Users\user\brianco-backend-clean\assets\brianco-continuity-overlay.js:85 | const role = e.target.closest("[data-bc-role]");
+C:\Users\user\brianco-backend-clean\assets\brianco-continuity-overlay.js:89 | role: role.getAttribute("data-bc-role"),
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:19 | ["Influencer Campaign Kit", "À la carte", "$49", "Post ideas, captions, tracking guidance, and affiliate messaging."],
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:33 | return JSON.parse(localStorage.getItem(STORE_KEY) || "{}");
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:45 | if (document.getElementById("bc-system-style")) return;
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:81 | .bc-input{
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:190 | var target =
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:191 | document.getElementById("bc-private-offers");
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:193 | if (!target) return;
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:195 | target.innerHTML = "";
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:216 | target.appendChild(section);
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:225 | if (!document.getElementById("bc-panel")) {
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:243 | <input
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:245 | class="bc-input"
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:264 | <input
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:266 | class="bc-input"
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:282 | <input
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:284 | class="bc-input"
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:291 | <input
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:293 | class="bc-input"
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:316 | if (!document.getElementById("bc-toggle")) {
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:327 | document.getElementById("bc-toggle").onclick =
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:331 | document.getElementById("bc-panel");
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:339 | document.getElementById("bc-save").onclick =
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:345 | document.getElementById("bc-lang").value.trim();
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js:348 | document.getElementById("bc-role").value.trim();
+
+FILES SCANNED:
+C:\Users\user\brianco-backend-clean\api\accessibility-localization.js
+C:\Users\user\brianco-backend-clean\api\api\CurrentLumenSetup-callback.js
+C:\Users\user\brianco-backend-clean\api\auth-options.js
+C:\Users\user\brianco-backend-clean\api\backup-products.js
+C:\Users\user\brianco-backend-clean\api\brain\event.js
+C:\Users\user\brianco-backend-clean\api\brain\interact.js
+C:\Users\user\brianco-backend-clean\api\brain\user.js
+C:\Users\user\brianco-backend-clean\api\chat.js
+C:\Users\user\brianco-backend-clean\api\collections.js
+C:\Users\user\brianco-backend-clean\api\concierge.js
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-install.js
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\callback.js
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\install.js
+C:\Users\user\brianco-backend-clean\api\digital-delivery.js
+C:\Users\user\brianco-backend-clean\api\founder-status.js
+C:\Users\user\brianco-backend-clean\api\health.js
+C:\Users\user\brianco-backend-clean\api\intelligence.js
+C:\Users\user\brianco-backend-clean\api\next-steps.js
+C:\Users\user\brianco-backend-clean\api\products.js
+C:\Users\user\brianco-backend-clean\api\risk-score.js
+C:\Users\user\brianco-backend-clean\api\score.js
+C:\Users\user\brianco-backend-clean\api\secret-health.js
+C:\Users\user\brianco-backend-clean\api\seed-digital-products-OFF.js
+C:\Users\user\brianco-backend-clean\api\seed-products.js
+C:\Users\user\brianco-backend-clean\api\seo-status.js
+C:\Users\user\brianco-backend-clean\api\status.js
+C:\Users\user\brianco-backend-clean\api\storefront-feed.js
+C:\Users\user\brianco-backend-clean\app\admin\upload-reviews\page.jsx
+C:\Users\user\brianco-backend-clean\app\careers\page.jsx
+C:\Users\user\brianco-backend-clean\app\layout.jsx
+C:\Users\user\brianco-backend-clean\app\os\page.tsx
+C:\Users\user\brianco-backend-clean\app\products\briancoOSProducts.ts
+C:\Users\user\brianco-backend-clean\app\subscriptions\page.jsx
+C:\Users\user\brianco-backend-clean\app\suppliers\page.jsx
+C:\Users\user\brianco-backend-clean\app\upload\page.jsx
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-data.js
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-layer.css
+C:\Users\user\brianco-backend-clean\assets\brianco-additive-master-layer.js
+C:\Users\user\brianco-backend-clean\assets\brianco-chatbot-master-behavior.js
+C:\Users\user\brianco-backend-clean\assets\brianco-command-center.css
+C:\Users\user\brianco-backend-clean\assets\brianco-command-center.js
+C:\Users\user\brianco-backend-clean\assets\brianco-concierge-accessibility.css
+C:\Users\user\brianco-backend-clean\assets\brianco-concierge-accessibility.js
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.css
+C:\Users\user\brianco-backend-clean\assets\brianco-connected.js
+C:\Users\user\brianco-backend-clean\assets\brianco-continuity-overlay.css
+C:\Users\user\brianco-backend-clean\assets\brianco-continuity-overlay.js
+C:\Users\user\brianco-backend-clean\assets\brianco-digital-ecosystem.css
+C:\Users\user\brianco-backend-clean\assets\brianco-human-chatbot-memory.js
+C:\Users\user\brianco-backend-clean\assets\brianco-last20-command-center.css
+C:\Users\user\brianco-backend-clean\assets\brianco-last20-command-center.js
+C:\Users\user\brianco-backend-clean\assets\brianco-live-enhancements.css
+C:\Users\user\brianco-backend-clean\assets\brianco-live-enhancements.js
+C:\Users\user\brianco-backend-clean\assets\brianco-live-system.js
+C:\Users\user\brianco-backend-clean\assets\brianco-master-command-center.css
+C:\Users\user\brianco-backend-clean\assets\brianco-master-command-center.js
+C:\Users\user\brianco-backend-clean\assets\brianco-previous-code-intelligence.js
+C:\Users\user\brianco-backend-clean\assets\brianco-protected-product-lab.css
+C:\Users\user\brianco-backend-clean\assets\brianco-realtime-overlay.css
+C:\Users\user\brianco-backend-clean\assets\brianco-realtime-overlay.js
+C:\Users\user\brianco-backend-clean\assets\brianco-supplier-command-center.css
+C:\Users\user\brianco-backend-clean\assets\brianco-supplier-command-center.js
+C:\Users\user\brianco-backend-clean\assets\brianco.css
+C:\Users\user\brianco-backend-clean\components\accessibility\Toolbar.jsx
+C:\Users\user\brianco-backend-clean\components\BrianCoTextConcierge.js
+C:\Users\user\brianco-backend-clean\components\concierge\Card.jsx
+C:\Users\user\brianco-backend-clean\components\Dashboard.jsx
+C:\Users\user\brianco-backend-clean\components\uploads\MediaReviewCard.jsx
+C:\Users\user\brianco-backend-clean\lib\brianco-auth\authConfig.js
+C:\Users\user\brianco-backend-clean\lib\brianco-catalog\collections.js
+C:\Users\user\brianco-backend-clean\lib\brianco-CurrentLumenSetup-customer.js
+C:\Users\user\brianco-backend-clean\lib\brianco-db.js
+C:\Users\user\brianco-backend-clean\lib\brianco-memory.js
+C:\Users\user\brianco-backend-clean\lib\brianco-native\ui.js
+C:\Users\user\brianco-backend-clean\lib\brianco-openai.js
+C:\Users\user\brianco-backend-clean\lib\brianco-role-intelligence\roles.js
+C:\Users\user\brianco-backend-clean\lib\brianco-visual-system.js
+C:\Users\user\brianco-backend-clean\lib\brianco\audit-ledger.ts
+C:\Users\user\brianco-backend-clean\lib\brianco\continuity-service.ts
+C:\Users\user\brianco-backend-clean\lib\brianco\entitlements.ts
+C:\Users\user\brianco-backend-clean\lib\brianco\upgrade-recommendations.ts
+C:\Users\user\brianco-backend-clean\lib\CurrentLumenSetup-oauth.js
+C:\Users\user\brianco-backend-clean\lib\CurrentLumenSetup.js
+C:\Users\user\brianco-backend-clean\lib\forever-openai.js
+C:\Users\user\brianco-backend-clean\lib\localization\engine.js
+C:\Users\user\brianco-backend-clean\lib\recommendations\engine.js
+C:\Users\user\brianco-backend-clean\lib\security.js
+C:\Users\user\brianco-backend-clean\lib\seo\engine.js
+C:\Users\user\brianco-backend-clean\lib\supabase.js
+C:\Users\user\brianco-backend-clean\lib\trust\safety.js
+C:\Users\user\brianco-backend-clean\pages\absolute-master-continuity-product-master\index.js
+C:\Users\user\brianco-backend-clean\pages\absolute-master-handoff-continuity\index.js
+C:\Users\user\brianco-backend-clean\pages\accessibility-care-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\accessibility-intelligence-master\index.js
+C:\Users\user\brianco-backend-clean\pages\accessibility-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\accessibility-localization-command\index.js
+C:\Users\user\brianco-backend-clean\pages\accessibility-localization-growth-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\account-access.js
+C:\Users\user\brianco-backend-clean\pages\account\access.js
+C:\Users\user\brianco-backend-clean\pages\accountant-receipt-expense-master\index.js
+C:\Users\user\brianco-backend-clean\pages\admin-companion-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\api\absolute-master-continuity-product-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\absolute-master-handoff-continuity\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-care-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-intelligence-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-localization-command\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-localization-growth-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\account-entitlements.js
+C:\Users\user\brianco-backend-clean\pages\api\accountant-receipt-expense-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\admin-companion-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\approval-automation\queues.js
+C:\Users\user\brianco-backend-clean\pages\api\approval-governance-growth-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\approvals.js
+C:\Users\user\brianco-backend-clean\pages\api\approvals\queues.js
+C:\Users\user\brianco-backend-clean\pages\api\auth-native\readiness.js
+C:\Users\user\brianco-backend-clean\pages\api\automation-coordination-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\autonomous-recommendation-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\brand-image-tone-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\brand-tone-protection\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\brianco-century-command-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\brianco-command\audit.js
+C:\Users\user\brianco-backend-clean\pages\api\brianco-command\index.js
+C:\Users\user\brianco-backend-clean\pages\api\brianco-gateway.js
+C:\Users\user\brianco-backend-clean\pages\api\brianco\gateway.js
+C:\Users\user\brianco-backend-clean\pages\api\brianco\gateway\continuity.js
+C:\Users\user\brianco-backend-clean\pages\api\career-resume-job-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\chat.js
+C:\Users\user\brianco-backend-clean\pages\api\chatbot-intelligence\intent.js
+C:\Users\user\brianco-backend-clean\pages\api\chatbot-intelligence\summary.js
+C:\Users\user\brianco-backend-clean\pages\api\cli-intelligence\snapshot.js
+C:\Users\user\brianco-backend-clean\pages\api\collections.js
+C:\Users\user\brianco-backend-clean\pages\api\command-center.js
+C:\Users\user\brianco-backend-clean\pages\api\command-center\metrics.js
+C:\Users\user\brianco-backend-clean\pages\api\commerce-evolution\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\commerce-growth-intelligence-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\commerce-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\commerce-recommendation-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\communication-hub\summary.js
+C:\Users\user\brianco-backend-clean\pages\api\communication-notification-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\community-support-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\continuity-governance-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\create-founder-account.js
+C:\Users\user\brianco-backend-clean\pages\api\creator-campaign-growth-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\creator-influencer-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\creator-video-editor-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\cross-system-learning\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\custom-work-nonrefundable-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\custom-work-production-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\customer-intelligence-layer\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\customer-intelligence\summary.js
+C:\Users\user\brianco-backend-clean\pages\api\customer-lifecycle-intelligence-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\customer-portal-engine\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\deployment-playwright-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\digital-membership-growth-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\digital-product-drafts.js
+C:\Users\user\brianco-backend-clean\pages\api\digital-product-growth-command\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\digital-product-intelligence-v2\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\digital-work.js
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-analytics-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-command\master.js
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-continuity\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-growth-coordination-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-insights\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-optimization\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-orchestration-command\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-orchestration-expansion-v2\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-orchestration\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-performance-intelligence-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\entitlement-my-products-command\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\entitlement-product-registry-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\event-festival-intelligence-v2\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\event-festival-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\event-intake\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\event-vendor-artisan-creator-participation\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\events\cheyenne.js
+C:\Users\user\brianco-backend-clean\pages\api\executive-decision-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\executive-intelligence-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\experience-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\fort-knox-vault-continuity\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\founder-approval-compliance\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\founder-command-center-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\founder-command-center\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\founder-command-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\founder-ecosystem-intelligence-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\founder-gate.js
+C:\Users\user\brianco-backend-clean\pages\api\founder-intelligence-network-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\founder-knowledge\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\founder-operations-command-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\founder-operations-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\founder-opportunity-intelligence-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\founder-ops\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\founder-reports-audit-command\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\founder-revenue-command-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\founder-strategic-command-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\founder.js
+C:\Users\user\brianco-backend-clean\pages\api\free-os-foundation-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\full-project-audit\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\future-os-device-ecosystem-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\growth-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\health-caregiver-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\health.js
+C:\Users\user\brianco-backend-clean\pages\api\identity-continuity-growth-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\income-tier-command\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\intelligence\experience.js
+C:\Users\user\brianco-backend-clean\pages\api\intelligence\sales-orders.js
+C:\Users\user\brianco-backend-clean\pages\api\interaction-logging\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\lawyer-review-routing-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\legal-approval-center\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\legal-contract-policy-lifecycle-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\legal-signature-approval-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\legal\live\action.ts
+C:\Users\user\brianco-backend-clean\pages\api\legal\live\records.ts
+C:\Users\user\brianco-backend-clean\pages\api\local-events-festival-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\local-intelligence\events.js
+C:\Users\user\brianco-backend-clean\pages\api\localization-cultural-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\localization-intelligence-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\localization-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\luxury-brand-outreach-center\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\luxury-resale-intelligence\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\market-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\master-protection\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\meeting-transcript-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\meeting-transcript-video-command\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\membership-subscription-intelligence-v2\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\memory-continuity-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\memory-continuity-learning-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\native-identity-experience-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\native-identity\readiness.js
+C:\Users\user\brianco-backend-clean\pages\api\native-language-experience\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\native\customer-dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\opportunity-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\opportunity-growth-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\opportunity-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\orchestration-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\origin-policy-marketplace-layer\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\origin-provenance-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\os-chatbot-continuity-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\os-shared-intelligence-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\personalization-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\personalization\role.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-001-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-002-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-003-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-004-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-005-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-006-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-007-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-008-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-009-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-010-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-011-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-012-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-013-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-014-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-015-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-016-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-017-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-018-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-019-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-020-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-021-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-022-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-023-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-024-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-025-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-026-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-027-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-028-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-029-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-030-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-031-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-032-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-033-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-034-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-035-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-036-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-037-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-038-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-039-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-040-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-041-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-042-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-043-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-044-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-045-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-046-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-047-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-048-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-049-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-050-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-051-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-052-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-053-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-054-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-055-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-056-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-057-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-058-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-059-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-060-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-061-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-062-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-063-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-064-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-065-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-066-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-067-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-068-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-069-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-070-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-071-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-072-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-073-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-074-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-075-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-076-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-077-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-078-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-079-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-080-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-081-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-082-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-083-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-084-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-085-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-086-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-087-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-088-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-089-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-090-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-091-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-092-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-093-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-094-dynamic-protection-registry\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\phase-095-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-096-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-097-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-098-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-099-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\phase-100-dynamic-protection-registry\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\political-civic-campaign-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\product-image-tone-command\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\product-image-tone-intelligence\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\product-visibility-layer\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\production-fulfillment-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\production-stability\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\products.js
+C:\Users\user\brianco-backend-clean\pages\api\protected-governance\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\provider-lifecycle-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\provider-marketplace-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\provider-onboarding-portfolio-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\provider-partner-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\provider-policy-tone-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\provider-readiness\future.js
+C:\Users\user\brianco-backend-clean\pages\api\provider-readiness\index.js
+C:\Users\user\brianco-backend-clean\pages\api\recommendation-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\revenue-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\revenue-optimization-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\revenue-recommendation-command\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\role-expansion-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\role-growth-intelligence-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\role-intelligence\notifications.js
+C:\Users\user\brianco-backend-clean\pages\api\role-intelligence\profile.js
+C:\Users\user\brianco-backend-clean\pages\api\role-orchestration\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\role-portal-engine\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\role-portal-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\role-portal-network-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\role-request.js
+C:\Users\user\brianco-backend-clean\pages\api\roles.js
+C:\Users\user\brianco-backend-clean\pages\api\roles\customer.js
+C:\Users\user\brianco-backend-clean\pages\api\shared-website-chatbot-os-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\strategic-automation-intelligence-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\strategic-planning-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\strategic-planning\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\supplier-artisan-commerce-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\supplier-artisan-growth-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\supplier-recruitment-center\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\supplier-recruitment-intelligence\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\text-interaction\readiness.js
+C:\Users\user\brianco-backend-clean\pages\api\text\route.js
+C:\Users\user\brianco-backend-clean\pages\api\theme-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\tracking-shipment-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\universal-customer-intelligence\dashboard.ts
+C:\Users\user\brianco-backend-clean\pages\api\video-media-brand-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\visual-intelligence\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\website-chatbot-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\white-glove-customer-journey\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\white-glove-thank-you-master\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\api\writer-publishing-expansion\dashboard.js
+C:\Users\user\brianco-backend-clean\pages\approval-automation\index.js
+C:\Users\user\brianco-backend-clean\pages\approval-governance-growth-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\automation-coordination-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\autonomous-recommendation-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\brand-image-tone-master\index.js
+C:\Users\user\brianco-backend-clean\pages\brand-tone-protection\index.tsx
+C:\Users\user\brianco-backend-clean\pages\brianco-century-command-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\brianco-live-feature-hub\index.js
+C:\Users\user\brianco-backend-clean\pages\career-resume-job-master\index.js
+C:\Users\user\brianco-backend-clean\pages\chatbot-continuity\index.tsx
+C:\Users\user\brianco-backend-clean\pages\chatbot-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\collections\index.js
+C:\Users\user\brianco-backend-clean\pages\command-center\index.js
+C:\Users\user\brianco-backend-clean\pages\commerce-evolution\index.js
+C:\Users\user\brianco-backend-clean\pages\commerce-growth-intelligence-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\commerce-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\commerce-recommendation-master\index.js
+C:\Users\user\brianco-backend-clean\pages\communication-hub\index.js
+C:\Users\user\brianco-backend-clean\pages\communication-notification-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\community-support-master\index.js
+C:\Users\user\brianco-backend-clean\pages\continuity-governance-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\copy-tone-intelligence\index.tsx
+C:\Users\user\brianco-backend-clean\pages\creator-campaign-growth-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\creator-influencer-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\creator-video-editor-master\index.js
+C:\Users\user\brianco-backend-clean\pages\cross-system-learning\index.js
+C:\Users\user\brianco-backend-clean\pages\CurrentLumenSetup-theme-health-command\index.js
+C:\Users\user\brianco-backend-clean\pages\CurrentLumenSetup-theme-health-master\index.js
+C:\Users\user\brianco-backend-clean\pages\CurrentLumenSetup-theme-health\index.js
+C:\Users\user\brianco-backend-clean\pages\custom-work-nonrefundable-master\index.js
+C:\Users\user\brianco-backend-clean\pages\custom-work-production-master\index.js
+C:\Users\user\brianco-backend-clean\pages\customer-intelligence-layer\index.js
+C:\Users\user\brianco-backend-clean\pages\customer-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\customer-lifecycle-intelligence-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\customer-portal-engine\index.js
+C:\Users\user\brianco-backend-clean\pages\deployment-playwright-master\index.js
+C:\Users\user\brianco-backend-clean\pages\digital-membership-growth-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\digital-product-growth-command\index.js
+C:\Users\user\brianco-backend-clean\pages\digital-product-intelligence-v2\index.js
+C:\Users\user\brianco-backend-clean\pages\digital-product-request.js
+C:\Users\user\brianco-backend-clean\pages\digital-workspace.js
+C:\Users\user\brianco-backend-clean\pages\dropship-supplier-intake\index.tsx
+C:\Users\user\brianco-backend-clean\pages\ecosystem-analytics-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\ecosystem-continuity\index.js
+C:\Users\user\brianco-backend-clean\pages\ecosystem-growth-coordination-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\ecosystem-insights\index.js
+C:\Users\user\brianco-backend-clean\pages\ecosystem-live-map\index.tsx
+C:\Users\user\brianco-backend-clean\pages\ecosystem-optimization\index.js
+C:\Users\user\brianco-backend-clean\pages\ecosystem-orchestration-command\index.js
+C:\Users\user\brianco-backend-clean\pages\ecosystem-orchestration-expansion-v2\index.js
+C:\Users\user\brianco-backend-clean\pages\ecosystem-orchestration\index.js
+C:\Users\user\brianco-backend-clean\pages\ecosystem-performance-intelligence-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\entitlement-my-products-command\index.js
+C:\Users\user\brianco-backend-clean\pages\entitlement-product-registry-master\index.js
+C:\Users\user\brianco-backend-clean\pages\event-festival-intelligence-v2\index.js
+C:\Users\user\brianco-backend-clean\pages\event-festival-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\event-intake\index.js
+C:\Users\user\brianco-backend-clean\pages\event-vendor-artisan-creator-participation\index.js
+C:\Users\user\brianco-backend-clean\pages\executive-decision-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\executive-intelligence-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\experience-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\fort-knox-vault-continuity\index.js
+C:\Users\user\brianco-backend-clean\pages\founder-approval-compliance\index.js
+C:\Users\user\brianco-backend-clean\pages\founder-approvals.js
+C:\Users\user\brianco-backend-clean\pages\founder-command-center-master\index.js
+C:\Users\user\brianco-backend-clean\pages\founder-command-center\index.js
+C:\Users\user\brianco-backend-clean\pages\founder-command-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\founder-continuity-vault.js
+C:\Users\user\brianco-backend-clean\pages\founder-ecosystem-intelligence-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\founder-intelligence-network-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\founder-knowledge\index.js
+C:\Users\user\brianco-backend-clean\pages\founder-login.js
+C:\Users\user\brianco-backend-clean\pages\founder-operations-command-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\founder-operations-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\founder-opportunity-intelligence-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\founder-reports-audit-command\index.js
+C:\Users\user\brianco-backend-clean\pages\founder-revenue-command-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\founder-strategic-command-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\free-access-request.js
+C:\Users\user\brianco-backend-clean\pages\free-os-foundation-master\index.js
+C:\Users\user\brianco-backend-clean\pages\full-project-audit\index.tsx
+C:\Users\user\brianco-backend-clean\pages\future-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\future-os-device-ecosystem-master\index.js
+C:\Users\user\brianco-backend-clean\pages\future-products\index.tsx
+C:\Users\user\brianco-backend-clean\pages\growth-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\health-caregiver-master\index.js
+C:\Users\user\brianco-backend-clean\pages\identity-continuity-growth-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\image-background-intelligence\index.tsx
+C:\Users\user\brianco-backend-clean\pages\income-tier-command\index.js
+C:\Users\user\brianco-backend-clean\pages\income-tier-intelligence\index.tsx
+C:\Users\user\brianco-backend-clean\pages\income-tier-sourcing\index.tsx
+C:\Users\user\brianco-backend-clean\pages\index.js
+C:\Users\user\brianco-backend-clean\pages\interaction-logging\index.js
+C:\Users\user\brianco-backend-clean\pages\ip-vault\index.tsx
+C:\Users\user\brianco-backend-clean\pages\lawyer-review-routing-master\index.js
+C:\Users\user\brianco-backend-clean\pages\legal-approval-center\index.js
+C:\Users\user\brianco-backend-clean\pages\legal-approval-queue\index.tsx
+C:\Users\user\brianco-backend-clean\pages\legal-command-center\index.tsx
+C:\Users\user\brianco-backend-clean\pages\legal-contract-policy-lifecycle-master\index.js
+C:\Users\user\brianco-backend-clean\pages\legal-signature-approval-master\index.js
+C:\Users\user\brianco-backend-clean\pages\local-events-festival-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\local-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\localization-cultural-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\localization-intelligence-master\index.js
+C:\Users\user\brianco-backend-clean\pages\localization-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\luxury-brand-outreach-center\index.js
+C:\Users\user\brianco-backend-clean\pages\luxury-brand-outreach\index.tsx
+C:\Users\user\brianco-backend-clean\pages\luxury-concierge-marketplace\index.tsx
+C:\Users\user\brianco-backend-clean\pages\luxury-resale-intelligence\index.tsx
+C:\Users\user\brianco-backend-clean\pages\market-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\master-protection\index.tsx
+C:\Users\user\brianco-backend-clean\pages\meeting-transcript-master\index.js
+C:\Users\user\brianco-backend-clean\pages\meeting-transcript-video-command\index.js
+C:\Users\user\brianco-backend-clean\pages\membership-subscription-intelligence-v2\index.js
+C:\Users\user\brianco-backend-clean\pages\memory-continuity-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\memory-continuity-learning-master\index.js
+C:\Users\user\brianco-backend-clean\pages\my-products\index.tsx
+C:\Users\user\brianco-backend-clean\pages\native-identity-experience-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\native-identity\index.js
+C:\Users\user\brianco-backend-clean\pages\native-language-experience\index.js
+C:\Users\user\brianco-backend-clean\pages\native-map\index.js
+C:\Users\user\brianco-backend-clean\pages\opportunity-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\opportunity-growth-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\opportunity-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\orchestration-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\origin-policy-marketplace-layer\index.js
+C:\Users\user\brianco-backend-clean\pages\origin-provenance-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\os-chatbot-continuity-master\index.js
+C:\Users\user\brianco-backend-clean\pages\os-shared-intelligence-master\index.js
+C:\Users\user\brianco-backend-clean\pages\personalization-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\personalized\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-001-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-002-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-003-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-004-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-005-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-006-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-007-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-008-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-009-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-010-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-011-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-012-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-013-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-014-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-015-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-016-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-017-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-018-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-019-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-020-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-021-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-022-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-023-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-024-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-025-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-026-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-027-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-028-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-029-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-030-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-031-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-032-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-033-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-034-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-035-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-036-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-037-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-038-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-039-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-040-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-041-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-042-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-043-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-044-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-045-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-046-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-047-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-048-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-049-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-050-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-051-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-052-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-053-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-054-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-055-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-056-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-057-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-058-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-059-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-060-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-061-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-062-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-063-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-064-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-065-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-066-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-067-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-068-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-069-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-070-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-071-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-072-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-073-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-074-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-075-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-076-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-077-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-078-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-079-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-080-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-081-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-082-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-083-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-084-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-085-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-086-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-087-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-088-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-089-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-090-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-091-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-092-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-093-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-094-dynamic-protection-registry\index.tsx
+C:\Users\user\brianco-backend-clean\pages\phase-095-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-096-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-097-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-098-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-099-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\phase-100-dynamic-protection-registry\index.js
+C:\Users\user\brianco-backend-clean\pages\political-civic-campaign-master\index.js
+C:\Users\user\brianco-backend-clean\pages\private-email-intelligence\index.tsx
+C:\Users\user\brianco-backend-clean\pages\product-image-tone-command\index.js
+C:\Users\user\brianco-backend-clean\pages\product-image-tone-intelligence\index.tsx
+C:\Users\user\brianco-backend-clean\pages\product-visibility-layer\index.js
+C:\Users\user\brianco-backend-clean\pages\production-fulfillment-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\production-stability\index.js
+C:\Users\user\brianco-backend-clean\pages\protected-governance\index.js
+C:\Users\user\brianco-backend-clean\pages\provider-lifecycle-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\provider-marketplace-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\provider-onboarding-portfolio-master\index.js
+C:\Users\user\brianco-backend-clean\pages\provider-partner-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\provider-policy-tone-master\index.js
+C:\Users\user\brianco-backend-clean\pages\provider-readiness\index.js
+C:\Users\user\brianco-backend-clean\pages\recommendation-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\revenue-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\revenue-optimization-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\revenue-recommendation-command\index.js
+C:\Users\user\brianco-backend-clean\pages\role-center\index.js
+C:\Users\user\brianco-backend-clean\pages\role-expansion-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\role-growth-intelligence-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\role-orchestration\index.js
+C:\Users\user\brianco-backend-clean\pages\role-portal-engine\index.js
+C:\Users\user\brianco-backend-clean\pages\role-portal-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\role-portal-network-master\index.js
+C:\Users\user\brianco-backend-clean\pages\role-portal.js
+C:\Users\user\brianco-backend-clean\pages\role-request.js
+C:\Users\user\brianco-backend-clean\pages\role\accountant\index.js
+C:\Users\user\brianco-backend-clean\pages\role\admin\index.js
+C:\Users\user\brianco-backend-clean\pages\role\artisan\index.js
+C:\Users\user\brianco-backend-clean\pages\role\banker\index.js
+C:\Users\user\brianco-backend-clean\pages\role\creator\index.js
+C:\Users\user\brianco-backend-clean\pages\role\customer\index.js
+C:\Users\user\brianco-backend-clean\pages\role\family\index.js
+C:\Users\user\brianco-backend-clean\pages\role\influencer\index.js
+C:\Users\user\brianco-backend-clean\pages\role\investor\index.js
+C:\Users\user\brianco-backend-clean\pages\role\lawyer\index.js
+C:\Users\user\brianco-backend-clean\pages\role\supplier\index.js
+C:\Users\user\brianco-backend-clean\pages\shared-website-chatbot-os-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\signin\index.js
+C:\Users\user\brianco-backend-clean\pages\stewardship-intelligence.js
+C:\Users\user\brianco-backend-clean\pages\strategic-automation-intelligence-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\strategic-planning-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\strategic-planning\index.js
+C:\Users\user\brianco-backend-clean\pages\supplier-artisan-commerce-master\index.js
+C:\Users\user\brianco-backend-clean\pages\supplier-artisan-growth-expansion\index.js
+C:\Users\user\brianco-backend-clean\pages\supplier-recruitment-center\index.js
+C:\Users\user\brianco-backend-clean\pages\supplier-recruitment-intelligence\index.tsx
+C:\Users\user\brianco-backend-clean\pages\text-concierge\index.js
+C:\Users\user\brianco-backend-clean\pages\text-interaction\index.js
+C:\Users\user\brianco-backend-clean\pages\theme-intelligence\index.js
+C:\Users\user\brianco-backend-clean\pages\tracking-shipment-master\index.js
+C:\Users\user\brianco-backend-clean\pages\universal-customer-intelligence\index.tsx
+C:\Users\user\brianco-backend-clean\pages\video-media-brand-master\index.js
+C:\Users\user\brianco-backend-clean\pages\website-chatbot-master\index.js
+C:\Users\user\brianco-backend-clean\pages\website-os-continuity\index.tsx
+C:\Users\user\brianco-backend-clean\pages\white-glove-customer-journey\index.js
+C:\Users\user\brianco-backend-clean\pages\white-glove-thank-you-master\index.js
+C:\Users\user\brianco-backend-clean\pages\writer-publishing-expansion\index.js
+C:\Users\user\brianco-backend-clean\src\brianco-eloquent-tone-engine.js
+C:\Users\user\brianco-backend-clean\src\brianco-greencheck-approvals.js
+C:\Users\user\brianco-backend-clean\src\brianco-human-interaction-memory.js
+C:\Users\user\brianco-backend-clean\src\brianco-realtime-theme-chatbot-bridge.js
+C:\Users\user\brianco-backend-clean\src\brianco-typo-intelligence.js
+C:\Users\user\brianco-backend-clean\src\lumen-guided-experience-studio.mjs
+C:\Users\user\brianco-backend-clean\src\lumen.mjs
+C:\Users\user\brianco-backend-clean\src\modules\devices\device-deep-scan.mjs
+C:\Users\user\brianco-backend-clean\src\modules\devices\device-intelligence.mjs
+C:\Users\user\brianco-backend-clean\src\modules\devices\firmware-awareness.mjs
+C:\Users\user\brianco-backend-clean\src\modules\founder\founder-command-center.mjs
+C:\Users\user\brianco-backend-clean\src\modules\graph\knowledge-graph.mjs
+C:\Users\user\brianco-backend-clean\src\modules\learning\learning-engine.mjs
+C:\Users\user\brianco-backend-clean\src\modules\medical\medical-device-intelligence.mjs
+C:\Users\user\brianco-backend-clean\src\modules\registry\module-registry.mjs
+C:\Users\user\brianco-backend-clean\src\modules\research\drone-intelligence.mjs
+C:\Users\user\brianco-backend-clean\src\modules\research\robotics-intelligence.mjs
+C:\Users\user\brianco-backend-clean\src\modules\research\scientific-instruments.mjs
+C:\Users\user\brianco-backend-clean\src\modules\search\search-engine.mjs
+C:\Users\user\brianco-backend-clean\src\modules\sensors\sensor-intelligence.mjs
+C:\Users\user\brianco-backend-clean\tests\brianco\absolute-project-final-gate.spec.js
+C:\Users\user\brianco-backend-clean\tests\brianco\exact-console-error-discovery.spec.js
+C:\Users\user\brianco-backend-clean\tests\brianco\feature-hub-local-runtime-proof.spec.js
+C:\Users\user\brianco-backend-clean\tests\brianco\feature-hub-runtime-dom-inspection.spec.js
+C:\Users\user\brianco-backend-clean\tests\brianco\next-two-phase-final-gate.spec.js
+C:\Users\user\brianco-backend-clean\tests\brianco\predeploy-live.spec.js

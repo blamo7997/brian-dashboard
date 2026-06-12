@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-06-08T13:38:19.353Z",
+  "bios": "{\"SMBIOSBIOSVersion\":\"R70 Ver. 01.28.00\"}",
+  "motherboard": "{\"Manufacturer\":\"HP\",\"Product\":\"8549\"}",
+  "device_model": "HP 8549",
+  "update_status": "unknown",
+  "review_required": true
+}

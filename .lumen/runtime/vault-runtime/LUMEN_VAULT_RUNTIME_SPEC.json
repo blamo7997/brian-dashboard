@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-06-11T19:28:46.9304142-06:00",
+  "system": "vault-runtime",
+  "status": "foundation-spec-created",
+  "requiredCapabilities": [
+    "encrypted-storage-planned",
+    "hash-lineage",
+    "archive-before-delete",
+    "archive-before-overwrite",
+    "deduplication-planned",
+    "compression-planned",
+    "tiered-storage-planned",
+    "proof-records",
+    "repository-cross-reference",
+    "per-user-boundaries",
+    "founder-private-protection"
+  ]
+}

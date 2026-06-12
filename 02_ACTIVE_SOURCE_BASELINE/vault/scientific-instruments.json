@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-06-08T13:40:05.330Z",
+  "supported_categories": [
+    "microscopes",
+    "telescopes",
+    "spectrometers",
+    "chromatographs",
+    "centrifuges",
+    "incubators",
+    "environmental_sensors",
+    "drones",
+    "robotics",
+    "3d_scanners",
+    "thermal_imaging",
+    "lidar",
+    "radar",
+    "sonar",
+    "genomics",
+    "sequencing",
+    "eeg",
+    "emg",
+    "ecg",
+    "motion_capture",
+    "vr",
+    "ar",
+    "metrology",
+    "manufacturing_equipment"
+  ],
+  "capabilities": [
+    "inventory",
+    "documentation",
+    "calibration_tracking",
+    "maintenance_tracking",
+    "compatibility_review",
+    "driver_awareness",
+    "firmware_awareness",
+    "vault_storage",
+    "research_linking",
+    "knowledge_graph_linking"
+  ]
+}

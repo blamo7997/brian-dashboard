@@ -1,0 +1,12 @@
+LUMEN 500 SCAN CLEAN REPORT
+Generated: 2026-06-08T10:14:03.7554934-06:00
+Original Report: C:\Users\user\brianco-backend-clean\reports\LUMEN_500_SCAN_20260608_100649.txt
+Clean JSON: .\reports\LUMEN_500_SCAN_CLEAN_20260608_101402.json
+
+Successful Scans: 500
+Failed Scans: 0
+Warnings: 0
+JSON Depth: 3
+Truncation Risk: Removed
+Deleted Files: 0
+Secrets Exposed: NO

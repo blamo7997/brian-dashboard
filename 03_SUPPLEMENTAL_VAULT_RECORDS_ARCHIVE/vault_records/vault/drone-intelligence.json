@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-06-08T13:42:49.682Z",
+  "categories": [
+    "consumer_drones",
+    "commercial_drones",
+    "inspection_drones",
+    "surveying_drones",
+    "mapping_drones",
+    "agriculture_drones",
+    "security_drones",
+    "search_and_rescue_drones",
+    "delivery_drones",
+    "cinematography_drones",
+    "research_drones",
+    "military_uas",
+    "fixed_wing_uas",
+    "multirotor_uas",
+    "hybrid_vtol_uas",
+    "underwater_drones",
+    "ground_drones"
+  ],
+  "capabilities": [
+    "fleet_inventory",
+    "airframe_tracking",
+    "battery_tracking",
+    "firmware_tracking",
+    "maintenance_tracking",
+    "pilot_records",
+    "mission_logging",
+    "camera_tracking",
+    "sensor_tracking",
+    "lidar_tracking",
+    "telemetry_storage",
+    "documentation",
+    "vault_storage",
+    "knowledge_graph_linking"
+  ]
+}

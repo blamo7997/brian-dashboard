@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-06-11T20:58:37.0107980-06:00",
+  "system": "entitlement-commerce-runtime",
+  "entitlementTypes": [
+    "membership",
+    "a-la-carte",
+    "bundle",
+    "upgrade",
+    "trial",
+    "founder-admin",
+    "partner-role"
+  ],
+  "rules": [
+    "purchased-features-only",
+    "member-features-gated",
+    "upgrade-required-for-locked-features",
+    "trade-unlock-paths-permission-controlled",
+    "clear-user-capability-display",
+    "no-hidden-manipulation",
+    "proof-records-required"
+  ]
+}

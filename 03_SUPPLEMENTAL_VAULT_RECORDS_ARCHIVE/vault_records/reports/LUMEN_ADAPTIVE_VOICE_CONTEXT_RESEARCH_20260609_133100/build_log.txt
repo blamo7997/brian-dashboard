@@ -1,0 +1,284 @@
+
+> brianco-backend-clean@1.0.0 build
+> next build
+
+Γû▓ Next.js 16.2.6 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 13 errors:
+./pages/api/lumen/do.js:2:1
+Module not found: Can't resolve '../../../lumen-os/packages/user-memory/user-memory-engine.mjs'
+  1 | ...ort { routeInsideLumenAction } from "../../../lumen-os/packages/inside-lumen/inside-lume...
+> 2 | ...ort { appendUserChat } from "../../../lumen-os/packages/user-memory/user-memory-engine.m...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | ...
+  4 | ...ort default async function handler(req, res) {
+  5 | ...f (req.method !== "POST") {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs:3:1
+Module not found: Can't resolve '../autonomous-quality/autonomous-quality-engine.mjs'
+  1 | ...rt { createLumenProposal } from "../lumen-language/lumen-language.mjs";
+  2 | ...rt { guardianRuntimeGate } from "../guardian/guardian-runtime.mjs";
+> 3 | ...rt { runAutonomousQualityCycle } from "../autonomous-quality/autonomous-quality-engine.m...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...rt { installApprovedExpansions, scanExpansionInbox } from "../expansions/expansion-manag...
+  5 | ...rt { runUniversalWebsiteBuild } from "../generators/universal-website-builder.mjs";
+  6 | ...rt { founderOperationsSnapshot } from "../operations/founder-operations.mjs";
+
+
+
+Import trace:
+  Route:
+    ./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs
+    ./pages/api/lumen/do.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./lumen-os/packages/adaptive-voice/adaptive-voice-engine.mjs:2:1
+Module not found: Can't resolve '../communication/communication-style-engine.mjs'
+  1 | ...port { readUserProfile, updateUserProfile, inferCommunicationPreference } from "../user-...
+> 2 | ...port { createCommunicationProfile } from "../communication/communication-style-engine.mjs";
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | ...
+  4 | ...port function buildAdaptiveVoiceProfile({
+  5 | ...userId = "anonymous",
+
+
+
+Import trace:
+  Route:
+    ./lumen-os/packages/adaptive-voice/adaptive-voice-engine.mjs
+    ./pages/api/lumen/adaptive-voice.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs:7:1
+Module not found: Can't resolve '../continuity/continuity-memory-engine.mjs'
+   5 | import { runUniversalWebsiteBuild } from "../generators/universal-website-builder.mjs";
+   6 | import { founderOperationsSnapshot } from "../operations/founder-operations.mjs";
+>  7 | import { rememberContinuity } from "../continuity/continuity-memory-engine.mjs";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function routeInsideLumenAction({
+  10 |   text = "",
+
+
+
+Import trace:
+  Route:
+    ./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs
+    ./pages/api/lumen/do.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs:4:1
+Module not found: Can't resolve '../expansions/expansion-manager.mjs'
+  2 | ... { guardianRuntimeGate } from "../guardian/guardian-runtime.mjs";
+  3 | ... { runAutonomousQualityCycle } from "../autonomous-quality/autonomous-quality-engine.mjs";
+> 4 | ... { installApprovedExpansions, scanExpansionInbox } from "../expansions/expansion-manager...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ... { runUniversalWebsiteBuild } from "../generators/universal-website-builder.mjs";
+  6 | ... { founderOperationsSnapshot } from "../operations/founder-operations.mjs";
+  7 | ... { rememberContinuity } from "../continuity/continuity-memory-engine.mjs";
+
+
+
+Import trace:
+  Route:
+    ./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs
+    ./pages/api/lumen/do.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs:5:1
+Module not found: Can't resolve '../generators/universal-website-builder.mjs'
+  3 | import { runAutonomousQualityCycle } from "../autonomous-quality/autonomous-quality-engine....
+  4 | import { installApprovedExpansions, scanExpansionInbox } from "../expansions/expansion-mana...
+> 5 | import { runUniversalWebsiteBuild } from "../generators/universal-website-builder.mjs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { founderOperationsSnapshot } from "../operations/founder-operations.mjs";
+  7 | import { rememberContinuity } from "../continuity/continuity-memory-engine.mjs";
+  8 |
+
+
+
+Import trace:
+  Route:
+    ./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs
+    ./pages/api/lumen/do.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs:2:1
+Module not found: Can't resolve '../guardian/guardian-runtime.mjs'
+  1 | import { createLumenProposal } from "../lumen-language/lumen-language.mjs";
+> 2 | import { guardianRuntimeGate } from "../guardian/guardian-runtime.mjs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { runAutonomousQualityCycle } from "../autonomous-quality/autonomous-quality-engine....
+  4 | import { installApprovedExpansions, scanExpansionInbox } from "../expansions/expansion-mana...
+  5 | import { runUniversalWebsiteBuild } from "../generators/universal-website-builder.mjs";
+
+
+
+Import trace:
+  Route:
+    ./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs
+    ./pages/api/lumen/do.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs:1:1
+Module not found: Can't resolve '../lumen-language/lumen-language.mjs'
+> 1 | import { createLumenProposal } from "../lumen-language/lumen-language.mjs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { guardianRuntimeGate } from "../guardian/guardian-runtime.mjs";
+  3 | import { runAutonomousQualityCycle } from "../autonomous-quality/autonomous-quality-engine....
+  4 | import { installApprovedExpansions, scanExpansionInbox } from "../expansions/expansion-mana...
+
+
+
+Import trace:
+  Route:
+    ./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs
+    ./pages/api/lumen/do.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs:6:1
+Module not found: Can't resolve '../operations/founder-operations.mjs'
+  4 | import { installApprovedExpansions, scanExpansionInbox } from "../expansions/expansion-mana...
+  5 | import { runUniversalWebsiteBuild } from "../generators/universal-website-builder.mjs";
+> 6 | import { founderOperationsSnapshot } from "../operations/founder-operations.mjs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { rememberContinuity } from "../continuity/continuity-memory-engine.mjs";
+  8 |
+  9 | export async function routeInsideLumenAction({
+
+
+
+Import trace:
+  Route:
+    ./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs
+    ./pages/api/lumen/do.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./lumen-os/packages/context-retrieval/context-retrieval-engine.mjs:2:1
+Module not found: Can't resolve '../registry/registry-engine.mjs'
+  1 | import { readVault } from "../vault/vault-engine.mjs";
+> 2 | import { readRegistry } from "../registry/registry-engine.mjs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { readUserMemory, readUserJournal, findKnownUserContext } from "../user-memory/user-...
+  4 | import { readUserProfile } from "../user-profile/user-profile-engine.mjs";
+  5 |
+
+
+
+Import trace:
+  Route:
+    ./lumen-os/packages/context-retrieval/context-retrieval-engine.mjs
+    ./pages/api/lumen/context.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./lumen-os/packages/answer-orchestrator/answer-orchestrator.mjs:4:1
+Module not found: Can't resolve '../user-memory/user-memory-engine.mjs'
+  2 | import { gatherLumenContext } from "../context-retrieval/context-retrieval-engine.mjs";
+  3 | import { createVerifiedResearchRequest } from "../verified-research/verified-research-reque...
+> 4 | import { appendUserChat } from "../user-memory/user-memory-engine.mjs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export function orchestrateUserAnswer({
+  7 |   userId = "anonymous",
+
+
+
+Import trace:
+  Route:
+    ./lumen-os/packages/answer-orchestrator/answer-orchestrator.mjs
+    ./pages/api/lumen/answer.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./lumen-os/packages/context-retrieval/context-retrieval-engine.mjs:3:1
+Module not found: Can't resolve '../user-memory/user-memory-engine.mjs'
+  1 | ...adVault } from "../vault/vault-engine.mjs";
+  2 | ...adRegistry } from "../registry/registry-engine.mjs";
+> 3 | ...adUserMemory, readUserJournal, findKnownUserContext } from "../user-memory/user-memory-e...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...adUserProfile } from "../user-profile/user-profile-engine.mjs";
+  5 | ...
+  6 | ...oreText(text = "", query = "") {
+
+
+
+Import trace:
+  Route:
+    ./lumen-os/packages/context-retrieval/context-retrieval-engine.mjs
+    ./pages/api/lumen/context.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./lumen-os/packages/context-retrieval/context-retrieval-engine.mjs:1:1
+Module not found: Can't resolve '../vault/vault-engine.mjs'
+> 1 | import { readVault } from "../vault/vault-engine.mjs";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { readRegistry } from "../registry/registry-engine.mjs";
+  3 | import { readUserMemory, readUserJournal, findKnownUserContext } from "../user-memory/user-...
+  4 | import { readUserProfile } from "../user-profile/user-profile-engine.mjs";
+
+
+
+Import trace:
+  Route:
+    ./lumen-os/packages/context-retrieval/context-retrieval-engine.mjs
+    ./pages/api/lumen/context.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (./pages/api/lumen/do.js:2:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs:3:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./lumen-os/packages/adaptive-voice/adaptive-voice-engine.mjs:2:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs:7:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs:5:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs:2:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs:6:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./lumen-os/packages/context-retrieval/context-retrieval-engine.mjs:2:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./lumen-os/packages/answer-orchestrator/answer-orchestrator.mjs:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./lumen-os/packages/context-retrieval/context-retrieval-engine.mjs:3:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./lumen-os/packages/context-retrieval/context-retrieval-engine.mjs:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)

@@ -1,0 +1,41 @@
+JSON DEPTH SURGICAL DIAGNOSTIC
+Generated: 2026-06-08T10:19:08.5685823-06:00
+
+FILE: .\vault\module-registry.json
+Parse: PASS
+TopType: System.Object[]
+Count: 358
+
+FILE: .\vault\knowledge.json
+Parse: PASS
+TopType: System.Object[]
+Count: 3000
+
+FILE: .\vault\knowledge-graph.json
+Parse: PASS
+TopType: System.Object[]
+Count: 98
+
+FILE: .\vault\learning-history.json
+Parse: PASS
+TopType: System.Management.Automation.PSCustomObject
+Count: 1
+
+FILE: .\vault\entities.json
+Parse: PASS
+Parse: FAIL
+Error: You cannot call a method on a null-valued expression.
+
+FILE: .\vault\relationships.json
+Parse: PASS
+Parse: FAIL
+Error: You cannot call a method on a null-valued expression.
+
+POWERSHELL SERIALIZATION TESTS
+
+module-registry depth 3 = PASS
+module-registry depth 5 = PASS
+module-registry depth 10 = PASS
+module-registry depth 20 = PASS
+module-registry depth 50 = PASS
+module-registry depth 100 = PASS

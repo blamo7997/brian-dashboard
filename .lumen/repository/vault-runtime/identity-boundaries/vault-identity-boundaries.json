@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-06-11T21:32:35.6882282-06:00",
+  "system": "vault-identity-boundaries",
+  "foundationReadiness": 100,
+  "targetBeyond100": 5000,
+  "boundaries": {
+    "incidentProtected": "restricted-review-and-proof-required",
+    "founderPrivate": "explicit-founder-authorized-only",
+    "userPrivate": "per-user-isolated",
+    "sharedPublic": "non-sensitive-approved-only",
+    "legalProtected": "role-authorized-and-vault-protected"
+  },
+  "requiredControls": [
+    "least-privilege",
+    "role-boundary",
+    "user-isolation",
+    "founder-private-isolation",
+    "consent-state",
+    "legal-region-state",
+    "audit-event",
+    "permission-change-proof"
+  ]
+}

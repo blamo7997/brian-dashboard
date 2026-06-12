@@ -1,0 +1,10 @@
+{
+    "installer":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\durable_watchers\\BRIANCO_LAST20_SAFE_THEME_APPLIER.ps1",
+    "createdAt":  "2026-05-27T16:09:41.5671887-06:00",
+    "ok":  true,
+    "protectedSystemsTouched":  false,
+    "suppliers":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\supplier_creator_origin_workflows\\SUPPLIER_CREATOR_ORIGIN_WORKFLOWS_20260527_160936.json",
+    "legal":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\legal_contract_policy_lifecycle\\LEGAL_CONTRACT_POLICY_LIFECYCLE_20260527_160936.json",
+    "influencers":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\influencer_creator_workflows\\INFLUENCER_PROMOTION_AFFILIATE_RULES_20260527_160936.json",
+    "accounting":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\accountant_receipt_portal\\ACCOUNTANT_RECEIPT_EXPENSE_PORTAL_20260527_160936.json"
+}

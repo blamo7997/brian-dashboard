@@ -1,0 +1,30 @@
+LUMEN PRE-LAUNCH AUTOFIX LOOP REPORT
+
+Generated: 2026-06-10T00:14:34.6730878-06:00
+
+Included:
+- Full folder/subfolder scan
+- Text file normalization
+- JSON validation/formatting
+- Placeholder/TODO review detection
+- Secret-pattern review detection
+- npm audit
+- npm outdated
+- CIA+ scan call if present
+- Build validation
+- Repeat loop up to 5 passes
+
+Important:
+- Safe fixes are applied automatically.
+- Risky fixes are reported for review.
+- Secrets are never printed.
+- Vault and user memory are preserved.
+- No destructive deletion.
+- No Windows overwrite.
+- No fake perfection claim.
+
+Final Build Passed Marker:
+False
+
+Output:
+.\reports\LUMEN_AUTOFIX_PRELAUNCH_LOOP_20260610_000843

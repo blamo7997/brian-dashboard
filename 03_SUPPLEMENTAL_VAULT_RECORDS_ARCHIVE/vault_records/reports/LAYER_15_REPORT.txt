@@ -1,0 +1,21 @@
+Brian & Co Layer 15
+
+Created:
+- SEO engine
+- Recommendation engine
+- Localization helper
+- Trust & safety helper
+- Accessibility toolbar
+- Concierge card component
+- Careers page
+- Supplier onboarding page
+- Subscription page
+
+Next Suggested Real Builds:
+- Live OpenAI route wiring
+- Real Supabase persistence
+- retired-commerce-platform embedded admin
+- Product image upload pipeline
+- App listing asset generation
+- PWA shell
+- Browser extension prototype

@@ -1,0 +1,890 @@
+{
+  "generated_utc": "2026-06-11T21:10:48.119831Z",
+  "packages": [
+    {
+      "zip": "LUMEN_GENESIS_FINAL_UPLOAD_20260611-144613.zip",
+      "bytes": 1866081,
+      "files": 1295,
+      "entries": 1355,
+      "extensions": [
+        [
+          ".md",
+          1118
+        ],
+        [
+          ".json",
+          137
+        ],
+        [
+          ".archive-20260611-011644",
+          13
+        ],
+        [
+          ".archive-20260611-103729",
+          10
+        ],
+        [
+          ".ps1",
+          7
+        ],
+        [
+          ".archive-20260610-180207",
+          6
+        ],
+        [
+          ".zip",
+          2
+        ],
+        [
+          ".archive-20260611-011943",
+          1
+        ],
+        [
+          ".txt",
+          1
+        ]
+      ],
+      "roots": [
+        [
+          "01_FULL_CANONICAL_REPOSITORY",
+          1289
+        ],
+        [
+          "00_START_HERE",
+          5
+        ],
+        [
+          "UPLOAD_ME_FIRST_LUMEN_GENESIS_20260611-144613.md",
+          1
+        ]
+      ],
+      "newest": [
+        "2026-06-11 14:47:10",
+        "UPLOAD_ME_FIRST_LUMEN_GENESIS_20260611-144613.md"
+      ]
+    },
+    {
+      "zip": "Conversation_Continuity_Pack (1).zip",
+      "bytes": 666,
+      "files": 2,
+      "entries": 2,
+      "extensions": [
+        [
+          ".txt",
+          2
+        ]
+      ],
+      "roots": [
+        [
+          "README.txt",
+          1
+        ],
+        [
+          "Lumen_Continuity.txt",
+          1
+        ]
+      ],
+      "newest": [
+        "2026-06-05 12:01:20",
+        "README.txt"
+      ]
+    },
+    {
+      "zip": "LUMEN_ACTUAL_SOURCE_FOR_NEW_PROJECT.zip",
+      "bytes": 2151873,
+      "files": 860,
+      "entries": 925,
+      "extensions": [
+        [
+          ".js",
+          530
+        ],
+        [
+          ".tsx",
+          82
+        ],
+        [
+          ".ts",
+          72
+        ],
+        [
+          ".mjs",
+          66
+        ],
+        [
+          ".json",
+          48
+        ],
+        [
+          ".md",
+          18
+        ],
+        [
+          ".jsx",
+          10
+        ],
+        [
+          ".ps1",
+          7
+        ],
+        [
+          ".svg",
+          5
+        ],
+        [
+          ".html",
+          4
+        ],
+        [
+          ".cmd",
+          3
+        ],
+        [
+          ".cs",
+          2
+        ],
+        [
+          ".cjs",
+          2
+        ],
+        [
+          ".exe",
+          1
+        ],
+        [
+          ".backup_phase18_20260529_155249",
+          1
+        ],
+        [
+          ".backup_phase21_20260529_162229",
+          1
+        ],
+        [
+          ".backup_phase28_20260529_170055",
+          1
+        ],
+        [
+          ".backup_clean_native_map_20260529_154356",
+          1
+        ],
+        [
+          "[none]",
+          1
+        ],
+        [
+          ".ico",
+          1
+        ],
+        [
+          ".webmanifest",
+          1
+        ],
+        [
+          ".yml",
+          1
+        ],
+        [
+          ".lumen",
+          1
+        ],
+        [
+          ".jsonc",
+          1
+        ]
+      ],
+      "roots": [
+        [
+          "pages",
+          623
+        ],
+        [
+          "lumen-os",
+          100
+        ],
+        [
+          "api",
+          28
+        ],
+        [
+          "lib",
+          23
+        ],
+        [
+          "vault",
+          22
+        ],
+        [
+          "src",
+          20
+        ],
+        [
+          "public",
+          15
+        ],
+        [
+          "app",
+          8
+        ],
+        [
+          "components",
+          5
+        ],
+        [
+          "scripts",
+          4
+        ],
+        [
+          "memory-engine",
+          2
+        ],
+        [
+          "containers",
+          1
+        ],
+        [
+          "realtime",
+          1
+        ],
+        [
+          "compose.lumen.yml",
+          1
+        ],
+        [
+          "Dockerfile.lumen",
+          1
+        ],
+        [
+          "next.config.js",
+          1
+        ],
+        [
+          "package-lock.json",
+          1
+        ],
+        [
+          "package.json",
+          1
+        ],
+        [
+          "playwright.config.js",
+          1
+        ],
+        [
+          "tsconfig.json",
+          1
+        ],
+        [
+          "wrangler.jsonc",
+          1
+        ]
+      ],
+      "newest": [
+        "2026-06-10 00:47:44",
+        "lumen-os/docs/security/INSTITUTIONAL_PRELAUNCH_BASELINE.md"
+      ]
+    },
+    {
+      "zip": "Lumen-Prime-Ecosystem-UniversalLedger-Windows11 (1) (1).zip",
+      "bytes": 13915,
+      "files": 9,
+      "entries": 14,
+      "extensions": [
+        [
+          ".json",
+          2
+        ],
+        [
+          ".xaml",
+          2
+        ],
+        [
+          ".cs",
+          2
+        ],
+        [
+          ".ps1",
+          1
+        ],
+        [
+          ".md",
+          1
+        ],
+        [
+          ".csproj",
+          1
+        ]
+      ],
+      "roots": [
+        [
+          "Lumen-Prime-Ecosystem-UniversalLedger-Windows11",
+          9
+        ]
+      ],
+      "newest": [
+        "2026-06-05 08:46:00",
+        "Lumen-Prime-Ecosystem-UniversalLedger-Windows11/src/LumenPrimeApp/MainWindow.xaml.cs"
+      ]
+    },
+    {
+      "zip": "LUMEN_GENESIS_PROTECTED_TRANSFER_20260611-144150.zip",
+      "bytes": 35144,
+      "files": 6,
+      "entries": 6,
+      "extensions": [
+        [
+          ".json",
+          3
+        ],
+        [
+          ".ps1",
+          2
+        ],
+        [
+          ".md",
+          1
+        ]
+      ],
+      "roots": [
+        [
+          "PASTED_CONSOLE_CONTAMINATION_SCAN_20260611-144150.json",
+          1
+        ],
+        [
+          "PROTECTED_REPOSITORY_VAULT_DATA_GOVERNANCE_1181_1190_20260611-144150.json",
+          1
+        ],
+        [
+          "RUN_RUNTIME_PROOF_HARNESS.ps1",
+          1
+        ],
+        [
+          "RUNTIME_PROOF_REPORT_20260611-144157.json",
+          1
+        ],
+        [
+          "UPLOAD_ME_FIRST_LUMEN_GENESIS_20260611-144150.md",
+          1
+        ],
+        [
+          "VALIDATE_CONTINUITY_REPOSITORY.ps1",
+          1
+        ]
+      ],
+      "newest": [
+        "2026-06-11 14:43:02",
+        "UPLOAD_ME_FIRST_LUMEN_GENESIS_20260611-144150.md"
+      ]
+    },
+    {
+      "zip": "LUMEN_SOURCE_TRANSFER_UPLOAD_TO_NEW_PROJECT_20260610_043352.zip",
+      "bytes": 1994985,
+      "files": 801,
+      "entries": 866,
+      "extensions": [
+        [
+          ".js",
+          500
+        ],
+        [
+          ".tsx",
+          82
+        ],
+        [
+          ".ts",
+          72
+        ],
+        [
+          ".mjs",
+          65
+        ],
+        [
+          ".json",
+          25
+        ],
+        [
+          ".md",
+          17
+        ],
+        [
+          ".jsx",
+          10
+        ],
+        [
+          ".ps1",
+          6
+        ],
+        [
+          ".svg",
+          5
+        ],
+        [
+          ".html",
+          4
+        ],
+        [
+          ".cmd",
+          3
+        ],
+        [
+          ".cs",
+          2
+        ],
+        [
+          ".exe",
+          1
+        ],
+        [
+          ".backup_phase18_20260529_155249",
+          1
+        ],
+        [
+          ".backup_phase21_20260529_162229",
+          1
+        ],
+        [
+          ".backup_phase28_20260529_170055",
+          1
+        ],
+        [
+          ".backup_clean_native_map_20260529_154356",
+          1
+        ],
+        [
+          "[none]",
+          1
+        ],
+        [
+          ".ico",
+          1
+        ],
+        [
+          ".webmanifest",
+          1
+        ],
+        [
+          ".example",
+          1
+        ],
+        [
+          ".txt",
+          1
+        ]
+      ],
+      "roots": [
+        [
+          "pages",
+          623
+        ],
+        [
+          "lumen-os",
+          100
+        ],
+        [
+          "lib",
+          23
+        ],
+        [
+          "src",
+          20
+        ],
+        [
+          "public",
+          15
+        ],
+        [
+          "app",
+          8
+        ],
+        [
+          "components",
+          5
+        ],
+        [
+          ".env.example",
+          1
+        ],
+        [
+          "next.config.js",
+          1
+        ],
+        [
+          "package-lock.json",
+          1
+        ],
+        [
+          "package.json",
+          1
+        ],
+        [
+          "playwright.config.js",
+          1
+        ],
+        [
+          "START_HERE_FOR_NEW_PROJECT.txt",
+          1
+        ],
+        [
+          "tsconfig.json",
+          1
+        ]
+      ],
+      "newest": [
+        "2026-06-10 04:34:02",
+        "START_HERE_FOR_NEW_PROJECT.txt"
+      ]
+    },
+    {
+      "zip": "LUMEN_UPLOAD_THIS_TO_NEW_PROJECT_20260610_031736.zip",
+      "bytes": 16805869,
+      "files": 1537,
+      "entries": 1613,
+      "extensions": [
+        [
+          ".js",
+          786
+        ],
+        [
+          ".tsx",
+          164
+        ],
+        [
+          ".ts",
+          138
+        ],
+        [
+          ".mjs",
+          137
+        ],
+        [
+          ".json",
+          114
+        ],
+        [
+          ".txt",
+          98
+        ],
+        [
+          ".md",
+          35
+        ],
+        [
+          ".jsx",
+          20
+        ],
+        [
+          ".ps1",
+          14
+        ],
+        [
+          ".cmd",
+          6
+        ],
+        [
+          ".svg",
+          5
+        ],
+        [
+          ".cs",
+          4
+        ],
+        [
+          ".html",
+          4
+        ],
+        [
+          ".csv",
+          3
+        ],
+        [
+          ".exe",
+          1
+        ],
+        [
+          ".backup_phase18_20260529_155249",
+          1
+        ],
+        [
+          ".backup_phase21_20260529_162229",
+          1
+        ],
+        [
+          ".backup_phase28_20260529_170055",
+          1
+        ],
+        [
+          ".backup_clean_native_map_20260529_154356",
+          1
+        ],
+        [
+          "[none]",
+          1
+        ],
+        [
+          ".ico",
+          1
+        ],
+        [
+          ".webmanifest",
+          1
+        ],
+        [
+          ".example",
+          1
+        ]
+      ],
+      "roots": [
+        [
+          "vault_records",
+          737
+        ],
+        [
+          "pages",
+          623
+        ],
+        [
+          "lumen-os",
+          100
+        ],
+        [
+          "lib",
+          23
+        ],
+        [
+          "src",
+          20
+        ],
+        [
+          "public",
+          15
+        ],
+        [
+          "app",
+          8
+        ],
+        [
+          "components",
+          5
+        ],
+        [
+          ".env.example",
+          1
+        ],
+        [
+          "next.config.js",
+          1
+        ],
+        [
+          "package-lock.json",
+          1
+        ],
+        [
+          "package.json",
+          1
+        ],
+        [
+          "playwright.config.js",
+          1
+        ],
+        [
+          "tsconfig.json",
+          1
+        ]
+      ],
+      "newest": [
+        "2026-06-10 00:47:44",
+        "lumen-os/docs/security/INSTITUTIONAL_PRELAUNCH_BASELINE.md"
+      ]
+    }
+  ],
+  "pairwise": [
+    {
+      "a": "LUMEN_GENESIS_FINAL_UPLOAD_20260611-144613.zip",
+      "b": "Conversation_Continuity_Pack (1).zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 1295,
+      "only_b": 2
+    },
+    {
+      "a": "LUMEN_GENESIS_FINAL_UPLOAD_20260611-144613.zip",
+      "b": "LUMEN_ACTUAL_SOURCE_FOR_NEW_PROJECT.zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 1295,
+      "only_b": 860
+    },
+    {
+      "a": "LUMEN_GENESIS_FINAL_UPLOAD_20260611-144613.zip",
+      "b": "Lumen-Prime-Ecosystem-UniversalLedger-Windows11 (1) (1).zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 1295,
+      "only_b": 9
+    },
+    {
+      "a": "LUMEN_GENESIS_FINAL_UPLOAD_20260611-144613.zip",
+      "b": "LUMEN_GENESIS_PROTECTED_TRANSFER_20260611-144150.zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 1295,
+      "only_b": 6
+    },
+    {
+      "a": "LUMEN_GENESIS_FINAL_UPLOAD_20260611-144613.zip",
+      "b": "LUMEN_SOURCE_TRANSFER_UPLOAD_TO_NEW_PROJECT_20260610_043352.zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 1295,
+      "only_b": 801
+    },
+    {
+      "a": "LUMEN_GENESIS_FINAL_UPLOAD_20260611-144613.zip",
+      "b": "LUMEN_UPLOAD_THIS_TO_NEW_PROJECT_20260610_031736.zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 1295,
+      "only_b": 1537
+    },
+    {
+      "a": "Conversation_Continuity_Pack (1).zip",
+      "b": "LUMEN_ACTUAL_SOURCE_FOR_NEW_PROJECT.zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 2,
+      "only_b": 860
+    },
+    {
+      "a": "Conversation_Continuity_Pack (1).zip",
+      "b": "Lumen-Prime-Ecosystem-UniversalLedger-Windows11 (1) (1).zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 2,
+      "only_b": 9
+    },
+    {
+      "a": "Conversation_Continuity_Pack (1).zip",
+      "b": "LUMEN_GENESIS_PROTECTED_TRANSFER_20260611-144150.zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 2,
+      "only_b": 6
+    },
+    {
+      "a": "Conversation_Continuity_Pack (1).zip",
+      "b": "LUMEN_SOURCE_TRANSFER_UPLOAD_TO_NEW_PROJECT_20260610_043352.zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 2,
+      "only_b": 801
+    },
+    {
+      "a": "Conversation_Continuity_Pack (1).zip",
+      "b": "LUMEN_UPLOAD_THIS_TO_NEW_PROJECT_20260610_031736.zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 2,
+      "only_b": 1537
+    },
+    {
+      "a": "LUMEN_ACTUAL_SOURCE_FOR_NEW_PROJECT.zip",
+      "b": "Lumen-Prime-Ecosystem-UniversalLedger-Windows11 (1) (1).zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 860,
+      "only_b": 9
+    },
+    {
+      "a": "LUMEN_ACTUAL_SOURCE_FOR_NEW_PROJECT.zip",
+      "b": "LUMEN_GENESIS_PROTECTED_TRANSFER_20260611-144150.zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 860,
+      "only_b": 6
+    },
+    {
+      "a": "LUMEN_ACTUAL_SOURCE_FOR_NEW_PROJECT.zip",
+      "b": "LUMEN_SOURCE_TRANSFER_UPLOAD_TO_NEW_PROJECT_20260610_043352.zip",
+      "common_paths": 799,
+      "same_hash": 799,
+      "different_hash": 0,
+      "only_a": 61,
+      "only_b": 2
+    },
+    {
+      "a": "LUMEN_ACTUAL_SOURCE_FOR_NEW_PROJECT.zip",
+      "b": "LUMEN_UPLOAD_THIS_TO_NEW_PROJECT_20260610_031736.zip",
+      "common_paths": 799,
+      "same_hash": 799,
+      "different_hash": 0,
+      "only_a": 61,
+      "only_b": 738
+    },
+    {
+      "a": "Lumen-Prime-Ecosystem-UniversalLedger-Windows11 (1) (1).zip",
+      "b": "LUMEN_GENESIS_PROTECTED_TRANSFER_20260611-144150.zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 9,
+      "only_b": 6
+    },
+    {
+      "a": "Lumen-Prime-Ecosystem-UniversalLedger-Windows11 (1) (1).zip",
+      "b": "LUMEN_SOURCE_TRANSFER_UPLOAD_TO_NEW_PROJECT_20260610_043352.zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 9,
+      "only_b": 801
+    },
+    {
+      "a": "Lumen-Prime-Ecosystem-UniversalLedger-Windows11 (1) (1).zip",
+      "b": "LUMEN_UPLOAD_THIS_TO_NEW_PROJECT_20260610_031736.zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 9,
+      "only_b": 1537
+    },
+    {
+      "a": "LUMEN_GENESIS_PROTECTED_TRANSFER_20260611-144150.zip",
+      "b": "LUMEN_SOURCE_TRANSFER_UPLOAD_TO_NEW_PROJECT_20260610_043352.zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 6,
+      "only_b": 801
+    },
+    {
+      "a": "LUMEN_GENESIS_PROTECTED_TRANSFER_20260611-144150.zip",
+      "b": "LUMEN_UPLOAD_THIS_TO_NEW_PROJECT_20260610_031736.zip",
+      "common_paths": 0,
+      "same_hash": 0,
+      "different_hash": 0,
+      "only_a": 6,
+      "only_b": 1537
+    },
+    {
+      "a": "LUMEN_SOURCE_TRANSFER_UPLOAD_TO_NEW_PROJECT_20260610_043352.zip",
+      "b": "LUMEN_UPLOAD_THIS_TO_NEW_PROJECT_20260610_031736.zip",
+      "common_paths": 800,
+      "same_hash": 800,
+      "different_hash": 0,
+      "only_a": 1,
+      "only_b": 737
+    }
+  ]
+}

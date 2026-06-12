@@ -1,0 +1,12 @@
+{
+  "series": [
+    {
+      "status": "Active",
+      "createdOrUpdated": "20260610-180207",
+      "seriesId": "CR-SERIES-0001",
+      "rootRepositoryId": "CR-REPO-LUMEN-CHATGPT-CONTINUITY",
+      "currentProjectId": "CR-PROJECT-CURRENT",
+      "title": "ChatGPT Project Continuity Series"
+    }
+  ]
+}

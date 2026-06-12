@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-06-11T19:37:11.1096397-06:00",
+  "targetStandard": "5000x-above-100-baseline",
+  "relationships": [
+    "created-by",
+    "modified-by",
+    "stored-in-repository",
+    "mirrored-to-vault",
+    "proved-by",
+    "rolled-back-by",
+    "validated-by",
+    "belongs-to-user-boundary",
+    "protected-by-founder-private-boundary",
+    "localized-by",
+    "adapted-for-accessibility-by",
+    "depends-on",
+    "supersedes",
+    "archives",
+    "derived-from"
+  ],
+  "rules": [
+    "no-unlogged-change",
+    "no-orphan-proof",
+    "no-orphan-vault-record",
+    "no-cross-user-private-link",
+    "no-founder-private-exposure",
+    "archive-before-overwrite",
+    "validate-before-promotion"
+  ]
+}

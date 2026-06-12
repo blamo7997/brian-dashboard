@@ -1,0 +1,126 @@
+{
+  "preservedHistoricalGenerations": [
+    "V1",
+    "V2"
+  ],
+  "hardRules": [
+    "Preservation-first",
+    "Additive-first",
+    "No scaffold for live/final systems",
+    "Archive before delete",
+    "Reference before duplicate",
+    "Delta before rewrite",
+    "Preserve lineage",
+    "Preserve context",
+    "Preserve validation",
+    "Preserve recovery",
+    "Durability before disposability",
+    "V3 is canonical active",
+    "V1 and V2 are preserved as historical references"
+  ],
+  "status": "Canonicalization plus additive constitutional expansion",
+  "createdOrUpdated": "20260610-220357",
+  "newContainers": [
+    "031_CANONICAL_RECORDS",
+    "032_TRANSFER_HISTORY",
+    "033_SUPERSESSION",
+    "034_APPROVALS",
+    "035_OPEN_QUESTIONS",
+    "036_FUTURE_WORK",
+    "037_SEARCH_INDEX",
+    "038_CHECKSUMS",
+    "039_TAGS",
+    "040_HEALTH_SCORING",
+    "041_REPOSITORY_CONSTITUTION",
+    "042_UNIVERSAL_BUILD_CONSTITUTION",
+    "043_LUMEN_OS_CONSTITUTION",
+    "044_LUMEN_HUMAN_OS_CONSTITUTION",
+    "045_VAULT_CONSTITUTION",
+    "046_LIVE_SYSTEM_RULES",
+    "047_NO_SCAFFOLD_RULES",
+    "048_PRESERVATION_LAWS",
+    "049_CONTEXT_AND_KNOWLEDGE_LAWS",
+    "050_SCALE_AND_RECOVERY_LAWS"
+  ],
+  "activeCanonicalGeneration": "V3",
+  "canonicalMap": [
+    {
+      "Subject": "Export Packets",
+      "Historical": [
+        "017_EXPORT_PACKETS"
+      ],
+      "Canonical": "028_EXPORT_PACKETS"
+    },
+    {
+      "Subject": "Validation",
+      "Historical": [
+        "013_VALIDATION"
+      ],
+      "Canonical": "024_VALIDATION"
+    },
+    {
+      "Subject": "Integrity",
+      "Historical": [
+        "014_INTEGRITY"
+      ],
+      "Canonical": "025_INTEGRITY"
+    },
+    {
+      "Subject": "Recovery",
+      "Historical": [
+        "015_RECOVERY"
+      ],
+      "Canonical": "026_RECOVERY"
+    },
+    {
+      "Subject": "Lineage",
+      "Historical": [
+        "011_LINEAGE"
+      ],
+      "Canonical": "022_LINEAGE"
+    },
+    {
+      "Subject": "Next Work",
+      "Historical": [
+        "010_NEXT_WORK"
+      ],
+      "Canonical": "021_NEXT_WORK"
+    },
+    {
+      "Subject": "Context And Rationale",
+      "Historical": [
+        "012_CONTEXT_AND_RATIONALE"
+      ],
+      "Canonical": "023_CONTEXT_AND_RATIONALE"
+    },
+    {
+      "Subject": "Open Loops",
+      "Historical": [
+        "007_OPEN_LOOPS"
+      ],
+      "Canonical": "014_OPEN_LOOPS"
+    },
+    {
+      "Subject": "Completed Work",
+      "Historical": [
+        "009_COMPLETED_WORK"
+      ],
+      "Canonical": "020_COMPLETED_WORK"
+    },
+    {
+      "Subject": "Transfers",
+      "Historical": [
+        "005_TRANSFERS"
+      ],
+      "Canonical": "007_TRANSFERS"
+    },
+    {
+      "Subject": "Deltas",
+      "Historical": [
+        "006_DELTAS"
+      ],
+      "Canonical": "008_DELTAS"
+    }
+  ],
+  "scope": "Repository + Universal Build + Lumen OS + Human OS + Vault + Live Systems"
+}

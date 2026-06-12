@@ -1,0 +1,35 @@
+{
+  "createdOrUpdated": "20260611-130300",
+  "status": "Vault integrated as authoritative repository subsystem",
+  "repositoryRole": "Operating structure and index",
+  "vaultRole": "Source of truth",
+  "containers": [
+    "1126_VAULT_RUNTIME_REGISTRY",
+    "1131_VAULT_FIRST_QUERY_RULE",
+    "1130_VAULT_GOVERNANCE_GATE",
+    "1139_VAULT_ARCHITECTURE_PROOF_LEDGER",
+    "1124_VAULT_LINEAGE_REGISTRY",
+    "1127_VAULT_DIGITAL_TWIN_REGISTRY",
+    "1121_VAULT_AUTHORITY_ROOT",
+    "1138_VAULT_RUNTIME_PROOF_LEDGER",
+    "1136_VAULT_TIMESTAMP_LEDGER",
+    "1129_VAULT_PROOF_REGISTRY",
+    "1123_VAULT_EVIDENCE_REGISTRY",
+    "1140_REPOSITORY_VAULT_UNIFICATION_GATE",
+    "1125_VAULT_ARCHITECTURE_REGISTRY",
+    "1128_VAULT_LIVING_TWIN_REGISTRY",
+    "1133_VAULT_FOUNDER_PRIVATE_BOUNDARY",
+    "1122_VAULT_OBJECT_REGISTRY",
+    "1135_VAULT_APPROVAL_LEDGER",
+    "1137_VAULT_TRANSFER_LEDGER",
+    "1132_VAULT_PERMISSION_BOUNDARY",
+    "1134_VAULT_USER_ISOLATION_BOUNDARY"
+  ],
+  "hardRules": [
+    "Vault-first authority across projects",
+    "Repository indexes and operates; Vault proves and governs",
+    "OS, website, runtime, AI, validation, architecture, twins, and transfers reference Vault first",
+    "No bypassing Vault governance",
+    "Founder/private boundaries and user isolation are Vault-governed"
+  ]
+}

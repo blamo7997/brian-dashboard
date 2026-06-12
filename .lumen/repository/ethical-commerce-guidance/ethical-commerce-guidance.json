@@ -1,0 +1,19 @@
+{
+  "system": "ethical-commerce-guidance",
+  "timestamp": "2026-06-11T21:19:06.2964627-06:00",
+  "capabilities": [
+    "product-guidance",
+    "bundle-guidance",
+    "membership-guidance",
+    "a-la-carte-guidance",
+    "upgrade-paths",
+    "premium-competitive-pricing"
+  ],
+  "rules": [
+    "guide-not-manipulate",
+    "clear-locked-features",
+    "clear-upgrade-options",
+    "permission-controlled-unlocks",
+    "proof-records"
+  ]
+}

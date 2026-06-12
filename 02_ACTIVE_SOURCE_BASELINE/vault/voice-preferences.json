@@ -1,0 +1,14 @@
+{
+  "updated_at": "2026-06-08T12:49:17.930Z",
+  "selected_voice_style": "feminine",
+  "allowed_voice_styles": [
+    "feminine",
+    "masculine",
+    "neutral",
+    "warm-premium",
+    "calm-teacher",
+    "executive-assistant",
+    "friendly-guide"
+  ],
+  "note": "Voice style preference only. No biometric voice cloning is performed."
+}

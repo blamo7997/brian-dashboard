@@ -1,0 +1,11 @@
+{
+    "protectedRule":  "Never modify OAuth, tokens, env vars, backend/API/payment/social connections, retired-commerce-platform/Vercel/Supabase/OpenAI secrets, products, collections, or working integrations without exact explicit approval.",
+    "overlay":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay",
+    "createdAt":  "2026-05-27T08:54:33.9658556-06:00",
+    "productsCollectionsTouched":  false,
+    "liveDeploymentTouched":  false,
+    "watcher":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\START_SAFE_REALTIME_WATCHER.ps1",
+    "ok":  true,
+    "sensitiveAreasTouched":  false,
+    "installer":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\INSTALL_OR_UPDATE_CURRENT_THEME_OVERLAY.ps1"
+}

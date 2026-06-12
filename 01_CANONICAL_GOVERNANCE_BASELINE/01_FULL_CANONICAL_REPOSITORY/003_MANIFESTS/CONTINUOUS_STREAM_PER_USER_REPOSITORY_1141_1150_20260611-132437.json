@@ -1,0 +1,23 @@
+{
+  "createdOrUpdated": "20260611-132437",
+  "status": "Added continuous automatic stream and per-user repository/Vault model 1141-1150",
+  "hardRules": [
+    "No manual project silos as the long-term model",
+    "One continuous automatic Lumen stream",
+    "Each user receives a permission-isolated repository/Vault continuity space",
+    "Vault-first authority remains mandatory",
+    "Founder/private and user isolation boundaries remain mandatory"
+  ],
+  "containers": [
+    "1142_NO_PROJECT_SILO_RULE",
+    "1145_PER_USER_VAULT_MODEL",
+    "1148_AUTOMATIC_TIMESTAMP_LINEAGE_STREAM",
+    "1141_CONTINUOUS_STREAM_ROOT",
+    "1147_SEAMLESS_OS_WEBSITE_VAULT_STREAM",
+    "1149_CONTINUOUS_VALIDATION_STREAM",
+    "1150_CONTINUOUS_STREAM_GOVERNANCE_GATE",
+    "1143_AUTOMATIC_CONTINUITY_STREAM",
+    "1144_PER_USER_REPOSITORY_MODEL",
+    "1146_USER_ISOLATED_CONTINUITY_SPACE"
+  ]
+}

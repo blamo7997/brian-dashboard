@@ -1,0 +1,54 @@
+# UNIVERSAL BUILD CONSTITUTION™
+
+Date: 20260610-220357
+Status: Canonical
+Scope: All Lumen / Lumen Technologies Solutions / live / production work
+
+## Universal Rule Stack
+Add before modify.
+Reference before duplicate.
+Archive before delete.
+Preserve before replace.
+Resume before rebuild.
+Validate before export.
+Transfer before close.
+Extend before restart.
+Trace before change.
+Lineage before authority.
+Context before compression.
+History before destruction.
+Evidence before assumption.
+Recovery before risk.
+Continuity before convenience.
+Durability before disposability.
+
+## Applies To
+- Repositories
+- Code
+- Apps
+- APIs
+- Dashboards
+- Portals
+- Services
+- Products
+- Deployments
+- Documentation
+- Specifications
+- Legal drafts
+- Data records
+- Transfer files
+- Live systems
+- Future systems
+
+## Live Build Rule
+If a system is production-bound, build durable structures whenever reasonably achievable.
+
+## Change Rule
+Changes must preserve:
+- Intent
+- History
+- Evidence
+- Lineage
+- Validation
+- Recovery path
+

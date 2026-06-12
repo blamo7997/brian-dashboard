@@ -1,0 +1,674 @@
+
+> brianco-backend-clean@1.0.0 build
+> next build
+
+Γû▓ Next.js 16.2.6 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+Turbopack build encountered 2 warnings:
+./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs:26:49
+The file pattern ('./lumen-os/packages/registry/registry-engine.mjs' | './lumen-os/packages/vault/vault-engine.mjs' | './lumen-os/packages/user-memory/user-memory-engine.mjs' | './lumen-os/packages/guardian/guardian-runtime.mjs' | './lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs' | './pages/api/lumen/do.js' | './pages/lumen/control.js' | <dynamic>) matches 96497 files in [project]/
+  24 |   ];
+  25 |
+> 26 |   const missing = requiredBaseline.filter(x => !fs.existsSync(x));
+     |                                                 ^^^^^^^^^^^^^^^^
+  27 |
+  28 |   const report = {
+  29 |     generated: new Date().toISOString(),
+
+Overly broad patterns can lead to build performance issues and over bundling.
+
+Import trace:
+  Route:
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./next.config.js
+Encountered unexpected file in NFT list
+A file was traced that indicates that the whole project was traced unintentionally. Somewhere in the import trace below, there are:
+- filesystem operations (like path.join, path.resolve or fs.readFile), or
+- very dynamic requires (like require('./' + foo)).
+To resolve this, you can
+- remove them if possible, or
+- only use them in development, or
+- make sure they are statically scoped to some subfolder: path.join(process.cwd(), 'data', bar), or
+- add ignore comments: path.join(/*turbopackIgnore: true*/ process.cwd(), bar)
+
+Import trace:
+  Route:
+    ./next.config.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+Γ£ô Compiled successfully in 38.5s
+  Running TypeScript ...
+  Finished TypeScript in 30.6s ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/311) ...
+  Generating static pages using 7 workers (77/311) 
+  Generating static pages using 7 workers (155/311) 
+  Generating static pages using 7 workers (233/311) 
+Γ£ô Generating static pages using 7 workers (311/311) in 1778ms
+  Finalizing page optimization ...
+
+Route (app)
+Γöî Γùï /_not-found
+Γö£ Γùï /admin/upload-reviews
+Γö£ Γùï /careers
+Γö£ Γùï /os
+Γö£ Γùï /subscriptions
+Γö£ Γùï /suppliers
+Γöö Γùï /upload
+
+Route (pages)
+Γöî Γùï /
+Γö£ ΓùÅ /absolute-master-continuity-product-master
+Γö£ ΓùÅ /absolute-master-handoff-continuity
+Γö£ Γùï /accessibility-care-expansion
+Γö£ Γùï /accessibility-intelligence
+Γö£ ΓùÅ /accessibility-intelligence-master
+Γö£ ΓùÅ /accessibility-localization-command
+Γö£ Γùï /accessibility-localization-growth-expansion
+Γö£ Γùï /account-access
+Γö£ Γùï /account/access
+Γö£ ΓùÅ /accountant-receipt-expense-master
+Γö£ Γùï /admin-companion-intelligence
+Γö£ ╞Æ /api/absolute-master-continuity-product-master/dashboard
+Γö£ ╞Æ /api/absolute-master-handoff-continuity/dashboard
+Γö£ ╞Æ /api/accessibility-care-expansion/dashboard
+Γö£ ╞Æ /api/accessibility-intelligence-master/dashboard
+Γö£ ╞Æ /api/accessibility-intelligence/dashboard
+Γö£ ╞Æ /api/accessibility-localization-command/dashboard
+Γö£ ╞Æ /api/accessibility-localization-growth-expansion/dashboard
+Γö£ ╞Æ /api/account-entitlements
+Γö£ ╞Æ /api/accountant-receipt-expense-master/dashboard
+Γö£ ╞Æ /api/admin-companion-intelligence/dashboard
+Γö£ ╞Æ /api/approval-automation/queues
+Γö£ ╞Æ /api/approval-governance-growth-expansion/dashboard
+Γö£ ╞Æ /api/approvals
+Γö£ ╞Æ /api/approvals/queues
+Γö£ ╞Æ /api/auth-native/readiness
+Γö£ ╞Æ /api/automation-coordination-expansion/dashboard
+Γö£ ╞Æ /api/autonomous-recommendation-expansion/dashboard
+Γö£ ╞Æ /api/brand-image-tone-master/dashboard
+Γö£ ╞Æ /api/brand-tone-protection/dashboard
+Γö£ ╞Æ /api/brianco-century-command-expansion/dashboard
+Γö£ ╞Æ /api/brianco-command
+Γö£ ╞Æ /api/brianco-command/audit
+Γö£ ╞Æ /api/brianco-gateway
+Γö£ ╞Æ /api/brianco/gateway
+Γö£ ╞Æ /api/brianco/gateway/continuity
+Γö£ ╞Æ /api/career-resume-job-master/dashboard
+Γö£ ╞Æ /api/chat
+Γö£ ╞Æ /api/chatbot-intelligence/intent
+Γö£ ╞Æ /api/chatbot-intelligence/summary
+Γö£ ╞Æ /api/cli-intelligence/snapshot
+Γö£ ╞Æ /api/collections
+Γö£ ╞Æ /api/command-center
+Γö£ ╞Æ /api/command-center/metrics
+Γö£ ╞Æ /api/commerce-evolution/dashboard
+Γö£ ╞Æ /api/commerce-growth-intelligence-expansion/dashboard
+Γö£ ╞Æ /api/commerce-intelligence/dashboard
+Γö£ ╞Æ /api/commerce-recommendation-master/dashboard
+Γö£ ╞Æ /api/communication-hub/summary
+Γö£ ╞Æ /api/communication-notification-intelligence/dashboard
+Γö£ ╞Æ /api/community-support-master/dashboard
+Γö£ ╞Æ /api/continuity-governance-expansion/dashboard
+Γö£ ╞Æ /api/create-founder-account
+Γö£ ╞Æ /api/creator-campaign-growth-expansion/dashboard
+Γö£ ╞Æ /api/creator-influencer-expansion/dashboard
+Γö£ ╞Æ /api/creator-video-editor-master/dashboard
+Γö£ ╞Æ /api/cross-system-learning/dashboard
+Γö£ ╞Æ /api/custom-work-nonrefundable-master/dashboard
+Γö£ ╞Æ /api/custom-work-production-master/dashboard
+Γö£ ╞Æ /api/customer-intelligence-layer/dashboard
+Γö£ ╞Æ /api/customer-intelligence/summary
+Γö£ ╞Æ /api/customer-lifecycle-intelligence-expansion/dashboard
+Γö£ ╞Æ /api/customer-portal-engine/dashboard
+Γö£ ╞Æ /api/deployment-playwright-master/dashboard
+Γö£ ╞Æ /api/digital-membership-growth-expansion/dashboard
+Γö£ ╞Æ /api/digital-product-drafts
+Γö£ ╞Æ /api/digital-product-growth-command/dashboard
+Γö£ ╞Æ /api/digital-product-intelligence-v2/dashboard
+Γö£ ╞Æ /api/digital-work
+Γö£ ╞Æ /api/ecosystem-analytics-expansion/dashboard
+Γö£ ╞Æ /api/ecosystem-command/master
+Γö£ ╞Æ /api/ecosystem-continuity/dashboard
+Γö£ ╞Æ /api/ecosystem-growth-coordination-expansion/dashboard
+Γö£ ╞Æ /api/ecosystem-insights/dashboard
+Γö£ ╞Æ /api/ecosystem-optimization/dashboard
+Γö£ ╞Æ /api/ecosystem-orchestration-command/dashboard
+Γö£ ╞Æ /api/ecosystem-orchestration-expansion-v2/dashboard
+Γö£ ╞Æ /api/ecosystem-orchestration/dashboard
+Γö£ ╞Æ /api/ecosystem-performance-intelligence-expansion/dashboard
+Γö£ ╞Æ /api/ecosystem/dashboard
+Γö£ ╞Æ /api/entitlement-my-products-command/dashboard
+Γö£ ╞Æ /api/entitlement-product-registry-master/dashboard
+Γö£ ╞Æ /api/event-festival-intelligence-v2/dashboard
+Γö£ ╞Æ /api/event-festival-intelligence/dashboard
+Γö£ ╞Æ /api/event-intake/dashboard
+Γö£ ╞Æ /api/event-vendor-artisan-creator-participation/dashboard
+Γö£ ╞Æ /api/events/cheyenne
+Γö£ ╞Æ /api/executive-decision-intelligence/dashboard
+Γö£ ╞Æ /api/executive-intelligence-expansion/dashboard
+Γö£ ╞Æ /api/experience-intelligence/dashboard
+Γö£ ╞Æ /api/fort-knox-vault-continuity/dashboard
+Γö£ ╞Æ /api/founder
+Γö£ ╞Æ /api/founder-approval-compliance/dashboard
+Γö£ ╞Æ /api/founder-command-center-master/dashboard
+Γö£ ╞Æ /api/founder-command-center/dashboard
+Γö£ ╞Æ /api/founder-command-intelligence/dashboard
+Γö£ ╞Æ /api/founder-ecosystem-intelligence-expansion/dashboard
+Γö£ ╞Æ /api/founder-gate
+Γö£ ╞Æ /api/founder-intelligence-network-expansion/dashboard
+Γö£ ╞Æ /api/founder-knowledge/dashboard
+Γö£ ╞Æ /api/founder-operations-command-expansion/dashboard
+Γö£ ╞Æ /api/founder-operations-intelligence/dashboard
+Γö£ ╞Æ /api/founder-opportunity-intelligence-expansion/dashboard
+Γö£ ╞Æ /api/founder-ops/dashboard
+Γö£ ╞Æ /api/founder-reports-audit-command/dashboard
+Γö£ ╞Æ /api/founder-revenue-command-expansion/dashboard
+Γö£ ╞Æ /api/founder-strategic-command-expansion/dashboard
+Γö£ ╞Æ /api/free-os-foundation-master/dashboard
+Γö£ ╞Æ /api/full-project-audit/dashboard
+Γö£ ╞Æ /api/future-os-device-ecosystem-master/dashboard
+Γö£ ╞Æ /api/growth-expansion/dashboard
+Γö£ ╞Æ /api/health
+Γö£ ╞Æ /api/health-caregiver-master/dashboard
+Γö£ ╞Æ /api/identity-continuity-growth-expansion/dashboard
+Γö£ ╞Æ /api/income-tier-command/dashboard
+Γö£ ╞Æ /api/intelligence/experience
+Γö£ ╞Æ /api/intelligence/sales-orders
+Γö£ ╞Æ /api/interaction-logging/dashboard
+Γö£ ╞Æ /api/lawyer-review-routing-master/dashboard
+Γö£ ╞Æ /api/legal-approval-center/dashboard
+Γö£ ╞Æ /api/legal-contract-policy-lifecycle-master/dashboard
+Γö£ ╞Æ /api/legal-signature-approval-master/dashboard
+Γö£ ╞Æ /api/legal/live/action
+Γö£ ╞Æ /api/legal/live/records
+Γö£ ╞Æ /api/local-events-festival-intelligence/dashboard
+Γö£ ╞Æ /api/local-intelligence/events
+Γö£ ╞Æ /api/localization-cultural-expansion/dashboard
+Γö£ ╞Æ /api/localization-intelligence-master/dashboard
+Γö£ ╞Æ /api/localization-intelligence/dashboard
+Γö£ ╞Æ /api/lumen/adaptive-voice
+Γö£ ╞Æ /api/lumen/answer
+Γö£ ╞Æ /api/lumen/baseline-guardian
+Γö£ ╞Æ /api/lumen/context
+Γö£ ╞Æ /api/lumen/do
+Γö£ ╞Æ /api/lumen/livestream-intelligence
+Γö£ ╞Æ /api/lumen/password-recovery-intelligence
+Γö£ ╞Æ /api/lumen/payment-intelligence
+Γö£ ╞Æ /api/lumen/secret-scan
+Γö£ ╞Æ /api/lumen/startup
+Γö£ ╞Æ /api/lumen/verified-research
+Γö£ ╞Æ /api/luxury-brand-outreach-center/dashboard
+Γö£ ╞Æ /api/luxury-resale-intelligence/dashboard
+Γö£ ╞Æ /api/market-intelligence/dashboard
+Γö£ ╞Æ /api/master-protection/dashboard
+Γö£ ╞Æ /api/meeting-transcript-master/dashboard
+Γö£ ╞Æ /api/meeting-transcript-video-command/dashboard
+Γö£ ╞Æ /api/membership-subscription-intelligence-v2/dashboard
+Γö£ ╞Æ /api/memory-continuity-intelligence/dashboard
+Γö£ ╞Æ /api/memory-continuity-learning-master/dashboard
+Γö£ ╞Æ /api/native-identity-experience-expansion/dashboard
+Γö£ ╞Æ /api/native-identity/readiness
+Γö£ ╞Æ /api/native-language-experience/dashboard
+Γö£ ╞Æ /api/native/customer-dashboard
+Γö£ ╞Æ /api/opportunity-expansion/dashboard
+Γö£ ╞Æ /api/opportunity-growth-expansion/dashboard
+Γö£ ╞Æ /api/opportunity-intelligence/dashboard
+Γö£ ╞Æ /api/orchestration-expansion/dashboard
+Γö£ ╞Æ /api/origin-policy-marketplace-layer/dashboard
+Γö£ ╞Æ /api/origin-provenance-intelligence/dashboard
+Γö£ ╞Æ /api/os-chatbot-continuity-master/dashboard
+Γö£ ╞Æ /api/os-shared-intelligence-master/dashboard
+Γö£ ╞Æ /api/personalization-intelligence/dashboard
+Γö£ ╞Æ /api/personalization/role
+Γö£ ╞Æ /api/phase-001-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-002-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-003-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-004-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-005-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-006-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-007-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-008-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-009-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-010-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-011-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-012-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-013-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-014-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-015-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-016-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-017-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-018-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-019-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-020-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-021-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-022-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-023-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-024-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-025-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-026-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-027-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-028-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-029-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-030-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-031-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-032-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-033-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-034-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-035-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-036-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-037-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-038-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-039-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-040-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-041-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-042-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-043-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-044-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-045-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-046-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-047-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-048-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-049-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-050-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-051-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-052-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-053-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-054-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-055-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-056-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-057-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-058-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-059-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-060-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-061-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-062-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-063-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-064-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-065-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-066-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-067-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-068-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-069-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-070-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-071-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-072-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-073-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-074-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-075-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-076-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-077-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-078-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-079-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-080-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-081-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-082-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-083-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-084-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-085-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-086-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-087-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-088-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-089-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-090-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-091-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-092-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-093-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-094-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-095-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-096-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-097-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-098-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-099-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/phase-100-dynamic-protection-registry/dashboard
+Γö£ ╞Æ /api/political-civic-campaign-master/dashboard
+Γö£ ╞Æ /api/product-image-tone-command/dashboard
+Γö£ ╞Æ /api/product-image-tone-intelligence/dashboard
+Γö£ ╞Æ /api/product-visibility-layer/dashboard
+Γö£ ╞Æ /api/production-fulfillment-intelligence/dashboard
+Γö£ ╞Æ /api/production-stability/dashboard
+Γö£ ╞Æ /api/products
+Γö£ ╞Æ /api/protected-governance/dashboard
+Γö£ ╞Æ /api/provider-lifecycle-intelligence/dashboard
+Γö£ ╞Æ /api/provider-marketplace-expansion/dashboard
+Γö£ ╞Æ /api/provider-onboarding-portfolio-master/dashboard
+Γö£ ╞Æ /api/provider-partner-intelligence/dashboard
+Γö£ ╞Æ /api/provider-policy-tone-master/dashboard
+Γö£ ╞Æ /api/provider-readiness
+Γö£ ╞Æ /api/provider-readiness/future
+Γö£ ╞Æ /api/recommendation-intelligence/dashboard
+Γö£ ╞Æ /api/revenue-intelligence/dashboard
+Γö£ ╞Æ /api/revenue-optimization-expansion/dashboard
+Γö£ ╞Æ /api/revenue-recommendation-command/dashboard
+Γö£ ╞Æ /api/role-expansion-intelligence/dashboard
+Γö£ ╞Æ /api/role-growth-intelligence-expansion/dashboard
+Γö£ ╞Æ /api/role-intelligence/notifications
+Γö£ ╞Æ /api/role-intelligence/profile
+Γö£ ╞Æ /api/role-orchestration/dashboard
+Γö£ ╞Æ /api/role-portal-engine/dashboard
+Γö£ ╞Æ /api/role-portal-expansion/dashboard
+Γö£ ╞Æ /api/role-portal-network-master/dashboard
+Γö£ ╞Æ /api/role-request
+Γö£ ╞Æ /api/roles
+Γö£ ╞Æ /api/roles/customer
+Γö£ ╞Æ /api/shared-website-chatbot-os-intelligence/dashboard
+Γö£ ╞Æ /api/strategic-automation-intelligence-expansion/dashboard
+Γö£ ╞Æ /api/strategic-planning-expansion/dashboard
+Γö£ ╞Æ /api/strategic-planning/dashboard
+Γö£ ╞Æ /api/supplier-artisan-commerce-master/dashboard
+Γö£ ╞Æ /api/supplier-artisan-growth-expansion/dashboard
+Γö£ ╞Æ /api/supplier-recruitment-center/dashboard
+Γö£ ╞Æ /api/supplier-recruitment-intelligence/dashboard
+Γö£ ╞Æ /api/text-interaction/readiness
+Γö£ ╞Æ /api/text/route
+Γö£ ╞Æ /api/theme-intelligence/dashboard
+Γö£ ╞Æ /api/tracking-shipment-master/dashboard
+Γö£ ╞Æ /api/universal-customer-intelligence/dashboard
+Γö£ ╞Æ /api/video-media-brand-master/dashboard
+Γö£ ╞Æ /api/visual-intelligence/dashboard
+Γö£ ╞Æ /api/website-chatbot-master/dashboard
+Γö£ ╞Æ /api/white-glove-customer-journey/dashboard
+Γö£ ╞Æ /api/white-glove-thank-you-master/dashboard
+Γö£ ╞Æ /api/writer-publishing-expansion/dashboard
+Γö£ Γùï /approval-automation
+Γö£ Γùï /approval-governance-growth-expansion
+Γö£ Γùï /automation-coordination-expansion
+Γö£ Γùï /autonomous-recommendation-expansion
+Γö£ ΓùÅ /brand-image-tone-master
+Γö£ Γùï /brand-tone-protection
+Γö£ Γùï /brianco-century-command-expansion
+Γö£ Γùï /brianco-live-feature-hub
+Γö£ ΓùÅ /career-resume-job-master
+Γö£ Γùï /chatbot-continuity
+Γö£ Γùï /chatbot-intelligence
+Γö£ Γùï /collections
+Γö£ Γùï /command-center
+Γö£ Γùï /commerce-evolution
+Γö£ Γùï /commerce-growth-intelligence-expansion
+Γö£ Γùï /commerce-intelligence
+Γö£ ΓùÅ /commerce-recommendation-master
+Γö£ Γùï /communication-hub
+Γö£ Γùï /communication-notification-intelligence
+Γö£ ΓùÅ /community-support-master
+Γö£ Γùï /continuity-governance-expansion
+Γö£ Γùï /copy-tone-intelligence
+Γö£ Γùï /creator-campaign-growth-expansion
+Γö£ Γùï /creator-influencer-expansion
+Γö£ ΓùÅ /creator-video-editor-master
+Γö£ Γùï /cross-system-learning
+Γö£ Γùï /CurrentLumenSetup-theme-health
+Γö£ ΓùÅ /CurrentLumenSetup-theme-health-command
+Γö£ ΓùÅ /CurrentLumenSetup-theme-health-master
+Γö£ ΓùÅ /custom-work-nonrefundable-master
+Γö£ ΓùÅ /custom-work-production-master
+Γö£ Γùï /customer-intelligence
+Γö£ ΓùÅ /customer-intelligence-layer
+Γö£ Γùï /customer-lifecycle-intelligence-expansion
+Γö£ Γùï /customer-portal-engine
+Γö£ ΓùÅ /deployment-playwright-master
+Γö£ Γùï /digital-membership-growth-expansion
+Γö£ ΓùÅ /digital-product-growth-command
+Γö£ Γùï /digital-product-intelligence-v2
+Γö£ Γùï /digital-product-request
+Γö£ Γùï /digital-workspace
+Γö£ Γùï /dropship-supplier-intake
+Γö£ Γùï /ecosystem-analytics-expansion
+Γö£ Γùï /ecosystem-continuity
+Γö£ Γùï /ecosystem-growth-coordination-expansion
+Γö£ Γùï /ecosystem-insights
+Γö£ Γùï /ecosystem-live-map
+Γö£ Γùï /ecosystem-optimization
+Γö£ Γùï /ecosystem-orchestration
+Γö£ ΓùÅ /ecosystem-orchestration-command
+Γö£ Γùï /ecosystem-orchestration-expansion-v2
+Γö£ Γùï /ecosystem-performance-intelligence-expansion
+Γö£ ΓùÅ /entitlement-my-products-command
+Γö£ ΓùÅ /entitlement-product-registry-master
+Γö£ Γùï /event-festival-intelligence
+Γö£ ΓùÅ /event-festival-intelligence-v2
+Γö£ Γùï /event-intake
+Γö£ ΓùÅ /event-vendor-artisan-creator-participation
+Γö£ Γùï /executive-decision-intelligence
+Γö£ Γùï /executive-intelligence-expansion
+Γö£ Γùï /experience-intelligence
+Γö£ ΓùÅ /fort-knox-vault-continuity
+Γö£ Γùï /founder-approval-compliance
+Γö£ Γùï /founder-approvals
+Γö£ ΓùÅ /founder-command-center
+Γö£ ΓùÅ /founder-command-center-master
+Γö£ Γùï /founder-command-intelligence
+Γö£ Γùï /founder-continuity-vault
+Γö£ Γùï /founder-ecosystem-intelligence-expansion
+Γö£ Γùï /founder-intelligence-network-expansion
+Γö£ Γùï /founder-knowledge
+Γö£ Γùï /founder-login
+Γö£ Γùï /founder-operations-command-expansion
+Γö£ Γùï /founder-operations-intelligence
+Γö£ Γùï /founder-opportunity-intelligence-expansion
+Γö£ ΓùÅ /founder-reports-audit-command
+Γö£ Γùï /founder-revenue-command-expansion
+Γö£ Γùï /founder-strategic-command-expansion
+Γö£ Γùï /free-access-request
+Γö£ ΓùÅ /free-os-foundation-master
+Γö£ Γùï /full-project-audit
+Γö£ Γùï /future-expansion
+Γö£ ΓùÅ /future-os-device-ecosystem-master
+Γö£ Γùï /future-products
+Γö£ Γùï /growth-expansion
+Γö£ ΓùÅ /health-caregiver-master
+Γö£ Γùï /identity-continuity-growth-expansion
+Γö£ Γùï /image-background-intelligence
+Γö£ ΓùÅ /income-tier-command
+Γö£ Γùï /income-tier-intelligence
+Γö£ Γùï /income-tier-sourcing
+Γö£ Γùï /interaction-logging
+Γö£ Γùï /ip-vault
+Γö£ ΓùÅ /lawyer-review-routing-master (320 ms)
+Γö£ ΓùÅ /legal-approval-center (315 ms)
+Γö£ Γùï /legal-approval-queue
+Γö£ Γùï /legal-command-center
+Γö£ ΓùÅ /legal-contract-policy-lifecycle-master (315 ms)
+Γö£ ΓùÅ /legal-signature-approval-master (315 ms)
+Γö£ ΓùÅ /local-events-festival-intelligence (314 ms)
+Γö£ Γùï /local-intelligence
+Γö£ Γùï /localization-cultural-expansion
+Γö£ Γùï /localization-intelligence
+Γö£ ΓùÅ /localization-intelligence-master (315 ms)
+Γö£ Γùï /lumen/control
+Γö£ Γùï /luxury-brand-outreach
+Γö£ ΓùÅ /luxury-brand-outreach-center (313 ms)
+Γö£ Γùï /luxury-concierge-marketplace
+Γö£ Γùï /luxury-resale-intelligence
+Γö£ Γùï /market-intelligence
+Γö£ Γùï /master-protection
+Γö£ ΓùÅ /meeting-transcript-master (327 ms)
+Γö£ ΓùÅ /meeting-transcript-video-command
+Γö£ Γùï /membership-subscription-intelligence-v2
+Γö£ Γùï /memory-continuity-intelligence
+Γö£ ΓùÅ /memory-continuity-learning-master
+Γö£ Γùï /my-products
+Γö£ Γùï /native-identity
+Γö£ Γùï /native-identity-experience-expansion
+Γö£ Γùï /native-language-experience
+Γö£ Γùï /native-map
+Γö£ Γùï /opportunity-expansion
+Γö£ Γùï /opportunity-growth-expansion
+Γö£ Γùï /opportunity-intelligence (414 ms)
+Γö£ Γùï /orchestration-expansion (408 ms)
+Γö£ ΓùÅ /origin-policy-marketplace-layer
+Γö£ Γùï /origin-provenance-intelligence (409 ms)
+Γö£ ΓùÅ /os-chatbot-continuity-master
+Γö£ ΓùÅ /os-shared-intelligence-master
+Γö£ Γùï /personalization-intelligence (407 ms)
+Γö£ Γùï /personalized (407 ms)
+Γö£ Γùï /phase-001-dynamic-protection-registry (418 ms)
+Γö£ Γùï /phase-002-dynamic-protection-registry (431 ms)
+Γö£ Γùï /phase-003-dynamic-protection-registry (431 ms)
+Γö£ Γùï /phase-004-dynamic-protection-registry
+Γö£ Γùï /phase-005-dynamic-protection-registry
+Γö£ Γùï /phase-006-dynamic-protection-registry
+Γö£ Γùï /phase-007-dynamic-protection-registry
+Γö£ Γùï /phase-008-dynamic-protection-registry
+Γö£ Γùï /phase-009-dynamic-protection-registry
+Γö£ Γùï /phase-010-dynamic-protection-registry
+Γö£ Γùï /phase-011-dynamic-protection-registry
+Γö£ Γùï /phase-012-dynamic-protection-registry
+Γö£ Γùï /phase-013-dynamic-protection-registry
+Γö£ Γùï /phase-014-dynamic-protection-registry
+Γö£ Γùï /phase-015-dynamic-protection-registry
+Γö£ Γùï /phase-016-dynamic-protection-registry
+Γö£ Γùï /phase-017-dynamic-protection-registry
+Γö£ Γùï /phase-018-dynamic-protection-registry
+Γö£ Γùï /phase-019-dynamic-protection-registry
+Γö£ Γùï /phase-020-dynamic-protection-registry
+Γö£ Γùï /phase-021-dynamic-protection-registry
+Γö£ Γùï /phase-022-dynamic-protection-registry
+Γö£ Γùï /phase-023-dynamic-protection-registry
+Γö£ Γùï /phase-024-dynamic-protection-registry
+Γö£ Γùï /phase-025-dynamic-protection-registry
+Γö£ Γùï /phase-026-dynamic-protection-registry
+Γö£ Γùï /phase-027-dynamic-protection-registry
+Γö£ Γùï /phase-028-dynamic-protection-registry
+Γö£ Γùï /phase-029-dynamic-protection-registry
+Γö£ Γùï /phase-030-dynamic-protection-registry
+Γö£ Γùï /phase-031-dynamic-protection-registry
+Γö£ Γùï /phase-032-dynamic-protection-registry
+Γö£ Γùï /phase-033-dynamic-protection-registry
+Γö£ Γùï /phase-034-dynamic-protection-registry
+Γö£ Γùï /phase-035-dynamic-protection-registry
+Γö£ Γùï /phase-036-dynamic-protection-registry
+Γö£ Γùï /phase-037-dynamic-protection-registry
+Γö£ Γùï /phase-038-dynamic-protection-registry
+Γö£ Γùï /phase-039-dynamic-protection-registry
+Γö£ Γùï /phase-040-dynamic-protection-registry
+Γö£ Γùï /phase-041-dynamic-protection-registry
+Γö£ Γùï /phase-042-dynamic-protection-registry
+Γö£ Γùï /phase-043-dynamic-protection-registry
+Γö£ Γùï /phase-044-dynamic-protection-registry
+Γö£ Γùï /phase-045-dynamic-protection-registry
+Γö£ Γùï /phase-046-dynamic-protection-registry
+Γö£ Γùï /phase-047-dynamic-protection-registry
+Γö£ Γùï /phase-048-dynamic-protection-registry
+Γö£ Γùï /phase-049-dynamic-protection-registry
+Γö£ Γùï /phase-050-dynamic-protection-registry
+Γö£ Γùï /phase-051-dynamic-protection-registry
+Γö£ Γùï /phase-052-dynamic-protection-registry
+Γö£ Γùï /phase-053-dynamic-protection-registry
+Γö£ Γùï /phase-054-dynamic-protection-registry
+Γö£ Γùï /phase-055-dynamic-protection-registry
+Γö£ Γùï /phase-056-dynamic-protection-registry
+Γö£ Γùï /phase-057-dynamic-protection-registry
+Γö£ Γùï /phase-058-dynamic-protection-registry
+Γö£ Γùï /phase-059-dynamic-protection-registry
+Γö£ Γùï /phase-060-dynamic-protection-registry
+Γö£ Γùï /phase-061-dynamic-protection-registry
+Γö£ Γùï /phase-062-dynamic-protection-registry
+Γö£ Γùï /phase-063-dynamic-protection-registry
+Γö£ Γùï /phase-064-dynamic-protection-registry
+Γö£ Γùï /phase-065-dynamic-protection-registry
+Γö£ Γùï /phase-066-dynamic-protection-registry
+Γö£ Γùï /phase-067-dynamic-protection-registry
+Γö£ Γùï /phase-068-dynamic-protection-registry
+Γö£ Γùï /phase-069-dynamic-protection-registry
+Γö£ Γùï /phase-070-dynamic-protection-registry
+Γö£ Γùï /phase-071-dynamic-protection-registry
+Γö£ Γùï /phase-072-dynamic-protection-registry
+Γö£ Γùï /phase-073-dynamic-protection-registry
+Γö£ Γùï /phase-074-dynamic-protection-registry
+Γö£ Γùï /phase-075-dynamic-protection-registry
+Γö£ Γùï /phase-076-dynamic-protection-registry
+Γö£ Γùï /phase-077-dynamic-protection-registry
+Γö£ Γùï /phase-078-dynamic-protection-registry
+Γö£ Γùï /phase-079-dynamic-protection-registry
+Γö£ Γùï /phase-080-dynamic-protection-registry
+Γö£ Γùï /phase-081-dynamic-protection-registry
+Γö£ Γùï /phase-082-dynamic-protection-registry
+Γö£ Γùï /phase-083-dynamic-protection-registry
+Γö£ Γùï /phase-084-dynamic-protection-registry
+Γö£ Γùï /phase-085-dynamic-protection-registry
+Γö£ Γùï /phase-086-dynamic-protection-registry
+Γö£ Γùï /phase-087-dynamic-protection-registry
+Γö£ Γùï /phase-088-dynamic-protection-registry
+Γö£ Γùï /phase-089-dynamic-protection-registry
+Γö£ Γùï /phase-090-dynamic-protection-registry
+Γö£ Γùï /phase-091-dynamic-protection-registry
+Γö£ Γùï /phase-092-dynamic-protection-registry
+Γö£ Γùï /phase-093-dynamic-protection-registry
+Γö£ Γùï /phase-094-dynamic-protection-registry
+Γö£ Γùï /phase-095-dynamic-protection-registry
+Γö£ Γùï /phase-096-dynamic-protection-registry
+Γö£ Γùï /phase-097-dynamic-protection-registry
+Γö£ Γùï /phase-098-dynamic-protection-registry
+Γö£ Γùï /phase-099-dynamic-protection-registry
+Γö£ Γùï /phase-100-dynamic-protection-registry
+Γö£ ΓùÅ /political-civic-campaign-master
+Γö£ Γùï /private-email-intelligence
+Γö£ ΓùÅ /product-image-tone-command
+Γö£ Γùï /product-image-tone-intelligence
+Γö£ ΓùÅ /product-visibility-layer
+Γö£ ΓùÅ /production-fulfillment-intelligence
+Γö£ Γùï /production-stability
+Γö£ Γùï /protected-governance
+Γö£ ΓùÅ /provider-lifecycle-intelligence
+Γö£ ΓùÅ /provider-marketplace-expansion
+Γö£ ΓùÅ /provider-onboarding-portfolio-master
+Γö£ Γùï /provider-partner-intelligence
+Γö£ ΓùÅ /provider-policy-tone-master
+Γö£ Γùï /provider-readiness
+Γö£ Γùï /recommendation-intelligence
+Γö£ Γùï /revenue-intelligence
+Γö£ Γùï /revenue-optimization-expansion
+Γö£ ΓùÅ /revenue-recommendation-command
+Γö£ Γùï /role-center
+Γö£ Γùï /role-expansion-intelligence
+Γö£ Γùï /role-growth-intelligence-expansion
+Γö£ Γùï /role-orchestration
+Γö£ Γùï /role-portal
+Γö£ Γùï /role-portal-engine
+Γö£ ΓùÅ /role-portal-expansion
+Γö£ ΓùÅ /role-portal-network-master
+Γö£ Γùï /role-request
+Γö£ Γùï /role/accountant
+Γö£ Γùï /role/admin
+Γö£ Γùï /role/artisan
+Γö£ Γùï /role/banker
+Γö£ Γùï /role/creator
+Γö£ Γùï /role/customer
+Γö£ Γùï /role/family
+Γö£ Γùï /role/influencer
+Γö£ Γùï /role/investor
+Γö£ Γùï /role/lawyer
+Γö£ Γùï /role/supplier
+Γö£ ΓùÅ /shared-website-chatbot-os-intelligence
+Γö£ Γùï /signin
+Γö£ Γùï /stewardship-intelligence
+Γö£ Γùï /strategic-automation-intelligence-expansion
+Γö£ Γùï /strategic-planning
+Γö£ Γùï /strategic-planning-expansion
+Γö£ ΓùÅ /supplier-artisan-commerce-master
+Γö£ Γùï /supplier-artisan-growth-expansion
+Γö£ ΓùÅ /supplier-recruitment-center
+Γö£ Γùï /supplier-recruitment-intelligence
+Γö£ Γùï /text-concierge
+Γö£ Γùï /text-interaction
+Γö£ Γùï /theme-intelligence
+Γö£ ΓùÅ /tracking-shipment-master
+Γö£ Γùï /universal-customer-intelligence
+Γö£ ΓùÅ /video-media-brand-master
+Γö£ ΓùÅ /website-chatbot-master
+Γö£ Γùï /website-os-continuity
+Γö£ ΓùÅ /white-glove-customer-journey
+Γö£ ΓùÅ /white-glove-thank-you-master
+Γöö Γùï /writer-publishing-expansion
+
+Γùï  (Static)   prerendered as static content
+ΓùÅ  (SSG)      prerendered as static HTML (uses generateStaticParams)
+╞Æ  (Dynamic)  server-rendered on demand
+

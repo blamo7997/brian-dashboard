@@ -1,0 +1,16 @@
+{
+  "system": "green-dot-legal-signature",
+  "timestamp": "2026-06-11T21:19:06.2966976-06:00",
+  "providerStrategy": "vetted-third-party-free-or-low-cost-until-lumen-native",
+  "requirements": [
+    "explicit-intent",
+    "identity-check",
+    "signer-authority",
+    "timestamp",
+    "audit-trail",
+    "document-version",
+    "repository-proof",
+    "vault-proof",
+    "legal-review-where-required"
+  ]
+}

@@ -1,0 +1,29 @@
+LUMEN INSIDE-ONLY CONTROL REPORT
+
+Generated: 2026-06-09T12:20:32.1517059-06:00
+
+Added:
+- Inside-Lumen Only Standard
+- Inside-Lumen Action Router
+- API: /api/lumen/do
+- Page: /lumen/control
+- Command Center inside-control note
+
+Behavior:
+- Users should not need to leave Lumen for normal operations.
+- Founder can type actions inside Lumen.
+- Lumen remembers the command.
+- Lumen routes the action.
+- Lumen runs Guardian checks.
+- Lumen can run audit, expansions, website generation, and operations from inside Lumen.
+- Step-by-step detail is optional.
+- PowerShell remains only bootstrap/launcher.
+
+Build Passed Marker:
+False
+
+Backup:
+.\backups\LUMEN_INSIDE_ONLY_CONTROL_20260609_121950
+
+Output:
+.\reports\LUMEN_INSIDE_ONLY_CONTROL_20260609_121950

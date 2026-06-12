@@ -1,0 +1,13 @@
+Brian & Co Section 13
+
+Created:
+- Upload page shell
+- Admin upload review dashboard shell
+- Media review card component
+
+Still needed next:
+- Real file upload endpoint
+- Supabase Storage bucket
+- Save upload metadata to role_upload_reviews
+- AI media review call
+- Admin approve/reject actions

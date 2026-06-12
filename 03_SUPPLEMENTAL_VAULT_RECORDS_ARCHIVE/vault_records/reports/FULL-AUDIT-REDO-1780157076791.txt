@@ -1,0 +1,16 @@
+BRIAN & CO FULL AUDIT REDO
+2026-05-30T16:04:36.786Z
+
+Total files: 708
+Source files: 702
+Page files: 483
+API files: 237
+Protected registries: 8
+Reports: 29
+Legal notices: 1
+
+Issues:
+- BOM still present in: scripts/full-audit.mjs
+
+BOM files:
+- scripts/full-audit.mjs

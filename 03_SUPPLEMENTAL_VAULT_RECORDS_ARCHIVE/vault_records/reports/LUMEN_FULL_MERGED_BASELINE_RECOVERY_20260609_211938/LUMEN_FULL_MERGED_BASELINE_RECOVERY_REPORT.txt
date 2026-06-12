@@ -1,0 +1,52 @@
+LUMEN FULL MERGED BASELINE + RECOVERY REPORT
+
+Generated: 2026-06-09T21:21:48.7058043-06:00
+
+Included in one block:
+- Full Merged Master Baseline
+- Knowledge-Centric Vault Engine
+- Skipped Item Guardian
+- No-Rabbit-Hole Engine
+- Commandless Intent Engine
+- Adaptive Experience Fabric
+- Source Trust Fabric
+- Compliance Fabric
+- Dynamic Baseline Engine
+- Combined Recovery Engine
+- APIs:
+  - /api/lumen/dynamic-baseline
+  - /api/lumen/knowledge-vault-status
+  - /api/lumen/combined-recovery
+  - /api/lumen/skipped-items-added
+- Desktop launcher:
+  - Lumen Full Merged Recovery.cmd
+- Router hooks:
+  - dynamic baseline
+  - combined recovery
+  - skipped items
+
+Preserved:
+- Existing files
+- Existing engines
+- Existing APIs
+- Existing data
+- Vault/data/user-memory/.env.local
+- Build-passing baseline
+
+Hard rule:
+- Do not delete.
+- Do not modify unless necessary.
+- Only add.
+- No duplicates.
+- Preserve what is there.
+- Build validate after change.
+
+Build Passed Marker:
+False
+
+Backup:
+.\backups\LUMEN_FULL_MERGED_BASELINE_RECOVERY_20260609_211938
+Output:
+.\reports\LUMEN_FULL_MERGED_BASELINE_RECOVERY_20260609_211938
+Desktop:
+C:\Users\user\Desktop\Lumen Full Merged Recovery.cmd

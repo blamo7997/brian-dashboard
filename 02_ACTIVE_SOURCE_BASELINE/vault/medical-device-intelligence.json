@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-06-08T14:09:58.636Z",
+  "categories": [
+    "ecg",
+    "eeg",
+    "emg",
+    "ultrasound",
+    "xray",
+    "ct",
+    "mri",
+    "patient_monitors",
+    "infusion_pumps",
+    "ventilators",
+    "defibrillators",
+    "laboratory_analyzers",
+    "diagnostic_devices",
+    "wearables",
+    "telemedicine_devices",
+    "clinical_research_devices"
+  ],
+  "capabilities": [
+    "inventory",
+    "maintenance_tracking",
+    "calibration_tracking",
+    "firmware_tracking",
+    "documentation",
+    "compliance_tracking",
+    "research_linking",
+    "vault_storage",
+    "knowledge_graph_linking"
+  ]
+}

@@ -1,0 +1,22 @@
+Loop 1 chatbot error [Recommend luxury products] :: The remote server returned an error: (404) Not Found.
+Loop 1 chatbot error [I need accessibility support] :: The remote server returned an error: (404) Not Found.
+Loop 1 chatbot error [What are your return policies?] :: The remote server returned an error: (404) Not Found.
+Loop 1 chatbot error [Estimate customs and duties] :: The remote server returned an error: (404) Not Found.
+Loop 1 chatbot error [I am a supplier wanting onboarding] :: The remote server returned an error: (404) Not Found.
+Loop 1 chatbot error [I am an influencer] :: The remote server returned an error: (404) Not Found.
+Loop 1 chatbot error [I am an investor] :: The remote server returned an error: (404) Not Found.
+Loop 1 chatbot error [I need affordable options] :: The remote server returned an error: (404) Not Found.
+Loop 1 chatbot error [I need white glove concierge] :: The remote server returned an error: (404) Not Found.
+Loop 1 chatbot error [What digital subscriptions do you offer?] :: The remote server returned an error: (404) Not Found.
+Loop 2 chatbot error [Recommend luxury products] :: The remote server returned an error: (404) Not Found.
+Loop 2 chatbot error [I need accessibility support] :: The remote server returned an error: (404) Not Found.
+Loop 2 chatbot error [What are your return policies?] :: The remote server returned an error: (404) Not Found.
+Loop 2 chatbot error [Estimate customs and duties] :: The remote server returned an error: (404) Not Found.
+Loop 2 chatbot error [I am a supplier wanting onboarding] :: The remote server returned an error: (404) Not Found.
+Loop 2 chatbot error [I am an influencer] :: The remote server returned an error: (404) Not Found.
+Loop 2 chatbot error [I am an investor] :: The remote server returned an error: (404) Not Found.
+Loop 2 chatbot error [I need affordable options] :: The remote server returned an error: (404) Not Found.
+Loop 2 chatbot error [I need white glove concierge] :: The remote server returned an error: (404) Not Found.
+Loop 2 chatbot error [What digital subscriptions do you offer?] :: The remote server returned an error: (404) Not Found.
+Loop 3 chatbot error [Recommend luxury products] :: The remote server returned an error: (404) Not Found.
+Loop 3 chatbot error [I need accessibility support] :: The remote server returned an error: (404) Not Found.

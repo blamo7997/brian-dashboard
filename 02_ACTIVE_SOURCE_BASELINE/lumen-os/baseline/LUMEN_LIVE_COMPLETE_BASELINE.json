@@ -1,0 +1,51 @@
+{
+  "id": "lumen-live-complete-baseline",
+  "status": "live-workspace-ready",
+  "mode": "Windows 11 workspace app with EXE launcher",
+  "rules": {
+    "preserveExisting": true,
+    "modifyOnlyWhenNecessary": true,
+    "addOnlyByDefault": true,
+    "noDuplicates": true,
+    "noWindowsOverwrite": true,
+    "noBootModification": true,
+    "noVaultDeletion": true,
+    "noUserMemoryDeletion": true,
+    "noSecretsInReports": true,
+    "tokensPromptedDuringSetupOnly": true
+  },
+  "architecture": {
+    "oneLumen": true,
+    "oneEcosystem": true,
+    "oneMemory": true,
+    "oneIntelligence": true,
+    "oneKnowledgeGraph": true,
+    "oneSourceOfTruth": true,
+    "masterBaselineRegistry": true,
+    "nativeEverythingDirection": true,
+    "serviceAbstraction": true,
+    "vaultProtection": true,
+    "recovery": true,
+    "windows11ExeLauncher": true,
+    "guidedVisualSetup": true
+  },
+  "connectionsPromptedDuringSetup": [
+    "OpenAI / ChatGPT API",
+    "GitHub",
+    "Cloudflare",
+    "Supabase",
+    "Playwright",
+    "Vault"
+  ],
+  "directSetupLinks": {
+    "openai": "https://platform.openai.com/api-keys",
+    "github": "https://github.com/settings/tokens",
+    "cloudflare": "https://dash.cloudflare.com/profile/api-tokens",
+    "supabase": "https://supabase.com/dashboard/projects",
+    "playwright": "https://playwright.dev/docs/intro",
+    "node": "https://nodejs.org/en/download",
+    "git": "https://git-scm.com/download/win",
+    "dotnet": "https://dotnet.microsoft.com/en-us/download",
+    "webview2": "https://developer.microsoft.com/en-us/microsoft-edge/webview2"
+  }
+}

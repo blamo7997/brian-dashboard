@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-11T19:37:11.5057528-06:00",
+  "targetStandard": "5000x-above-100-baseline",
+  "defaultUserBoundary": {
+    "accessibility": "users/<user-id>/accessibility",
+    "vault": "users/<user-id>/vault",
+    "repository": "users/<user-id>/repository",
+    "preferences": "users/<user-id>/preferences",
+    "conversations": "users/<user-id>/conversations",
+    "dashboards": "users/<user-id>/dashboards",
+    "proofs": "users/<user-id>/proof",
+    "entitlements": "users/<user-id>/entitlements",
+    "localization": "users/<user-id>/localization",
+    "portals": "users/<user-id>/portals"
+  },
+  "founderPrivateBoundary": {
+    "proofs": "founder-private/proof",
+    "vault": "founder-private/vault",
+    "repository": "founder-private/repository",
+    "access": "explicit-founder-authorized-only"
+  },
+  "forbidden": [
+    "cross-user-private-access",
+    "implicit-founder-private-access",
+    "unlogged-permission-change",
+    "shared-private-vault-by-default"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "containers": [
+    "1001_DIGITAL_TWIN_ROOT",
+    "1002_PROJECT_DIGITAL_TWINS",
+    "1003_ARCHITECTURE_DIGITAL_TWINS",
+    "1004_LUMEN_OS_DIGITAL_TWINS",
+    "1005_WEBSITE_DIGITAL_TWINS",
+    "1006_WEBSITE_VERSION_DIGITAL_TWINS",
+    "1007_VAULT_DIGITAL_TWINS",
+    "1008_SECURITY_DIGITAL_TWINS",
+    "1009_PERMISSION_DIGITAL_TWINS",
+    "1010_USER_EXPERIENCE_DIGITAL_TWINS",
+    "1011_RELEASE_DIGITAL_TWINS",
+    "1012_OPERATIONAL_DIGITAL_TWINS",
+    "1013_RISK_DIGITAL_TWINS",
+    "1014_RECOVERY_DIGITAL_TWINS",
+    "1015_INSTITUTIONAL_BENCHMARKING",
+    "1016_GLOBAL_PUBLIC_RESEARCH_SCAN_MODEL",
+    "1017_ADVANCED_SYSTEMS_WATCHLIST",
+    "1018_EXPECTATION_EXCEEDANCE_MODEL",
+    "1019_REALTIME_CONTINUOUS_IMPROVEMENT_MODEL",
+    "1020_DIGITAL_TWIN_SUPREMACY_GATE"
+  ],
+  "status": "Added digital twin and institutional benchmarking hard-rule layer 1001-1020",
+  "createdOrUpdated": "20260610-235724",
+  "hardRules": [
+    "Use digital twins across all appropriate Lumen/Lumen Technologies Solutions project areas.",
+    "Apply to architecture, OS, website, website-version Lumen, Vault, security, permissions, releases, recovery, and governance.",
+    "Continuously benchmark against lawful vetted verified public global information.",
+    "Aspirational superiority claims require evidence and validation.",
+    "Store/reference digital-twin evidence and benchmark findings in Vault.",
+    "Preserve across all future project transfers."
+  ]
+}
+

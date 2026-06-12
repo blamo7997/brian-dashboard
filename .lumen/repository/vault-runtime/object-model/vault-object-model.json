@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-06-11T21:32:35.5551302-06:00",
+  "system": "vault-object-model",
+  "foundationReadiness": 100,
+  "targetBeyond100": 5000,
+  "objectTypes": [
+    "founder-private-record",
+    "user-private-record",
+    "proof-record",
+    "rollback-record",
+    "archive-record",
+    "evidence-record",
+    "regulated-record",
+    "sensitive-lineage-record",
+    "consent-record",
+    "incident-record",
+    "signature-record",
+    "approval-record",
+    "conversation-continuity-record",
+    "identity-boundary-record",
+    "permission-record"
+  ],
+  "requiredFields": [
+    "id",
+    "type",
+    "createdAt",
+    "updatedAt",
+    "ownerBoundary",
+    "permissionScope",
+    "classification",
+    "sensitivity",
+    "repositoryReference",
+    "vaultReference",
+    "proofReference",
+    "rollbackReference",
+    "lineageParents",
+    "lineageChildren",
+    "retentionState",
+    "validationState"
+  ],
+  "forbidden": [
+    "cross-user-private-access",
+    "founder-private-exposure",
+    "unlogged-change",
+    "orphan-sensitive-record",
+    "missing-proof-reference",
+    "unsafe-duplicate"
+  ]
+}

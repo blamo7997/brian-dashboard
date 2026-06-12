@@ -1,0 +1,126 @@
+{
+  "generated": "2026-06-10T04:11:56.614Z",
+  "reason": "powershell-run",
+  "categories": [
+    "sdk",
+    "dotnet",
+    "frontend-framework",
+    "backend-platform",
+    "database",
+    "auth",
+    "storage",
+    "ai-service",
+    "browser-shell",
+    "desktop-runtime",
+    "mobile-runtime",
+    "automation",
+    "testing",
+    "security",
+    "accessibility",
+    "localization",
+    "developer-tool",
+    "research-tool",
+    "scientific-tool",
+    "manufacturer-product",
+    "inventor-startup-product"
+  ],
+  "seedProducts": [
+    {
+      "name": "WebView2",
+      "category": "browser-shell",
+      "sourceType": "official",
+      "lumenUse": "bridge-study"
+    },
+    {
+      "name": "Electron",
+      "category": "desktop-runtime",
+      "sourceType": "official",
+      "lumenUse": "study"
+    },
+    {
+      "name": "Tauri",
+      "category": "desktop-mobile-runtime",
+      "sourceType": "official",
+      "lumenUse": "strong-study-candidate"
+    },
+    {
+      "name": "CEF",
+      "category": "browser-shell",
+      "sourceType": "official",
+      "lumenUse": "deep-browser-shell-study"
+    },
+    {
+      "name": ".NET SDK",
+      "category": "dotnet",
+      "sourceType": "official",
+      "lumenUse": "native-tooling-bridge"
+    },
+    {
+      "name": "Flutter",
+      "category": "mobile-runtime",
+      "sourceType": "official",
+      "lumenUse": "study"
+    },
+    {
+      "name": "Node.js",
+      "category": "backend-platform",
+      "sourceType": "official",
+      "lumenUse": "current-tooling"
+    },
+    {
+      "name": "Playwright",
+      "category": "testing",
+      "sourceType": "official",
+      "lumenUse": "test-automation"
+    },
+    {
+      "name": "Supabase",
+      "category": "backend-platform",
+      "sourceType": "official",
+      "lumenUse": "service-bridge"
+    },
+    {
+      "name": "Cloudflare",
+      "category": "edge-platform",
+      "sourceType": "official",
+      "lumenUse": "service-bridge"
+    },
+    {
+      "name": "GitHub",
+      "category": "developer-tool",
+      "sourceType": "official",
+      "lumenUse": "repo-automation-bridge"
+    },
+    {
+      "name": "OpenAI",
+      "category": "ai-service",
+      "sourceType": "official",
+      "lumenUse": "ai-bridge"
+    }
+  ],
+  "scanningPolicy": {
+    "currentInstalledScan": true,
+    "publicWebScanPlanned": true,
+    "officialSourcesOnlyByDefault": true,
+    "fakeReviewDevaluation": true,
+    "manufacturerCoverageGoal": "all available products where discoverable through vetted/verified sources",
+    "limitation": "No local script can know every product from every manufacturer without connected search/indexing services; Lumen records the policy and scan targets continuously."
+  },
+  "sourcePriority": [
+    "official documentation",
+    "manufacturer pages",
+    "standards bodies",
+    "primary repositories",
+    "release notes",
+    "government sources",
+    "academic sources",
+    "verified technical references"
+  ],
+  "devalue": [
+    "fake reviews",
+    "review farms",
+    "affiliate spam",
+    "manipulated ratings",
+    "unsupported claims"
+  ]
+}

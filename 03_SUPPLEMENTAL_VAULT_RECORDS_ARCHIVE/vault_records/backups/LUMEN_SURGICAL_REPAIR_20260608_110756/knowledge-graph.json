@@ -1,0 +1,492 @@
+[
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\.CurrentLumenSetup\\deploy-bundle\\manifest.json",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\.CurrentLumenSetup\\project.json",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\.env.example",
+    "to": "supabase",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\api\\CurrentLumenSetup-callback.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\auth-options.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\backup-products.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\chat.js",
+    "to": "supabase",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\collections.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\CurrentLumenSetup\\callback.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\CurrentLumenSetup\\install.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\CurrentLumenSetup-callback.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\CurrentLumenSetup-install.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\health.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\intelligence.js",
+    "to": "supabase",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\next-steps.js",
+    "to": "supabase",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\products.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\score.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\secret-health.js",
+    "to": "supabase",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\secret-health.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\seed-products.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\api\\storefront-feed.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\approval-queue\\pending-products-connections-collections.json",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\approval-queue\\pending-products-theme-security-review.json",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\assets\\brianco-continuity-overlay.js",
+    "to": "supabase",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\assets\\brianco-continuity-overlay.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\assets\\brianco-master-command-center.js",
+    "to": "supabase",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\assets\\brianco-master-command-center.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\assets\\brianco-previous-code-intelligence.js",
+    "to": "supabase",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\assets\\brianco-previous-code-intelligence.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\assets\\brianco-realtime-overlay.js",
+    "to": "supabase",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\assets\\brianco-realtime-overlay.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\before-powershell-update-2026-05-26_07-51-55\\api\\auth-options.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\before-powershell-update-2026-05-26_07-51-55\\api\\collections.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\before-powershell-update-2026-05-26_07-51-55\\api\\CurrentLumenSetup-callback.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\before-powershell-update-2026-05-26_07-51-55\\api\\CurrentLumenSetup-install.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\before-powershell-update-2026-05-26_07-51-55\\api\\health.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\before-powershell-update-2026-05-26_07-51-55\\api\\products.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\before-powershell-update-2026-05-26_07-51-55\\api\\seed-products.js",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\before-powershell-update-2026-05-26_07-51-55\\logs\\api-files-2026-05-26_07-28-23.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\brianco-autofix-3000-validation-20260527-122628\\reports\\summary-report.md",
+    "to": "supabase",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\brianco-code-debug-3000-20260527-135810\\permanent-rules\\brianco-code-debug-rules.json",
+    "to": "supabase",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\audit\\phase15a-CurrentLumenSetup-safe-bridge-audit-20260529_151320.json",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\phase15\\records\\phase15a-CurrentLumenSetup-safe-bridge-record-20260529_151320.json",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\brianco-command-center\\data\\phase15\\validation\\phase15a-CurrentLumenSetup-safe-bridge-report-20260529_151320.json",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\brianco-live-theme-2026-05-28_14-43-03\\assets\\brianco-master-command-center.js",
+    "to": "supabase",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\brianco-live-theme-2026-05-28_14-43-03\\assets\\brianco-previous-code-intelligence.js",
+    "to": "supabase",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\brianco-live-theme-2026-05-28_14-43-03\\assets\\brianco-realtime-overlay.js",
+    "to": "supabase",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\brianco-major-layer-oauth-CurrentLumenSetup-log.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\brianco-protected-continuous-products-20260527-121805\\security\\protected-area-policy.json",
+    "to": "supabase",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\brianco-safe-output\\reports\\BRIANCO_CurrentLumenSetup_CLI_SAFE_CHECK_2026-05-28_14-39-42.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_MASTER_PROJECT_PIPELINE_20260530_165045\\reports\\ABSOLUTE-MASTER-PROJECT-WIDE-REPORT.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-brianco-CurrentLumenSetup-customer-1ab904db.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-brianco-CurrentLumenSetup-customer-bf02a64f.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-brianco-CurrentLumenSetup-customer-c482c9c1.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-54669b15.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-callback-271996ab.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-callback-32ea0a7d.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-callback-349cba21.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-callback-45e5affc.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-callback-464c85c3.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-callback-5054a6e5.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-callback-63497cd4.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-callback-7434cc23.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-callback-98edd41f.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-callback-9b017b80.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-callback-9b13246b.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-callback-9f7bcdfd.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-callback-d225d52a.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-callback-ee5c7604.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-d23ad99b.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-dc3edc6c.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-install-0218f902.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-install-0eafb904.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-install-10cc06f1.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-install-4c3131f6.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-install-545f00cd.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-install-57e7f927.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-install-9b52413e.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-install-a2c082fe.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-install-bedcad79.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-install-c0358cd7.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-install-cf20996f.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-install-dde01754.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-install-f3b3728a.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-oauth-184abedb.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-oauth-7ce45508.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-oauth-c2fb3cfa.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-test-09cc0ea7.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-test-5fb2a34b.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-test-7159f306.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-test-80e70de0.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-test-81eb23c7.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-test-85d23e22.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-test-888d4df0.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-test-a2ea76c1.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-test-cc068d8a.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-test-da058305.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  },
+  {
+    "from": "C:\\Users\\user\\brianco-backend-clean\\BRIANCO_ABSOLUTE_ZERO_ACTIVE_ERROR_20260531_051447\\reports\\cycle-1\\node-check-CurrentLumenSetup-test-e35e40bf.txt",
+    "to": "lumen",
+    "rel": "mentions"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "transfers": [
+    {
+      "revisionId": "CR-REVISION-20260610-180207",
+      "transferId": "CR-TRANSFER-CURRENT",
+      "continuationPoint": "V3 continuity repository created/upgraded",
+      "projectId": "CR-PROJECT-CURRENT",
+      "validationStatus": "Pending",
+      "seriesId": "CR-SERIES-0001",
+      "createdOrUpdated": "20260610-180207",
+      "status": "Active",
+      "integrityStatus": "Pending"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-06-11T21:32:37.4755906-06:00",
+  "system": "vault-scorecard",
+  "ordinaryFoundationTarget": 100,
+  "targetBeyond100": 5000,
+  "foundationScores": {
+    "auditLedgerModel": 100,
+    "routingModel": 100,
+    "permissionModel": 100,
+    "identityBoundaries": 100,
+    "lineageModel": 100,
+    "governance": 100,
+    "objectModel": 100,
+    "encryptionKeyModel": 100,
+    "retentionArchiveModel": 100,
+    "selfHealingModel": 100,
+    "validationModel": 100
+  },
+  "runtimeImplementationHonesty": {
+    "fullProductionEncryptionRuntimeBuilt": false,
+    "liveSelfHealingRuntimeBuilt": false,
+    "livePermissionRuntimeBuilt": false,
+    "liveKeyManagementBuilt": false,
+    "foundationReadinessAtOrAbove100": true,
+    "liveCloudVaultBuilt": false
+  },
+  "nextBuildOrder": [
+    "vault-object-registry-runtime",
+    "vault-permission-runtime",
+    "vault-encryption-runtime",
+    "vault-audit-ledger-runtime",
+    "vault-routing-runtime",
+    "vault-lineage-runtime",
+    "vault-self-healing-runtime"
+  ]
+}

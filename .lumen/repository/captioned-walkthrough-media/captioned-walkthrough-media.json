@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-06-11T20:58:37.1909560-06:00",
+  "system": "captioned-walkthrough-media",
+  "requiredFor": [
+    "features",
+    "updates",
+    "memberships",
+    "a-la-carte-options",
+    "bundles",
+    "dashboards",
+    "workspace-services",
+    "forms",
+    "browser-actions",
+    "purchased-capabilities"
+  ],
+  "requirements": [
+    "captions",
+    "subtitles",
+    "accessibility-aware",
+    "localized",
+    "plain-language",
+    "advanced-detail-available-on-request",
+    "stored-in-repository-or-vault-as-appropriate"
+  ]
+}

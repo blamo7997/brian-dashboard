@@ -1,0 +1,35 @@
+LUMEN OVERALL BASELINE GUARDIAN REPORT
+
+Generated: 2026-06-09T15:45:49.2077597-06:00
+
+Added only if missing:
+- Overall Baseline Guardian Standard
+- Capability Index Engine
+- Watcher Supervisor Engine
+- Build Budget Engine
+- Baseline Guardian Engine
+- API: /api/lumen/baseline-guardian
+- Inside-Lumen hook only if missing
+
+Purpose:
+- Protect the last 20+ code blocks as the baseline.
+- Detect existing capabilities before future additions.
+- Prevent duplicate APIs, watchers, modules, and engines.
+- Keep startup fast by respecting build budget.
+- Preserve the build-passing no-lag self-repair baseline.
+
+Hard rule:
+- Only change what is necessary.
+- No duplicates.
+- Only additions.
+- Patch only missing hooks.
+- Create only missing files.
+- Build validate after change.
+
+Build Passed Marker:
+True
+
+Backup:
+.\backups\LUMEN_OVERALL_BASELINE_GUARDIAN_20260609_154418
+Output:
+.\reports\LUMEN_OVERALL_BASELINE_GUARDIAN_20260609_154418

@@ -1,0 +1,24 @@
+BRIAN & CO — ORIGINAL OS + DIGITAL PRODUCT SUITE REPORT
+Created: 20260530_070523
+
+Created:
+- /os page for Brian & Co Intelligence OS
+- Original Brian & Co product suite registry
+- Premium promotional copy
+- Protected OS safety rules
+- Future installable OS roadmap language
+- Cross-product device-adaptive positioning
+- Workspace, Studio, Cloud Vault, Accessibility OS, Localization OS, Enterprise Command Center
+
+Important:
+This does NOT install over Windows, Linux, macOS, ChromeOS, Android, iOS, or any operating system.
+This does NOT touch partitions, bootloaders, drivers, BIOS, UEFI, recovery, encryption, backend, retired-commerce-platform, OAuth, tokens, or payments.
+This creates the safe original product shell and roadmap only.
+
+Future engineering path:
+1. Web OS shell
+2. PWA installable app
+3. Desktop app wrapper
+4. Device-specific native apps
+5. Linux-based experimental distribution only after expert engineering/security review
+6. Dual-boot/installer only after professional OS engineering and legal review

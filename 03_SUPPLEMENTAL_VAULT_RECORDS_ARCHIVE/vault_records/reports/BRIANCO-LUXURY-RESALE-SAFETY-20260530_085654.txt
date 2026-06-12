@@ -1,0 +1,16 @@
+BRIAN & CO LUXURY RESALE SAFETY REPORT
+Created: 20260530_085654
+
+Added:
+- Luxury resale/dropship intelligence registry
+- Tiffany / Armani / Louis Vuitton / high-end retailer resale safeguards
+- Authenticity and provenance requirements
+- Trademark-safe wording rules
+- Founder/legal approval gates
+
+Important:
+Do not list luxury-brand goods until authenticity, sourcing, trademark-safe wording, and resale rights are reviewed.
+
+Route:
+ /luxury-resale-intelligence
+ /api/luxury-resale-intelligence/dashboard

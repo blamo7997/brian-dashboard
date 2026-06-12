@@ -1,0 +1,330 @@
+[
+  {
+    "module": "accessibility.universal_accessibility",
+    "missing_dependency": "guided_experience"
+  },
+  {
+    "module": "business.accounting_tax",
+    "missing_dependency": "brianco"
+  },
+  {
+    "module": "business.brianco",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "business.brianco",
+    "missing_dependency": "search"
+  },
+  {
+    "module": "business.creator_intelligence",
+    "missing_dependency": "brianco"
+  },
+  {
+    "module": "business.customer_intelligence",
+    "missing_dependency": "brianco"
+  },
+  {
+    "module": "business.legal_review",
+    "missing_dependency": "approval_gates"
+  },
+  {
+    "module": "business.product_intelligence",
+    "missing_dependency": "brianco"
+  },
+  {
+    "module": "business.supplier_intelligence",
+    "missing_dependency": "brianco"
+  },
+  {
+    "module": "core.approval_gates",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "core.module_registry",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "core.orchestrator",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "core.reports",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "core.rollback",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "core.trust_ledger",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "development.api_intelligence",
+    "missing_dependency": "code_intelligence"
+  },
+  {
+    "module": "development.cloudflare_awareness",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "development.cloudflare_awareness",
+    "missing_dependency": "code_intelligence"
+  },
+  {
+    "module": "development.code_intelligence",
+    "missing_dependency": "learning_engine"
+  },
+  {
+    "module": "development.code_intelligence",
+    "missing_dependency": "knowledge_graph"
+  },
+  {
+    "module": "development.pipeline_intelligence",
+    "missing_dependency": "code_intelligence"
+  },
+  {
+    "module": "development.supabase_awareness",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "development.supabase_awareness",
+    "missing_dependency": "code_intelligence"
+  },
+  {
+    "module": "development.testing_playwright",
+    "missing_dependency": "code_intelligence"
+  },
+  {
+    "module": "device.driver_awareness",
+    "missing_dependency": "hardware_awareness"
+  },
+  {
+    "module": "device.drones",
+    "missing_dependency": "hardware_awareness"
+  },
+  {
+    "module": "device.drones",
+    "missing_dependency": "research"
+  },
+  {
+    "module": "device.firmware_awareness",
+    "missing_dependency": "hardware_awareness"
+  },
+  {
+    "module": "device.hardware_awareness",
+    "missing_dependency": "learning_engine"
+  },
+  {
+    "module": "device.robotics",
+    "missing_dependency": "hardware_awareness"
+  },
+  {
+    "module": "device.robotics",
+    "missing_dependency": "research"
+  },
+  {
+    "module": "device.scientific_instruments",
+    "missing_dependency": "hardware_awareness"
+  },
+  {
+    "module": "device.scientific_instruments",
+    "missing_dependency": "knowledge_graph"
+  },
+  {
+    "module": "experience.dashboard_designer",
+    "missing_dependency": "guided_experience"
+  },
+  {
+    "module": "experience.founder_command_center",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "experience.founder_command_center",
+    "missing_dependency": "module_registry"
+  },
+  {
+    "module": "experience.founder_command_center",
+    "missing_dependency": "search"
+  },
+  {
+    "module": "experience.guided_experience",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "experience.tutorial_builder",
+    "missing_dependency": "guided_experience"
+  },
+  {
+    "module": "experience.voice_manager",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "experience.website_designer",
+    "missing_dependency": "guided_experience"
+  },
+  {
+    "module": "future.3d_images",
+    "missing_dependency": "ar_vr"
+  },
+  {
+    "module": "future.ar_vr",
+    "missing_dependency": "guided_experience"
+  },
+  {
+    "module": "future.browser_layer",
+    "missing_dependency": "search"
+  },
+  {
+    "module": "future.browser_layer",
+    "missing_dependency": "guided_experience"
+  },
+  {
+    "module": "future.digital_twins",
+    "missing_dependency": "knowledge_graph"
+  },
+  {
+    "module": "future.emoji_language",
+    "missing_dependency": "guided_experience"
+  },
+  {
+    "module": "future.nanorobotics",
+    "missing_dependency": "nanotechnology"
+  },
+  {
+    "module": "future.nanotechnology",
+    "missing_dependency": "research"
+  },
+  {
+    "module": "industry.construction",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.education",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.energy",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.engineering",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.environmental",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.faith_religious",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.finance",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.government",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.hospitality",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.legal",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.manufacturing",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.nonprofit_community",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.public_safety",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.research",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.retail",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.software_technology",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.space",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.transportation",
+    "missing_dependency": "universal_professions"
+  },
+  {
+    "module": "industry.universal_professions",
+    "missing_dependency": "module_registry"
+  },
+  {
+    "module": "industry.universal_professions",
+    "missing_dependency": "knowledge_graph"
+  },
+  {
+    "module": "intelligence.cross_vetted_abstracts",
+    "missing_dependency": "vetted_sources"
+  },
+  {
+    "module": "intelligence.knowledge_graph",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "intelligence.knowledge_graph",
+    "missing_dependency": "learning_engine"
+  },
+  {
+    "module": "intelligence.learning_engine",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "intelligence.learning_engine",
+    "missing_dependency": "module_registry"
+  },
+  {
+    "module": "intelligence.research",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "intelligence.research",
+    "missing_dependency": "knowledge_graph"
+  },
+  {
+    "module": "intelligence.universal_search",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "intelligence.universal_search",
+    "missing_dependency": "knowledge_graph"
+  },
+  {
+    "module": "intelligence.vetted_sources",
+    "missing_dependency": "vault"
+  },
+  {
+    "module": "intelligence.vetted_sources",
+    "missing_dependency": "learning_engine"
+  },
+  {
+    "module": "localization.global_holidays",
+    "missing_dependency": "language_dialect"
+  },
+  {
+    "module": "localization.language_dialect",
+    "missing_dependency": "guided_experience"
+  }
+]

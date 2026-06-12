@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-06-08T13:31:20.639Z",
+  "hostname": "DESKTOP-PDM7SHT",
+  "platform": "win32",
+  "release": "10.0.26200",
+  "arch": "x64",
+  "cpus": 8,
+  "totalMemoryGB": 16,
+  "freeMemoryGB": 2,
+  "uptimeHours": 10,
+  "deviceIntelligenceVersion": "0.1.0"
+}

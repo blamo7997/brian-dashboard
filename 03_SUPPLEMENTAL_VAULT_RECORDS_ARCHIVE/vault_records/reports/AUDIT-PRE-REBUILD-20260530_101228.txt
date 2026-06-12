@@ -1,0 +1,249 @@
+﻿BRIAN & CO AUDIT — PRE-REBUILD
+Created: 2026-05-30T10:12:42.5874613-06:00
+
+Files: 7534
+Zero-byte files: 240
+Protected registries: 9
+Reports: 32
+
+Zero-byte files:
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\first_party_sets.db-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Account Web Data-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Affiliation Database-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Favicons-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\heavy_ad_intervention_opt_out.db-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\History-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Login Data For Account-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Login Data-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Network Action Predictor-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\ServerCertificate-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Shortcuts-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Top Sites-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Web Data-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\AutofillAiModelCache\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\AutofillAiModelCache\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\AutofillStrikeDatabase\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\AutofillStrikeDatabase\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\BudgetDatabase\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\BudgetDatabase\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\chrome_cart_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\chrome_cart_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\ClientCertificates\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\ClientCertificates\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\commerce_subscription_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\commerce_subscription_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\discounts_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\discounts_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\discount_infos_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\discount_infos_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Extension Rules\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Extension Scripts\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Extension State\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\GCM Store\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Local Storage\leveldb\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Network\Cookies-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Network\Device Bound Sessions-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Network\NetworkDataMigrated
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Network\Reporting and NEL-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Network\Trust Tokens-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\parcel_tracking_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\parcel_tracking_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\PersistentOriginTrials\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\PersistentOriginTrials\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Safe Browsing Network\NetworkDataMigrated
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Safe Browsing Network\Safe Browsing Cookies-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Segmentation Platform\SegmentInfoDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Segmentation Platform\SegmentInfoDB\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Segmentation Platform\SignalDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Segmentation Platform\SignalDB\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Segmentation Platform\SignalStorageConfigDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Segmentation Platform\SignalStorageConfigDB\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Session Storage\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Shared Dictionary\db-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\shared_proto_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\shared_proto_db\metadata\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Site Characteristics Database\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\Sync Data\LevelDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\authenticated-live-check-2026-05-28_16-18-20\playwright-user-data\Default\WebStorage\QuotaManager-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\first_party_sets.db-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Account Web Data-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Affiliation Database-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Favicons-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\heavy_ad_intervention_opt_out.db-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\History-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Login Data For Account-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Login Data-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Network Action Predictor-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\ServerCertificate-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Shortcuts-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Top Sites-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Web Data-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\AutofillAiModelCache\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\AutofillAiModelCache\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\AutofillStrikeDatabase\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\AutofillStrikeDatabase\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\BudgetDatabase\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\BudgetDatabase\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\chrome_cart_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\chrome_cart_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\ClientCertificates\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\ClientCertificates\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\commerce_subscription_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\commerce_subscription_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\discounts_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\discounts_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\discount_infos_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\discount_infos_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Extension Rules\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Extension Scripts\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Extension State\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\GCM Store\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Local Storage\leveldb\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Network\Cookies-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Network\Device Bound Sessions-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Network\NetworkDataMigrated
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Network\Reporting and NEL-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Network\Trust Tokens-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\parcel_tracking_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\parcel_tracking_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\PersistentOriginTrials\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\PersistentOriginTrials\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Safe Browsing Network\NetworkDataMigrated
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Safe Browsing Network\Safe Browsing Cookies-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Segmentation Platform\SegmentInfoDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Segmentation Platform\SegmentInfoDB\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Segmentation Platform\SignalDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Segmentation Platform\SignalDB\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Segmentation Platform\SignalStorageConfigDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Segmentation Platform\SignalStorageConfigDB\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Session Storage\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Shared Dictionary\db-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\shared_proto_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\shared_proto_db\metadata\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Site Characteristics Database\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\Sync Data\LevelDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\password-live-check-2026-05-28_16-23-35\browser-session\Default\WebStorage\QuotaManager-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\first_party_sets.db-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Account Web Data-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Affiliation Database-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Favicons-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\heavy_ad_intervention_opt_out.db-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\History-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Login Data For Account-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Login Data-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Network Action Predictor-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\ServerCertificate-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Shortcuts-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Top Sites-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Web Data-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\AutofillAiModelCache\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\AutofillAiModelCache\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\AutofillStrikeDatabase\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\AutofillStrikeDatabase\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\BudgetDatabase\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\BudgetDatabase\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\chrome_cart_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\chrome_cart_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\ClientCertificates\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\ClientCertificates\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\commerce_subscription_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\commerce_subscription_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\discounts_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\discounts_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\discount_infos_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\discount_infos_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Extension Rules\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Extension Scripts\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Extension State\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\GCM Store\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Local Storage\leveldb\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Network\Cookies-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Network\Device Bound Sessions-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Network\NetworkDataMigrated
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Network\Reporting and NEL-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Network\Trust Tokens-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\parcel_tracking_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\parcel_tracking_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\PersistentOriginTrials\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\PersistentOriginTrials\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Safe Browsing Network\NetworkDataMigrated
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Safe Browsing Network\Safe Browsing Cookies-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Segmentation Platform\SegmentInfoDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Segmentation Platform\SegmentInfoDB\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Segmentation Platform\SignalDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Segmentation Platform\SignalDB\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Segmentation Platform\SignalStorageConfigDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Segmentation Platform\SignalStorageConfigDB\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Session Storage\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Shared Dictionary\db-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\shared_proto_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\shared_proto_db\metadata\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Site Characteristics Database\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\Sync Data\LevelDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\reset-playwright-password-2026-05-28_16-38-32\fresh-profile\Default\WebStorage\QuotaManager-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\first_party_sets.db-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Account Web Data-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Affiliation Database-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Favicons-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\heavy_ad_intervention_opt_out.db-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\History-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Login Data For Account-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Login Data-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Network Action Predictor-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\ServerCertificate-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Shortcuts-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Top Sites-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Web Data-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\AutofillAiModelCache\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\AutofillAiModelCache\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\AutofillStrikeDatabase\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\AutofillStrikeDatabase\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\BudgetDatabase\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\BudgetDatabase\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\chrome_cart_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\chrome_cart_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\ClientCertificates\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\ClientCertificates\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\commerce_subscription_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\commerce_subscription_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\discounts_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\discounts_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\discount_infos_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\discount_infos_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Extension Rules\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Extension Scripts\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Extension State\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\GCM Store\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Local Storage\leveldb\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Network\Cookies-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Network\Device Bound Sessions-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Network\NetworkDataMigrated
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Network\Reporting and NEL-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Network\Trust Tokens-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\parcel_tracking_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\parcel_tracking_db\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\PersistentOriginTrials\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\PersistentOriginTrials\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Safe Browsing Network\NetworkDataMigrated
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Safe Browsing Network\Safe Browsing Cookies-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Segmentation Platform\SegmentInfoDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Segmentation Platform\SegmentInfoDB\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Segmentation Platform\SignalDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Segmentation Platform\SignalDB\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Segmentation Platform\SignalStorageConfigDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Segmentation Platform\SignalStorageConfigDB\LOG
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Session Storage\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Shared Dictionary\db-journal
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\shared_proto_db\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\shared_proto_db\metadata\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Site Characteristics Database\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\Sync Data\LevelDB\LOCK
+C:\Users\user\brianco-backend-clean\brianco-live-theme-2026-05-28_14-43-03\brianco-validation-reports\smart-password-check-2026-05-28_16-28-03\browser-session\Default\WebStorage\QuotaManager-journal

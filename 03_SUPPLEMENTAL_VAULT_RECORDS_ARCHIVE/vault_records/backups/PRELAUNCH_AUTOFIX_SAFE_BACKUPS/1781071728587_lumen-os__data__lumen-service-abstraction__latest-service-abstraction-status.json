@@ -1,0 +1,56 @@
+{
+  "generated": "2026-06-10T04:11:57.223Z",
+  "reason": "powershell-run",
+  "services": [
+    {
+      "service": "openai_chatgpt",
+      "display": "OpenAI / ChatGPT",
+      "nativeName": "Lumen Intelligence Bridge",
+      "configured": false,
+      "secretsShown": false,
+      "rule": "External service remains external truthfully, wrapped behind Lumen Language and native abstraction."
+    },
+    {
+      "service": "github",
+      "display": "GitHub",
+      "nativeName": "Lumen Source Bridge",
+      "configured": false,
+      "secretsShown": false,
+      "rule": "External service remains external truthfully, wrapped behind Lumen Language and native abstraction."
+    },
+    {
+      "service": "cloudflare",
+      "display": "Cloudflare",
+      "nativeName": "Lumen Edge Bridge",
+      "configured": false,
+      "secretsShown": false,
+      "rule": "External service remains external truthfully, wrapped behind Lumen Language and native abstraction."
+    },
+    {
+      "service": "supabase",
+      "display": "Supabase",
+      "nativeName": "Lumen Data Bridge",
+      "configured": false,
+      "secretsShown": false,
+      "rule": "External service remains external truthfully, wrapped behind Lumen Language and native abstraction."
+    },
+    {
+      "service": "playwright",
+      "display": "Playwright",
+      "nativeName": "Lumen Browser Test Bridge",
+      "configured": true,
+      "secretsShown": false,
+      "rule": "External service remains external truthfully, wrapped behind Lumen Language and native abstraction."
+    },
+    {
+      "service": "vault",
+      "display": "Vault",
+      "nativeName": "Lumen Protected Vault",
+      "configured": true,
+      "secretsShown": false,
+      "rule": "External service remains external truthfully, wrapped behind Lumen Language and native abstraction."
+    }
+  ],
+  "connectionRule": "Always check readiness for current and future services; never invent or expose credentials.",
+  "nativeRule": "Services are bridges until Lumen-native capability replaces them safely."
+}

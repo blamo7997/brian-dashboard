@@ -1,0 +1,33 @@
+BRIAN & CO MASTER BRAND IMAGE + TONE PROTECTION REPORT
+Created: 20260530_091136
+
+Added:
+- /brand-tone-protection
+- /image-background-intelligence
+- /copy-tone-intelligence
+- /api/brand-tone-protection/dashboard
+- protected-registry\BRIANCO-MASTER-BRAND-IMAGE-TONE-PROTECTION.json
+- data\brand-protection\brandProtectionRules.ts
+
+Protected from beginning of this chat/project:
+- Background images
+- Product images
+- Supplier images
+- Collection images
+- Digital product images
+- Website text
+- OS text
+- Chatbot text
+- Email replies
+- Supplier descriptions
+- Product descriptions
+- Alt text
+- Social captions
+- Membership copy
+- Onboarding copy
+- Admin/private UI copy
+
+Permanent rule:
+Images are refined for Brian & Co.
+Text is rewritten in Brian & Co tone.
+Nothing generic, gimmicky, misleading, or off-brand goes live without approval.

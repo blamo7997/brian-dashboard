@@ -1,0 +1,10 @@
+{
+  "record_type": "raw_import_metadata",
+  "import_id": "RAW_CHAT_GPT_RULES_DESKTOP_LUMEN_GENESIS_20260611-220607",
+  "source_path": "C:\\Users\\user\\Desktop\\Lumen Genesis\\chat gpt rules.txt",
+  "repository_path": "01_CANONICAL_GOVERNANCE_BASELINE/01_FULL_CANONICAL_REPOSITORY/027_IMPORTS_RAW/RAW_CHAT_GPT_RULES_DESKTOP_LUMEN_GENESIS_20260611-220607.txt",
+  "imported_at_local": "2026-06-12T00:24:00-06:00",
+  "timezone": "America/Denver",
+  "sha256": "53042BD1C37DED1BBCB048CF605C79202468F04B6A47335E6A63D627619C58EF",
+  "preservation_rule": "Exact raw import from Desktop Lumen Genesis. Do not summarize. Do not rewrite. Modify only when necessary and preserve source wording."
+}

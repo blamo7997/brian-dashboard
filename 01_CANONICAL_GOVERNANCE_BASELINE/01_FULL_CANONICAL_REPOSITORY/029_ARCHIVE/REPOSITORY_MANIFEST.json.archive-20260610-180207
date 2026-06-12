@@ -1,0 +1,42 @@
+{
+  "repository": "LUMEN_CHATGPT_PROJECT_CONTINUITY_REPOSITORY",
+  "purpose": "ChatGPT project transfer continuity only",
+  "upgraded": "20260610-175546",
+  "containers": [
+    "000_START_HERE",
+    "001_MASTER_INDEX",
+    "002_REGISTRIES",
+    "003_MANIFESTS",
+    "004_ACTIVE_PROJECT",
+    "005_TRANSFERS",
+    "006_DELTAS",
+    "007_OPEN_LOOPS",
+    "008_GAPS_RISKS_BLOCKERS",
+    "009_COMPLETED_WORK",
+    "010_NEXT_WORK",
+    "011_LINEAGE",
+    "012_CONTEXT_AND_RATIONALE",
+    "013_VALIDATION",
+    "014_INTEGRITY",
+    "015_RECOVERY",
+    "016_IMPORTS_RAW",
+    "017_EXPORT_PACKETS",
+    "018_ARCHIVE",
+    "019_ANALYTICS",
+    "099_SYSTEM"
+  ],
+  "hardRules": [
+    "Resume before creating",
+    "Preserve before replacing",
+    "Archive before deleting",
+    "Validate before exporting",
+    "Transfer before closing",
+    "Use deltas instead of duplicate history",
+    "Preserve lineage",
+    "Preserve continuation points",
+    "Preserve open loops",
+    "Preserve context and rationale",
+    "Do not drift into architecture when the task is continuity"
+  ],
+  "importedRoots": ".\\LUMEN_PROJECT_CONTINUITY_CONTAINER"
+}

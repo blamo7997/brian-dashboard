@@ -1,0 +1,57 @@
+LUMEN POST CLEANUP DISCOVERY FIXED
+Generated: 2026-06-08T11:24:35.6167490-06:00
+
+===== VAULT FILES =====
+C:\Users\user\brianco-backend-clean\vault\design-blueprints.json | 2200
+C:\Users\user\brianco-backend-clean\vault\device-deep-scan.json | 844
+C:\Users\user\brianco-backend-clean\vault\device-intelligence.json | 263
+C:\Users\user\brianco-backend-clean\vault\drone-intelligence.json | 834
+C:\Users\user\brianco-backend-clean\vault\entities.json | 2
+C:\Users\user\brianco-backend-clean\vault\firmware-awareness.json | 257
+C:\Users\user\brianco-backend-clean\vault\knowledge-graph.json | 18589
+C:\Users\user\brianco-backend-clean\vault\knowledge.json | 1083040
+C:\Users\user\brianco-backend-clean\vault\learning-history.json | 69
+C:\Users\user\brianco-backend-clean\vault\lumen-core-ledger.json | 1537
+C:\Users\user\brianco-backend-clean\vault\medical-device-intelligence.json | 616
+C:\Users\user\brianco-backend-clean\vault\module-categories.json | 757
+C:\Users\user\brianco-backend-clean\vault\module-dependencies.json | 6688
+C:\Users\user\brianco-backend-clean\vault\module-registry.json | 200904
+C:\Users\user\brianco-backend-clean\vault\relationships.json | 2
+C:\Users\user\brianco-backend-clean\vault\robotics-intelligence.json | 780
+C:\Users\user\brianco-backend-clean\vault\scientific-instruments.json | 763
+C:\Users\user\brianco-backend-clean\vault\sensor-intelligence.json | 882
+C:\Users\user\brianco-backend-clean\vault\tutorial-blueprints.json | 2614
+C:\Users\user\brianco-backend-clean\vault\visual-communication-studio.json | 1975
+C:\Users\user\brianco-backend-clean\vault\voice-preferences.json | 336
+C:\Users\user\brianco-backend-clean\vault\website-blueprints.json | 2136
+
+===== SRC FILES =====
+C:\Users\user\brianco-backend-clean\src\brianco-eloquent-tone-engine.js | 1268
+C:\Users\user\brianco-backend-clean\src\brianco-greencheck-approvals.js | 679
+C:\Users\user\brianco-backend-clean\src\brianco-human-interaction-memory.js | 1402
+C:\Users\user\brianco-backend-clean\src\brianco-realtime-theme-chatbot-bridge.js | 2992
+C:\Users\user\brianco-backend-clean\src\brianco-typo-intelligence.js | 1461
+C:\Users\user\brianco-backend-clean\src\lumen-guided-experience-studio.mjs | 5187
+C:\Users\user\brianco-backend-clean\src\lumen.mjs | 1481
+C:\Users\user\brianco-backend-clean\src\modules\devices\device-deep-scan.mjs | 1389
+C:\Users\user\brianco-backend-clean\src\modules\devices\device-intelligence.mjs | 1138
+C:\Users\user\brianco-backend-clean\src\modules\devices\firmware-awareness.mjs | 973
+C:\Users\user\brianco-backend-clean\src\modules\founder\founder-command-center.mjs | 933
+C:\Users\user\brianco-backend-clean\src\modules\graph\knowledge-graph.mjs | 1328
+C:\Users\user\brianco-backend-clean\src\modules\learning\learning-engine.mjs | 2791
+C:\Users\user\brianco-backend-clean\src\modules\medical\medical-device-intelligence.mjs | 1404
+C:\Users\user\brianco-backend-clean\src\modules\registry\module-registry.mjs | 8986
+C:\Users\user\brianco-backend-clean\src\modules\research\drone-intelligence.mjs | 1591
+C:\Users\user\brianco-backend-clean\src\modules\research\robotics-intelligence.mjs | 1553
+C:\Users\user\brianco-backend-clean\src\modules\research\scientific-instruments.mjs | 1586
+C:\Users\user\brianco-backend-clean\src\modules\search\search-engine.mjs | 983
+C:\Users\user\brianco-backend-clean\src\modules\sensors\sensor-intelligence.mjs | 1919
+
+===== CRITICAL FILE CHECK =====
+FOUND | .\src\lumen.mjs | 1481 bytes
+FOUND | .\vault\module-registry.json | 200904 bytes
+FOUND | .\vault\knowledge.json | 1083040 bytes
+FOUND | .\vault\knowledge-graph.json | 18589 bytes
+FOUND | .\vault\entities.json | 2 bytes
+FOUND | .\vault\relationships.json | 2 bytes
+FOUND | .\vault\learning-history.json | 69 bytes

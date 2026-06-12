@@ -1,0 +1,66 @@
+{
+  "createdOrUpdated": "20260610-224631",
+  "duplicateSignals": [
+    {
+      "authorityName": "NEXT_WORK_QUEUE.md",
+      "count": 5,
+      "status": "Expected if older generations are preserved; must be resolved by canonical map",
+      "locations": [
+        "010_NEXT_WORK\\NEXT_WORK_QUEUE.md",
+        "017_EXPORT_PACKETS\\NEXT_WORK_QUEUE.md",
+        "021_NEXT_WORK\\NEXT_WORK_QUEUE.md",
+        "028_EXPORT_PACKETS\\NEXT_WORK_QUEUE.md",
+        "600_TRANSFER_BUNDLES\\BUNDLE_20260610-223134\\NEXT_WORK_QUEUE.md"
+      ]
+    },
+    {
+      "authorityName": "LINEAGE_REGISTRY.json",
+      "count": 2,
+      "status": "Expected if older generations are preserved; must be resolved by canonical map",
+      "locations": [
+        "022_LINEAGE\\LINEAGE_REGISTRY.json",
+        "028_EXPORT_PACKETS\\LINEAGE_REGISTRY.json"
+      ]
+    },
+    {
+      "authorityName": "EMERGENCY_RECOVERY_PACKET.md",
+      "count": 3,
+      "status": "Expected if older generations are preserved; must be resolved by canonical map",
+      "locations": [
+        "015_RECOVERY\\EMERGENCY_RECOVERY_PACKET.md",
+        "026_RECOVERY\\EMERGENCY_RECOVERY_PACKET.md",
+        "028_EXPORT_PACKETS\\EMERGENCY_RECOVERY_PACKET.md"
+      ]
+    },
+    {
+      "authorityName": "NEXT_PROJECT_PACKET.md",
+      "count": 2,
+      "status": "Expected if older generations are preserved; must be resolved by canonical map",
+      "locations": [
+        "017_EXPORT_PACKETS\\NEXT_PROJECT_PACKET.md",
+        "028_EXPORT_PACKETS\\NEXT_PROJECT_PACKET.md"
+      ]
+    },
+    {
+      "authorityName": "VALIDATE_CONTINUITY_REPOSITORY.ps1",
+      "count": 2,
+      "status": "Expected if older generations are preserved; must be resolved by canonical map",
+      "locations": [
+        "013_VALIDATION\\VALIDATE_CONTINUITY_REPOSITORY.ps1",
+        "024_VALIDATION\\VALIDATE_CONTINUITY_REPOSITORY.ps1"
+      ]
+    },
+    {
+      "authorityName": "ACTIVE_PROJECT_TRANSFER.md",
+      "count": 3,
+      "status": "Expected if older generations are preserved; must be resolved by canonical map",
+      "locations": [
+        "004_ACTIVE_PROJECT\\ACTIVE_PROJECT_TRANSFER.md",
+        "017_EXPORT_PACKETS\\ACTIVE_PROJECT_TRANSFER.md",
+        "028_EXPORT_PACKETS\\ACTIVE_PROJECT_TRANSFER.md"
+      ]
+    }
+  ],
+  "resolvedByCanonicalMap": true,
+  "score": 100
+}

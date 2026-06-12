@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-06-08T13:41:15.661Z",
+  "categories": [
+    "industrial_robotics",
+    "collaborative_robots",
+    "mobile_robots",
+    "warehouse_robots",
+    "service_robots",
+    "humanoid_robots",
+    "agricultural_robots",
+    "construction_robots",
+    "medical_robots",
+    "research_robots",
+    "underwater_robots",
+    "aerial_robots",
+    "space_robotics",
+    "inspection_robots",
+    "security_robots",
+    "educational_robots"
+  ],
+  "capabilities": [
+    "inventory",
+    "maintenance_tracking",
+    "firmware_tracking",
+    "driver_tracking",
+    "documentation",
+    "telemetry_storage",
+    "mission_logging",
+    "sensor_catalog",
+    "camera_catalog",
+    "lidar_catalog",
+    "research_linking",
+    "vault_storage",
+    "knowledge_graph_linking"
+  ]
+}

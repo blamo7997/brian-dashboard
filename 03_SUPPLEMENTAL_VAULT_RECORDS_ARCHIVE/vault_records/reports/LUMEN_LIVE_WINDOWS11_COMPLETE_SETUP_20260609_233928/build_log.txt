@@ -1,0 +1,354 @@
+
+> brianco-backend-clean@1.0.0 build
+> next build
+
+Γû▓ Next.js 16.2.6 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+Turbopack build encountered 2 warnings:
+./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs:26:49
+The file pattern ('./lumen-os/packages/registry/registry-engine.mjs' | './lumen-os/packages/vault/vault-engine.mjs' | './lumen-os/packages/user-memory/user-memory-engine.mjs' | './lumen-os/packages/guardian/guardian-runtime.mjs' | './lumen-os/packages/inside-lumen/inside-lumen-action-router.mjs' | './pages/api/lumen/do.js' | './pages/lumen/control.js' | <dynamic>) matches 96578 files in [project]/
+  24 |   ];
+  25 |
+> 26 |   const missing = requiredBaseline.filter(x => !fs.existsSync(x));
+     |                                                 ^^^^^^^^^^^^^^^^
+  27 |
+  28 |   const report = {
+  29 |     generated: new Date().toISOString(),
+
+Overly broad patterns can lead to build performance issues and over bundling.
+
+Import trace:
+  Route:
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./next.config.js
+Encountered unexpected file in NFT list
+A file was traced that indicates that the whole project was traced unintentionally. Somewhere in the import trace below, there are:
+- filesystem operations (like path.join, path.resolve or fs.readFile), or
+- very dynamic requires (like require('./' + foo)).
+To resolve this, you can
+- remove them if possible, or
+- only use them in development, or
+- make sure they are statically scoped to some subfolder: path.join(process.cwd(), 'data', bar), or
+- add ignore comments: path.join(/*turbopackIgnore: true*/ process.cwd(), bar)
+
+Import trace:
+  Route:
+    ./next.config.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+
+> Build error occurred
+Error: Turbopack build failed with 15 errors:
+./pages/CurrentLumenSetup-theme-health/index.js:4:32
+Expected '(', got '-'
+  2 | import { theme } from "../../lib/brianco-native/ui";
+  3 |
+> 4 | export default function retired-commerce-platformThemeHealth(){
+    |                                ^
+  5 |   const [data,setData] = useState(null);
+  6 |
+  7 |   useEffect(()=>{
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Route:
+    ./pages/CurrentLumenSetup-theme-health/index.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./pages/api/approvals.js:12:20
+Expected '(', got '-'
+  10 | }
+  11 |
+> 12 | function getretired-commerce-platformToken() {
+     |                    ^
+  13 |   return process.env.retired-commerce-platform_ADMIN_API_TOKEN;
+  14 | }
+  15 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Route:
+    ./pages/api/approvals.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./lib/lumen-local-gates.js:2:28
+Expected a semicolon
+  1 | export const EXTERNAL_SERVICES = {
+> 2 |   retired-commerce-platform: false,
+    |                            ^
+  3 |   github: false,
+  4 |   supabase: false,
+  5 |   cloudflare: false
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Route]:
+    ./lib/lumen-local-gates.js
+    ./pages/api/founder-gate.js
+
+  #2 [Route]:
+    ./lib/lumen-local-gates.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./pages/api/provider-readiness/index.js:7:30
+Expected a semicolon
+   5 | export default function handler(req, res) {
+   6 |   const providers = {
+>  7 |     retired-commerce-platform: {
+     |                              ^
+   8 |       store: exists("retired-commerce-platform_STORE_DOMAIN"),
+   9 |       token: exists("retired-commerce-platform_ADMIN_ACCESS_TOKEN"),
+  10 |       status: exists("retired-commerce-platform_STORE_DOMAIN") && exists("retired-commerce...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Route:
+    ./pages/api/provider-readiness/index.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./pages/api/role-request.js:26:46
+Expected a semicolon
+  24 |       notes: body.notes || "",
+  25 |       websiteFirst: true,
+> 26 |       noRoutineretired-commerce-platformAdmin: true,
+     |                                              ^
+  27 |       existingProductsProtected: true,
+  28 |       requiresFounderGreenCheck: true
+  29 |     };
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Route:
+    ./pages/api/role-request.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./lib/lumen-local-gates.js:2:10
+Expression expected
+  1 | export const EXTERNAL_SERVICES = {
+> 2 |   retired-commerce-platform: false,
+    |          ^
+  3 |   github: false,
+  4 |   supabase: false,
+  5 |   cloudflare: false
+
+Parsing ecmascript source code failed
+
+Import traces:
+  #1 [Route]:
+    ./lib/lumen-local-gates.js
+    ./pages/api/founder-gate.js
+
+  #2 [Route]:
+    ./lib/lumen-local-gates.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./pages/api/cli-intelligence/snapshot.js:13:14
+Expression expected
+  11 |     snapshot = {
+  12 |       created_at: new Date().toISOString(),
+> 13 |       retired-commerce-platform: { version: "snapshot missing", live_theme_id: "unknown", ...
+     |              ^
+  14 |       vercel: { cli_connected: false, production_ready_seen: false },
+  15 |       protected: {
+  16 |         no_product_edits: true,
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Route:
+    ./pages/api/cli-intelligence/snapshot.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./pages/api/collections.js:27:16
+Expression expected
+  25 |         ok: false,
+  26 |         message: "retired-commerce-platform collections request failed.",
+> 27 |         retired-commerce-platformErrors: data,
+     |                ^
+  28 |         collections: []
+  29 |       });
+  30 |     }
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Route:
+    ./pages/api/collections.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./pages/api/create-founder-account.js:39:16
+Expression expected
+  37 |         ok: false,
+  38 |         message: "Founder account creation failed. If this says access denied, your retire...
+> 39 |         retired-commerce-platformErrors: data
+     |                ^
+  40 |       });
+  41 |     }
+  42 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Route:
+    ./pages/api/create-founder-account.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./pages/api/ecosystem-command/master.js:65:23
+Expression expected
+  63 |       providerBrandingHiddenWhereFeasible:true,
+  64 |       noObviousCloudflare:true,
+> 65 |       noObviousretired-commerce-platform:true,
+     |                       ^
+  66 |       noObviousVercel:true,
+  67 |       noObviousSupabase:true,
+  68 |       seamlessReturnToBrianCo:true
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Route:
+    ./pages/api/ecosystem-command/master.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./pages/api/ecosystem/dashboard.js:65:23
+Expression expected
+  63 |       providerBrandingHiddenWhereFeasible:true,
+  64 |       noObviousCloudflare:true,
+> 65 |       noObviousretired-commerce-platform:true,
+     |                       ^
+  66 |       noObviousVercel:true,
+  67 |       noObviousSupabase:true,
+  68 |       seamlessReturnToBrianCo:true
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Route:
+    ./pages/api/ecosystem/dashboard.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./pages/api/products.js:27:16
+Expression expected
+  25 |         ok: false,
+  26 |         message: "retired-commerce-platform product request failed.",
+> 27 |         retired-commerce-platformErrors: data,
+     |                ^
+  28 |         products: []
+  29 |       });
+  30 |     }
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Route:
+    ./pages/api/products.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./pages/api/provider-readiness/index.js:7:12
+Expression expected
+   5 | export default function handler(req, res) {
+   6 |   const providers = {
+>  7 |     retired-commerce-platform: {
+     |            ^
+   8 |       store: exists("retired-commerce-platform_STORE_DOMAIN"),
+   9 |       token: exists("retired-commerce-platform_ADMIN_ACCESS_TOKEN"),
+  10 |       status: exists("retired-commerce-platform_STORE_DOMAIN") && exists("retired-commerce...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Route:
+    ./pages/api/provider-readiness/index.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./pages/api/role-request.js:26:23
+Expression expected
+  24 |       notes: body.notes || "",
+  25 |       websiteFirst: true,
+> 26 |       noRoutineretired-commerce-platformAdmin: true,
+     |                       ^
+  27 |       existingProductsProtected: true,
+  28 |       requiresFounderGreenCheck: true
+  29 |     };
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Route:
+    ./pages/api/role-request.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+./pages/api/roles.js:31:21
+Expression expected
+  29 |     ok: true,
+  30 |     nativeWebsiteFirst: true,
+> 31 |     noRoutineretired-commerce-platformAdmin: true,
+     |                     ^
+  32 |     existingProductsProtected: true,
+  33 |     founderGreenCheckRequired: true,
+  34 |     roles,
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Route:
+    ./pages/api/roles.js
+    ./lumen-os/packages/baseline-guardian/baseline-guardian-engine.mjs
+    ./pages/api/lumen/baseline-guardian.js
+
+
+    at <unknown> (./pages/CurrentLumenSetup-theme-health/index.js:4:32)
+    at <unknown> (./pages/api/approvals.js:12:20)
+    at <unknown> (./lib/lumen-local-gates.js:2:28)
+    at <unknown> (./pages/api/provider-readiness/index.js:7:30)
+    at <unknown> (./pages/api/role-request.js:26:46)
+    at <unknown> (./lib/lumen-local-gates.js:2:10)
+    at <unknown> (./pages/api/cli-intelligence/snapshot.js:13:14)
+    at <unknown> (./pages/api/collections.js:27:16)
+    at <unknown> (./pages/api/create-founder-account.js:39:16)
+    at <unknown> (./pages/api/ecosystem-command/master.js:65:23)
+    at <unknown> (./pages/api/ecosystem/dashboard.js:65:23)
+    at <unknown> (./pages/api/products.js:27:16)
+    at <unknown> (./pages/api/provider-readiness/index.js:7:12)
+    at <unknown> (./pages/api/role-request.js:26:23)
+    at <unknown> (./pages/api/roles.js:31:21)

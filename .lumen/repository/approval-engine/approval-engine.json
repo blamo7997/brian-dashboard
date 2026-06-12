@@ -1,0 +1,39 @@
+{
+  "system": "approval-engine",
+  "timestamp": "2026-06-11T21:19:06.2954832-06:00",
+  "states": {
+    "green": [
+      "approved",
+      "founder-authorized",
+      "published",
+      "workflow-approved",
+      "legally-signed-only-when-signature-controls-exist"
+    ],
+    "yellow": [
+      "feedback-requested",
+      "review-required",
+      "revision-needed",
+      "comments-pending",
+      "approval-not-final"
+    ],
+    "red": [
+      "rejected",
+      "blocked",
+      "failed-validation",
+      "failed-legal-review",
+      "failed-compliance-review",
+      "requires-remediation"
+    ]
+  },
+  "greenSignatureRequirements": [
+    "identity",
+    "authority",
+    "intent",
+    "timestamp",
+    "audit-trail",
+    "document-version",
+    "repository-proof",
+    "vault-proof",
+    "third-party-or-native-signature-provider"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "record_type": "raw_import_metadata",
+  "import_id": "RAW_CHAT_GPT_RULES_20260611-231024",
+  "source_path": "C:\\Users\\user\\Desktop\\chat gpt rules.txt",
+  "repository_path": "01_CANONICAL_GOVERNANCE_BASELINE/01_FULL_CANONICAL_REPOSITORY/027_IMPORTS_RAW/RAW_CHAT_GPT_RULES_20260611-231024.txt",
+  "imported_at_local": "2026-06-11T23:10:24-06:00",
+  "timezone": "America/Denver",
+  "sha256": "E85121FCAB41DAC64512E3E175AA07C3C05D88EB9AC19CAFA235ECE262DC1EFA",
+  "preservation_rule": "Exact raw import. Do not summarize. Do not rewrite. Modify only when necessary and preserve source wording."
+}

@@ -1,0 +1,36 @@
+# REGISTRY SCHEMA™
+
+## Registry Types
+- Project Registry
+- Transfer Registry
+- Delta Registry
+- Decision Registry
+- Rule Registry
+- Standard Registry
+- Directive Registry
+- Open Loop Registry
+- Gap Registry
+- Risk Registry
+- Blocker Registry
+- Completion Registry
+- Validation Registry
+- Archive Registry
+
+## Required Fields
+- ID
+- Type
+- Title
+- Status
+- CreatedAt
+- UpdatedAt
+- SourceProject
+- SourceTransfer
+- ParentID
+- RootID
+- Version
+- Tags
+- References
+- ContinuationImpact
+
+## Rule
+Every important continuity item gets an ID and registry entry.

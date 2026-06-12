@@ -1,0 +1,16 @@
+{
+  "lineage": {
+    "currentProjectId": "CR-PROJECT-CURRENT",
+    "currentTransferId": "CR-TRANSFER-CURRENT",
+    "repositoryId": "CR-REPO-LUMEN-CHATGPT-CONTINUITY",
+    "currentSeriesId": "CR-SERIES-0001",
+    "chain": [
+      "Prior project-transfer work",
+      "V1 LUMEN_PROJECT_CONTINUITY_CONTAINER",
+      "V2 LUMEN_CHATGPT_PROJECT_CONTINUITY_REPOSITORY",
+      "V3 ID-first continuity repository"
+    ],
+    "currentRevisionId": "CR-REVISION-20260610-180207",
+    "origin": "Prior Lumen/Brian & Co project-transfer work"
+  }
+}

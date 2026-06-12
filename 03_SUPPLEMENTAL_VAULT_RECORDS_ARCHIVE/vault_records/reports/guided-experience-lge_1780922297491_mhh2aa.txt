@@ -1,0 +1,7 @@
+LUMEN GUIDED EXPERIENCE STUDIO
+Created: 2026-06-08T12:38:17.492Z
+Type: dashboard_blueprint
+Title: Founder Command Center
+Vault File: design-blueprints.json
+Deleted files: 0
+Secrets exposed: NO

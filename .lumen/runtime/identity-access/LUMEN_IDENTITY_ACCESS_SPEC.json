@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-06-11T19:28:46.4046904-06:00",
+  "system": "identity-access",
+  "status": "foundation-spec-created",
+  "requiredCapabilities": [
+    "users",
+    "roles",
+    "permissions",
+    "sessions",
+    "consent-state",
+    "localized-compliance-state",
+    "founder-private-boundary",
+    "per-user-repository-boundary",
+    "per-user-vault-boundary",
+    "least-privilege-access",
+    "audit-records"
+  ],
+  "forbidden": [
+    "cross-user-private-access",
+    "founder-private-exposure",
+    "unlogged-privilege-change",
+    "permission-bypass"
+  ]
+}

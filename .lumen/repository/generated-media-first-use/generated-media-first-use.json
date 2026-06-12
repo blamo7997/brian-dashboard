@@ -1,0 +1,24 @@
+{
+  "system": "generated-media-first-use",
+  "timestamp": "2026-06-11T21:19:06.2959700-06:00",
+  "mediaTypes": [
+    "generated-video",
+    "generated-image",
+    "captioned-walkthrough",
+    "subtitled-walkthrough",
+    "clickable-link",
+    "feature-map",
+    "upgrade-guide"
+  ],
+  "requiredContexts": [
+    "first-use",
+    "new-feature",
+    "membership",
+    "a-la-carte",
+    "bundle",
+    "upgrade",
+    "portal",
+    "dashboard",
+    "workspace-service"
+  ]
+}

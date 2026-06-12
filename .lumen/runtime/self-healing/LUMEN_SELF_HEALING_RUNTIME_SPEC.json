@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-06-11T19:28:49.6653927-06:00",
+  "system": "self-healing-runtime",
+  "status": "foundation-spec-created",
+  "requiredCapabilities": [
+    "detect-issue",
+    "classify-risk",
+    "preserve-evidence",
+    "create-rollback",
+    "repair-if-authorized",
+    "validate-repair",
+    "write-proof",
+    "avoid-duplicates",
+    "protect-user-boundaries",
+    "protect-founder-private"
+  ]
+}

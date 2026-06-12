@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-06-11T19:28:48.2951456-06:00",
+  "system": "portal-runtime",
+  "status": "foundation-spec-created",
+  "requiredCapabilities": [
+    "role-specific-portals",
+    "user-specific-dashboards",
+    "permission-gated-content",
+    "localized-language",
+    "localized-dialect",
+    "accessibility-adaptation",
+    "device-adaptation",
+    "workspace-adaptation",
+    "repository-vault-continuity"
+  ]
+}

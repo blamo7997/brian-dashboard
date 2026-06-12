@@ -1,0 +1,26 @@
+{
+  "createdOrUpdated": "20260611-144150",
+  "projectName": "Lumen Genesis",
+  "status": "Added protected Repository/Vault data governance layer 1181-1190",
+  "containers": [
+    "1183_PROTECTED_DATA_AUTHORITY_MODEL",
+    "1187_VAULT_PROTECTED_REFERENCE_INDEX",
+    "1184_PERMISSION_SAFE_CHANGE_CONTROL",
+    "1182_REPOSITORY_TO_VAULT_ROUTING_RULE",
+    "1186_IMMUTABLE_LINEAGE_AUDIT_TRAIL",
+    "1188_USER_ISOLATED_DATA_GOVERNANCE",
+    "1190_REPOSITORY_VAULT_DATA_GOVERNANCE_GATE",
+    "1181_PROTECTED_REPOSITORY_VAULT_DATA_GOVERNANCE",
+    "1189_FOUNDER_PRIVATE_DATA_GOVERNANCE",
+    "1185_ARCHIVE_BEFORE_DELETE_ENFORCEMENT"
+  ],
+  "hardRules": [
+    "Repository plus Vault is the protected continuity authority",
+    "Anything that cannot live directly in repository must route to Vault or protected Vault reference",
+    "All data changes require permission-safe evidence-backed workflows",
+    "Archive before delete",
+    "Founder/private boundaries preserved",
+    "User isolation preserved",
+    "No bypass"
+  ]
+}

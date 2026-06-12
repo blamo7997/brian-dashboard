@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-06-08T13:33:45.446Z",
+  "hostname": "DESKTOP-PDM7SHT",
+  "platform": "win32",
+  "release": "10.0.26200",
+  "arch": "x64",
+  "cpu": "{\"Name\":\"Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz\"}",
+  "gpu": "[{\"Name\":\"AMD Radeon 550X\"},{\"Name\":\"Intel(R) UHD Graphics 620\"}]",
+  "ram": "[{\"Capacity\":8589934592,\"Speed\":2667},{\"Capacity\":8589934592,\"Speed\":2400}]",
+  "motherboard": "{\"Manufacturer\":\"HP\",\"Product\":\"8549\"}",
+  "bios": "{\"SMBIOSBIOSVersion\":\"R70 Ver. 01.28.00\"}",
+  "drives": "{\"FriendlyName\":\"KBG40ZNV256G KIOXIA\",\"Size\":256060514304}",
+  "network": "[{\"Name\":\"Wi-Fi 2\",\"Status\":\"Up\"},{\"Name\":\"Ethernet\",\"Status\":\"Disconnected\"},{\"Name\":\"Bluetooth Network Connection\",\"Status\":\"Disconnected\"},{\"Name\":\"vEthernet (Default Switch)\",\"Status\":\"Up\"}]"
+}

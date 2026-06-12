@@ -1,0 +1,17 @@
+LUMEN CORE STATUS
+Generated: 2026-06-08T12:49:15.988Z
+
+Guided Experience Studio: YES
+Design Blueprints: YES
+Website Blueprints: YES
+Tutorial Blueprints: YES
+Voice Preferences: YES
+Learning Engine: NO
+
+Core Boundary:
+PowerShell is not Lumen core.
+PowerShell is setup/adapter only.
+Lumen core command routing is Node-based.
+
+Deleted files: 0
+Secrets exposed: NO

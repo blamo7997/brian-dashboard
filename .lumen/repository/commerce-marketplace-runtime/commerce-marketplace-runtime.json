@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-06-11T20:58:36.5861746-06:00",
+  "system": "commerce-marketplace-runtime",
+  "targetStandard": "5000x-above-ordinary-baseline",
+  "capabilities": [
+    "physical-product-discovery",
+    "localized-market-comparison",
+    "white-glove-service",
+    "margin-advantage-analysis",
+    "premium-competitive-pricing",
+    "product-bundles",
+    "a-la-carte-add-ons",
+    "membership-upgrades",
+    "financing-flow-support",
+    "explicit-order-confirmation-required"
+  ],
+  "safetyRules": [
+    "no-order-without-explicit-authorization",
+    "no-payment-without-confirmation",
+    "no-financing-submission-without-consent",
+    "no-false-approval-promises",
+    "no-manipulative-recommendations",
+    "preserve-source-lineage"
+  ]
+}

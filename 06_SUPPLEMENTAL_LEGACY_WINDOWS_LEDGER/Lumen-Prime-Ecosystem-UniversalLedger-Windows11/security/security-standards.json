@@ -1,0 +1,23 @@
+{
+  "securityPosture": "Lumen Sovereign Security",
+  "baselines": [
+    "CIS Controls",
+    "NIST Cybersecurity Framework",
+    "OWASP Web Top 10",
+    "OWASP LLM/GenAI guidance",
+    "Zero Trust",
+    "Supply-chain security",
+    "SBOM-ready tracking"
+  ],
+  "rules": [
+    "Vault-first",
+    "Per-user sandboxing",
+    "Encryption by default",
+    "AI prompt-injection defense",
+    "Upload scanning",
+    "Executable quarantine",
+    "Continuous re-scan",
+    "Signed updates preferred",
+    "Founder approval for high-impact changes"
+  ]
+}

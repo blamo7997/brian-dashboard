@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "safe": true,
+  "bytes": 906,
+  "mb": 0.001,
+  "maxMB": 50,
+  "safeTargetMB": 42,
+  "fileCount": 4,
+  "largestFiles": [
+    {
+      "file": "theme-pack\\sections\\brianco-feature-grid.liquid",
+      "size": 317,
+      "mb": 0
+    },
+    {
+      "file": "theme-pack\\assets\\brianco.css",
+      "size": 306,
+      "mb": 0
+    },
+    {
+      "file": "theme-pack\\layout\\theme.liquid",
+      "size": 177,
+      "mb": 0
+    },
+    {
+      "file": "theme-pack\\templates\\index.json",
+      "size": 106,
+      "mb": 0
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<Application x:Class="LumenPrimeApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Application.Resources>
+        <LinearGradientBrush x:Key="LumenBg" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#030201" Offset="0"/>
+            <GradientStop Color="#130C04" Offset="0.35"/>
+            <GradientStop Color="#342006" Offset="0.70"/>
+            <GradientStop Color="#060403" Offset="1"/>
+        </LinearGradientBrush>
+        <SolidColorBrush x:Key="LumenGold" Color="#F5D58A"/>
+        <SolidColorBrush x:Key="LumenGold2" Color="#C99A3D"/>
+        <SolidColorBrush x:Key="LumenText" Color="#F7EBD0"/>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="4"/>
+            <Setter Property="Padding" Value="12,7"/>
+            <Setter Property="Foreground" Value="{StaticResource LumenGold}"/>
+            <Setter Property="Background" Value="#231806"/>
+            <Setter Property="BorderBrush" Value="{StaticResource LumenGold2}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+        </Style>
+        <Style TargetType="TextBlock"><Setter Property="Foreground" Value="{StaticResource LumenText}"/></Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="#0B0907"/>
+            <Setter Property="Foreground" Value="{StaticResource LumenText}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource LumenGold2}"/>
+            <Setter Property="SelectionBrush" Value="#8A641D"/>
+        </Style>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,63 @@
+# PRESERVATION-FIRST & ADDITIVE-FIRST RULE™
+
+Date: 20260610-220357
+Status: Canonical
+Applies To: Everything Brian & Co / Lumen / live / production / repository / transfer related
+
+## Default Order Of Action
+1. ADD
+2. REFERENCE
+3. ARCHIVE
+4. MODIFY
+5. DELETE
+
+## Hard Rule
+Deletion is exceptional.
+Modification requires justification.
+Archive is preferred over deletion.
+Reference is preferred over duplication.
+Delta is preferred over rewriting.
+Preserve before replacing.
+Resume before rebuilding.
+
+## Applies To
+- Architecture
+- Code
+- Live systems
+- Production systems
+- Frameworks
+- Repositories
+- Continuity systems
+- Transfers
+- Documentation
+- Specifications
+- Products
+- Services
+- Portals
+- APIs
+- Deployments
+- Lumen
+- Lumen OS
+- Lumen Human OS
+- Vault
+- Future Brian & Co / Lumen work
+
+## Modification Allowed When Required By
+- Correctness
+- Security
+- Integrity
+- Continuity
+- Active-authority conflict
+- Verified defect
+- Explicit founder direction
+
+## Deletion Allowed Only When
+- Unsafe
+- Legally required
+- Security-critical
+- Corrupt beyond recovery
+- Explicitly directed
+- Superseded and archived where feasible
+
+## Universal Principle
+Nothing important disappears without trace.

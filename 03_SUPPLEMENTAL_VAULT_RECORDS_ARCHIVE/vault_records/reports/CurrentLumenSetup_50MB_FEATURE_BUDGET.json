@@ -1,0 +1,32 @@
+{
+  "retired-commerce-platformUploadMaxMB": 50,
+  "safeTargetMB": 42,
+  "reservedMB": {
+    "coreThemeLiquid": 3,
+    "cssAndJs": 4,
+    "iconsAndBranding": 3,
+    "featureSections": 8,
+    "localizedContent": 5,
+    "accessibilityAssets": 4,
+    "futureExpansionReserve": 15
+  },
+  "rules": [
+    "Do not add large raw videos to the theme zip.",
+    "Use retired-commerce-platform Files/CDN for heavy media.",
+    "Compress images before packaging.",
+    "Keep theme zip under 50 MB.",
+    "Prefer lightweight Liquid/CSS/JS.",
+    "Keep app/backend logic outside theme zip.",
+    "Preserve accessibility and localization features without bloating assets.",
+    "Use external app/backend routes for dynamic features.",
+    "Run size checks before upload."
+  ],
+  "featureStrategy": [
+    "Theme contains lightweight UI hooks.",
+    "Backend provides dynamic routes.",
+    "Images and heavy assets are uploaded separately.",
+    "Products/collections carry images through retired-commerce-platform CDN.",
+    "App logic stays in Vercel/serverless app.",
+    "Theme remains upload-safe and fast."
+  ]
+}

@@ -1,0 +1,16 @@
+services:
+  lumen:
+    build:
+      context: .
+      dockerfile: Dockerfile.lumen
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - lumen_node_modules:/app/node_modules
+      - lumen_workspace:/workspace
+    environment:
+      - NODE_ENV=development
+volumes:
+  lumen_node_modules:
+  lumen_workspace:

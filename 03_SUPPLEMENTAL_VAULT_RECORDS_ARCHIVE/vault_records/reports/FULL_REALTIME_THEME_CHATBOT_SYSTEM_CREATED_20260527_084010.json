@@ -1,0 +1,16 @@
+{
+    "overlay":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay",
+    "manifest":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\backup_manifests\\READ_ONLY_PROJECT_MANIFEST_20260527_084010.json",
+    "liveretired-commerce-platformDeploymentChanged":  false,
+    "validation":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\RUN_OVERLAY_VALIDATION.ps1",
+    "ok":  true,
+    "localThemeUpdateAttempted":  true,
+    "protectedConnectionsChanged":  false,
+    "status":  "Full Brian \u0026 Co realtime theme/chatbot/human-memory/previous-code system created safely.",
+    "continuousWatcherAvailable":  true,
+    "installer":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\INSTALL_OR_UPDATE_CURRENT_THEME_OVERLAY.ps1",
+    "root":  "C:\\Users\\user\\brianco-backend-clean",
+    "createdAt":  "2026-05-27T08:41:42.3854487-06:00",
+    "intelReport":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\previous_code_intelligence\\PREVIOUS_CODE_THEME_INTELLIGENCE_20260527_084010.json",
+    "watcher":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\START_REALTIME_THEME_CHATBOT_WATCHER.ps1"
+}

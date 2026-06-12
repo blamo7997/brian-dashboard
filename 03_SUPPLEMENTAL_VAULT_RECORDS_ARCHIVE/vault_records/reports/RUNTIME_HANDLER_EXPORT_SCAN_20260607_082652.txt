@@ -1,0 +1,838 @@
+=== RUNTIME HANDLER EXPORT SCAN — 20260607_082652 ===
+
+===== api/health.js =====
+function json(res,status,data){res.status(status).setHeader("Content-Type","application/json");return res.end(JSON.stringify(data,null,2));}
+export default async function handler(req,res){
+  return json(res,200,{
+    ok:true,
+    service:"Brian & Co Backend",
+    status:"online",
+    time:new Date().toISOString(),
+    checks:{
+      current Lumen setupStoreDomain:!!process.env.current Lumen setup_STORE_DOMAIN,
+      current Lumen setupAdminToken:!!process.env.current Lumen setup_ADMIN_API_TOKEN,
+      openAI:!!process.env.OPENAI_API_KEY
+    }
+  });
+}
+
+
+
+===== pages/api/health.js =====
+export default function handler(req, res) {
+  res.status(200).json({
+    ok: true,
+    service: "Lumen Health",
+    runtime: "cloudflare-opennext-pages-api",
+    checkedAt: new Date().toISOString()
+  });
+}
+
+
+===== app/api/brianco/gateway/continuity/route.ts =====
+MISSING
+
+===== pages/api/brianco/gateway/continuity.js =====
+export default async function handler(req, res) {
+  if (req.method === "GET") {
+    return res.status(200).json({
+      ok: true,
+      service: "Lumen Continuity Gateway",
+      nativeCustomerExperience: true,
+      protectedLiveMutation: false,
+      checkedAt: new Date().toISOString()
+    });
+  }
+
+  if (req.method !== "POST") {
+    res.setHeader("Allow", "GET, POST");
+    return res.status(405).json({
+      ok: false,
+      customerMessage: "This Lumen continuity route accepts GET and POST only.",
+      protectedLiveMutation: false
+    });
+  }
+
+  try {
+    const body = req.body || {};
+    return res.status(200).json({
+      ok: true,
+      preserved: false,
+      continuityScope: "Basic continuity gateway is online. Full continuity service loads after runtime stabilization.",
+      customerMessage: "Lumen continuity is online and ready for the next protected integration phase.",
+      received: Boolean(body),
+      founderReviewRequired: false,
+      protectedLiveMutation: false,
+      checkedAt: new Date().toISOString()
+    });
+  } catch {
+    return res.status(200).json({
+      ok: true,
+      preserved: false,
+      customerMessage: "Lumen continuity gateway protected the request and remained online.",
+      founderReviewRequired: true,
+      protectedLiveMutation: false,
+      checkedAt: new Date().toISOString()
+    });
+  }
+}
+
+
+===== pages/api/brianco/gateway/continuity/index.js =====
+MISSING
+
+===== EXPORT SEARCH =====
+C:\Users\user\brianco-backend-clean\api\api\CurrentLumenSetup-callback.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\api\CurrentLumenSetup-callback.js:12: const response = await fetch(`https://${shop}/admin/oauth/access_token`, {
+C:\Users\user\brianco-backend-clean\api\api\CurrentLumenSetup-callback.js:24: const data = await response.json();
+C:\Users\user\brianco-backend-clean\api\brain\event.js:3: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\brain\interact.js:3: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\brain\user.js:3: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\callback.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\callback.js:9: const response = await fetch(`https://${shop}/admin/oauth/access_token`, {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\callback.js:21: const data = await response.json();
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\install.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\accessibility-localization.js:1: export default async function handler(req,res){res.status(200).json({ok:true,route:"accessibility-localization",accessibility:["text sizing","reduced motion","high contrast","screen-reader labels","captions ready","keyboard navigation"],localization:["language routing","currency ready","regional SEO ready"],status:"scaffolded"});}
+C:\Users\user\brianco-backend-clean\api\auth-options.js:1: export default async function handler(req,res){res.status(200).json({ok:true,route:"auth-options",methods:["current Lumen setup customer accounts","email magic link","Google OAuth","Apple sign-in","Microsoft sign-in","passkeys/WebAuthn","guest mode"],status:"scaffolded"});}
+C:\Users\user\brianco-backend-clean\api\backup-products.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\backup-products.js:13: const response = await fetch(`https://${shop}/admin/api/2025-04/products.json?limit=250`, {
+C:\Users\user\brianco-backend-clean\api\backup-products.js:20: const data = await response.json();
+C:\Users\user\brianco-backend-clean\api\chat.js:8: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\chat.js:33: const current Lumen setupResponse = await fetch(
+C:\Users\user\brianco-backend-clean\api\chat.js:74: const shopData = await current Lumen setupResponse.json();
+C:\Users\user\brianco-backend-clean\api\chat.js:96: const response = await fetch("https://api.openai.com/v1/chat/completions", {
+C:\Users\user\brianco-backend-clean\api\chat.js:122: const data = await response.json();
+C:\Users\user\brianco-backend-clean\api\chat.js:126: "No response generated.";
+C:\Users\user\brianco-backend-clean\api\collections.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\collections.js:16: const response = await fetch(`https://${store}/admin/api/2025-04/custom_collections.json?limit=20`, {
+C:\Users\user\brianco-backend-clean\api\collections.js:23: const text = await response.text();
+C:\Users\user\brianco-backend-clean\api\collections.js:24: if (!response.ok) {
+C:\Users\user\brianco-backend-clean\api\collections.js:27: status: response.status,
+C:\Users\user\brianco-backend-clean\api\concierge.js:15: const response = await fetch(`${baseUrl}/api/products`);
+C:\Users\user\brianco-backend-clean\api\concierge.js:16: const data = await response.json();
+C:\Users\user\brianco-backend-clean\api\concierge.js:23: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:15: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:43: const tokenResponse = await fetch(tokenUrl, {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:53: const tokenText = await tokenResponse.text();
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:55: if (!tokenResponse.ok) {
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:60: status: tokenResponse.status,
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js:61: response: tokenText
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-install.js:23: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\digital-delivery.js:1: export default async function handler(req,res){res.status(200).json({ok:true,route:"digital-delivery",type:"digital",requiresShipping:false,fulfillment:"secure entitlement/download flow scaffolded"});}
+C:\Users\user\brianco-backend-clean\api\founder-status.js:1: export default async function handler(req,res){res.status(200).json({ok:true,route:"founder-status",service:"Brian & Co Founder Command Center",protected:true,founderControlled:true,time:new Date().toISOString()});}
+C:\Users\user\brianco-backend-clean\api\health.js:2: export default async function handler(req,res){
+C:\Users\user\brianco-backend-clean\api\intelligence.js:8: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\next-steps.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\products.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\products.js:16: const response = await fetch(`https://${store}/admin/api/2025-04/products.json?limit=20`, {
+C:\Users\user\brianco-backend-clean\api\products.js:23: const text = await response.text();
+C:\Users\user\brianco-backend-clean\api\products.js:24: if (!response.ok) {
+C:\Users\user\brianco-backend-clean\api\products.js:27: status: response.status,
+C:\Users\user\brianco-backend-clean\api\risk-score.js:1: export default async function handler(req,res){res.status(200).json({ok:true,route:"risk-score",status:"scaffolded",captcha:true,fraudReview:true,moderation:true,note:"Use lawful vetted signals only. Do not store raw card data."});}
+C:\Users\user\brianco-backend-clean\api\score.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\score.js:6: const shopResponse = await fetch(`https://${shop}/admin/api/2025-04/shop.json`, {
+C:\Users\user\brianco-backend-clean\api\score.js:10: const productsResponse = await fetch(`https://${shop}/admin/api/2025-04/products/count.json`, {
+C:\Users\user\brianco-backend-clean\api\score.js:14: const shopData = await shopResponse.json();
+C:\Users\user\brianco-backend-clean\api\score.js:15: const productsData = await productsResponse.json();
+C:\Users\user\brianco-backend-clean\api\secret-health.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\seed-digital-products-OFF.js:22: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\api\seed-digital-products-OFF.js:37: const response = await fetch(
+C:\Users\user\brianco-backend-clean\api\seed-digital-products-OFF.js:58: const data = await response.json();
+C:\Users\user\brianco-backend-clean\api\seed-digital-products-OFF.js:62: response: data
+C:\Users\user\brianco-backend-clean\api\seed-products.js:37: export default async function handler(req,res){
+C:\Users\user\brianco-backend-clean\api\seed-products.js:48: if(!r.ok) created.push({title:p.title,ok:false,status:r.status,response:text});
+C:\Users\user\brianco-backend-clean\api\seo-status.js:1: export default async function handler(req,res){res.status(200).json({ok:true,route:"seo-status",title:"Brian & Co",structuredDataReady:true,sitemapReady:true,altTextRequired:true,status:"scaffolded"});}
+C:\Users\user\brianco-backend-clean\api\status.js:1: export default async function handler(req,res){res.status(200).json({ok:true,route:"status",service:"Brian & Co live status",time:new Date().toISOString()});}
+C:\Users\user\brianco-backend-clean\api\storefront-feed.js:1: export default async function handler(req,res){res.status(200).json({ok:true,route:"storefront-feed",message:"Storefront feed route restored. Next expansion connects live current Lumen setup product cards."});}
+C:\Users\user\brianco-backend-clean\pages\absolute-master-continuity-product-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\absolute-master-continuity-product-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\absolute-master-handoff-continuity\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\absolute-master-handoff-continuity\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\accessibility-care-expansion\index.js:4: export default function AccessibilityCareExpansion(){
+C:\Users\user\brianco-backend-clean\pages\accessibility-intelligence\index.js:4: export default function AccessibilityIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\accessibility-intelligence-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\accessibility-intelligence-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\accessibility-localization-command\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\accessibility-localization-command\index.js:12: export default function Page({ data }) {
+C:\Users\user\brianco-backend-clean\pages\accessibility-localization-growth-expansion\index.js:4: export default function Phase97(){
+C:\Users\user\brianco-backend-clean\pages\account\access.js:3: export default function AccountAccess() {
+C:\Users\user\brianco-backend-clean\pages\accountant-receipt-expense-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\accountant-receipt-expense-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\admin-companion-intelligence\index.js:4: export default function AdminCompanionIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\api\absolute-master-continuity-product-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\absolute-master-handoff-continuity\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-care-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-intelligence\dashboard.js:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-intelligence-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-localization-command\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\accessibility-localization-growth-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\accountant-receipt-expense-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\admin-companion-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\approval-automation\queues.js:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\approval-governance-growth-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\approvals\queues.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\auth-native\readiness.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\automation-coordination-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\autonomous-recommendation-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\brand-image-tone-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\brand-tone-protection\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\brianco\gateway\continuity.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\brianco\gateway.js:15: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\brianco-century-command-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\brianco-command\audit.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\brianco-command\index.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\career-resume-job-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\chatbot-intelligence\intent.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\chatbot-intelligence\summary.js:4: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\cli-intelligence\snapshot.js:4: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\command-center\metrics.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\commerce-evolution\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\commerce-growth-intelligence-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\commerce-intelligence\dashboard.js:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\commerce-recommendation-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\communication-hub\summary.js:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\communication-notification-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\community-support-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\continuity-governance-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\creator-campaign-growth-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\creator-influencer-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\creator-video-editor-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\cross-system-learning\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\custom-work-nonrefundable-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\custom-work-production-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\customer-intelligence\summary.js:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\customer-intelligence-layer\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\customer-lifecycle-intelligence-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\customer-portal-engine\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\deployment-playwright-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\digital-membership-growth-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\digital-product-growth-command\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\digital-product-intelligence-v2\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem\dashboard.js:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-analytics-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-command\master.js:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-continuity\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-growth-coordination-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-insights\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-optimization\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-orchestration\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-orchestration-command\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-orchestration-expansion-v2\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\ecosystem-performance-intelligence-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\entitlement-my-products-command\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\entitlement-product-registry-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\event-festival-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\event-festival-intelligence-v2\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\event-intake\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\event-vendor-artisan-creator-participation\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\events\cheyenne.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\executive-decision-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\executive-intelligence-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\experience-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\fort-knox-vault-continuity\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\founder-approval-compliance\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\founder-command-center\dashboard.js:4: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\founder-command-center-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\founder-command-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\founder-ecosystem-intelligence-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\founder-intelligence-network-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\founder-knowledge\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\founder-operations-command-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\founder-operations-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\founder-opportunity-intelligence-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\founder-ops\dashboard.js:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\founder-reports-audit-command\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\founder-revenue-command-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\founder-strategic-command-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\free-os-foundation-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\full-project-audit\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\future-os-device-ecosystem-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\growth-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\health-caregiver-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\identity-continuity-growth-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\income-tier-command\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\intelligence\experience.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\intelligence\sales-orders.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\interaction-logging\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\lawyer-review-routing-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\legal\live\action.ts:20: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\legal\live\records.ts:27: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\legal-approval-center\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\legal-contract-policy-lifecycle-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\legal-signature-approval-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\local-events-festival-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\local-intelligence\events.js:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\localization-cultural-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\localization-intelligence\dashboard.js:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\localization-intelligence-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\luxury-brand-outreach-center\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\luxury-resale-intelligence\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\market-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\master-protection\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\meeting-transcript-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\meeting-transcript-video-command\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\membership-subscription-intelligence-v2\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\memory-continuity-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\memory-continuity-learning-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\native\customer-dashboard.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\native-identity\readiness.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\native-identity-experience-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\native-language-experience\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\opportunity-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\opportunity-growth-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\opportunity-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\orchestration-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\origin-policy-marketplace-layer\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\origin-provenance-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\os-chatbot-continuity-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\os-shared-intelligence-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\personalization\role.js:70: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\personalization-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-001-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-002-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-003-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-004-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-005-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-006-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-007-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-008-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-009-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-010-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-011-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-012-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-013-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-014-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-015-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-016-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-017-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-018-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-019-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-020-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-021-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-022-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-023-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-024-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-025-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-026-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-027-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-028-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-029-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-030-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-031-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-032-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-033-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-034-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-035-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-036-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-037-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-038-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-039-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-040-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-041-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-042-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-043-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-044-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-045-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-046-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-047-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-048-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-049-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-050-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-051-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-052-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-053-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-054-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-055-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-056-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-057-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-058-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-059-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-060-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-061-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-062-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-063-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-064-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-065-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-066-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-067-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-068-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-069-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-070-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-071-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-072-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-073-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-074-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-075-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-076-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-077-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-078-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-079-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-080-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-081-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-082-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-083-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-084-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-085-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-086-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-087-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-088-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-089-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-090-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-091-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-092-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-093-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-094-dynamic-protection-registry\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-095-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-096-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-097-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-098-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-099-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\phase-100-dynamic-protection-registry\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\political-civic-campaign-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\product-image-tone-command\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\product-image-tone-intelligence\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\product-visibility-layer\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\production-fulfillment-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\production-stability\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\protected-governance\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\provider-lifecycle-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\provider-marketplace-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\provider-onboarding-portfolio-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\provider-partner-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\provider-policy-tone-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\provider-readiness\future.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\provider-readiness\index.js:5: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\recommendation-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\revenue-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\revenue-optimization-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\revenue-recommendation-command\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\role-expansion-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\role-growth-intelligence-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\role-intelligence\notifications.js:81: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\role-intelligence\profile.js:3: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\role-orchestration\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\role-portal-engine\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\role-portal-expansion\dashboard.js:4: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\role-portal-network-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\roles\customer.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\shared-website-chatbot-os-intelligence\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\strategic-automation-intelligence-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\strategic-planning\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\strategic-planning-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\supplier-artisan-commerce-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\supplier-artisan-growth-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\supplier-recruitment-center\dashboard.js:3: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\supplier-recruitment-intelligence\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\text\route.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\text\route.js:75: response: `I can guide you through Brian & Co. I found the best place for this request: ${route}`,
+C:\Users\user\brianco-backend-clean\pages\api\text-interaction\readiness.js:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\text-interaction\readiness.js:42: "Concise or detailed responses",
+C:\Users\user\brianco-backend-clean\pages\api\theme-intelligence\dashboard.js:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\tracking-shipment-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\universal-customer-intelligence\dashboard.ts:1: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\video-media-brand-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\visual-intelligence\dashboard.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\website-chatbot-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\white-glove-customer-journey\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\white-glove-thank-you-master\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\writer-publishing-expansion\dashboard.js:4: export default function handler(req,res){
+C:\Users\user\brianco-backend-clean\pages\api\account-entitlements.js:16: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\approvals.js:24: const response = await fetch(`https://${shop}/admin/api/2026-04${path}`, {
+C:\Users\user\brianco-backend-clean\pages\api\approvals.js:33: const text = await response.text();
+C:\Users\user\brianco-backend-clean\pages\api\approvals.js:37: if (!response.ok) {
+C:\Users\user\brianco-backend-clean\pages\api\approvals.js:86: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\brianco-gateway.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\brianco-gateway.js:4: const response = {
+C:\Users\user\brianco-backend-clean\pages\api\brianco-gateway.js:16: ...response,
+C:\Users\user\brianco-backend-clean\pages\api\brianco-gateway.js:23: ...response,
+C:\Users\user\brianco-backend-clean\pages\api\brianco-gateway.js:31: ...response,
+C:\Users\user\brianco-backend-clean\pages\api\brianco-gateway.js:37: return res.status(200).json(response);
+C:\Users\user\brianco-backend-clean\pages\api\chat.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\chat.js:19: const productResponse = await fetch(
+C:\Users\user\brianco-backend-clean\pages\api\chat.js:29: const productData = await productResponse.json();
+C:\Users\user\brianco-backend-clean\pages\api\chat.js:46: const aiResponse = await fetch("https://api.openai.com/v1/chat/completions", {
+C:\Users\user\brianco-backend-clean\pages\api\chat.js:77: const aiData = await aiResponse.json();
+C:\Users\user\brianco-backend-clean\pages\api\chat.js:79: if (!aiResponse.ok) {
+C:\Users\user\brianco-backend-clean\pages\api\chat.js:80: return res.status(aiResponse.status).json({
+C:\Users\user\brianco-backend-clean\pages\api\collections.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\collections.js:14: const response = await fetch(`https://${shop}/admin/api/2024-10/custom_collections.json?limit=50`, {
+C:\Users\user\brianco-backend-clean\pages\api\collections.js:21: const data = await response.json();
+C:\Users\user\brianco-backend-clean\pages\api\collections.js:23: if (!response.ok) {
+C:\Users\user\brianco-backend-clean\pages\api\collections.js:24: return res.status(response.status).json({
+C:\Users\user\brianco-backend-clean\pages\api\command-center.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\create-founder-account.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\create-founder-account.js:15: const response = await fetch(`https://${shop}/admin/api/2025-04/customers.json`, {
+C:\Users\user\brianco-backend-clean\pages\api\create-founder-account.js:33: const data = await response.json();
+C:\Users\user\brianco-backend-clean\pages\api\create-founder-account.js:35: if (!response.ok) {
+C:\Users\user\brianco-backend-clean\pages\api\create-founder-account.js:36: return res.status(response.status).json({
+C:\Users\user\brianco-backend-clean\pages\api\digital-product-drafts.js:4: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\digital-work.js:3: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\founder-gate.js:3: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\founder.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\health.js:1: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\products.js:1: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\products.js:14: const response = await fetch(`https://${shop}/admin/api/2024-10/products.json?limit=50`, {
+C:\Users\user\brianco-backend-clean\pages\api\products.js:21: const data = await response.json();
+C:\Users\user\brianco-backend-clean\pages\api\products.js:23: if (!response.ok) {
+C:\Users\user\brianco-backend-clean\pages\api\products.js:24: return res.status(response.status).json({
+C:\Users\user\brianco-backend-clean\pages\api\role-request.js:4: export default async function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\api\roles.js:27: export default function handler(req, res) {
+C:\Users\user\brianco-backend-clean\pages\approval-automation\index.js:4: export default function ApprovalAutomation(){
+C:\Users\user\brianco-backend-clean\pages\approval-governance-growth-expansion\index.js:4: export default function Phase99(){
+C:\Users\user\brianco-backend-clean\pages\automation-coordination-expansion\index.js:4: export default function AutomationCoordinationExpansion(){
+C:\Users\user\brianco-backend-clean\pages\autonomous-recommendation-expansion\index.js:4: export default function AutonomousRecommendationExpansion(){
+C:\Users\user\brianco-backend-clean\pages\brand-image-tone-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\brand-image-tone-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\brand-tone-protection\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\brianco-century-command-expansion\index.js:4: export default function Phase100(){
+C:\Users\user\brianco-backend-clean\pages\brianco-live-feature-hub\index.js:1: export default function Hub(){
+C:\Users\user\brianco-backend-clean\pages\career-resume-job-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\career-resume-job-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\chatbot-continuity\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\chatbot-intelligence\index.js:4: export default function ChatbotIntelligencePage() {
+C:\Users\user\brianco-backend-clean\pages\collections\index.js:4: export default function CollectionsHub() {
+C:\Users\user\brianco-backend-clean\pages\command-center\index.js:4: export default function BrianCoUnifiedCommandCenter(){
+C:\Users\user\brianco-backend-clean\pages\commerce-evolution\index.js:4: export default function CommerceEvolution(){
+C:\Users\user\brianco-backend-clean\pages\commerce-growth-intelligence-expansion\index.js:4: export default function Phase92(){
+C:\Users\user\brianco-backend-clean\pages\commerce-intelligence\index.js:4: export default function CommerceIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\commerce-recommendation-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\commerce-recommendation-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\communication-hub\index.js:4: export default function CommunicationHub(){
+C:\Users\user\brianco-backend-clean\pages\communication-notification-intelligence\index.js:4: export default function CommunicationNotificationIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\community-support-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\community-support-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\continuity-governance-expansion\index.js:4: export default function ContinuityGovernanceExpansion(){
+C:\Users\user\brianco-backend-clean\pages\copy-tone-intelligence\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\creator-campaign-growth-expansion\index.js:4: export default function Phase95(){
+C:\Users\user\brianco-backend-clean\pages\creator-influencer-expansion\index.js:4: export default function CreatorInfluencerExpansion(){
+C:\Users\user\brianco-backend-clean\pages\creator-video-editor-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\creator-video-editor-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\cross-system-learning\index.js:4: export default function CrossSystemLearning(){
+C:\Users\user\brianco-backend-clean\pages\CurrentLumenSetup-theme-health\index.js:4: export default function retired-commerce-platformThemeHealth(){
+C:\Users\user\brianco-backend-clean\pages\CurrentLumenSetup-theme-health-command\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\CurrentLumenSetup-theme-health-command\index.js:12: export default function Page({ data }) {
+C:\Users\user\brianco-backend-clean\pages\CurrentLumenSetup-theme-health-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\CurrentLumenSetup-theme-health-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\custom-work-nonrefundable-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\custom-work-nonrefundable-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\custom-work-production-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\custom-work-production-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\customer-intelligence\index.js:4: export default function CustomerIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\customer-intelligence-layer\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\customer-intelligence-layer\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\customer-lifecycle-intelligence-expansion\index.js:4: export default function Phase93(){
+C:\Users\user\brianco-backend-clean\pages\customer-portal-engine\index.js:4: export default function Phase101(){
+C:\Users\user\brianco-backend-clean\pages\deployment-playwright-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\deployment-playwright-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\digital-membership-growth-expansion\index.js:4: export default function Phase96(){
+C:\Users\user\brianco-backend-clean\pages\digital-product-growth-command\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\digital-product-growth-command\index.js:12: export default function Page({ data }) {
+C:\Users\user\brianco-backend-clean\pages\digital-product-intelligence-v2\index.js:4: export default function DigitalProductIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\dropship-supplier-intake\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\ecosystem-analytics-expansion\index.js:4: export default function EcosystemAnalyticsExpansion(){
+C:\Users\user\brianco-backend-clean\pages\ecosystem-continuity\index.js:4: export default function EcosystemContinuity(){
+C:\Users\user\brianco-backend-clean\pages\ecosystem-growth-coordination-expansion\index.js:4: export default function Phase88(){
+C:\Users\user\brianco-backend-clean\pages\ecosystem-insights\index.js:4: export default function EcosystemInsights(){
+C:\Users\user\brianco-backend-clean\pages\ecosystem-live-map\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\ecosystem-optimization\index.js:4: export default function EcosystemOptimization(){
+C:\Users\user\brianco-backend-clean\pages\ecosystem-orchestration\index.js:4: export default function EcosystemOrchestration(){
+C:\Users\user\brianco-backend-clean\pages\ecosystem-orchestration-command\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\ecosystem-orchestration-command\index.js:12: export default function Page({ data }) {
+C:\Users\user\brianco-backend-clean\pages\ecosystem-orchestration-expansion-v2\index.js:4: export default function EcosystemOrchestrationExpansionV2(){
+C:\Users\user\brianco-backend-clean\pages\ecosystem-performance-intelligence-expansion\index.js:4: export default function Phase90(){
+C:\Users\user\brianco-backend-clean\pages\entitlement-my-products-command\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\entitlement-my-products-command\index.js:12: export default function Page({ data }) {
+C:\Users\user\brianco-backend-clean\pages\entitlement-product-registry-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\entitlement-product-registry-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\event-festival-intelligence\index.js:4: export default function EventFestivalIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\event-festival-intelligence-v2\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\event-festival-intelligence-v2\index.js:12: export default function Page({ data }) {
+C:\Users\user\brianco-backend-clean\pages\event-intake\index.js:4: export default function EventIntake(){
+C:\Users\user\brianco-backend-clean\pages\event-vendor-artisan-creator-participation\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\event-vendor-artisan-creator-participation\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\executive-decision-intelligence\index.js:4: export default function ExecutiveDecisionIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\executive-intelligence-expansion\index.js:4: export default function ExecutiveIntelligenceExpansion(){
+C:\Users\user\brianco-backend-clean\pages\experience-intelligence\index.js:4: export default function ExperienceIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\fort-knox-vault-continuity\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\fort-knox-vault-continuity\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\founder-approval-compliance\index.js:4: export default function FounderApprovalCompliance(){
+C:\Users\user\brianco-backend-clean\pages\founder-command-center\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\founder-command-center\index.js:15: export default function FounderCommandCenter({ data }) {
+C:\Users\user\brianco-backend-clean\pages\founder-command-center-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\founder-command-center-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\founder-command-intelligence\index.js:4: export default function FounderCommandIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\founder-ecosystem-intelligence-expansion\index.js:4: export default function FounderEcosystemIntelligenceExpansion(){
+C:\Users\user\brianco-backend-clean\pages\founder-intelligence-network-expansion\index.js:4: export default function FounderIntelligenceNetworkExpansion(){
+C:\Users\user\brianco-backend-clean\pages\founder-knowledge\index.js:4: export default function FounderKnowledge(){
+C:\Users\user\brianco-backend-clean\pages\founder-operations-command-expansion\index.js:4: export default function FounderOperationsCommandExpansion(){
+C:\Users\user\brianco-backend-clean\pages\founder-operations-intelligence\index.js:4: export default function FounderOperations(){
+C:\Users\user\brianco-backend-clean\pages\founder-opportunity-intelligence-expansion\index.js:4: export default function Phase87(){
+C:\Users\user\brianco-backend-clean\pages\founder-reports-audit-command\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\founder-reports-audit-command\index.js:12: export default function Page({ data }) {
+C:\Users\user\brianco-backend-clean\pages\founder-revenue-command-expansion\index.js:4: export default function Phase89(){
+C:\Users\user\brianco-backend-clean\pages\founder-strategic-command-expansion\index.js:4: export default function FounderStrategicCommandExpansion(){
+C:\Users\user\brianco-backend-clean\pages\free-os-foundation-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\free-os-foundation-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\full-project-audit\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\future-expansion\index.js:12: export default function FutureExpansion() {
+C:\Users\user\brianco-backend-clean\pages\future-os-device-ecosystem-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\future-os-device-ecosystem-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\future-products\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\growth-expansion\index.js:4: export default function GrowthExpansion(){
+C:\Users\user\brianco-backend-clean\pages\health-caregiver-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\health-caregiver-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\identity-continuity-growth-expansion\index.js:4: export default function Phase98(){
+C:\Users\user\brianco-backend-clean\pages\image-background-intelligence\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\income-tier-command\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\income-tier-command\index.js:12: export default function Page({ data }) {
+C:\Users\user\brianco-backend-clean\pages\income-tier-intelligence\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\income-tier-sourcing\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\interaction-logging\index.js:4: export default function InteractionLogging(){
+C:\Users\user\brianco-backend-clean\pages\lawyer-review-routing-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\lawyer-review-routing-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\legal-approval-center\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\legal-approval-center\index.js:12: export default function Page({ data }) {
+C:\Users\user\brianco-backend-clean\pages\legal-command-center\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\legal-contract-policy-lifecycle-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\legal-contract-policy-lifecycle-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\legal-signature-approval-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\legal-signature-approval-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\local-events-festival-intelligence\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\local-events-festival-intelligence\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\local-intelligence\index.js:4: export default function LocalIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\localization-cultural-expansion\index.js:4: export default function LocalizationCulturalExpansion(){
+C:\Users\user\brianco-backend-clean\pages\localization-intelligence\index.js:4: export default function LocalizationIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\localization-intelligence-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\localization-intelligence-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\luxury-brand-outreach\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\luxury-brand-outreach-center\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\luxury-brand-outreach-center\index.js:12: export default function Page({ data }) {
+C:\Users\user\brianco-backend-clean\pages\luxury-concierge-marketplace\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\luxury-resale-intelligence\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\market-intelligence\index.js:4: export default function MarketIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\master-protection\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\meeting-transcript-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\meeting-transcript-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\meeting-transcript-video-command\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\meeting-transcript-video-command\index.js:12: export default function Page({ data }) {
+C:\Users\user\brianco-backend-clean\pages\membership-subscription-intelligence-v2\index.js:4: export default function MembershipSubscriptionIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\memory-continuity-intelligence\index.js:4: export default function MemoryContinuityIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\memory-continuity-learning-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\memory-continuity-learning-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\my-products\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\native-identity\index.js:26: export default function NativeIdentity() {
+C:\Users\user\brianco-backend-clean\pages\native-identity-experience-expansion\index.js:4: export default function NativeIdentityExperienceExpansion(){
+C:\Users\user\brianco-backend-clean\pages\native-language-experience\index.js:4: export default function NativeLanguageExperience(){
+C:\Users\user\brianco-backend-clean\pages\native-map\index.js:34: export default function NativeMap() {
+C:\Users\user\brianco-backend-clean\pages\opportunity-expansion\index.js:4: export default function OpportunityExpansion(){
+C:\Users\user\brianco-backend-clean\pages\opportunity-growth-expansion\index.js:4: export default function OpportunityGrowthExpansion(){
+C:\Users\user\brianco-backend-clean\pages\opportunity-intelligence\index.js:4: export default function OpportunityIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\orchestration-expansion\index.js:4: export default function OrchestrationExpansion(){
+C:\Users\user\brianco-backend-clean\pages\origin-policy-marketplace-layer\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\origin-policy-marketplace-layer\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\origin-provenance-intelligence\index.js:4: export default function OriginProvenanceIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\os-chatbot-continuity-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\os-chatbot-continuity-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\os-shared-intelligence-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\os-shared-intelligence-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\personalization-intelligence\index.js:4: export default function PersonalizationIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\personalized\index.js:6: export default function PersonalizedExperience(){
+C:\Users\user\brianco-backend-clean\pages\phase-001-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-002-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-003-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-004-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-005-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-006-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-007-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-008-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-009-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-010-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-011-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-012-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-013-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-014-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-015-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-016-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-017-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-018-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-019-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-020-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-021-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-022-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-023-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-024-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-025-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-026-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-027-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-028-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-029-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-030-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-031-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-032-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-033-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-034-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-035-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-036-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-037-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-038-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-039-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-040-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-041-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-042-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-043-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-044-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-045-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-046-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-047-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-048-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-049-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-050-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-051-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-052-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-053-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-054-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-055-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-056-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-057-dynamic-protection-registry\index.js:3: export default function Phase57(){
+C:\Users\user\brianco-backend-clean\pages\phase-058-dynamic-protection-registry\index.js:3: export default function Phase58(){
+C:\Users\user\brianco-backend-clean\pages\phase-059-dynamic-protection-registry\index.js:3: export default function Phase59(){
+C:\Users\user\brianco-backend-clean\pages\phase-060-dynamic-protection-registry\index.js:3: export default function Phase60(){
+C:\Users\user\brianco-backend-clean\pages\phase-061-dynamic-protection-registry\index.js:3: export default function Phase61(){
+C:\Users\user\brianco-backend-clean\pages\phase-062-dynamic-protection-registry\index.js:3: export default function Phase62(){
+C:\Users\user\brianco-backend-clean\pages\phase-063-dynamic-protection-registry\index.js:3: export default function Phase63(){
+C:\Users\user\brianco-backend-clean\pages\phase-064-dynamic-protection-registry\index.js:3: export default function Phase64(){
+C:\Users\user\brianco-backend-clean\pages\phase-065-dynamic-protection-registry\index.js:3: export default function Phase65(){
+C:\Users\user\brianco-backend-clean\pages\phase-066-dynamic-protection-registry\index.js:3: export default function Phase66(){
+C:\Users\user\brianco-backend-clean\pages\phase-067-dynamic-protection-registry\index.js:3: export default function Phase67(){
+C:\Users\user\brianco-backend-clean\pages\phase-068-dynamic-protection-registry\index.js:3: export default function Phase68(){
+C:\Users\user\brianco-backend-clean\pages\phase-069-dynamic-protection-registry\index.js:3: export default function Phase69(){
+C:\Users\user\brianco-backend-clean\pages\phase-070-dynamic-protection-registry\index.js:3: export default function Phase70(){
+C:\Users\user\brianco-backend-clean\pages\phase-071-dynamic-protection-registry\index.js:3: export default function Phase71(){
+C:\Users\user\brianco-backend-clean\pages\phase-072-dynamic-protection-registry\index.js:3: export default function Phase72(){
+C:\Users\user\brianco-backend-clean\pages\phase-073-dynamic-protection-registry\index.js:3: export default function Phase73(){
+C:\Users\user\brianco-backend-clean\pages\phase-074-dynamic-protection-registry\index.js:3: export default function Phase74(){
+C:\Users\user\brianco-backend-clean\pages\phase-075-dynamic-protection-registry\index.js:3: export default function Phase75(){
+C:\Users\user\brianco-backend-clean\pages\phase-076-dynamic-protection-registry\index.js:3: export default function Phase76(){
+C:\Users\user\brianco-backend-clean\pages\phase-077-dynamic-protection-registry\index.js:3: export default function Phase77(){
+C:\Users\user\brianco-backend-clean\pages\phase-078-dynamic-protection-registry\index.js:3: export default function Phase78(){
+C:\Users\user\brianco-backend-clean\pages\phase-079-dynamic-protection-registry\index.js:3: export default function Phase79(){
+C:\Users\user\brianco-backend-clean\pages\phase-080-dynamic-protection-registry\index.js:3: export default function Phase80(){
+C:\Users\user\brianco-backend-clean\pages\phase-081-dynamic-protection-registry\index.js:3: export default function Phase81(){
+C:\Users\user\brianco-backend-clean\pages\phase-082-dynamic-protection-registry\index.js:3: export default function Phase82(){
+C:\Users\user\brianco-backend-clean\pages\phase-083-dynamic-protection-registry\index.js:3: export default function Phase83(){
+C:\Users\user\brianco-backend-clean\pages\phase-084-dynamic-protection-registry\index.js:3: export default function Phase84(){
+C:\Users\user\brianco-backend-clean\pages\phase-085-dynamic-protection-registry\index.js:3: export default function Phase85(){
+C:\Users\user\brianco-backend-clean\pages\phase-086-dynamic-protection-registry\index.js:3: export default function Phase86(){
+C:\Users\user\brianco-backend-clean\pages\phase-087-dynamic-protection-registry\index.js:3: export default function Phase87(){
+C:\Users\user\brianco-backend-clean\pages\phase-088-dynamic-protection-registry\index.js:3: export default function Phase88(){
+C:\Users\user\brianco-backend-clean\pages\phase-089-dynamic-protection-registry\index.js:3: export default function Phase89(){
+C:\Users\user\brianco-backend-clean\pages\phase-090-dynamic-protection-registry\index.js:3: export default function Phase90(){
+C:\Users\user\brianco-backend-clean\pages\phase-091-dynamic-protection-registry\index.js:3: export default function Phase91(){
+C:\Users\user\brianco-backend-clean\pages\phase-092-dynamic-protection-registry\index.js:3: export default function Phase92(){
+C:\Users\user\brianco-backend-clean\pages\phase-093-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-094-dynamic-protection-registry\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\phase-095-dynamic-protection-registry\index.js:3: export default function Phase95(){
+C:\Users\user\brianco-backend-clean\pages\phase-096-dynamic-protection-registry\index.js:3: export default function Phase96(){
+C:\Users\user\brianco-backend-clean\pages\phase-097-dynamic-protection-registry\index.js:3: export default function Phase97(){
+C:\Users\user\brianco-backend-clean\pages\phase-098-dynamic-protection-registry\index.js:3: export default function Phase98(){
+C:\Users\user\brianco-backend-clean\pages\phase-099-dynamic-protection-registry\index.js:3: export default function Phase99(){
+C:\Users\user\brianco-backend-clean\pages\phase-100-dynamic-protection-registry\index.js:3: export default function Phase100(){
+C:\Users\user\brianco-backend-clean\pages\political-civic-campaign-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\political-civic-campaign-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\private-email-intelligence\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\product-image-tone-command\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\product-image-tone-command\index.js:12: export default function Page({ data }) {
+C:\Users\user\brianco-backend-clean\pages\product-image-tone-intelligence\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\product-visibility-layer\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\product-visibility-layer\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\production-fulfillment-intelligence\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\production-fulfillment-intelligence\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\production-stability\index.js:4: export default function ProductionStability(){
+C:\Users\user\brianco-backend-clean\pages\protected-governance\index.js:4: export default function ProtectedGovernance(){
+C:\Users\user\brianco-backend-clean\pages\provider-lifecycle-intelligence\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\provider-lifecycle-intelligence\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\provider-marketplace-expansion\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\provider-marketplace-expansion\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\provider-onboarding-portfolio-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\provider-onboarding-portfolio-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\provider-partner-intelligence\index.js:4: export default function ProviderPartnerIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\provider-policy-tone-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\provider-policy-tone-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\provider-readiness\index.js:3: export default function ProviderReadiness(){
+C:\Users\user\brianco-backend-clean\pages\recommendation-intelligence\index.js:4: export default function RecommendationIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\revenue-intelligence\index.js:4: export default function RevenueIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\revenue-optimization-expansion\index.js:4: export default function RevenueOptimizationExpansion(){
+C:\Users\user\brianco-backend-clean\pages\revenue-recommendation-command\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\revenue-recommendation-command\index.js:12: export default function Page({ data }) {
+C:\Users\user\brianco-backend-clean\pages\role\accountant\index.js:5: export default function RoleDashboard() {
+C:\Users\user\brianco-backend-clean\pages\role\admin\index.js:5: export default function RoleDashboard() {
+C:\Users\user\brianco-backend-clean\pages\role\artisan\index.js:5: export default function RoleDashboard() {
+C:\Users\user\brianco-backend-clean\pages\role\banker\index.js:5: export default function RoleDashboard() {
+C:\Users\user\brianco-backend-clean\pages\role\creator\index.js:5: export default function RoleDashboard() {
+C:\Users\user\brianco-backend-clean\pages\role\customer\index.js:5: export default function RoleDashboard() {
+C:\Users\user\brianco-backend-clean\pages\role\family\index.js:5: export default function RoleDashboard() {
+C:\Users\user\brianco-backend-clean\pages\role\influencer\index.js:5: export default function RoleDashboard() {
+C:\Users\user\brianco-backend-clean\pages\role\investor\index.js:5: export default function RoleDashboard() {
+C:\Users\user\brianco-backend-clean\pages\role\lawyer\index.js:5: export default function RoleDashboard() {
+C:\Users\user\brianco-backend-clean\pages\role\supplier\index.js:5: export default function RoleDashboard() {
+C:\Users\user\brianco-backend-clean\pages\role-center\index.js:6: export default function RoleCenter() {
+C:\Users\user\brianco-backend-clean\pages\role-expansion-intelligence\index.js:4: export default function RoleExpansionIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\role-growth-intelligence-expansion\index.js:4: export default function Phase91(){
+C:\Users\user\brianco-backend-clean\pages\role-orchestration\index.js:4: export default function RoleOrchestration(){
+C:\Users\user\brianco-backend-clean\pages\role-portal-engine\index.js:4: export default function Phase102(){
+C:\Users\user\brianco-backend-clean\pages\role-portal-expansion\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\role-portal-expansion\index.js:15: export default function RolePortalExpansion({ data }) {
+C:\Users\user\brianco-backend-clean\pages\role-portal-network-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\role-portal-network-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\shared-website-chatbot-os-intelligence\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\shared-website-chatbot-os-intelligence\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\signin\index.js:3: export default function SignInHub() {
+C:\Users\user\brianco-backend-clean\pages\strategic-automation-intelligence-expansion\index.js:4: export default function StrategicAutomationIntelligenceExpansion(){
+C:\Users\user\brianco-backend-clean\pages\strategic-planning\index.js:4: export default function StrategicPlanning(){
+C:\Users\user\brianco-backend-clean\pages\strategic-planning-expansion\index.js:4: export default function StrategicPlanningExpansion(){
+C:\Users\user\brianco-backend-clean\pages\supplier-artisan-commerce-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\supplier-artisan-commerce-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\supplier-artisan-growth-expansion\index.js:4: export default function Phase94(){
+C:\Users\user\brianco-backend-clean\pages\supplier-recruitment-center\index.js:4: export async function getStaticProps() {
+C:\Users\user\brianco-backend-clean\pages\supplier-recruitment-center\index.js:12: export default function Page({ data }) {
+C:\Users\user\brianco-backend-clean\pages\supplier-recruitment-intelligence\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\text-concierge\index.js:4: export default function TextConciergePage() {
+C:\Users\user\brianco-backend-clean\pages\text-interaction\index.js:4: export default function TextInteractionLayer(){
+C:\Users\user\brianco-backend-clean\pages\theme-intelligence\index.js:4: export default function ThemeIntelligence(){
+C:\Users\user\brianco-backend-clean\pages\tracking-shipment-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\tracking-shipment-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\universal-customer-intelligence\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\video-media-brand-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\video-media-brand-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\website-chatbot-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\website-chatbot-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\website-os-continuity\index.tsx:1: export default function Page(){
+C:\Users\user\brianco-backend-clean\pages\white-glove-customer-journey\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\white-glove-customer-journey\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\white-glove-thank-you-master\index.js:4: export async function getStaticProps(){
+C:\Users\user\brianco-backend-clean\pages\white-glove-thank-you-master\index.js:11: export default function Page({data}){
+C:\Users\user\brianco-backend-clean\pages\writer-publishing-expansion\index.js:4: export default function WriterPublishingExpansion(){
+C:\Users\user\brianco-backend-clean\pages\account-access.js:3: export default function AccountAccess() {
+C:\Users\user\brianco-backend-clean\pages\digital-product-request.js:3: export default function DigitalProductRequest() {
+C:\Users\user\brianco-backend-clean\pages\digital-workspace.js:3: export default function DigitalWorkspace() {
+C:\Users\user\brianco-backend-clean\pages\founder-approvals.js:3: export default function FounderApprovals() {
+C:\Users\user\brianco-backend-clean\pages\founder-continuity-vault.js:6: export default function FounderContinuityVault(){
+C:\Users\user\brianco-backend-clean\pages\founder-login.js:3: export default function FounderLogin() {
+C:\Users\user\brianco-backend-clean\pages\founder-login.js:10: const response = await fetch(`/api/founder-gate?email=${encodeURIComponent(email)}`);
+C:\Users\user\brianco-backend-clean\pages\founder-login.js:11: const data = await response.json();
+C:\Users\user\brianco-backend-clean\pages\free-access-request.js:3: export default function FreeAccessRequest() {
+C:\Users\user\brianco-backend-clean\pages\free-access-request.js:15: const response = await fetch("/api/approvals", {
+C:\Users\user\brianco-backend-clean\pages\free-access-request.js:23: setResult(await response.json());
+C:\Users\user\brianco-backend-clean\pages\index.js:1: export default function Home() {
+C:\Users\user\brianco-backend-clean\pages\role-portal.js:3: export default function RolePortal() {
+C:\Users\user\brianco-backend-clean\pages\role-request.js:3: export default function RoleRequest() {
+C:\Users\user\brianco-backend-clean\pages\stewardship-intelligence.js:4: export default function StewardshipIntelligence() {
+C:\Users\user\brianco-backend-clean\app\admin\upload-reviews\page.jsx:1: export default function UploadReviewDashboard(){
+C:\Users\user\brianco-backend-clean\app\careers\page.jsx:1: export default function Careers(){
+C:\Users\user\brianco-backend-clean\app\os\page.tsx:5: export default function BrianCoOSPage() {
+C:\Users\user\brianco-backend-clean\app\subscriptions\page.jsx:1: export default function Subscriptions(){
+C:\Users\user\brianco-backend-clean\app\suppliers\page.jsx:1: export default function Suppliers(){
+C:\Users\user\brianco-backend-clean\app\upload\page.jsx:1: export default function UploadPage(){
+C:\Users\user\brianco-backend-clean\app\layout.jsx:6: export default function RootLayout({ children }) {
+
+===== BUILT OUTPUT HANDLER REFERENCES =====

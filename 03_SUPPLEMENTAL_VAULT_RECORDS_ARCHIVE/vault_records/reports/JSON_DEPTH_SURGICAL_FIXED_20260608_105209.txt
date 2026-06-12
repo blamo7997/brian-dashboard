@@ -1,0 +1,35 @@
+JSON SURGICAL FIXED DIAGNOSTIC
+Generated: 2026-06-08T10:52:09.9630467-06:00
+
+FILE: .\vault\module-registry.json
+Parse: PASS
+TopType: System.Object[]
+Count: 358
+
+FILE: .\vault\knowledge.json
+Parse: PASS
+TopType: System.Object[]
+Count: 3000
+
+FILE: .\vault\knowledge-graph.json
+Parse: PASS
+TopType: System.Object[]
+Count: 98
+
+FILE: .\vault\learning-history.json
+Parse: PASS
+TopType: System.Management.Automation.PSCustomObject
+Count: 1
+
+FILE: .\vault\entities.json
+Parse: PASS
+TopType: Empty JSON Array
+Count: 0
+
+FILE: .\vault\relationships.json
+Parse: PASS
+TopType: Empty JSON Array
+Count: 0
+
+SERIALIZATION TEST:
+module-registry depth 20 = PASS

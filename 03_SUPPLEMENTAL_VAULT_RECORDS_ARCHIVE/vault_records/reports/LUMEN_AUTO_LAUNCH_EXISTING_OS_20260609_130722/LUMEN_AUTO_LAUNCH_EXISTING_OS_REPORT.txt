@@ -1,0 +1,42 @@
+LUMEN AUTO-LAUNCH EXISTING OS REPORT
+
+Generated: 2026-06-09T13:07:58.9928175-06:00
+
+Added:
+- Auto-Launch Standard
+- Windows 11 Existing OS Mode
+- Startup Session Engine
+- API: /api/lumen/startup
+- Updated Start-Lumen.ps1
+- Updated Desktop CMD launcher
+- Updated EXE launcher source
+- Recompiled EXE if compiler exists
+
+Behavior:
+- Click Lumen OS.exe or Lumen OS.cmd.
+- Lumen creates/loads workspace.
+- Lumen creates rollback/snapshot when scripts exist.
+- Lumen checks updates.
+- Lumen installs dependencies.
+- Lumen builds.
+- Lumen starts server.
+- Lumen opens /lumen/control automatically.
+
+Important:
+This runs over existing Windows 11.
+It does not overwrite Windows.
+It does not replace Windows boot files.
+It does not modify system partitions.
+
+Desktop:
+C:\Users\user\Desktop\Lumen OS.cmd
+C:\Users\user\Desktop\Lumen OS.exe if compile succeeded
+
+Build Passed Marker:
+False
+
+Backup:
+.\backups\LUMEN_AUTO_LAUNCH_EXISTING_OS_20260609_130722
+
+Output:
+.\reports\LUMEN_AUTO_LAUNCH_EXISTING_OS_20260609_130722

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-06-11T19:37:12.2613531-06:00",
+  "targetStandard": "5000x-above-100-baseline",
+  "intelligenceTypes": [
+    "review",
+    "fake-review-signal",
+    "wanted-feature",
+    "missing-feature",
+    "competitor-option",
+    "user-request",
+    "accessibility-request",
+    "localization-request",
+    "workspace-request",
+    "website-request",
+    "ai-tool-finding",
+    "playwright-test-result"
+  ],
+  "promotionRules": [
+    "store-source-lineage",
+    "filter-low-trust-claims",
+    "avoid-duplicates",
+    "preserve-originals",
+    "add-only-necessary-options",
+    "customize-per-user-when-authorized",
+    "validate-before-promotion",
+    "write-proof"
+  ]
+}

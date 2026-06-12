@@ -1,0 +1,872 @@
+LUMEN SURGICAL REPAIR REPORT
+Generated: 2026-06-08T11:07:59.1114069-06:00
+Backup: .\backups\LUMEN_SURGICAL_REPAIR_20260608_110756
+
+VAULT JSON REPAIR
+.\vault\entities.json = OK_EMPTY_ARRAY
+.\vault\relationships.json = OK_EMPTY_ARRAY
+.\vault\knowledge-graph.json = OK
+.\vault\learning-history.json = OK
+
+REGISTRY REPAIR
+Before Count: 358
+After Dedup Count: 358
+Duplicates Removed: 0
+Missing Dependencies: 82
+Missing dependency report: .\reports\LUMEN_MISSING_DEPENDENCIES_20260608_110756.json
+
+PARSE VALIDATION
+.\vault\module-registry.json = PASS
+.\vault\knowledge.json = PASS
+.\vault\knowledge-graph.json = PASS
+.\vault\entities.json = PASS
+.\vault\relationships.json = PASS
+.\vault\learning-history.json = PASS
+.\src\lumen.mjs = FAIL | Conversion from JSON failed with error: Unexpected character encountered while parsing value: i. Path '', line 0, position 0.
+
+COMMAND VALIDATION
+Registry Command = PASS
+Modules: 358
+- accessibility.universal_accessibility | installed | critical
+- ai.agent_orchestration | installed | high
+- ai.autonomous_documentation | installed | high
+- ai.autonomous_learning | installed | high
+- ai.autonomous_monitoring | installed | high
+- ai.autonomous_optimization | installed | high
+- ai.autonomous_recommendations | installed | high
+- ai.autonomous_reporting | installed | high
+- ai.autonomous_research | installed | high
+- ai.autonomous_scheduling | installed | high
+- ai.multi_agent_collaboration | installed | high
+- ai.tool_discovery | installed | high
+- ai.workflow_automation | installed | high
+- business.accounting | installed | high
+- business.accounting_tax | installed | medium
+- business.analytics | installed | high
+- business.artisan_portal | installed | high
+- business.brianco | installed | critical
+- business.commerce | installed | high
+- business.compliance | installed | high
+- business.contracts | installed | high
+- business.creator_intelligence | installed | high
+- business.creator_portal | installed | high
+- business.crm | installed | high
+- business.customer_intelligence | installed | high
+- business.customer_portal | installed | high
+- business.finance | installed | high
+- business.fulfillment | installed | high
+- business.inventory_forecasting | installed | high
+- business.investor_portal | installed | high
+- business.legal_review | installed | high
+- business.marketing | installed | high
+- business.procurement | installed | high
+- business.product_intelligence | installed | high
+- business.sales | installed | high
+- business.shipping | installed | high
+- business.supplier_intelligence | installed | high
+- business.supplier_portal | installed | high
+- commerce.customs_intelligence | installed | high
+- commerce.fleet_intelligence | installed | high
+- commerce.international_trade_intelligence | installed | high
+- commerce.logistics_intelligence | installed | high
+- commerce.manufacturer_discovery | installed | high
+- commerce.procurement_intelligence | installed | high
+- commerce.product_lifecycle_management | installed | high
+- commerce.product_research | installed | high
+- commerce.quality_assurance | installed | high
+- commerce.supplier_discovery | installed | high
+- commerce.vendor_intelligence | installed | high
+- commerce.warehouse_intelligence | installed | high
+- communication.accessible_emoji_descriptions | installed | high
+- communication.emoji_language | installed | high
+- communication.emoji_translation | installed | high
+- communication.gif_messaging | installed | high
+- communication.meme_messaging | installed | high
+- communication.reaction_packs | installed | high
+- communication.sticker_messaging | installed | high
+- communication.visual_reactions | installed | high
+- core.approval_gates | installed | critical
+- core.module_registry | installed | critical
+- core.orchestrator | installed | critical
+- core.reports | installed | high
+- core.rollback | installed | critical
+- core.trust_ledger | installed | critical
+- core.vault | installed | critical
+- development.api_intelligence | installed | high
+- development.cloudflare_awareness | installed | high
+- development.code_intelligence | installed | high
+- development.pipeline_intelligence | installed | high
+- development.supabase_awareness | installed | high
+- development.testing_playwright | installed | high
+- device.3d_scanners | installed | high
+- device.cad_cam | installed | high
+- device.ecg | installed | high
+- device.eeg | installed | high
+- device.emg | installed | high
+- device.eye_tracking | installed | high
+- device.imaging_systems | installed | high
+- device.industrial_iot | installed | high
+- device.particle_instruments | installed | high
+- device.sequencing | installed | high
+- device.thermal_imaging | installed | high
+- device.aerospace_test_equipment | installed | high
+- device.agriculture_research | installed | high
+- device.cameras | installed | high
+- device.chemistry_instruments | installed | high
+- device.chromatographs | installed | high
+- device.driver_awareness | installed | high
+- device.drones | installed | high
+- device.environmental_sensors | installed | high
+- device.firmware_awareness | installed | medium
+- device.genomics | installed | high
+- device.geology_mining | installed | high
+- device.hardware_awareness | installed | high
+- device.lidar | installed | high
+- device.manufacturing_metrology | installed | high
+- device.medical_devices | installed | high
+- device.microscopes | installed | high
+- device.motion_capture | installed | high
+- device.nanorobotics | installed | high
+- device.nanotechnology | installed | high
+- device.oceanographic | installed | high
+- device.physics_instruments | installed | high
+- device.radar | installed | high
+- device.robotics | installed | high
+- device.scientific_instruments | installed | high
+- device.sonar | installed | high
+- device.spectrometers | installed | high
+- device.telescopes | installed | high
+- device.test_equipment | installed | high
+- device.vr_ar | installed | high
+- digital_twin.buildings | installed | high
+- digital_twin.businesses | installed | high
+- digital_twin.cities | installed | high
+- digital_twin.factories | installed | high
+- digital_twin.farms | installed | high
+- digital_twin.fleets | installed | high
+- digital_twin.hospitals | installed | high
+- digital_twin.laboratories | installed | high
+- digital_twin.organizations | installed | high
+- digital_twin.people | installed | high
+- digital_twin.products | installed | high
+- digital_twin.research_programs | installed | high
+- digital_twin.satellites | installed | high
+- digital_twin.supply_chains | installed | high
+- digital_twin.vehicles | installed | high
+- digital_twin.warehouses | installed | high
+- education.adaptive_learning_ai | installed | high
+- education.competency_tracking | installed | high
+- education.continuing_education | installed | high
+- education.corporate_training | installed | high
+- education.course_authoring | installed | high
+- education.higher_education | installed | high
+- education.k12_learning | installed | high
+- education.learning_paths | installed | high
+- education.mentor_marketplace | installed | high
+- education.professional_certifications | installed | high
+- education.research_libraries | installed | high
+- education.simulation_learning | installed | high
+- education.skill_mapping | installed | high
+- education.trade_schools | installed | high
+- education.tutor_marketplace | installed | high
+- education.vr_learning | installed | high
+- experience.accessibility | installed | high
+- experience.captioning | installed | high
+- experience.command_center | installed | high
+- experience.concierge | installed | high
+- experience.dashboard_designer | installed | high
+- experience.founder_command_center | installed | critical
+- experience.guided_experience | installed | critical
+- experience.livestreaming | installed | high
+- experience.localization | installed | high
+- experience.transcription | installed | high
+- experience.translation | installed | high
+- experience.tutorial_builder | installed | high
+- experience.voice_assistant | installed | high
+- experience.voice_manager | installed | high
+- experience.website_designer | installed | high
+- future.3d_images | installed | medium
+- future.ar_vr | installed | medium
+- future.autonomous_systems | installed | high
+- future.browser_layer | installed | high
+- future.digital_twins | installed | high
+- future.emoji_language | installed | medium
+- future.nanorobotics | installed | medium
+- future.nanotechnology | installed | medium
+- future.quantum_computing | installed | high
+- future.synthetic_biology | installed | high
+- healthcare.appointment_intelligence | installed | high
+- healthcare.care_coordination | installed | high
+- healthcare.claims_assistance | installed | high
+- healthcare.clinical_trial_portal | installed | high
+- healthcare.health_education | installed | high
+- healthcare.insurance_intelligence | installed | high
+- healthcare.lab_results | installed | high
+- healthcare.medical_device_portal | installed | high
+- healthcare.medical_imaging | installed | high
+- healthcare.medication_tracking | installed | high
+- healthcare.patient_portal | installed | high
+- healthcare.preventive_care_intelligence | installed | high
+- healthcare.provider_portal | installed | high
+- healthcare.research_portal | installed | high
+- healthcare.telehealth | installed | high
+- human.benefits_assistance | installed | high
+- human.caregiver_intelligence | installed | high
+- human.child_development_intelligence | installed | high
+- human.crisis_assistance | installed | high
+- human.elder_care_intelligence | installed | high
+- human.emergency_planning | installed | high
+- human.family_management | installed | high
+- human.food_nutrition_intelligence | installed | high
+- human.goal_tracking | installed | high
+- human.government_program_discovery | installed | high
+- human.habit_systems | installed | high
+- human.housing_intelligence | installed | high
+- human.life_event_intelligence | installed | high
+- human.personal_life_management | installed | high
+- human.preparedness_planning | installed | high
+- human.transportation_intelligence | installed | high
+- human.wellness_planning | installed | high
+- image_editor.advanced_editing | installed | high
+- image_editor.ai_editing | installed | high
+- image_editor.authenticity_labels | installed | high
+- image_editor.background_removal | installed | high
+- image_editor.background_replacement | installed | high
+- image_editor.basic_editing | installed | high
+- image_editor.batch_processing | installed | high
+- image_editor.brand_templates | installed | high
+- image_editor.crop_resize | installed | high
+- image_editor.fake_edit_detection | installed | high
+- image_editor.filters_effects | installed | high
+- image_editor.format_conversion | installed | high
+- image_editor.generative_fill | installed | high
+- image_editor.image_to_image | installed | high
+- image_editor.layers | installed | high
+- image_editor.masks | installed | high
+- image_editor.meme_templates | installed | high
+- image_editor.metadata_review | installed | high
+- image_editor.object_removal | installed | high
+- image_editor.retouching | installed | high
+- image_editor.social_templates | installed | high
+- image_editor.sticker_templates | installed | high
+- image_editor.text_to_image | installed | high
+- image_editor.watermarking | installed | high
+- industry.construction | installed | medium
+- industry.education | installed | medium
+- industry.energy | installed | medium
+- industry.engineering | installed | high
+- industry.environmental | installed | medium
+- industry.faith_religious | installed | medium
+- industry.finance | installed | medium
+- industry.government | installed | medium
+- industry.hospitality | installed | medium
+- industry.legal | installed | medium
+- industry.manufacturing | installed | medium
+- industry.nonprofit_community | installed | medium
+- industry.public_safety | installed | medium
+- industry.research | installed | high
+- industry.retail | installed | medium
+- industry.software_technology | installed | high
+- industry.space | installed | medium
+- industry.transportation | installed | medium
+- industry.universal_professions | installed | high
+- intelligence.calibration_engine | installed | critical
+- intelligence.compatibility_engine | installed | critical
+- intelligence.cross_vetted_abstracts | installed | high
+- intelligence.decision_engine | installed | high
+- intelligence.documentation_engine | installed | critical
+- intelligence.file_format_engine | installed | high
+- intelligence.forecasting_engine | installed | high
+- intelligence.inventory_engine | installed | critical
+- intelligence.knowledge_graph | installed | critical
+- intelligence.learning_engine | installed | critical
+- intelligence.maintenance_engine | installed | critical
+- intelligence.orchestration_engine | installed | high
+- intelligence.reasoning_engine | installed | high
+- intelligence.recommendation_engine | installed | high
+- intelligence.report_engine | installed | high
+- intelligence.research | installed | high
+- intelligence.research_engine | installed | high
+- intelligence.risk_engine | installed | high
+- intelligence.simulation_engine | installed | high
+- intelligence.universal_search | installed | critical
+- intelligence.update_engine | installed | critical
+- intelligence.vetted_sources | installed | high
+- intelligence.workflow_engine | installed | high
+- localization.global_holidays | installed | medium
+- localization.language_dialect | installed | critical
+- media.ai_production_studio | installed | high
+- media.caption_studio | installed | high
+- media.content_intelligence | installed | high
+- media.creator_marketplace | installed | high
+- media.gif_generator | installed | high
+- media.image_accessibility_alt_text | installed | high
+- media.image_context_reader | installed | high
+- media.image_safety_review | installed | high
+- media.licensing_marketplace | installed | high
+- media.meme_generator | installed | high
+- media.meme_reader | installed | high
+- media.music_platform | installed | high
+- media.news_intelligence | installed | high
+- media.podcast_platform | installed | high
+- media.publishing_platform | installed | high
+- media.sponsor_marketplace | installed | high
+- media.sticker_generator | installed | high
+- media.translation_studio | installed | high
+- media.video_platform | installed | high
+- media.visual_captioning | installed | high
+- media.voice_studio | installed | high
+- public.civic_intelligence | installed | high
+- public.community_resources | installed | high
+- public.disaster_response | installed | high
+- public.elections_intelligence | installed | high
+- public.emergency_management | installed | high
+- public.government_services | installed | high
+- public.grant_programs | installed | high
+- public.licensing_intelligence | installed | high
+- public.municipal_services | installed | high
+- public.permit_intelligence | installed | high
+- public.public_safety | installed | high
+- public.regulatory_tracking | installed | high
+- research.agricultural_science | installed | high
+- research.astronomy | installed | high
+- research.astrophysics | installed | high
+- research.biology | installed | high
+- research.biomedical_research | installed | high
+- research.biotechnology | installed | high
+- research.climate_science | installed | high
+- research.clinical_research | installed | high
+- research.energy_systems | installed | high
+- research.environmental_science | installed | high
+- research.fusion_research | installed | high
+- research.genetic_engineering | installed | high
+- research.materials_science | installed | high
+- research.neuroscience | installed | high
+- research.nuclear_research | installed | high
+- research.ocean_science | installed | high
+- research.particle_physics | installed | high
+- research.pharmaceutical_research | installed | high
+- research.psychology | installed | high
+- research.semiconductor_research | installed | high
+- research.space_research | installed | high
+- security.audit_intelligence | installed | high
+- security.authentication_intelligence | installed | high
+- security.authorization_intelligence | installed | high
+- security.compliance_intelligence | installed | high
+- security.data_governance | installed | high
+- security.digital_forensics | installed | high
+- security.identity_intelligence | installed | high
+- security.incident_response | installed | high
+- security.privacy_management | installed | high
+- security.threat_intelligence | installed | high
+- security.trust_ledger_expansion | installed | high
+- security.vulnerability_intelligence | installed | high
+- space.aerospace_test_labs | installed | high
+- space.aviation_systems | installed | high
+- space.flight_data_intelligence | installed | high
+- space.ground_stations | installed | high
+- space.launch_tracking | installed | high
+- space.mission_planning | installed | high
+- space.orbital_analysis | installed | high
+- space.rover_systems | installed | high
+- space.satellite_intelligence | installed | high
+- space.spacecraft_systems | installed | high
+- space.uas_uav_systems | installed | high
+- trust.fake_review_filter | installed | high
+- trust.feature_gap_analysis | installed | high
+- trust.user_complaint_analysis | installed | high
+- trust.vetted_feature_reviews | installed | high
+- visual_studio.affinity_like_pro_editing | installed | high
+- visual_studio.canva_like_design | installed | high
+- visual_studio.capcut_like_media_handoff | installed | high
+- visual_studio.figma_like_collaboration | installed | high
+- visual_studio.gimp_like_open_tools | installed | high
+- visual_studio.lightroom_like_adjustments | installed | high
+- visual_studio.photoshop_like_precision | installed | high
+- visual_studio.picsart_like_social_editing | installed | high
+- visual_studio.snapseed_like_mobile_editing | installed | high
+
+Founder Command = PASS
+
+=== LUMEN FOUNDER COMMAND CENTER ===
+
+Modules: 358
+Installed: 358
+Knowledge Assets: 3000
+Relationships: 98
+
+Installed Modules
+-----------------
+accessibility.universal_accessibility
+ai.agent_orchestration
+ai.autonomous_documentation
+ai.autonomous_learning
+ai.autonomous_monitoring
+ai.autonomous_optimization
+ai.autonomous_recommendations
+ai.autonomous_reporting
+ai.autonomous_research
+ai.autonomous_scheduling
+ai.multi_agent_collaboration
+ai.tool_discovery
+ai.workflow_automation
+business.accounting
+business.accounting_tax
+business.analytics
+business.artisan_portal
+business.brianco
+business.commerce
+business.compliance
+business.contracts
+business.creator_intelligence
+business.creator_portal
+business.crm
+business.customer_intelligence
+business.customer_portal
+business.finance
+business.fulfillment
+business.inventory_forecasting
+business.investor_portal
+business.legal_review
+business.marketing
+business.procurement
+business.product_intelligence
+business.sales
+business.shipping
+business.supplier_intelligence
+business.supplier_portal
+commerce.customs_intelligence
+commerce.fleet_intelligence
+commerce.international_trade_intelligence
+commerce.logistics_intelligence
+commerce.manufacturer_discovery
+commerce.procurement_intelligence
+commerce.product_lifecycle_management
+commerce.product_research
+commerce.quality_assurance
+commerce.supplier_discovery
+commerce.vendor_intelligence
+commerce.warehouse_intelligence
+communication.accessible_emoji_descriptions
+communication.emoji_language
+communication.emoji_translation
+communication.gif_messaging
+communication.meme_messaging
+communication.reaction_packs
+communication.sticker_messaging
+communication.visual_reactions
+core.approval_gates
+core.module_registry
+core.orchestrator
+core.reports
+core.rollback
+core.trust_ledger
+core.vault
+development.api_intelligence
+development.cloudflare_awareness
+development.code_intelligence
+development.pipeline_intelligence
+development.supabase_awareness
+development.testing_playwright
+device.3d_scanners
+device.cad_cam
+device.ecg
+device.eeg
+device.emg
+device.eye_tracking
+device.imaging_systems
+device.industrial_iot
+device.particle_instruments
+device.sequencing
+device.thermal_imaging
+device.aerospace_test_equipment
+device.agriculture_research
+device.cameras
+device.chemistry_instruments
+device.chromatographs
+device.driver_awareness
+device.drones
+device.environmental_sensors
+device.firmware_awareness
+device.genomics
+device.geology_mining
+device.hardware_awareness
+device.lidar
+device.manufacturing_metrology
+device.medical_devices
+device.microscopes
+device.motion_capture
+device.nanorobotics
+device.nanotechnology
+device.oceanographic
+device.physics_instruments
+device.radar
+device.robotics
+device.scientific_instruments
+device.sonar
+device.spectrometers
+device.telescopes
+device.test_equipment
+device.vr_ar
+digital_twin.buildings
+digital_twin.businesses
+digital_twin.cities
+digital_twin.factories
+digital_twin.farms
+digital_twin.fleets
+digital_twin.hospitals
+digital_twin.laboratories
+digital_twin.organizations
+digital_twin.people
+digital_twin.products
+digital_twin.research_programs
+digital_twin.satellites
+digital_twin.supply_chains
+digital_twin.vehicles
+digital_twin.warehouses
+education.adaptive_learning_ai
+education.competency_tracking
+education.continuing_education
+education.corporate_training
+education.course_authoring
+education.higher_education
+education.k12_learning
+education.learning_paths
+education.mentor_marketplace
+education.professional_certifications
+education.research_libraries
+education.simulation_learning
+education.skill_mapping
+education.trade_schools
+education.tutor_marketplace
+education.vr_learning
+experience.accessibility
+experience.captioning
+experience.command_center
+experience.concierge
+experience.dashboard_designer
+experience.founder_command_center
+experience.guided_experience
+experience.livestreaming
+experience.localization
+experience.transcription
+experience.translation
+experience.tutorial_builder
+experience.voice_assistant
+experience.voice_manager
+experience.website_designer
+future.3d_images
+future.ar_vr
+future.autonomous_systems
+future.browser_layer
+future.digital_twins
+future.emoji_language
+future.nanorobotics
+future.nanotechnology
+future.quantum_computing
+future.synthetic_biology
+healthcare.appointment_intelligence
+healthcare.care_coordination
+healthcare.claims_assistance
+healthcare.clinical_trial_portal
+healthcare.health_education
+healthcare.insurance_intelligence
+healthcare.lab_results
+healthcare.medical_device_portal
+healthcare.medical_imaging
+healthcare.medication_tracking
+healthcare.patient_portal
+healthcare.preventive_care_intelligence
+healthcare.provider_portal
+healthcare.research_portal
+healthcare.telehealth
+human.benefits_assistance
+human.caregiver_intelligence
+human.child_development_intelligence
+human.crisis_assistance
+human.elder_care_intelligence
+human.emergency_planning
+human.family_management
+human.food_nutrition_intelligence
+human.goal_tracking
+human.government_program_discovery
+human.habit_systems
+human.housing_intelligence
+human.life_event_intelligence
+human.personal_life_management
+human.preparedness_planning
+human.transportation_intelligence
+human.wellness_planning
+image_editor.advanced_editing
+image_editor.ai_editing
+image_editor.authenticity_labels
+image_editor.background_removal
+image_editor.background_replacement
+image_editor.basic_editing
+image_editor.batch_processing
+image_editor.brand_templates
+image_editor.crop_resize
+image_editor.fake_edit_detection
+image_editor.filters_effects
+image_editor.format_conversion
+image_editor.generative_fill
+image_editor.image_to_image
+image_editor.layers
+image_editor.masks
+image_editor.meme_templates
+image_editor.metadata_review
+image_editor.object_removal
+image_editor.retouching
+image_editor.social_templates
+image_editor.sticker_templates
+image_editor.text_to_image
+image_editor.watermarking
+industry.construction
+industry.education
+industry.energy
+industry.engineering
+industry.environmental
+industry.faith_religious
+industry.finance
+industry.government
+industry.hospitality
+industry.legal
+industry.manufacturing
+industry.nonprofit_community
+industry.public_safety
+industry.research
+industry.retail
+industry.software_technology
+industry.space
+industry.transportation
+industry.universal_professions
+intelligence.calibration_engine
+intelligence.compatibility_engine
+intelligence.cross_vetted_abstracts
+intelligence.decision_engine
+intelligence.documentation_engine
+intelligence.file_format_engine
+intelligence.forecasting_engine
+intelligence.inventory_engine
+intelligence.knowledge_graph
+intelligence.learning_engine
+intelligence.maintenance_engine
+intelligence.orchestration_engine
+intelligence.reasoning_engine
+intelligence.recommendation_engine
+intelligence.report_engine
+intelligence.research
+intelligence.research_engine
+intelligence.risk_engine
+intelligence.simulation_engine
+intelligence.universal_search
+intelligence.update_engine
+intelligence.vetted_sources
+intelligence.workflow_engine
+localization.global_holidays
+localization.language_dialect
+media.ai_production_studio
+media.caption_studio
+media.content_intelligence
+media.creator_marketplace
+media.gif_generator
+media.image_accessibility_alt_text
+media.image_context_reader
+media.image_safety_review
+media.licensing_marketplace
+media.meme_generator
+media.meme_reader
+media.music_platform
+media.news_intelligence
+media.podcast_platform
+media.publishing_platform
+media.sponsor_marketplace
+media.sticker_generator
+media.translation_studio
+media.video_platform
+media.visual_captioning
+media.voice_studio
+public.civic_intelligence
+public.community_resources
+public.disaster_response
+public.elections_intelligence
+public.emergency_management
+public.government_services
+public.grant_programs
+public.licensing_intelligence
+public.municipal_services
+public.permit_intelligence
+public.public_safety
+public.regulatory_tracking
+research.agricultural_science
+research.astronomy
+research.astrophysics
+research.biology
+research.biomedical_research
+research.biotechnology
+research.climate_science
+research.clinical_research
+research.energy_systems
+research.environmental_science
+research.fusion_research
+research.genetic_engineering
+research.materials_science
+research.neuroscience
+research.nuclear_research
+research.ocean_science
+research.particle_physics
+research.pharmaceutical_research
+research.psychology
+research.semiconductor_research
+research.space_research
+security.audit_intelligence
+security.authentication_intelligence
+security.authorization_intelligence
+security.compliance_intelligence
+security.data_governance
+security.digital_forensics
+security.identity_intelligence
+security.incident_response
+security.privacy_management
+security.threat_intelligence
+security.trust_ledger_expansion
+security.vulnerability_intelligence
+space.aerospace_test_labs
+space.aviation_systems
+space.flight_data_intelligence
+space.ground_stations
+space.launch_tracking
+space.mission_planning
+space.orbital_analysis
+space.rover_systems
+space.satellite_intelligence
+space.spacecraft_systems
+space.uas_uav_systems
+trust.fake_review_filter
+trust.feature_gap_analysis
+trust.user_complaint_analysis
+trust.vetted_feature_reviews
+visual_studio.affinity_like_pro_editing
+visual_studio.canva_like_design
+visual_studio.capcut_like_media_handoff
+visual_studio.figma_like_collaboration
+visual_studio.gimp_like_open_tools
+visual_studio.lightroom_like_adjustments
+visual_studio.photoshop_like_precision
+visual_studio.picsart_like_social_editing
+visual_studio.snapseed_like_mobile_editing
+
+
+Search Command = PASS
+SEARCH RESULTS: 20
+
+FILE:
+C:\Users\user\brianco-backend-clean\.CurrentLumenSetup\deploy-bundle\manifest.json
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\.CurrentLumenSetup\project.json
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\api\api\CurrentLumenSetup-callback.js
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\api\auth-options.js
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\api\backup-products.js
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\api\collections.js
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\callback.js
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup\install.js
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-callback.js
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\api\CurrentLumenSetup-install.js
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\api\health.js
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\api\products.js
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\api\score.js
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\api\secret-health.js
+RELATIONSHIPS:
+mentions -> supabase
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\api\seed-products.js
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\api\storefront-feed.js
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\approval-queue\pending-products-connections-collections.json
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\approval-queue\pending-products-theme-security-review.json
+RELATIONSHIPS:
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\assets\brianco-continuity-overlay.js
+RELATIONSHIPS:
+mentions -> supabase
+mentions -> lumen
+
+FILE:
+C:\Users\user\brianco-backend-clean\assets\brianco-master-command-center.js
+RELATIONSHIPS:
+mentions -> supabase
+mentions -> lumen
+
+FINAL STATUS
+Deleted Files: 0
+Backups Created: YES
+Secrets Printed: NO
+Registry Cleaned: YES
+JSON Arrays Normalized: YES
+Ready For Live Readiness Audit: YES

@@ -1,0 +1,36 @@
+{
+  "generated": "2026-06-10T04:11:56.073Z",
+  "reason": "powershell-run",
+  "doctrine": "Lumen-native first. External products are studied, abstracted, bridged, and replaced when feasible.",
+  "lumenNativeTargets": [
+    "native app shell",
+    "native browser shell",
+    "native website engine",
+    "native dashboard engine",
+    "native portal engine",
+    "native SDK abstraction",
+    "native service abstraction",
+    "native security fabric",
+    "native Vault interface",
+    "native dependency fabric",
+    "native update fabric",
+    "native self-change fabric"
+  ],
+  "externalDependencyPolicy": {
+    "allowedAsBridge": true,
+    "allowedAsStudyTarget": true,
+    "allowedAsTemporaryRuntime": true,
+    "permanentIdentity": false,
+    "mustBeWrappedByLumenLanguage": true,
+    "mustTrackReplacementPath": true
+  },
+  "hardRules": [
+    "Do not rebrand external services as Lumen-native.",
+    "Record external dependency truthfully.",
+    "Build Lumen-owned abstraction first.",
+    "Replace external bridge only after validated native replacement exists.",
+    "No duplicates.",
+    "Additive only.",
+    "Preserve build-passing baseline."
+  ]
+}

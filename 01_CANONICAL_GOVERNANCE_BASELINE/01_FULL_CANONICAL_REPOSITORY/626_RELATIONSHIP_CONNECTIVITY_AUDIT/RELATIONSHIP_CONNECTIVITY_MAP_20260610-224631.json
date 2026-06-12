@@ -1,0 +1,81 @@
+{
+  "createdOrUpdated": "20260610-224631",
+  "edges": [
+    {
+      "relationship": "Connected access channel",
+      "from": "Lumen OS",
+      "to": "Website"
+    },
+    {
+      "relationship": "First-class user path",
+      "from": "Website",
+      "to": "Website-only user"
+    },
+    {
+      "relationship": "Vault-backed continuity",
+      "from": "Website",
+      "to": "Vault"
+    },
+    {
+      "relationship": "Vault-backed continuity",
+      "from": "Lumen OS",
+      "to": "Vault"
+    },
+    {
+      "relationship": "Continuity bridge",
+      "from": "Vault",
+      "to": "ChatGPT/OpenAI bridge"
+    },
+    {
+      "relationship": "Bridge-to-native migration path",
+      "from": "ChatGPT/OpenAI bridge",
+      "to": "Future Lumen-native replacement"
+    },
+    {
+      "relationship": "Access decision input",
+      "from": "Identity",
+      "to": "Authorization"
+    },
+    {
+      "relationship": "Access decision input",
+      "from": "Authorization",
+      "to": "Entitlement"
+    },
+    {
+      "relationship": "Protection model",
+      "from": "Security",
+      "to": "Privacy"
+    },
+    {
+      "relationship": "Permission model",
+      "from": "Privacy",
+      "to": "Consent"
+    },
+    {
+      "relationship": "Reconstruction model",
+      "from": "Recovery",
+      "to": "Lineage"
+    },
+    {
+      "relationship": "Historical source",
+      "from": "Archive",
+      "to": "Recovery"
+    },
+    {
+      "relationship": "Startup authority",
+      "from": "Canonical Authority",
+      "to": "Active Load Packet"
+    },
+    {
+      "relationship": "Next project startup",
+      "from": "Active Load Packet",
+      "to": "Compact Transfer Packet"
+    },
+    {
+      "relationship": "Lookup route",
+      "from": "Compact Transfer Packet",
+      "to": "Pointer Index"
+    }
+  ],
+  "score": 100.0
+}

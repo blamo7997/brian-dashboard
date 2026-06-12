@@ -1,0 +1,9 @@
+﻿import fs from "fs";
+import path from "path";
+
+export default function handler(req,res){
+  const file=path.join(process.cwd(),"data","local-events-festival-intelligence.json");
+  let data={};
+  try{data=JSON.parse(fs.readFileSync(file,"utf8"));}catch(e){data={status:"missing",slug:"local-events-festival-intelligence"};}
+  res.status(200).json({ok:true,route:"local-events-festival-intelligence",generated:new Date().toISOString(),data});
+}

@@ -1,0 +1,25 @@
+{
+  "rule": "preserve_and_extend_only",
+  "meaning": "Never remove prior Brian & Co features, routes, theme files, UI sections, role portals, chatbot behavior, accessibility/localization/profit/customs rules, footer links, digital products, admin UI, validation systems, or standards unless fixing a confirmed broken item or Brian explicitly requests replacement.",
+  "default_action": "add options, add features, add layers, add safeguards, add validation, add reports",
+  "protected": [
+    "OAuth",
+    "environment variables",
+    "backend routes",
+    "retired-commerce-platform theme files",
+    "role UI routes",
+    "admin UI",
+    "chatbot routes",
+    "dynamic personalization",
+    "dynamic theme behavior",
+    "footer links",
+    "digital products",
+    "supplier/creator/influencer/investor portals",
+    "customs/duties/taxes/shipping notices",
+    "profit-aware rules",
+    "accessibility controls",
+    "localization rules",
+    "upload/review requirements",
+    "validation checks"
+  ]
+}

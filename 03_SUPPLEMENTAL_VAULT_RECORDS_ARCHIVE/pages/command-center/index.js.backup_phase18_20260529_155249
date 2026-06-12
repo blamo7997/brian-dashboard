@@ -1,0 +1,62 @@
+﻿import { useEffect, useState } from "react";
+import { theme, NativeCard } from "../../lib/brianco-native/ui";
+
+export default function CommandCenterCliIntelligence() {
+  const [visual, setVisual] = useState(null);
+
+  useEffect(() => {
+    fetch("/api/cli-intelligence/snapshot")
+      .then((r)=>r.json())
+      .then(setVisual)
+      .catch(()=>setVisual(null));
+  }, []);
+
+  const cards = visual?.visualCards || [];
+
+  return (
+    <main style={theme.page}>
+      <section style={theme.shell}>
+        <h1 style={{fontSize:46,color:theme.gold,marginBottom:8}}>Brian & Co Founder Command Center</h1>
+        <p style={{fontSize:18,lineHeight:1.7,maxWidth:1080}}>
+          CLI-first intelligence for Shopify, Vercel, live theme status, deployment health,
+          provider readiness, role systems, and protected website operations.
+        </p>
+
+        <section style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(260px,1fr))",gap:16,marginTop:24}}>
+          {cards.map((card)=>(
+            <NativeCard
+              key={card.title}
+              title={card.title}
+              value={card.value}
+              note="CLI-first, read-only operational intelligence for founder review."
+              trend={card.trend}
+            />
+          ))}
+        </section>
+
+        <section style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(320px,1fr))",gap:16,marginTop:24}}>
+          <article style={theme.card}>
+            <h2 style={{color:theme.gold}}>Protected Live Theme</h2>
+            <p>Expected live theme: 161182941443. Shopify theme actions remain protected and approval-gated.</p>
+          </article>
+
+          <article style={theme.card}>
+            <h2 style={{color:theme.gold}}>Deployment Health</h2>
+            <p>Vercel production readiness is monitored through CLI snapshot data and live endpoint checks.</p>
+          </article>
+
+          <article style={theme.card}>
+            <h2 style={{color:theme.gold}}>Next Expansion</h2>
+            <p>Next: chatbot intelligence, then native identity and deeper real data integrations where approved.</p>
+          </article>
+        </section>
+
+        <section style={{marginTop:24,...theme.card}}>
+          <h2 style={{color:theme.gold}}>Native Operations Map</h2>
+          <p>Continue through Brian & Co routes and role systems.</p>
+          <a href="/native-map" style={{color:theme.gold}}>Open Native Map</a>
+        </section>
+      </section>
+    </main>
+  );
+}

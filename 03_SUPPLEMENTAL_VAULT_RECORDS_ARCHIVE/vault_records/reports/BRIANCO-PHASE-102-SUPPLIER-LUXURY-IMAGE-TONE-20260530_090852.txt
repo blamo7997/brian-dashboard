@@ -1,0 +1,27 @@
+BRIAN & CO PHASE 102 REDO — SUPPLIER + LUXURY + IMAGE/TONE REPORT
+Created: 20260530_090852
+
+Added:
+- /supplier-recruitment-intelligence
+- /luxury-brand-outreach
+- /income-tier-sourcing
+- /dropship-supplier-intake
+- /product-image-tone-intelligence
+- /api/supplier-recruitment-intelligence/dashboard
+- /api/product-image-tone-intelligence/dashboard
+
+Protected:
+- Dropship-first business model
+- Luxury resale safeguards
+- Supplier acquisition strategy
+- Every income-tier customer strategy
+- Product image permission review
+- Product background removal/refinement requirement
+- Brian & Co product description rewrite requirement
+- Founder/legal approval gates
+
+Never forget:
+Supplier images are not blindly published.
+Supplier text is not blindly copied.
+Images should be refined for Brian & Co presentation.
+Descriptions should be rewritten in Brian & Co’s trusted, human, refined tone.

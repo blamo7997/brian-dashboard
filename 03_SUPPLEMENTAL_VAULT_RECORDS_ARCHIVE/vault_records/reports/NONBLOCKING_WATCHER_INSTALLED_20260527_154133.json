@@ -1,0 +1,12 @@
+{
+    "ctrlCNeeded":  false,
+    "note":  "Watcher runs separately/minimized. This PowerShell prompt returns immediately.",
+    "createdAt":  "2026-05-27T15:41:37.1036975-06:00",
+    "currentPromptBlocked":  false,
+    "taskName":  "BrianCoNonBlockingRealtimeWatcher",
+    "watcher":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\durable_watchers\\BRIANCO_BACKGROUND_WATCHER.ps1",
+    "ok":  true,
+    "protectedSystemsTouched":  false,
+    "launcher":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\durable_watchers\\BRIANCO_NONBLOCKING_RELAUNCHER.ps1",
+    "installer":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\durable_watchers\\BRIANCO_SAFE_THEME_INSTALL_ONCE.ps1"
+}

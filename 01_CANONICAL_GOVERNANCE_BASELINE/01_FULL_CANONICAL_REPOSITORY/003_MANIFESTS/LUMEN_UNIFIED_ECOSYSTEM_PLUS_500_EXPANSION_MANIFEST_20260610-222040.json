@@ -1,0 +1,5040 @@
+{
+  "createdOrUpdated": "20260610-222040",
+  "status": "Added Lumen unified identity/authorization/entitlement/security/object governance layers plus next 500 domain-aspect continuity containers",
+  "detailedContainers": [
+    "072_IDENTITY_ENGINE",
+    "073_AUTHORIZATION_MODEL",
+    "074_ENTITLEMENT_MODEL",
+    "075_ACCESS_GRAPH",
+    "076_SECURITY_GOVERNANCE",
+    "077_VAULT_OBJECT_MODEL",
+    "078_OS_OBJECT_MODEL",
+    "079_WEBSITE_OBJECT_MODEL",
+    "080_CHATGPT_BRIDGE_MODEL",
+    "081_NATIVE_AI_REPLACEMENT_MODEL",
+    "082_LUMEN_UNIFIED_OBJECT_GRAPH",
+    "083_LUMEN_UNIFIED_NAMESPACE",
+    "084_LUMEN_UNIFIED_SCHEMA",
+    "085_LUMEN_UNIFIED_REGISTRY",
+    "086_LUMEN_UNIFIED_LINEAGE",
+    "087_LUMEN_UNIFIED_RECOVERY",
+    "088_LUMEN_UNIFIED_GUARDIAN",
+    "089_LUMEN_UNIFIED_POLICY",
+    "090_LUMEN_UNIFIED_CONSTITUTION"
+  ],
+  "generatedContainerCount": 500,
+  "generatedContainersStart": "091",
+  "generatedContainersEnd": "590",
+  "generatedRecords": [
+    {
+      "containerNumber": 91,
+      "container": "091_IDENTITY_MODEL",
+      "file": "IDENTITY_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-091",
+      "domain": "Identity",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 92,
+      "container": "092_IDENTITY_REGISTRY",
+      "file": "IDENTITY_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-092",
+      "domain": "Identity",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 93,
+      "container": "093_IDENTITY_POLICY",
+      "file": "IDENTITY_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-093",
+      "domain": "Identity",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 94,
+      "container": "094_IDENTITY_LIFECYCLE",
+      "file": "IDENTITY_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-094",
+      "domain": "Identity",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 95,
+      "container": "095_IDENTITY_VALIDATION",
+      "file": "IDENTITY_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-095",
+      "domain": "Identity",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 96,
+      "container": "096_IDENTITY_RECOVERY",
+      "file": "IDENTITY_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-096",
+      "domain": "Identity",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 97,
+      "container": "097_IDENTITY_GOVERNANCE",
+      "file": "IDENTITY_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-097",
+      "domain": "Identity",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 98,
+      "container": "098_IDENTITY_EVIDENCE",
+      "file": "IDENTITY_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-098",
+      "domain": "Identity",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 99,
+      "container": "099_IDENTITY_EXPORT",
+      "file": "IDENTITY_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-099",
+      "domain": "Identity",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 100,
+      "container": "100_IDENTITY_BRIDGE",
+      "file": "IDENTITY_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-100",
+      "domain": "Identity",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 101,
+      "container": "101_AUTHORIZATION_MODEL",
+      "file": "AUTHORIZATION_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-101",
+      "domain": "Authorization",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 102,
+      "container": "102_AUTHORIZATION_REGISTRY",
+      "file": "AUTHORIZATION_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-102",
+      "domain": "Authorization",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 103,
+      "container": "103_AUTHORIZATION_POLICY",
+      "file": "AUTHORIZATION_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-103",
+      "domain": "Authorization",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 104,
+      "container": "104_AUTHORIZATION_LIFECYCLE",
+      "file": "AUTHORIZATION_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-104",
+      "domain": "Authorization",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 105,
+      "container": "105_AUTHORIZATION_VALIDATION",
+      "file": "AUTHORIZATION_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-105",
+      "domain": "Authorization",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 106,
+      "container": "106_AUTHORIZATION_RECOVERY",
+      "file": "AUTHORIZATION_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-106",
+      "domain": "Authorization",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 107,
+      "container": "107_AUTHORIZATION_GOVERNANCE",
+      "file": "AUTHORIZATION_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-107",
+      "domain": "Authorization",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 108,
+      "container": "108_AUTHORIZATION_EVIDENCE",
+      "file": "AUTHORIZATION_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-108",
+      "domain": "Authorization",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 109,
+      "container": "109_AUTHORIZATION_EXPORT",
+      "file": "AUTHORIZATION_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-109",
+      "domain": "Authorization",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 110,
+      "container": "110_AUTHORIZATION_BRIDGE",
+      "file": "AUTHORIZATION_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-110",
+      "domain": "Authorization",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 111,
+      "container": "111_ENTITLEMENT_MODEL",
+      "file": "ENTITLEMENT_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-111",
+      "domain": "Entitlement",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 112,
+      "container": "112_ENTITLEMENT_REGISTRY",
+      "file": "ENTITLEMENT_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-112",
+      "domain": "Entitlement",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 113,
+      "container": "113_ENTITLEMENT_POLICY",
+      "file": "ENTITLEMENT_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-113",
+      "domain": "Entitlement",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 114,
+      "container": "114_ENTITLEMENT_LIFECYCLE",
+      "file": "ENTITLEMENT_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-114",
+      "domain": "Entitlement",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 115,
+      "container": "115_ENTITLEMENT_VALIDATION",
+      "file": "ENTITLEMENT_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-115",
+      "domain": "Entitlement",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 116,
+      "container": "116_ENTITLEMENT_RECOVERY",
+      "file": "ENTITLEMENT_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-116",
+      "domain": "Entitlement",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 117,
+      "container": "117_ENTITLEMENT_GOVERNANCE",
+      "file": "ENTITLEMENT_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-117",
+      "domain": "Entitlement",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 118,
+      "container": "118_ENTITLEMENT_EVIDENCE",
+      "file": "ENTITLEMENT_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-118",
+      "domain": "Entitlement",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 119,
+      "container": "119_ENTITLEMENT_EXPORT",
+      "file": "ENTITLEMENT_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-119",
+      "domain": "Entitlement",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 120,
+      "container": "120_ENTITLEMENT_BRIDGE",
+      "file": "ENTITLEMENT_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-120",
+      "domain": "Entitlement",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 121,
+      "container": "121_ACCESS_MODEL",
+      "file": "ACCESS_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-121",
+      "domain": "Access",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 122,
+      "container": "122_ACCESS_REGISTRY",
+      "file": "ACCESS_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-122",
+      "domain": "Access",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 123,
+      "container": "123_ACCESS_POLICY",
+      "file": "ACCESS_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-123",
+      "domain": "Access",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 124,
+      "container": "124_ACCESS_LIFECYCLE",
+      "file": "ACCESS_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-124",
+      "domain": "Access",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 125,
+      "container": "125_ACCESS_VALIDATION",
+      "file": "ACCESS_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-125",
+      "domain": "Access",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 126,
+      "container": "126_ACCESS_RECOVERY",
+      "file": "ACCESS_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-126",
+      "domain": "Access",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 127,
+      "container": "127_ACCESS_GOVERNANCE",
+      "file": "ACCESS_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-127",
+      "domain": "Access",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 128,
+      "container": "128_ACCESS_EVIDENCE",
+      "file": "ACCESS_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-128",
+      "domain": "Access",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 129,
+      "container": "129_ACCESS_EXPORT",
+      "file": "ACCESS_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-129",
+      "domain": "Access",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 130,
+      "container": "130_ACCESS_BRIDGE",
+      "file": "ACCESS_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-130",
+      "domain": "Access",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 131,
+      "container": "131_SECURITY_MODEL",
+      "file": "SECURITY_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-131",
+      "domain": "Security",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 132,
+      "container": "132_SECURITY_REGISTRY",
+      "file": "SECURITY_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-132",
+      "domain": "Security",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 133,
+      "container": "133_SECURITY_POLICY",
+      "file": "SECURITY_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-133",
+      "domain": "Security",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 134,
+      "container": "134_SECURITY_LIFECYCLE",
+      "file": "SECURITY_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-134",
+      "domain": "Security",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 135,
+      "container": "135_SECURITY_VALIDATION",
+      "file": "SECURITY_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-135",
+      "domain": "Security",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 136,
+      "container": "136_SECURITY_RECOVERY",
+      "file": "SECURITY_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-136",
+      "domain": "Security",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 137,
+      "container": "137_SECURITY_GOVERNANCE",
+      "file": "SECURITY_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-137",
+      "domain": "Security",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 138,
+      "container": "138_SECURITY_EVIDENCE",
+      "file": "SECURITY_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-138",
+      "domain": "Security",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 139,
+      "container": "139_SECURITY_EXPORT",
+      "file": "SECURITY_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-139",
+      "domain": "Security",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 140,
+      "container": "140_SECURITY_BRIDGE",
+      "file": "SECURITY_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-140",
+      "domain": "Security",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 141,
+      "container": "141_PRIVACY_MODEL",
+      "file": "PRIVACY_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-141",
+      "domain": "Privacy",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 142,
+      "container": "142_PRIVACY_REGISTRY",
+      "file": "PRIVACY_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-142",
+      "domain": "Privacy",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 143,
+      "container": "143_PRIVACY_POLICY",
+      "file": "PRIVACY_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-143",
+      "domain": "Privacy",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 144,
+      "container": "144_PRIVACY_LIFECYCLE",
+      "file": "PRIVACY_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-144",
+      "domain": "Privacy",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 145,
+      "container": "145_PRIVACY_VALIDATION",
+      "file": "PRIVACY_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-145",
+      "domain": "Privacy",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 146,
+      "container": "146_PRIVACY_RECOVERY",
+      "file": "PRIVACY_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-146",
+      "domain": "Privacy",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 147,
+      "container": "147_PRIVACY_GOVERNANCE",
+      "file": "PRIVACY_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-147",
+      "domain": "Privacy",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 148,
+      "container": "148_PRIVACY_EVIDENCE",
+      "file": "PRIVACY_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-148",
+      "domain": "Privacy",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 149,
+      "container": "149_PRIVACY_EXPORT",
+      "file": "PRIVACY_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-149",
+      "domain": "Privacy",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 150,
+      "container": "150_PRIVACY_BRIDGE",
+      "file": "PRIVACY_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-150",
+      "domain": "Privacy",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 151,
+      "container": "151_CONSENT_MODEL",
+      "file": "CONSENT_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-151",
+      "domain": "Consent",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 152,
+      "container": "152_CONSENT_REGISTRY",
+      "file": "CONSENT_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-152",
+      "domain": "Consent",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 153,
+      "container": "153_CONSENT_POLICY",
+      "file": "CONSENT_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-153",
+      "domain": "Consent",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 154,
+      "container": "154_CONSENT_LIFECYCLE",
+      "file": "CONSENT_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-154",
+      "domain": "Consent",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 155,
+      "container": "155_CONSENT_VALIDATION",
+      "file": "CONSENT_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-155",
+      "domain": "Consent",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 156,
+      "container": "156_CONSENT_RECOVERY",
+      "file": "CONSENT_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-156",
+      "domain": "Consent",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 157,
+      "container": "157_CONSENT_GOVERNANCE",
+      "file": "CONSENT_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-157",
+      "domain": "Consent",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 158,
+      "container": "158_CONSENT_EVIDENCE",
+      "file": "CONSENT_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-158",
+      "domain": "Consent",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 159,
+      "container": "159_CONSENT_EXPORT",
+      "file": "CONSENT_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-159",
+      "domain": "Consent",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 160,
+      "container": "160_CONSENT_BRIDGE",
+      "file": "CONSENT_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-160",
+      "domain": "Consent",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 161,
+      "container": "161_VAULT_MODEL",
+      "file": "VAULT_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-161",
+      "domain": "Vault",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 162,
+      "container": "162_VAULT_REGISTRY",
+      "file": "VAULT_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-162",
+      "domain": "Vault",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 163,
+      "container": "163_VAULT_POLICY",
+      "file": "VAULT_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-163",
+      "domain": "Vault",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 164,
+      "container": "164_VAULT_LIFECYCLE",
+      "file": "VAULT_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-164",
+      "domain": "Vault",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 165,
+      "container": "165_VAULT_VALIDATION",
+      "file": "VAULT_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-165",
+      "domain": "Vault",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 166,
+      "container": "166_VAULT_RECOVERY",
+      "file": "VAULT_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-166",
+      "domain": "Vault",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 167,
+      "container": "167_VAULT_GOVERNANCE",
+      "file": "VAULT_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-167",
+      "domain": "Vault",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 168,
+      "container": "168_VAULT_EVIDENCE",
+      "file": "VAULT_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-168",
+      "domain": "Vault",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 169,
+      "container": "169_VAULT_EXPORT",
+      "file": "VAULT_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-169",
+      "domain": "Vault",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 170,
+      "container": "170_VAULT_BRIDGE",
+      "file": "VAULT_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-170",
+      "domain": "Vault",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 171,
+      "container": "171_OS_MODEL",
+      "file": "OS_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-171",
+      "domain": "OS",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 172,
+      "container": "172_OS_REGISTRY",
+      "file": "OS_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-172",
+      "domain": "OS",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 173,
+      "container": "173_OS_POLICY",
+      "file": "OS_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-173",
+      "domain": "OS",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 174,
+      "container": "174_OS_LIFECYCLE",
+      "file": "OS_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-174",
+      "domain": "OS",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 175,
+      "container": "175_OS_VALIDATION",
+      "file": "OS_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-175",
+      "domain": "OS",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 176,
+      "container": "176_OS_RECOVERY",
+      "file": "OS_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-176",
+      "domain": "OS",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 177,
+      "container": "177_OS_GOVERNANCE",
+      "file": "OS_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-177",
+      "domain": "OS",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 178,
+      "container": "178_OS_EVIDENCE",
+      "file": "OS_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-178",
+      "domain": "OS",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 179,
+      "container": "179_OS_EXPORT",
+      "file": "OS_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-179",
+      "domain": "OS",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 180,
+      "container": "180_OS_BRIDGE",
+      "file": "OS_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-180",
+      "domain": "OS",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 181,
+      "container": "181_WEBSITE_MODEL",
+      "file": "WEBSITE_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-181",
+      "domain": "Website",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 182,
+      "container": "182_WEBSITE_REGISTRY",
+      "file": "WEBSITE_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-182",
+      "domain": "Website",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 183,
+      "container": "183_WEBSITE_POLICY",
+      "file": "WEBSITE_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-183",
+      "domain": "Website",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 184,
+      "container": "184_WEBSITE_LIFECYCLE",
+      "file": "WEBSITE_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-184",
+      "domain": "Website",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 185,
+      "container": "185_WEBSITE_VALIDATION",
+      "file": "WEBSITE_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-185",
+      "domain": "Website",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 186,
+      "container": "186_WEBSITE_RECOVERY",
+      "file": "WEBSITE_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-186",
+      "domain": "Website",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 187,
+      "container": "187_WEBSITE_GOVERNANCE",
+      "file": "WEBSITE_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-187",
+      "domain": "Website",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 188,
+      "container": "188_WEBSITE_EVIDENCE",
+      "file": "WEBSITE_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-188",
+      "domain": "Website",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 189,
+      "container": "189_WEBSITE_EXPORT",
+      "file": "WEBSITE_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-189",
+      "domain": "Website",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 190,
+      "container": "190_WEBSITE_BRIDGE",
+      "file": "WEBSITE_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-190",
+      "domain": "Website",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 191,
+      "container": "191_CHATGPT_BRIDGE_MODEL",
+      "file": "CHATGPT_BRIDGE_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-191",
+      "domain": "ChatGPT Bridge",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 192,
+      "container": "192_CHATGPT_BRIDGE_REGISTRY",
+      "file": "CHATGPT_BRIDGE_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-192",
+      "domain": "ChatGPT Bridge",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 193,
+      "container": "193_CHATGPT_BRIDGE_POLICY",
+      "file": "CHATGPT_BRIDGE_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-193",
+      "domain": "ChatGPT Bridge",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 194,
+      "container": "194_CHATGPT_BRIDGE_LIFECYCLE",
+      "file": "CHATGPT_BRIDGE_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-194",
+      "domain": "ChatGPT Bridge",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 195,
+      "container": "195_CHATGPT_BRIDGE_VALIDATION",
+      "file": "CHATGPT_BRIDGE_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-195",
+      "domain": "ChatGPT Bridge",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 196,
+      "container": "196_CHATGPT_BRIDGE_RECOVERY",
+      "file": "CHATGPT_BRIDGE_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-196",
+      "domain": "ChatGPT Bridge",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 197,
+      "container": "197_CHATGPT_BRIDGE_GOVERNANCE",
+      "file": "CHATGPT_BRIDGE_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-197",
+      "domain": "ChatGPT Bridge",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 198,
+      "container": "198_CHATGPT_BRIDGE_EVIDENCE",
+      "file": "CHATGPT_BRIDGE_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-198",
+      "domain": "ChatGPT Bridge",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 199,
+      "container": "199_CHATGPT_BRIDGE_EXPORT",
+      "file": "CHATGPT_BRIDGE_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-199",
+      "domain": "ChatGPT Bridge",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 200,
+      "container": "200_CHATGPT_BRIDGE_BRIDGE",
+      "file": "CHATGPT_BRIDGE_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-200",
+      "domain": "ChatGPT Bridge",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 201,
+      "container": "201_OPENAI_ADAPTER_MODEL",
+      "file": "OPENAI_ADAPTER_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-201",
+      "domain": "OpenAI Adapter",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 202,
+      "container": "202_OPENAI_ADAPTER_REGISTRY",
+      "file": "OPENAI_ADAPTER_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-202",
+      "domain": "OpenAI Adapter",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 203,
+      "container": "203_OPENAI_ADAPTER_POLICY",
+      "file": "OPENAI_ADAPTER_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-203",
+      "domain": "OpenAI Adapter",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 204,
+      "container": "204_OPENAI_ADAPTER_LIFECYCLE",
+      "file": "OPENAI_ADAPTER_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-204",
+      "domain": "OpenAI Adapter",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 205,
+      "container": "205_OPENAI_ADAPTER_VALIDATION",
+      "file": "OPENAI_ADAPTER_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-205",
+      "domain": "OpenAI Adapter",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 206,
+      "container": "206_OPENAI_ADAPTER_RECOVERY",
+      "file": "OPENAI_ADAPTER_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-206",
+      "domain": "OpenAI Adapter",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 207,
+      "container": "207_OPENAI_ADAPTER_GOVERNANCE",
+      "file": "OPENAI_ADAPTER_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-207",
+      "domain": "OpenAI Adapter",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 208,
+      "container": "208_OPENAI_ADAPTER_EVIDENCE",
+      "file": "OPENAI_ADAPTER_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-208",
+      "domain": "OpenAI Adapter",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 209,
+      "container": "209_OPENAI_ADAPTER_EXPORT",
+      "file": "OPENAI_ADAPTER_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-209",
+      "domain": "OpenAI Adapter",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 210,
+      "container": "210_OPENAI_ADAPTER_BRIDGE",
+      "file": "OPENAI_ADAPTER_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-210",
+      "domain": "OpenAI Adapter",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 211,
+      "container": "211_NATIVE_AI_REPLACEMENT_MODEL",
+      "file": "NATIVE_AI_REPLACEMENT_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-211",
+      "domain": "Native AI Replacement",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 212,
+      "container": "212_NATIVE_AI_REPLACEMENT_REGISTRY",
+      "file": "NATIVE_AI_REPLACEMENT_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-212",
+      "domain": "Native AI Replacement",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 213,
+      "container": "213_NATIVE_AI_REPLACEMENT_POLICY",
+      "file": "NATIVE_AI_REPLACEMENT_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-213",
+      "domain": "Native AI Replacement",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 214,
+      "container": "214_NATIVE_AI_REPLACEMENT_LIFECYCLE",
+      "file": "NATIVE_AI_REPLACEMENT_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-214",
+      "domain": "Native AI Replacement",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 215,
+      "container": "215_NATIVE_AI_REPLACEMENT_VALIDATION",
+      "file": "NATIVE_AI_REPLACEMENT_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-215",
+      "domain": "Native AI Replacement",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 216,
+      "container": "216_NATIVE_AI_REPLACEMENT_RECOVERY",
+      "file": "NATIVE_AI_REPLACEMENT_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-216",
+      "domain": "Native AI Replacement",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 217,
+      "container": "217_NATIVE_AI_REPLACEMENT_GOVERNANCE",
+      "file": "NATIVE_AI_REPLACEMENT_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-217",
+      "domain": "Native AI Replacement",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 218,
+      "container": "218_NATIVE_AI_REPLACEMENT_EVIDENCE",
+      "file": "NATIVE_AI_REPLACEMENT_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-218",
+      "domain": "Native AI Replacement",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 219,
+      "container": "219_NATIVE_AI_REPLACEMENT_EXPORT",
+      "file": "NATIVE_AI_REPLACEMENT_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-219",
+      "domain": "Native AI Replacement",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 220,
+      "container": "220_NATIVE_AI_REPLACEMENT_BRIDGE",
+      "file": "NATIVE_AI_REPLACEMENT_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-220",
+      "domain": "Native AI Replacement",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 221,
+      "container": "221_SESSION_MODEL",
+      "file": "SESSION_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-221",
+      "domain": "Session",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 222,
+      "container": "222_SESSION_REGISTRY",
+      "file": "SESSION_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-222",
+      "domain": "Session",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 223,
+      "container": "223_SESSION_POLICY",
+      "file": "SESSION_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-223",
+      "domain": "Session",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 224,
+      "container": "224_SESSION_LIFECYCLE",
+      "file": "SESSION_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-224",
+      "domain": "Session",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 225,
+      "container": "225_SESSION_VALIDATION",
+      "file": "SESSION_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-225",
+      "domain": "Session",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 226,
+      "container": "226_SESSION_RECOVERY",
+      "file": "SESSION_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-226",
+      "domain": "Session",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 227,
+      "container": "227_SESSION_GOVERNANCE",
+      "file": "SESSION_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-227",
+      "domain": "Session",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 228,
+      "container": "228_SESSION_EVIDENCE",
+      "file": "SESSION_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-228",
+      "domain": "Session",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 229,
+      "container": "229_SESSION_EXPORT",
+      "file": "SESSION_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-229",
+      "domain": "Session",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 230,
+      "container": "230_SESSION_BRIDGE",
+      "file": "SESSION_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-230",
+      "domain": "Session",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 231,
+      "container": "231_DEVICE_MODEL",
+      "file": "DEVICE_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-231",
+      "domain": "Device",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 232,
+      "container": "232_DEVICE_REGISTRY",
+      "file": "DEVICE_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-232",
+      "domain": "Device",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 233,
+      "container": "233_DEVICE_POLICY",
+      "file": "DEVICE_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-233",
+      "domain": "Device",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 234,
+      "container": "234_DEVICE_LIFECYCLE",
+      "file": "DEVICE_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-234",
+      "domain": "Device",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 235,
+      "container": "235_DEVICE_VALIDATION",
+      "file": "DEVICE_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-235",
+      "domain": "Device",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 236,
+      "container": "236_DEVICE_RECOVERY",
+      "file": "DEVICE_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-236",
+      "domain": "Device",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 237,
+      "container": "237_DEVICE_GOVERNANCE",
+      "file": "DEVICE_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-237",
+      "domain": "Device",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 238,
+      "container": "238_DEVICE_EVIDENCE",
+      "file": "DEVICE_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-238",
+      "domain": "Device",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 239,
+      "container": "239_DEVICE_EXPORT",
+      "file": "DEVICE_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-239",
+      "domain": "Device",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 240,
+      "container": "240_DEVICE_BRIDGE",
+      "file": "DEVICE_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-240",
+      "domain": "Device",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 241,
+      "container": "241_USER_PROFILE_MODEL",
+      "file": "USER_PROFILE_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-241",
+      "domain": "User Profile",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 242,
+      "container": "242_USER_PROFILE_REGISTRY",
+      "file": "USER_PROFILE_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-242",
+      "domain": "User Profile",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 243,
+      "container": "243_USER_PROFILE_POLICY",
+      "file": "USER_PROFILE_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-243",
+      "domain": "User Profile",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 244,
+      "container": "244_USER_PROFILE_LIFECYCLE",
+      "file": "USER_PROFILE_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-244",
+      "domain": "User Profile",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 245,
+      "container": "245_USER_PROFILE_VALIDATION",
+      "file": "USER_PROFILE_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-245",
+      "domain": "User Profile",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 246,
+      "container": "246_USER_PROFILE_RECOVERY",
+      "file": "USER_PROFILE_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-246",
+      "domain": "User Profile",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 247,
+      "container": "247_USER_PROFILE_GOVERNANCE",
+      "file": "USER_PROFILE_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-247",
+      "domain": "User Profile",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 248,
+      "container": "248_USER_PROFILE_EVIDENCE",
+      "file": "USER_PROFILE_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-248",
+      "domain": "User Profile",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 249,
+      "container": "249_USER_PROFILE_EXPORT",
+      "file": "USER_PROFILE_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-249",
+      "domain": "User Profile",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 250,
+      "container": "250_USER_PROFILE_BRIDGE",
+      "file": "USER_PROFILE_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-250",
+      "domain": "User Profile",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 251,
+      "container": "251_FOUNDER_CONTROL_MODEL",
+      "file": "FOUNDER_CONTROL_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-251",
+      "domain": "Founder Control",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 252,
+      "container": "252_FOUNDER_CONTROL_REGISTRY",
+      "file": "FOUNDER_CONTROL_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-252",
+      "domain": "Founder Control",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 253,
+      "container": "253_FOUNDER_CONTROL_POLICY",
+      "file": "FOUNDER_CONTROL_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-253",
+      "domain": "Founder Control",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 254,
+      "container": "254_FOUNDER_CONTROL_LIFECYCLE",
+      "file": "FOUNDER_CONTROL_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-254",
+      "domain": "Founder Control",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 255,
+      "container": "255_FOUNDER_CONTROL_VALIDATION",
+      "file": "FOUNDER_CONTROL_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-255",
+      "domain": "Founder Control",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 256,
+      "container": "256_FOUNDER_CONTROL_RECOVERY",
+      "file": "FOUNDER_CONTROL_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-256",
+      "domain": "Founder Control",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 257,
+      "container": "257_FOUNDER_CONTROL_GOVERNANCE",
+      "file": "FOUNDER_CONTROL_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-257",
+      "domain": "Founder Control",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 258,
+      "container": "258_FOUNDER_CONTROL_EVIDENCE",
+      "file": "FOUNDER_CONTROL_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-258",
+      "domain": "Founder Control",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 259,
+      "container": "259_FOUNDER_CONTROL_EXPORT",
+      "file": "FOUNDER_CONTROL_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-259",
+      "domain": "Founder Control",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 260,
+      "container": "260_FOUNDER_CONTROL_BRIDGE",
+      "file": "FOUNDER_CONTROL_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-260",
+      "domain": "Founder Control",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 261,
+      "container": "261_ADMIN_CONTROL_MODEL",
+      "file": "ADMIN_CONTROL_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-261",
+      "domain": "Admin Control",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 262,
+      "container": "262_ADMIN_CONTROL_REGISTRY",
+      "file": "ADMIN_CONTROL_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-262",
+      "domain": "Admin Control",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 263,
+      "container": "263_ADMIN_CONTROL_POLICY",
+      "file": "ADMIN_CONTROL_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-263",
+      "domain": "Admin Control",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 264,
+      "container": "264_ADMIN_CONTROL_LIFECYCLE",
+      "file": "ADMIN_CONTROL_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-264",
+      "domain": "Admin Control",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 265,
+      "container": "265_ADMIN_CONTROL_VALIDATION",
+      "file": "ADMIN_CONTROL_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-265",
+      "domain": "Admin Control",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 266,
+      "container": "266_ADMIN_CONTROL_RECOVERY",
+      "file": "ADMIN_CONTROL_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-266",
+      "domain": "Admin Control",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 267,
+      "container": "267_ADMIN_CONTROL_GOVERNANCE",
+      "file": "ADMIN_CONTROL_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-267",
+      "domain": "Admin Control",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 268,
+      "container": "268_ADMIN_CONTROL_EVIDENCE",
+      "file": "ADMIN_CONTROL_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-268",
+      "domain": "Admin Control",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 269,
+      "container": "269_ADMIN_CONTROL_EXPORT",
+      "file": "ADMIN_CONTROL_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-269",
+      "domain": "Admin Control",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 270,
+      "container": "270_ADMIN_CONTROL_BRIDGE",
+      "file": "ADMIN_CONTROL_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-270",
+      "domain": "Admin Control",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 271,
+      "container": "271_CUSTOMER_EXPERIENCE_MODEL",
+      "file": "CUSTOMER_EXPERIENCE_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-271",
+      "domain": "Customer Experience",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 272,
+      "container": "272_CUSTOMER_EXPERIENCE_REGISTRY",
+      "file": "CUSTOMER_EXPERIENCE_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-272",
+      "domain": "Customer Experience",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 273,
+      "container": "273_CUSTOMER_EXPERIENCE_POLICY",
+      "file": "CUSTOMER_EXPERIENCE_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-273",
+      "domain": "Customer Experience",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 274,
+      "container": "274_CUSTOMER_EXPERIENCE_LIFECYCLE",
+      "file": "CUSTOMER_EXPERIENCE_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-274",
+      "domain": "Customer Experience",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 275,
+      "container": "275_CUSTOMER_EXPERIENCE_VALIDATION",
+      "file": "CUSTOMER_EXPERIENCE_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-275",
+      "domain": "Customer Experience",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 276,
+      "container": "276_CUSTOMER_EXPERIENCE_RECOVERY",
+      "file": "CUSTOMER_EXPERIENCE_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-276",
+      "domain": "Customer Experience",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 277,
+      "container": "277_CUSTOMER_EXPERIENCE_GOVERNANCE",
+      "file": "CUSTOMER_EXPERIENCE_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-277",
+      "domain": "Customer Experience",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 278,
+      "container": "278_CUSTOMER_EXPERIENCE_EVIDENCE",
+      "file": "CUSTOMER_EXPERIENCE_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-278",
+      "domain": "Customer Experience",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 279,
+      "container": "279_CUSTOMER_EXPERIENCE_EXPORT",
+      "file": "CUSTOMER_EXPERIENCE_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-279",
+      "domain": "Customer Experience",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 280,
+      "container": "280_CUSTOMER_EXPERIENCE_BRIDGE",
+      "file": "CUSTOMER_EXPERIENCE_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-280",
+      "domain": "Customer Experience",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 281,
+      "container": "281_WEBSITE_ONLY_USER_MODEL",
+      "file": "WEBSITE_ONLY_USER_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-281",
+      "domain": "Website Only User",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 282,
+      "container": "282_WEBSITE_ONLY_USER_REGISTRY",
+      "file": "WEBSITE_ONLY_USER_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-282",
+      "domain": "Website Only User",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 283,
+      "container": "283_WEBSITE_ONLY_USER_POLICY",
+      "file": "WEBSITE_ONLY_USER_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-283",
+      "domain": "Website Only User",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 284,
+      "container": "284_WEBSITE_ONLY_USER_LIFECYCLE",
+      "file": "WEBSITE_ONLY_USER_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-284",
+      "domain": "Website Only User",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 285,
+      "container": "285_WEBSITE_ONLY_USER_VALIDATION",
+      "file": "WEBSITE_ONLY_USER_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-285",
+      "domain": "Website Only User",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 286,
+      "container": "286_WEBSITE_ONLY_USER_RECOVERY",
+      "file": "WEBSITE_ONLY_USER_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-286",
+      "domain": "Website Only User",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 287,
+      "container": "287_WEBSITE_ONLY_USER_GOVERNANCE",
+      "file": "WEBSITE_ONLY_USER_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-287",
+      "domain": "Website Only User",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 288,
+      "container": "288_WEBSITE_ONLY_USER_EVIDENCE",
+      "file": "WEBSITE_ONLY_USER_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-288",
+      "domain": "Website Only User",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 289,
+      "container": "289_WEBSITE_ONLY_USER_EXPORT",
+      "file": "WEBSITE_ONLY_USER_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-289",
+      "domain": "Website Only User",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 290,
+      "container": "290_WEBSITE_ONLY_USER_BRIDGE",
+      "file": "WEBSITE_ONLY_USER_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-290",
+      "domain": "Website Only User",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 291,
+      "container": "291_ACCESSIBILITY_MODEL",
+      "file": "ACCESSIBILITY_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-291",
+      "domain": "Accessibility",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 292,
+      "container": "292_ACCESSIBILITY_REGISTRY",
+      "file": "ACCESSIBILITY_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-292",
+      "domain": "Accessibility",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 293,
+      "container": "293_ACCESSIBILITY_POLICY",
+      "file": "ACCESSIBILITY_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-293",
+      "domain": "Accessibility",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 294,
+      "container": "294_ACCESSIBILITY_LIFECYCLE",
+      "file": "ACCESSIBILITY_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-294",
+      "domain": "Accessibility",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 295,
+      "container": "295_ACCESSIBILITY_VALIDATION",
+      "file": "ACCESSIBILITY_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-295",
+      "domain": "Accessibility",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 296,
+      "container": "296_ACCESSIBILITY_RECOVERY",
+      "file": "ACCESSIBILITY_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-296",
+      "domain": "Accessibility",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 297,
+      "container": "297_ACCESSIBILITY_GOVERNANCE",
+      "file": "ACCESSIBILITY_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-297",
+      "domain": "Accessibility",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 298,
+      "container": "298_ACCESSIBILITY_EVIDENCE",
+      "file": "ACCESSIBILITY_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-298",
+      "domain": "Accessibility",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 299,
+      "container": "299_ACCESSIBILITY_EXPORT",
+      "file": "ACCESSIBILITY_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-299",
+      "domain": "Accessibility",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 300,
+      "container": "300_ACCESSIBILITY_BRIDGE",
+      "file": "ACCESSIBILITY_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-300",
+      "domain": "Accessibility",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 301,
+      "container": "301_LOCALIZATION_MODEL",
+      "file": "LOCALIZATION_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-301",
+      "domain": "Localization",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 302,
+      "container": "302_LOCALIZATION_REGISTRY",
+      "file": "LOCALIZATION_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-302",
+      "domain": "Localization",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 303,
+      "container": "303_LOCALIZATION_POLICY",
+      "file": "LOCALIZATION_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-303",
+      "domain": "Localization",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 304,
+      "container": "304_LOCALIZATION_LIFECYCLE",
+      "file": "LOCALIZATION_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-304",
+      "domain": "Localization",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 305,
+      "container": "305_LOCALIZATION_VALIDATION",
+      "file": "LOCALIZATION_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-305",
+      "domain": "Localization",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 306,
+      "container": "306_LOCALIZATION_RECOVERY",
+      "file": "LOCALIZATION_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-306",
+      "domain": "Localization",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 307,
+      "container": "307_LOCALIZATION_GOVERNANCE",
+      "file": "LOCALIZATION_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-307",
+      "domain": "Localization",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 308,
+      "container": "308_LOCALIZATION_EVIDENCE",
+      "file": "LOCALIZATION_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-308",
+      "domain": "Localization",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 309,
+      "container": "309_LOCALIZATION_EXPORT",
+      "file": "LOCALIZATION_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-309",
+      "domain": "Localization",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 310,
+      "container": "310_LOCALIZATION_BRIDGE",
+      "file": "LOCALIZATION_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-310",
+      "domain": "Localization",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 311,
+      "container": "311_TRANSLATION_MODEL",
+      "file": "TRANSLATION_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-311",
+      "domain": "Translation",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 312,
+      "container": "312_TRANSLATION_REGISTRY",
+      "file": "TRANSLATION_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-312",
+      "domain": "Translation",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 313,
+      "container": "313_TRANSLATION_POLICY",
+      "file": "TRANSLATION_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-313",
+      "domain": "Translation",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 314,
+      "container": "314_TRANSLATION_LIFECYCLE",
+      "file": "TRANSLATION_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-314",
+      "domain": "Translation",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 315,
+      "container": "315_TRANSLATION_VALIDATION",
+      "file": "TRANSLATION_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-315",
+      "domain": "Translation",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 316,
+      "container": "316_TRANSLATION_RECOVERY",
+      "file": "TRANSLATION_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-316",
+      "domain": "Translation",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 317,
+      "container": "317_TRANSLATION_GOVERNANCE",
+      "file": "TRANSLATION_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-317",
+      "domain": "Translation",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 318,
+      "container": "318_TRANSLATION_EVIDENCE",
+      "file": "TRANSLATION_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-318",
+      "domain": "Translation",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 319,
+      "container": "319_TRANSLATION_EXPORT",
+      "file": "TRANSLATION_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-319",
+      "domain": "Translation",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 320,
+      "container": "320_TRANSLATION_BRIDGE",
+      "file": "TRANSLATION_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-320",
+      "domain": "Translation",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 321,
+      "container": "321_MEMORY_CONTINUITY_MODEL",
+      "file": "MEMORY_CONTINUITY_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-321",
+      "domain": "Memory Continuity",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 322,
+      "container": "322_MEMORY_CONTINUITY_REGISTRY",
+      "file": "MEMORY_CONTINUITY_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-322",
+      "domain": "Memory Continuity",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 323,
+      "container": "323_MEMORY_CONTINUITY_POLICY",
+      "file": "MEMORY_CONTINUITY_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-323",
+      "domain": "Memory Continuity",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 324,
+      "container": "324_MEMORY_CONTINUITY_LIFECYCLE",
+      "file": "MEMORY_CONTINUITY_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-324",
+      "domain": "Memory Continuity",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 325,
+      "container": "325_MEMORY_CONTINUITY_VALIDATION",
+      "file": "MEMORY_CONTINUITY_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-325",
+      "domain": "Memory Continuity",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 326,
+      "container": "326_MEMORY_CONTINUITY_RECOVERY",
+      "file": "MEMORY_CONTINUITY_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-326",
+      "domain": "Memory Continuity",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 327,
+      "container": "327_MEMORY_CONTINUITY_GOVERNANCE",
+      "file": "MEMORY_CONTINUITY_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-327",
+      "domain": "Memory Continuity",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 328,
+      "container": "328_MEMORY_CONTINUITY_EVIDENCE",
+      "file": "MEMORY_CONTINUITY_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-328",
+      "domain": "Memory Continuity",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 329,
+      "container": "329_MEMORY_CONTINUITY_EXPORT",
+      "file": "MEMORY_CONTINUITY_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-329",
+      "domain": "Memory Continuity",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 330,
+      "container": "330_MEMORY_CONTINUITY_BRIDGE",
+      "file": "MEMORY_CONTINUITY_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-330",
+      "domain": "Memory Continuity",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 331,
+      "container": "331_PROJECT_CONTINUITY_MODEL",
+      "file": "PROJECT_CONTINUITY_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-331",
+      "domain": "Project Continuity",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 332,
+      "container": "332_PROJECT_CONTINUITY_REGISTRY",
+      "file": "PROJECT_CONTINUITY_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-332",
+      "domain": "Project Continuity",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 333,
+      "container": "333_PROJECT_CONTINUITY_POLICY",
+      "file": "PROJECT_CONTINUITY_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-333",
+      "domain": "Project Continuity",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 334,
+      "container": "334_PROJECT_CONTINUITY_LIFECYCLE",
+      "file": "PROJECT_CONTINUITY_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-334",
+      "domain": "Project Continuity",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 335,
+      "container": "335_PROJECT_CONTINUITY_VALIDATION",
+      "file": "PROJECT_CONTINUITY_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-335",
+      "domain": "Project Continuity",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 336,
+      "container": "336_PROJECT_CONTINUITY_RECOVERY",
+      "file": "PROJECT_CONTINUITY_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-336",
+      "domain": "Project Continuity",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 337,
+      "container": "337_PROJECT_CONTINUITY_GOVERNANCE",
+      "file": "PROJECT_CONTINUITY_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-337",
+      "domain": "Project Continuity",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 338,
+      "container": "338_PROJECT_CONTINUITY_EVIDENCE",
+      "file": "PROJECT_CONTINUITY_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-338",
+      "domain": "Project Continuity",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 339,
+      "container": "339_PROJECT_CONTINUITY_EXPORT",
+      "file": "PROJECT_CONTINUITY_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-339",
+      "domain": "Project Continuity",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 340,
+      "container": "340_PROJECT_CONTINUITY_BRIDGE",
+      "file": "PROJECT_CONTINUITY_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-340",
+      "domain": "Project Continuity",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 341,
+      "container": "341_TRANSFER_CONTINUITY_MODEL",
+      "file": "TRANSFER_CONTINUITY_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-341",
+      "domain": "Transfer Continuity",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 342,
+      "container": "342_TRANSFER_CONTINUITY_REGISTRY",
+      "file": "TRANSFER_CONTINUITY_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-342",
+      "domain": "Transfer Continuity",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 343,
+      "container": "343_TRANSFER_CONTINUITY_POLICY",
+      "file": "TRANSFER_CONTINUITY_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-343",
+      "domain": "Transfer Continuity",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 344,
+      "container": "344_TRANSFER_CONTINUITY_LIFECYCLE",
+      "file": "TRANSFER_CONTINUITY_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-344",
+      "domain": "Transfer Continuity",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 345,
+      "container": "345_TRANSFER_CONTINUITY_VALIDATION",
+      "file": "TRANSFER_CONTINUITY_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-345",
+      "domain": "Transfer Continuity",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 346,
+      "container": "346_TRANSFER_CONTINUITY_RECOVERY",
+      "file": "TRANSFER_CONTINUITY_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-346",
+      "domain": "Transfer Continuity",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 347,
+      "container": "347_TRANSFER_CONTINUITY_GOVERNANCE",
+      "file": "TRANSFER_CONTINUITY_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-347",
+      "domain": "Transfer Continuity",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 348,
+      "container": "348_TRANSFER_CONTINUITY_EVIDENCE",
+      "file": "TRANSFER_CONTINUITY_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-348",
+      "domain": "Transfer Continuity",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 349,
+      "container": "349_TRANSFER_CONTINUITY_EXPORT",
+      "file": "TRANSFER_CONTINUITY_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-349",
+      "domain": "Transfer Continuity",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 350,
+      "container": "350_TRANSFER_CONTINUITY_BRIDGE",
+      "file": "TRANSFER_CONTINUITY_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-350",
+      "domain": "Transfer Continuity",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 351,
+      "container": "351_RECOVERY_MODEL",
+      "file": "RECOVERY_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-351",
+      "domain": "Recovery",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 352,
+      "container": "352_RECOVERY_REGISTRY",
+      "file": "RECOVERY_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-352",
+      "domain": "Recovery",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 353,
+      "container": "353_RECOVERY_POLICY",
+      "file": "RECOVERY_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-353",
+      "domain": "Recovery",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 354,
+      "container": "354_RECOVERY_LIFECYCLE",
+      "file": "RECOVERY_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-354",
+      "domain": "Recovery",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 355,
+      "container": "355_RECOVERY_VALIDATION",
+      "file": "RECOVERY_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-355",
+      "domain": "Recovery",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 356,
+      "container": "356_RECOVERY_RECOVERY",
+      "file": "RECOVERY_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-356",
+      "domain": "Recovery",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 357,
+      "container": "357_RECOVERY_GOVERNANCE",
+      "file": "RECOVERY_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-357",
+      "domain": "Recovery",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 358,
+      "container": "358_RECOVERY_EVIDENCE",
+      "file": "RECOVERY_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-358",
+      "domain": "Recovery",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 359,
+      "container": "359_RECOVERY_EXPORT",
+      "file": "RECOVERY_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-359",
+      "domain": "Recovery",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 360,
+      "container": "360_RECOVERY_BRIDGE",
+      "file": "RECOVERY_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-360",
+      "domain": "Recovery",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 361,
+      "container": "361_ROLLBACK_MODEL",
+      "file": "ROLLBACK_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-361",
+      "domain": "Rollback",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 362,
+      "container": "362_ROLLBACK_REGISTRY",
+      "file": "ROLLBACK_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-362",
+      "domain": "Rollback",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 363,
+      "container": "363_ROLLBACK_POLICY",
+      "file": "ROLLBACK_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-363",
+      "domain": "Rollback",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 364,
+      "container": "364_ROLLBACK_LIFECYCLE",
+      "file": "ROLLBACK_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-364",
+      "domain": "Rollback",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 365,
+      "container": "365_ROLLBACK_VALIDATION",
+      "file": "ROLLBACK_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-365",
+      "domain": "Rollback",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 366,
+      "container": "366_ROLLBACK_RECOVERY",
+      "file": "ROLLBACK_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-366",
+      "domain": "Rollback",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 367,
+      "container": "367_ROLLBACK_GOVERNANCE",
+      "file": "ROLLBACK_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-367",
+      "domain": "Rollback",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 368,
+      "container": "368_ROLLBACK_EVIDENCE",
+      "file": "ROLLBACK_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-368",
+      "domain": "Rollback",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 369,
+      "container": "369_ROLLBACK_EXPORT",
+      "file": "ROLLBACK_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-369",
+      "domain": "Rollback",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 370,
+      "container": "370_ROLLBACK_BRIDGE",
+      "file": "ROLLBACK_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-370",
+      "domain": "Rollback",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 371,
+      "container": "371_ARCHIVE_MODEL",
+      "file": "ARCHIVE_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-371",
+      "domain": "Archive",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 372,
+      "container": "372_ARCHIVE_REGISTRY",
+      "file": "ARCHIVE_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-372",
+      "domain": "Archive",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 373,
+      "container": "373_ARCHIVE_POLICY",
+      "file": "ARCHIVE_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-373",
+      "domain": "Archive",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 374,
+      "container": "374_ARCHIVE_LIFECYCLE",
+      "file": "ARCHIVE_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-374",
+      "domain": "Archive",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 375,
+      "container": "375_ARCHIVE_VALIDATION",
+      "file": "ARCHIVE_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-375",
+      "domain": "Archive",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 376,
+      "container": "376_ARCHIVE_RECOVERY",
+      "file": "ARCHIVE_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-376",
+      "domain": "Archive",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 377,
+      "container": "377_ARCHIVE_GOVERNANCE",
+      "file": "ARCHIVE_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-377",
+      "domain": "Archive",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 378,
+      "container": "378_ARCHIVE_EVIDENCE",
+      "file": "ARCHIVE_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-378",
+      "domain": "Archive",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 379,
+      "container": "379_ARCHIVE_EXPORT",
+      "file": "ARCHIVE_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-379",
+      "domain": "Archive",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 380,
+      "container": "380_ARCHIVE_BRIDGE",
+      "file": "ARCHIVE_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-380",
+      "domain": "Archive",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 381,
+      "container": "381_EVIDENCE_MODEL",
+      "file": "EVIDENCE_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-381",
+      "domain": "Evidence",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 382,
+      "container": "382_EVIDENCE_REGISTRY",
+      "file": "EVIDENCE_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-382",
+      "domain": "Evidence",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 383,
+      "container": "383_EVIDENCE_POLICY",
+      "file": "EVIDENCE_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-383",
+      "domain": "Evidence",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 384,
+      "container": "384_EVIDENCE_LIFECYCLE",
+      "file": "EVIDENCE_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-384",
+      "domain": "Evidence",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 385,
+      "container": "385_EVIDENCE_VALIDATION",
+      "file": "EVIDENCE_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-385",
+      "domain": "Evidence",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 386,
+      "container": "386_EVIDENCE_RECOVERY",
+      "file": "EVIDENCE_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-386",
+      "domain": "Evidence",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 387,
+      "container": "387_EVIDENCE_GOVERNANCE",
+      "file": "EVIDENCE_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-387",
+      "domain": "Evidence",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 388,
+      "container": "388_EVIDENCE_EVIDENCE",
+      "file": "EVIDENCE_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-388",
+      "domain": "Evidence",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 389,
+      "container": "389_EVIDENCE_EXPORT",
+      "file": "EVIDENCE_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-389",
+      "domain": "Evidence",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 390,
+      "container": "390_EVIDENCE_BRIDGE",
+      "file": "EVIDENCE_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-390",
+      "domain": "Evidence",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 391,
+      "container": "391_AUDIT_MODEL",
+      "file": "AUDIT_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-391",
+      "domain": "Audit",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 392,
+      "container": "392_AUDIT_REGISTRY",
+      "file": "AUDIT_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-392",
+      "domain": "Audit",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 393,
+      "container": "393_AUDIT_POLICY",
+      "file": "AUDIT_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-393",
+      "domain": "Audit",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 394,
+      "container": "394_AUDIT_LIFECYCLE",
+      "file": "AUDIT_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-394",
+      "domain": "Audit",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 395,
+      "container": "395_AUDIT_VALIDATION",
+      "file": "AUDIT_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-395",
+      "domain": "Audit",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 396,
+      "container": "396_AUDIT_RECOVERY",
+      "file": "AUDIT_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-396",
+      "domain": "Audit",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 397,
+      "container": "397_AUDIT_GOVERNANCE",
+      "file": "AUDIT_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-397",
+      "domain": "Audit",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 398,
+      "container": "398_AUDIT_EVIDENCE",
+      "file": "AUDIT_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-398",
+      "domain": "Audit",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 399,
+      "container": "399_AUDIT_EXPORT",
+      "file": "AUDIT_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-399",
+      "domain": "Audit",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 400,
+      "container": "400_AUDIT_BRIDGE",
+      "file": "AUDIT_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-400",
+      "domain": "Audit",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 401,
+      "container": "401_APPROVAL_MODEL",
+      "file": "APPROVAL_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-401",
+      "domain": "Approval",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 402,
+      "container": "402_APPROVAL_REGISTRY",
+      "file": "APPROVAL_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-402",
+      "domain": "Approval",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 403,
+      "container": "403_APPROVAL_POLICY",
+      "file": "APPROVAL_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-403",
+      "domain": "Approval",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 404,
+      "container": "404_APPROVAL_LIFECYCLE",
+      "file": "APPROVAL_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-404",
+      "domain": "Approval",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 405,
+      "container": "405_APPROVAL_VALIDATION",
+      "file": "APPROVAL_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-405",
+      "domain": "Approval",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 406,
+      "container": "406_APPROVAL_RECOVERY",
+      "file": "APPROVAL_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-406",
+      "domain": "Approval",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 407,
+      "container": "407_APPROVAL_GOVERNANCE",
+      "file": "APPROVAL_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-407",
+      "domain": "Approval",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 408,
+      "container": "408_APPROVAL_EVIDENCE",
+      "file": "APPROVAL_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-408",
+      "domain": "Approval",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 409,
+      "container": "409_APPROVAL_EXPORT",
+      "file": "APPROVAL_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-409",
+      "domain": "Approval",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 410,
+      "container": "410_APPROVAL_BRIDGE",
+      "file": "APPROVAL_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-410",
+      "domain": "Approval",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 411,
+      "container": "411_POLICY_MODEL",
+      "file": "POLICY_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-411",
+      "domain": "Policy",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 412,
+      "container": "412_POLICY_REGISTRY",
+      "file": "POLICY_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-412",
+      "domain": "Policy",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 413,
+      "container": "413_POLICY_POLICY",
+      "file": "POLICY_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-413",
+      "domain": "Policy",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 414,
+      "container": "414_POLICY_LIFECYCLE",
+      "file": "POLICY_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-414",
+      "domain": "Policy",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 415,
+      "container": "415_POLICY_VALIDATION",
+      "file": "POLICY_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-415",
+      "domain": "Policy",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 416,
+      "container": "416_POLICY_RECOVERY",
+      "file": "POLICY_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-416",
+      "domain": "Policy",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 417,
+      "container": "417_POLICY_GOVERNANCE",
+      "file": "POLICY_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-417",
+      "domain": "Policy",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 418,
+      "container": "418_POLICY_EVIDENCE",
+      "file": "POLICY_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-418",
+      "domain": "Policy",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 419,
+      "container": "419_POLICY_EXPORT",
+      "file": "POLICY_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-419",
+      "domain": "Policy",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 420,
+      "container": "420_POLICY_BRIDGE",
+      "file": "POLICY_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-420",
+      "domain": "Policy",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 421,
+      "container": "421_GUARDIAN_MODEL",
+      "file": "GUARDIAN_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-421",
+      "domain": "Guardian",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 422,
+      "container": "422_GUARDIAN_REGISTRY",
+      "file": "GUARDIAN_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-422",
+      "domain": "Guardian",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 423,
+      "container": "423_GUARDIAN_POLICY",
+      "file": "GUARDIAN_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-423",
+      "domain": "Guardian",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 424,
+      "container": "424_GUARDIAN_LIFECYCLE",
+      "file": "GUARDIAN_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-424",
+      "domain": "Guardian",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 425,
+      "container": "425_GUARDIAN_VALIDATION",
+      "file": "GUARDIAN_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-425",
+      "domain": "Guardian",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 426,
+      "container": "426_GUARDIAN_RECOVERY",
+      "file": "GUARDIAN_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-426",
+      "domain": "Guardian",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 427,
+      "container": "427_GUARDIAN_GOVERNANCE",
+      "file": "GUARDIAN_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-427",
+      "domain": "Guardian",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 428,
+      "container": "428_GUARDIAN_EVIDENCE",
+      "file": "GUARDIAN_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-428",
+      "domain": "Guardian",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 429,
+      "container": "429_GUARDIAN_EXPORT",
+      "file": "GUARDIAN_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-429",
+      "domain": "Guardian",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 430,
+      "container": "430_GUARDIAN_BRIDGE",
+      "file": "GUARDIAN_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-430",
+      "domain": "Guardian",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 431,
+      "container": "431_RISK_MODEL",
+      "file": "RISK_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-431",
+      "domain": "Risk",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 432,
+      "container": "432_RISK_REGISTRY",
+      "file": "RISK_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-432",
+      "domain": "Risk",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 433,
+      "container": "433_RISK_POLICY",
+      "file": "RISK_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-433",
+      "domain": "Risk",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 434,
+      "container": "434_RISK_LIFECYCLE",
+      "file": "RISK_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-434",
+      "domain": "Risk",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 435,
+      "container": "435_RISK_VALIDATION",
+      "file": "RISK_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-435",
+      "domain": "Risk",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 436,
+      "container": "436_RISK_RECOVERY",
+      "file": "RISK_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-436",
+      "domain": "Risk",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 437,
+      "container": "437_RISK_GOVERNANCE",
+      "file": "RISK_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-437",
+      "domain": "Risk",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 438,
+      "container": "438_RISK_EVIDENCE",
+      "file": "RISK_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-438",
+      "domain": "Risk",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 439,
+      "container": "439_RISK_EXPORT",
+      "file": "RISK_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-439",
+      "domain": "Risk",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 440,
+      "container": "440_RISK_BRIDGE",
+      "file": "RISK_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-440",
+      "domain": "Risk",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 441,
+      "container": "441_GAP_MODEL",
+      "file": "GAP_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-441",
+      "domain": "Gap",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 442,
+      "container": "442_GAP_REGISTRY",
+      "file": "GAP_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-442",
+      "domain": "Gap",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 443,
+      "container": "443_GAP_POLICY",
+      "file": "GAP_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-443",
+      "domain": "Gap",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 444,
+      "container": "444_GAP_LIFECYCLE",
+      "file": "GAP_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-444",
+      "domain": "Gap",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 445,
+      "container": "445_GAP_VALIDATION",
+      "file": "GAP_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-445",
+      "domain": "Gap",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 446,
+      "container": "446_GAP_RECOVERY",
+      "file": "GAP_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-446",
+      "domain": "Gap",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 447,
+      "container": "447_GAP_GOVERNANCE",
+      "file": "GAP_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-447",
+      "domain": "Gap",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 448,
+      "container": "448_GAP_EVIDENCE",
+      "file": "GAP_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-448",
+      "domain": "Gap",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 449,
+      "container": "449_GAP_EXPORT",
+      "file": "GAP_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-449",
+      "domain": "Gap",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 450,
+      "container": "450_GAP_BRIDGE",
+      "file": "GAP_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-450",
+      "domain": "Gap",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 451,
+      "container": "451_BLOCKER_MODEL",
+      "file": "BLOCKER_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-451",
+      "domain": "Blocker",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 452,
+      "container": "452_BLOCKER_REGISTRY",
+      "file": "BLOCKER_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-452",
+      "domain": "Blocker",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 453,
+      "container": "453_BLOCKER_POLICY",
+      "file": "BLOCKER_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-453",
+      "domain": "Blocker",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 454,
+      "container": "454_BLOCKER_LIFECYCLE",
+      "file": "BLOCKER_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-454",
+      "domain": "Blocker",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 455,
+      "container": "455_BLOCKER_VALIDATION",
+      "file": "BLOCKER_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-455",
+      "domain": "Blocker",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 456,
+      "container": "456_BLOCKER_RECOVERY",
+      "file": "BLOCKER_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-456",
+      "domain": "Blocker",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 457,
+      "container": "457_BLOCKER_GOVERNANCE",
+      "file": "BLOCKER_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-457",
+      "domain": "Blocker",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 458,
+      "container": "458_BLOCKER_EVIDENCE",
+      "file": "BLOCKER_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-458",
+      "domain": "Blocker",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 459,
+      "container": "459_BLOCKER_EXPORT",
+      "file": "BLOCKER_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-459",
+      "domain": "Blocker",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 460,
+      "container": "460_BLOCKER_BRIDGE",
+      "file": "BLOCKER_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-460",
+      "domain": "Blocker",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 461,
+      "container": "461_DECISION_MODEL",
+      "file": "DECISION_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-461",
+      "domain": "Decision",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 462,
+      "container": "462_DECISION_REGISTRY",
+      "file": "DECISION_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-462",
+      "domain": "Decision",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 463,
+      "container": "463_DECISION_POLICY",
+      "file": "DECISION_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-463",
+      "domain": "Decision",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 464,
+      "container": "464_DECISION_LIFECYCLE",
+      "file": "DECISION_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-464",
+      "domain": "Decision",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 465,
+      "container": "465_DECISION_VALIDATION",
+      "file": "DECISION_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-465",
+      "domain": "Decision",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 466,
+      "container": "466_DECISION_RECOVERY",
+      "file": "DECISION_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-466",
+      "domain": "Decision",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 467,
+      "container": "467_DECISION_GOVERNANCE",
+      "file": "DECISION_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-467",
+      "domain": "Decision",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 468,
+      "container": "468_DECISION_EVIDENCE",
+      "file": "DECISION_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-468",
+      "domain": "Decision",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 469,
+      "container": "469_DECISION_EXPORT",
+      "file": "DECISION_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-469",
+      "domain": "Decision",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 470,
+      "container": "470_DECISION_BRIDGE",
+      "file": "DECISION_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-470",
+      "domain": "Decision",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 471,
+      "container": "471_RULE_MODEL",
+      "file": "RULE_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-471",
+      "domain": "Rule",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 472,
+      "container": "472_RULE_REGISTRY",
+      "file": "RULE_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-472",
+      "domain": "Rule",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 473,
+      "container": "473_RULE_POLICY",
+      "file": "RULE_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-473",
+      "domain": "Rule",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 474,
+      "container": "474_RULE_LIFECYCLE",
+      "file": "RULE_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-474",
+      "domain": "Rule",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 475,
+      "container": "475_RULE_VALIDATION",
+      "file": "RULE_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-475",
+      "domain": "Rule",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 476,
+      "container": "476_RULE_RECOVERY",
+      "file": "RULE_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-476",
+      "domain": "Rule",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 477,
+      "container": "477_RULE_GOVERNANCE",
+      "file": "RULE_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-477",
+      "domain": "Rule",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 478,
+      "container": "478_RULE_EVIDENCE",
+      "file": "RULE_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-478",
+      "domain": "Rule",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 479,
+      "container": "479_RULE_EXPORT",
+      "file": "RULE_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-479",
+      "domain": "Rule",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 480,
+      "container": "480_RULE_BRIDGE",
+      "file": "RULE_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-480",
+      "domain": "Rule",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 481,
+      "container": "481_STANDARD_MODEL",
+      "file": "STANDARD_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-481",
+      "domain": "Standard",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 482,
+      "container": "482_STANDARD_REGISTRY",
+      "file": "STANDARD_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-482",
+      "domain": "Standard",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 483,
+      "container": "483_STANDARD_POLICY",
+      "file": "STANDARD_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-483",
+      "domain": "Standard",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 484,
+      "container": "484_STANDARD_LIFECYCLE",
+      "file": "STANDARD_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-484",
+      "domain": "Standard",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 485,
+      "container": "485_STANDARD_VALIDATION",
+      "file": "STANDARD_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-485",
+      "domain": "Standard",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 486,
+      "container": "486_STANDARD_RECOVERY",
+      "file": "STANDARD_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-486",
+      "domain": "Standard",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 487,
+      "container": "487_STANDARD_GOVERNANCE",
+      "file": "STANDARD_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-487",
+      "domain": "Standard",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 488,
+      "container": "488_STANDARD_EVIDENCE",
+      "file": "STANDARD_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-488",
+      "domain": "Standard",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 489,
+      "container": "489_STANDARD_EXPORT",
+      "file": "STANDARD_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-489",
+      "domain": "Standard",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 490,
+      "container": "490_STANDARD_BRIDGE",
+      "file": "STANDARD_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-490",
+      "domain": "Standard",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 491,
+      "container": "491_DIRECTIVE_MODEL",
+      "file": "DIRECTIVE_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-491",
+      "domain": "Directive",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 492,
+      "container": "492_DIRECTIVE_REGISTRY",
+      "file": "DIRECTIVE_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-492",
+      "domain": "Directive",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 493,
+      "container": "493_DIRECTIVE_POLICY",
+      "file": "DIRECTIVE_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-493",
+      "domain": "Directive",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 494,
+      "container": "494_DIRECTIVE_LIFECYCLE",
+      "file": "DIRECTIVE_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-494",
+      "domain": "Directive",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 495,
+      "container": "495_DIRECTIVE_VALIDATION",
+      "file": "DIRECTIVE_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-495",
+      "domain": "Directive",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 496,
+      "container": "496_DIRECTIVE_RECOVERY",
+      "file": "DIRECTIVE_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-496",
+      "domain": "Directive",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 497,
+      "container": "497_DIRECTIVE_GOVERNANCE",
+      "file": "DIRECTIVE_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-497",
+      "domain": "Directive",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 498,
+      "container": "498_DIRECTIVE_EVIDENCE",
+      "file": "DIRECTIVE_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-498",
+      "domain": "Directive",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 499,
+      "container": "499_DIRECTIVE_EXPORT",
+      "file": "DIRECTIVE_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-499",
+      "domain": "Directive",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 500,
+      "container": "500_DIRECTIVE_BRIDGE",
+      "file": "DIRECTIVE_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-500",
+      "domain": "Directive",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 501,
+      "container": "501_MANIFEST_MODEL",
+      "file": "MANIFEST_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-501",
+      "domain": "Manifest",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 502,
+      "container": "502_MANIFEST_REGISTRY",
+      "file": "MANIFEST_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-502",
+      "domain": "Manifest",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 503,
+      "container": "503_MANIFEST_POLICY",
+      "file": "MANIFEST_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-503",
+      "domain": "Manifest",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 504,
+      "container": "504_MANIFEST_LIFECYCLE",
+      "file": "MANIFEST_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-504",
+      "domain": "Manifest",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 505,
+      "container": "505_MANIFEST_VALIDATION",
+      "file": "MANIFEST_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-505",
+      "domain": "Manifest",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 506,
+      "container": "506_MANIFEST_RECOVERY",
+      "file": "MANIFEST_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-506",
+      "domain": "Manifest",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 507,
+      "container": "507_MANIFEST_GOVERNANCE",
+      "file": "MANIFEST_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-507",
+      "domain": "Manifest",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 508,
+      "container": "508_MANIFEST_EVIDENCE",
+      "file": "MANIFEST_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-508",
+      "domain": "Manifest",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 509,
+      "container": "509_MANIFEST_EXPORT",
+      "file": "MANIFEST_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-509",
+      "domain": "Manifest",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 510,
+      "container": "510_MANIFEST_BRIDGE",
+      "file": "MANIFEST_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-510",
+      "domain": "Manifest",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 511,
+      "container": "511_REGISTRY_MODEL",
+      "file": "REGISTRY_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-511",
+      "domain": "Registry",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 512,
+      "container": "512_REGISTRY_REGISTRY",
+      "file": "REGISTRY_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-512",
+      "domain": "Registry",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 513,
+      "container": "513_REGISTRY_POLICY",
+      "file": "REGISTRY_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-513",
+      "domain": "Registry",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 514,
+      "container": "514_REGISTRY_LIFECYCLE",
+      "file": "REGISTRY_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-514",
+      "domain": "Registry",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 515,
+      "container": "515_REGISTRY_VALIDATION",
+      "file": "REGISTRY_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-515",
+      "domain": "Registry",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 516,
+      "container": "516_REGISTRY_RECOVERY",
+      "file": "REGISTRY_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-516",
+      "domain": "Registry",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 517,
+      "container": "517_REGISTRY_GOVERNANCE",
+      "file": "REGISTRY_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-517",
+      "domain": "Registry",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 518,
+      "container": "518_REGISTRY_EVIDENCE",
+      "file": "REGISTRY_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-518",
+      "domain": "Registry",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 519,
+      "container": "519_REGISTRY_EXPORT",
+      "file": "REGISTRY_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-519",
+      "domain": "Registry",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 520,
+      "container": "520_REGISTRY_BRIDGE",
+      "file": "REGISTRY_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-520",
+      "domain": "Registry",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 521,
+      "container": "521_LINEAGE_MODEL",
+      "file": "LINEAGE_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-521",
+      "domain": "Lineage",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 522,
+      "container": "522_LINEAGE_REGISTRY",
+      "file": "LINEAGE_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-522",
+      "domain": "Lineage",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 523,
+      "container": "523_LINEAGE_POLICY",
+      "file": "LINEAGE_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-523",
+      "domain": "Lineage",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 524,
+      "container": "524_LINEAGE_LIFECYCLE",
+      "file": "LINEAGE_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-524",
+      "domain": "Lineage",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 525,
+      "container": "525_LINEAGE_VALIDATION",
+      "file": "LINEAGE_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-525",
+      "domain": "Lineage",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 526,
+      "container": "526_LINEAGE_RECOVERY",
+      "file": "LINEAGE_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-526",
+      "domain": "Lineage",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 527,
+      "container": "527_LINEAGE_GOVERNANCE",
+      "file": "LINEAGE_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-527",
+      "domain": "Lineage",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 528,
+      "container": "528_LINEAGE_EVIDENCE",
+      "file": "LINEAGE_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-528",
+      "domain": "Lineage",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 529,
+      "container": "529_LINEAGE_EXPORT",
+      "file": "LINEAGE_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-529",
+      "domain": "Lineage",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 530,
+      "container": "530_LINEAGE_BRIDGE",
+      "file": "LINEAGE_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-530",
+      "domain": "Lineage",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 531,
+      "container": "531_NAMESPACE_MODEL",
+      "file": "NAMESPACE_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-531",
+      "domain": "Namespace",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 532,
+      "container": "532_NAMESPACE_REGISTRY",
+      "file": "NAMESPACE_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-532",
+      "domain": "Namespace",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 533,
+      "container": "533_NAMESPACE_POLICY",
+      "file": "NAMESPACE_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-533",
+      "domain": "Namespace",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 534,
+      "container": "534_NAMESPACE_LIFECYCLE",
+      "file": "NAMESPACE_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-534",
+      "domain": "Namespace",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 535,
+      "container": "535_NAMESPACE_VALIDATION",
+      "file": "NAMESPACE_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-535",
+      "domain": "Namespace",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 536,
+      "container": "536_NAMESPACE_RECOVERY",
+      "file": "NAMESPACE_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-536",
+      "domain": "Namespace",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 537,
+      "container": "537_NAMESPACE_GOVERNANCE",
+      "file": "NAMESPACE_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-537",
+      "domain": "Namespace",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 538,
+      "container": "538_NAMESPACE_EVIDENCE",
+      "file": "NAMESPACE_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-538",
+      "domain": "Namespace",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 539,
+      "container": "539_NAMESPACE_EXPORT",
+      "file": "NAMESPACE_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-539",
+      "domain": "Namespace",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 540,
+      "container": "540_NAMESPACE_BRIDGE",
+      "file": "NAMESPACE_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-540",
+      "domain": "Namespace",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 541,
+      "container": "541_SCHEMA_MODEL",
+      "file": "SCHEMA_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-541",
+      "domain": "Schema",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 542,
+      "container": "542_SCHEMA_REGISTRY",
+      "file": "SCHEMA_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-542",
+      "domain": "Schema",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 543,
+      "container": "543_SCHEMA_POLICY",
+      "file": "SCHEMA_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-543",
+      "domain": "Schema",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 544,
+      "container": "544_SCHEMA_LIFECYCLE",
+      "file": "SCHEMA_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-544",
+      "domain": "Schema",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 545,
+      "container": "545_SCHEMA_VALIDATION",
+      "file": "SCHEMA_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-545",
+      "domain": "Schema",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 546,
+      "container": "546_SCHEMA_RECOVERY",
+      "file": "SCHEMA_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-546",
+      "domain": "Schema",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 547,
+      "container": "547_SCHEMA_GOVERNANCE",
+      "file": "SCHEMA_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-547",
+      "domain": "Schema",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 548,
+      "container": "548_SCHEMA_EVIDENCE",
+      "file": "SCHEMA_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-548",
+      "domain": "Schema",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 549,
+      "container": "549_SCHEMA_EXPORT",
+      "file": "SCHEMA_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-549",
+      "domain": "Schema",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 550,
+      "container": "550_SCHEMA_BRIDGE",
+      "file": "SCHEMA_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-550",
+      "domain": "Schema",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 551,
+      "container": "551_OBJECT_GRAPH_MODEL",
+      "file": "OBJECT_GRAPH_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-551",
+      "domain": "Object Graph",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 552,
+      "container": "552_OBJECT_GRAPH_REGISTRY",
+      "file": "OBJECT_GRAPH_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-552",
+      "domain": "Object Graph",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 553,
+      "container": "553_OBJECT_GRAPH_POLICY",
+      "file": "OBJECT_GRAPH_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-553",
+      "domain": "Object Graph",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 554,
+      "container": "554_OBJECT_GRAPH_LIFECYCLE",
+      "file": "OBJECT_GRAPH_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-554",
+      "domain": "Object Graph",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 555,
+      "container": "555_OBJECT_GRAPH_VALIDATION",
+      "file": "OBJECT_GRAPH_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-555",
+      "domain": "Object Graph",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 556,
+      "container": "556_OBJECT_GRAPH_RECOVERY",
+      "file": "OBJECT_GRAPH_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-556",
+      "domain": "Object Graph",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 557,
+      "container": "557_OBJECT_GRAPH_GOVERNANCE",
+      "file": "OBJECT_GRAPH_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-557",
+      "domain": "Object Graph",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 558,
+      "container": "558_OBJECT_GRAPH_EVIDENCE",
+      "file": "OBJECT_GRAPH_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-558",
+      "domain": "Object Graph",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 559,
+      "container": "559_OBJECT_GRAPH_EXPORT",
+      "file": "OBJECT_GRAPH_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-559",
+      "domain": "Object Graph",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 560,
+      "container": "560_OBJECT_GRAPH_BRIDGE",
+      "file": "OBJECT_GRAPH_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-560",
+      "domain": "Object Graph",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 561,
+      "container": "561_RELATIONSHIP_GRAPH_MODEL",
+      "file": "RELATIONSHIP_GRAPH_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-561",
+      "domain": "Relationship Graph",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 562,
+      "container": "562_RELATIONSHIP_GRAPH_REGISTRY",
+      "file": "RELATIONSHIP_GRAPH_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-562",
+      "domain": "Relationship Graph",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 563,
+      "container": "563_RELATIONSHIP_GRAPH_POLICY",
+      "file": "RELATIONSHIP_GRAPH_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-563",
+      "domain": "Relationship Graph",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 564,
+      "container": "564_RELATIONSHIP_GRAPH_LIFECYCLE",
+      "file": "RELATIONSHIP_GRAPH_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-564",
+      "domain": "Relationship Graph",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 565,
+      "container": "565_RELATIONSHIP_GRAPH_VALIDATION",
+      "file": "RELATIONSHIP_GRAPH_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-565",
+      "domain": "Relationship Graph",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 566,
+      "container": "566_RELATIONSHIP_GRAPH_RECOVERY",
+      "file": "RELATIONSHIP_GRAPH_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-566",
+      "domain": "Relationship Graph",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 567,
+      "container": "567_RELATIONSHIP_GRAPH_GOVERNANCE",
+      "file": "RELATIONSHIP_GRAPH_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-567",
+      "domain": "Relationship Graph",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 568,
+      "container": "568_RELATIONSHIP_GRAPH_EVIDENCE",
+      "file": "RELATIONSHIP_GRAPH_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-568",
+      "domain": "Relationship Graph",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 569,
+      "container": "569_RELATIONSHIP_GRAPH_EXPORT",
+      "file": "RELATIONSHIP_GRAPH_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-569",
+      "domain": "Relationship Graph",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 570,
+      "container": "570_RELATIONSHIP_GRAPH_BRIDGE",
+      "file": "RELATIONSHIP_GRAPH_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-570",
+      "domain": "Relationship Graph",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 571,
+      "container": "571_DEPENDENCY_GRAPH_MODEL",
+      "file": "DEPENDENCY_GRAPH_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-571",
+      "domain": "Dependency Graph",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 572,
+      "container": "572_DEPENDENCY_GRAPH_REGISTRY",
+      "file": "DEPENDENCY_GRAPH_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-572",
+      "domain": "Dependency Graph",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 573,
+      "container": "573_DEPENDENCY_GRAPH_POLICY",
+      "file": "DEPENDENCY_GRAPH_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-573",
+      "domain": "Dependency Graph",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 574,
+      "container": "574_DEPENDENCY_GRAPH_LIFECYCLE",
+      "file": "DEPENDENCY_GRAPH_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-574",
+      "domain": "Dependency Graph",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 575,
+      "container": "575_DEPENDENCY_GRAPH_VALIDATION",
+      "file": "DEPENDENCY_GRAPH_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-575",
+      "domain": "Dependency Graph",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 576,
+      "container": "576_DEPENDENCY_GRAPH_RECOVERY",
+      "file": "DEPENDENCY_GRAPH_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-576",
+      "domain": "Dependency Graph",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 577,
+      "container": "577_DEPENDENCY_GRAPH_GOVERNANCE",
+      "file": "DEPENDENCY_GRAPH_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-577",
+      "domain": "Dependency Graph",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 578,
+      "container": "578_DEPENDENCY_GRAPH_EVIDENCE",
+      "file": "DEPENDENCY_GRAPH_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-578",
+      "domain": "Dependency Graph",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 579,
+      "container": "579_DEPENDENCY_GRAPH_EXPORT",
+      "file": "DEPENDENCY_GRAPH_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-579",
+      "domain": "Dependency Graph",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 580,
+      "container": "580_DEPENDENCY_GRAPH_BRIDGE",
+      "file": "DEPENDENCY_GRAPH_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-580",
+      "domain": "Dependency Graph",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 581,
+      "container": "581_KNOWLEDGE_GRAPH_MODEL",
+      "file": "KNOWLEDGE_GRAPH_MODEL.md",
+      "domainId": "LUMEN-DOMAIN-581",
+      "domain": "Knowledge Graph",
+      "aspect": "Model",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 582,
+      "container": "582_KNOWLEDGE_GRAPH_REGISTRY",
+      "file": "KNOWLEDGE_GRAPH_REGISTRY.md",
+      "domainId": "LUMEN-DOMAIN-582",
+      "domain": "Knowledge Graph",
+      "aspect": "Registry",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 583,
+      "container": "583_KNOWLEDGE_GRAPH_POLICY",
+      "file": "KNOWLEDGE_GRAPH_POLICY.md",
+      "domainId": "LUMEN-DOMAIN-583",
+      "domain": "Knowledge Graph",
+      "aspect": "Policy",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 584,
+      "container": "584_KNOWLEDGE_GRAPH_LIFECYCLE",
+      "file": "KNOWLEDGE_GRAPH_LIFECYCLE.md",
+      "domainId": "LUMEN-DOMAIN-584",
+      "domain": "Knowledge Graph",
+      "aspect": "Lifecycle",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 585,
+      "container": "585_KNOWLEDGE_GRAPH_VALIDATION",
+      "file": "KNOWLEDGE_GRAPH_VALIDATION.md",
+      "domainId": "LUMEN-DOMAIN-585",
+      "domain": "Knowledge Graph",
+      "aspect": "Validation",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 586,
+      "container": "586_KNOWLEDGE_GRAPH_RECOVERY",
+      "file": "KNOWLEDGE_GRAPH_RECOVERY.md",
+      "domainId": "LUMEN-DOMAIN-586",
+      "domain": "Knowledge Graph",
+      "aspect": "Recovery",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 587,
+      "container": "587_KNOWLEDGE_GRAPH_GOVERNANCE",
+      "file": "KNOWLEDGE_GRAPH_GOVERNANCE.md",
+      "domainId": "LUMEN-DOMAIN-587",
+      "domain": "Knowledge Graph",
+      "aspect": "Governance",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 588,
+      "container": "588_KNOWLEDGE_GRAPH_EVIDENCE",
+      "file": "KNOWLEDGE_GRAPH_EVIDENCE.md",
+      "domainId": "LUMEN-DOMAIN-588",
+      "domain": "Knowledge Graph",
+      "aspect": "Evidence",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 589,
+      "container": "589_KNOWLEDGE_GRAPH_EXPORT",
+      "file": "KNOWLEDGE_GRAPH_EXPORT.md",
+      "domainId": "LUMEN-DOMAIN-589",
+      "domain": "Knowledge Graph",
+      "aspect": "Export",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    },
+    {
+      "containerNumber": 590,
+      "container": "590_KNOWLEDGE_GRAPH_BRIDGE",
+      "file": "KNOWLEDGE_GRAPH_BRIDGE.md",
+      "domainId": "LUMEN-DOMAIN-590",
+      "domain": "Knowledge Graph",
+      "aspect": "Bridge",
+      "status": "Canonical Direction",
+      "rule": "Additive preservation-first Lumen ecosystem expansion"
+    }
+  ],
+  "hardCodedRules": [
+    "Lumen users may access through OS, website, Vault-mediated flows, ChatGPT/OpenAI bridge, or future native AI.",
+    "Website-only Lumen users are first-class users.",
+    "Identity, authorization, entitlements, Vault records, and recovery must connect across channels.",
+    "OpenAI/ChatGPT is bridge/adaptor, not final authority.",
+    "Future native replacement must preserve continuity.",
+    "No access path may bypass applicable Vault, entitlement, authorization, consent, or security governance.",
+    "Preservation-first and additive-first apply to everything.",
+    "No scaffolds, placeholders, or fake final systems for live/final builds."
+  ]
+}

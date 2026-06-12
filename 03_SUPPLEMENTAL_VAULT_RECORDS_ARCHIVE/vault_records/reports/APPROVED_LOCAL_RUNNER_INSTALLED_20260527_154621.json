@@ -1,0 +1,12 @@
+{
+    "scheduledTask":  "BrianCoApprovedLocalRunner",
+    "note":  "Drop reviewed .ps1 files into the inbox folder. The runner scans, blocks protected terms, copies approved scripts, runs them, and logs results.",
+    "createdAt":  "2026-05-27T15:46:23.2374446-06:00",
+    "runner":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\approved_local_runner\\BRIANCO_APPROVED_LOCAL_RUNNER.ps1",
+    "protectedSystemsTouched":  false,
+    "ranLogs":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\approved_local_runner\\04_RAN_LOGS",
+    "rejected":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\approved_local_runner\\03_REJECTED_PROTECTED",
+    "inbox":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\approved_local_runner\\01_DROP_APPROVED_PS1_HERE",
+    "ok":  true,
+    "approved":  "C:\\Users\\user\\brianco-backend-clean\\_brianco_safe_overlay\\approved_local_runner\\02_APPROVED_TO_RUN"
+}

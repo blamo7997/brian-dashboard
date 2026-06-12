@@ -1,0 +1,7 @@
+LUMEN GUIDED EXPERIENCE STUDIO
+Created: 2026-06-08T12:38:18.193Z
+Type: tutorial_blueprint
+Title: How to use Vault
+Vault File: tutorial-blueprints.json
+Deleted files: 0
+Secrets exposed: NO
