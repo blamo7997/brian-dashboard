@@ -9,6 +9,11 @@ This package preserves the uploaded repository lineage without flattening or ove
 3. Supplemental vault/evidence archive: `03_SUPPLEMENTAL_VAULT_RECORDS_ARCHIVE`.
 4. Protected proof transfer: `04_SUPPLEMENTAL_PROTECTED_PROOF_TRANSFER`.
 5. Original ZIPs are retained unchanged in `00_ORIGINAL_UPLOADED_PACKAGES_DO_NOT_EDIT`.
+6. Active Windows automation uses PowerShell 7.6.2 through `pwsh`; do not run active Lumen scripts with Windows PowerShell 5.1.
+
+## Runtime gate
+
+Run `pwsh -NoProfile -ExecutionPolicy Bypass -File .\VERIFY_POWERSHELL_7_6_2.ps1` before active repository automation. Historical vault records may mention older PowerShell versions as preserved evidence; those records are not active runtime guidance.
 
 ## Next repository phase
 
