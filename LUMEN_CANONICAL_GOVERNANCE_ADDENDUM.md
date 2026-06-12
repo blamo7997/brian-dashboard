@@ -338,3 +338,77 @@ No liability limitation may be treated as absolute unless reviewed and approved 
 Localized law, consumer protection rules, accessibility law, privacy law, data protection law, product safety law, employment/enterprise policy, medical/safety-critical rules, platform rules, payment/financing rules, and mandatory non-waivable rights must be detected, respected, and routed to legal approval where required.
 
 Lumen must preserve the founder's Wyoming-law preference and maximum-lawful-liability-limitation preference in repository/Vault governance, but final public legal language must remain approval-gated and jurisdiction-aware.
+
+## Form Fidelity + Universal Format Handling Rule
+
+When a user needs a form, document, media file, code file, music file, image, video, archive, dataset, or any other input/output format, Lumen must preserve the original format, layout, structure, and evidence unless the user explicitly authorizes a change.
+
+If a form cannot be completed online, Lumen must provide an editable Lumen-managed version while preserving the received layout and must export back to the original format unless the user requests another format.
+
+Lumen must understand, analyze, and route any supplied media or file format through repository/Vault governance. If a format is unknown, Lumen must use vetted and verified sources to identify the format, compare similar formats, store the findings in repository or Vault, support the requested output where lawful and feasible, and create a Lumen-native equivalent standard when appropriate.
+
+No format conversion may silently remove required metadata, legal markings, signatures, accessibility structure, embedded evidence, form fields, layout fidelity, or user intent.
+
+## Native Cloud Service Replacement + Limited External Dependency Rule
+
+Lumen's target architecture is a Lumen-native cloud, repository, identity, storage, AI, automation, deployment, browser, workspace, and collaboration service that can eventually replace GitHub, Cloudflare, Supabase, OpenAI, ChatGPT, Google Workspace, Microsoft 365, and other dependency services where technically, legally, financially, and operationally feasible.
+
+Until Lumen-native replacements are complete, external services may be used only as necessary bridge layers with least-privilege access, explicit configuration, repository/Vault lineage, proof records, rollback planning, security review, cost review, and replacement tracking.
+
+GitHub, Cloudflare, Supabase, OpenAI, ChatGPT, payment providers, financing providers, shipping providers, email providers, browser providers, and workspace providers must receive only the minimum access necessary for the authorized task.
+
+Lumen must continuously scan vetted and verified sources for better options, missing features, user-requested features, fake-review signals, competitor limits, pricing changes, privacy/security changes, accessibility/localization gaps, and native replacement opportunities. Verified findings must become repository/Vault records and replacement-roadmap items.
+
+Users should not be forced outside Lumen for setup, downloads, documents, forms, payments, account creation, updates, or feature access when Lumen can lawfully and safely provide the flow inside Lumen.
+
+## Inside-Lumen Browser Download Login + Device Linking Rule
+
+Lumen must provide a governed Lumen browser/workspace experience where downloads, add-ons, account creation, login, QR-style linking, cross-device continuation, password reset, email login, Apple/Google login where authorized, and future device-linking methods remain inside Lumen as much as technically and legally feasible.
+
+QR codes and successor device-linking mechanisms must be clear, device-adaptive, accessibility-aware, secure, phishing-resistant, expiring where appropriate, and easier to scan/use than ordinary baselines. Lumen must research and develop better-than-QR native linking methods where feasible.
+
+No browser extension, workspace mode, or installed Lumen runtime should require users to clear cache, hard refresh, manually reload, or leave Lumen to recover normal operation unless a higher-authority platform limitation requires it.
+
+## White Glove Commerce Marketplace Supplier Creator Rule
+
+Lumen commerce must support white-glove service, physical product discovery, premium but competitive pricing, localized market checks, supplier/drop-shipper routing, creator/artisan/influencer participation, product bundles, membership tiers, a la carte purchases, unlocks/upgrades, reminders, wishlists, abandoned-cart recovery, real-time tracking, progress media, and user-specific recommendations.
+
+All commerce guidance must be ethical, truthful, non-manipulative, culturally appropriate, localized, accessible, and aligned with the founder brand and tone. Lumen must guide users toward fitting products and services without casino-like tactics, pressure, hidden manipulation, or exploitation of health, age, income, culture, social class, disability, or vulnerability.
+
+Supplier, drop-shipper, artisan, creator, influencer, financing, payment, customs, duties, tax, return, refund, tracking, non-refundable custom-work, progress-photo/video, and warranty terms must be presented clearly in the user's appropriate language and localized context before purchase or commitment.
+
+Custom work may be governed as non-refundable after work begins only when the policy is clearly disclosed, legally permitted, supplier/provider-confirmed, user-acknowledged, and preserved in proof records.
+
+Payments may use PayPal and other approved providers as bridge layers. Payment fees, credit-card costs, taxes, duties, financing costs, supplier costs, margins, and localized obligations must be modeled and disclosed as required by law. Any hidden-in-price cost handling must remain lawful, auditable, and approval-gated.
+
+Supplier, creator, influencer, and artisan content may be adapted to Lumen tone and brand only with appropriate rights, permissions, disclosures, and provenance. Their stories may be encouraged and preserved, but user-facing content must remain truthful, non-deceptive, source-traceable, and compliant with advertising/endorsement disclosure requirements.
+
+Creators and influencers must provide URLs, images, videos, disclosures, and rights/permission evidence as appropriate. Sponsored, affiliate, compensated, or materially connected recommendations must be disclosed in a clear and hard-to-miss way according to applicable law and platform rules.
+
+## Approval Dot Legal Signature Metrics Rule
+
+Lumen approvals must support red, yellow, and green status signaling:
+
+* red means not approved or blocked
+* yellow means review, feedback, or conditional approval is needed
+* green means approved by the authorized role
+
+When a green approval is intended to operate as a legal signature, Lumen must route it through a qualified electronic signature provider or approved Lumen-native signature system once legally validated. Signature flows must preserve identity, authority, timestamp, consent, document version, audit trail, jurisdiction, role, and repository/Vault lineage.
+
+Investor, banker, lawyer, founder, supplier, creator, influencer, customer, and internal approval workflows must expose only the information appropriate to that role and must be permissioned, auditable, reversible where feasible, and proof-recorded.
+
+Metrics, dashboards, approval states, user feedback, complaints, wants, needs, role levels, and portal views must be stored in repository or Vault as appropriate with consent, localization, access control, and founder-private protection.
+
+## Dynamic Legal Policy Localization Rule
+
+Privacy policies, terms of service, cookie prompts, supplier terms, creator terms, influencer disclosures, financing disclosures, return/refund policies, custom-work terms, account/login consent, tracking consent, hardware/firmware permissions, user data controls, and accessibility notices must dynamically localize to the user's jurisdiction, role, language, culture, device, and transaction context.
+
+Policy text may be generated, adapted, or routed by Lumen, but final public legal language must be lawyer/authorized-approval gated where required. Lumen must preserve Wyoming-law and maximum-lawful-liability-limitation preferences while respecting non-waivable local rights and mandatory disclosures.
+
+## Premium One-To-Three-Click Seamless Flow Rule
+
+Lumen must minimize unnecessary clicks and steps. The target is one click where feasible and no more than three clicks for common user tasks unless security, consent, accessibility, legal, payment, medical, financial, or platform requirements require more.
+
+Cart, checkout, login, upgrade, unlock, financing, product reminder, tracking, support, form completion, file conversion, dashboard, portal, and content workflows should feel inside Lumen and should use Lumen chat/concierge guidance where appropriate instead of generic disconnected buttons and external detours.
+
+Seamlessness must never override consent, safety, legal disclosures, accessibility, fraud protection, payment security, identity verification, or user control.
