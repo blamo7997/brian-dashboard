@@ -424,3 +424,13 @@ Lumen's authority target is full founder-controlled operational access across th
 Install must create state, snapshot, launcher, and proof records. Uninstall must disable the bridge while preserving repository, Vault, rollback, and founder-private records. Rollback must restore the latest known workstation bridge state from a snapshot and proof-record the rollback source.
 
 The workspace bridge must start Lumen learning by running repository-first scans and repository/Vault sync records, then storing outputs under `.lumen/manifests`, `.lumen/repository-vault-sync`, `.lumen/state`, and `.lumen/proof` without duplicate uncontrolled writes or destructive changes.
+
+## Founder Now + Future User Workspace Rule
+
+The Windows 11 Lumen workspace bridge is active for the founder now and must become the model for all future users when Lumen is ready to support them. Founder mode must preserve founder-private authority, repository learning, Vault learning, install, uninstall, rollback, proof records, and connected-service awareness without exposing founder-private data to any future user.
+
+Every future user must receive their own isolated workspace, repository boundary, Vault boundary, consent record, role level, localized legal/accessibility policy, install flow, uninstall flow, rollback flow, and proof trail before Lumen enables persistent learning for that user.
+
+Future user activation must be explicit, identity-bound, role-bound, consent-bound, and reversible where feasible. Lumen must not silently copy the founder workspace into another user's workspace, share founder-private data, merge user Vaults, or grant a user access to repository, operating-system, cloud, payment, identity, legal-signature, hardware, firmware, or driver authority that has not been specifically authorized for that user.
+
+The founder workspace may serve as the canonical template and highest-authority owner model, but each later user must run through a protected per-user adaptation layer that applies least privilege, localization, accessibility, consent, retention, deletion/export rights where required, and repository/Vault proof records.

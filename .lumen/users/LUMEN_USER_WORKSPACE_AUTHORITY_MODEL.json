@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-06-12T01:05:35.5486281-06:00",
+  "founderActiveNow": true,
+  "founderRole": "founder-private-owner",
+  "founderWorkspace": "active-local-windows-11-workspace-bridge",
+  "futureUsersEnabledWhenReady": true,
+  "userWorkspaceTemplate": "isolated-authorized-per-user-workspace",
+  "userIsolationRequired": true,
+  "perUserVaultRequired": true,
+  "perUserRepositoryRequired": true,
+  "perUserConsentRequired": true,
+  "perUserInstallUninstallRollbackRequired": true,
+  "founderPrivateNeverShared": true,
+  "externalAuthorityRequiresExplicitAuthorization": true,
+  "allowedNow": [
+    "founder local repository learning",
+    "founder local vault learning",
+    "founder proof generation",
+    "founder Windows 11 workspace bridge start/install/uninstall/rollback"
+  ],
+  "futureUserActivationRequirements": [
+    "identity created",
+    "role assigned",
+    "consent captured",
+    "workspace boundary created",
+    "vault boundary created",
+    "repository boundary created",
+    "install/uninstall/rollback available",
+    "localized legal and accessibility policy applied",
+    "proof record written"
+  ]
+}

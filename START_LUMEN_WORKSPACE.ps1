@@ -11,6 +11,7 @@ New-Item -ItemType Directory -Force -Path $StateDir,$ProofDir | Out-Null
 
 $Now = Get-Date -Format "yyyyMMdd_HHmmss"
 $SessionPath = Join-Path $StateDir "active-workspace-session.json"
+$UserAuthorityModelPath = Join-Path $Root ".lumen\users\LUMEN_USER_WORKSPACE_AUTHORITY_MODEL.json"
 
 $WorkspaceState = [pscustomobject]@{
     startedAt = (Get-Date -Format "o")
@@ -20,7 +21,15 @@ $WorkspaceState = [pscustomobject]@{
     powerShellRunning = $PSVersionTable.PSVersion.ToString()
     repositoryFirst = $true
     vaultFirst = $true
+    founderActiveNow = $true
     founderPrivateProtected = $true
+    futureUsersEnabledWhenReady = $true
+    futureUserMode = "isolated-authorized-per-user-workspace"
+    userAuthorityModel = $UserAuthorityModelPath
+    perUserConsentRequired = $true
+    perUserVaultRequired = $true
+    perUserRepositoryRequired = $true
+    perUserInstallUninstallRollbackRequired = $true
     externalAuthority = "requires explicit user, OS, provider, or admin authorization"
     connectedServices = @("local repository", "local vault", "git remote when authenticated", "Cloudflare/OpenAI/Supabase only when configured")
 }

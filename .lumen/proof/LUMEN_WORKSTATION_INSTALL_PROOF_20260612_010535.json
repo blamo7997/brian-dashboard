@@ -1,21 +1,16 @@
 {
+  "timestamp": "2026-06-12T01:05:35.7036972-06:00",
   "installed": true,
-  "installedAt": "2026-06-12T01:05:35.6970134-06:00",
-  "mode": "lumen-workstation-bridge",
-  "rollbackAvailable": true,
+  "root": "C:\\Users\\user\\Documents\\Lumen Genesis",
   "snapshot": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\workstation\\snapshots\\LUMEN_WORKSTATION_SNAPSHOT_20260612_010535.json",
   "launcher": "C:\\Users\\user\\Documents\\Lumen Genesis\\START_LUMEN_WORKSPACE.ps1",
   "launcherCmd": "C:\\Users\\user\\Documents\\Lumen Genesis\\START_LUMEN_WORKSPACE.cmd",
   "userAuthorityModel": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\users\\LUMEN_USER_WORKSPACE_AUTHORITY_MODEL.json",
-  "repositoryPreserved": true,
-  "vaultPreserved": true,
+  "rollbackAvailable": true,
+  "uninstallAvailable": true,
   "founderPrivateProtected": true,
-  "windows11WorkspaceBridge": true,
   "founderActiveNow": true,
   "futureUsersEnabledWhenReady": true,
-  "futureUserMode": "isolated-authorized-per-user-workspace",
-  "perUserConsentRequired": true,
-  "perUserInstallUninstallRollbackRequired": true,
-  "lumenLearningMode": "repository-and-vault-first",
-  "externalAuthorityRequiresExplicitAuthorization": true
+  "perUserIsolationRequired": true,
+  "noExternalSystemChangesWithoutAuthorization": true
 }
