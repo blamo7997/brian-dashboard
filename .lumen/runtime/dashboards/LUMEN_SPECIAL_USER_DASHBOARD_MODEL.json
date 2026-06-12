@@ -3,6 +3,7 @@
   "version": "2026-06-12",
   "enabled": true,
   "purpose": "Provide special user dashboards as appropriate while preserving role scope, user boundaries, founder-private protection, localization, accessibility, proof records, and rollback.",
+  "extendsGeneralUserDashboardModel": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\runtime\\dashboards\\LUMEN_USER_DASHBOARD_MODEL.json",
   "dashboardInputs": [
     "identity",
     "role",
@@ -47,6 +48,7 @@
   ],
   "accessRules": [
     "default deny unless role-authorized",
+    "ordinary user dashboard continuity remains available when special modules are added",
     "founder-private records stay founder-only unless explicitly delegated",
     "user-private records stay scoped to that user",
     "cross-user dashboards require explicit governance approval",

@@ -1,0 +1,724 @@
+{
+  "timestamp": "2026-06-12T01:15:44.3226830-06:00",
+  "rule": "repository-vault-constant-connection",
+  "repositoryRoot": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository",
+  "vaultRoot": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\vault",
+  "repositoryCount": 91,
+  "vaultCount": 10,
+  "founderPrivateProtected": true,
+  "userIsolationRequired": true,
+  "duplicatesAvoided": true,
+  "archiveBeforeOverwriteRequired": true,
+  "uncontrolledSync": false,
+  "repositoryIndex": [
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\LUMEN_CANONICAL_GOVERNANCE_ADDENDUM.md",
+      "name": "LUMEN_CANONICAL_GOVERNANCE_ADDENDUM.md",
+      "bytes": 23524,
+      "lastWriteUtc": "2026-06-12T03:32:37.6454194Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\LUMEN_RUNTIME_FOUNDATION_PLAN.md",
+      "name": "LUMEN_RUNTIME_FOUNDATION_PLAN.md",
+      "bytes": 805,
+      "lastWriteUtc": "2026-06-12T01:28:49.9859716Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\LUMEN_500X_REPOSITORY_EXPANSION_INDEX.json",
+      "name": "LUMEN_500X_REPOSITORY_EXPANSION_INDEX.json",
+      "bytes": 2144,
+      "lastWriteUtc": "2026-06-12T02:08:30.2022753Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\accessibility-engine\\README.md",
+      "name": "README.md",
+      "bytes": 569,
+      "lastWriteUtc": "2026-06-12T02:08:27.5319441Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\advanced-mode\\README.md",
+      "name": "README.md",
+      "bytes": 555,
+      "lastWriteUtc": "2026-06-12T02:08:27.7525735Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\agent-runtime\\README.md",
+      "name": "README.md",
+      "bytes": 555,
+      "lastWriteUtc": "2026-06-12T02:08:27.4286405Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\ai-bridge\\README.md",
+      "name": "README.md",
+      "bytes": 547,
+      "lastWriteUtc": "2026-06-12T02:08:27.4070624Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\browser-adaptation\\README.md",
+      "name": "README.md",
+      "bytes": 565,
+      "lastWriteUtc": "2026-06-12T02:08:27.5763018Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\canonical-object-registry\\README.md",
+      "name": "README.md",
+      "bytes": 579,
+      "lastWriteUtc": "2026-06-12T02:08:27.1391773Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\competitor-intelligence\\README.md",
+      "name": "README.md",
+      "bytes": 575,
+      "lastWriteUtc": "2026-06-12T02:08:27.4921257Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\compression-dedupe\\README.md",
+      "name": "README.md",
+      "bytes": 565,
+      "lastWriteUtc": "2026-06-12T02:08:27.7107595Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\consent-compliance\\README.md",
+      "name": "README.md",
+      "bytes": 565,
+      "lastWriteUtc": "2026-06-12T02:08:27.2214046Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\continuity-engine\\README.md",
+      "name": "README.md",
+      "bytes": 563,
+      "lastWriteUtc": "2026-06-12T02:08:27.730632Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\continuous-scans\\README.md",
+      "name": "README.md",
+      "bytes": 561,
+      "lastWriteUtc": "2026-06-12T02:08:27.44974Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\conversation-continuity\\README.md",
+      "name": "README.md",
+      "bytes": 575,
+      "lastWriteUtc": "2026-06-12T02:08:27.7397173Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\dashboard-runtime\\README.md",
+      "name": "README.md",
+      "bytes": 563,
+      "lastWriteUtc": "2026-06-12T02:08:27.2985267Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\developer-mode\\README.md",
+      "name": "README.md",
+      "bytes": 557,
+      "lastWriteUtc": "2026-06-12T02:08:27.7707097Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\device-adaptation\\README.md",
+      "name": "README.md",
+      "bytes": 563,
+      "lastWriteUtc": "2026-06-12T02:08:27.5672129Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\dialect-engine\\README.md",
+      "name": "README.md",
+      "bytes": 557,
+      "lastWriteUtc": "2026-06-12T02:08:27.5571311Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\fake-review-detection\\README.md",
+      "name": "README.md",
+      "bytes": 571,
+      "lastWriteUtc": "2026-06-12T02:08:27.4830656Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\feature-intelligence\\README.md",
+      "name": "README.md",
+      "bytes": 569,
+      "lastWriteUtc": "2026-06-12T02:08:27.4739483Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\forms-documents\\README.md",
+      "name": "README.md",
+      "bytes": 559,
+      "lastWriteUtc": "2026-06-12T02:08:27.3096283Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\founder-mode\\README.md",
+      "name": "README.md",
+      "bytes": 553,
+      "lastWriteUtc": "2026-06-12T02:08:27.7797943Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\founder-private-boundary\\README.md",
+      "name": "README.md",
+      "bytes": 577,
+      "lastWriteUtc": "2026-06-12T02:08:27.1300797Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\hardware-adaptation\\README.md",
+      "name": "README.md",
+      "bytes": 567,
+      "lastWriteUtc": "2026-06-12T02:08:27.608735Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\identity-access\\README.md",
+      "name": "README.md",
+      "bytes": 559,
+      "lastWriteUtc": "2026-06-12T02:08:27.1086421Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\incident-protection\\README.md",
+      "name": "README.md",
+      "bytes": 567,
+      "lastWriteUtc": "2026-06-12T02:08:27.6276756Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\lawful-evidence\\README.md",
+      "name": "README.md",
+      "bytes": 559,
+      "lastWriteUtc": "2026-06-12T02:08:27.6365596Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\lineage-engine\\README.md",
+      "name": "README.md",
+      "bytes": 557,
+      "lastWriteUtc": "2026-06-12T02:08:27.1515722Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\localization-engine\\README.md",
+      "name": "README.md",
+      "bytes": 567,
+      "lastWriteUtc": "2026-06-12T02:08:27.5405026Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\localized-legal\\README.md",
+      "name": "README.md",
+      "bytes": 559,
+      "lastWriteUtc": "2026-06-12T02:08:27.2305524Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\lumen-browser\\README.md",
+      "name": "README.md",
+      "bytes": 555,
+      "lastWriteUtc": "2026-06-12T02:08:27.2399682Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\lumen-online\\README.md",
+      "name": "README.md",
+      "bytes": 553,
+      "lastWriteUtc": "2026-06-12T02:08:27.2623659Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\lumen-os\\README.md",
+      "name": "README.md",
+      "bytes": 545,
+      "lastWriteUtc": "2026-06-12T02:08:27.2517287Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\manifests-indexes\\README.md",
+      "name": "README.md",
+      "bytes": 563,
+      "lastWriteUtc": "2026-06-12T02:08:27.7205961Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\native-ai-replacement\\README.md",
+      "name": "README.md",
+      "bytes": 571,
+      "lastWriteUtc": "2026-06-12T02:08:27.4171461Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\network-adaptation\\README.md",
+      "name": "README.md",
+      "bytes": 565,
+      "lastWriteUtc": "2026-06-12T02:08:27.5985227Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\performance-runtime\\README.md",
+      "name": "README.md",
+      "bytes": 567,
+      "lastWriteUtc": "2026-06-12T02:08:27.684028Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\playwright-testing\\README.md",
+      "name": "README.md",
+      "bytes": 565,
+      "lastWriteUtc": "2026-06-12T02:08:27.4386122Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\portal-runtime\\README.md",
+      "name": "README.md",
+      "bytes": 557,
+      "lastWriteUtc": "2026-06-12T02:08:27.2858966Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\product-builder\\README.md",
+      "name": "README.md",
+      "bytes": 559,
+      "lastWriteUtc": "2026-06-12T02:08:27.5022148Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\proof-registry\\README.md",
+      "name": "README.md",
+      "bytes": 557,
+      "lastWriteUtc": "2026-06-12T02:08:27.1769328Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\recommendation-ethics\\README.md",
+      "name": "README.md",
+      "bytes": 571,
+      "lastWriteUtc": "2026-06-12T02:08:27.5213803Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\review-intelligence\\README.md",
+      "name": "README.md",
+      "bytes": 567,
+      "lastWriteUtc": "2026-06-12T02:08:27.4596962Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\rollback-registry\\README.md",
+      "name": "README.md",
+      "bytes": 563,
+      "lastWriteUtc": "2026-06-12T02:08:27.187297Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\security-core\\README.md",
+      "name": "README.md",
+      "bytes": 555,
+      "lastWriteUtc": "2026-06-12T02:08:27.6186993Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\self-healing\\README.md",
+      "name": "README.md",
+      "bytes": 553,
+      "lastWriteUtc": "2026-06-12T02:08:27.64756Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\service-builder\\README.md",
+      "name": "README.md",
+      "bytes": 559,
+      "lastWriteUtc": "2026-06-12T02:08:27.5102675Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\storage-efficiency\\README.md",
+      "name": "README.md",
+      "bytes": 565,
+      "lastWriteUtc": "2026-06-12T02:08:27.7006759Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\test-runtime\\README.md",
+      "name": "README.md",
+      "bytes": 553,
+      "lastWriteUtc": "2026-06-12T02:08:27.6722752Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\user-boundaries\\README.md",
+      "name": "README.md",
+      "bytes": 559,
+      "lastWriteUtc": "2026-06-12T02:08:27.1197775Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\validation-runtime\\README.md",
+      "name": "README.md",
+      "bytes": 565,
+      "lastWriteUtc": "2026-06-12T02:08:27.6621888Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\vault-bridge\\README.md",
+      "name": "README.md",
+      "bytes": 553,
+      "lastWriteUtc": "2026-06-12T02:08:27.1995515Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\vault-routing\\README.md",
+      "name": "README.md",
+      "bytes": 555,
+      "lastWriteUtc": "2026-06-12T02:08:27.2113706Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\website-runtime\\README.md",
+      "name": "README.md",
+      "bytes": 559,
+      "lastWriteUtc": "2026-06-12T02:08:27.2752864Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\workspace-calendar\\README.md",
+      "name": "README.md",
+      "bytes": 565,
+      "lastWriteUtc": "2026-06-12T02:08:27.3520168Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\workspace-contacts\\README.md",
+      "name": "README.md",
+      "bytes": 565,
+      "lastWriteUtc": "2026-06-12T02:08:27.361594Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\workspace-documents\\README.md",
+      "name": "README.md",
+      "bytes": 567,
+      "lastWriteUtc": "2026-06-12T02:08:27.3364001Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\workspace-email\\README.md",
+      "name": "README.md",
+      "bytes": 559,
+      "lastWriteUtc": "2026-06-12T02:08:27.3243151Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\workspace-meetings\\README.md",
+      "name": "README.md",
+      "bytes": 565,
+      "lastWriteUtc": "2026-06-12T02:08:27.386454Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\workspace-signatures\\README.md",
+      "name": "README.md",
+      "bytes": 569,
+      "lastWriteUtc": "2026-06-12T02:08:27.3965002Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\500x-expansion-foundation\\workspace-storage\\README.md",
+      "name": "README.md",
+      "bytes": 563,
+      "lastWriteUtc": "2026-06-12T02:08:27.3766611Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\approval-engine\\approval-engine.json",
+      "name": "approval-engine.json",
+      "bytes": 879,
+      "lastWriteUtc": "2026-06-12T03:19:06.7439531Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\captioned-walkthrough-media\\captioned-walkthrough-media.json",
+      "name": "captioned-walkthrough-media.json",
+      "bytes": 566,
+      "lastWriteUtc": "2026-06-12T02:58:38.5844516Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\commerce-marketplace-runtime\\commerce-marketplace-runtime.json",
+      "name": "commerce-marketplace-runtime.json",
+      "bytes": 775,
+      "lastWriteUtc": "2026-06-12T02:58:38.3647528Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\consented-activity-intelligence\\consented-activity-intelligence.json",
+      "name": "consented-activity-intelligence.json",
+      "bytes": 536,
+      "lastWriteUtc": "2026-06-12T03:19:06.7535594Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\creator-influencer-intelligence\\creator-influencer-intelligence.json",
+      "name": "creator-influencer-intelligence.json",
+      "bytes": 719,
+      "lastWriteUtc": "2026-06-12T03:19:06.7476294Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\dynamic-user-portals\\dynamic-user-portals.json",
+      "name": "dynamic-user-portals.json",
+      "bytes": 568,
+      "lastWriteUtc": "2026-06-12T03:19:06.7501006Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\entitlement-commerce-runtime\\entitlement-commerce-runtime.json",
+      "name": "entitlement-commerce-runtime.json",
+      "bytes": 534,
+      "lastWriteUtc": "2026-06-12T02:58:38.5188546Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\ethical-commerce-guidance\\ethical-commerce-guidance.json",
+      "name": "ethical-commerce-guidance.json",
+      "bytes": 457,
+      "lastWriteUtc": "2026-06-12T03:19:06.7404919Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\generated-media-first-use\\generated-media-first-use.json",
+      "name": "generated-media-first-use.json",
+      "bytes": 493,
+      "lastWriteUtc": "2026-06-12T03:19:06.7380521Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\green-dot-legal-signature\\green-dot-legal-signature.json",
+      "name": "green-dot-legal-signature.json",
+      "bytes": 423,
+      "lastWriteUtc": "2026-06-12T03:19:06.735522Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\identity-login-runtime\\identity-login-runtime.json",
+      "name": "identity-login-runtime.json",
+      "bytes": 614,
+      "lastWriteUtc": "2026-06-12T02:58:38.4546175Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\launch-repository-vault-ingestion\\launch-repository-vault-ingestion.json",
+      "name": "launch-repository-vault-ingestion.json",
+      "bytes": 475,
+      "lastWriteUtc": "2026-06-12T02:58:38.7966822Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\master-index\\LUMEN_MASTER_OBJECT_INDEX_20260611_212728.json",
+      "name": "LUMEN_MASTER_OBJECT_INDEX_20260611_212728.json",
+      "bytes": 83495,
+      "lastWriteUtc": "2026-06-12T03:27:35.0724857Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\needs-complaints-feedback\\needs-complaints-feedback.json",
+      "name": "needs-complaints-feedback.json",
+      "bytes": 670,
+      "lastWriteUtc": "2026-06-12T03:19:06.7573039Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\qr-and-better-device-linking\\qr-and-better-device-linking.json",
+      "name": "qr-and-better-device-linking.json",
+      "bytes": 596,
+      "lastWriteUtc": "2026-06-12T02:58:38.7227017Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\repository-repair\\LUMEN_REPOSITORY_REPAIR_REPORT_20260611_212728.json",
+      "name": "LUMEN_REPOSITORY_REPAIR_REPORT_20260611_212728.json",
+      "bytes": 736,
+      "lastWriteUtc": "2026-06-12T03:27:35.2942966Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\supplier-artisan-creator-influencer-governance\\partner-mediation-governance.json",
+      "name": "partner-mediation-governance.json",
+      "bytes": 619,
+      "lastWriteUtc": "2026-06-12T02:58:38.6508813Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\vault-runtime\\LUMEN_VAULT_RUNTIME_INDEX_20260611_213229.json",
+      "name": "LUMEN_VAULT_RUNTIME_INDEX_20260611_213229.json",
+      "bytes": 4156,
+      "lastWriteUtc": "2026-06-12T03:35:10.6064185Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\vault-runtime\\audit-ledger\\vault-audit-ledger.json",
+      "name": "vault-audit-ledger.json",
+      "bytes": 731,
+      "lastWriteUtc": "2026-06-12T03:32:37.9839353Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\vault-runtime\\encryption-key-model\\vault-encryption-key-model.json",
+      "name": "vault-encryption-key-model.json",
+      "bytes": 808,
+      "lastWriteUtc": "2026-06-12T03:32:37.9210627Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\vault-runtime\\identity-boundaries\\vault-identity-boundaries.json",
+      "name": "vault-identity-boundaries.json",
+      "bytes": 697,
+      "lastWriteUtc": "2026-06-12T03:32:37.8037828Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\vault-runtime\\lineage-engine\\vault-lineage-engine.json",
+      "name": "vault-lineage-engine.json",
+      "bytes": 736,
+      "lastWriteUtc": "2026-06-12T03:32:38.0438065Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\vault-runtime\\object-model\\vault-object-model.json",
+      "name": "vault-object-model.json",
+      "bytes": 1154,
+      "lastWriteUtc": "2026-06-12T03:32:37.7414325Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\vault-runtime\\permission-engine\\vault-permission-engine.json",
+      "name": "vault-permission-engine.json",
+      "bytes": 691,
+      "lastWriteUtc": "2026-06-12T03:32:37.8625789Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\vault-runtime\\repository-vault-routing\\repository-vault-routing.json",
+      "name": "repository-vault-routing.json",
+      "bytes": 1031,
+      "lastWriteUtc": "2026-06-12T03:32:38.1044997Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\vault-runtime\\retention-archive\\vault-retention-archive.json",
+      "name": "vault-retention-archive.json",
+      "bytes": 576,
+      "lastWriteUtc": "2026-06-12T03:32:38.1636179Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\vault-runtime\\scorecards\\vault-100-plus-scorecard.json",
+      "name": "vault-100-plus-scorecard.json",
+      "bytes": 1062,
+      "lastWriteUtc": "2026-06-12T03:32:38.3288575Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\vault-runtime\\self-healing\\vault-self-healing.json",
+      "name": "vault-self-healing.json",
+      "bytes": 799,
+      "lastWriteUtc": "2026-06-12T03:32:38.2761749Z"
+    },
+    {
+      "authority": "repository",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\repository\\vault-runtime\\validation\\vault-validation.json",
+      "name": "vault-validation.json",
+      "bytes": 570,
+      "lastWriteUtc": "2026-06-12T03:32:38.2204394Z"
+    }
+  ],
+  "vaultIndex": [
+    {
+      "authority": "vault",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\vault\\archives\\VAULT_ROUTING_POLICY.md",
+      "name": "VAULT_ROUTING_POLICY.md",
+      "bytes": 421,
+      "lastWriteUtc": "2026-06-12T02:08:28.9421423Z"
+    },
+    {
+      "authority": "vault",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\vault\\consent-records\\VAULT_ROUTING_POLICY.md",
+      "name": "VAULT_ROUTING_POLICY.md",
+      "bytes": 428,
+      "lastWriteUtc": "2026-06-12T02:08:28.9697986Z"
+    },
+    {
+      "authority": "vault",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\vault\\evidence\\VAULT_ROUTING_POLICY.md",
+      "name": "VAULT_ROUTING_POLICY.md",
+      "bytes": 421,
+      "lastWriteUtc": "2026-06-12T02:08:28.9062803Z"
+    },
+    {
+      "authority": "vault",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\vault\\founder-private\\VAULT_ROUTING_POLICY.md",
+      "name": "VAULT_ROUTING_POLICY.md",
+      "bytes": 428,
+      "lastWriteUtc": "2026-06-12T02:08:28.8883752Z"
+    },
+    {
+      "authority": "vault",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\vault\\incident-records\\VAULT_ROUTING_POLICY.md",
+      "name": "VAULT_ROUTING_POLICY.md",
+      "bytes": 429,
+      "lastWriteUtc": "2026-06-12T02:08:28.9783472Z"
+    },
+    {
+      "authority": "vault",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\vault\\proof\\VAULT_ROUTING_POLICY.md",
+      "name": "VAULT_ROUTING_POLICY.md",
+      "bytes": 418,
+      "lastWriteUtc": "2026-06-12T02:08:28.9164276Z"
+    },
+    {
+      "authority": "vault",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\vault\\regulated-data\\VAULT_ROUTING_POLICY.md",
+      "name": "VAULT_ROUTING_POLICY.md",
+      "bytes": 427,
+      "lastWriteUtc": "2026-06-12T02:08:28.9521506Z"
+    },
+    {
+      "authority": "vault",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\vault\\rollback\\VAULT_ROUTING_POLICY.md",
+      "name": "VAULT_ROUTING_POLICY.md",
+      "bytes": 421,
+      "lastWriteUtc": "2026-06-12T02:08:28.9330697Z"
+    },
+    {
+      "authority": "vault",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\vault\\sensitive-lineage\\VAULT_ROUTING_POLICY.md",
+      "name": "VAULT_ROUTING_POLICY.md",
+      "bytes": 430,
+      "lastWriteUtc": "2026-06-12T02:08:28.9606716Z"
+    },
+    {
+      "authority": "vault",
+      "path": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\vault\\user-private\\VAULT_ROUTING_POLICY.md",
+      "name": "VAULT_ROUTING_POLICY.md",
+      "bytes": 425,
+      "lastWriteUtc": "2026-06-12T02:08:28.8971897Z"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "LUMEN_USER_DASHBOARD_MODEL",
+  "version": "2026-06-12",
+  "enabled": true,
+  "purpose": "Provide ordinary user dashboards as appropriate while preserving user boundaries, consent, localization, accessibility, proof records, and least-privilege access.",
+  "dashboardInputs": [
+    "identity",
+    "user type",
+    "role",
+    "consent state",
+    "entitlement or membership level",
+    "purchase or service history",
+    "saved preferences",
+    "localized language and culture",
+    "accessibility needs",
+    "device and viewport",
+    "current task",
+    "active workflow",
+    "lawful data access"
+  ],
+  "supportedUserDashboardClasses": [
+    "guest",
+    "ordinary user",
+    "customer",
+    "member",
+    "client",
+    "applicant",
+    "returning user",
+    "custom user context"
+  ],
+  "userDashboardMayInclude": [
+    "tasks",
+    "messages",
+    "files",
+    "forms",
+    "purchases",
+    "service status",
+    "support items",
+    "recommendations",
+    "saved preferences",
+    "reminders",
+    "accessibility settings",
+    "localization settings",
+    "allowed actions"
+  ],
+  "restrictedFromGeneralUserDashboard": [
+    "founder controls",
+    "admin controls",
+    "other-user private data",
+    "supplier controls unless role-authorized",
+    "creator or influencer controls unless role-authorized",
+    "legal approvals unless role-authorized",
+    "payment administration unless role-authorized",
+    "deployment controls unless role-authorized",
+    "global self-modification controls unless role-authorized",
+    "private repository or Vault data unless role-authorized"
+  ],
+  "specialDashboardExtensionModel": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\runtime\\dashboards\\LUMEN_SPECIAL_USER_DASHBOARD_MODEL.json",
+  "dynamicAdaptationAllowed": true,
+  "proofRequired": true,
+  "leastPrivilegeRequired": true,
+  "unrestrictedDashboardAccessAllowed": false
+}

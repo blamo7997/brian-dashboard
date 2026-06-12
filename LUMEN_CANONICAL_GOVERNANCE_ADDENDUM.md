@@ -462,3 +462,13 @@ Founder dashboards may include highest-authority views for repository, Vault, ap
 Future user dashboards must be least-privilege, role-scoped, localized, accessible, proof-aware, and reversible where feasible. Supplier, creator, influencer, customer, investor, banker, legal, and internal dashboards must show only the information and controls appropriate to that role and must preserve audit trails for important changes.
 
 Dashboard changes that affect shared layouts, shared design systems, production website behavior, legal/payment/identity/security controls, cross-user data, or founder-level views must follow governed self-modification rules with approval, tests, proof records, and rollback paths.
+
+## General User Dashboard Rule
+
+Lumen must provide user dashboards as appropriate for ordinary users, customers, members, guests, applicants, clients, returning users, and any authenticated or consented user context that needs a personalized working surface.
+
+General user dashboards must show only the user's appropriate tasks, messages, files, forms, purchases, service status, support items, recommendations, saved preferences, reminders, accessibility settings, localization settings, and allowed actions. They must adapt by role, age/legal capacity where relevant, device, language, culture, location, consent, entitlement, membership, purchase history, active workflow, and lawful data boundaries.
+
+General user dashboards are not special-authority dashboards. They must not expose founder controls, admin controls, other-user data, supplier controls, creator/influencer controls, legal approvals, payment administration, deployment controls, self-modification controls, or private repository/Vault data unless the user also has a role that explicitly grants that access.
+
+When a user later becomes a supplier, creator, influencer, investor, banker, legal reviewer, support role, technical role, administrator, or other special class, Lumen may add the appropriate special dashboard modules without removing the user's ordinary dashboard continuity.
