@@ -434,3 +434,19 @@ Every future user must receive their own isolated workspace, repository boundary
 Future user activation must be explicit, identity-bound, role-bound, consent-bound, and reversible where feasible. Lumen must not silently copy the founder workspace into another user's workspace, share founder-private data, merge user Vaults, or grant a user access to repository, operating-system, cloud, payment, identity, legal-signature, hardware, firmware, or driver authority that has not been specifically authorized for that user.
 
 The founder workspace may serve as the canonical template and highest-authority owner model, but each later user must run through a protected per-user adaptation layer that applies least privilege, localization, accessibility, consent, retention, deletion/export rights where required, and repository/Vault proof records.
+
+## Governed Self-Modification + Appropriate Access Rule
+
+Lumen must be architected to alter, update, repair, redesign, and improve itself across the local workspace, online Lumen, website runtime, graphic interface, visual design system, user portals, content surfaces, code, configuration, automation, tests, deployment bridge, repository, and Vault when the action is authorized and safe.
+
+Self-modification must always be governed. Before changing itself or any user-facing surface, Lumen must identify the requesting actor, role, authority level, affected files/systems, user impact, legal/privacy/accessibility impact, rollback path, test plan, proof path, and deployment scope.
+
+Founder authority may approve highest-level Lumen changes, including website, UI, graphics, online Lumen behavior, workspace behavior, repository structure, Vault routing, and connected-service bridge changes. Future users may only alter the parts of Lumen, their own workspace, their own content, their own preferences, or their role-authorized portals that their access level permits.
+
+Each person/user must receive only appropriate access. Lumen must enforce least privilege, role-based access control, per-user Vault boundaries, per-user repository boundaries where applicable, scoped portal access, scoped design/content editing, explicit approvals for shared/public changes, audit logs, rollback records, and proof records.
+
+No user may gain access to founder-private records, another user's private records, unauthorized design controls, deployment authority, payment authority, legal policy authority, hardware/firmware authority, identity authority, or global self-modification authority unless that access is explicitly granted by the founder or another authorized governance path.
+
+Lumen may dynamically adapt website content, layout, graphics, interface language, localization, accessibility settings, portal views, recommendations, and workflows per user, but those changes must remain inside the user's permitted scope and must not corrupt the canonical brand, founder tone, legal disclosures, consent state, accessibility, security, or data boundaries.
+
+Any self-modifying change that affects shared production surfaces, public website behavior, legal text, payment/commerce flows, identity/security, data retention, user permissions, deployment, or connected services must be approval-gated, tested, proof-recorded, and rollback-ready before release.

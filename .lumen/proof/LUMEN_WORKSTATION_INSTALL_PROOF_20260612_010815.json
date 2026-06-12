@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-06-12T01:08:15.8130600-06:00",
+  "installed": true,
+  "root": "C:\\Users\\user\\Documents\\Lumen Genesis",
+  "snapshot": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\workstation\\snapshots\\LUMEN_WORKSTATION_SNAPSHOT_20260612_010815.json",
+  "launcher": "C:\\Users\\user\\Documents\\Lumen Genesis\\START_LUMEN_WORKSPACE.ps1",
+  "launcherCmd": "C:\\Users\\user\\Documents\\Lumen Genesis\\START_LUMEN_WORKSPACE.cmd",
+  "userAuthorityModel": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\users\\LUMEN_USER_WORKSPACE_AUTHORITY_MODEL.json",
+  "rollbackAvailable": true,
+  "uninstallAvailable": true,
+  "founderPrivateProtected": true,
+  "founderActiveNow": true,
+  "futureUsersEnabledWhenReady": true,
+  "perUserIsolationRequired": true,
+  "noExternalSystemChangesWithoutAuthorization": true
+}

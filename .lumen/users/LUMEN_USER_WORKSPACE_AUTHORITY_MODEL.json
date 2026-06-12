@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-12T01:05:35.5486281-06:00",
+  "timestamp": "2026-06-12T01:08:15.6560841-06:00",
   "founderActiveNow": true,
   "founderRole": "founder-private-owner",
   "founderWorkspace": "active-local-windows-11-workspace-bridge",
@@ -12,11 +12,15 @@
   "perUserInstallUninstallRollbackRequired": true,
   "founderPrivateNeverShared": true,
   "externalAuthorityRequiresExplicitAuthorization": true,
+  "governedSelfModificationEnabled": true,
+  "selfModificationModel": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\runtime\\self-modification\\LUMEN_GOVERNED_SELF_MODIFICATION_MODEL.json",
   "allowedNow": [
     "founder local repository learning",
     "founder local vault learning",
     "founder proof generation",
-    "founder Windows 11 workspace bridge start/install/uninstall/rollback"
+    "founder Windows 11 workspace bridge start/install/uninstall/rollback",
+    "founder governed self-modification of local Lumen files",
+    "founder governed website/UI/graphic-interface modification when connected and authorized"
   ],
   "futureUserActivationRequirements": [
     "identity created",

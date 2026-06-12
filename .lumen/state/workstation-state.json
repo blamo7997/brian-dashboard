@@ -1,9 +1,9 @@
 {
   "installed": true,
-  "installedAt": "2026-06-12T01:05:35.6970134-06:00",
+  "installedAt": "2026-06-12T01:08:15.8056589-06:00",
   "mode": "lumen-workstation-bridge",
   "rollbackAvailable": true,
-  "snapshot": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\workstation\\snapshots\\LUMEN_WORKSTATION_SNAPSHOT_20260612_010535.json",
+  "snapshot": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\workstation\\snapshots\\LUMEN_WORKSTATION_SNAPSHOT_20260612_010815.json",
   "launcher": "C:\\Users\\user\\Documents\\Lumen Genesis\\START_LUMEN_WORKSPACE.ps1",
   "launcherCmd": "C:\\Users\\user\\Documents\\Lumen Genesis\\START_LUMEN_WORKSPACE.cmd",
   "userAuthorityModel": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\users\\LUMEN_USER_WORKSPACE_AUTHORITY_MODEL.json",
@@ -16,6 +16,8 @@
   "futureUserMode": "isolated-authorized-per-user-workspace",
   "perUserConsentRequired": true,
   "perUserInstallUninstallRollbackRequired": true,
+  "governedSelfModificationEnabled": true,
+  "selfModificationModel": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\runtime\\self-modification\\LUMEN_GOVERNED_SELF_MODIFICATION_MODEL.json",
   "lumenLearningMode": "repository-and-vault-first",
   "externalAuthorityRequiresExplicitAuthorization": true
 }

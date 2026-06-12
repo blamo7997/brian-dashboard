@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-06-12T01:08:15.7393869-06:00",
+  "root": "C:\\Users\\user\\Documents\\Lumen Genesis",
+  "workstationStatePath": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\state\\workstation-state.json",
+  "launcherPath": "C:\\Users\\user\\Documents\\Lumen Genesis\\START_LUMEN_WORKSPACE.ps1",
+  "launcherCmdPath": "C:\\Users\\user\\Documents\\Lumen Genesis\\START_LUMEN_WORKSPACE.cmd",
+  "userAuthorityModelPath": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\users\\LUMEN_USER_WORKSPACE_AUTHORITY_MODEL.json",
+  "repositoryPreserved": true,
+  "vaultPreserved": true,
+  "founderPrivateProtected": true,
+  "founderActiveNow": true,
+  "futureUsersEnabledWhenReady": true,
+  "perUserIsolationRequired": true,
+  "windowsVersion": "Microsoft Windows NT 10.0.26200.0",
+  "powerShellVersion": "7.6.2",
+  "authorityModel": "repository-local-with-explicit-user-authorization-for-external-system-actions"
+}

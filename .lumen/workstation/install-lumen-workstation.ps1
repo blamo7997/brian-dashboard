@@ -28,11 +28,15 @@ $UserAuthorityModelPath = Join-Path $UserModelDir "LUMEN_USER_WORKSPACE_AUTHORIT
     perUserInstallUninstallRollbackRequired = $true
     founderPrivateNeverShared = $true
     externalAuthorityRequiresExplicitAuthorization = $true
+    governedSelfModificationEnabled = $true
+    selfModificationModel = Join-Path $Root ".lumen\runtime\self-modification\LUMEN_GOVERNED_SELF_MODIFICATION_MODEL.json"
     allowedNow = @(
         "founder local repository learning",
         "founder local vault learning",
         "founder proof generation",
-        "founder Windows 11 workspace bridge start/install/uninstall/rollback"
+        "founder Windows 11 workspace bridge start/install/uninstall/rollback",
+        "founder governed self-modification of local Lumen files",
+        "founder governed website/UI/graphic-interface modification when connected and authorized"
     )
     futureUserActivationRequirements = @(
         "identity created",
@@ -100,6 +104,8 @@ $WorkspaceState = [pscustomobject]@{
     perUserVaultRequired = $true
     perUserRepositoryRequired = $true
     perUserInstallUninstallRollbackRequired = $true
+    governedSelfModificationEnabled = $true
+    selfModificationModel = Join-Path $Root ".lumen\runtime\self-modification\LUMEN_GOVERNED_SELF_MODIFICATION_MODEL.json"
     externalAuthority = "requires explicit user, OS, provider, or admin authorization"
     connectedServices = @("local repository", "local vault", "git remote when authenticated", "Cloudflare/OpenAI/Supabase only when configured")
 }
@@ -155,6 +161,8 @@ pwsh -NoProfile -ExecutionPolicy Bypass -File "%~dp0START_LUMEN_WORKSPACE.ps1"
     futureUserMode = "isolated-authorized-per-user-workspace"
     perUserConsentRequired = $true
     perUserInstallUninstallRollbackRequired = $true
+    governedSelfModificationEnabled = $true
+    selfModificationModel = Join-Path $Root ".lumen\runtime\self-modification\LUMEN_GOVERNED_SELF_MODIFICATION_MODEL.json"
     lumenLearningMode = "repository-and-vault-first"
     externalAuthorityRequiresExplicitAuthorization = $true
 } | ConvertTo-Json -Depth 8 | Set-Content -Path (Join-Path $StateDir "workstation-state.json") -Encoding UTF8

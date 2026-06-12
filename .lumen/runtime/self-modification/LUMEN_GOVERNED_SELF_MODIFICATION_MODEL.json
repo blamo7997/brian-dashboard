@@ -1,0 +1,48 @@
+{
+  "name": "LUMEN_GOVERNED_SELF_MODIFICATION_MODEL",
+  "version": "2026-06-12",
+  "enabled": true,
+  "founderAuthority": "highest-governed-owner-authority",
+  "purpose": "Allow Lumen to modify itself, online Lumen, website surfaces, graphic interface design, code, configuration, tests, deployment bridge, repository, and Vault routing when authorized, tested, proof-recorded, and rollback-ready.",
+  "surfaces": [
+    "local workspace",
+    "online Lumen",
+    "website runtime",
+    "website graphic interface",
+    "visual design system",
+    "user portals",
+    "content surfaces",
+    "code",
+    "configuration",
+    "automation",
+    "tests",
+    "deployment bridge",
+    "repository",
+    "Vault routing"
+  ],
+  "requiredControls": [
+    "actor identity",
+    "role and authority check",
+    "least privilege",
+    "affected-surface classification",
+    "user-boundary check",
+    "founder-private protection",
+    "legal/privacy/accessibility review where applicable",
+    "test plan",
+    "rollback path",
+    "proof record",
+    "approval gate for shared, public, production, legal, payment, identity, security, deployment, or cross-user changes"
+  ],
+  "perUserAccess": {
+    "default": "deny unless role-authorized",
+    "founderPrivate": "founder only unless explicitly delegated",
+    "ownWorkspace": "allowed when authenticated and consented",
+    "ownVault": "allowed within scoped policy",
+    "otherUserVault": "denied unless explicit lawful authorized workflow exists",
+    "sharedProduction": "approval gated",
+    "legalPaymentIdentitySecurity": "approval gated with heightened review"
+  },
+  "rollbackRequired": true,
+  "proofRequired": true,
+  "uncontrolledSelfModificationAllowed": false
+}
