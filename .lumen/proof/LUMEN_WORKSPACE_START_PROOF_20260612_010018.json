@@ -1,0 +1,17 @@
+{
+  "startedAt": "2026-06-12T01:00:18.1011536-06:00",
+  "root": "C:\\Users\\user\\Documents\\Lumen Genesis",
+  "mode": "lumen-windows-11-workspace-bridge",
+  "powerShellRequired": "7.6.2",
+  "powerShellRunning": "7.6.2",
+  "repositoryFirst": true,
+  "vaultFirst": true,
+  "founderPrivateProtected": true,
+  "externalAuthority": "requires explicit user, OS, provider, or admin authorization",
+  "connectedServices": [
+    "local repository",
+    "local vault",
+    "git remote when authenticated",
+    "Cloudflare/OpenAI/Supabase only when configured"
+  ]
+}

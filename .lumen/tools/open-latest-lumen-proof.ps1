@@ -1,15 +1,25 @@
-#requires -Version 7.0
+#requires -Version 7.6
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
-$Root = Join-Path ([Environment]::GetFolderPath("Desktop")) "Lumen Genesis"
+param(
+    [string]$Root = (Get-Location).Path
+)
+
+if (-not (Test-Path -LiteralPath (Join-Path $Root ".lumen"))) {
+    $DesktopRoot = Join-Path ([Environment]::GetFolderPath("Desktop")) "Lumen Genesis"
+    if (Test-Path -LiteralPath (Join-Path $DesktopRoot ".lumen")) {
+        $Root = $DesktopRoot
+    }
+}
+
 $ProofDir = Join-Path $Root ".lumen\proof"
 
-if (-not (Test-Path $ProofDir)) {
+if (-not (Test-Path -LiteralPath $ProofDir)) {
     throw "Proof folder not found: $ProofDir"
 }
 
-$LatestProof = Get-ChildItem -Path $ProofDir -Filter "*.json" -File |
+$LatestProof = Get-ChildItem -LiteralPath $ProofDir -Filter "*.json" -File |
     Sort-Object LastWriteTime -Descending |
     Select-Object -First 1
 

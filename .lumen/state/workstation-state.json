@@ -1,0 +1,10 @@
+{
+  "installed": true,
+  "rolledBackAt": "2026-06-12T01:02:52.8842211-06:00",
+  "mode": "lumen-workstation-bridge",
+  "rollbackSource": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\workstation\\snapshots\\LUMEN_WORKSTATION_SNAPSHOT_20260612_010004.json",
+  "repositoryPreserved": true,
+  "vaultPreserved": true,
+  "founderPrivateProtected": true,
+  "externalAuthorityRequiresExplicitAuthorization": true
+}

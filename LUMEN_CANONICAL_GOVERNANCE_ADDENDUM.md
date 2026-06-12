@@ -412,3 +412,15 @@ Lumen must minimize unnecessary clicks and steps. The target is one click where 
 Cart, checkout, login, upgrade, unlock, financing, product reminder, tracking, support, form completion, file conversion, dashboard, portal, and content workflows should feel inside Lumen and should use Lumen chat/concierge guidance where appropriate instead of generic disconnected buttons and external detours.
 
 Seamlessness must never override consent, safety, legal disclosures, accessibility, fraud protection, payment security, identity verification, or user control.
+
+## Windows 11 Lumen Workspace Bridge + Local Learning Rule
+
+Lumen must provide a working Windows 11 desktop workspace bridge before claiming any deeper operating-system authority. The bridge must install, uninstall, rollback, start, scan, sync, and proof-record its actions through PowerShell 7.6.2 using the repository and Vault first.
+
+The installed workspace bridge may learn from local repository files, Vault routing files, manifests, proof records, runtime specs, Git state, and connected services that the founder has configured or authorized. It must not claim direct access to operating-system, firmware, BIOS/UEFI, driver, cloud-provider, payment, identity, legal-signature, or third-party account authority until that authority is actually granted by the user, Windows, the provider, an administrator, or applicable law.
+
+Lumen's authority target is full founder-controlled operational access across the Lumen workspace, repository, Vault, cloud bridge, and installed runtime. The current bridge must preserve this target as governance while enforcing explicit authorization for any action outside the repository boundary.
+
+Install must create state, snapshot, launcher, and proof records. Uninstall must disable the bridge while preserving repository, Vault, rollback, and founder-private records. Rollback must restore the latest known workstation bridge state from a snapshot and proof-record the rollback source.
+
+The workspace bridge must start Lumen learning by running repository-first scans and repository/Vault sync records, then storing outputs under `.lumen/manifests`, `.lumen/repository-vault-sync`, `.lumen/state`, and `.lumen/proof` without duplicate uncontrolled writes or destructive changes.
