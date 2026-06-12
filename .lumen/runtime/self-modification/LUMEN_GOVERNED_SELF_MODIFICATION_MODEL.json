@@ -10,6 +10,7 @@
     "website runtime",
     "website graphic interface",
     "visual design system",
+    "special user dashboards",
     "user portals",
     "content surfaces",
     "code",
@@ -33,6 +34,12 @@
     "proof record",
     "approval gate for shared, public, production, legal, payment, identity, security, deployment, or cross-user changes"
   ],
+  "dashboardSelfModification": {
+    "enabled": true,
+    "scope": "dashboards may be generated, redesigned, or adapted per user only inside that user's role and access boundary",
+    "sharedDashboardChanges": "approval gated with proof and rollback",
+    "founderDashboardChanges": "founder-authorized only unless explicitly delegated"
+  },
   "perUserAccess": {
     "default": "deny unless role-authorized",
     "founderPrivate": "founder only unless explicitly delegated",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-12T01:08:15.6560841-06:00",
+  "timestamp": "2026-06-12T01:11:50.6212714-06:00",
   "founderActiveNow": true,
   "founderRole": "founder-private-owner",
   "founderWorkspace": "active-local-windows-11-workspace-bridge",
@@ -14,6 +14,8 @@
   "externalAuthorityRequiresExplicitAuthorization": true,
   "governedSelfModificationEnabled": true,
   "selfModificationModel": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\runtime\\self-modification\\LUMEN_GOVERNED_SELF_MODIFICATION_MODEL.json",
+  "specialUserDashboardsEnabled": true,
+  "dashboardRuntimeModel": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\runtime\\dashboards\\LUMEN_SPECIAL_USER_DASHBOARD_MODEL.json",
   "allowedNow": [
     "founder local repository learning",
     "founder local vault learning",

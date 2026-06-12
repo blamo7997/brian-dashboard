@@ -30,6 +30,8 @@ $UserAuthorityModelPath = Join-Path $UserModelDir "LUMEN_USER_WORKSPACE_AUTHORIT
     externalAuthorityRequiresExplicitAuthorization = $true
     governedSelfModificationEnabled = $true
     selfModificationModel = Join-Path $Root ".lumen\runtime\self-modification\LUMEN_GOVERNED_SELF_MODIFICATION_MODEL.json"
+    specialUserDashboardsEnabled = $true
+    dashboardRuntimeModel = Join-Path $Root ".lumen\runtime\dashboards\LUMEN_SPECIAL_USER_DASHBOARD_MODEL.json"
     allowedNow = @(
         "founder local repository learning",
         "founder local vault learning",
@@ -106,6 +108,8 @@ $WorkspaceState = [pscustomobject]@{
     perUserInstallUninstallRollbackRequired = $true
     governedSelfModificationEnabled = $true
     selfModificationModel = Join-Path $Root ".lumen\runtime\self-modification\LUMEN_GOVERNED_SELF_MODIFICATION_MODEL.json"
+    specialUserDashboardsEnabled = $true
+    dashboardRuntimeModel = Join-Path $Root ".lumen\runtime\dashboards\LUMEN_SPECIAL_USER_DASHBOARD_MODEL.json"
     externalAuthority = "requires explicit user, OS, provider, or admin authorization"
     connectedServices = @("local repository", "local vault", "git remote when authenticated", "Cloudflare/OpenAI/Supabase only when configured")
 }
@@ -163,6 +167,8 @@ pwsh -NoProfile -ExecutionPolicy Bypass -File "%~dp0START_LUMEN_WORKSPACE.ps1"
     perUserInstallUninstallRollbackRequired = $true
     governedSelfModificationEnabled = $true
     selfModificationModel = Join-Path $Root ".lumen\runtime\self-modification\LUMEN_GOVERNED_SELF_MODIFICATION_MODEL.json"
+    specialUserDashboardsEnabled = $true
+    dashboardRuntimeModel = Join-Path $Root ".lumen\runtime\dashboards\LUMEN_SPECIAL_USER_DASHBOARD_MODEL.json"
     lumenLearningMode = "repository-and-vault-first"
     externalAuthorityRequiresExplicitAuthorization = $true
 } | ConvertTo-Json -Depth 8 | Set-Content -Path (Join-Path $StateDir "workstation-state.json") -Encoding UTF8

@@ -32,6 +32,8 @@ $WorkspaceState = [pscustomobject]@{
     perUserInstallUninstallRollbackRequired = $true
     governedSelfModificationEnabled = $true
     selfModificationModel = Join-Path $Root ".lumen\runtime\self-modification\LUMEN_GOVERNED_SELF_MODIFICATION_MODEL.json"
+    specialUserDashboardsEnabled = $true
+    dashboardRuntimeModel = Join-Path $Root ".lumen\runtime\dashboards\LUMEN_SPECIAL_USER_DASHBOARD_MODEL.json"
     externalAuthority = "requires explicit user, OS, provider, or admin authorization"
     connectedServices = @("local repository", "local vault", "git remote when authenticated", "Cloudflare/OpenAI/Supabase only when configured")
 }

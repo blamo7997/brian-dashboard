@@ -450,3 +450,15 @@ No user may gain access to founder-private records, another user's private recor
 Lumen may dynamically adapt website content, layout, graphics, interface language, localization, accessibility settings, portal views, recommendations, and workflows per user, but those changes must remain inside the user's permitted scope and must not corrupt the canonical brand, founder tone, legal disclosures, consent state, accessibility, security, or data boundaries.
 
 Any self-modifying change that affects shared production surfaces, public website behavior, legal text, payment/commerce flows, identity/security, data retention, user permissions, deployment, or connected services must be approval-gated, tested, proof-recorded, and rollback-ready before release.
+
+## Special User Dashboard Rule
+
+Lumen must provide special user dashboards as appropriate for the founder, administrators, customers, suppliers, artisans, creators, influencers, legal reviewers, bankers, investors, support roles, technical roles, and any future role that needs a distinct interface.
+
+Each dashboard must be generated or selected from the user's identity, role, permissions, localization, accessibility needs, device, business context, consent state, membership/entitlement level, current task, and lawful data access. Dashboards may be dynamic and personalized, but they must never expose founder-private records, another user's private records, unauthorized metrics, unauthorized approval controls, or restricted system authority.
+
+Founder dashboards may include highest-authority views for repository, Vault, approvals, legal status, deployment readiness, user roles, product/commerce status, self-modification proposals, website/UI/design changes, proof records, rollback state, and connected-service status.
+
+Future user dashboards must be least-privilege, role-scoped, localized, accessible, proof-aware, and reversible where feasible. Supplier, creator, influencer, customer, investor, banker, legal, and internal dashboards must show only the information and controls appropriate to that role and must preserve audit trails for important changes.
+
+Dashboard changes that affect shared layouts, shared design systems, production website behavior, legal/payment/identity/security controls, cross-user data, or founder-level views must follow governed self-modification rules with approval, tests, proof records, and rollback paths.

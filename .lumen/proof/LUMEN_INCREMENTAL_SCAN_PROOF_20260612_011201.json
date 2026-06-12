@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-06-12T01:12:06.6359087-06:00",
+  "root": "C:\\Users\\user\\Documents\\Lumen Genesis",
+  "totalFiles": 3904,
+  "changedOrNewFiles": 12,
+  "output": "C:\\Users\\user\\Documents\\Lumen Genesis\\.lumen\\manifests\\LUMEN_INCREMENTAL_SCAN_20260612_011201.json",
+  "mode": "incremental-no-full-rehash"
+}

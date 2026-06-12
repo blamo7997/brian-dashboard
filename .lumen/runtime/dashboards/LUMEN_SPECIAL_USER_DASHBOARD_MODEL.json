@@ -1,0 +1,60 @@
+{
+  "name": "LUMEN_SPECIAL_USER_DASHBOARD_MODEL",
+  "version": "2026-06-12",
+  "enabled": true,
+  "purpose": "Provide special user dashboards as appropriate while preserving role scope, user boundaries, founder-private protection, localization, accessibility, proof records, and rollback.",
+  "dashboardInputs": [
+    "identity",
+    "role",
+    "permission level",
+    "consent state",
+    "entitlement or membership level",
+    "localized language and culture",
+    "accessibility needs",
+    "device and viewport",
+    "current task",
+    "business context",
+    "lawful data access"
+  ],
+  "supportedDashboardClasses": [
+    "founder",
+    "administrator",
+    "customer",
+    "supplier",
+    "artisan",
+    "creator",
+    "influencer",
+    "legal reviewer",
+    "banker",
+    "investor",
+    "support",
+    "technical",
+    "custom role"
+  ],
+  "founderDashboardMayInclude": [
+    "repository status",
+    "Vault status",
+    "approvals",
+    "legal status",
+    "deployment readiness",
+    "user roles",
+    "commerce status",
+    "self-modification proposals",
+    "website UI and graphic design changes",
+    "proof records",
+    "rollback state",
+    "connected-service status"
+  ],
+  "accessRules": [
+    "default deny unless role-authorized",
+    "founder-private records stay founder-only unless explicitly delegated",
+    "user-private records stay scoped to that user",
+    "cross-user dashboards require explicit governance approval",
+    "shared dashboard changes require approval, proof, tests, and rollback",
+    "legal/payment/identity/security dashboard controls require heightened approval"
+  ],
+  "dynamicAdaptationAllowed": true,
+  "proofRequired": true,
+  "rollbackRequiredForSharedChanges": true,
+  "unrestrictedDashboardAccessAllowed": false
+}
