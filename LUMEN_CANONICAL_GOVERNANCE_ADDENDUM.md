@@ -425,6 +425,8 @@ Install must create state, snapshot, launcher, and proof records. Uninstall must
 
 The workspace bridge must start Lumen learning by running repository-first scans and repository/Vault sync records, then storing outputs under `.lumen/manifests`, `.lumen/repository-vault-sync`, `.lumen/state`, and `.lumen/proof` without duplicate uncontrolled writes or destructive changes.
 
+The founder Windows 11 workstation must provide a direct executable launcher, `LumenWorkstation.exe`, that starts the governed Lumen workspace bridge through PowerShell 7.6.2, records proof, and preserves install, uninstall, rollback, repository, Vault, user-dashboard, special-dashboard, and self-modification governance.
+
 ## Founder Now + Future User Workspace Rule
 
 The Windows 11 Lumen workspace bridge is active for the founder now and must become the model for all future users when Lumen is ready to support them. Founder mode must preserve founder-private authority, repository learning, Vault learning, install, uninstall, rollback, proof records, and connected-service awareness without exposing founder-private data to any future user.
